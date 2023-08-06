@@ -16,7 +16,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.name}
         </Card.Link>
         <Button style={{ width: 32, height: 32 }} variant="outline-primary" size='sm'>
-          <a href={`/projects/${project.filename}`} download={true} style={{color: 'inherit'}}><CloudArrowDown /></a>
+          <a href={`/projects/${project.filename}`} download={true} style={{ color: 'inherit' }}><CloudArrowDown /></a>
         </Button>
       </div>
       <Card.Subtitle><ProjectAuthors authors={project.authors} /></Card.Subtitle>

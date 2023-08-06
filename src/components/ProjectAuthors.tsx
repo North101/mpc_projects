@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/esm/Button"
+import Button from "react-bootstrap/esm/Button";
 
 interface ProjectAuthorsProps {
   authors: string[];

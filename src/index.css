@@ -13,3 +13,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+.CheckboxMenu .dropdown-item:hover,
+.CheckboxMenu .dropdown-item:active {
+  background-color: transparent;
+  color: black;
+}
