@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/esm/Form';
 import Navbar from 'react-bootstrap/esm/Navbar';
 import Stack from 'react-bootstrap/esm/Stack';
-import projects from "../projects.json";
+import projects from "../projects";
 import { ProjectList } from './ProjectList';
 
 

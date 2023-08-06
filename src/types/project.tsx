@@ -3,7 +3,7 @@ type Project = {
   name: string;
   description: string;
   content: string;
-  //website: string|null;
+  website: string|null;
   //created: Date;
   //updated: Date;
   authors: string[];

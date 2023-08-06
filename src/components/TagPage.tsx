@@ -1,4 +1,4 @@
-import projects from "../projects.json";
+import projects from "../projects";
 import { ProjectList } from "./ProjectList";
 import { Wrap } from './Wrap';
 

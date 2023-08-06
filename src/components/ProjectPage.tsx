@@ -4,7 +4,7 @@ import { CloudArrowDown } from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/esm/Button';
 import Card from 'react-bootstrap/esm/Card';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
-import projects from "../projects.json";
+import projects from "../projects";
 import { ProjectAuthors } from './ProjectAuthors';
 import { ProjectTags } from './ProjectTags';
 
@@ -19,7 +19,7 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
       <Card>
         <Card.Header as="h5">
           <div style={{ display: 'flex' }}>
-            <Card.Link href={`/project/${project.name}`} style={{ flex: 1, alignSelf: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap', overflow: 'hidden' }}>
+            <Card.Link href={project.website ?? undefined} style={{ flex: 1, alignSelf: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap', overflow: 'hidden' }}>
               {project.name}
             </Card.Link>
             <a href={`/${project.filename}`} download={true}>
