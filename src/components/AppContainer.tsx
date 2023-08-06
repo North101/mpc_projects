@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/esm/Form';
 import Navbar from 'react-bootstrap/esm/Navbar';
 import Stack from 'react-bootstrap/esm/Stack';
 import projects from "../projects";
-import { ProjectList, useAuthorFilter, useSort, useTagFilter } from './ProjectList';
+import { ProjectList } from './ProjectList';
 
 
 interface HeaderProps {
@@ -34,26 +34,14 @@ interface SearchProjectListProps {
 
 const SearchProjectList = ({ search }: SearchProjectListProps) => {
   const searchProjects = search.length ? projects.filter(e => e.name.toLowerCase().includes(search.toLowerCase())) : [];
-  const [sort, setSort] = useSort();
-  const [authorFilter, setAuthorFilter] = useAuthorFilter(searchProjects);
-  const [tagFilter, setTagFilter] = useTagFilter(searchProjects);
-  return <ProjectList
-    key='search'
-    projects={searchProjects}
-    sort={sort}
-    setSort={setSort}
-    authorFilter={authorFilter}
-    setAuthorFilter={setAuthorFilter}
-    tagFilter={tagFilter}
-    setTagFilter={setTagFilter}
-  />
+  return <ProjectList projects={searchProjects} />
 }
 
-interface WrapProps {
+interface AppContainerProps {
   children: JSX.Element;
 }
 
-export const Wrap = ({ children }: WrapProps) => {
+export const AppContainer = ({ children }: AppContainerProps) => {
   const [search, setSearch] = useState<string>("")
 
   return (

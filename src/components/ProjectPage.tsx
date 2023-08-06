@@ -1,4 +1,4 @@
-import { Wrap } from './Wrap';
+import { AppContainer } from './AppContainer';
 
 import { CloudArrowDown } from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/esm/Button';
@@ -15,7 +15,7 @@ interface ProjectPageProps {
 export const ProjectPage = ({ name }: ProjectPageProps) => {
   const project = projects.find(e => e.name == name)!
   return (
-    <Wrap>
+    <AppContainer>
       <Card>
         <Card.Header as="h5">
           <div style={{ display: 'flex' }}>
@@ -37,6 +37,6 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
           </Card.Text>
         </Card.Body>
       </Card>
-    </Wrap>
+    </AppContainer>
   )
 }

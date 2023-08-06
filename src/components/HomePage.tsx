@@ -1,14 +1,14 @@
 import projects from "../projects";
-import { ProjectList, useAuthorFilter, useSort, useTagFilter } from "./ProjectList";
-import { Wrap } from './Wrap';
+import { AppContainer } from './AppContainer';
+import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./ProjectList";
 
 export const HomePage = () => {
   const [sort, setSort] = useSort();
   const [authorFilter, setAuthorFilter] = useAuthorFilter(projects);
   const [tagFilter, setTagFilter] = useTagFilter(projects);
   return (
-    <Wrap>
-      <ProjectList
+    <AppContainer>
+      <FilteredProjectList
         projects={projects}
         sort={sort}
         setSort={setSort}
@@ -17,6 +17,6 @@ export const HomePage = () => {
         tagFilter={tagFilter}
         setTagFilter={setTagFilter}
       />
-    </Wrap>
+    </AppContainer>
   )
 }

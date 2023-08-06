@@ -1,6 +1,6 @@
 import projects from "../projects";
-import { ProjectList, useAuthorFilter, useSort, useTagFilter } from "./ProjectList";
-import { Wrap } from './Wrap';
+import { AppContainer } from './AppContainer';
+import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./ProjectList";
 
 interface AuthorPageProps {
   name: string
@@ -12,8 +12,8 @@ export const AuthorPage = ({ name }: AuthorPageProps) => {
   const [authorFilter, setAuthorFilter] = useAuthorFilter(authorProjects);
   const [tagFilter, setTagFilter] = useTagFilter(authorProjects);
   return (
-    <Wrap>
-      <ProjectList
+    <AppContainer>
+      <FilteredProjectList
         projects={authorProjects}
         sort={sort}
         setSort={setSort}
@@ -22,6 +22,6 @@ export const AuthorPage = ({ name }: AuthorPageProps) => {
         tagFilter={tagFilter}
         setTagFilter={setTagFilter}
       />
-    </Wrap>
+    </AppContainer>
   )
 }

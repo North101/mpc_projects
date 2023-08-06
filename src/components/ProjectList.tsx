@@ -34,16 +34,6 @@ const sorts: {
   'Oldest': (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
 }
 
-interface ProjectListProps {
-  projects: Project[];
-  sort: string;
-  setSort: (state: string) => void;
-  authorFilter: CheckboxState[];
-  setAuthorFilter: (state: CheckboxState[]) => void;
-  tagFilter: CheckboxState[];
-  setTagFilter: (state: CheckboxState[]) => void;
-}
-
 export const useSort = () => {
   return useState('Newest');
 }
@@ -68,7 +58,17 @@ export const useTagFilter = (projects: Project[]) => {
   }).toSorted(sortByLabel));
 }
 
-export const ProjectList = (props: ProjectListProps) => {
+interface FilteredProjectListProps {
+  projects: Project[];
+  sort: string;
+  setSort: (state: string) => void;
+  authorFilter: CheckboxState[];
+  setAuthorFilter: (state: CheckboxState[]) => void;
+  tagFilter: CheckboxState[];
+  setTagFilter: (state: CheckboxState[]) => void;
+}
+
+export const FilteredProjectList = (props: FilteredProjectListProps) => {
   const { projects, sort, setSort, authorFilter, setAuthorFilter, tagFilter, setTagFilter } = props;
 
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id);
@@ -78,6 +78,7 @@ export const ProjectList = (props: ProjectListProps) => {
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag));
     return hasSomeAuthors && hasSomeTags;
   }).toSorted(sorts[sort]);
+
   return (
     <Stack gap={4}>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -133,13 +134,24 @@ export const ProjectList = (props: ProjectListProps) => {
         </Container>
       </Navbar>
 
-      <Row xs={1} md={1} lg={2} className="g-4">
-        {filteredProjects.map((e, index) => {
-          return <Col key={index}>
-            <ProjectCard project={e} />
-          </Col>
-        })}
-      </Row>
+      <ProjectList projects={filteredProjects} />
     </Stack>
+  )
+}
+
+interface ProjectListProps {
+  projects: Project[];
+}
+
+export const ProjectList = (props: ProjectListProps) => {
+  const { projects } = props;
+  return (
+    <Row xs={1} md={1} lg={2} className="g-4">
+      {projects.map((e, index) => {
+        return <Col key={index}>
+          <ProjectCard project={e} />
+        </Col>
+      })}
+    </Row>
   )
 }
