@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

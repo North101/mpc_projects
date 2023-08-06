@@ -1,0 +1,350 @@
+[
+  {
+    "filename": "8L-08 Smith (4).json",
+    "name": "8L-08 Smith",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator"
+    ]
+  },
+  {
+    "filename": "Ages Unwound (343).json",
+    "name": "Ages Unwound",
+    "description": "",
+    "content": "",
+    "authors": ["Olivia Juliet"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Alice in Wonderland (450).json",
+    "name": "Alice in Wonderland",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Arkham Incidents - Complete (300).json",
+    "name": "Arkham Incidents",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Call of the Plaguebearer (382).json",
+    "name": "Call of the Plaguebearer",
+    "description": "",
+    "content": "",
+    "authors": ["Dr. Jack Science"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Celtic Rising (436).json",
+    "name": "Celtic Rising",
+    "description": "",
+    "content": "",
+    "authors": ["QggOne"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Colour Out of Space (78).json",
+    "name": "The Colour Out of Space",
+    "description": "",
+    "content": "",
+    "authors": ["Joe Ehret", "Jayne Cobb)"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Consternation on the Constellation (73).json",
+    "name": "Consternation on the Constellation",
+    "description": "",
+    "content": "",
+    "authors": ["MythosBusters"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Crown of Egil (176).json",
+    "name": "The Crown of Egil",
+    "description": "",
+    "content": "",
+    "authors": ["AnalyzeChris"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Customizable Upgrades Coldtoes' Class-Specific Designs.json",
+    "name": "Customizable Upgrade Cards, Class-Specific Alt-Art ",
+    "description": "",
+    "content": "",
+    "authors": ["Coldtoes"],
+    "tags": [
+      "Investigator",
+      "Alt-Art"
+    ]
+  },
+  {
+    "filename": "Cyclopean Foundations (392).json",
+    "name": "Cyclopean Foundations",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Dark Matter (396).json",
+    "name": "Dark Matter",
+    "description": "",
+    "content": "",
+    "authors": ["Axolotl"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Dark Matter + Science Expansion (417).json",
+    "name": "Dark Matter Science Expansion",
+    "description": "",
+    "content": "",
+    "authors": [
+      "Axolotl",
+      "Dr Xavier Bertou",
+      "Levi Thornton",
+      "Mint Tea Fan"
+    ],
+    "tags": [
+      "Campaign Expansion"
+    ]
+  },
+  {
+    "filename": "Facts in the Case of M. Valdemar (60).json",
+    "name": "The Facts in the Case of M. Valdemar",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Fall of the House of Usher (60).json",
+    "name": "The Fall of the House of Usher",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Heart of Darkness (209).json",
+    "name": "Heart of Darkness",
+    "description": "",
+    "content": "",
+    "authors": ["Vinn Quest"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Jumbo Blob, TFA location maps, TFA microsupplies (18).json",
+    "name": "Jumbo Blob, Maps, & TFA Microsupplies",
+    "description": "",
+    "content": "",
+    "authors": ["Antimarkovnikov"],
+    "tags": [
+      "Add-On"
+    ]
+  },
+  {
+    "filename": "Legend of Sleepy Hollow (60).json",
+    "name": "The Legend of Sleepy Hollow",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Machining a Mystery (534).json",
+    "name": "Machining a Mystery",
+    "description": "",
+    "content": "",
+    "authors": ["PuertoMateo"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Nameless City (66).json",
+    "name": "The Nameless City",
+    "description": "",
+    "content": "",
+    "authors": ["Niccolò Sbaraini"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Of Sphinx and Sands (182).json",
+    "name": "Of Sphinx and Sands",
+    "description": "",
+    "content": "",
+    "authors": ["PuertoMateo"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Parallels 01-05 -  Core (48).json",
+    "name": "Parallels 1-5: Core set investigators (original art)",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator",
+      "Standalone",
+      "Parallel"
+    ]
+  },
+  {
+    "filename": "Parallels 01-05 - Core with revcore art (49).json",
+    "name": "Parallels 1-5: Core set investigators (revised core art plus Hard Knocks Wendy)",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games", "bluehg"],
+    "tags": [
+      "Investigator",
+      "Standalone",
+      "Parallel"
+    ]
+  },
+  {
+    "filename": "Parallel 06 Ashcan Pete (3).json",
+    "name": "Parallel 6: Ashcan Pete",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator",
+      "Parallel"
+    ]
+  },
+  {
+    "filename": "Play & Share full card art investigators - core orig & parallel (10).json",
+    "name": "Play & Share full card art investigators",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator",
+      "Alt-Art",
+      "Parallel"
+    ]
+  },
+  {
+    "filename": "Return to the Innsmouth Conspiracy (106).json",
+    "name": "Return to the Innsmouth Conspiracy (Unofficial)",
+    "description": "",
+    "content": "",
+    "authors": [
+      "DerBK",
+      "Hauke"
+    ],
+    "tags": [
+      "Campaign Expansion"
+    ]
+  },
+  {
+    "filename": "Snakes on a Train (10).json",
+    "name": "Snakes on a Train",
+    "description": "",
+    "content": "",
+    "authors": ["StartsWithTheName"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Strange Case of Dr Jekyll and Mr Hyde (60).json",
+    "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Symphony of Erich Zann (69).json",
+    "name": "The Symphony of Erich Zann",
+    "description": "",
+    "content": "",
+    "authors": ["Axolotl"],
+    "tags": [
+      "Standalone"
+    ]
+  },
+  {
+    "filename": "Taboo-2022-08-26 (95).json",
+    "name": "Taboo 2022",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator",
+      "Taboo"
+    ]
+  },
+  {
+    "filename": "Taboo 2022-08-26 Add-Change only (40).json",
+    "name": "Taboo 2022 Add/Change Only",
+    "description": "",
+    "content": "",
+    "authors": ["Fantasy Flight Games"],
+    "tags": [
+      "Investigator",
+      "Taboo"
+    ]
+  },
+  {
+    "filename": "War of the Worlds (135).json",
+    "name": "The War of the Worlds",
+    "description": "",
+    "content": "",
+    "authors": ["The Beard"],
+    "tags": [
+      "Campaign"
+    ]
+  },
+  {
+    "filename": "Carmen Sandiego (12).json",
+    "name": "Where in Arkham is Carmen Sandiego?",
+    "description": "",
+    "content": "",
+    "authors": ["Blue Barracuda"],
+    "tags": [
+      "Investigator Expansion"
+    ]
+  }
+]
