@@ -146,7 +146,7 @@ interface ProjectListProps {
 export const ProjectList = (props: ProjectListProps) => {
   const { projects } = props;
   return (
-    <Row xs={1} md={1} lg={2} className="g-4">
+    <Row xs={1} md={2} lg={4} className="g-4">
       {projects.map((e, index) => {
         return <Col key={index}>
           <ProjectCard project={e} />

@@ -9,7 +9,7 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
-  return <Card style={{ height: 250, overflow: 'hidden' }}>
+  return <Card style={{ height: 200, overflow: 'hidden' }}>
     <Card.Header as="h5">
       <div style={{ display: 'flex' }}>
         <Card.Link href={`/project/${project.name}`} style={{ flex: 1, alignSelf: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap', overflow: 'hidden' }}>
