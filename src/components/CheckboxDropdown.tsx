@@ -82,7 +82,7 @@ const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
         type={type}
         label={children}
         checked={checked}
-        onChange={onChange && onChange.bind(onChange, id)}
+        onChange={onChange.bind(onChange, id)}
       />
     </Form.Group>
   ),

@@ -18,5 +18,5 @@ body {
 .checkbox-menu .dropdown-item:hover,
 .checkbox-menu .dropdown-item:active {
   background-color: transparent;
-  color: black;
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
 }
