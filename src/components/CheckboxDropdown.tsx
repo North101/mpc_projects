@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Button from "react-bootstrap/esm/Button";
 import ButtonGroup from "react-bootstrap/esm/ButtonGroup";
 import Dropdown from "react-bootstrap/esm/Dropdown";
@@ -21,47 +21,52 @@ interface CheckboxMenuProps {
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, items, setItems }, ref) => (
-    <div
-      ref={ref}
-      style={style}
-      className={`${className} checkbox-menu`}
-      aria-labelledby={labelledBy}
-    >
+  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, items, setItems }, ref) => {
+    const innerRef = useRef<HTMLInputElement>(null);
+    useEffect(() => innerRef.current?.focus());
+
+    return (
       <div
-        className="d-flex flex-column"
-        style={{ maxHeight: "calc(300px)", overflow: "none" }}
+        ref={ref}
+        style={style}
+        className={`${className} checkbox-menu`}
+        aria-labelledby={labelledBy}
       >
-        <div className="border-bottom" style={{ paddingBottom: 8 }}>
-          <Form className="d-flex" style={{ padding: "0 8px" }}>
-            <Form.Control
-              autoFocus
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              onChange={(e) => {
-                const search = e.target.value.toLowerCase();
-                return setItems(items.filter(item => item.toLowerCase().includes(search)));
-              }}
-            />
-          </Form>
-        </div>
-        <ul
-          className="list-unstyled flex-shrink mb-0"
-          style={{ overflow: "auto" }}
+        <div
+          className="d-flex flex-column"
+          style={{ maxHeight: "calc(300px)", overflow: "none" }}
         >
-          {children}
-        </ul>
-        {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">
-          <ButtonGroup size="sm">
-            <Button variant="link" onClick={onSelectNone}>
-              Select None
-            </Button>
-          </ButtonGroup>
-        </div>}
+          <div className="border-bottom" style={{ paddingBottom: 8 }}>
+            <Form className="d-flex" style={{ padding: "0 8px" }}>
+              <Form.Control
+                ref={innerRef}
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                onChange={(e) => {
+                  const search = e.target.value.toLowerCase();
+                  return setItems(items.filter(item => item.toLowerCase().includes(search)));
+                }}
+              />
+            </Form>
+          </div>
+          <ul
+            className="list-unstyled flex-shrink mb-0"
+            style={{ overflow: "auto" }}
+          >
+            {children}
+          </ul>
+          {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">
+            <ButtonGroup size="sm">
+              <Button variant="link" onClick={onSelectNone}>
+                Select None
+              </Button>
+            </ButtonGroup>
+          </div>}
+        </div>
       </div>
-    </div>
-  ),
+    );
+  },
 );
 
 interface CheckDropdownItemProps {
