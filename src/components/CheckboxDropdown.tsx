@@ -14,14 +14,14 @@ interface CheckboxMenuProps {
   children: JSX.Element[];
   style: object;
   className: string;
-  items: string[];
-  setItems: (items: string[]) => void;
+  search: string;
+  setSearch: (state: string) => void;
   "aria-labelledby": string;
   onSelectNone?: () => void;
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, items, setItems }, ref) => {
+  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, search, setSearch }, ref) => {
     const innerRef = useRef<HTMLInputElement>(null);
     useEffect(() => innerRef.current?.focus());
 
@@ -43,10 +43,8 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-                onChange={(e) => {
-                  const search = e.target.value.toLowerCase();
-                  return setItems(items.filter(item => item.toLowerCase().includes(search)));
-                }}
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
               />
             </Form>
           </div>
@@ -98,19 +96,29 @@ interface CheckboxDropdown {
   onSelectNone?: () => void;
 }
 
+const useItems = (items: CheckboxState[]): [CheckboxState[], string, (state: string) => void] => {
+  const [search, setSearch] = useState("");
+  const [filteredItems, setFilteredItems] = useState(items);
+
+  useEffect(() => {
+    setFilteredItems(items.filter(item => item.label.toLowerCase().includes(search)));
+  }, [items, search]);
+
+  return [filteredItems, search, setSearch];
+}
+
 export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
-  const itemLabels = items.map(e => e.label);
-  const [filteredItems, setFilteredItems] = useState(itemLabels);
+  const [filteredItems, search, setSearch] = useItems(items);
   return (
-    <Dropdown>
+    <Dropdown onToggle={() => setSearch("")}>
       <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
       <Dropdown.Menu
         as={CheckboxMenu}
         onSelectNone={handleSelectNone}
-        items={itemLabels}
-        setItems={setFilteredItems}
+        search={search}
+        setSearch={setSearch}
       >
-        {items.filter(e => filteredItems.includes(e.label)).map(i => (
+        {filteredItems.map(i => (
           <Dropdown.Item
             key={i.id}
             id={i.id}
