@@ -19,7 +19,7 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
       <Card>
         <Card.Header as="h5">
           <div style={{ display: 'flex' }}>
-            <Card.Link href={project.website ?? undefined} style={{ flex: 1, alignSelf: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap', overflow: 'hidden' }}>
+            <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: 'center', }}>
               {project.name}
             </Card.Link>
             <a href={`/${project.filename}`} download={true}>
@@ -28,7 +28,7 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
               </Button>
             </a>
           </div>
-          <Card.Subtitle><ProjectAuthors authors={project.authors} /></Card.Subtitle>
+          <Card.Subtitle className="text-truncate"><ProjectAuthors authors={project.authors} /></Card.Subtitle>
         </Card.Header>
         <Card.Header><ProjectTags tags={project.tags} /></Card.Header>
         <Card.Body>
