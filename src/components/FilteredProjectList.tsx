@@ -79,8 +79,8 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
   }).toSorted(sorts[sort]);
 
   return (
-    <Stack gap={4}>
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <Stack gap={2}>
+      <Navbar className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="flex-grow-1">

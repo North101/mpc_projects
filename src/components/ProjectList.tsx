@@ -6,15 +6,12 @@ interface ProjectListProps {
   projects: Project[];
 }
 
-export const ProjectList = (props: ProjectListProps) => {
-  const { projects } = props;
-  return (
-    <Row xs={1} md={2} lg={3} className="g-4">
-      {projects.map((e, index) => (
-        <Col key={index}>
-          <ProjectCard project={e} />
-        </Col>
-      ))}
-    </Row>
-  )
-}
+export const ProjectList = ({ projects }: ProjectListProps) => (
+  <Row xs={1} md={2} lg={3} className="g-4">
+    {projects.map((e, index) => (
+      <Col key={index}>
+        <ProjectCard project={e} />
+      </Col>
+    ))}
+  </Row>
+);

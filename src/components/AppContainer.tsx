@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 const Header = ({ setSearch }: HeaderProps) => (
-  <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
+  <Navbar expand className="bg-body-tertiary" sticky="top">
     <Container>
       <Navbar.Brand href="/">MPC Projects</Navbar.Brand>
       <Form className="d-flex">
@@ -45,7 +45,7 @@ interface AppContainerProps {
 export const AppContainer = ({ children }: AppContainerProps) => {
   const [search, setSearch] = useState<string>("")
   return (
-    <Stack gap={4}>
+    <Stack gap={2}>
       <Header setSearch={setSearch} />
       <Container>
         {search.trim() ? <SearchProjectList search={search} /> : children}
