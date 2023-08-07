@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import Container from 'react-bootstrap/esm/Container';
-import Form from 'react-bootstrap/esm/Form';
-import Navbar from 'react-bootstrap/esm/Navbar';
-import Stack from 'react-bootstrap/esm/Stack';
+import { useState } from "react";
+import Container from "react-bootstrap/esm/Container";
+import Form from "react-bootstrap/esm/Form";
+import Navbar from "react-bootstrap/esm/Navbar";
+import Stack from "react-bootstrap/esm/Stack";
 import projects from "../projects";
-import { ProjectList } from './ProjectList';
+import { ProjectList } from "./ProjectList";
 
 
 interface HeaderProps {
@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 const Header = ({ setSearch }: HeaderProps) => (
-  <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
+  <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
     <Container>
       <Navbar.Brand href="/">MPC Projects</Navbar.Brand>
       <Form className="d-flex">
@@ -32,10 +32,11 @@ interface SearchProjectListProps {
   search: string;
 }
 
-const SearchProjectList = ({ search }: SearchProjectListProps) => {
-  const searchProjects = search.length ? projects.filter(e => e.name.toLowerCase().includes(search.toLowerCase())) : [];
-  return <ProjectList projects={searchProjects} />
-}
+const SearchProjectList = ({ search }: SearchProjectListProps) => (
+  <ProjectList
+    projects={projects.filter(e => e.name.toLowerCase().includes(search.toLowerCase()))}
+  />
+)
 
 interface AppContainerProps {
   children: JSX.Element;
@@ -43,7 +44,6 @@ interface AppContainerProps {
 
 export const AppContainer = ({ children }: AppContainerProps) => {
   const [search, setSearch] = useState<string>("")
-
   return (
     <Stack gap={4}>
       <Header setSearch={setSearch} />

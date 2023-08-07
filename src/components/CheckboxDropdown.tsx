@@ -17,44 +17,33 @@ interface CheckboxMenuProps {
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  (
-    {
-      children,
-      style,
-      className,
-      "aria-labelledby": labeledBy,
-      onSelectNone
-    },
-    ref
-  ) => {
-    return (
+  ({ children, style, className, "aria-labelledby": labeledBy, onSelectNone }, ref) => (
+    <div
+      ref={ref}
+      style={style}
+      className={`${className} checkbox-menu`}
+      aria-labelledby={labeledBy}
+    >
       <div
-        ref={ref}
-        style={style}
-        className={`${className} CheckboxMenu`}
-        aria-labelledby={labeledBy}
+        className="d-flex flex-column"
+        style={{ maxHeight: "calc(300px)", overflow: "none" }}
       >
-        <div
-          className="d-flex flex-column"
-          style={{ maxHeight: "calc(300px)", overflow: "none" }}
+        <ul
+          className="list-unstyled flex-shrink mb-0"
+          style={{ overflow: "auto" }}
         >
-          <ul
-            className="list-unstyled flex-shrink mb-0"
-            style={{ overflow: "auto" }}
-          >
-            {children}
-          </ul>
-          {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">
-            <ButtonGroup size="sm">
-              <Button variant="link" onClick={onSelectNone}>
-                Select None
-              </Button>
-            </ButtonGroup>
-          </div>}
-        </div>
+          {children}
+        </ul>
+        {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">
+          <ButtonGroup size="sm">
+            <Button variant="link" onClick={onSelectNone}>
+              Select None
+            </Button>
+          </ButtonGroup>
+        </div>}
       </div>
-    );
-  }
+    </div>
+  ),
 );
 
 interface CheckDropdownItemProps {
@@ -66,18 +55,16 @@ interface CheckDropdownItemProps {
 }
 
 const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
-  ({ type, children, id, checked, onChange }, ref) => {
-    return (
-      <Form.Group ref={ref} className="dropdown-item mb-0" controlId={id}>
-        <Form.Check
-          type={type}
-          label={children}
-          checked={checked}
-          onChange={onChange && onChange.bind(onChange, id)}
-        />
-      </Form.Group>
-    );
-  }
+  ({ type, children, id, checked, onChange }, ref) => (
+    <Form.Group ref={ref} className="dropdown-item mb-0" controlId={id}>
+      <Form.Check
+        type={type}
+        label={children}
+        checked={checked}
+        onChange={onChange && onChange.bind(onChange, id)}
+      />
+    </Form.Group>
+  ),
 );
 
 interface CheckboxDropdown {
@@ -88,28 +75,26 @@ interface CheckboxDropdown {
   onSelectNone?: () => void;
 }
 
-export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
-  return (
-    <Dropdown>
-      <Dropdown.Toggle variant="link" id="dropdown-basic">{label}</Dropdown.Toggle>
+export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => (
+  <Dropdown>
+    <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
 
-      <Dropdown.Menu
-        as={CheckboxMenu}
-        onSelectNone={handleSelectNone}
-      >
-        {items.map(i => (
-          <Dropdown.Item
-            key={i.id}
-            id={i.id}
-            type={type}
-            as={CheckDropdownItem}
-            checked={i.checked}
-            onChange={handleChecked as any}
-          >
-            {i.label}
-          </Dropdown.Item>
-        ))}
-      </Dropdown.Menu>
-    </Dropdown>
-  );
-};
+    <Dropdown.Menu
+      as={CheckboxMenu}
+      onSelectNone={handleSelectNone}
+    >
+      {items.map(i => (
+        <Dropdown.Item
+          key={i.id}
+          id={i.id}
+          type={type}
+          as={CheckDropdownItem}
+          checked={i.checked}
+          onChange={handleChecked as any}
+        >
+          {i.label}
+        </Dropdown.Item>
+      ))}
+    </Dropdown.Menu>
+  </Dropdown>
+);

@@ -15,8 +15,8 @@ body {
 }
 
 
-.CheckboxMenu .dropdown-item:hover,
-.CheckboxMenu .dropdown-item:active {
+.checkbox-menu .dropdown-item:hover,
+.checkbox-menu .dropdown-item:active {
   background-color: transparent;
   color: black;
 }

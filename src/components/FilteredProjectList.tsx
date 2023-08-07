@@ -1,18 +1,15 @@
-import { useState } from 'react';
-import Container from 'react-bootstrap/esm/Container';
-import Nav from 'react-bootstrap/esm/Nav';
-import Navbar from 'react-bootstrap/esm/Navbar';
-import Stack from 'react-bootstrap/esm/Stack';
-import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown';
-import { ProjectList } from './ProjectList';
-
-const distinct = function <T>(value: T, index: number, self: Array<T>) {
-  return self.indexOf(value) == index;
-}
+import { useState } from "react";
+import Container from "react-bootstrap/esm/Container";
+import Nav from "react-bootstrap/esm/Nav";
+import Navbar from "react-bootstrap/esm/Navbar";
+import Stack from "react-bootstrap/esm/Stack";
+import { CheckboxDropdown, CheckboxState } from "./CheckboxDropdown";
+import { ProjectList } from "./ProjectList";
 
 declare global {
   interface Array<T> {
     toSorted(compareFn?: ((a: T, b: T) => number) | undefined): Array<T>;
+    distinct(): Array<T>;
   }
 }
 
@@ -22,39 +19,43 @@ Array.prototype.toSorted = function <T>(compareFn?: ((a: T, b: T) => number) | u
   return copy;
 }
 
+const distinct = function <T>(value: T, index: number, self: Array<T>) {
+  return self.indexOf(value) == index;
+}
+
+Array.prototype.distinct = function <T>(): Array<T> {
+  return this.filter(distinct);
+}
+
 const sortByLabel = (a: CheckboxState, b: CheckboxState) => a.label == b.label ? 0 : a.label > b.label ? 1 : -1;
 
 const sorts: {
   [key: string]: (a: Project, b: Project) => number;
 } = {
-  'Name': (a: Project, b: Project) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
-  'Newest': (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
-  'Oldest': (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
+  "Name": (a: Project, b: Project) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
+  "Newest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
+  "Oldest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
 }
 
-export const useSort = () => {
-  return useState('Newest');
-}
+export const useSort = () => useState("Newest");
 
-export const useAuthorFilter = (projects: Project[]) => {
-  return useState<CheckboxState[]>(projects.flatMap(e => e.authors).filter(distinct).map(e => {
-    return {
-      id: e,
-      label: e,
-      checked: false,
-    };
-  }).toSorted(sortByLabel));
-}
+export const useAuthorFilter = (projects: Project[]) => useState<CheckboxState[]>(projects.flatMap(e => e.authors)
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel));
 
-export const useTagFilter = (projects: Project[]) => {
-  return useState<CheckboxState[]>(projects.flatMap(e => e.tags).filter(distinct).map(e => {
-    return {
-      id: e,
-      label: e,
-      checked: false,
-    };
-  }).toSorted(sortByLabel));
-}
+export const useTagFilter = (projects: Project[]) => useState<CheckboxState[]>(projects.flatMap(e => e.tags)
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel));
 
 interface FilteredProjectListProps {
   projects: Project[];
@@ -82,52 +83,42 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="flex-grow-1" style={{ justifyContent: 'end' }}>
+            <Nav className="flex-grow-1">
               <CheckboxDropdown
                 type="radio"
                 label="Sort"
-                items={Object.keys(sorts).map((e) => {
-                  return {
-                    id: e,
-                    label: e,
-                    checked: e == sort,
-                  };
-                })}
+                items={Object.keys(sorts).map((e) => ({
+                  id: e,
+                  label: e,
+                  checked: e == sort,
+                }))}
                 onChecked={(id: string) => setSort(id)}
               />
               <CheckboxDropdown
                 type="checkbox"
                 label="Authors"
                 items={authorFilter}
-                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setAuthorFilter(authorFilter.map(e => {
-                  return {
-                    ...e,
-                    checked: e.id == id ? event.currentTarget.checked : e.checked,
-                  };
-                }))}
-                onSelectNone={() => setAuthorFilter(authorFilter.map(e => {
-                  return {
-                    ...e,
-                    checked: false,
-                  };
-                }))}
+                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setAuthorFilter(authorFilter.map(e => ({
+                  ...e,
+                  checked: e.id == id ? event.currentTarget.checked : e.checked,
+                })))}
+                onSelectNone={() => setAuthorFilter(authorFilter.map(e => ({
+                  ...e,
+                  checked: false,
+                })))}
               />
               <CheckboxDropdown
                 type="checkbox"
                 label="Tags"
                 items={tagFilter}
-                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setTagFilter(tagFilter.map(e => {
-                  return {
-                    ...e,
-                    checked: e.id == id ? event.currentTarget.checked : e.checked,
-                  };
-                }))}
-                onSelectNone={() => setTagFilter(tagFilter.map(e => {
-                  return {
-                    ...e,
-                    checked: false,
-                  };
-                }))}
+                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setTagFilter(tagFilter.map(e => ({
+                  ...e,
+                  checked: e.id == id ? event.currentTarget.checked : e.checked,
+                })))}
+                onSelectNone={() => setTagFilter(tagFilter.map(e => ({
+                  ...e,
+                  checked: false,
+                })))}
               />
             </Nav>
           </Navbar.Collapse>

@@ -1,12 +1,12 @@
-import { AppContainer } from './AppContainer';
+import { AppContainer } from "./AppContainer";
 
-import { CloudArrowDown } from 'react-bootstrap-icons';
-import Button from 'react-bootstrap/esm/Button';
-import Card from 'react-bootstrap/esm/Card';
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import { CloudArrowDown } from "react-bootstrap-icons";
+import Button from "react-bootstrap/esm/Button";
+import Card from "react-bootstrap/esm/Card";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import projects from "../projects";
-import { ProjectAuthors } from './ProjectAuthors';
-import { ProjectTags } from './ProjectTags';
+import { ProjectAuthors } from "./ProjectAuthors";
+import { ProjectTags } from "./ProjectTags";
 
 interface ProjectPageProps {
   name: string;
@@ -18,12 +18,12 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
     <AppContainer>
       <Card>
         <Card.Header as="h5">
-          <div style={{ display: 'flex' }}>
-            <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: 'center', }}>
+          <div style={{ display: "flex" }}>
+            <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: "center", }}>
               {project.name}
             </Card.Link>
             <a href={`/${project.filename}`} download={true}>
-              <Button style={{ width: 32, height: 32 }} variant="outline-primary" size='sm'>
+              <Button style={{ width: 32, height: 32 }} variant="outline-primary" size="sm">
                 <CloudArrowDown />
               </Button>
             </a>
