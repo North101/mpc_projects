@@ -1,6 +1,6 @@
 import projects from "../projects";
 import { AppContainer } from './AppContainer';
-import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./ProjectList";
+import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./FilteredProjectList";
 
 interface TagPageProps {
   tag: string

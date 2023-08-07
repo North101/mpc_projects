@@ -13,7 +13,7 @@ interface CheckboxMenuProps {
   style: object;
   className: string;
   "aria-labelledby": string;
-  onSelectNone: () => void;
+  onSelectNone?: () => void;
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
@@ -44,13 +44,13 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
           >
             {children}
           </ul>
-          <div className="dropdown-item border-top pt-2 pb-0">
+          {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">
             <ButtonGroup size="sm">
               <Button variant="link" onClick={onSelectNone}>
                 Select None
               </Button>
             </ButtonGroup>
-          </div>
+          </div>}
         </div>
       </div>
     );
@@ -59,17 +59,18 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
 
 interface CheckDropdownItemProps {
   children: JSX.Element[];
+  type: "checkbox" | "radio";
   id: string;
   checked: boolean;
   onChange: (id: string, event: React.FormEvent<HTMLInputElement>) => void;
 }
 
 const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
-  ({ children, id, checked, onChange }, ref) => {
+  ({ type, children, id, checked, onChange }, ref) => {
     return (
       <Form.Group ref={ref} className="dropdown-item mb-0" controlId={id}>
         <Form.Check
-          type="checkbox"
+          type={type}
           label={children}
           checked={checked}
           onChange={onChange && onChange.bind(onChange, id)}
@@ -80,13 +81,14 @@ const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
 );
 
 interface CheckboxDropdown {
+  type: "checkbox" | "radio";
   label: string;
   items: CheckboxState[];
   onChecked: (id: string, event: React.FormEvent<HTMLInputElement>) => void;
-  onSelectNone: () => void;
+  onSelectNone?: () => void;
 }
 
-export const CheckboxDropdown = ({ label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
+export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="link" id="dropdown-basic">{label}</Dropdown.Toggle>
@@ -99,6 +101,7 @@ export const CheckboxDropdown = ({ label, items, onChecked: handleChecked, onSel
           <Dropdown.Item
             key={i.id}
             id={i.id}
+            type={type}
             as={CheckDropdownItem}
             checked={i.checked}
             onChange={handleChecked as any}
