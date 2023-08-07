@@ -1,6 +1,8 @@
-import React from "react";
-
-import { Button, ButtonGroup, Dropdown, Form } from "react-bootstrap";
+import React, { useState } from "react";
+import Button from "react-bootstrap/esm/Button";
+import ButtonGroup from "react-bootstrap/esm/ButtonGroup";
+import Dropdown from "react-bootstrap/esm/Dropdown";
+import Form from "react-bootstrap/esm/Form";
 
 export interface CheckboxState {
   id: string;
@@ -12,22 +14,38 @@ interface CheckboxMenuProps {
   children: JSX.Element[];
   style: object;
   className: string;
+  items: string[];
+  setItems: (items: string[]) => void;
   "aria-labelledby": string;
   onSelectNone?: () => void;
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  ({ children, style, className, "aria-labelledby": labeledBy, onSelectNone }, ref) => (
+  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, items, setItems }, ref) => (
     <div
       ref={ref}
       style={style}
       className={`${className} checkbox-menu`}
-      aria-labelledby={labeledBy}
+      aria-labelledby={labelledBy}
     >
       <div
         className="d-flex flex-column"
         style={{ maxHeight: "calc(300px)", overflow: "none" }}
       >
+        <div className="border-bottom" style={{ paddingBottom: 8 }}>
+          <Form className="d-flex" style={{ padding: "0 8px" }}>
+            <Form.Control
+              autoFocus
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              onChange={(e) => {
+                const search = e.target.value.toLowerCase();
+                return setItems(items.filter(item => item.toLowerCase().includes(search)));
+              }}
+            />
+          </Form>
+        </div>
         <ul
           className="list-unstyled flex-shrink mb-0"
           style={{ overflow: "auto" }}
@@ -75,26 +93,31 @@ interface CheckboxDropdown {
   onSelectNone?: () => void;
 }
 
-export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => (
-  <Dropdown>
-    <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
-
-    <Dropdown.Menu
-      as={CheckboxMenu}
-      onSelectNone={handleSelectNone}
-    >
-      {items.map(i => (
-        <Dropdown.Item
-          key={i.id}
-          id={i.id}
-          type={type}
-          as={CheckDropdownItem}
-          checked={i.checked}
-          onChange={handleChecked as any}
-        >
-          {i.label}
-        </Dropdown.Item>
-      ))}
-    </Dropdown.Menu>
-  </Dropdown>
-);
+export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
+  const itemLabels = items.map(e => e.label);
+  const [filteredItems, setFilteredItems] = useState(itemLabels);
+  return (
+    <Dropdown>
+      <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
+      <Dropdown.Menu
+        as={CheckboxMenu}
+        onSelectNone={handleSelectNone}
+        items={itemLabels}
+        setItems={setFilteredItems}
+      >
+        {items.filter(e => filteredItems.includes(e.label)).map(i => (
+          <Dropdown.Item
+            key={i.id}
+            id={i.id}
+            type={type}
+            as={CheckDropdownItem}
+            checked={i.checked}
+            onChange={handleChecked as any}
+          >
+            {i.label}
+          </Dropdown.Item>
+        ))}
+      </Dropdown.Menu>
+    </Dropdown>
+  );
+};
