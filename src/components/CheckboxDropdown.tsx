@@ -96,27 +96,57 @@ interface CheckboxDropdown {
   onSelectNone?: () => void;
 }
 
-const useItems = (items: CheckboxState[]): [CheckboxState[], string, (state: string) => void] => {
+const sortChecked = (a: CheckboxState, b: CheckboxState) => a.checked == b.checked ? 0 : a.checked ? -1 : 1;
+
+const useItems = (items: CheckboxState[]): {
+  filteredItems: CheckboxState[],
+  search: string,
+  setSearch: (state: string) => void,
+  setShown: (state: boolean) => void,
+} => {
+  const [shown, setShown] = useState(false);
   const [search, setSearch] = useState("");
-  const [filteredItems, setFilteredItems] = useState(items);
+  const [sortedItems, setSortedItems] = useState(items.toSorted(sortChecked));
+  const [filteredItems, setFilteredItems] = useState(sortedItems);
 
+  // when shown, clear search snd sort checked to the top
   useEffect(() => {
-    setFilteredItems(items.filter(item => item.label.toLowerCase().includes(search)));
-  }, [items, search]);
+    setSearch("");
+    setSortedItems(items.toSorted(sortChecked));
+  }, [shown]);
 
-  return [filteredItems, search, setSearch];
+  // when items change, keep previous sorted position
+  useEffect(() => {
+    setSortedItems(items.toSorted((a, b) => {
+      const aIndex = sortedItems.findIndex(e => e.id == a.id);
+      const bIndex = sortedItems.findIndex(e => e.id == b.id);
+      return aIndex - bIndex;
+    }));
+  }, [items]);
+
+  // when searching or sorted items change, filter them
+  useEffect(() => {
+    setFilteredItems(sortedItems.filter(item => item.label.toLowerCase().includes(search)));
+  }, [search, sortedItems]);
+
+  return {
+    filteredItems,
+    search,
+    setSearch,
+    setShown,
+  };
 }
 
-export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked, onSelectNone: handleSelectNone }: CheckboxDropdown) => {
-  const [filteredItems, search, setSearch] = useItems(items);
+export const CheckboxDropdown = ({ type, label, items, onChecked, onSelectNone }: CheckboxDropdown) => {
+  const { filteredItems, search, setSearch, setShown } = useItems(items);
   return (
-    <Dropdown onToggle={() => setSearch("")}>
+    <Dropdown onToggle={setShown}>
       <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
       <Dropdown.Menu
         as={CheckboxMenu}
-        onSelectNone={handleSelectNone}
         search={search}
         setSearch={setSearch}
+        onSelectNone={onSelectNone}
       >
         {filteredItems.map(i => (
           <Dropdown.Item
@@ -125,7 +155,7 @@ export const CheckboxDropdown = ({ type, label, items, onChecked: handleChecked,
             type={type}
             as={CheckDropdownItem}
             checked={i.checked}
-            onChange={handleChecked as any}
+            onChange={onChecked as any}
           >
             {i.label}
           </Dropdown.Item>
