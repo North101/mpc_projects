@@ -28,6 +28,9 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.3",
+    "path": "^0.12.7",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
