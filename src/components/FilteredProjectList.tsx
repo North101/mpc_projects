@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Nav from "react-bootstrap/esm/Nav";
 import Navbar from "react-bootstrap/esm/Navbar";
@@ -31,16 +31,44 @@ Array.prototype.distinct = function <T>(): Array<T> {
 
 const sortByLabel = (a: CheckboxState, b: CheckboxState) => a.label == b.label ? 0 : a.label > b.label ? 1 : -1;
 
+const removeArticle = (value: string) => {
+  const [article, ...rest] = value.split(' ');
+  if (rest.length == 0) return value;
+
+  const articleL = article.toLowerCase();
+  if (articleL == 'a' || articleL == 'the' || articleL == 'an') return rest.join(' ');
+
+  return value;
+}
+
 const sorts: {
   [key: string]: (a: Project, b: Project) => number;
 } = {
-  "Name": (a: Project, b: Project) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
+  "Alphabetical": (a: Project, b: Project) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
+  "Natural": (a: Project, b: Project) => {
+    const aName = removeArticle(a.name);
+    const bName = removeArticle(b.name);
+    return aName == bName ? 0 : aName > bName ? 1 : -1;
+  },
   "Last Updated": (a: Project, b: Project) => a.updated == b.updated ? 0 : a.updated > b.updated ? -1 : 1,
   "Newest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
   "Oldest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
 }
 
-export const useSort = () => useState("Newest");
+export const useSort = (): [string, (value: string) => void] => {
+  const [sort, setSort] = useState(() => {
+    const sort = localStorage.getItem('sort');
+    if (!sort || !(sort in sorts)) return Object.keys(sorts)[0];
+
+    return sort;
+  });
+
+  useEffect(() => {
+    localStorage.setItem('sort', sort);
+  }, [sort]);
+
+  return [sort, setSort];
+}
 
 export const useAuthorFilter = (projects: Project[]) => useState<CheckboxState[]>(projects.flatMap(e => e.authors)
   .distinct()
