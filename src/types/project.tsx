@@ -9,4 +9,5 @@ type Project = {
   authors: string[];
   tags: string[];
   info: string | null;
+  cardCount: number;
 }

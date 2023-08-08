@@ -29,7 +29,6 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
   <Card>
     <Card.Header as="h5">
       <div className="d-flex align-items-center">
-        {project.info && <ProjectInfo name={project.name} info={project.info} />}
         <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: "center" }}>
           {project.name}
         </Card.Link>
@@ -39,6 +38,10 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
       </div>
       <Card.Subtitle className="text-truncate"><ProjectAuthors authors={project.authors} /></Card.Subtitle>
     </Card.Header>
+    <Card.Body className="d-flex align-items-center">
+      <small style={{ flex: 1 }}>Cards: {project.cardCount}</small>
+      {project.info && <ProjectInfo name={project.name} info={project.info} />}
+    </Card.Body>
     <Card.Footer>
       <ProjectTags tags={project.tags} />
     </Card.Footer>
