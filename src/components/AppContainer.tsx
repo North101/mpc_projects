@@ -53,11 +53,13 @@ interface AppContainerProps {
 export const AppContainer = ({ children }: AppContainerProps) => {
   const [search, setSearch] = useState<string>("")
   return (
-    <Stack gap={2} className="h-100">
+    <Stack gap={2} className="d-flex h-100">
       <Header setSearch={setSearch} />
-      <Container className="h-100">
-        {search.trim() ? <SearchProjectList search={search} /> : children}
-      </Container>
+      <div className="d-flex" style={{ flex: 1, overflowY: 'auto' }}>
+        <Container>
+          {search.trim() ? <SearchProjectList search={search} /> : children}
+        </Container>
+      </div>
       <div />
     </Stack>
   )

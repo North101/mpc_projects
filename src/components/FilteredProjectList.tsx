@@ -81,7 +81,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 
   return (
     <Stack gap={2}>
-      <Navbar className="bg-body-tertiary">
+      <Navbar className="bg-body-tertiary" sticky="top">
         <Container fluid>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="flex-grow-1">
