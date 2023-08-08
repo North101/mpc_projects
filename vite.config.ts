@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react-swc'
 import { promises as fs } from 'fs'
 import { glob } from 'glob'
-import { resolve } from 'path'
+import path, { resolve } from 'path'
 import { Plugin, defineConfig } from 'vite'
 
 const buildProjectsJson = async () => {
@@ -21,7 +21,7 @@ const buildProjectsJson = async () => {
 
     const stat = await fs.stat(e);
     return {
-      filename: e,
+      filename: path.basename(e),
       name,
       description,
       website,
