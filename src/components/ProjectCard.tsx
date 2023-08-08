@@ -5,6 +5,7 @@ import OverlayTrigger from "react-bootstrap/esm/OverlayTrigger";
 import Tooltip from "react-bootstrap/esm/Tooltip";
 import { ProjectAuthors } from "./ProjectAuthors";
 import { ProjectTags } from "./ProjectTags";
+import { Project } from "../types";
 
 interface ProjectInfoProps {
   name: string;

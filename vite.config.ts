@@ -83,7 +83,8 @@ const buildProjectsJson = async () => {
       cardCount: cards.reduce((value, it) => value + it.count, 0),
       sites: Object.entries(mpcData.units)
         .map(([site, unit]) => unit.find(e => e.code == code) ? site : null)
-        .flatMap(site => mpcData.sites.find(e => e.code == site)?.urls),
+        .flatMap(site => mpcData.sites.find(e => e.code == site)?.urls)
+        .filter(e => e),
     };
   }));
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Project } from "./types";
 
 export const useProjects = () => {
   const [data, setData] = useState<Project[] | undefined>();

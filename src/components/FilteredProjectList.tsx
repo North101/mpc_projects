@@ -3,6 +3,8 @@ import Container from "react-bootstrap/esm/Container";
 import Nav from "react-bootstrap/esm/Nav";
 import Navbar from "react-bootstrap/esm/Navbar";
 import Stack from "react-bootstrap/esm/Stack";
+import { Project } from "../types";
+import { AppContainer } from "./AppContainer";
 import { CheckboxDropdown, CheckboxState } from "./CheckboxDropdown";
 import { ProjectList } from "./ProjectList";
 
@@ -56,7 +58,18 @@ export const useTagFilter = (projects: Project[]) => useState<CheckboxState[]>(p
     label: e,
     checked: false,
   }))
-  .toSorted(sortByLabel));
+  .toSorted(sortByLabel)
+);
+
+export const useSiteFilter = (projects: Project[]) => useState<CheckboxState[]>(projects.flatMap(e => e.sites)
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel)
+);
 
 interface FilteredProjectListProps {
   projects: Project[];
@@ -66,17 +79,31 @@ interface FilteredProjectListProps {
   setAuthorFilter: (state: CheckboxState[]) => void;
   tagFilter: CheckboxState[];
   setTagFilter: (state: CheckboxState[]) => void;
+  siteFilter: CheckboxState[];
+  setSiteFilter: (state: CheckboxState[]) => void;
 }
 
 export const FilteredProjectList = (props: FilteredProjectListProps) => {
-  const { projects, sort, setSort, authorFilter, setAuthorFilter, tagFilter, setTagFilter } = props;
+  const {
+    projects,
+    sort,
+    setSort,
+    authorFilter,
+    setAuthorFilter,
+    tagFilter,
+    setTagFilter,
+    siteFilter,
+    setSiteFilter,
+  } = props;
 
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id);
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id);
+  const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id);
   const filteredProjects = projects.filter(e => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author));
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag));
-    return hasSomeAuthors && hasSomeTags;
+    const hasSomeSites = !filteredSites.length || e.sites.some(tag => filteredSites.includes(tag));
+    return hasSomeAuthors && hasSomeTags && hasSomeSites;
   }).toSorted(sorts[sort]);
 
   return (
@@ -121,6 +148,19 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   checked: false,
                 })))}
               />
+              <CheckboxDropdown
+                type="checkbox"
+                label="Sites"
+                items={siteFilter}
+                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setSiteFilter(siteFilter.map(e => ({
+                  ...e,
+                  checked: e.id == id ? event.currentTarget.checked : e.checked,
+                })))}
+                onSelectNone={() => setSiteFilter(siteFilter.map(e => ({
+                  ...e,
+                  checked: false,
+                })))}
+              />
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -128,5 +168,31 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 
       <ProjectList projects={filteredProjects} />
     </Stack>
+  )
+}
+
+interface FilteredProjectListContainerProps {
+  projects: Project[];
+}
+
+export const FilteredProjectListContainer = ({ projects }: FilteredProjectListContainerProps) => {
+  const [sort, setSort] = useSort();
+  const [authorFilter, setAuthorFilter] = useAuthorFilter(projects);
+  const [tagFilter, setTagFilter] = useTagFilter(projects);
+  const [siteFilter, setSiteFilter] = useSiteFilter(projects);
+  return (
+    <AppContainer>
+      <FilteredProjectList
+        projects={projects}
+        sort={sort}
+        setSort={setSort}
+        authorFilter={authorFilter}
+        setAuthorFilter={setAuthorFilter}
+        tagFilter={tagFilter}
+        setTagFilter={setTagFilter}
+        siteFilter={siteFilter}
+        setSiteFilter={setSiteFilter}
+      />
+    </AppContainer>
   )
 }

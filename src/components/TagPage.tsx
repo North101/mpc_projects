@@ -1,7 +1,8 @@
 import { useProjects } from "../projects";
+import { Project } from "../types";
 import { AppContainer } from "./AppContainer";
 import { CircularProgressIndicator } from "./CircularProgressIndicator";
-import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./FilteredProjectList";
+import { FilteredProjectListContainer } from "./FilteredProjectList";
 
 interface TagProjectsProps {
   tag: string
@@ -9,23 +10,8 @@ interface TagProjectsProps {
 }
 
 const TagProjects = ({ tag, projects }: TagProjectsProps) => {
-  const tagProjects = projects.filter(e => e.tags.find(e => e == tag));
-  const [sort, setSort] = useSort();
-  const [authorFilter, setAuthorFilter] = useAuthorFilter(tagProjects);
-  const [tagFilter, setTagFilter] = useTagFilter(tagProjects);
-  return (
-    <AppContainer>
-      <FilteredProjectList
-        projects={tagProjects}
-        sort={sort}
-        setSort={setSort}
-        authorFilter={authorFilter}
-        setAuthorFilter={setAuthorFilter}
-        tagFilter={tagFilter}
-        setTagFilter={setTagFilter}
-      />
-    </AppContainer>
-  )
+  const filteredProjects = projects.filter(e => e.tags.find(e => e == tag));
+  return <FilteredProjectListContainer projects={filteredProjects} />
 }
 
 interface TagPageProps {

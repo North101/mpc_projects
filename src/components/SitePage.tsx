@@ -4,21 +4,21 @@ import { AppContainer } from "./AppContainer";
 import { CircularProgressIndicator } from "./CircularProgressIndicator";
 import { FilteredProjectListContainer } from "./FilteredProjectList";
 
-interface AuthorProjectsProps {
-  name: string
-  projects: Project[];
+interface SiteProjectsProps {
+  site: string
+  projects: Project[]
 }
 
-const AuthorProjects = ({ name, projects }: AuthorProjectsProps) => {
-  const filteredProjects = projects.filter(e => e.authors.includes(name));
+const SiteProjects = ({ site, projects }: SiteProjectsProps) => {
+  const filteredProjects = projects.filter(e => e.sites.find(e => e == site));
   return <FilteredProjectListContainer projects={filteredProjects} />
 }
 
-interface AuthorPageProps {
-  name: string
+interface SitePageProps {
+  site: string
 }
 
-export const AuthorPage = (props: AuthorPageProps) => {
+export const SitePage = (props: SitePageProps) => {
   const projects = useProjects();
   if (projects == undefined) {
     return (
@@ -28,5 +28,5 @@ export const AuthorPage = (props: AuthorPageProps) => {
     );
   }
 
-  return <AuthorProjects {...props} projects={projects} />
+  return <SiteProjects {...props} projects={projects} />
 }

@@ -1,6 +1,7 @@
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
 import { ProjectCard } from "./ProjectCard";
+import { Project } from "../types";
 
 interface ProjectListProps {
   projects: Project[];
