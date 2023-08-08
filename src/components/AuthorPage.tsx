@@ -1,12 +1,14 @@
-import projects from "../projects";
+import { useProjects } from "../projects";
 import { AppContainer } from "./AppContainer";
+import { CircularProgressIndicator } from "./CircularProgressIndicator";
 import { FilteredProjectList, useAuthorFilter, useSort, useTagFilter } from "./FilteredProjectList";
 
-interface AuthorPageProps {
+interface AuthorProjectsProps {
   name: string
+  projects: Project[];
 }
 
-export const AuthorPage = ({ name }: AuthorPageProps) => {
+const AuthorProjects = ({ name, projects }: AuthorProjectsProps) => {
   const authorProjects = projects.filter(e => e.authors.includes(name));
   const [sort, setSort] = useSort();
   const [authorFilter, setAuthorFilter] = useAuthorFilter(authorProjects);
@@ -24,4 +26,21 @@ export const AuthorPage = ({ name }: AuthorPageProps) => {
       />
     </AppContainer>
   )
+}
+
+interface AuthorPageProps {
+  name: string
+}
+
+export const AuthorPage = (props: AuthorPageProps) => {
+  const projects = useProjects();
+  if (projects == undefined) {
+    return (
+      <AppContainer>
+        <CircularProgressIndicator />
+      </AppContainer>
+    );
+  }
+
+  return <AuthorProjects {...props} projects={projects} />
 }

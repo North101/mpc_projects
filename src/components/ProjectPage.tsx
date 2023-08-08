@@ -4,7 +4,8 @@ import { CloudArrowDown } from "react-bootstrap-icons";
 import Button from "react-bootstrap/esm/Button";
 import Card from "react-bootstrap/esm/Card";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import projects from "../projects";
+import { useProjects } from "../projects";
+import { CircularProgressIndicator } from "./CircularProgressIndicator";
 import { ProjectAuthors } from "./ProjectAuthors";
 import { ProjectTags } from "./ProjectTags";
 
@@ -13,6 +14,11 @@ interface ProjectPageProps {
 }
 
 export const ProjectPage = ({ name }: ProjectPageProps) => {
+  const projects = useProjects();
+  if (projects == undefined) {
+    return <CircularProgressIndicator />
+  }
+
   const project = projects.find(e => e.name == name)!
   return (
     <AppContainer>

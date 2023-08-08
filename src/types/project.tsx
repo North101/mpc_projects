@@ -8,4 +8,6 @@ type Project = {
   updated: Date;
   authors: string[];
   tags: string[];
+  cardCount: number;
+  info: string | null;
 }
