@@ -33,6 +33,7 @@ const sorts: {
   [key: string]: (a: Project, b: Project) => number;
 } = {
   "Name": (a: Project, b: Project) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
+  "Last Updated": (a: Project, b: Project) => a.updated == b.updated ? 0 : a.updated > b.updated ? -1 : 1,
   "Newest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
   "Oldest": (a: Project, b: Project) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
 }

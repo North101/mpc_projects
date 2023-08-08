@@ -4,6 +4,8 @@ import ButtonGroup from "react-bootstrap/esm/ButtonGroup";
 import Dropdown from "react-bootstrap/esm/Dropdown";
 import Form from "react-bootstrap/esm/Form";
 
+type CheckboxType = "checkbox" | "radio";
+
 export interface CheckboxState {
   id: string;
   label: string;
@@ -14,6 +16,7 @@ interface CheckboxMenuProps {
   children: JSX.Element[];
   style: object;
   className: string;
+  type: CheckboxType;
   search: string;
   setSearch: (state: string) => void;
   "aria-labelledby": string;
@@ -21,7 +24,7 @@ interface CheckboxMenuProps {
 }
 
 const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, search, setSearch }, ref) => {
+  ({ children, style, className, "aria-labelledby": labelledBy, onSelectNone, type, search, setSearch }, ref) => {
     const innerRef = useRef<HTMLInputElement>(null);
     useEffect(() => innerRef.current?.focus());
 
@@ -36,7 +39,7 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
           className="d-flex flex-column"
           style={{ maxHeight: "calc(300px)", overflow: "none" }}
         >
-          <div className="border-bottom" style={{ paddingBottom: 8 }}>
+          {type == "checkbox" && <div className="border-bottom" style={{ paddingBottom: 8 }}>
             <Form className="d-flex" style={{ padding: "0 8px" }}>
               <Form.Control
                 ref={innerRef}
@@ -47,7 +50,7 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
                 onChange={(e) => setSearch(e.target.value)}
               />
             </Form>
-          </div>
+          </div>}
           <ul
             className="list-unstyled flex-shrink mb-0"
             style={{ overflow: "auto" }}
@@ -89,7 +92,7 @@ const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
 );
 
 interface CheckboxDropdown {
-  type: "checkbox" | "radio";
+  type: CheckboxType;
   label: string;
   items: CheckboxState[];
   onChecked: (id: string, event: React.FormEvent<HTMLInputElement>) => void;
@@ -98,7 +101,7 @@ interface CheckboxDropdown {
 
 const sortChecked = (a: CheckboxState, b: CheckboxState) => a.checked == b.checked ? 0 : a.checked ? -1 : 1;
 
-const useItems = (items: CheckboxState[]): {
+const useItems = (type: CheckboxType, items: CheckboxState[]): {
   filteredItems: CheckboxState[],
   search: string,
   setSearch: (state: string) => void,
@@ -106,13 +109,13 @@ const useItems = (items: CheckboxState[]): {
 } => {
   const [shown, setShown] = useState(false);
   const [search, setSearch] = useState("");
-  const [sortedItems, setSortedItems] = useState(items.toSorted(sortChecked));
+  const [sortedItems, setSortedItems] = useState(items.toSorted(type == "checkbox" ? sortChecked : undefined));
   const [filteredItems, setFilteredItems] = useState(sortedItems);
 
   // when shown, clear search snd sort checked to the top
   useEffect(() => {
     setSearch("");
-    setSortedItems(items.toSorted(sortChecked));
+    setSortedItems(items.toSorted(type == "checkbox" ? sortChecked : undefined));
   }, [shown]);
 
   // when items change, keep previous sorted position
@@ -138,12 +141,13 @@ const useItems = (items: CheckboxState[]): {
 }
 
 export const CheckboxDropdown = ({ type, label, items, onChecked, onSelectNone }: CheckboxDropdown) => {
-  const { filteredItems, search, setSearch, setShown } = useItems(items);
+  const { filteredItems, search, setSearch, setShown } = useItems(type, items);
   return (
     <Dropdown onToggle={setShown}>
       <Dropdown.Toggle variant="link">{label}</Dropdown.Toggle>
       <Dropdown.Menu
         as={CheckboxMenu}
+        type={type}
         search={search}
         setSearch={setSearch}
         onSelectNone={onSelectNone}

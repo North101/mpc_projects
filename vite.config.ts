@@ -19,6 +19,7 @@ const buildProjectsJson = async () => {
       info,
     } = project;
 
+    const stat = await fs.stat(e);
     return {
       filename: e,
       name,
@@ -29,6 +30,8 @@ const buildProjectsJson = async () => {
       tags,
       cardCount: (cards as any[]).reduce((value, it) => value + it.count, 0),
       info: info ?? null,
+      created: stat.birthtime,
+      updated: stat.mtime,
     };
   }));
 }

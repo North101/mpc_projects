@@ -12,7 +12,6 @@ interface ProjectInfoProps {
 }
 
 export const ProjectInfo = ({ name, info }: ProjectInfoProps) => {
-  console.log(info);
   return (
     <OverlayTrigger
       overlay={<Tooltip id={name}>{info}</Tooltip>}
