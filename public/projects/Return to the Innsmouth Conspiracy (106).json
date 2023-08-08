@@ -11,6 +11,7 @@
     "Campaign Expansion"
   ],
   "info": null,
+  "updated": "2023-08-08T02:54:46.062Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [
@@ -1354,5 +1355,6 @@
         "Height": 1126
       }
     }
-  ]
+  ],
+  "hash": "e2d806d33302490911dc6822c22470ab95fdc23d086fc244feb5ef4bd77fdb98"
 }

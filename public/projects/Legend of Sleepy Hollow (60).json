@@ -10,6 +10,7 @@
     "Standalone"
   ],
   "info": null,
+  "updated": "2023-08-08T02:54:46.064Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [
@@ -678,5 +679,6 @@
         "Height": 1141
       }
     }
-  ]
+  ],
+  "hash": "68c348680b9ecc32ffe670e35897eecaf1a75c7f50a28afd0724ecf8414c6446"
 }

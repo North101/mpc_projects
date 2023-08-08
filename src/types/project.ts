@@ -4,8 +4,8 @@ type Project = {
   description: string;
   content: string;
   website: string|null;
-  created: Date;
-  updated: Date;
+  created: string;
+  updated: string;
   authors: string[];
   tags: string[];
   info: string | null;

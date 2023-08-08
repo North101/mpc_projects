@@ -10,6 +10,7 @@
     "Investigator Expansion"
   ],
   "info": null,
+  "updated": "2023-08-08T02:54:46.081Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [
@@ -241,5 +242,6 @@
         "Height": 1122
       }
     }
-  ]
+  ],
+  "hash": "bd54744311e258907eb19657497d2583f4f5734cb0b6f19d7ec8b5529203e179"
 }

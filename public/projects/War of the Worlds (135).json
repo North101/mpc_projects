@@ -10,6 +10,7 @@
     "Campaign"
   ],
   "info": null,
+  "updated": "2023-08-08T02:54:46.061Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [
@@ -1552,5 +1553,6 @@
         "Height": 1156
       }
     }
-  ]
+  ],
+  "hash": "530776d4bb99cbf07dc192893a4efcc6695d783a19111878a8733cb3890a776e"
 }
