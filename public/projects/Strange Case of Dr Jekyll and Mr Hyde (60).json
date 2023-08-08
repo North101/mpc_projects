@@ -1,1 +1,796 @@
-{"version":1,"code":"C380050185D1C1AF","cards":[{"count":1,"front":{"Name":"01 - Guide 1-1.png","ID":"7F8F47E60C9D1E43538EB72497100284","SourceID":"8C06E76514A360E5A4463B4D98A4B2C14D6FED20","Exp":"png","Width":826,"Height":1126},"back":{"Name":"01 - Guide 1-2.png","ID":"446159337EAE04043F3A0D30FA593C49","SourceID":"25F8D570755DDE8080452298E2851A2B98B0CA83","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"02 - Guide 2-1.png","ID":"471E350EFE99B018822B27895CBC72E6","SourceID":"93BF7D5EB2CC96EFAAF19554692AE7576ECEF307","Exp":"png","Width":826,"Height":1126},"back":{"Name":"02 - Guide 2-2.png","ID":"D3C6E2AA4C3C122A235BCB1660B4DC86","SourceID":"7A9E2B977FFDD0C447E5419DC19F71CD842EEEDC","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"03 - Guide 3-1.png","ID":"5EDAE3FE99C2D7C6BD13E3F8AB3A7815","SourceID":"6CBA1533556BFD683CE1C87CCF13EC56E3EB147D","Exp":"png","Width":826,"Height":1126},"back":{"Name":"03 - Guide 3-2.png","ID":"3FB094FD6A233DC784504047E5EA36BC","SourceID":"06866A52E95CE6D1161C98C19B44D906BED72B4E","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"04 - Guide 4-1.png","ID":"3D26370E8BCDE3D484F737C4F1B73204","SourceID":"6ECDF3150031D390080FB485B9823185E40EE033","Exp":"png","Width":826,"Height":1126},"back":{"Name":"04 - Guide 4-2.png","ID":"8DAF6D68935FCAC9ED5A42C43CC3EE79","SourceID":"7CEFCA6FE9FEE75DED7853A17E6A09BC7D36EAF3","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"05 - Guide 5-1.png","ID":"1A22949759C314C63EA68EE2D551AC84","SourceID":"D39CB1A321689CC22A8EE5429EEA945F1EAA2268","Exp":"png","Width":826,"Height":1126},"back":{"Name":"05 - Guide 5-2.png","ID":"17AD3827C2027DB1D7E9AEC79251B77B","SourceID":"CF8063B13357BE5957A4CFE2E5F33342EC0F4F85","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"06 - Token Effects-1.png","ID":"9FCD81A4FE3B09FC59595A1642CAF5BB","SourceID":"DFC05268DBAE19F19ACE8CAD3A6CBFA7EEC58C8B","Exp":"png","Width":826,"Height":1126},"back":{"Name":"06 - Token Effects-2.png","ID":"E0DAFF20C32AA90238006B8A9E611F71","SourceID":"0C771D064A7CF3BD10E07BB3FC04A6FBB6C61DB4","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"07 - Agenda 1-1.png","ID":"23319E8970CC6E09AC8A5828FBB3D3BB","SourceID":"EFCCDB40BA41C544D365FC2BC1BDDDF63D36E3FD","Exp":"png","Width":826,"Height":1126},"back":{"Name":"07 - Agenda 1-2.png","ID":"79244940D3E7234B9195DBE252AE2FCF","SourceID":"EAD9E370E989BE137CEE39E2D6CECEE3E813AF3E","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"08 - Act 1-1.png","ID":"19624ECDD74FE2AC0CDB623D8F17C34D","SourceID":"5C42334A728E43B6E160B141B719F7AD15D03353","Exp":"png","Width":826,"Height":1126},"back":{"Name":"08 - Act 1-2.png","ID":"E10CD4F5608C176F914C303750DB7DBD","SourceID":"F2479818B52A055E7853717FAA5E9034ED30A82D","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"09 - Act 2-1.png","ID":"6B0DBD8466CC89E943146D60C02A1D29","SourceID":"6350D24342556FED4849BE0E5777E9FE47199177","Exp":"png","Width":826,"Height":1126},"back":{"Name":"09 - Act 2-2.png","ID":"B1A5460927F4CA8E835E441CD371FA63","SourceID":"637A61C17A62ADC8E43C249EFA5F771A68A29A13","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"10 - Act 3-1.png","ID":"7DCACFEF2AB9CB1E892B1C98A43BFC97","SourceID":"34B9A84E28C73B0B0052721813FD8378D8BD34AE","Exp":"png","Width":826,"Height":1126},"back":{"Name":"10 - Act 3-2.png","ID":"5FC5710C6EADA03EBFDF3F777B215200","SourceID":"087F7F64CE4A44426264FAFD36A5E5E977369147","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"11 - Adapted Formula-1.png","ID":"353D9FDB718EEC86611802D2FA50E5AD","SourceID":"F47A994B1DB7688F1A8D69440E156089967D2484","Exp":"png","Width":826,"Height":1126},"back":{"Name":"11 - Adapted Formula-2.png","ID":"F0BF7A8DCDDDFC35FBAAE540F846D980","SourceID":"31A444AA13CE175DC5528AF09C9966682EE9F4A0","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"12 - Northside Plaza-1.png","ID":"EE6065BCE50814ADAE5989CBFD5E6F60","SourceID":"A4022D71FC6B80AAA8BCB1A07CF5E635AF100314","Exp":"png","Width":826,"Height":1126},"back":{"Name":"12 - Northside Plaza-2.png","ID":"A8ACAF6EA410D893137EEDC2EBF13CD0","SourceID":"7F898189E8162CDD73F800E91AECB7CA294F2C5A","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"13 - Drugstore 1-1.png","ID":"7AAA307E276772578B74962A65E54432","SourceID":"9905A152126ABE61482B33874DDB71C9DD7E1AA2","Exp":"png","Width":826,"Height":1126},"back":{"Name":"13 - Drugstore 1-2.png","ID":"F8109F9F7E023EFD2EAF6DED72D9CF11","SourceID":"3EFBCFD73919B47BA30F2FB878B90AFEA025612E","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"14 - Drugstore 2-1.png","ID":"DB5CE2EF073387BE6F47EE60ACC6A7B1","SourceID":"87D021CC73D3D89247594AC2324D52D322E2456C","Exp":"png","Width":826,"Height":1126},"back":{"Name":"14 - Drugstore 2-2.png","ID":"D225461C3FF9372B6E6758F7D26F2505","SourceID":"B9BDDD7A9F23C4EBDF1E5C4D44B70DA21486A52E","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"15 - Imports Office 1-1.png","ID":"14D2029A2C3D50087C0EDA4F4966BB80","SourceID":"211E5858E23EB8B070007380C824E955D7661B36","Exp":"png","Width":826,"Height":1126},"back":{"Name":"15 - Imports Office 1-2.png","ID":"3D7C1A4185F1B75FA89B2573FC6CA613","SourceID":"60349E5B304E187DB6DE1C474489F8480E9EF0D1","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"16 - Imports Office 2-1.png","ID":"92A5BDA8435C7F7F0E200CF38C6B4312","SourceID":"C006FA2ADE351A84406F45299E751F4FB6B01D5D","Exp":"png","Width":826,"Height":1126},"back":{"Name":"16 - Imports Office 2-2.png","ID":"3D7C1A4185F1B75FA89B2573FC6CA613","SourceID":"60349E5B304E187DB6DE1C474489F8480E9EF0D1","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"17 - Etchers_ Shop 1-1.png","ID":"C8E5C3CDD74AB8E4CACC1C09A3660C80","SourceID":"1BA7CFCBCE5D3E415B082A830858470BFBC48872","Exp":"png","Width":826,"Height":1126},"back":{"Name":"17 - Etchers_ Shop 1-2.png","ID":"F9131730D9184C6F09D44250A631C7E0","SourceID":"60505F6373F013A23A7FCC5E1A73AE61747D4244","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"18 - Etchers_ Shop 2-1.png","ID":"11CAB2A383AF82F700C00C8A1FC751AA","SourceID":"B52E3689ED0D3765AD5135F36E7B002D712B146B","Exp":"png","Width":826,"Height":1126},"back":{"Name":"18 - Etchers_ Shop 2-2.png","ID":"F9131730D9184C6F09D44250A631C7E0","SourceID":"60505F6373F013A23A7FCC5E1A73AE61747D4244","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"19 - Chemical Firm 1-1.png","ID":"E6B7D6AA0D73D8366437DD5BD0D81170","SourceID":"53B02BAC34561544C5CB33D3EC8798D53C14C1D9","Exp":"png","Width":826,"Height":1126},"back":{"Name":"19 - Chemical Firm 1-2.png","ID":"7C4A4125AEB12EBD2F0D74A176444344","SourceID":"C8036D3CAB18AB2CE00289FD3538DF02DD6AD6E7","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"20 - Chemical Firm 2-1.png","ID":"DF46C433A7F25A63ECEBFC72FB0E0A9C","SourceID":"96C89E38CB34F84EC5A95760BB80BA6C2CCB22BD","Exp":"png","Width":826,"Height":1126},"back":{"Name":"20 - Chemical Firm 2-2.png","ID":"7C4A4125AEB12EBD2F0D74A176444344","SourceID":"C8036D3CAB18AB2CE00289FD3538DF02DD6AD6E7","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"21 - Tannery 1-1.png","ID":"D2E0C226995D7C96DBB27FAE20ADC15E","SourceID":"C49A83F1E768AD61729091D4EDC03EDE1EB0C8D6","Exp":"png","Width":826,"Height":1126},"back":{"Name":"21 - Tannery 1-2.png","ID":"4C883BB1A2E803B174D0586032EE6E85","SourceID":"CFFF6242538B74616A464269AE0A9DCE82295190","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"22 - Tannery 2-1.png","ID":"C8AEF0D01837D3A3D0720D66CD7CACAB","SourceID":"A74A53ED6AE578EEA29ECC1DEFE315E1882576C1","Exp":"png","Width":826,"Height":1126},"back":{"Name":"22 - Tannery 2-2.png","ID":"4C883BB1A2E803B174D0586032EE6E85","SourceID":"CFFF6242538B74616A464269AE0A9DCE82295190","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"23 - Trainyard-1.png","ID":"4269F28B4059FFAFBDC182D108072520","SourceID":"C3ACD7D21ED1FF11D6A8965F278C0133677BE0C8","Exp":"png","Width":826,"Height":1126},"back":{"Name":"23 - Trainyard-2.png","ID":"48436E3EC4443B0F750FDA092AC386E9","SourceID":"29333363ED4D0739A3128FA64933C648048769FB","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"24 - Abandoned Factory-1.png","ID":"5E5F02CAC0930D859330F97390E5CC92","SourceID":"0E4E98A64966AE05DA8F1DA5E432FE13EA3AF51E","Exp":"png","Width":826,"Height":1126},"back":{"Name":"24 - Abandoned Factory-2.png","ID":"51831C7BF67EC43490560E2877E1222D","SourceID":"1D987CA4B3310CBF3AF6503319A1153B14DC4B8D","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"25 - Jekyll and Hyde-1.png","ID":"7D8F86145839157A06D8D7EDD2869B2C","SourceID":"D4CF619AD0A5D83B87E9C1E6D70D3713B971E494","Exp":"png","Width":826,"Height":1126},"back":{"Name":"25 - Jekyll and Hyde-2.png","ID":"A9896CF17C7CAD5FA4D67340964C25B8","SourceID":"DF22CFA0AF05FDC7461C0E026119587F45046B5D","Exp":"png","Width":826,"Height":1126}},{"count":2,"front":{"Name":"26-27 - Aggressive Mutation-x2-1.png","ID":"F854A8C4878955DCB93C28EDAE4AC3C2","SourceID":"E3E78C4458061CA9AB8226E013EC92DE69579D69","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"28-29 - Brutish Cry-x2-1.png","ID":"FAF1AB897C455DDCEF024AD0126A962A","SourceID":"4A84AC11FFD376CFB3ADF665E7D6B5BB462CB9D6","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"30-31 - Chemical Spill-x2-1.png","ID":"82BA7AF32252DC7C256ED8C6FB9B4C8A","SourceID":"2561E213DE1E9383737C30C8666C19BAD1E54A48","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"32-34 - Creeping Growth-x3-1.png","ID":"F6E96B5DD56D900367D4F3BA8ABDCA41","SourceID":"93F83530A8E2CF6B9D9F9286751BD805CD8E8BF9","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"35-37 - Enthralling Interference-x3-1.png","ID":"811AB9D553DC280AEBAEFFA46D42AC4A","SourceID":"7D8BBA36AA397D850EC68C6F870A526B2FED35C7","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"38-39 - Festering Evil-x2-1.png","ID":"9F2A7EC28389C3EAE2E88C2D39162B9B","SourceID":"3764BE2891740ADAB6041D1EE53A8B4BBB72E4FC","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"40-42 - Fleshy Creation-x3-1.png","ID":"58384BA8583A7E9711E8EC3F2F96A213","SourceID":"9698BFF766E7C9658367006FE93A03C4BE1EA7FF","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"43-45 - Mark of the Gate-x3-1.png","ID":"E9AEED36D0AC9EBF1321F43515B73DED","SourceID":"9C2FCE3ACBB75CF3AB11D2BC55C30C74946F12D5","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"46-47 - Misshapen Beast-x2-1.png","ID":"105C3F63DDCEAF16542A099E3C9F6DC4","SourceID":"83BD2AD2E701C66968CBA6BFA088DEC4532684BB","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"48-49 - Profane Sculptor-x2-1.png","ID":"20F77500C05F1EE184BEE0FD5675B9E8","SourceID":"FBC2CE9030DEF8859AEA26094F5428550CFC9443","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"50-52 - Servant of Yog-Sothoth-x3-1.png","ID":"D8EB3D239ED7F908252E7B91EF4DA50A","SourceID":"91A41D76654C408710E5B163D879955B5A3AA871","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":2,"front":{"Name":"53-54 - Supply and Demand-x2-1.png","ID":"D76B714E06B867EBFCA3E3FBF6E2A57F","SourceID":"7929FD302DC572E45137DA6042F80D5FD622B15E","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":3,"front":{"Name":"55-57 - Surging Flesh-x3-1.png","ID":"EE0A55C6E17340D8C4AE8D28F9EA6EEA","SourceID":"E77365068F5C90E93355A0E7C6EA5B9D42589D46","Exp":"png","Width":826,"Height":1126},"back":{"Name":"_encounterback.png","ID":"DEC0E760493EA41064B29B27F44AB53B","SourceID":"609D6BD07161BF6BC0FCC12D36AE8137C162AF2D","Exp":"png","Width":850,"Height":1156}},{"count":1,"front":{"Name":"58 - Duplicitous Drug-1.png","ID":"70E6E2E22A306D2D6BEE19FEC8E21BD2","SourceID":"15A9AB4E4C35ED40F84D58E13449F217E3239DC1","Exp":"png","Width":826,"Height":1126},"back":{"Name":"58 - Duplicitous Drug-2.png","ID":"9CCAC53C69DC6AA57D24FF30ED8973D4","SourceID":"1D61B97573E741A6DDE605AB2B8DBB6702178B9E","Exp":"png","Width":826,"Height":1141}},{"count":1,"front":{"Name":"59 - Your Other Half-1.png","ID":"A59C947A84F7BA2EE261241DA20AEA0C","SourceID":"03CCE643A055E92E8BA6F7664BEC6CA0007A1A15","Exp":"png","Width":826,"Height":1126},"back":{"Name":"59 - Your Other Half-2.png","ID":"933BD32477ADCFCCBCC0E204BD39D9F7","SourceID":"93E2E7C06CDBC1C28883F16D54A72A71B98F669B","Exp":"png","Width":826,"Height":1126}},{"count":1,"front":{"Name":"60 - Fundamental Formula-1.png","ID":"4CF12933C907E4AF2FC31975DCF9A812","SourceID":"8DAC476B0FBC21D118A19988396C04F969E8B3A5","Exp":"png","Width":826,"Height":1126},"back":{"Name":"60 - Fundamental Formula-2.png","ID":"9CCAC53C69DC6AA57D24FF30ED8973D4","SourceID":"1D61B97573E741A6DDE605AB2B8DBB6702178B9E","Exp":"png","Width":826,"Height":1141}}],"name":"The Strange Case of Dr. Jekyll and Mr. Hyde","description":"","website":null,"content":"","authors":["The Beard"],"tags":["Standalone"],"info":null}
+{
+  "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+  "description": "",
+  "website": null,
+  "content": "",
+  "authors": [
+    "The Beard"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "info": null,
+  "version": 1,
+  "code": "C380050185D1C1AF",
+  "cards": [
+    {
+      "count": 1,
+      "front": {
+        "Name": "01 - Guide 1-1.png",
+        "ID": "7F8F47E60C9D1E43538EB72497100284",
+        "SourceID": "8C06E76514A360E5A4463B4D98A4B2C14D6FED20",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "01 - Guide 1-2.png",
+        "ID": "446159337EAE04043F3A0D30FA593C49",
+        "SourceID": "25F8D570755DDE8080452298E2851A2B98B0CA83",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "02 - Guide 2-1.png",
+        "ID": "471E350EFE99B018822B27895CBC72E6",
+        "SourceID": "93BF7D5EB2CC96EFAAF19554692AE7576ECEF307",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "02 - Guide 2-2.png",
+        "ID": "D3C6E2AA4C3C122A235BCB1660B4DC86",
+        "SourceID": "7A9E2B977FFDD0C447E5419DC19F71CD842EEEDC",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "03 - Guide 3-1.png",
+        "ID": "5EDAE3FE99C2D7C6BD13E3F8AB3A7815",
+        "SourceID": "6CBA1533556BFD683CE1C87CCF13EC56E3EB147D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "03 - Guide 3-2.png",
+        "ID": "3FB094FD6A233DC784504047E5EA36BC",
+        "SourceID": "06866A52E95CE6D1161C98C19B44D906BED72B4E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "04 - Guide 4-1.png",
+        "ID": "3D26370E8BCDE3D484F737C4F1B73204",
+        "SourceID": "6ECDF3150031D390080FB485B9823185E40EE033",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "04 - Guide 4-2.png",
+        "ID": "8DAF6D68935FCAC9ED5A42C43CC3EE79",
+        "SourceID": "7CEFCA6FE9FEE75DED7853A17E6A09BC7D36EAF3",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "05 - Guide 5-1.png",
+        "ID": "1A22949759C314C63EA68EE2D551AC84",
+        "SourceID": "D39CB1A321689CC22A8EE5429EEA945F1EAA2268",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "05 - Guide 5-2.png",
+        "ID": "17AD3827C2027DB1D7E9AEC79251B77B",
+        "SourceID": "CF8063B13357BE5957A4CFE2E5F33342EC0F4F85",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "06 - Token Effects-1.png",
+        "ID": "9FCD81A4FE3B09FC59595A1642CAF5BB",
+        "SourceID": "DFC05268DBAE19F19ACE8CAD3A6CBFA7EEC58C8B",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "06 - Token Effects-2.png",
+        "ID": "E0DAFF20C32AA90238006B8A9E611F71",
+        "SourceID": "0C771D064A7CF3BD10E07BB3FC04A6FBB6C61DB4",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "07 - Agenda 1-1.png",
+        "ID": "23319E8970CC6E09AC8A5828FBB3D3BB",
+        "SourceID": "EFCCDB40BA41C544D365FC2BC1BDDDF63D36E3FD",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "07 - Agenda 1-2.png",
+        "ID": "79244940D3E7234B9195DBE252AE2FCF",
+        "SourceID": "EAD9E370E989BE137CEE39E2D6CECEE3E813AF3E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "08 - Act 1-1.png",
+        "ID": "19624ECDD74FE2AC0CDB623D8F17C34D",
+        "SourceID": "5C42334A728E43B6E160B141B719F7AD15D03353",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "08 - Act 1-2.png",
+        "ID": "E10CD4F5608C176F914C303750DB7DBD",
+        "SourceID": "F2479818B52A055E7853717FAA5E9034ED30A82D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "09 - Act 2-1.png",
+        "ID": "6B0DBD8466CC89E943146D60C02A1D29",
+        "SourceID": "6350D24342556FED4849BE0E5777E9FE47199177",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "09 - Act 2-2.png",
+        "ID": "B1A5460927F4CA8E835E441CD371FA63",
+        "SourceID": "637A61C17A62ADC8E43C249EFA5F771A68A29A13",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "10 - Act 3-1.png",
+        "ID": "7DCACFEF2AB9CB1E892B1C98A43BFC97",
+        "SourceID": "34B9A84E28C73B0B0052721813FD8378D8BD34AE",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "10 - Act 3-2.png",
+        "ID": "5FC5710C6EADA03EBFDF3F777B215200",
+        "SourceID": "087F7F64CE4A44426264FAFD36A5E5E977369147",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "11 - Adapted Formula-1.png",
+        "ID": "353D9FDB718EEC86611802D2FA50E5AD",
+        "SourceID": "F47A994B1DB7688F1A8D69440E156089967D2484",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "11 - Adapted Formula-2.png",
+        "ID": "F0BF7A8DCDDDFC35FBAAE540F846D980",
+        "SourceID": "31A444AA13CE175DC5528AF09C9966682EE9F4A0",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "12 - Northside Plaza-1.png",
+        "ID": "EE6065BCE50814ADAE5989CBFD5E6F60",
+        "SourceID": "A4022D71FC6B80AAA8BCB1A07CF5E635AF100314",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "12 - Northside Plaza-2.png",
+        "ID": "A8ACAF6EA410D893137EEDC2EBF13CD0",
+        "SourceID": "7F898189E8162CDD73F800E91AECB7CA294F2C5A",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "13 - Drugstore 1-1.png",
+        "ID": "7AAA307E276772578B74962A65E54432",
+        "SourceID": "9905A152126ABE61482B33874DDB71C9DD7E1AA2",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "13 - Drugstore 1-2.png",
+        "ID": "F8109F9F7E023EFD2EAF6DED72D9CF11",
+        "SourceID": "3EFBCFD73919B47BA30F2FB878B90AFEA025612E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "14 - Drugstore 2-1.png",
+        "ID": "DB5CE2EF073387BE6F47EE60ACC6A7B1",
+        "SourceID": "87D021CC73D3D89247594AC2324D52D322E2456C",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "14 - Drugstore 2-2.png",
+        "ID": "D225461C3FF9372B6E6758F7D26F2505",
+        "SourceID": "B9BDDD7A9F23C4EBDF1E5C4D44B70DA21486A52E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "15 - Imports Office 1-1.png",
+        "ID": "14D2029A2C3D50087C0EDA4F4966BB80",
+        "SourceID": "211E5858E23EB8B070007380C824E955D7661B36",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "15 - Imports Office 1-2.png",
+        "ID": "3D7C1A4185F1B75FA89B2573FC6CA613",
+        "SourceID": "60349E5B304E187DB6DE1C474489F8480E9EF0D1",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "16 - Imports Office 2-1.png",
+        "ID": "92A5BDA8435C7F7F0E200CF38C6B4312",
+        "SourceID": "C006FA2ADE351A84406F45299E751F4FB6B01D5D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "16 - Imports Office 2-2.png",
+        "ID": "3D7C1A4185F1B75FA89B2573FC6CA613",
+        "SourceID": "60349E5B304E187DB6DE1C474489F8480E9EF0D1",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "17 - Etchers_ Shop 1-1.png",
+        "ID": "C8E5C3CDD74AB8E4CACC1C09A3660C80",
+        "SourceID": "1BA7CFCBCE5D3E415B082A830858470BFBC48872",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "17 - Etchers_ Shop 1-2.png",
+        "ID": "F9131730D9184C6F09D44250A631C7E0",
+        "SourceID": "60505F6373F013A23A7FCC5E1A73AE61747D4244",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "18 - Etchers_ Shop 2-1.png",
+        "ID": "11CAB2A383AF82F700C00C8A1FC751AA",
+        "SourceID": "B52E3689ED0D3765AD5135F36E7B002D712B146B",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "18 - Etchers_ Shop 2-2.png",
+        "ID": "F9131730D9184C6F09D44250A631C7E0",
+        "SourceID": "60505F6373F013A23A7FCC5E1A73AE61747D4244",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "19 - Chemical Firm 1-1.png",
+        "ID": "E6B7D6AA0D73D8366437DD5BD0D81170",
+        "SourceID": "53B02BAC34561544C5CB33D3EC8798D53C14C1D9",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "19 - Chemical Firm 1-2.png",
+        "ID": "7C4A4125AEB12EBD2F0D74A176444344",
+        "SourceID": "C8036D3CAB18AB2CE00289FD3538DF02DD6AD6E7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "20 - Chemical Firm 2-1.png",
+        "ID": "DF46C433A7F25A63ECEBFC72FB0E0A9C",
+        "SourceID": "96C89E38CB34F84EC5A95760BB80BA6C2CCB22BD",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "20 - Chemical Firm 2-2.png",
+        "ID": "7C4A4125AEB12EBD2F0D74A176444344",
+        "SourceID": "C8036D3CAB18AB2CE00289FD3538DF02DD6AD6E7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "21 - Tannery 1-1.png",
+        "ID": "D2E0C226995D7C96DBB27FAE20ADC15E",
+        "SourceID": "C49A83F1E768AD61729091D4EDC03EDE1EB0C8D6",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "21 - Tannery 1-2.png",
+        "ID": "4C883BB1A2E803B174D0586032EE6E85",
+        "SourceID": "CFFF6242538B74616A464269AE0A9DCE82295190",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "22 - Tannery 2-1.png",
+        "ID": "C8AEF0D01837D3A3D0720D66CD7CACAB",
+        "SourceID": "A74A53ED6AE578EEA29ECC1DEFE315E1882576C1",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "22 - Tannery 2-2.png",
+        "ID": "4C883BB1A2E803B174D0586032EE6E85",
+        "SourceID": "CFFF6242538B74616A464269AE0A9DCE82295190",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "23 - Trainyard-1.png",
+        "ID": "4269F28B4059FFAFBDC182D108072520",
+        "SourceID": "C3ACD7D21ED1FF11D6A8965F278C0133677BE0C8",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "23 - Trainyard-2.png",
+        "ID": "48436E3EC4443B0F750FDA092AC386E9",
+        "SourceID": "29333363ED4D0739A3128FA64933C648048769FB",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "24 - Abandoned Factory-1.png",
+        "ID": "5E5F02CAC0930D859330F97390E5CC92",
+        "SourceID": "0E4E98A64966AE05DA8F1DA5E432FE13EA3AF51E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "24 - Abandoned Factory-2.png",
+        "ID": "51831C7BF67EC43490560E2877E1222D",
+        "SourceID": "1D987CA4B3310CBF3AF6503319A1153B14DC4B8D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "25 - Jekyll and Hyde-1.png",
+        "ID": "7D8F86145839157A06D8D7EDD2869B2C",
+        "SourceID": "D4CF619AD0A5D83B87E9C1E6D70D3713B971E494",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "25 - Jekyll and Hyde-2.png",
+        "ID": "A9896CF17C7CAD5FA4D67340964C25B8",
+        "SourceID": "DF22CFA0AF05FDC7461C0E026119587F45046B5D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "26-27 - Aggressive Mutation-x2-1.png",
+        "ID": "F854A8C4878955DCB93C28EDAE4AC3C2",
+        "SourceID": "E3E78C4458061CA9AB8226E013EC92DE69579D69",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "28-29 - Brutish Cry-x2-1.png",
+        "ID": "FAF1AB897C455DDCEF024AD0126A962A",
+        "SourceID": "4A84AC11FFD376CFB3ADF665E7D6B5BB462CB9D6",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "30-31 - Chemical Spill-x2-1.png",
+        "ID": "82BA7AF32252DC7C256ED8C6FB9B4C8A",
+        "SourceID": "2561E213DE1E9383737C30C8666C19BAD1E54A48",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "32-34 - Creeping Growth-x3-1.png",
+        "ID": "F6E96B5DD56D900367D4F3BA8ABDCA41",
+        "SourceID": "93F83530A8E2CF6B9D9F9286751BD805CD8E8BF9",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "35-37 - Enthralling Interference-x3-1.png",
+        "ID": "811AB9D553DC280AEBAEFFA46D42AC4A",
+        "SourceID": "7D8BBA36AA397D850EC68C6F870A526B2FED35C7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "38-39 - Festering Evil-x2-1.png",
+        "ID": "9F2A7EC28389C3EAE2E88C2D39162B9B",
+        "SourceID": "3764BE2891740ADAB6041D1EE53A8B4BBB72E4FC",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "40-42 - Fleshy Creation-x3-1.png",
+        "ID": "58384BA8583A7E9711E8EC3F2F96A213",
+        "SourceID": "9698BFF766E7C9658367006FE93A03C4BE1EA7FF",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "43-45 - Mark of the Gate-x3-1.png",
+        "ID": "E9AEED36D0AC9EBF1321F43515B73DED",
+        "SourceID": "9C2FCE3ACBB75CF3AB11D2BC55C30C74946F12D5",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "46-47 - Misshapen Beast-x2-1.png",
+        "ID": "105C3F63DDCEAF16542A099E3C9F6DC4",
+        "SourceID": "83BD2AD2E701C66968CBA6BFA088DEC4532684BB",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "48-49 - Profane Sculptor-x2-1.png",
+        "ID": "20F77500C05F1EE184BEE0FD5675B9E8",
+        "SourceID": "FBC2CE9030DEF8859AEA26094F5428550CFC9443",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "50-52 - Servant of Yog-Sothoth-x3-1.png",
+        "ID": "D8EB3D239ED7F908252E7B91EF4DA50A",
+        "SourceID": "91A41D76654C408710E5B163D879955B5A3AA871",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "53-54 - Supply and Demand-x2-1.png",
+        "ID": "D76B714E06B867EBFCA3E3FBF6E2A57F",
+        "SourceID": "7929FD302DC572E45137DA6042F80D5FD622B15E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "55-57 - Surging Flesh-x3-1.png",
+        "ID": "EE0A55C6E17340D8C4AE8D28F9EA6EEA",
+        "SourceID": "E77365068F5C90E93355A0E7C6EA5B9D42589D46",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "58 - Duplicitous Drug-1.png",
+        "ID": "70E6E2E22A306D2D6BEE19FEC8E21BD2",
+        "SourceID": "15A9AB4E4C35ED40F84D58E13449F217E3239DC1",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "58 - Duplicitous Drug-2.png",
+        "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+        "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1141
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "59 - Your Other Half-1.png",
+        "ID": "A59C947A84F7BA2EE261241DA20AEA0C",
+        "SourceID": "03CCE643A055E92E8BA6F7664BEC6CA0007A1A15",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "59 - Your Other Half-2.png",
+        "ID": "933BD32477ADCFCCBCC0E204BD39D9F7",
+        "SourceID": "93E2E7C06CDBC1C28883F16D54A72A71B98F669B",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "60 - Fundamental Formula-1.png",
+        "ID": "4CF12933C907E4AF2FC31975DCF9A812",
+        "SourceID": "8DAC476B0FBC21D118A19988396C04F969E8B3A5",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "60 - Fundamental Formula-2.png",
+        "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+        "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1141
+      }
+    }
+  ]
+}

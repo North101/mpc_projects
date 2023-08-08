@@ -6,32 +6,31 @@ import { Plugin, defineConfig } from 'vite'
 
 const buildProjectsJson = async () => {
   const allProjects = await glob(['public/projects/*.json']);
-  return await Promise.all(
-    allProjects.map(async (e) => {
-      const {
-        name,
-        description,
-        website,
-        content,
-        authors,
-        tags,
-        cards,
-        info,
-      } = JSON.parse(await fs.readFile(e, 'utf8'));
-      const cardCount = (cards as any[]).reduce((value, it) => value + it.count, 0);
-      return {
-        filename: e,
-        name,
-        description,
-        website,
-        content,
-        authors,
-        tags,
-        cardCount,
-        info: info ?? null,
-      };
-    }),
-  );
+  return await Promise.all(allProjects.map(async (e) => {
+    const project = JSON.parse(await fs.readFile(e, 'utf8'));
+    const {
+      name,
+      description,
+      website,
+      content,
+      authors,
+      tags,
+      cards,
+      info,
+    } = project;
+
+    return {
+      filename: e,
+      name,
+      description,
+      website,
+      content,
+      authors,
+      tags,
+      cardCount: (cards as any[]).reduce((value, it) => value + it.count, 0),
+      info: info ?? null,
+    };
+  }));
 }
 
 const buildProjects = (): Plugin => {
