@@ -13,6 +13,7 @@ interface BaseProject {
 export interface Project extends BaseProject {
   filename: string;
   cardCount: number;
+  sites: string[];
 }
 
 export interface CardFace {

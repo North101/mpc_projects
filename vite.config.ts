@@ -2,8 +2,9 @@ import react from '@vitejs/plugin-react-swc'
 import crypto from 'crypto'
 import { promises as fs } from 'fs'
 import { glob } from 'glob'
+import mpcData from 'mpc_api/data'
 import path, { resolve } from 'path'
-import { Plugin, defineConfig } from 'vite'
+import { Plugin, ResolvedConfig, defineConfig } from 'vite'
 import { FullProject, Project } from './types'
 
 const readJson = async <T>(filename: string) => {
@@ -80,15 +81,19 @@ const buildProjectsJson = async () => {
       created: created ?? updated,
       updated,
       cardCount: cards.reduce((value, it) => value + it.count, 0),
+      sites: Object.entries(mpcData.units)
+        .map(([site, unit]) => unit.find(e => e.code == code) ? site : null)
+        .flatMap(site => mpcData.sites.find(e => e.code == site)?.urls),
     };
   }));
 }
 
 const buildProjects = (): Plugin => {
-  let viteConfig: any;
+  let viteConfig: ResolvedConfig;
+
   return {
     name: 'build-projects',
-    configResolved: (resolvedConfig: any) => {
+    configResolved: (resolvedConfig) => {
       viteConfig = resolvedConfig;
     },
     configureServer(server) {
@@ -106,7 +111,7 @@ const buildProjects = (): Plugin => {
     },
     async writeBundle() {
       const projectJson = await buildProjectsJson();
-      const filename = resolve(viteConfig.build.outDir || 'dist', 'projects.json');
+      const filename = resolve(viteConfig.build.outDir, 'projects.json');
       await writeJson<Project[]>(filename, projectJson);
     },
   };
