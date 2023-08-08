@@ -1,8 +1,9 @@
 {
   "name": "Customizable Upgrade Cards, Class-Specific Alt-Art ",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "Coldtoes"
   ],
@@ -10,8 +11,8 @@
     "Investigator",
     "Alt-Art"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.070Z",
+  "created": "2023-08-08T04:45:26.693Z",
+  "updated": "2023-08-08T04:45:28.883Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [

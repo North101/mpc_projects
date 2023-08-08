@@ -1,16 +1,17 @@
 {
   "name": "Alice in Wonderland",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "The Beard"
   ],
   "tags": [
     "Campaign"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.088Z",
+  "created": "2023-08-08T04:45:26.702Z",
+  "updated": "2023-08-08T04:45:28.894Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [

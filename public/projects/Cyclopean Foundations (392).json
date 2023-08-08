@@ -1,16 +1,17 @@
 {
   "name": "Cyclopean Foundations",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "The Beard"
   ],
   "tags": [
     "Campaign"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.079Z",
+  "created": "2023-08-08T04:45:26.694Z",
+  "updated": "2023-08-08T04:45:28.888Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [

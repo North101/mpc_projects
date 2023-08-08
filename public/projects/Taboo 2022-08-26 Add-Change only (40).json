@@ -1,8 +1,9 @@
 {
   "name": "Taboo 2022 Add/Change Only",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -10,8 +11,8 @@
     "Investigator",
     "Taboo"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.060Z",
+  "created": "2023-08-08T04:45:26.678Z",
+  "updated": "2023-08-08T04:45:28.878Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [

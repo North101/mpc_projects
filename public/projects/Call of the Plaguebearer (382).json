@@ -1,16 +1,17 @@
 {
   "name": "Call of the Plaguebearer",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "Dr. Jack Science"
   ],
   "tags": [
     "Campaign"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.087Z",
+  "created": "2023-08-08T04:45:26.697Z",
+  "updated": "2023-08-08T04:45:28.895Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [

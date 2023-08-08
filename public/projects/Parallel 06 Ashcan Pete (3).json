@@ -1,8 +1,9 @@
 {
   "name": "Parallel 6: Ashcan Pete",
   "description": "",
-  "website": null,
   "content": "",
+  "info": null,
+  "website": null,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -10,8 +11,8 @@
     "Investigator",
     "Parallel"
   ],
-  "info": null,
-  "updated": "2023-08-08T02:54:46.063Z",
+  "created": "2023-08-08T04:45:26.682Z",
+  "updated": "2023-08-08T04:45:28.879Z",
   "version": 1,
   "code": "C380050185D1C1AF",
   "cards": [
