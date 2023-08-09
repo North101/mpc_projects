@@ -6,6 +6,7 @@ import Stack from "react-bootstrap/esm/Stack";
 import { useProjects } from "../projects";
 import { CircularProgressIndicator } from "./CircularProgressIndicator";
 import { ProjectList } from "./ProjectList";
+import { NavLink } from "react-bootstrap";
 
 
 interface HeaderProps {
@@ -14,8 +15,10 @@ interface HeaderProps {
 
 const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand className="bg-body-tertiary" sticky="top">
-    <Container>
+    <Container className="d-flex justify-content-start">
       <Navbar.Brand href="/">MPC Projects</Navbar.Brand>
+      <NavLink href="/about">About</NavLink>
+      <span style={{ flex: 1 }} />
       <Form className="d-flex">
         <Form.Control
           type="search"
