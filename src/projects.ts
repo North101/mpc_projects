@@ -1,20 +1,20 @@
-import { useEffect, useState } from "react";
-import { Project } from "./types";
+import { useEffect, useState } from 'react'
+import { Project } from './types'
 
-let projects: Promise<Project[]>;
+let projects: Promise<Project[]>
 
 const fetchProjects = async () => {
-  const r = await fetch('/projects.json');
-  return await r.json();
+  const r = await fetch('/projects.json')
+  return await r.json()
 }
 
 export const useProjects = () => {
-  const [data, setData] = useState<Project[] | undefined>();
+  const [data, setData] = useState<Project[] | undefined>()
 
   useEffect(() => {
-    projects ??= fetchProjects();
-    projects.then(setData);
-  }, []);
+    projects ??= fetchProjects()
+    projects.then(setData)
+  }, [])
 
-  return data;
+  return data
 }

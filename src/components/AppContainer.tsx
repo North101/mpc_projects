@@ -1,34 +1,34 @@
-import { useState } from "react";
-import Container from "react-bootstrap/esm/Container";
-import Form from "react-bootstrap/esm/Form";
-import Navbar from "react-bootstrap/esm/Navbar";
-import Stack from "react-bootstrap/esm/Stack";
-import { useProjects } from "../projects";
-import { CircularProgressIndicator } from "./CircularProgressIndicator";
-import { ProjectList } from "./ProjectList";
-import { Nav, NavLink } from "react-bootstrap";
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import { useState } from 'react'
+import Container from 'react-bootstrap/esm/Container'
+import Form from 'react-bootstrap/esm/Form'
+import Navbar from 'react-bootstrap/esm/Navbar'
+import Stack from 'react-bootstrap/esm/Stack'
+import { useProjects } from '../projects'
+import { CircularProgressIndicator } from './CircularProgressIndicator'
+import { ProjectList } from './ProjectList'
+import { Nav, NavLink } from 'react-bootstrap'
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 
 
 interface HeaderProps {
-  setSearch: (value: string) => void;
+  setSearch: (value: string) => void
 }
 
 const Header = ({ setSearch }: HeaderProps) => (
-  <Navbar expand="sm" className="bg-body-tertiary" sticky="top">
+  <Navbar expand='sm' className='bg-body-tertiary' sticky='top'>
     <Container>
-      <Navbar.Brand href="/">MPC Projects</Navbar.Brand>
+      <Navbar.Brand href='/'>MPC Projects</Navbar.Brand>
       <Navbar.Toggle/>
       <NavbarCollapse>
-        <Nav className="d-flex justify-content-start flex-fill">
-          <NavLink href="/about">About</NavLink>
-          <span className="flex-fill" />
+        <Nav className='d-flex justify-content-start flex-fill'>
+          <NavLink href='/about'>About</NavLink>
+          <span className='flex-fill' />
           <Form>
             <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
+              type='search'
+              placeholder='Search'
+              className='me-2'
+              aria-label='Search'
               onChange={e => setSearch(e.target.value)}
             />
           </Form>
@@ -36,14 +36,14 @@ const Header = ({ setSearch }: HeaderProps) => (
       </NavbarCollapse>
     </Container>
   </Navbar>
-);
+)
 
 interface SearchProjectListProps {
-  search: string;
+  search: string
 }
 
 const SearchProjectList = ({ search }: SearchProjectListProps) => {
-  const projects = useProjects();
+  const projects = useProjects()
   if (projects == undefined) {
     return <CircularProgressIndicator />
   }
@@ -56,15 +56,15 @@ const SearchProjectList = ({ search }: SearchProjectListProps) => {
 }
 
 interface AppContainerProps {
-  children: JSX.Element;
+  children: JSX.Element
 }
 
 export const AppContainer = ({ children }: AppContainerProps) => {
-  const [search, setSearch] = useState<string>("")
+  const [search, setSearch] = useState<string>('')
   return (
-    <Stack gap={2} className="d-flex h-100">
+    <Stack gap={2} className='d-flex h-100'>
       <Header setSearch={setSearch} />
-      <div className="d-flex flex-fill overflow-auto">
+      <div className='d-flex flex-fill overflow-auto'>
         <Container>
           {search.trim() ? <SearchProjectList search={search} /> : children}
         </Container>
