@@ -3,9 +3,54 @@ import crypto from 'crypto'
 import { promises as fs } from 'fs'
 import { glob } from 'glob'
 import mpcData from 'mpc_api/data'
-import path, { resolve } from 'path'
+import path from 'path'
 import { Plugin, ResolvedConfig, defineConfig } from 'vite'
-import { FullProject, Project } from './types'
+import { Card, CardFace, FullProject, Project } from './types'
+
+import Ajv, { JTDSchemaType } from 'ajv/dist/jtd'
+const ajv = new Ajv({});
+
+const cardFaceSchema: JTDSchemaType<CardFace> = {
+  properties: {
+    Name: { type: 'string' },
+    ID: { type: 'string' },
+    SourceID: { type: 'string' },
+    Exp: { type: 'string' },
+    Width: { type: 'int32' },
+    Height: { type: 'int32' },
+  },
+}
+
+const cardSchema: JTDSchemaType<Card> = {
+  properties: {
+    count: { type: 'int32' }
+  },
+  optionalProperties: {
+    front: cardFaceSchema,
+    back: cardFaceSchema,
+  },
+  additionalProperties: true,
+}
+
+const projectSchema: JTDSchemaType<FullProject> = {
+  properties: {
+    version: { type: 'int32' },
+    code: { type: 'string' },
+    hash: { type: 'string' },
+    name: { type: 'string' },
+    description: { type: 'string' },
+    content: { type: 'string' },
+    authors: { elements: { type: 'string' } },
+    tags: { elements: { type: 'string' } },
+    created: { type: 'string' },
+    updated: { type: 'string' },
+    website: { type: 'string', nullable: true },
+    info: { type: 'string', nullable: true },
+    cards: { elements: cardSchema },
+  },
+}
+
+const validateProject = ajv.compile(projectSchema)
 
 const readJson = async <T>(filename: string) => {
   return JSON.parse(await fs.readFile(filename, 'utf-8')) as T;
@@ -21,10 +66,15 @@ const hashJson = (value: any) => {
   return hashSum.digest('hex');
 }
 
-const buildProjectsJson = async () => {
-  const allProjects = await glob(['public/projects/*.json']);
-  return await Promise.all(allProjects.map(async (e): Promise<Project> => {
+const buildProjectsJson = async (projectsDir: string) => {
+  const allProjects = await glob([path.resolve(projectsDir, '*.json')]);
+  const projects = await Promise.all(allProjects.map(async (e): Promise<Project|null> => {
     const project = await readJson<FullProject>(e);
+    if (!validateProject(project)) {
+      console.log(`${e} is not valid`);
+      console.log(validateProject.errors);
+      return null;
+    }
 
     const {
       version,
@@ -84,23 +134,44 @@ const buildProjectsJson = async () => {
       sites: Object.entries(mpcData.units)
         .map(([site, unit]) => unit.find(e => e.code == code) ? site : null)
         .flatMap(site => mpcData.sites.find(e => e.code == site)?.urls)
-        .filter(e => e),
+        .filter((e): e is string => e != null),
     };
   }));
+
+  return projects.filter((e): e is Project => e != null);
 }
 
-const buildProjects = (): Plugin => {
+interface buildProjectsProps {
+  projectsDir: string;
+}
+
+const isProjectFile = (projectsDir: string, file: string) => {
+  if (path.extname(file) != '.json') return false;
+
+  return path.relative(__dirname, file) == path.join(projectsDir, path.basename(file));
+}
+
+const buildProjects = ({ projectsDir }: buildProjectsProps): Plugin => {
   let viteConfig: ResolvedConfig;
 
   return {
     name: 'build-projects',
+    handleHotUpdate: ({ file, server }) => {
+      if (isProjectFile(projectsDir, file)) {
+        console.log(`Project changed: ${file}. Reloading`)
+        server.ws.send({
+          type: 'full-reload',
+          path: '*'
+        });
+      }
+    },
     configResolved: (resolvedConfig) => {
       viteConfig = resolvedConfig;
     },
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         if (req.url == '/projects.json') {
-          const projectsJson = await buildProjectsJson();
+          const projectsJson = await buildProjectsJson(projectsDir);
 
           res.statusCode = 200;
           res.setHeader('Content-Type', 'application/json');
@@ -111,8 +182,8 @@ const buildProjects = (): Plugin => {
       })
     },
     async writeBundle() {
-      const projectJson = await buildProjectsJson();
-      const filename = resolve(viteConfig.build.outDir, 'projects.json');
+      const projectJson = await buildProjectsJson(projectsDir);
+      const filename = path.resolve(viteConfig.build.outDir, 'projects.json');
       await writeJson<Project[]>(filename, projectJson);
     },
   };
@@ -122,6 +193,8 @@ const buildProjects = (): Plugin => {
 export default defineConfig({
   plugins: [
     react(),
-    buildProjects(),
+    buildProjects({
+      projectsDir: path.join('public', 'projects'),
+    }),
   ],
 })

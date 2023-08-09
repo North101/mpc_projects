@@ -32,7 +32,7 @@ export interface Card {
 }
 
 export interface FullProject extends BaseProject {
-  version: 1;
+  version: number;
   code: string;
   cards: Card[];
   hash: string;
