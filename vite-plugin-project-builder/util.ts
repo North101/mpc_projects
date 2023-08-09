@@ -11,7 +11,7 @@ export const writeJson = async <T>(filename: string, value: T) => {
   return fs.writeFile(filename, JSON.stringify(value, undefined, 2), 'utf-8')
 }
 
-export const hashJson = (value: any) => {
+export const hashJson = (value: unknown) => {
   const hashSum = crypto.createHash('sha256')
   hashSum.update(JSON.stringify(value))
   return hashSum.digest('hex')

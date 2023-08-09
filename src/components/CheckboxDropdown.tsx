@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { FormEventHandler, useEffect, useRef, useState } from 'react'
 import Button from 'react-bootstrap/esm/Button'
 import ButtonGroup from 'react-bootstrap/esm/ButtonGroup'
 import Dropdown from 'react-bootstrap/esm/Dropdown'
@@ -23,49 +23,61 @@ interface CheckboxMenuProps {
   onSelectNone?: () => void
 }
 
-const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
-  ({ children, style, className, 'aria-labelledby': labelledBy, onSelectNone, type, search, setSearch }, ref) => {
-    const innerRef = useRef<HTMLInputElement>(null)
-    useEffect(() => innerRef.current?.focus())
+const CheckboxMenuRenderer = (
+  {
+    children,
+    style,
+    className,
+    'aria-labelledby': labelledBy,
+    onSelectNone,
+    type,
+    search,
+    setSearch
+  }: CheckboxMenuProps,
+  ref: React.ForwardedRef<HTMLDivElement>,
+) => {
+  const innerRef = useRef<HTMLInputElement>(null)
+  useEffect(() => innerRef.current?.focus())
 
-    return (
+  return (
+    <div
+      ref={ref}
+      style={style}
+      className={`${className} checkbox-menu`}
+      aria-labelledby={labelledBy}
+    >
       <div
-        ref={ref}
-        style={style}
-        className={`${className} checkbox-menu`}
-        aria-labelledby={labelledBy}
+        className='d-flex flex-column overflow-hidden'
+        style={{ maxHeight: 300 }}
       >
-        <div
-          className='d-flex flex-column overflow-hidden'
-          style={{ maxHeight: 300 }}
-        >
-          {type == 'checkbox' && <div className='border-bottom pb-2'>
-            <Form className='d-flex py-0 px-2'>
-              <Form.Control
-                ref={innerRef}
-                type='search'
-                placeholder='Search'
-                aria-label='Search'
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-            </Form>
-          </div>}
-          <ul className='list-unstyled flex-shrink mb-0 overflow-auto'>
-            {children}
-          </ul>
-          {onSelectNone && <div className='dropdown-item border-top pt-2 pb-0'>
-            <ButtonGroup size='sm'>
-              <Button variant='link' onClick={onSelectNone}>
-                Select None
-              </Button>
-            </ButtonGroup>
-          </div>}
-        </div>
+        {type == 'checkbox' && <div className='border-bottom pb-2'>
+          <Form className='d-flex py-0 px-2'>
+            <Form.Control
+              ref={innerRef}
+              type='search'
+              placeholder='Search'
+              aria-label='Search'
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </Form>
+        </div>}
+        <ul className='list-unstyled flex-shrink mb-0 overflow-auto'>
+          {children}
+        </ul>
+        {onSelectNone && <div className='dropdown-item border-top pt-2 pb-0'>
+          <ButtonGroup size='sm'>
+            <Button variant='link' onClick={onSelectNone}>
+              Select None
+            </Button>
+          </ButtonGroup>
+        </div>}
       </div>
-    )
-  },
-)
+    </div>
+  )
+};
+
+const CheckboxMenu = React.forwardRef<HTMLDivElement, CheckboxMenuProps>(CheckboxMenuRenderer)
 
 interface CheckDropdownItemProps {
   children: JSX.Element[]
@@ -75,18 +87,27 @@ interface CheckDropdownItemProps {
   onChange: (id: string, event: React.FormEvent<HTMLInputElement>) => void
 }
 
-const CheckDropdownItem = React.forwardRef<any, CheckDropdownItemProps>(
-  ({ type, children, id, checked, onChange }, ref) => (
-    <Form.Group ref={ref} className='dropdown-item mb-0' controlId={id}>
-      <Form.Check
-        type={type}
-        label={children}
-        checked={checked}
-        onChange={onChange.bind(onChange, id)}
-      />
-    </Form.Group>
-  ),
-)
+const CheckDropdownItemRenderer = (
+  {
+    type,
+    children,
+    id,
+    checked,
+    onChange,
+  }: CheckDropdownItemProps,
+  ref: React.ForwardedRef<HTMLDivElement>,
+) => (
+  <Form.Group ref={ref} className='dropdown-item mb-0' controlId={id}>
+    <Form.Check
+      type={type}
+      label={children}
+      checked={checked}
+      onChange={onChange.bind(onChange, id)}
+    />
+  </Form.Group>
+);
+
+const CheckDropdownItem = React.forwardRef<HTMLDivElement, CheckDropdownItemProps>(CheckDropdownItemRenderer)
 
 interface CheckboxDropdown {
   type: CheckboxType
@@ -156,7 +177,7 @@ export const CheckboxDropdown = ({ type, label, items, onChecked, onSelectNone }
             type={type}
             as={CheckDropdownItem}
             checked={i.checked}
-            onChange={onChecked as any}
+            onChange={onChecked as unknown as FormEventHandler<HTMLElement>}
           >
             {i.label}
           </Dropdown.Item>
