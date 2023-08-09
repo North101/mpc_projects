@@ -36,11 +36,11 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
         aria-labelledby={labelledBy}
       >
         <div
-          className="d-flex flex-column"
-          style={{ maxHeight: "calc(300px)", overflow: "none" }}
+          className="d-flex flex-column overflow-hidden"
+          style={{ maxHeight: 300 }}
         >
-          {type == "checkbox" && <div className="border-bottom" style={{ paddingBottom: 8 }}>
-            <Form className="d-flex" style={{ padding: "0 8px" }}>
+          {type == "checkbox" && <div className="border-bottom pb-2">
+            <Form className="d-flex py-0 px-2">
               <Form.Control
                 ref={innerRef}
                 type="search"
@@ -51,10 +51,7 @@ const CheckboxMenu = React.forwardRef<any, CheckboxMenuProps>(
               />
             </Form>
           </div>}
-          <ul
-            className="list-unstyled flex-shrink mb-0"
-            style={{ overflow: "auto" }}
-          >
+          <ul className="list-unstyled flex-shrink mb-0 overflow-auto">
             {children}
           </ul>
           {onSelectNone && <div className="dropdown-item border-top pt-2 pb-0">

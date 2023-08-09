@@ -17,7 +17,7 @@ export const ProjectInfo = ({ name, info }: ProjectInfoProps) => {
     <OverlayTrigger
       overlay={<Tooltip id={name}>{info}</Tooltip>}
     >
-      <InfoCircle size={16} style={{ marginRight: 4, marginTop: 4 }} />
+      <InfoCircle size={16} className="mx-1" />
     </OverlayTrigger>
   );
 }
@@ -30,7 +30,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
   <Card>
     <Card.Header as="h5">
       <div className="d-flex align-items-center">
-        <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: "center" }}>
+        <Card.Link className="text-truncate flex-fill align-self-center" href={project.website ?? undefined}>
           {project.name}
         </Card.Link>
         <Button style={{ width: 32, height: 32, marginLeft: 4 }} variant="outline-primary" size="sm">
@@ -40,7 +40,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
       <Card.Subtitle className="text-truncate"><ProjectAuthors authors={project.authors} /></Card.Subtitle>
     </Card.Header>
     <Card.Body className="d-flex align-items-center">
-      <small style={{ flex: 1 }}>Cards: {project.cardCount}</small>
+      <small className="flex-fill">Cards: {project.cardCount}</small>
       {project.info && <ProjectInfo name={project.name} info={project.info} />}
     </Card.Body>
     <Card.Footer>

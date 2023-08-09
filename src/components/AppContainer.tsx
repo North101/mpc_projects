@@ -6,7 +6,8 @@ import Stack from "react-bootstrap/esm/Stack";
 import { useProjects } from "../projects";
 import { CircularProgressIndicator } from "./CircularProgressIndicator";
 import { ProjectList } from "./ProjectList";
-import { NavLink } from "react-bootstrap";
+import { Nav, NavLink } from "react-bootstrap";
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 
 
 interface HeaderProps {
@@ -14,20 +15,25 @@ interface HeaderProps {
 }
 
 const Header = ({ setSearch }: HeaderProps) => (
-  <Navbar expand className="bg-body-tertiary" sticky="top">
-    <Container className="d-flex justify-content-start">
+  <Navbar expand="sm" className="bg-body-tertiary" sticky="top">
+    <Container>
       <Navbar.Brand href="/">MPC Projects</Navbar.Brand>
-      <NavLink href="/about">About</NavLink>
-      <span style={{ flex: 1 }} />
-      <Form className="d-flex">
-        <Form.Control
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-          onChange={e => setSearch(e.target.value)}
-        />
-      </Form>
+      <Navbar.Toggle/>
+      <NavbarCollapse>
+        <Nav className="d-flex justify-content-start flex-fill">
+          <NavLink href="/about">About</NavLink>
+          <span className="flex-fill" />
+          <Form>
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+              onChange={e => setSearch(e.target.value)}
+            />
+          </Form>
+        </Nav>
+      </NavbarCollapse>
     </Container>
   </Navbar>
 );
@@ -58,7 +64,7 @@ export const AppContainer = ({ children }: AppContainerProps) => {
   return (
     <Stack gap={2} className="d-flex h-100">
       <Header setSearch={setSearch} />
-      <div className="d-flex" style={{ flex: 1, overflowY: 'auto' }}>
+      <div className="d-flex flex-fill overflow-auto">
         <Container>
           {search.trim() ? <SearchProjectList search={search} /> : children}
         </Container>

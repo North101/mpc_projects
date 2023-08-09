@@ -23,7 +23,7 @@ export const AboutPage = () => {
   const data = useFetch();
   return (
     <AppContainer>
-      <div style={{ width: '80%', margin: 'auto' }}>
+      <div className="w-75 m-auto">
         <ReactMarkdown>{data ?? ''}</ReactMarkdown>
       </div>
     </AppContainer>

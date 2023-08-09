@@ -8,7 +8,7 @@ export const ProjectAuthors = ({ authors }: ProjectAuthorsProps) => (
   <>
     {authors.map((e, i) => <span key={i}>
       {i > 0 && ", "}
-      <Button style={{ padding: 0 }} variant="link" href={`/author/${e}`}>{e}</Button>
+      <Button className="p-0" variant="link" href={`/author/${e}`}>{e}</Button>
     </span>)}
   </>
 );

@@ -24,8 +24,8 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
     <AppContainer>
       <Card>
         <Card.Header as="h5">
-          <div style={{ display: "flex" }}>
-            <Card.Link className="text-truncate" href={project.website ?? undefined} style={{ flex: 1, alignSelf: "center", }}>
+          <div className="d-flex">
+            <Card.Link className="text-truncate flex-fill align-self-center" href={project.website ?? undefined}>
               {project.name}
             </Card.Link>
             <a href={`/${project.filename}`} download={true}>
