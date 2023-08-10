@@ -29,6 +29,7 @@ const fullProjectSchema: JTDSchemaType<FullProject> = {
     version: { type: 'int32' },
     code: { type: 'string' },
     hash: { type: 'string' },
+    id: { type: 'string' },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },

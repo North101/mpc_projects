@@ -33,6 +33,7 @@ export interface Card {
 }
 
 export interface FullProject extends BaseProject {
+  id: string
   version: number
   code: string
   cards: Card[]

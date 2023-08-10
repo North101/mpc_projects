@@ -16,6 +16,7 @@ const buildProjectJson = async (filename: string) => {
   }
 
   const {
+    id,
     name,
     description,
     content,
@@ -39,6 +40,7 @@ const buildProjectJson = async (filename: string) => {
   if (oldHash != newHash) {
     updated = (new Date()).toISOString()
     await writeJson<FullProject>(filename, {
+      id,
       name,
       description,
       content,
