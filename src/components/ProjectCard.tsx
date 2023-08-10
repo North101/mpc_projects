@@ -33,11 +33,15 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
         <Card.Link className='text-truncate flex-fill align-self-center' href={project.website ?? undefined}>
           {project.name}
         </Card.Link>
-        <Button style={{ width: 32, height: 32, marginLeft: 4 }} variant='outline-primary' size='sm'>
-          <a href={`/projects/${project.filename}`} download={true} style={{ color: 'inherit' }}><CloudArrowDown /></a>
-        </Button>
+        <a href={`/projects/${project.filename}`} download={true}>
+          <Button style={{ width: 32, height: 32, marginLeft: 4 }} variant='outline-primary' size='sm'>
+            <CloudArrowDown />
+          </Button>
+        </a>
       </div>
-      <Card.Subtitle className='text-truncate'><ProjectAuthors authors={project.authors} /></Card.Subtitle>
+      <Card.Subtitle className='text-truncate'>
+        <ProjectAuthors authors={project.authors} />
+      </Card.Subtitle>
     </Card.Header>
     <Card.Body className='d-flex align-items-center'>
       <small className='flex-fill'>Cards: {project.cardCount}</small>
