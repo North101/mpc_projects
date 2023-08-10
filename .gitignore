@@ -3,3 +3,4 @@
 /dist
 
 deploy.json
+.env

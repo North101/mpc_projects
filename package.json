@@ -20,7 +20,8 @@
     "wouter": "^2.11.0"
   },
   "devDependencies": {
-    "@types/node": "20.4.9",
+    "@tsconfig/node20": "^20.1.1",
+    "@types/node": "^20.4.9",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
@@ -35,7 +36,7 @@
     "glob": "^10.3.3",
     "mpc_api": "https://github.com/North101/mpc_api",
     "path": "^0.12.7",
-    "typescript": "^5.0.2",
+    "typescript": "^5.1.6",
     "vite": "^4.4.5",
     "vite-plugin-rewrite-all": "^1.0.1"
   }
