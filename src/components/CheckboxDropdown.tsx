@@ -75,7 +75,7 @@ const CheckboxMenuRenderer = (
       </div>
     </div>
   )
-};
+}
 
 const CheckboxMenu = React.forwardRef<HTMLDivElement, CheckboxMenuProps>(CheckboxMenuRenderer)
 
@@ -105,7 +105,7 @@ const CheckDropdownItemRenderer = (
       onChange={onChange.bind(onChange, id)}
     />
   </Form.Group>
-);
+)
 
 const CheckDropdownItem = React.forwardRef<HTMLDivElement, CheckDropdownItemProps>(CheckDropdownItemRenderer)
 
