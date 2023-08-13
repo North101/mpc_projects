@@ -31,18 +31,28 @@ interface ProjectCardProps {
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   const [show, setShow] = useState(false)
 
-  const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
+  const onShow = () => setShow(true)
+  const onClose = () => setShow(false)
+
+  const count = project.parts.reduce((count, card) => count + card.count, 0)
 
   return (
     <>
       <Card>
         <Card.Header as='h5'>
           <div className='d-flex align-items-center'>
-            <Card.Link className='text-truncate flex-fill align-self-center' href={project.website ?? undefined}>
+            <Card.Link
+              className='text-truncate flex-fill align-self-center'
+              href={project.website ?? undefined}
+            >
               {project.name}
             </Card.Link>
-            <Button style={{ width: 32, height: 32, marginLeft: 4 }} variant='outline-primary' size='sm' onClick={handleShow}>
+            <Button
+              style={{ width: 32, height: 32, marginLeft: 4 }}
+              variant='outline-primary'
+              size='sm'
+              onClick={onShow}
+            >
               <CloudArrowDown />
             </Button>
           </div>
@@ -51,14 +61,20 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           </Card.Subtitle>
         </Card.Header>
         <Card.Body className='d-flex align-items-center'>
-          <small className='flex-fill'>Cards: {project.parts.reduce((count, card) => count + card.count, 0)}</small>
-          {project.info && <ProjectTooltip name={project.name} info={project.info} />}
+          <small className='flex-fill'>Cards: {count}</small>
+          {project.info && <ProjectTooltip
+            name={project.name}
+            info={project.info}
+          />}
         </Card.Body>
         <Card.Footer>
           <ProjectTags tags={project.tags} />
         </Card.Footer>
       </Card>
-      {show && <ProjectDownloadModal project={project} handleClose={handleClose} />}
+      {show && <ProjectDownloadModal
+        project={project}
+        onClose={onClose}
+      />}
     </>
   )
 }

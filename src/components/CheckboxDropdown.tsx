@@ -37,6 +37,7 @@ const CheckboxMenuRenderer = (
   ref: React.ForwardedRef<HTMLDivElement>,
 ) => {
   const innerRef = useRef<HTMLInputElement>(null)
+
   useEffect(() => innerRef.current?.focus())
 
   return (
@@ -138,9 +139,9 @@ const useItems = (type: CheckboxType, items: CheckboxState[]): {
 
   // when items change, keep previous sorted position
   useEffect(() => {
-    setSortedItems(items.toSorted((a, b) => {
-      const aIndex = sortedItems.findIndex(e => e.id == a.id)
-      const bIndex = sortedItems.findIndex(e => e.id == b.id)
+    setSortedItems(prevState => items.toSorted((a, b) => {
+      const aIndex = prevState.findIndex(e => e.id == a.id)
+      const bIndex = prevState.findIndex(e => e.id == b.id)
       return aIndex - bIndex
     }))
   }, [items])

@@ -134,6 +134,48 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     return hasSomeAuthors && hasSomeTags && hasSomeSites
   }).toSorted(sorts[sort])
 
+  const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setAuthorFilter(authorFilter.map(e => ({
+      ...e,
+      checked: e.id == id ? event.currentTarget.checked : e.checked,
+    })))
+  }
+
+  const onAuthorSelectNone = () => {
+    setAuthorFilter(authorFilter.map(e => ({
+      ...e,
+      checked: false,
+    })))
+  }
+
+  const onTagChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setTagFilter(tagFilter.map(e => ({
+      ...e,
+      checked: e.id == id ? event.currentTarget.checked : e.checked,
+    })))
+  }
+
+  const onTagSelectNone = () => {
+    setTagFilter(tagFilter.map(e => ({
+      ...e,
+      checked: false,
+    })))
+  }
+
+  const onSiteChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setSiteFilter(siteFilter.map(e => ({
+      ...e,
+      checked: e.id == id ? event.currentTarget.checked : e.checked,
+    })))
+  }
+
+  const onSiteSelectNone = () => setSiteFilter(siteFilter.map(e => ({
+    ...e,
+    checked: false,
+  })))
+
+  const onSetSort = (id: string) => setSort(id)
+
   return (
     <Stack gap={2}>
       <Navbar className='bg-body-tertiary' sticky='top'>
@@ -148,46 +190,28 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   label: e,
                   checked: e == sort,
                 }))}
-                onChecked={(id: string) => setSort(id)}
+                onChecked={onSetSort}
               />
               <CheckboxDropdown
                 type='checkbox'
                 label='Authors'
                 items={authorFilter}
-                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setAuthorFilter(authorFilter.map(e => ({
-                  ...e,
-                  checked: e.id == id ? event.currentTarget.checked : e.checked,
-                })))}
-                onSelectNone={() => setAuthorFilter(authorFilter.map(e => ({
-                  ...e,
-                  checked: false,
-                })))}
+                onChecked={onAuthorChecked}
+                onSelectNone={onAuthorSelectNone}
               />
               <CheckboxDropdown
                 type='checkbox'
                 label='Tags'
                 items={tagFilter}
-                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setTagFilter(tagFilter.map(e => ({
-                  ...e,
-                  checked: e.id == id ? event.currentTarget.checked : e.checked,
-                })))}
-                onSelectNone={() => setTagFilter(tagFilter.map(e => ({
-                  ...e,
-                  checked: false,
-                })))}
+                onChecked={onTagChecked}
+                onSelectNone={onTagSelectNone}
               />
               <CheckboxDropdown
                 type='checkbox'
                 label='Sites'
                 items={siteFilter}
-                onChecked={(id: string, event: React.FormEvent<HTMLInputElement>) => setSiteFilter(siteFilter.map(e => ({
-                  ...e,
-                  checked: e.id == id ? event.currentTarget.checked : e.checked,
-                })))}
-                onSelectNone={() => setSiteFilter(siteFilter.map(e => ({
-                  ...e,
-                  checked: false,
-                })))}
+                onChecked={onSiteChecked}
+                onSelectNone={onSiteSelectNone}
               />
             </Nav>
           </Navbar.Collapse>

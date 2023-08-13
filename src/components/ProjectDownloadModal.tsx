@@ -1,10 +1,10 @@
-import { useState } from "react"
-import Button from "react-bootstrap/esm/Button"
-import Form from "react-bootstrap/esm/Form"
-import Modal from "react-bootstrap/esm/Modal"
-import { ProjectDownload, ProjectInfo } from "../types"
+import { useState } from 'react'
+import Button from 'react-bootstrap/esm/Button'
+import Form from 'react-bootstrap/esm/Form'
+import Modal from 'react-bootstrap/esm/Modal'
+import { ProjectDownload, ProjectInfo } from '../types'
 
-const downloadProject = async (project: ProjectInfo, checked: boolean[], handleClose: () => void) => {
+const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose: () => void) => {
   const r = await fetch(`/projects/${project.filename}`)
   const file: ProjectDownload = await r.json()
   const download = {
@@ -17,9 +17,9 @@ const downloadProject = async (project: ProjectInfo, checked: boolean[], handleC
     suggestedName: project.filename,
     types: [
       {
-        description: "Project file",
+        description: 'Project file',
         accept: {
-          "application/json": [".json"],
+          'application/json': ['.json'],
         },
       },
     ],
@@ -28,25 +28,32 @@ const downloadProject = async (project: ProjectInfo, checked: boolean[], handleC
   await writable.write(JSON.stringify(download))
   await writable.close()
 
-  handleClose()
+  onClose()
 }
 
 interface ProjectDownloadModalProps {
   project: ProjectInfo
-  handleClose: () => void
+  onClose: () => void
 }
 
-export const ProjectDownloadModal = ({ project, handleClose }: ProjectDownloadModalProps) => {
+export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalProps) => {
   const [checked, setChecked] = useState(project.parts.map(() => true))
   const anyChecked = checked.some(e => e)
-  const handleDownload = () => downloadProject(
+  const onDownload = () => downloadProject(
     project,
     checked,
-    handleClose,
+    onClose,
   )
 
+  const onChange = (event: React.ChangeEvent<HTMLInputElement>, index: number) => {
+    const checked = event.currentTarget.checked
+    setChecked(prevState => prevState.map((v, i) => {
+      return index == i ? checked : v
+    }))
+  }
+
   return (
-    <Modal show centered scrollable onHide={handleClose}>
+    <Modal show centered scrollable onHide={onClose}>
       <Modal.Header closeButton>
         <Modal.Title>{project.name}</Modal.Title>
       </Modal.Header>
@@ -54,18 +61,27 @@ export const ProjectDownloadModal = ({ project, handleClose }: ProjectDownloadMo
       <Modal.Body>
         {project.parts.map((e, index) => <Form.Check
           key={index}
-          type="checkbox"
+          type='checkbox'
           label={`${e.name} (${e.count})`}
           checked={checked[index]}
-          onChange={(e) => setChecked(checked.map((v, i) => {
-            return index == i ? e.currentTarget.checked : v
-          }))}
+          onChange={(e) => onChange(e, index)}
         />)}
       </Modal.Body>
 
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>Close</Button>
-        <Button variant="primary" onClick={handleDownload} disabled={!anyChecked}>Download</Button>
+        <Button
+          variant='secondary'
+          onClick={onClose}
+        >
+          Close
+        </Button>
+        <Button
+          variant='primary'
+          onClick={onDownload}
+          disabled={!anyChecked}
+        >
+          Download
+        </Button>
       </Modal.Footer>
     </Modal>
   )

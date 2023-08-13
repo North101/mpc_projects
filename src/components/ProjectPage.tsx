@@ -34,9 +34,13 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
               </Button>
             </a>
           </div>
-          <Card.Subtitle className='text-truncate'><ProjectAuthors authors={project.authors} /></Card.Subtitle>
+          <Card.Subtitle className='text-truncate'>
+            <ProjectAuthors authors={project.authors} />
+          </Card.Subtitle>
         </Card.Header>
-        <Card.Header><ProjectTags tags={project.tags} /></Card.Header>
+        <Card.Header>
+          <ProjectTags tags={project.tags} />
+        </Card.Header>
         <Card.Body>
           <Card.Text>
             <ReactMarkdown>{project.content ?? ''}</ReactMarkdown>
