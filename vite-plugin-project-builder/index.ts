@@ -78,7 +78,16 @@ const readProject = async (filename: string): Promise<ProjectV1WithFilename | Pr
     }
   }
 
-  console.log(`${filename} is not valid`)
+  console.log(basename(filename))
+  if ('parts' in project) {
+    projectV2Validator.errors
+      ?.map(e => `  ${e.instancePath}/ ${e.message}`)
+      ?.forEach((e) => console.log(e))
+  } else {
+    projectV1Validator.errors
+      ?.map(e => `  ${e.instancePath}/ ${e.message}`)
+      ?.forEach((e) => console.log(e))
+  }
   return null
 }
 
