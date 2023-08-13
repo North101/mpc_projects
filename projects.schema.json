@@ -3,7 +3,7 @@
   "title": "Generated schema for Projects",
   "type": "object",
   "properties": {
-    "id": {
+    "projectId": {
       "type": "string"
     },
     "name": {

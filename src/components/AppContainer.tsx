@@ -1,13 +1,13 @@
 import { useState } from 'react'
+import { Nav, NavLink } from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
 import Form from 'react-bootstrap/esm/Form'
 import Navbar from 'react-bootstrap/esm/Navbar'
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import Stack from 'react-bootstrap/esm/Stack'
 import { useProjects } from '../projects'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { ProjectList } from './ProjectList'
-import { Nav, NavLink } from 'react-bootstrap'
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 
 
 interface HeaderProps {
@@ -18,7 +18,7 @@ const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='sm' className='bg-body-tertiary' sticky='top'>
     <Container>
       <Navbar.Brand href='/'>MPC Projects</Navbar.Brand>
-      <Navbar.Toggle/>
+      <Navbar.Toggle />
       <NavbarCollapse>
         <Nav className='d-flex justify-content-start flex-fill'>
           <NavLink href='/about'>About</NavLink>

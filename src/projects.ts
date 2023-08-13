@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Project } from './types'
+import { ProjectInfo } from './types'
 
-let projects: Promise<Project[]>
+let projects: Promise<ProjectInfo[]>
 
 const fetchProjects = async () => {
   const r = await fetch('/projects.json')
@@ -9,7 +9,7 @@ const fetchProjects = async () => {
 }
 
 export const useProjects = () => {
-  const [data, setData] = useState<Project[] | undefined>()
+  const [data, setData] = useState<ProjectInfo[] | undefined>()
 
   useEffect(() => {
     projects ??= fetchProjects()

@@ -101,9 +101,9 @@ async def main(email, password, project_ids):
     await asyncio.wait(tasks)
 
 
-def readProjectId(filename: str):
+def read_project_id(filename: str):
   with open(filename, 'r', encoding='utf-8') as f:
-    return json.load(f)['id']
+    return json.load(f)['projectId']
 
 
 if __name__ == '__main__':
@@ -111,7 +111,7 @@ if __name__ == '__main__':
     email=os.environ['EMAIL'],
     password=os.environ['PASSWORD'],
     project_ids=[
-      readProjectId(project)
+      read_project_id(project)
       for project in glob.glob(f'{os.environ["PROJECTS_DIR"]}/*.json')
     ],
   ))

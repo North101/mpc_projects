@@ -1,22 +1,3 @@
-interface BaseProject {
-  id: string
-  name: string
-  description: string
-  content: string
-  website: string | null
-  authors: string[]
-  tags: string[]
-  info: string | null
-  created: string
-  updated: string
-}
-
-export interface Project extends BaseProject {
-  filename: string
-  cardCount: number
-  sites: string[]
-}
-
 export interface CardFace {
   Name: string
   ID: string
@@ -32,10 +13,65 @@ export interface Card {
   back?: CardFace
 }
 
-export interface FullProject extends BaseProject {
-  id: string
-  version: number
+export interface ProjectPart {
+  name: string
+  cards: Card[]
+}
+
+export interface ProjectV1 {
+  projectId: string
+  name: string
+  description: string
+  content: string
+  website: string | null
+  authors: string[]
+  tags: string[]
+  info: string | null
+  created: string
+  updated: string
   code: string
   cards: Card[]
   hash: string
+}
+
+export interface ProjectV2 {
+  projectId: string
+  name: string
+  description: string
+  content: string
+  website: string | null
+  authors: string[]
+  tags: string[]
+  info: string | null
+  created: string
+  updated: string
+  code: string
+  parts: ProjectPart[]
+  hash: string
+}
+
+export interface ProjectInfoPart {
+  name: string
+  count: number
+}
+
+export interface ProjectInfo {
+  name: string
+  description: string
+  content: string
+  website: string | null
+  authors: string[]
+  tags: string[]
+  info: string | null
+  created: string
+  updated: string
+  filename: string
+  parts: ProjectInfoPart[]
+  sites: string[]
+}
+
+export interface ProjectDownload {
+  version: number
+  code: string
+  parts: ProjectPart[]
 }

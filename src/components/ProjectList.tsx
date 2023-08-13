@@ -1,10 +1,10 @@
 import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
+import { ProjectInfo } from '../types'
 import { ProjectCard } from './ProjectCard'
-import { Project } from '../types'
 
 interface ProjectListProps {
-  projects: Project[]
+  projects: ProjectInfo[]
 }
 
 export const ProjectList = ({ projects }: ProjectListProps) => (

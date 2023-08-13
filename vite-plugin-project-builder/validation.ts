@@ -1,5 +1,5 @@
 import Ajv, { JTDSchemaType } from 'ajv/dist/jtd'
-import { Card, CardFace, FullProject } from './types'
+import { Card, CardFace, ProjectV1, ProjectV2, ProjectPart } from './types'
 
 
 const cardFaceSchema: JTDSchemaType<CardFace> = {
@@ -24,12 +24,18 @@ const cardSchema: JTDSchemaType<Card> = {
   additionalProperties: true,
 }
 
-const fullProjectSchema: JTDSchemaType<FullProject> = {
+const partSchema: JTDSchemaType<ProjectPart> = {
   properties: {
-    version: { type: 'int32' },
+    name: { type: 'string' },
+    cards: { elements: cardSchema }
+  },
+}
+
+const projectV1Schema: JTDSchemaType<ProjectV1> = {
+  properties: {
+    projectId: { type: 'string' },
     code: { type: 'string' },
     hash: { type: 'string' },
-    id: { type: 'string' },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },
@@ -43,5 +49,24 @@ const fullProjectSchema: JTDSchemaType<FullProject> = {
   },
 }
 
+const projectV2Schema: JTDSchemaType<ProjectV2> = {
+  properties: {
+    projectId: { type: 'string' },
+    code: { type: 'string' },
+    hash: { type: 'string' },
+    name: { type: 'string' },
+    description: { type: 'string' },
+    content: { type: 'string' },
+    authors: { elements: { type: 'string' } },
+    tags: { elements: { type: 'string' } },
+    created: { type: 'string' },
+    updated: { type: 'string' },
+    website: { type: 'string', nullable: true },
+    info: { type: 'string', nullable: true },
+    parts: { elements: partSchema },
+  },
+}
+
 const ajv = new Ajv({})
-export default ajv.compile(fullProjectSchema)
+export const projectV1Validator = ajv.compile(projectV1Schema)
+export const projectV2Validator = ajv.compile(projectV2Schema)

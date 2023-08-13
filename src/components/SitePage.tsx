@@ -1,12 +1,12 @@
 import { useProjects } from '../projects'
-import { Project } from '../types'
+import { ProjectInfo } from '../types'
 import { AppContainer } from './AppContainer'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { FilteredProjectListContainer } from './FilteredProjectList'
 
 interface SiteProjectsProps {
   site: string
-  projects: Project[]
+  projects: ProjectInfo[]
 }
 
 const SiteProjects = ({ site, projects }: SiteProjectsProps) => {

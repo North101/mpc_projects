@@ -11,7 +11,7 @@ export default defineConfig({
     react(),
     rewriteAll(),
     projectsBuilder({
-      projectsDir: path.join('public', 'projects'),
+      projectsDir: path.join('projects'),
       projectsFilename: 'projects.json',
     }),
   ],

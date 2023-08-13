@@ -1,0 +1,943 @@
+{
+  "projectId": "2772015665F9119BEB59A778FCF39B3A7EC2CAB58EEE66543A1622C40C138C80252A97735527CF1D",
+  "name": "Parallels 1-5: Core set investigators (revised core art plus Hard Knocks Wendy)",
+  "description": "",
+  "content": "",
+  "website": null,
+  "authors": [
+    "Fantasy Flight Games",
+    "bluehg"
+  ],
+  "tags": [
+    "Investigator",
+    "Standalone",
+    "Parallel"
+  ],
+  "info": null,
+  "created": "2023-08-08T04:45:26.681Z",
+  "updated": "2023-08-12T14:06:20.339Z",
+  "code": "C380050185D1C1AF",
+  "cards": [
+    {
+      "projectId": 0,
+      "count": 1,
+      "front": {
+        "Name": "Daisy Walker Parallel rev core art-front.png",
+        "ID": "5C7802A1353CAAAD43D37BF27C08A7B5",
+        "SourceID": "9EF8D31757E1C3A575142D941A3D2458E55A5B22",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "Daisy Walker Parallel rev core art-back.png",
+        "ID": "03B128A2609F04B1153C182DB8D03BFD",
+        "SourceID": "6A9F4F817D7EE4CAAD5014BBA3BC5A857C39596C",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      }
+    },
+    {
+      "projectId": 156,
+      "count": 1,
+      "front": {
+        "Name": "P0002 - Daisys Tote Bag (Revised)-front.png",
+        "ID": "149BD70A7564DE370600380C3FE84C68",
+        "SourceID": "1AFE43625B08972EAE7BA25E13DA22829314BE4F",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "back.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 12,
+      "count": 1,
+      "front": {
+        "Name": "003 Advanced Necronomicon-a.png",
+        "ID": "A5270BA588ED6D2FEF1F72A40FD68A51",
+        "SourceID": "8F8E9CF82A570A5BE7719CC8D4FA0E9CEAD74182",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 13,
+      "count": 1,
+      "front": {
+        "Name": "004 Read or Die-a.png",
+        "ID": "59CFFD165BB04EF4E795392448ECFE8E",
+        "SourceID": "002F2F0754841CCF34F7D09F48D5F9CA3911D8EC",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "004 Read or Die-b.png",
+        "ID": "24EEF2495C08158DBFBC0B6247330788",
+        "SourceID": "F2BCC4F4C4763854B57BB862452C6EF32A9FA3D9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 14,
+      "count": 1,
+      "front": {
+        "Name": "005 Read or Die Agenda 1-a.png",
+        "ID": "42DA10A1FB7B04504DD64F583A786710",
+        "SourceID": "D18CDFC518F22D6BF435239BF9375FDBED7BECF6",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "005 Read or Die Agenda 1-b.png",
+        "ID": "5841BEF4757A0C6F68B5651C0D5BF1D7",
+        "SourceID": "98BA03729CFEB625CDEE6F722855A3CD43B51011",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 15,
+      "count": 1,
+      "front": {
+        "Name": "006 Read or Die Act 1-a.png",
+        "ID": "06AE73EC4261767EC84626B7697A98D9",
+        "SourceID": "7DD6401C8067C64CAD8738BD5C68713E8523A435",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "006 Read or Die Act 1-b.png",
+        "ID": "8E2FDCFCDAEFF9C52D953D0ECA0AD15D",
+        "SourceID": "8F5EDAC0A9EC72E2A70F50DD8178E9B00F62D89F",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 16,
+      "count": 1,
+      "front": {
+        "Name": "007 Namer of the Dead-a.png",
+        "ID": "ACF1A818CB808AC71E018550C44CBCD0",
+        "SourceID": "D740596719B86F514D7A08C3EAA92D46B1809862",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "007 Namer of the Dead-b.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 1,
+      "count": 1,
+      "front": {
+        "Name": "Skids O'Toole Parallel rev core art-front.png",
+        "ID": "88AA6C42546A4649D8B2343EF6F325F2",
+        "SourceID": "7C969FD94AFFC2C50F6ABE13E62C999B2757B7AE",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "Skids O'Toole Parallel rev core art-back.png",
+        "ID": "E977E28C3434C74659B08085E2CBD221",
+        "SourceID": "1EFA0179D67EF9B1355CB1FE5C706F5952275EB6",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      }
+    },
+    {
+      "projectId": 18,
+      "count": 1,
+      "front": {
+        "Name": "009 Advanced On the Lam-a.png",
+        "ID": "629D8E6B4FB2C5107D45E9900942AD28",
+        "SourceID": "158469869227E7101F3A046F887F0AFBBA1DDCCA",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 19,
+      "count": 1,
+      "front": {
+        "Name": "010 Advanced Hospital Debts-a.png",
+        "ID": "976BD7017CE6603B6E4880A1401F857E",
+        "SourceID": "7727D9585E61D933FFC651C603CD87B5BD32CB2A",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 20,
+      "count": 1,
+      "front": {
+        "Name": "011 All or Nothing-a.png",
+        "ID": "54EFE3FE35BCBE60B8ADE64546505649",
+        "SourceID": "65FD72F6C0FA2D5733B2CD84FD6DAF74FE4380C9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "011 All or Nothing-b.png",
+        "ID": "3C2023CBC41CF5D3A94F595125B29658",
+        "SourceID": "49AD22AE13400EE2F843A8EE5CDA00E5E8808041",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 21,
+      "count": 1,
+      "front": {
+        "Name": "012 All or Nothing Agenda 1-a.png",
+        "ID": "4B5F8BE17842C8EE0B466ACA8F20CFEF",
+        "SourceID": "DB73486BA55FB0354CCCCAC10AD5752F924E6BA2",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "012 All or Nothing Agenda 1-b.png",
+        "ID": "FFFB6EA6E35B7D1320C17B0817E25B8D",
+        "SourceID": "DC3A0BBA83400D23703AF75050D71B7BEABC32A4",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 22,
+      "count": 1,
+      "front": {
+        "Name": "013 All or Nothing Act 1-a.png",
+        "ID": "A71FB3236BBF4CBDCCB9DED9DD458B8F",
+        "SourceID": "E74E04F3243622C3CEAA19920A3C7B973D484BD1",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "013 All or Nothing Act 1-b.png",
+        "ID": "83255AD9A0B8FD2291A96EF8EAD87C97",
+        "SourceID": "099DE5A3B715B7AA2A73B03D7FA79D7ECD44C596",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 23,
+      "count": 1,
+      "front": {
+        "Name": "014 All or Nothing Act 2-a.png",
+        "ID": "17CAA28122E1C330D748C6E93ED38997",
+        "SourceID": "17B54417782615EE1E5357E22441A006D04F7DB8",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "014 All or Nothing Act 2-b.png",
+        "ID": "9754830E721CDF2C20199331C0F1182C",
+        "SourceID": "7DA089B641C5B948D035FC5CFDD55BB76DE64DEC",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 24,
+      "count": 1,
+      "front": {
+        "Name": "015 Siobhan Riley-a.png",
+        "ID": "68DE87BAB21040616ADD9565F8DBF232",
+        "SourceID": "EBC4359C1862E81942147949F7282B93203204BC",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "015 Siobhan Riley-b.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 25,
+      "count": 4,
+      "front": {
+        "Name": "016 Clover Club Bouncer-x4-a.png",
+        "ID": "48868B3670CF833E9E1DBE19B3EF3C3F",
+        "SourceID": "FC5CE5194029844E18987402CE4CED90F0D70FA9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "016 Clover Club Bouncer-x4-b.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 2,
+      "count": 1,
+      "front": {
+        "Name": "Agnes Baker Parallel rev core art-front.png",
+        "ID": "A85496F1A1207F08587E9AB07034B254",
+        "SourceID": "06252F91221EC223900CCEA187C5DF01F7460D56",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "Agnes Baker Parallel rev core art-back.png",
+        "ID": "1688D4A14DA40CDDADB67361DB7C7A4D",
+        "SourceID": "1842A617F585EA06735B6948AD2F1B952C634F7D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      }
+    },
+    {
+      "projectId": 27,
+      "count": 1,
+      "front": {
+        "Name": "018 Advanced Heirloom of Hyperborea-a.png",
+        "ID": "0F0E4B4605514CD5A11B74C0BB509AB7",
+        "SourceID": "04BAED20AD9E169B3E412D03AF230550688A0324",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 157,
+      "count": 1,
+      "front": {
+        "Name": "P0019 - Dark Memory (Revised)-front.png",
+        "ID": "ACE66EE47FD8B5B6972C0E50079CF586",
+        "SourceID": "D4E34279D6ACBD1C8FBB04F7B8FBCA6970D74715",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "back.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 29,
+      "count": 1,
+      "front": {
+        "Name": "020 Bad Blood-a.png",
+        "ID": "434435978A0DEE6532D166AC06A37C3E",
+        "SourceID": "07B3EDF84872B9B379340C88B29DE74B0F9BC2F1",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "020 Bad Blood-b.png",
+        "ID": "82398FE6DF54EC9993F37E7DF4CB8954",
+        "SourceID": "49E0865F10FD3DE69A5F0B4A650463A9477D4939",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 30,
+      "count": 1,
+      "front": {
+        "Name": "021 Bad Blood Agenda 1-a.png",
+        "ID": "E0528CBA13F3F5B3800A16646849BF21",
+        "SourceID": "D72B380911119A95DEFC75A38C57419D605D19A0",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "021 Bad Blood Agenda 1-b.png",
+        "ID": "44DCE0B010073FCAB625BC173BC387C5",
+        "SourceID": "02ED55A95DAEFC0620C2F1D5A1A018DDE81E61E5",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 31,
+      "count": 1,
+      "front": {
+        "Name": "022 Bad Blood Act 1-a.png",
+        "ID": "1650B433F6129038DC28C3330B478CC6",
+        "SourceID": "D809A6A2907DC11187880AE1B6321F2BFFF63EAE",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "022 Bad Blood Act 1-b.png",
+        "ID": "5B73A6686DC578035AADDEAEAD4E8F2A",
+        "SourceID": "3E5EB8735AFA7B7D7636E1684F071A284AAF81F5",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 32,
+      "count": 1,
+      "front": {
+        "Name": "023 Elspeth Baudin-a.png",
+        "ID": "86E57877DF657D81EC6C81999F618CF3",
+        "SourceID": "6F570D1C687F3B771B386226817F9E5EBA3B7CB6",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "023 Elspeth Baudin-b.png",
+        "ID": "451EA891C87E76E0C8182CE3BC37FDAE",
+        "SourceID": "068B7E2F8D1244AC2EB006F1DC5FC63C6A854150",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 3,
+      "count": 1,
+      "front": {
+        "Name": "Roland Banks Parallel rev core art-front.png",
+        "ID": "F5140DB30B582BC61B240111074F93CF",
+        "SourceID": "7CF0674DAD98EE9738DF09E59A009C0EE962613C",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "Roland Banks Parallel rev core art-back.png",
+        "ID": "2F0B1239F76B06EBE7C8E0D1DF12CAA1",
+        "SourceID": "9836EAFADA8270F4615736AE1EB50076C1DB00E5",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      }
+    },
+    {
+      "projectId": 34,
+      "count": 1,
+      "front": {
+        "Name": "025 Directive Due Diligence-1.png",
+        "ID": "569A92074C0C9D535BF935AE8A5D9C3D",
+        "SourceID": "C5670FFCBA63077DBF5F6D571CA77432C370D05E",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 35,
+      "count": 1,
+      "front": {
+        "Name": "026 Directive Red Tape-1.png",
+        "ID": "7DF4A3B2005871275785DA538CD342AA",
+        "SourceID": "9DD3469B0F2E19A9AE8F18568BD94EC29C320A0A",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 36,
+      "count": 1,
+      "front": {
+        "Name": "027 Directive Consult Experts-1.png",
+        "ID": "C7768DB2CDD8889A80819CFD5A647150",
+        "SourceID": "C7C45A5DBF6BBE20041AD7B83B11A8C7B75C99A2",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 37,
+      "count": 1,
+      "front": {
+        "Name": "028 Directive Seek the Truth-1.png",
+        "ID": "8DE62A422CE9C2EFFF3213F094A24B37",
+        "SourceID": "D7E6BF4DEF9F18186E9ACC533026177AD22DE01E",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 38,
+      "count": 1,
+      "front": {
+        "Name": "029 Directive Leave No Doubt-1.png",
+        "ID": "009BA442830F78401592EF325F6B1A11",
+        "SourceID": "544C660351F37235806C1525927C79A5AC4B8978",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 39,
+      "count": 1,
+      "front": {
+        "Name": "030 Advanced Roland's .38 Special-1.png",
+        "ID": "35679FA38F78F4BE5C0A6BD3DC6ED709",
+        "SourceID": "661B34A28F3413E9171D5B37FE8826EF3EED448D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 40,
+      "count": 1,
+      "front": {
+        "Name": "031 Advanced Cover Up-1.png",
+        "ID": "F720D1D3F6574C409AF5FB2D81EFD8E4",
+        "SourceID": "49C3601A9ACAADAD2E61693BE82A936EDE7A1A05",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 41,
+      "count": 1,
+      "front": {
+        "Name": "032 By the Book-1.png",
+        "ID": "46CD2A9E166C078A128BF568C2C1F574",
+        "SourceID": "93AB87A7F841B34AEDF4334C4DA5E9EDE6CABC39",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "032 By the Book-2.png",
+        "ID": "2CD6E7AAC95FB5028E823458EA473DC6",
+        "SourceID": "E86DCA171454A0AAC54BBCD76252E9EC0AA02969",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 42,
+      "count": 1,
+      "front": {
+        "Name": "033 By the Book Agenda 1-1.png",
+        "ID": "2572449B38A517740BC31D4082077F16",
+        "SourceID": "18BE84E4D2B9944F77B6CC251A4B8EDD12E03985",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "033 By the Book Agenda 1-2.png",
+        "ID": "106929CEBA0DEA437B9308A30E9FFEEF",
+        "SourceID": "DC0EFC4E5DD3194E62827AF940D4B604630B0069",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 43,
+      "count": 1,
+      "front": {
+        "Name": "034 By the Book Agenda 2-1.png",
+        "ID": "48F580311A0383F97378B7A410AEBFAE",
+        "SourceID": "AE2F4C6578AFD4078FF38AA9394137AECD56CED6",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "034 By the Book Agenda 2-2.png",
+        "ID": "9D953E5CCFE3B05978AD27FA6609FB0C",
+        "SourceID": "7036C7FC32378F1A0268D0EFBD91DA957EFAE442",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 44,
+      "count": 1,
+      "front": {
+        "Name": "035 By the Book Act 1-1.png",
+        "ID": "6BC93A85B642D16D64669808C5330498",
+        "SourceID": "2DD3B764E4C588304A4857ECE938AD38C5044456",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "035 By the Book Act 1-2.png",
+        "ID": "E9C6D46A50F6FD17A5A69011A605F562",
+        "SourceID": "3B238C94FECA124F3CF31D5624AA831A3E557367",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 45,
+      "count": 1,
+      "front": {
+        "Name": "036 Arkham Police Station-1.png",
+        "ID": "CEF689A34136BE6F756B76C6FF076A6C",
+        "SourceID": "EF61F4EA72D0C93C7507F9ABE53307ED5DFF9F0E",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "036 Arkham Police Station-2.png",
+        "ID": "BB51A70478B703EE69D047B96C6C096B",
+        "SourceID": "647602702239A77DF0BD1C6F1645251B5F19F1C7",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 4,
+      "count": 1,
+      "front": {
+        "Name": "Wendy Adams Parallel rev core art-front.png",
+        "ID": "57C01D0890EEC7E922CEF319B1C00C10",
+        "SourceID": "3E1CE07DD020EEEAA135B821F3F7A214B682436E",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "Wendy Adams Parallel rev core art-back.png",
+        "ID": "31D7ED93D3F58BCEB583C29B227ADB80",
+        "SourceID": "C4341554E7D99A0142292479CB09F93D5E889310",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      }
+    },
+    {
+      "projectId": 47,
+      "count": 1,
+      "front": {
+        "Name": "038 Tidal Memento-1.png",
+        "ID": "9EB6F4D5BB99DF54BF5A2A728E815A5E",
+        "SourceID": "9DB2C4A592FBFA2ED9BA37B0C670391475904341",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 158,
+      "count": 1,
+      "front": {
+        "Name": "P0039 - Wendys Amulet (Revised)-front.png",
+        "ID": "0220CDE10EA281C3150AC5DED08C69FC",
+        "SourceID": "E2EAFAC7400E70DAC17E3BFB365D5525F337DCBA",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "back.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 159,
+      "count": 1,
+      "front": {
+        "Name": "P0040 - Abandoned and Alone (Revised)-front.png",
+        "ID": "4CB915A9E8C83C5899544279DE9C6613",
+        "SourceID": "BC1EE369563FCB16133708AF340B188A79EB48D5",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1174
+      },
+      "back": {
+        "Name": "back.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    },
+    {
+      "projectId": 50,
+      "count": 1,
+      "front": {
+        "Name": "041 Red Tide Rising-1.png",
+        "ID": "899F2E458215A47415F9843F74764359",
+        "SourceID": "9E785B7CA6E16F4FD8F7BB20CC5EC410431E148D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "041 Red Tide Rising-2.png",
+        "ID": "09A8CD3C2B830C562E456BBE657EA81C",
+        "SourceID": "D1A4590538DE5AE85122761830740CF082EC97B6",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 51,
+      "count": 1,
+      "front": {
+        "Name": "042 Red Tide Rising Agenda 1-1.png",
+        "ID": "155F0198C6ED2C36E2F23CD1ECAB85EC",
+        "SourceID": "D7C048D5A8DF4D1728BCBC12BF4012400B972C02",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "042 Red Tide Rising Agenda 1-2.png",
+        "ID": "F3216D63CBC0C009B5876AABEB30BF82",
+        "SourceID": "9BFC448130A339AFEA7B802441B3476E207F3C5E",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 52,
+      "count": 1,
+      "front": {
+        "Name": "043 Red Tide Rising Agenda 2-1.png",
+        "ID": "D6F80BB1DD589D8F272936A849588D16",
+        "SourceID": "3A6F8F189C037B0C310348FBF30AE4B16F50CDCB",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "043 Red Tide Rising Agenda 2-2.png",
+        "ID": "DDEC2FCDDAA06C3D62DFA86C0B782E2F",
+        "SourceID": "EC4A6C4FE0882114AA81A3A395D86A14B3E6B2A9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 53,
+      "count": 1,
+      "front": {
+        "Name": "044 Red Tide Rising Act 1-1.png",
+        "ID": "2355E837DB9C205639FEE8FCA65F355C",
+        "SourceID": "3A1646646C12BDCB6A7DAD866FD6A1ACA9610EC8",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "044 Red Tide Rising Act 1-2.png",
+        "ID": "FF793F334A201E17BBB44A59743D8D37",
+        "SourceID": "6B10E317E9D9EC4DD3B7093CB187FB322550518D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 54,
+      "count": 1,
+      "front": {
+        "Name": "045 Mysterious Photo-1.png",
+        "ID": "F889ABEFADC0E11D05721BC6D02D457D",
+        "SourceID": "D24E4B530E19E7ECAEA30766B3FD89E261F840BD",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "045 Mysterious Photo-2.png",
+        "ID": "633A9C3A1881E825939AC423168550ED",
+        "SourceID": "1EF054F4ADF581D91304103E021D07CB50410FB9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "projectId": 5,
+      "count": 1,
+      "front": {
+        "Name": "Wendy Adams Parallel hard knocks art-a.png",
+        "ID": "B9E59361B3D66A9AB2D691101AC68441",
+        "SourceID": "97968FFE694872D1883D194AAE2B7CB1F340052D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      },
+      "back": {
+        "Name": "Wendy Adams Parallel hard knocks art-b.png",
+        "ID": "0A0F420ED5B0F843299CCC32B4E6FBDA",
+        "SourceID": "3323077D8AB36ED5E3A4F37BCE5D238070E673F9",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    }
+  ],
+  "hash": "2846234c8f279c730442eeedc25ddf9eeb373de69cd23cef205362f14c495f6d"
+}

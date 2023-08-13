@@ -1,0 +1,761 @@
+{
+  "projectId": "3E3D5872FF296015FEDF6F9DDB0758D02F3BFD839041C72F4D420F52A48DEF1D64D4DE89EFB7302F",
+  "name": "The Fall of the House of Usher",
+  "description": "",
+  "content": "",
+  "website": null,
+  "authors": [
+    "The Beard"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "info": null,
+  "created": "2023-08-08T04:45:26.686Z",
+  "updated": "2023-08-12T14:06:20.341Z",
+  "code": "C380050185D1C1AF",
+  "cards": [
+    {
+      "count": 1,
+      "front": {
+        "Name": "001 - Guide 1-1.png",
+        "ID": "465990C28104C7BA277AD1DEE266F4C6",
+        "SourceID": "231D217F207323B567F01B8C9DA9DAB902F34EBC",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "001 - Guide 1-2.png",
+        "ID": "DAB32151D066C75673D7B0154B80CDD4",
+        "SourceID": "F1C7EF2093C719BADC886EF2629563D83FE84AAC",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "002 - Guide 2-1.png",
+        "ID": "670D4954A5FBD85EFA6EC7876D409FBF",
+        "SourceID": "1CE2774C4F0E21A489981697A3A7E7CE35F31772",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "002 - Guide 2-2.png",
+        "ID": "2991BBDD1E765C5DC6DFB8DA7D720A82",
+        "SourceID": "858A6A8BDC9BD1885B3FF10BB01928D78249D2BB",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "003 - Guide 3-1.png",
+        "ID": "51AC5BB739176E675AF0D754AFD70260",
+        "SourceID": "F3B71EB008D9385238F7B8EC250A4D3EBCCE7625",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "003 - Guide 3-2.png",
+        "ID": "D8D90EAE98F497A42739D4D6A84D94FA",
+        "SourceID": "8CFD1A9FBA9080934E1ED6DF43C471514AF37E71",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "004 - Guide 4-1.png",
+        "ID": "039DB3FBF9F91B97428B6FB7949FEF38",
+        "SourceID": "CF1BC4D38F0C1CEB5250EA10D1AE4D31D4F82708",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "004 - Guide 4-2.png",
+        "ID": "9E22AC480711D2FF4B1B325DF0C6DA62",
+        "SourceID": "16BDAB009D9B458053415B439136F7D9116C9485",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "005 - Guide 5-1.png",
+        "ID": "C463558D4DB270233E722E2C5D48B657",
+        "SourceID": "7724C94CB96DF70AF21EE85BCBAC3F869C41D21D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "005 - Guide 5-2.png",
+        "ID": "9AF8DEB8F45D5CE1E3697962474F9962",
+        "SourceID": "076202464635A93992E969CC9CD16DEC51726704",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "006 - Token Effects-1.png",
+        "ID": "FC82A74D556AAB0C0BDCF8696E8244CC",
+        "SourceID": "594C48BE7D358A08842C8F7B6FC2D7711DC58685",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "006 - Token Effects-2.png",
+        "ID": "7408CC0FDA88D1DC5ECE5492FBC2F3F6",
+        "SourceID": "53ECFF0B95D697BFAA3BBEA07268A712FA701D65",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "007 - Agenda 1-1.png",
+        "ID": "6372CD381DAD7248EDE79AFF2D6A47C6",
+        "SourceID": "249ECC734216A714B5B1808A66C23C4ADC55C89E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "007 - Agenda 1-2.png",
+        "ID": "0DF3D0C73D2430D3DBD2E96C50F1799D",
+        "SourceID": "00EC6D3969E974F71E7DB16FBBE1E474EE52C2E0",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "008 - Agenda 2-1.png",
+        "ID": "89730FDC826A857080744269098A0E47",
+        "SourceID": "B965D4705789B807149A8DE8430AE5056D5ACD5A",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "008 - Agenda 2-2.png",
+        "ID": "D95EFA291C201A45CA4AE59878A505EB",
+        "SourceID": "95D3CBF58A89D89EDB60E5A95EF5B553FB9BD80C",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "009 - Act 1-1.png",
+        "ID": "A9D40BC1A53DD26F531B0C90CCC9EAF2",
+        "SourceID": "C6CE01567397E4B044E89295A6351B701B4D918B",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "009 - Act 1-2.png",
+        "ID": "3BBB72F7732A00DFA3FDECD6B8147549",
+        "SourceID": "002C1D54380713B6904A0413D8B91D3E0356C054",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "010 - Act 2-1.png",
+        "ID": "8C76D33AD4A53215DDAA29EC23EB21D9",
+        "SourceID": "9505776A4A815BBBB2EA8345FC528957D923E621",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "010 - Act 2-2.png",
+        "ID": "09114C3DA9BE34AAA83850AA0A171561",
+        "SourceID": "7222DECC2E69560314DE07D10BDDFAA4BC827A58",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "011 - Act 3-1.png",
+        "ID": "07E52DEDED27E8DB6AFEA594C1BC12DD",
+        "SourceID": "443F8D8D0A947D3252EDE2139DF1E7C364960636",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "011 - Act 3-2.png",
+        "ID": "F6FE69E6B04252612BA5E83A6477811E",
+        "SourceID": "18BD3FA7F2D07B8C689DD69D040D4154AE598EDF",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "012 - Grand Hall-1.png",
+        "ID": "DAABBB3513704EB50857965DA24B8D01",
+        "SourceID": "80FB84427DB243B41D03C21C22C9C03F5E03206D",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "012 - Grand Hall-2.png",
+        "ID": "5A3C32D772254E0EF99EFF020FB44BC8",
+        "SourceID": "0C9894A1F19F21104BCB490AAA7E6159A2F54F55",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "013 - Rodericks Studio-1.png",
+        "ID": "4AD4E9093F18C13D5DE20051A5AF6638",
+        "SourceID": "379F2233CEFE8723F4118C221C1CBA78B70C9099",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "013 - Rodericks Studio-2.png",
+        "ID": "86A4DD5C5F3DAA8E7136C64CC7AA5D7F",
+        "SourceID": "D812DCEDF513766AB8372A9EBFB7A910D5B62AAA",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "014 - Private Library-1.png",
+        "ID": "91F398BA5F0CAA11F22B3E49B827305A",
+        "SourceID": "F9D716B096BAB2D4BB2FA5F717982A9A5D0B82E7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "014 - Private Library-2.png",
+        "ID": "03A0C86B86488A68F7668713BC012C90",
+        "SourceID": "21751DEAD5CDF1D9A2807C3A4078865F895C1120",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "015 - Portrait Gallery-1.png",
+        "ID": "67BE926F938F2AE9CA61B2F97159F762",
+        "SourceID": "5EFC06F970C7E6F6AC57DF38CF32F28EE2FFD2BE",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "015 - Portrait Gallery-2.png",
+        "ID": "9A7F81285645649753CFBE122A39E040",
+        "SourceID": "943795B68F53C3C32BD9CF8916BE594773EE5824",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "016 - Banquet Hall-1.png",
+        "ID": "A4670E1046614F98A8B2B8BE648CF05D",
+        "SourceID": "20F36DE8F93BDCC3D2696BF1722FAF0496B2B7B7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "016 - Banquet Hall-2.png",
+        "ID": "C1026B3EDEAF0E652F2D51191F9E9B6B",
+        "SourceID": "DDAA082C104B66515443BD58EEA3BC53004BF42C",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "017 - Manor Chapel-1.png",
+        "ID": "D8A0CC78D6C41C6EF2C22B7B5A19332A",
+        "SourceID": "1CAB2F0D3F62E97E143D5BEEFE2C57AE79D30E73",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "017 - Manor Chapel-2.png",
+        "ID": "D8EDC5CD2512FBA109813F20C7F1DD28",
+        "SourceID": "524D8A5D448ECB5A5D23558A408A52D3D0653E99",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "018 - Wine Cellar-1.png",
+        "ID": "059D73410BE10C6368A10D5F9704D2DE",
+        "SourceID": "210F9CAE8E3819A8D47BCF22FBE3DC1E59392125",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "018 - Wine Cellar-2.png",
+        "ID": "58A29A11D52452C6234162BF0AB7D819",
+        "SourceID": "678A55575D2A3FAA13D7C672968CAEA3B95544C7",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "019 - Usher Family Crypt-1.png",
+        "ID": "DC2B642DB7EB652BBCD543C1D4E6CBBB",
+        "SourceID": "BF228C9EA8A939C22BEB4037CA0365450C510033",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "019 - Usher Family Crypt-2.png",
+        "ID": "9785E4B31741E5C1F9CEEA3B5842CE6E",
+        "SourceID": "EBF50EA2B100F2ACB40EC2F099C55689B5646EFA",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "020 - The Tarn-1.png",
+        "ID": "4326D76CA0B8930195243ACFC044111A",
+        "SourceID": "32D8896901CB7633A2DA8ECD626611E63FD1D349",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "020 - The Tarn-2.png",
+        "ID": "80EEB837F0628B55EAFB0CD81E44C3CE",
+        "SourceID": "B266314B831E5B99813D60BA82E27A997B27ED7C",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "021-022 - Auditory Hallucinations-x2-1.png",
+        "ID": "7BC9FDDD5B7EB0F5CB23E141449652BB",
+        "SourceID": "1F8ECD54BC21EC09DAF5048BA860880D9324E5A3",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "023-025 - Collapsing Ruin-x3-1.png",
+        "ID": "568FE84D904D76F97248C9C4D8955A8A",
+        "SourceID": "9FA4BCFDB1F5970447385FE72660BC68B93BB2CD",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "026-027 - Decayed Legacy-x2-1.png",
+        "ID": "0395CA0AB7B760E7A03AA60228525580",
+        "SourceID": "A539D061D951B9E42694BD8DF4F7BE339A78164A",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "028-029 - Desolate Heritage-x2-1.png",
+        "ID": "60FF947DF39CBA04FF379A3F0A923654",
+        "SourceID": "DF5A42728BCD0633D09110FAB2FB4B158448C512",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "030-032 - Enervating Touch-x3-1.png",
+        "ID": "0E669260C0A55D22256699EED11C2733",
+        "SourceID": "C6A25191D9A3A9B716091B27E254A7AA2D3B77FA",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "033-034 - Enshrouded Host-x2-1.png",
+        "ID": "3FB6D9D1A0138683C4F9E3DBD6D29561",
+        "SourceID": "09BD3E92AF064A7568BEB58654BC424467BF874E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "035-037 - Luminous Phantasm-x3-1.png",
+        "ID": "36BC58CF27B91A050E05FDBE2E462065",
+        "SourceID": "A1B7C8BF6494D59E20B074CCD868490B6F31A665",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "038-040 - Morbid Acuteness-x3-1.png",
+        "ID": "A9D4A186EC9A0173E6912C3021DEFC71",
+        "SourceID": "1E6D72DEABEC58B16BB5003C8BD6D636D5DF8EC6",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "041-043 - Nervous Affliction-x3-1.png",
+        "ID": "68AB3D349319847D4765F4136948434D",
+        "SourceID": "BDCE660CDEAD6475F6B685D504B76E6D714D8A73",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "044-046 - Pestilent Vapor-x3-1.png",
+        "ID": "CF62507E2C5E18BCBBC3C7739D1E8045",
+        "SourceID": "79C71EE4CF8E9F0A21C69F1490DEDCBF3266BB26",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "047-049 - Scion of Usher-x3-1.png",
+        "ID": "A325CEF1AB4B54A47B8927E8619EF465",
+        "SourceID": "2B1F46C5F38FC3971A7AA333F5F7295707BA1484",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 2,
+      "front": {
+        "Name": "050-051 - Secretive Steward-x2-1.png",
+        "ID": "F9F5200D412940391D295744D62C92C3",
+        "SourceID": "683BFCE825631DA4CF9A6E7AA7506E85F0968846",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 3,
+      "front": {
+        "Name": "052-054 - Servant of Two Masters-x3-1.png",
+        "ID": "138A29F138F8919FC2F572252A54143A",
+        "SourceID": "6996DCE69865D8F98ACCF1E6BB55D801A9FAA046",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "055 - The Thing From the Tarn-1.png",
+        "ID": "70DE481D61C0AC05C2E710DE0929362A",
+        "SourceID": "1868E684FDB908646BEB1981A1D5C806E7B8B936",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "056 - Roderick Usher-1.png",
+        "ID": "27E12A8DD79FD8C6D235E8B146413148",
+        "SourceID": "534EBD2459914F763481D653550F2EB1EEB9B332",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "057 - Madeline Usher-1.png",
+        "ID": "CAA355F2831C13DB9DA9E285DDC5E55D",
+        "SourceID": "6E326BDC8EAF2871838B886CCE4519F1A497674C",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "_encounterback.png",
+        "ID": "DEC0E760493EA41064B29B27F44AB53B",
+        "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+        "Exp": "png",
+        "Width": 850,
+        "Height": 1156
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "058 - Faded Silhouette-1.png",
+        "ID": "D43BD269D210E960B021780E13801BCE",
+        "SourceID": "1F12E4F8262062565B33F674CCCFA807890B952F",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "058 - Faded Silhouette-2.png",
+        "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+        "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1141
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "059 - The Mad Trist 1-1.png",
+        "ID": "369A3A3BE39D251FE2FA1EFFD6187E6B",
+        "SourceID": "6716A2EDAEA7F5991D69D70FFF50B628E55D4CC8",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "059 - The Mad Trist 1-2.png",
+        "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+        "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1141
+      }
+    },
+    {
+      "count": 1,
+      "front": {
+        "Name": "060 - The Mad Trist 2-1.png",
+        "ID": "0865B9D53797090AD9ED8F3119085B66",
+        "SourceID": "F01DA6A966E946CB69ABB904D62FB8F07135C7FC",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "060 - The Mad Trist 2-2.png",
+        "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+        "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1141
+      }
+    }
+  ],
+  "hash": "42c8c25dc7c6b0c692a451188174247bf357c250896f322137d8e8bfb0a62a01"
+}
