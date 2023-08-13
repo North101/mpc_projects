@@ -1,6 +1,6 @@
 {
   "projectId": "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45",
-  "name": "Dark Matter Science Expansion",
+  "name": "Dark Matter + Science Expansion",
   "description": "",
   "content": "",
   "website": null,
@@ -15,11 +15,11 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.689Z",
-  "updated": "2023-08-13T20:43:40.204Z",
+  "updated": "2023-08-13T23:26:15.815Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Dark Matter Science Expansion",
+      "name": "Dark Matter",
       "cards": [
         {
           "projectId": 590,
@@ -7940,7 +7940,12 @@
             "Width": 826,
             "Height": 1123
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Dark Matter Science Expansion",
+      "cards": [
         {
           "projectId": 986,
           "count": 1,
@@ -8364,5 +8369,5 @@
       ]
     }
   ],
-  "hash": "66a98973e392292b3f9413551c084cb3082dc17986d68f2451f9fadf3dad06e8"
+  "hash": "afda556b0e6be32373450a488fe4afbc022f865507e07a4d3b735ef39fde3caa"
 }
