@@ -7,7 +7,7 @@ import { ProjectDownload, ProjectInfo } from '../types'
 const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose: () => void) => {
   const r = await fetch(`/projects/${project.filename}`)
   const file: ProjectDownload = await r.json()
-  const download = {
+  const download: ProjectDownload = {
     version: 2,
     code: file.code,
     parts: file.parts.filter((_, index) => checked[index]),

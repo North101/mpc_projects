@@ -71,7 +71,7 @@ export interface ProjectInfo {
 }
 
 export interface ProjectDownload {
-  version: number
+  version: 2
   code: string
   parts: ProjectPart[]
 }

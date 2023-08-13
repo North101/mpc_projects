@@ -14,199 +14,204 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.680Z",
-  "updated": "2023-08-12T14:06:20.337Z",
+  "updated": "2023-08-13T20:43:40.200Z",
   "code": "C380050185D1C1AF",
-  "cards": [
+  "parts": [
     {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Roland Banks-front.png",
-        "ID": "4681D4B1F4FB4EF351084BC0F9BD474B",
-        "SourceID": "F11BB01BDD71483D7ED5541085556356797A3B4F",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Roland Banks-back.png",
-        "ID": "D64B3D31321532343BF6E1D5E492E664",
-        "SourceID": "9DFC07C4BAFC70D04FAEF80654C3F570123B6AB3",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Daisy Walker-front.png",
-        "ID": "48CC21634DEBA53669C5F0736FCFFFB5",
-        "SourceID": "9CFF07372D4C356FC1C20D69B03E2A3654F97AF8",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Daisy Walker-back.png",
-        "ID": "DF7B973F396F23AA626D3FBBB420B075",
-        "SourceID": "1E0D56565F3EFD107CBEA6C40053E66D9F09DC11",
-        "Exp": "png",
-        "Width": 826,
-        "Height": 1126
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Skids O'Toole-front.png",
-        "ID": "882AEEB46215635C905895EF0D7FD3E3",
-        "SourceID": "9EC18C6733A92DD5146DF5153BE94D39B7DB884E",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Skids O'Toole-back.png",
-        "ID": "0B68D5E1C753117385C2E79731940757",
-        "SourceID": "5074EEFC56DDB120CDBD49DCAA0C9C78AF9EFA11",
-        "Exp": "png",
-        "Width": 826,
-        "Height": 1126
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Agnes Baker-front.png",
-        "ID": "E457E919E10AFD0025CCB29D5D45BA0E",
-        "SourceID": "2613EFF159748E26CE72C515A32E2B5761F896AF",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Agnes Baker-back.png",
-        "ID": "99A3AF69BB3F2601CA4210541600FE93",
-        "SourceID": "C50AF1DF371BE59B3E45C36879BB2BF251899764",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Wendy Adams-front.png",
-        "ID": "A1524957764F063959807970755C8ED9",
-        "SourceID": "77B039C457589A570E1BC98CD2583FEA40DB603C",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Wendy Adams-back.png",
-        "ID": "F44482E872D7AD2A5F6B9E3A82E508FD",
-        "SourceID": "69911582F8AE2A1217D70B8391176022EE1848D6",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Parallel Roland-front.png",
-        "ID": "AAF6B364C41831F06AA33A62E2D8171B",
-        "SourceID": "33F425E1DCA855E73A64BFEBDEC8051682076615",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Parallel Roland-back.png",
-        "ID": "42B27F43F93A2EEFDDBBE18BBDB8AAF3",
-        "SourceID": "1CD7F140BFE18C079A217A3FBB0A109AD3987B6D",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Parallel Daisy-front.png",
-        "ID": "0B7ACE7614847EEE45B8A8FD292DE3DA",
-        "SourceID": "01082F84FC0E7790439195B57324CE6EFF1D6960",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Parallel Daisy-back.png",
-        "ID": "C0D0048A570DC1F98B5C57C64D1F93A9",
-        "SourceID": "FD4335E48B6F3A9E26471A017B54A309766E5C67",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Parallel Skids-front.png",
-        "ID": "584BCBCC0ACD7818356D0024A7FB9B3B",
-        "SourceID": "8CBC22D6F228504D825E38860CC638FBDAFB8068",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Parallel Skids-back.png",
-        "ID": "287B822022460ECCE4E8DF8973F58F99",
-        "SourceID": "1C3B5B0A14E6FC8BA0E68BEC9EA640B73267B240",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Parallel Agnes-front.png",
-        "ID": "87453B90EBF49BBCF5F685179855B004",
-        "SourceID": "E5F2BA891B512B839BE05E82A82BD741665CCC14",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      },
-      "back": {
-        "Name": "Play-and-Share Parallel Agnes-back.png",
-        "ID": "C433ECAF945528A922EF2D5A1F5FFD92",
-        "SourceID": "B280E48E1573B05B3681B2E537CFB282AEEE2AE3",
-        "Exp": "png",
-        "Width": 816,
-        "Height": 1110
-      }
-    },
-    {
-      "count": 1,
-      "front": {
-        "Name": "Play-and-Share Parallel Wendy-front.png",
-        "ID": "165E8DDBC08032168C099335604A8002",
-        "SourceID": "8A92300E32DBAEA7B6FB9F9CDC41F8A18FF83A7E",
-        "Exp": "png",
-        "Width": 834,
-        "Height": 1138
-      },
-      "back": {
-        "Name": "Play-and-Share Parallel Wendy-back.png",
-        "ID": "96A6CB40B07AFE06C04557F0AD234066",
-        "SourceID": "5B7C53CEBB6E97922C4EB8CC6E6CE9861889DF26",
-        "Exp": "png",
-        "Width": 834,
-        "Height": 1138
-      }
+      "name": "Play & Share full card art investigators",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Roland Banks-front.png",
+            "ID": "4681D4B1F4FB4EF351084BC0F9BD474B",
+            "SourceID": "F11BB01BDD71483D7ED5541085556356797A3B4F",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Roland Banks-back.png",
+            "ID": "D64B3D31321532343BF6E1D5E492E664",
+            "SourceID": "9DFC07C4BAFC70D04FAEF80654C3F570123B6AB3",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Daisy Walker-front.png",
+            "ID": "48CC21634DEBA53669C5F0736FCFFFB5",
+            "SourceID": "9CFF07372D4C356FC1C20D69B03E2A3654F97AF8",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Daisy Walker-back.png",
+            "ID": "DF7B973F396F23AA626D3FBBB420B075",
+            "SourceID": "1E0D56565F3EFD107CBEA6C40053E66D9F09DC11",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Skids O'Toole-front.png",
+            "ID": "882AEEB46215635C905895EF0D7FD3E3",
+            "SourceID": "9EC18C6733A92DD5146DF5153BE94D39B7DB884E",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Skids O'Toole-back.png",
+            "ID": "0B68D5E1C753117385C2E79731940757",
+            "SourceID": "5074EEFC56DDB120CDBD49DCAA0C9C78AF9EFA11",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Agnes Baker-front.png",
+            "ID": "E457E919E10AFD0025CCB29D5D45BA0E",
+            "SourceID": "2613EFF159748E26CE72C515A32E2B5761F896AF",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Agnes Baker-back.png",
+            "ID": "99A3AF69BB3F2601CA4210541600FE93",
+            "SourceID": "C50AF1DF371BE59B3E45C36879BB2BF251899764",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Wendy Adams-front.png",
+            "ID": "A1524957764F063959807970755C8ED9",
+            "SourceID": "77B039C457589A570E1BC98CD2583FEA40DB603C",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Wendy Adams-back.png",
+            "ID": "F44482E872D7AD2A5F6B9E3A82E508FD",
+            "SourceID": "69911582F8AE2A1217D70B8391176022EE1848D6",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Parallel Roland-front.png",
+            "ID": "AAF6B364C41831F06AA33A62E2D8171B",
+            "SourceID": "33F425E1DCA855E73A64BFEBDEC8051682076615",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Parallel Roland-back.png",
+            "ID": "42B27F43F93A2EEFDDBBE18BBDB8AAF3",
+            "SourceID": "1CD7F140BFE18C079A217A3FBB0A109AD3987B6D",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Parallel Daisy-front.png",
+            "ID": "0B7ACE7614847EEE45B8A8FD292DE3DA",
+            "SourceID": "01082F84FC0E7790439195B57324CE6EFF1D6960",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Parallel Daisy-back.png",
+            "ID": "C0D0048A570DC1F98B5C57C64D1F93A9",
+            "SourceID": "FD4335E48B6F3A9E26471A017B54A309766E5C67",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Parallel Skids-front.png",
+            "ID": "584BCBCC0ACD7818356D0024A7FB9B3B",
+            "SourceID": "8CBC22D6F228504D825E38860CC638FBDAFB8068",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Parallel Skids-back.png",
+            "ID": "287B822022460ECCE4E8DF8973F58F99",
+            "SourceID": "1C3B5B0A14E6FC8BA0E68BEC9EA640B73267B240",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Parallel Agnes-front.png",
+            "ID": "87453B90EBF49BBCF5F685179855B004",
+            "SourceID": "E5F2BA891B512B839BE05E82A82BD741665CCC14",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          },
+          "back": {
+            "Name": "Play-and-Share Parallel Agnes-back.png",
+            "ID": "C433ECAF945528A922EF2D5A1F5FFD92",
+            "SourceID": "B280E48E1573B05B3681B2E537CFB282AEEE2AE3",
+            "Exp": "png",
+            "Width": 816,
+            "Height": 1110
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Play-and-Share Parallel Wendy-front.png",
+            "ID": "165E8DDBC08032168C099335604A8002",
+            "SourceID": "8A92300E32DBAEA7B6FB9F9CDC41F8A18FF83A7E",
+            "Exp": "png",
+            "Width": 834,
+            "Height": 1138
+          },
+          "back": {
+            "Name": "Play-and-Share Parallel Wendy-back.png",
+            "ID": "96A6CB40B07AFE06C04557F0AD234066",
+            "SourceID": "5B7C53CEBB6E97922C4EB8CC6E6CE9861889DF26",
+            "Exp": "png",
+            "Width": 834,
+            "Height": 1138
+          }
+        }
+      ]
     }
   ],
-  "hash": "28e76918c14d6c8751bbf9779f54477e867581b98e09b0171ceba76da6e08f8b"
+  "hash": "ae8fd4a3f0fe97aec91d6e1ea61cd915f4cc307c29914a59d8ccd63180d9eaed"
 }

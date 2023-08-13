@@ -48,7 +48,7 @@ const mapProjectDownload = (e: ProjectV1WithFilename | ProjectV2WithFilename): P
   }],
 })
 
-const readProject = async (filename: string): Promise<ProjectV1WithFilename | ProjectV2WithFilename | null> => {
+const readProject = async (filename: string): Promise<ProjectV2WithFilename | null> => {
   const project = await readJson(filename)
   if (projectV1Validator(project)) {
     const hash = hashJson([
@@ -60,6 +60,12 @@ const readProject = async (filename: string): Promise<ProjectV1WithFilename | Pr
     return {
       ...project,
       filename: basename(filename),
+      parts: [
+        {
+          name: project.name,
+          cards: project.cards,
+        }
+      ],
       hash,
       updated,
     }
@@ -95,7 +101,7 @@ const readProjectList = async (projectsDir: string) => {
   const allProjects = await glob(resolve(projectsDir, '*.json'))
   return await Promise
     .all(allProjects.map(readProject))
-    .then(e => e.filter((e): e is ProjectV1WithFilename | ProjectV2WithFilename => e != null))
+    .then(e => e.filter((e): e is ProjectV2WithFilename => e != null))
 }
 
 interface ProjectsBuilderOptions {
@@ -120,39 +126,21 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
         await writeJson<ProjectDownload>(resolve(outDir, 'projects', e.filename), mapProjectDownload(e))
       }))
       await Promise.all(projectList.map(async e => {
-        if ('parts' in e) {
-          await writeJson<ProjectV2>(resolve('projects', e.filename), {
-            projectId: e.projectId,
-            name: e.name,
-            description: e.description,
-            content: e.content,
-            website: e.website,
-            authors: e.authors,
-            tags: e.tags,
-            info: e.info,
-            created: e.created,
-            updated: e.updated,
-            code: e.code,
-            parts: e.parts,
-            hash: e.hash,
-          })
-        } else {
-          await writeJson<ProjectV1>(resolve('projects', e.filename), {
-            projectId: e.projectId,
-            name: e.name,
-            description: e.description,
-            content: e.content,
-            website: e.website,
-            authors: e.authors,
-            tags: e.tags,
-            info: e.info,
-            created: e.created,
-            updated: e.updated,
-            code: e.code,
-            cards: e.cards,
-            hash: e.hash,
-          })
-        }
+        await writeJson<ProjectV2>(resolve('projects', e.filename), {
+          projectId: e.projectId,
+          name: e.name,
+          description: e.description,
+          content: e.content,
+          website: e.website,
+          authors: e.authors,
+          tags: e.tags,
+          info: e.info,
+          created: e.created,
+          updated: e.updated,
+          code: e.code,
+          parts: e.parts,
+          hash: e.hash,
+        })
       }))
     },
     configureServer(server) {
