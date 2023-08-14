@@ -14,11 +14,11 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.681Z",
-  "updated": "2023-08-12T14:06:20.339Z",
+  "updated": "2023-08-14T00:16:08.939Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Parallel Daisy Walker",
+      "name": "Parallel Daisy Walker (Original Art)",
       "cards": [
         {
           "count": 1,
@@ -59,6 +59,71 @@
           }
         },
         {
+          "count": 1,
+          "front": {
+            "Name": "003 Advanced Necronomicon-a.png",
+            "ID": "A5270BA588ED6D2FEF1F72A40FD68A51",
+            "SourceID": "8F8E9CF82A570A5BE7719CC8D4FA0E9CEAD74182",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel Daisy Walker (Revised Art)",
+      "cards": [
+        {
+          "projectId": 0,
+          "count": 1,
+          "front": {
+            "Name": "Daisy Walker Parallel rev core art-front.png",
+            "ID": "5C7802A1353CAAAD43D37BF27C08A7B5",
+            "SourceID": "9EF8D31757E1C3A575142D941A3D2458E55A5B22",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "Daisy Walker Parallel rev core art-back.png",
+            "ID": "03B128A2609F04B1153C182DB8D03BFD",
+            "SourceID": "6A9F4F817D7EE4CAAD5014BBA3BC5A857C39596C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "projectId": 156,
+          "count": 1,
+          "front": {
+            "Name": "P0002 - Daisys Tote Bag (Revised)-front.png",
+            "ID": "149BD70A7564DE370600380C3FE84C68",
+            "SourceID": "1AFE43625B08972EAE7BA25E13DA22829314BE4F",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 12,
           "count": 1,
           "front": {
             "Name": "003 Advanced Necronomicon-a.png",
@@ -161,7 +226,7 @@
       ]
     },
     {
-      "name": "Parallel \"Skids\" O'Toole",
+      "name": "Parallel \"Skids\" O'Toole (Original Art)",
       "cards": [
         {
           "count": 1,
@@ -202,6 +267,71 @@
           }
         },
         {
+          "count": 1,
+          "front": {
+            "Name": "010 Advanced Hospital Debts-a.png",
+            "ID": "976BD7017CE6603B6E4880A1401F857E",
+            "SourceID": "7727D9585E61D933FFC651C603CD87B5BD32CB2A",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel \"Skids\" O'Toole (Revised Art)",
+      "cards": [
+        {
+          "projectId": 1,
+          "count": 1,
+          "front": {
+            "Name": "Skids O'Toole Parallel rev core art-front.png",
+            "ID": "88AA6C42546A4649D8B2343EF6F325F2",
+            "SourceID": "7C969FD94AFFC2C50F6ABE13E62C999B2757B7AE",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "Skids O'Toole Parallel rev core art-back.png",
+            "ID": "E977E28C3434C74659B08085E2CBD221",
+            "SourceID": "1EFA0179D67EF9B1355CB1FE5C706F5952275EB6",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "projectId": 18,
+          "count": 1,
+          "front": {
+            "Name": "009 Advanced On the Lam-a.png",
+            "ID": "629D8E6B4FB2C5107D45E9900942AD28",
+            "SourceID": "158469869227E7101F3A046F887F0AFBBA1DDCCA",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 19,
           "count": 1,
           "front": {
             "Name": "010 Advanced Hospital Debts-a.png",
@@ -342,7 +472,7 @@
       ]
     },
     {
-      "name": "Parallel Agnes Baker",
+      "name": "Parallel Agnes Baker (Original Art)",
       "cards": [
         {
           "count": 1,
@@ -394,6 +524,71 @@
           },
           "back": {
             "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel Agnes Baker (Revised Art)",
+      "cards": [
+        {
+          "projectId": 2,
+          "count": 1,
+          "front": {
+            "Name": "Agnes Baker Parallel rev core art-front.png",
+            "ID": "A85496F1A1207F08587E9AB07034B254",
+            "SourceID": "06252F91221EC223900CCEA187C5DF01F7460D56",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "Agnes Baker Parallel rev core art-back.png",
+            "ID": "1688D4A14DA40CDDADB67361DB7C7A4D",
+            "SourceID": "1842A617F585EA06735B6948AD2F1B952C634F7D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "projectId": 27,
+          "count": 1,
+          "front": {
+            "Name": "018 Advanced Heirloom of Hyperborea-a.png",
+            "ID": "0F0E4B4605514CD5A11B74C0BB509AB7",
+            "SourceID": "04BAED20AD9E169B3E412D03AF230550688A0324",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 157,
+          "count": 1,
+          "front": {
+            "Name": "P0019 - Dark Memory (Revised)-front.png",
+            "ID": "ACE66EE47FD8B5B6972C0E50079CF586",
+            "SourceID": "D4E34279D6ACBD1C8FBB04F7B8FBCA6970D74715",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "back.png",
             "ID": "F2C892495D430CF932D00FCC1CD986B8",
             "SourceID": "537898184A74156EB358A1B62F6812262361519E",
             "Exp": "png",
@@ -485,7 +680,7 @@
       ]
     },
     {
-      "name": "Parallel Roland Banks",
+      "name": "Parallel Roland Banks (Original Art)",
       "cards": [
         {
           "count": 1,
@@ -642,6 +837,171 @@
       ]
     },
     {
+      "name": "Parallel Roland Banks (Revised Art)",
+      "cards": [
+        {
+          "projectId": 3,
+          "count": 1,
+          "front": {
+            "Name": "Roland Banks Parallel rev core art-front.png",
+            "ID": "F5140DB30B582BC61B240111074F93CF",
+            "SourceID": "7CF0674DAD98EE9738DF09E59A009C0EE962613C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "Roland Banks Parallel rev core art-back.png",
+            "ID": "2F0B1239F76B06EBE7C8E0D1DF12CAA1",
+            "SourceID": "9836EAFADA8270F4615736AE1EB50076C1DB00E5",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "projectId": 34,
+          "count": 1,
+          "front": {
+            "Name": "025 Directive Due Diligence-1.png",
+            "ID": "569A92074C0C9D535BF935AE8A5D9C3D",
+            "SourceID": "C5670FFCBA63077DBF5F6D571CA77432C370D05E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 35,
+          "count": 1,
+          "front": {
+            "Name": "026 Directive Red Tape-1.png",
+            "ID": "7DF4A3B2005871275785DA538CD342AA",
+            "SourceID": "9DD3469B0F2E19A9AE8F18568BD94EC29C320A0A",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 36,
+          "count": 1,
+          "front": {
+            "Name": "027 Directive Consult Experts-1.png",
+            "ID": "C7768DB2CDD8889A80819CFD5A647150",
+            "SourceID": "C7C45A5DBF6BBE20041AD7B83B11A8C7B75C99A2",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 37,
+          "count": 1,
+          "front": {
+            "Name": "028 Directive Seek the Truth-1.png",
+            "ID": "8DE62A422CE9C2EFFF3213F094A24B37",
+            "SourceID": "D7E6BF4DEF9F18186E9ACC533026177AD22DE01E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 38,
+          "count": 1,
+          "front": {
+            "Name": "029 Directive Leave No Doubt-1.png",
+            "ID": "009BA442830F78401592EF325F6B1A11",
+            "SourceID": "544C660351F37235806C1525927C79A5AC4B8978",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 39,
+          "count": 1,
+          "front": {
+            "Name": "030 Advanced Roland's .38 Special-1.png",
+            "ID": "35679FA38F78F4BE5C0A6BD3DC6ED709",
+            "SourceID": "661B34A28F3413E9171D5B37FE8826EF3EED448D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 40,
+          "count": 1,
+          "front": {
+            "Name": "031 Advanced Cover Up-1.png",
+            "ID": "F720D1D3F6574C409AF5FB2D81EFD8E4",
+            "SourceID": "49C3601A9ACAADAD2E61693BE82A936EDE7A1A05",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
       "name": "Parallel Roland Banks - By the Book",
       "cards": [
         {
@@ -742,7 +1102,7 @@
       ]
     },
     {
-      "name": "Parallel Wendy Adams",
+      "name": "Parallel Wendy Adams (Original Art)",
       "cards": [
         {
           "count": 1,
@@ -818,6 +1178,116 @@
             "Exp": "png",
             "Width": 822,
             "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel Wendy Adams (Revised Art)",
+      "cards": [
+        {
+          "projectId": 4,
+          "count": 1,
+          "front": {
+            "Name": "Wendy Adams Parallel rev core art-front.png",
+            "ID": "57C01D0890EEC7E922CEF319B1C00C10",
+            "SourceID": "3E1CE07DD020EEEAA135B821F3F7A214B682436E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "Wendy Adams Parallel rev core art-back.png",
+            "ID": "31D7ED93D3F58BCEB583C29B227ADB80",
+            "SourceID": "C4341554E7D99A0142292479CB09F93D5E889310",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "projectId": 47,
+          "count": 1,
+          "front": {
+            "Name": "038 Tidal Memento-1.png",
+            "ID": "9EB6F4D5BB99DF54BF5A2A728E815A5E",
+            "SourceID": "9DB2C4A592FBFA2ED9BA37B0C670391475904341",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 158,
+          "count": 1,
+          "front": {
+            "Name": "P0039 - Wendys Amulet (Revised)-front.png",
+            "ID": "0220CDE10EA281C3150AC5DED08C69FC",
+            "SourceID": "E2EAFAC7400E70DAC17E3BFB365D5525F337DCBA",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "projectId": 159,
+          "count": 1,
+          "front": {
+            "Name": "P0040 - Abandoned and Alone (Revised)-front.png",
+            "ID": "4CB915A9E8C83C5899544279DE9C6613",
+            "SourceID": "BC1EE369563FCB16133708AF340B188A79EB48D5",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel Wendy Adams (Hard Knocks Art)",
+      "cards": [
+        {
+          "projectId": 5,
+          "count": 1,
+          "front": {
+            "Name": "Wendy Adams Parallel hard knocks art-a.png",
+            "ID": "B9E59361B3D66A9AB2D691101AC68441",
+            "SourceID": "97968FFE694872D1883D194AAE2B7CB1F340052D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "Wendy Adams Parallel hard knocks art-b.png",
+            "ID": "0A0F420ED5B0F843299CCC32B4E6FBDA",
+            "SourceID": "3323077D8AB36ED5E3A4F37BCE5D238070E673F9",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
           }
         }
       ]
@@ -921,7 +1391,69 @@
           }
         }
       ]
+    },
+    {
+      "name": "Parallel \"Ashcan\" Pete",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "046 Parallel Ashcan Pete-1.png",
+            "ID": "576351A416C2E9DC5E8B3635955F9F1A",
+            "SourceID": "2F25A4D36E867E76D7007DBB50E0AB8A229346D7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "046 Parallel Ashcan Pete-2.png",
+            "ID": "0F05373B21B29BE006BF5B2F3F246A5E",
+            "SourceID": "B8A9C9E658FC309E09102527DCBA0B11481B56B4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "047 Pete's Guitar-1.png",
+            "ID": "751DE1D55550F78874AFE0108FF5C045",
+            "SourceID": "0813AEC296F7320DBBE78EFB61D167673676A083",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "048 Hard Times-1.png",
+            "ID": "47CC3779F6D3B65581930809C8B7B5D3",
+            "SourceID": "AED9617CEA45B43B9964C34C90628C714CD56A7C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
     }
   ],
-  "hash": "433026b70c89671a695a52568fbeb2678e90a502a726b256aa7813e4cb037556"
+  "hash": "6da451331c7a46f3d1608087c8e386f0aa14f146dada6c6efb74ec7eb3f2d6a6"
 }
