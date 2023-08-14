@@ -20,6 +20,7 @@ export interface ProjectPart {
 }
 
 export interface ProjectV1 {
+  version?: number
   projectId: string
   name: string
   description: string
@@ -36,6 +37,7 @@ export interface ProjectV1 {
 }
 
 export interface ProjectV2 {
+  version?: number
   projectId: string
   name: string
   description: string

@@ -50,6 +50,9 @@ const projectV1Schema: JTDSchemaType<ProjectV1> = {
     info: { type: 'string', nullable: true },
     cards: { elements: cardSchema },
   },
+  optionalProperties: {
+    version: { type: 'int32' }
+  },
 }
 
 const projectV2Schema: JTDSchemaType<ProjectV2> = {
@@ -67,6 +70,9 @@ const projectV2Schema: JTDSchemaType<ProjectV2> = {
     website: { type: 'string', nullable: true },
     info: { type: 'string', nullable: true },
     parts: { elements: partSchema },
+  },
+  optionalProperties: {
+    version: { type: 'int32' }
   },
 }
 
