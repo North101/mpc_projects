@@ -15,9 +15,125 @@
   "created": "2023-08-13T17:18:00.0000",
   "updated": "",
   "hash": "",
-  "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [{
+    "name": "Suzi 5U-21",
+    "cards": [{
+      "id": "5d296b47-1901-4467-bd95-19dba0de2ba4",
+      "count": 1,
+      "front": {
+        "Name": "gcop2301-001 Subject 5U-21 Suzi-1.png",
+        "ID": "2A1405507C22F89993E3344CF785B46D",
+        "SourceID": "F12A88E93D5B38FFA2CB9ADD49DE08AA86D4D633",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      },
+      "back": {
+        "Name": "gcop2301-001 Subject 5U-21 Suzi-2.png",
+        "ID": "94A6A615B58467FD43C05660BE0F557C",
+        "SourceID": "9D83EC92364E4AEF3791B481A5F3F8800BE2735A",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    }, {
+      "id": "7cf815e4-bb0a-4ebe-9df0-590eb0cc064c",
+      "count": 1,
+      "front": {
+        "Name": "gcop2301-001.1 Suzi mini-1.png",
+        "ID": "85B8991C7944470E62187F5C7A80A06E",
+        "SourceID": "5830161FF5CCDEDF25E55DFB43FF0EE603AE68E3",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      },
+      "back": {
+        "Name": "gcop2301-001.1 Suzi mini-2.png",
+        "ID": "CF746234C690C7D756A79D19A0BC886B",
+        "SourceID": "AB5BB1E55A46BCF43E219061EDAEA501CBD325D6",
+        "Exp": "png",
+        "Width": 826,
+        "Height": 1126
+      }
+    }, {
+      "id": "2be5e6bb-1f31-4c91-8509-cb8b1a9b4701",
+      "count": 1,
+      "front": {
+        "Name": "gcop2301-002 Ravenous-1.png",
+        "ID": "8CDD4941DBD2BE6835C580608D495D21",
+        "SourceID": "D2074924D72169D11B5A9A20AB00C8D503A0F08D",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      },
+      "back": {
+        "Name": "gcop2301-002 Ravenous-2.png",
+        "ID": "3F2609C4D56773C593EF0012AA3325E7",
+        "SourceID": "7F2B08EA601B0A9B4EDF35A360A0DCE53BD918FA",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    }, {
+      "id": "9d378ef5-fc54-4a17-ae76-136235509fd4",
+      "count": 3,
+      "front": {
+        "Name": "gcop2301-003 Regurgitation-x3-1.png",
+        "ID": "5B880254BED250EC31416C48DABDCCC0",
+        "SourceID": "5F06DAB3829F9168AF406F8D99D642589608A861",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    }, {
+      "id": "2d3dec34-694c-4ca0-bbfe-a39b9748eb33",
+      "count": 3,
+      "front": {
+        "Name": "gcop2301-004 Reality Acid-x3-1.png",
+        "ID": "62E9350AC85E0AA13CD68909FB972BE2",
+        "SourceID": "6275E6A685A2E40B29033D5A62BE08719C2C64B9",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      },
+      "back": {
+        "Name": "_playerback.png",
+        "ID": "F2C892495D430CF932D00FCC1CD986B8",
+        "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    }, {
+      "id": "b705098a-da36-4af0-866f-3f9c3e9e4b90",
+      "count": 1,
+      "front": {
+        "Name": "gcop2301-005 Reality Acid table-1.png",
+        "ID": "FF021E3A2CF73F7B67BCE4879A769F38",
+        "SourceID": "966185DB4B05AE2D9B592BB1B97F453D2D985FB9",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      },
+      "back": {
+        "Name": "gcop2301-005 Reality Acid table-2.png",
+        "ID": "D47F687A920F5849E1757CED4954F806",
+        "SourceID": "A184912EF70BED31D3B0A65BB985CE0ECA1D0FFE",
+        "Exp": "png",
+        "Width": 822,
+        "Height": 1122
+      }
+    }]
+  }, {
     "name": "The Blob That Ate Everything ELSE",
     "cards": [{
       "id": "3d5fdbc4-8b86-4761-acf6-5f0bae03710b",
