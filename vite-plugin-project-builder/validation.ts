@@ -50,7 +50,7 @@ const partSchema: JSONSchemaType<PartMeta> = {
 const projectV1Schema: JSONSchemaType<ProjectV1Meta> = {
   type: 'object',
   properties: {
-    projectId: { type: 'string' },
+    projectId: { type: 'array', items: { type: 'string' } },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },
@@ -84,7 +84,7 @@ const projectV1Schema: JSONSchemaType<ProjectV1Meta> = {
 const projectV2Schema: JSONSchemaType<ProjectV2Meta> = {
   type: 'object',
   properties: {
-    projectId: { type: 'string' },
+    projectId: { type: 'array', items: { type: 'string' } },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },

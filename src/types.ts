@@ -31,7 +31,7 @@ export interface ProjectV2 {
 }
 
 export interface ProjectMeta {
-  projectId: string
+  projectId: string[]
   name: string
   description: string
   content: string
