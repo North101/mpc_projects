@@ -1,6 +1,6 @@
 {
   "projectId": "804DA6F941847BAE1D9B582F80E0DE07650278FE982680544FE5AB2199D20F1EBCE0487F52AF695E",
-  "name": "Play & Share full card art investigators",
+  "name": "Play & Share Full Card Art Investigators",
   "description": "",
   "content": "",
   "website": null,
@@ -14,11 +14,11 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.680Z",
-  "updated": "2023-08-13T20:43:40.200Z",
+  "updated": "2023-08-14T00:23:58.830Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Play & Share full card art investigators",
+      "name": "Roland Banks",
       "cards": [
         {
           "count": 1,
@@ -38,7 +38,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Daisy Walker",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -57,7 +62,12 @@
             "Width": 826,
             "Height": 1126
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "\"Skids\" O'Toole",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -76,7 +86,12 @@
             "Width": 826,
             "Height": 1126
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Agnes Baker",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -95,7 +110,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Wendy Adams",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -114,7 +134,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Roland Banks",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -133,7 +158,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Daisy Walker",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -152,7 +182,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel \"Skids\" O'Toole",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -171,7 +206,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Agnes Baker",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -190,7 +230,12 @@
             "Width": 816,
             "Height": 1110
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Wendy Adams",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -213,5 +258,5 @@
       ]
     }
   ],
-  "hash": "ae8fd4a3f0fe97aec91d6e1ea61cd915f4cc307c29914a59d8ccd63180d9eaed"
+  "hash": "090f58717b4ca88f28d996211abb375053ad3a58fd0526446c19605a20a58a2c"
 }
