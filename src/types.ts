@@ -14,6 +14,7 @@ export interface Card {
 }
 
 export interface ProjectPart {
+  enabled?: boolean
   name: string
   cards: Card[]
 }
@@ -51,6 +52,7 @@ export interface ProjectV2 {
 }
 
 export interface ProjectInfoPart {
+  enabled: boolean
   name: string
   count: number
 }

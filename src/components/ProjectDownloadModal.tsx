@@ -37,7 +37,7 @@ interface ProjectDownloadModalProps {
 }
 
 export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalProps) => {
-  const [checked, setChecked] = useState(project.parts.map(() => true))
+  const [checked, setChecked] = useState(project.parts.map((e) => e.enabled))
   const anyChecked = checked.some(e => e)
   const onDownload = () => downloadProject(
     project,

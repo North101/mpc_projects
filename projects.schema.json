@@ -50,6 +50,9 @@
       "items": {
         "type": "object",
         "properties": {
+          "enabled": {
+            "type": "boolean"
+          },
           "count": {
             "type": "number"
           },

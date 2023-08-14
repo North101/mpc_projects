@@ -28,9 +28,11 @@ const mapProjectInfo = (e: ProjectV1WithFilename | ProjectV2WithFilename): Proje
   updated: e.updated,
   filename: e.filename,
   parts: 'parts' in e ? e.parts.map(e => ({
+    enabled: e.enabled ?? true,
     name: e.name,
     count: e.cards.reduce((value, card) => value + card.count, 0),
   })) : [{
+    enabled: true,
     name: e.name,
     count: e.cards.reduce((value, card) => value + card.count, 0),
   }],

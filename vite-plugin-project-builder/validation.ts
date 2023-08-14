@@ -29,6 +29,9 @@ const partSchema: JTDSchemaType<ProjectPart> = {
     name: { type: 'string' },
     cards: { elements: cardSchema }
   },
+  optionalProperties: {
+    enabled: { type: 'boolean' },
+  },
 }
 
 const projectV1Schema: JTDSchemaType<ProjectV1> = {
