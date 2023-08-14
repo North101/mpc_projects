@@ -74,7 +74,6 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
   }
 
   const hash = hashJson([
-    project.projectId,
     project.code,
     project.parts,
   ])
