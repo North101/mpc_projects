@@ -3,12 +3,12 @@ import { glob } from 'glob'
 import mpcData from 'mpc_api/data'
 import { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { ProjectDownload, ProjectInfo, Project } from './types'
+import { ProjectInfo, ProjectV1Meta, ProjectV2, ProjectV2Meta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
-import { projectValidator } from './validation'
+import projectValidator from './validation'
 
 
-interface ProjectWithFilename extends Project {
+interface ProjectWithFilename extends ProjectV2Meta {
   filename: string
 }
 
@@ -33,18 +33,39 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
     .flatMap(e => e.urls),
 })
 
-const mapProjectDownload = (e: ProjectWithFilename): ProjectDownload => ({
-  version: 2,
-  code: e.code,
-  parts: e.parts.map(e => ({
+const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectV2 => ({
+  version,
+  code,
+  parts: parts.map(e => ({
     name: e.name,
     cards: e.cards,
   })),
 })
 
+const upgradeProject = (project: ProjectV1Meta | ProjectV2Meta): ProjectV2Meta => {
+  if (project.version == 1) {
+    const { cards, name, ...rest } = project
+    return {
+      ...rest,
+      name,
+      version: 2,
+      parts: [{
+        name: name,
+        cards,
+      }]
+    }
+  }
+
+  return project
+}
+
+const parseProject = (project: unknown): ProjectV2Meta | null => {
+  return projectValidator(project) ? upgradeProject(project) : null
+}
+
 const readProject = async (filename: string): Promise<ProjectWithFilename | null> => {
-  const project = await readJson(filename)
-  if (!projectValidator(project)) {
+  const project = parseProject(await readJson(filename))
+  if (project == null) {
     console.log(basename(filename))
     projectValidator.errors
       ?.map(e => `  ${e.instancePath}/ ${e.message}`)
@@ -64,8 +85,6 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
     hash,
     updated,
   }
-
-  throw project.version
 }
 
 const readProjectList = async (projectsDir: string) => {
@@ -94,10 +113,10 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       await fs.mkdir(resolve(outDir, projectsDir))
       await Promise.all(projectList.map(async e => {
-        await writeJson<ProjectDownload>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
+        await writeJson<ProjectV2>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<Project>(resolve(projectsDir, filename), project)
+        await writeJson<ProjectV2Meta>(resolve(projectsDir, filename), project)
       }))
     },
     configureServer(server) {

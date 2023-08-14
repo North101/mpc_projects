@@ -2,14 +2,13 @@ import { useState } from 'react'
 import Button from 'react-bootstrap/esm/Button'
 import Form from 'react-bootstrap/esm/Form'
 import Modal from 'react-bootstrap/esm/Modal'
-import { ProjectDownload, ProjectInfo } from '../types'
+import { ProjectV2, ProjectInfo } from '../types'
 
 const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose: () => void) => {
   const r = await fetch(`/projects/${project.filename}`)
-  const file: ProjectDownload = await r.json()
-  const download: ProjectDownload = {
-    version: 2,
-    code: file.code,
+  const file: ProjectV2 = await r.json()
+  const download: ProjectV2 = {
+    ...file,
     parts: file.parts.filter((_, index) => checked[index]),
   }
 

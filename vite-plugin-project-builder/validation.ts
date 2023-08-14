@@ -1,5 +1,5 @@
 import Ajv, { JSONSchemaType } from 'ajv'
-import { Card, CardFace, ProjectPart, Project } from './types'
+import { Card, CardFace, PartMeta, ProjectV1Meta, ProjectV2Meta } from './types'
 
 
 const cardFaceSchema: JSONSchemaType<CardFace> = {
@@ -26,32 +26,20 @@ const cardSchema: JSONSchemaType<Card> = {
   type: 'object',
   properties: {
     count: { type: 'number' },
-    front: {
-      ...cardFaceSchema,
-      nullable: true,
-    },
-    back: {
-      ...cardFaceSchema,
-      nullable: true,
-    },
+    front: { ...cardFaceSchema, nullable: true },
+    back: { ...cardFaceSchema, nullable: true },
   },
   required: [
     'count',
   ],
 }
 
-const partSchema: JSONSchemaType<ProjectPart> = {
+const partSchema: JSONSchemaType<PartMeta> = {
   type: 'object',
   properties: {
-    enabled: {
-      type: 'boolean',
-      nullable: true,
-    },
+    enabled: { type: 'boolean', nullable: true },
     name: { type: 'string' },
-    cards: {
-      type: 'array',
-      items: cardSchema
-    },
+    cards: { type: 'array', items: cardSchema },
   },
   required: [
     'name',
@@ -59,34 +47,56 @@ const partSchema: JSONSchemaType<ProjectPart> = {
   ],
 }
 
-const projectSchema: JSONSchemaType<Project> = {
+const projectV1Schema: JSONSchemaType<ProjectV1Meta> = {
   type: 'object',
   properties: {
     projectId: { type: 'string' },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },
-    authors: {
-      type: 'array',
-      items: { type: 'string' },
-    },
-    tags: {
-      type: 'array',
-      items: { type: 'string' },
-    },
+    authors: { type: 'array', items: { type: 'string' } },
+    tags: { type: 'array', items: { type: 'string' } },
     created: { type: 'string' },
     updated: { type: 'string' },
     website: { type: 'string', nullable: true },
     info: { type: 'string', nullable: true },
-    version: {
-      type: 'number',
-      const: 2,
-    },
+    version: { type: 'number', const: 1 },
     code: { type: 'string' },
-    parts: {
-      type: 'array',
-      items: partSchema,
-     },
+    cards: { type: 'array', items: cardSchema },
+    hash: { type: 'string' },
+  },
+  required: [
+    'projectId',
+    'name',
+    'description',
+    'content',
+    'authors',
+    'tags',
+    'created',
+    'updated',
+    'version',
+    'code',
+    'cards',
+    'hash',
+  ]
+}
+
+const projectV2Schema: JSONSchemaType<ProjectV2Meta> = {
+  type: 'object',
+  properties: {
+    projectId: { type: 'string' },
+    name: { type: 'string' },
+    description: { type: 'string' },
+    content: { type: 'string' },
+    authors: { type: 'array', items: { type: 'string' } },
+    tags: { type: 'array', items: { type: 'string' } },
+    created: { type: 'string' },
+    updated: { type: 'string' },
+    website: { type: 'string', nullable: true },
+    info: { type: 'string', nullable: true },
+    version: { type: 'number', const: 2 },
+    code: { type: 'string' },
+    parts: { type: 'array', items: partSchema },
     hash: { type: 'string' },
   },
   required: [
@@ -105,7 +115,15 @@ const projectSchema: JSONSchemaType<Project> = {
   ]
 }
 
+const projectSchema: JSONSchemaType<ProjectV1Meta | ProjectV2Meta> = {
+  oneOf: [
+    projectV1Schema,
+    projectV2Schema,
+  ]
+}
+
 const ajv = new Ajv({
   removeAdditional: 'all',
 })
-export const projectValidator = ajv.compile(projectSchema)
+const projectValidator = ajv.compile(projectSchema)
+export default projectValidator
