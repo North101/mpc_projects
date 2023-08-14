@@ -13,14 +13,13 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.678Z",
-  "updated": "2023-08-13T20:43:40.198Z",
+  "updated": "2023-08-14T07:15:31.726Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
       "name": "Taboo 2022 Add/Change Only",
       "cards": [
         {
-          "projectId": 1348,
           "count": 2,
           "front": {
             "Name": "06 David Renfield x2-front.png",
@@ -40,7 +39,6 @@
           }
         },
         {
-          "projectId": 1353,
           "count": 2,
           "front": {
             "Name": "11 Signum Crucis x2-front.png",
@@ -60,7 +58,6 @@
           }
         },
         {
-          "projectId": 1354,
           "count": 2,
           "front": {
             "Name": "12 Rite of Equilibrium x2-front.png",
@@ -80,7 +77,6 @@
           }
         },
         {
-          "projectId": 1355,
           "count": 2,
           "front": {
             "Name": "13 Jeremiah Kirby x2-front.png",
@@ -100,7 +96,6 @@
           }
         },
         {
-          "projectId": 1356,
           "count": 2,
           "front": {
             "Name": "14 Gené Beauregard x2-front.png",
@@ -120,7 +115,6 @@
           }
         },
         {
-          "projectId": 1360,
           "count": 2,
           "front": {
             "Name": "18 Ritual Candles x2-front.png",
@@ -140,7 +134,6 @@
           }
         },
         {
-          "projectId": 1361,
           "count": 2,
           "front": {
             "Name": "19 Jewel of Aureolus x2-front.png",
@@ -160,7 +153,6 @@
           }
         },
         {
-          "projectId": 1362,
           "count": 2,
           "front": {
             "Name": "20 Voice of Ra x2-front.png",
@@ -180,7 +172,6 @@
           }
         },
         {
-          "projectId": 1366,
           "count": 2,
           "front": {
             "Name": "24 Strange Solution Acidic Ichor x2-front.png",
@@ -200,7 +191,6 @@
           }
         },
         {
-          "projectId": 1368,
           "count": 1,
           "front": {
             "Name": "26 Lola Hayes-front.png",
@@ -220,7 +210,6 @@
           }
         },
         {
-          "projectId": 1369,
           "count": 2,
           "front": {
             "Name": "28 Crisis of Identity x2-front.png",
@@ -240,7 +229,6 @@
           }
         },
         {
-          "projectId": 1371,
           "count": 2,
           "front": {
             "Name": "31 Dark Prophecy x2-front.png",
@@ -260,7 +248,6 @@
           }
         },
         {
-          "projectId": 1372,
           "count": 2,
           "front": {
             "Name": "32 Counterspell x2-front.png",
@@ -280,7 +267,6 @@
           }
         },
         {
-          "projectId": 1377,
           "count": 2,
           "front": {
             "Name": "37 Mr. Rook x2-front.png",
@@ -300,7 +286,6 @@
           }
         },
         {
-          "projectId": 1380,
           "count": 1,
           "front": {
             "Name": "40 Mandy Thompson-front.png",
@@ -320,7 +305,6 @@
           }
         },
         {
-          "projectId": 1384,
           "count": 2,
           "front": {
             "Name": "45 Flute of the Outer Gods x2-front.png",
@@ -340,7 +324,6 @@
           }
         },
         {
-          "projectId": 1387,
           "count": 2,
           "front": {
             "Name": "48 Prophesiae Profana x2-front.png",
@@ -360,7 +343,6 @@
           }
         },
         {
-          "projectId": 1388,
           "count": 2,
           "front": {
             "Name": "49 Black Market x2-front.png",
@@ -380,7 +362,6 @@
           }
         },
         {
-          "projectId": 1389,
           "count": 2,
           "front": {
             "Name": "50 Eon Chart (1) x2-front.png",
@@ -400,7 +381,6 @@
           }
         },
         {
-          "projectId": 1390,
           "count": 2,
           "front": {
             "Name": "51 Eon Chart (4) x2-front.png",
@@ -420,7 +400,6 @@
           }
         },
         {
-          "projectId": 1391,
           "count": 2,
           "front": {
             "Name": "52 Cyclopean Hammer x2-front.png",
@@ -442,5 +421,5 @@
       ]
     }
   ],
-  "hash": "5e0053b2ece014c7d5ab648e48ac0a59b56d2476a8e1661bf4616c15b69d2a12"
+  "hash": "165870d3b06899c0a07e68f5c8b145be552527a880acbd67125c29fca9eae55d"
 }

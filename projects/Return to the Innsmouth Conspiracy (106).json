@@ -13,14 +13,13 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.680Z",
-  "updated": "2023-08-13T20:43:40.200Z",
+  "updated": "2023-08-14T07:15:31.727Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
       "name": "Return to the Innsmouth Conspiracy (Unofficial)",
       "cards": [
         {
-          "projectId": 0,
           "count": 2,
           "front": {
             "Name": "001 Blessed Blade-x2-1.png",
@@ -40,7 +39,6 @@
           }
         },
         {
-          "projectId": 1,
           "count": 2,
           "front": {
             "Name": "002 Tides of Fate-x2-1.png",
@@ -60,7 +58,6 @@
           }
         },
         {
-          "projectId": 2,
           "count": 2,
           "front": {
             "Name": "003 Hand of Fate-x2-1.png",
@@ -80,7 +77,6 @@
           }
         },
         {
-          "projectId": 3,
           "count": 2,
           "front": {
             "Name": "004 Book of Psalms-x2-1.png",
@@ -100,7 +96,6 @@
           }
         },
         {
-          "projectId": 4,
           "count": 2,
           "front": {
             "Name": "005 Cryptographic Cipher-x2-1.png",
@@ -120,7 +115,6 @@
           }
         },
         {
-          "projectId": 5,
           "count": 2,
           "front": {
             "Name": "006 Cryptic Grimoire-x2-1.png",
@@ -140,7 +134,6 @@
           }
         },
         {
-          "projectId": 6,
           "count": 2,
           "front": {
             "Name": "007 Plan of Action-x2-1.png",
@@ -160,7 +153,6 @@
           }
         },
         {
-          "projectId": 7,
           "count": 2,
           "front": {
             "Name": "008 Under Surveillance-x2-1.png",
@@ -180,7 +172,6 @@
           }
         },
         {
-          "projectId": 8,
           "count": 2,
           "front": {
             "Name": "009 Tristan Botley-x2-1.png",
@@ -200,7 +191,6 @@
           }
         },
         {
-          "projectId": 9,
           "count": 2,
           "front": {
             "Name": "010 Keep Faith-x2-1.png",
@@ -220,7 +210,6 @@
           }
         },
         {
-          "projectId": 10,
           "count": 2,
           "front": {
             "Name": "011 Sword Cane-x2-1.png",
@@ -240,7 +229,6 @@
           }
         },
         {
-          "projectId": 11,
           "count": 2,
           "front": {
             "Name": "012 Abyssal Tome-x2-1.png",
@@ -260,7 +248,6 @@
           }
         },
         {
-          "projectId": 12,
           "count": 2,
           "front": {
             "Name": "013 Priest of Two Faiths-x2-1.png",
@@ -280,7 +267,6 @@
           }
         },
         {
-          "projectId": 13,
           "count": 2,
           "front": {
             "Name": "014 Butterfly Effect-x2-1.png",
@@ -300,7 +286,6 @@
           }
         },
         {
-          "projectId": 14,
           "count": 2,
           "front": {
             "Name": "015 Token of Faith-x2-1.png",
@@ -320,7 +305,6 @@
           }
         },
         {
-          "projectId": 15,
           "count": 2,
           "front": {
             "Name": "016 Manipulate Destiny-x2-1.png",
@@ -340,7 +324,6 @@
           }
         },
         {
-          "projectId": 16,
           "count": 1,
           "front": {
             "Name": "017 Accursed-1.png",
@@ -360,7 +343,6 @@
           }
         },
         {
-          "projectId": 17,
           "count": 1,
           "front": {
             "Name": "018 Return to Pit of Despair-1.png",
@@ -380,7 +362,6 @@
           }
         },
         {
-          "projectId": 18,
           "count": 1,
           "front": {
             "Name": "019 Pit of Despair Act 1 v2-1.png",
@@ -400,7 +381,6 @@
           }
         },
         {
-          "projectId": 19,
           "count": 2,
           "front": {
             "Name": "020 Lost in the Caves-x2-1.png",
@@ -420,7 +400,6 @@
           }
         },
         {
-          "projectId": 20,
           "count": 2,
           "front": {
             "Name": "021 Troubling Memories-x2-1.png",
@@ -440,7 +419,6 @@
           }
         },
         {
-          "projectId": 21,
           "count": 1,
           "front": {
             "Name": "022 Return to The Vanishing of Elina Harper-1.png",
@@ -460,7 +438,6 @@
           }
         },
         {
-          "projectId": 22,
           "count": 1,
           "front": {
             "Name": "023 The Vanishing of Elina Harper Act 1 v2-1.png",
@@ -480,7 +457,6 @@
           }
         },
         {
-          "projectId": 23,
           "count": 2,
           "front": {
             "Name": "024 Growing Suspicion-x2-1.png",
@@ -500,7 +476,6 @@
           }
         },
         {
-          "projectId": 24,
           "count": 1,
           "front": {
             "Name": "025 Little Gemma-1.png",
@@ -520,7 +495,6 @@
           }
         },
         {
-          "projectId": 25,
           "count": 1,
           "front": {
             "Name": "026 Ron Stalwick-1.png",
@@ -540,7 +514,6 @@
           }
         },
         {
-          "projectId": 26,
           "count": 1,
           "front": {
             "Name": "027 Roderick-1.png",
@@ -560,7 +533,6 @@
           }
         },
         {
-          "projectId": 27,
           "count": 1,
           "front": {
             "Name": "028 Return to In Too Deep-1.png",
@@ -580,7 +552,6 @@
           }
         },
         {
-          "projectId": 28,
           "count": 1,
           "front": {
             "Name": "029 In Too Deep Act 1 v2-1.png",
@@ -600,7 +571,6 @@
           }
         },
         {
-          "projectId": 29,
           "count": 4,
           "front": {
             "Name": "030 Innsmouth Influence-x4-1.png",
@@ -620,7 +590,6 @@
           }
         },
         {
-          "projectId": 30,
           "count": 1,
           "front": {
             "Name": "031 Return to Devil Reef-1.png",
@@ -640,7 +609,6 @@
           }
         },
         {
-          "projectId": 31,
           "count": 1,
           "front": {
             "Name": "032 Shrine to Hydra-1.png",
@@ -660,7 +628,6 @@
           }
         },
         {
-          "projectId": 32,
           "count": 1,
           "front": {
             "Name": "033 Cave Mouth-1.png",
@@ -680,7 +647,6 @@
           }
         },
         {
-          "projectId": 33,
           "count": 1,
           "front": {
             "Name": "034 Fishing Vessel-1.png",
@@ -700,7 +666,6 @@
           }
         },
         {
-          "projectId": 34,
           "count": 1,
           "front": {
             "Name": "035 Return to Horror in High Gear-1.png",
@@ -720,7 +685,6 @@
           }
         },
         {
-          "projectId": 35,
           "count": 1,
           "front": {
             "Name": "036 Mud Tracks-1.png",
@@ -740,7 +704,6 @@
           }
         },
         {
-          "projectId": 36,
           "count": 1,
           "front": {
             "Name": "037 Straight Section-1.png",
@@ -760,7 +723,6 @@
           }
         },
         {
-          "projectId": 37,
           "count": 2,
           "front": {
             "Name": "038 Wrecked-x2-1.png",
@@ -780,7 +742,6 @@
           }
         },
         {
-          "projectId": 38,
           "count": 1,
           "front": {
             "Name": "039 Return to A Light in the Fog-1.png",
@@ -800,7 +761,6 @@
           }
         },
         {
-          "projectId": 39,
           "count": 1,
           "front": {
             "Name": "040 A Light in the Fog Agenda 4 v2-1.png",
@@ -820,7 +780,6 @@
           }
         },
         {
-          "projectId": 40,
           "count": 2,
           "front": {
             "Name": "041 Born to Breed-x2-1.png",
@@ -840,7 +799,6 @@
           }
         },
         {
-          "projectId": 41,
           "count": 3,
           "front": {
             "Name": "042 Deep One Grappler-x3-1.png",
@@ -860,7 +818,6 @@
           }
         },
         {
-          "projectId": 42,
           "count": 1,
           "front": {
             "Name": "043 Return to Lair of Dagon-1.png",
@@ -880,7 +837,6 @@
           }
         },
         {
-          "projectId": 43,
           "count": 1,
           "front": {
             "Name": "044 Lair of Dagon Act 2 v2-1.png",
@@ -900,7 +856,6 @@
           }
         },
         {
-          "projectId": 44,
           "count": 1,
           "front": {
             "Name": "045 Doorway to the Depths-1.png",
@@ -920,7 +875,6 @@
           }
         },
         {
-          "projectId": 45,
           "count": 1,
           "front": {
             "Name": "046 Doorway to the Depths-1.png",
@@ -940,7 +894,6 @@
           }
         },
         {
-          "projectId": 46,
           "count": 1,
           "front": {
             "Name": "047 Stirring in His Sleep-1.png",
@@ -960,7 +913,6 @@
           }
         },
         {
-          "projectId": 47,
           "count": 1,
           "front": {
             "Name": "048 Return to Into the Maelstrom-1.png",
@@ -980,7 +932,6 @@
           }
         },
         {
-          "projectId": 48,
           "count": 1,
           "front": {
             "Name": "049 Into the Maelstrom Agenda 1 v2-1.png",
@@ -1000,7 +951,6 @@
           }
         },
         {
-          "projectId": 49,
           "count": 1,
           "front": {
             "Name": "050 Into the Maelstrom Agenda 2 v2-1.png",
@@ -1020,7 +970,6 @@
           }
         },
         {
-          "projectId": 50,
           "count": 1,
           "front": {
             "Name": "051 Into the Maelstrom Act 1 v2-1.png",
@@ -1040,7 +989,6 @@
           }
         },
         {
-          "projectId": 51,
           "count": 1,
           "front": {
             "Name": "052 Presence of the Father-1.png",
@@ -1060,7 +1008,6 @@
           }
         },
         {
-          "projectId": 52,
           "count": 1,
           "front": {
             "Name": "053 Presence of the Mother-1.png",
@@ -1080,7 +1027,6 @@
           }
         },
         {
-          "projectId": 53,
           "count": 2,
           "front": {
             "Name": "054 Stirring in Their Sleep-x2-1.png",
@@ -1100,7 +1046,6 @@
           }
         },
         {
-          "projectId": 54,
           "count": 2,
           "front": {
             "Name": "055 Barricaded Door-x2-1.png",
@@ -1120,7 +1065,6 @@
           }
         },
         {
-          "projectId": 55,
           "count": 1,
           "front": {
             "Name": "056 Immaterial One-1.png",
@@ -1140,7 +1084,6 @@
           }
         },
         {
-          "projectId": 56,
           "count": 2,
           "front": {
             "Name": "057 Innsmouth Haze-x2-1.png",
@@ -1160,7 +1103,6 @@
           }
         },
         {
-          "projectId": 57,
           "count": 2,
           "front": {
             "Name": "058 King Tide-x2-1.png",
@@ -1180,7 +1122,6 @@
           }
         },
         {
-          "projectId": 58,
           "count": 2,
           "front": {
             "Name": "059 Occultation-x2-1.png",
@@ -1200,7 +1141,6 @@
           }
         },
         {
-          "projectId": 59,
           "count": 2,
           "front": {
             "Name": "060 Call of the Sea-x2-1.png",
@@ -1220,7 +1160,6 @@
           }
         },
         {
-          "projectId": 60,
           "count": 2,
           "front": {
             "Name": "061 Rolling Tide-x2-1.png",
@@ -1240,7 +1179,6 @@
           }
         },
         {
-          "projectId": 61,
           "count": 2,
           "front": {
             "Name": "062 Struggle for Air-x2-1.png",
@@ -1260,7 +1198,6 @@
           }
         },
         {
-          "projectId": 62,
           "count": 2,
           "front": {
             "Name": "063 Deep One Ambusher-x2-1.png",
@@ -1280,7 +1217,6 @@
           }
         },
         {
-          "projectId": 63,
           "count": 2,
           "front": {
             "Name": "064 Stalked by Deep Ones-x2-1.png",
@@ -1300,7 +1236,6 @@
           }
         },
         {
-          "projectId": 64,
           "count": 2,
           "front": {
             "Name": "065 Underwater Cavern-x2-1.png",
@@ -1320,7 +1255,6 @@
           }
         },
         {
-          "projectId": 65,
           "count": 2,
           "front": {
             "Name": "066 Tidal Pool-x2-1.png",
@@ -1340,7 +1274,6 @@
           }
         },
         {
-          "projectId": 66,
           "count": 2,
           "front": {
             "Name": "067 Underground River-x2-1.png",
@@ -1362,5 +1295,5 @@
       ]
     }
   ],
-  "hash": "4c5dba4c591c206e7e6b405be006a052eee22c7677f9900135e3266f3ab1b4fa"
+  "hash": "86eadcd7dfffbaacc86ed50e2a3af06a85fb31a7380620565ebc49afa89ee2d8"
 }

@@ -14,7 +14,7 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.681Z",
-  "updated": "2023-08-14T00:16:08.939Z",
+  "updated": "2023-08-14T07:15:31.721Z",
   "code": "C380050185D1C1AF",
   "parts": [
     {
@@ -83,7 +83,6 @@
       "name": "Parallel Daisy Walker (Revised Art)",
       "cards": [
         {
-          "projectId": 0,
           "count": 1,
           "front": {
             "Name": "Daisy Walker Parallel rev core art-front.png",
@@ -103,7 +102,6 @@
           }
         },
         {
-          "projectId": 156,
           "count": 1,
           "front": {
             "Name": "P0002 - Daisys Tote Bag (Revised)-front.png",
@@ -123,7 +121,6 @@
           }
         },
         {
-          "projectId": 12,
           "count": 1,
           "front": {
             "Name": "003 Advanced Necronomicon-a.png",
@@ -291,7 +288,6 @@
       "name": "Parallel \"Skids\" O'Toole (Revised Art)",
       "cards": [
         {
-          "projectId": 1,
           "count": 1,
           "front": {
             "Name": "Skids O'Toole Parallel rev core art-front.png",
@@ -311,7 +307,6 @@
           }
         },
         {
-          "projectId": 18,
           "count": 1,
           "front": {
             "Name": "009 Advanced On the Lam-a.png",
@@ -331,7 +326,6 @@
           }
         },
         {
-          "projectId": 19,
           "count": 1,
           "front": {
             "Name": "010 Advanced Hospital Debts-a.png",
@@ -537,7 +531,6 @@
       "name": "Parallel Agnes Baker (Revised Art)",
       "cards": [
         {
-          "projectId": 2,
           "count": 1,
           "front": {
             "Name": "Agnes Baker Parallel rev core art-front.png",
@@ -557,7 +550,6 @@
           }
         },
         {
-          "projectId": 27,
           "count": 1,
           "front": {
             "Name": "018 Advanced Heirloom of Hyperborea-a.png",
@@ -577,7 +569,6 @@
           }
         },
         {
-          "projectId": 157,
           "count": 1,
           "front": {
             "Name": "P0019 - Dark Memory (Revised)-front.png",
@@ -840,7 +831,6 @@
       "name": "Parallel Roland Banks (Revised Art)",
       "cards": [
         {
-          "projectId": 3,
           "count": 1,
           "front": {
             "Name": "Roland Banks Parallel rev core art-front.png",
@@ -860,7 +850,6 @@
           }
         },
         {
-          "projectId": 34,
           "count": 1,
           "front": {
             "Name": "025 Directive Due Diligence-1.png",
@@ -880,7 +869,6 @@
           }
         },
         {
-          "projectId": 35,
           "count": 1,
           "front": {
             "Name": "026 Directive Red Tape-1.png",
@@ -900,7 +888,6 @@
           }
         },
         {
-          "projectId": 36,
           "count": 1,
           "front": {
             "Name": "027 Directive Consult Experts-1.png",
@@ -920,7 +907,6 @@
           }
         },
         {
-          "projectId": 37,
           "count": 1,
           "front": {
             "Name": "028 Directive Seek the Truth-1.png",
@@ -940,7 +926,6 @@
           }
         },
         {
-          "projectId": 38,
           "count": 1,
           "front": {
             "Name": "029 Directive Leave No Doubt-1.png",
@@ -960,7 +945,6 @@
           }
         },
         {
-          "projectId": 39,
           "count": 1,
           "front": {
             "Name": "030 Advanced Roland's .38 Special-1.png",
@@ -980,7 +964,6 @@
           }
         },
         {
-          "projectId": 40,
           "count": 1,
           "front": {
             "Name": "031 Advanced Cover Up-1.png",
@@ -1186,7 +1169,6 @@
       "name": "Parallel Wendy Adams (Revised Art)",
       "cards": [
         {
-          "projectId": 4,
           "count": 1,
           "front": {
             "Name": "Wendy Adams Parallel rev core art-front.png",
@@ -1206,7 +1188,6 @@
           }
         },
         {
-          "projectId": 47,
           "count": 1,
           "front": {
             "Name": "038 Tidal Memento-1.png",
@@ -1226,7 +1207,6 @@
           }
         },
         {
-          "projectId": 158,
           "count": 1,
           "front": {
             "Name": "P0039 - Wendys Amulet (Revised)-front.png",
@@ -1246,7 +1226,6 @@
           }
         },
         {
-          "projectId": 159,
           "count": 1,
           "front": {
             "Name": "P0040 - Abandoned and Alone (Revised)-front.png",
@@ -1271,7 +1250,6 @@
       "name": "Parallel Wendy Adams (Hard Knocks Art)",
       "cards": [
         {
-          "projectId": 5,
           "count": 1,
           "front": {
             "Name": "Wendy Adams Parallel hard knocks art-a.png",
@@ -1455,5 +1433,5 @@
       ]
     }
   ],
-  "hash": "6da451331c7a46f3d1608087c8e386f0aa14f146dada6c6efb74ec7eb3f2d6a6"
+  "hash": "fd3b0390f6ac3fca7302afabcaddc3991d940dfce453fa7bfcece483ca5b3a1c"
 }

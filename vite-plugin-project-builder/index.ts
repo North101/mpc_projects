@@ -3,7 +3,7 @@ import { glob } from 'glob'
 import mpcData from 'mpc_api/data'
 import { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { ProjectDownload, ProjectInfo, ProjectV1, ProjectV2 } from './types'
+import { Card, CardFace, ProjectDownload, ProjectInfo, ProjectPart, ProjectV1, ProjectV2 } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import { projectV1Validator, projectV2Validator } from './validation'
 
@@ -15,6 +15,27 @@ interface ProjectV1WithFilename extends ProjectV1 {
 interface ProjectV2WithFilename extends ProjectV2 {
   filename: string
 }
+
+const mapCardFace = (e: CardFace | undefined): CardFace | undefined => (e ? {
+  Name: e.Name,
+  ID: e.ID,
+  SourceID: e.SourceID,
+  Exp: e.Exp,
+  Width: e.Width,
+  Height: e.Height,
+} : undefined)
+
+const mapCard = (e: Card) => ({
+  count: e.count,
+  front: mapCardFace(e.front),
+  back: mapCardFace(e.back),
+})
+
+const mapPart = (e: ProjectPart) => ({
+  enabled: e.enabled,
+  name: e.name,
+  cards: e.cards,
+})
 
 const mapProjectInfo = (e: ProjectV1WithFilename | ProjectV2WithFilename): ProjectInfo => ({
   name: e.name,
@@ -44,9 +65,9 @@ const mapProjectInfo = (e: ProjectV1WithFilename | ProjectV2WithFilename): Proje
 const mapProjectDownload = (e: ProjectV1WithFilename | ProjectV2WithFilename): ProjectDownload => ({
   version: 2,
   code: e.code,
-  parts: 'parts' in e ? e.parts : [{
+  parts: 'parts' in e ? e.parts.map(mapPart) : [{
     name: e.name,
-    cards: e.cards,
+    cards: e.cards.map(mapCard),
   }],
 })
 
@@ -140,7 +161,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           created: e.created,
           updated: e.updated,
           code: e.code,
-          parts: e.parts,
+          parts: e.parts.map(mapPart),
           hash: e.hash,
         })
       }))
