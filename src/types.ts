@@ -34,11 +34,10 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
-  content: string
+  info?: string | null
   website?: string | null
   authors: string[]
   tags: string[]
-  info?: string | null
   created: string
   updated: string
   hash: string
@@ -63,16 +62,15 @@ export interface PartInfo {
 }
 
 export interface ProjectInfo {
+  filename: string
   name: string
   description: string
-  content: string
+  info: string | null
   website: string | null
   authors: string[]
   tags: string[]
-  info: string | null
   created: string
   updated: string
-  filename: string
   sites: string[]
   parts: PartInfo[]
 }

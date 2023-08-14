@@ -13,16 +13,15 @@ interface ProjectWithFilename extends ProjectV2Meta {
 }
 
 const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
+  filename: e.filename,
   name: e.name,
   description: e.description,
-  content: e.content,
+  info: e.info ?? null,
   website: e.website ?? null,
   authors: e.authors,
   tags: e.tags,
-  info: e.info ?? null,
   created: e.created,
   updated: e.updated,
-  filename: e.filename,
   parts: e.parts.map(e => ({
     enabled: e.enabled ?? true,
     name: e.name,

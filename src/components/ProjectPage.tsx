@@ -1,10 +1,9 @@
-import { AppContainer } from './AppContainer'
-
 import { CloudArrowDown } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 import { useProjects } from '../projects'
+import { AppContainer } from './AppContainer'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectTags } from './ProjectTags'
@@ -43,7 +42,7 @@ export const ProjectPage = ({ name }: ProjectPageProps) => {
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            <ReactMarkdown>{project.content ?? ''}</ReactMarkdown>
+            <ReactMarkdown>{project.description}</ReactMarkdown>
           </Card.Text>
         </Card.Body>
       </Card>
