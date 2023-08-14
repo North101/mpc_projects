@@ -13,12 +13,12 @@
   ],
   "info": null,
   "created": "2023-08-08T04:45:26.696Z",
-  "updated": "2023-08-13T20:43:40.208Z",
+  "updated": "2023-08-12T14:06:20.351Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Arkham Incidents",
+      "name": "Too Noble (Tetsuo Mori)",
       "cards": [
         {
           "count": 1,
@@ -798,7 +798,12 @@
             "Width": 822,
             "Height": 1122
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Something Big (Dr. William T. Maleson)",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -1577,7 +1582,12 @@
             "Width": 822,
             "Height": 1122
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Unscrupulous Investments (Dario El-Amin)",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -2375,7 +2385,12 @@
             "Width": 822,
             "Height": 1122
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Anything Once (Olive McBride)",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -3173,8 +3188,13 @@
             "Width": 822,
             "Height": 1122
           }
-        },
-        {
+        }
+      ]
+    },
+    {
+      "name": "Mysterious Benefits (Madame Labranche)",
+      "cards": [
+          {
           "count": 1,
           "front": {
             "Name": "241 - Mysterious Benefits Token Effects-1.png",
@@ -3994,5 +4014,5 @@
       ]
     }
   ],
-  "hash": "bc08d462c597fee68bf2e83cb7f4c927bebc905929a8016056fbd2ae750807d2"
+  "hash": "ed2c4fe9fda7ef3635ab30615a19aa6a4659f48dac5bf2eeedfb067f17a3b46b"
 }
