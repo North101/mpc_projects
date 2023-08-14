@@ -92,12 +92,12 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       const outDir = viteConfig.build.outDir
       const projectList = await readProjectList(projectsDir)
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
-      await fs.mkdir(resolve(outDir, 'projects'))
+      await fs.mkdir(resolve(outDir, projectsDir))
       await Promise.all(projectList.map(async e => {
-        await writeJson<ProjectDownload>(resolve(outDir, 'projects', e.filename), mapProjectDownload(e))
+        await writeJson<ProjectDownload>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<Project>(resolve('projects', filename), project)
+        await writeJson<Project>(resolve(projectsDir, filename), project)
       }))
     },
     configureServer(server) {
