@@ -3,7 +3,7 @@ import { glob } from 'glob'
 import mpcData from 'mpc_api/data'
 import { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { Card, CardFace, ProjectDownload, ProjectInfo, ProjectPart, ProjectV1, ProjectV2 } from './types'
+import { Card, CardFace, Version, ProjectDownload, ProjectInfo, ProjectPart, ProjectV1, ProjectV2 } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import { projectV1Validator, projectV2Validator } from './validation'
 
@@ -74,21 +74,21 @@ const mapProjectDownload = (e: ProjectV1WithFilename | ProjectV2WithFilename): P
 const readProject = async (filename: string): Promise<ProjectV2WithFilename | null> => {
   const project = await readJson(filename)
   if (projectV1Validator(project)) {
+    const parts = [{
+      name: project.name,
+      cards: project.cards.map(mapCard),
+    }]
     const hash = hashJson([
       project.projectId,
       project.code,
-      project.cards,
+      parts,
     ])
     const updated = hash == project.hash ? project.updated : (new Date()).toISOString()
     return {
       ...project,
+      version: Version.Version2,
       filename: basename(filename),
-      parts: [
-        {
-          name: project.name,
-          cards: project.cards,
-        }
-      ],
+      parts: parts,
       hash,
       updated,
     }
@@ -160,6 +160,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           info: e.info,
           created: e.created,
           updated: e.updated,
+          version: Version.Version2,
           code: e.code,
           parts: e.parts.map(mapPart),
           hash: e.hash,

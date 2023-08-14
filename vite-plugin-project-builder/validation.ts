@@ -37,8 +37,6 @@ const partSchema: JTDSchemaType<ProjectPart> = {
 const projectV1Schema: JTDSchemaType<ProjectV1> = {
   properties: {
     projectId: { type: 'string' },
-    code: { type: 'string' },
-    hash: { type: 'string' },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },
@@ -48,18 +46,16 @@ const projectV1Schema: JTDSchemaType<ProjectV1> = {
     updated: { type: 'string' },
     website: { type: 'string', nullable: true },
     info: { type: 'string', nullable: true },
+    version: { type: 'int32' },
+    code: { type: 'string' },
     cards: { elements: cardSchema },
-  },
-  optionalProperties: {
-    version: { type: 'int32' }
+    hash: { type: 'string' },
   },
 }
 
 const projectV2Schema: JTDSchemaType<ProjectV2> = {
   properties: {
     projectId: { type: 'string' },
-    code: { type: 'string' },
-    hash: { type: 'string' },
     name: { type: 'string' },
     description: { type: 'string' },
     content: { type: 'string' },
@@ -69,10 +65,10 @@ const projectV2Schema: JTDSchemaType<ProjectV2> = {
     updated: { type: 'string' },
     website: { type: 'string', nullable: true },
     info: { type: 'string', nullable: true },
+    version: { type: 'int32' },
+    code: { type: 'string' },
     parts: { elements: partSchema },
-  },
-  optionalProperties: {
-    version: { type: 'int32' }
+    hash: { type: 'string' },
   },
 }
 

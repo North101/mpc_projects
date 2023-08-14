@@ -19,8 +19,12 @@ export interface ProjectPart {
   cards: Card[]
 }
 
+export enum Version {
+  Version1 = 1,
+  Version2 = 2,
+}
+
 export interface ProjectV1 {
-  version?: number
   projectId: string
   name: string
   description: string
@@ -31,13 +35,13 @@ export interface ProjectV1 {
   info: string | null
   created: string
   updated: string
+  version: Version.Version1
   code: string
   cards: Card[]
   hash: string
 }
 
 export interface ProjectV2 {
-  version?: number
   projectId: string
   name: string
   description: string
@@ -48,6 +52,7 @@ export interface ProjectV2 {
   info: string | null
   created: string
   updated: string
+  version: Version.Version2
   code: string
   parts: ProjectPart[]
   hash: string
