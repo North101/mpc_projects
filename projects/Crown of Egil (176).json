@@ -4,6 +4,7 @@
   ],
   "name": "The Crown of Egil",
   "description": "",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/05/14/the-crown-of-egil/",
   "authors": [
     "AnalyzeChris"
@@ -11,7 +12,6 @@
   "tags": [
     "Campaign"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.701Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,

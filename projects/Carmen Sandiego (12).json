@@ -4,6 +4,7 @@
   ],
   "name": "Where in Arkham is Carmen Sandiego?",
   "description": "",
+  "info": null,
   "website": "Where in Arkham Is Carmen Sandiego?",
   "authors": [
     "Blue Barracuda"
@@ -11,7 +12,6 @@
   "tags": [
     "Investigator"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.695Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,

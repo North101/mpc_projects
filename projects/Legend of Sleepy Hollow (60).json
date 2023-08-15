@@ -4,6 +4,7 @@
   ],
   "name": "The Legend of Sleepy Hollow",
   "description": "",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/the-legend-of-sleepy-hollow/",
   "authors": [
     "The Beard"
@@ -11,7 +12,6 @@
   "tags": [
     "Standalone"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.684Z",
   "updated": "2023-08-13T20:43:40.201Z",
   "version": 2,

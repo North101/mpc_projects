@@ -4,6 +4,7 @@
   ],
   "name": "Customizable Upgrade Cards, Class-Specific Alt-Art ",
   "description": "Alternate design of TSK customizable upgrade cards for a more colorful, class-specific look. Note that in some cases the card text has been modified slightly for space concerns. By default the project is set to only one copy of each card, so make sure to customize for the quantity you want.",
+  "info": null,
   "website": "https://drive.google.com/drive/folders/1qF_iKUTU8aPWgWQe-ee64tJuPc22E-gR?usp=drive_link",
   "authors": [
     "Coldtoes"
@@ -12,7 +13,6 @@
     "Investigator",
     "Alt-Art"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.693Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,

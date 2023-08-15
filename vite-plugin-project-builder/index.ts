@@ -114,7 +114,21 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
         await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<ProjectLatestMeta>(resolve(projectsDir, filename), project)
+        await writeJson<ProjectLatestMeta>(resolve(projectsDir, filename), {
+          projectId: project.projectId,
+          name: project.name,
+          description: project.description,
+          info: project.info,
+          website: project.website,
+          authors: project.authors,
+          tags: project.tags,
+          created: project.created,
+          updated: project.updated,
+          version: project.version,
+          code: project.code,
+          parts: project.parts,
+          hash: project.hash,
+        })
       }))
     },
     configureServer(server) {

@@ -4,6 +4,7 @@
   ],
   "name": "The Nameless City",
   "description": "",
+  "info": null,
   "website": "http://arkhamcentral.com/index.php/the-nameless-city/",
   "authors": [
     "Niccolò Sbaraini"
@@ -11,7 +12,6 @@
   "tags": [
     "Standalone"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.684Z",
   "updated": "2023-08-13T20:43:40.202Z",
   "version": 2,

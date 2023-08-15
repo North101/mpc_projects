@@ -4,6 +4,7 @@
   ],
   "name": "The Blob That Ate Everything ELSE & Suzi",
   "description": "",
+  "info": "Scenario cards require The Blob That Ate Everything standalone scenario. Suzi can be played with any scenario.",
   "website": "https://www.fantasyflightgames.com/en/news/2023/7/13/the-blob-that-ate-everything-else/",
   "authors": [
     "Fantasy Flight Games"
@@ -12,9 +13,8 @@
     "Investigator",
     "Standalone Expansion"
   ],
-  "info": "Scenario cards require The Blob That Ate Everything standalone scenario. Suzi can be played with any scenario.",
   "created": "2023-08-13T17:37:00Z",
-  "updated": "2023-08-13T16:42:29.321Z",
+  "updated": "2023-08-15T10:53:59.458Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -618,5 +618,5 @@
       ]
     }
   ],
-  "hash": "7f8d9913391181ac9f7297e12b11981b92385355c76422b719552be5c6a2bcb5"
+  "hash": "f206942f1aac50c5fdf4350a2a22fed13f606fd91025ad1fe40cace34258688e"
 }

@@ -4,6 +4,7 @@
   ],
   "name": "Celtic Rising",
   "description": "",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/07/20/celtic-rising-campaign/",
   "authors": [
     "QggOne"
@@ -11,7 +12,6 @@
   "tags": [
     "Campaign"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.699Z",
   "updated": "2023-08-13T20:43:40.208Z",
   "version": 2,

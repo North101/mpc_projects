@@ -4,6 +4,7 @@
   ],
   "name": "Snakes on a Train",
   "description": "",
+  "info": null,
   "website": "http://arkhamcentral.com/index.php/snakes-on-a-train/",
   "authors": [
     "StartsWithTheName"
@@ -11,7 +12,6 @@
   "tags": [
     "Standalone"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.680Z",
   "updated": "2023-08-13T20:43:40.200Z",
   "version": 2,

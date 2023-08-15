@@ -4,6 +4,7 @@
   ],
   "name": "The Symphony of Erich Zann",
   "description": "",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/16/the-symphony-of-erich-zann/",
   "authors": [
     "Axolotl"
@@ -11,7 +12,6 @@
   "tags": [
     "Standalone"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.680Z",
   "updated": "2023-08-13T20:43:40.202Z",
   "version": 2,

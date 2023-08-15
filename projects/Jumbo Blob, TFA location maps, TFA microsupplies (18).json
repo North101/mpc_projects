@@ -4,6 +4,7 @@
   ],
   "name": "Jumbo Blob, Maps, & TFA Microsupplies",
   "description": "",
+  "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
   "authors": [
     "Antimarkovnikov"
@@ -11,7 +12,6 @@
   "tags": [
     "Add-On"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.684Z",
   "updated": "2023-08-13T20:43:40.201Z",
   "version": 2,

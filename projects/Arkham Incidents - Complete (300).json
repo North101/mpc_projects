@@ -4,6 +4,7 @@
   ],
   "name": "Arkham Incidents",
   "description": "",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/02/01/arkham-incidents/",
   "authors": [
     "The Beard"
@@ -11,9 +12,8 @@
   "tags": [
     "Standalone"
   ],
-  "info": null,
   "created": "2023-08-08T04:45:26.696Z",
-  "updated": "2023-08-12T14:06:20.351Z",
+  "updated": "2023-08-15T10:53:59.468Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -3194,7 +3194,7 @@
     {
       "name": "Mysterious Benefits (Madame Labranche)",
       "cards": [
-          {
+        {
           "count": 1,
           "front": {
             "Name": "241 - Mysterious Benefits Token Effects-1.png",
@@ -4014,5 +4014,5 @@
       ]
     }
   ],
-  "hash": "ed2c4fe9fda7ef3635ab30615a19aa6a4659f48dac5bf2eeedfb067f17a3b46b"
+  "hash": "e9abcaa32f4f3061a36af3504d18ffe3045cc876b7783aa6f0c5dc5015ce5b11"
 }
