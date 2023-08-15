@@ -2,7 +2,7 @@
   "projectId": [
     "141F0934306A1F6F45EB727391E3D4B204EE626176689EA0AE94550644624724EA451903BC1A38F1"
   ],
-  "name": "Jumbo Blob, Maps, & TFA Microsupplies",
+  "name": "Jumbo Blob, TFA Maps, & TFA Microsupplies",
   "description": "",
   "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
@@ -13,12 +13,12 @@
     "Add-On"
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-08-13T20:43:40.201Z",
+  "updated": "2023-08-15T12:58:42.001Z",
   "version": 2,
   "code": "3BDC5812E3F03AB4",
   "parts": [
     {
-      "name": "Jumbo Blob, Maps, & TFA Microsupplies",
+      "name": "Jumbo Blob",
       "cards": [
         {
           "count": 1,
@@ -38,7 +38,12 @@
             "Width": 1120,
             "Height": 1570
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "The Forgotten Age Maps",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -114,7 +119,12 @@
             "Width": 1120,
             "Height": 1570
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "The Forgotten Age Supplies (Micro)",
+      "cards": [
         {
           "count": 4,
           "front": {
@@ -194,5 +204,5 @@
       ]
     }
   ],
-  "hash": "c44b5896b035ac08528d15efbcbf3e7f8cfb6f5f0d6d4b8a789e8501690deeba"
+  "hash": "9c1d9b9e438717339440417417df1bfee6b2ef620b19c6e2a85d6bcf726cafa7"
 }
