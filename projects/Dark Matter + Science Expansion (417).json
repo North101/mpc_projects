@@ -3,9 +3,9 @@
     "DF221F207C2046506585310C882ADAEBC20CBE735905EFD423625758CE3603A048E502EB1DD6FEF8",
     "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45"
   ],
-  "name": "Dark Matter + Science Expansion",
+  "name": "Dark Matter",
   "description": "",
-  "website": null,
+  "website": "https://mysteriouschanting.wordpress.com/2020/10/17/dark-matter-campaign/",
   "authors": [
     "Axolotl",
     "Dr Xavier Bertou",
@@ -13,6 +13,7 @@
     "Mint Tea Fan"
   ],
   "tags": [
+    "Campaign",
     "Campaign Expansion"
   ],
   "info": null,
