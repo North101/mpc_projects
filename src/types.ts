@@ -79,6 +79,8 @@ export interface ProjectInfo {
   tags: string[]
   created: string
   updated: string
-  sites: string[]
+  sites: {
+    [key: string]: string
+  }
   parts: PartInfo[]
 }

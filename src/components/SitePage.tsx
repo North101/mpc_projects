@@ -10,7 +10,7 @@ interface SiteProjectsProps {
 }
 
 const SiteProjects = ({ site, projects }: SiteProjectsProps) => {
-  const filteredProjects = projects.filter(e => e.sites.find(e => e == site))
+  const filteredProjects = projects.filter(e => Object.values(e.sites).find(e => e == site))
   return <FilteredProjectListContainer projects={filteredProjects} />
 }
 

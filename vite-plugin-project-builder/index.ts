@@ -27,9 +27,14 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
     name: e.name,
     count: e.cards.reduce((value, card) => value + card.count, 0),
   })),
-  sites: mpcData.sites
-    .filter(site => mpcData.units[site.code]?.find(unit => unit.code == e.code))
-    .flatMap(e => e.urls),
+  sites: Object.fromEntries(
+    mpcData.sites.flatMap(site => {
+      const unit = mpcData.units[site.code]?.find(unit => unit.code == e.code)
+      if (!unit) return []
+
+      return site.urls.map(url => [url, unit.name])
+    })
+  ),
 })
 
 const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectLatest => ({
@@ -128,7 +133,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           code: project.code,
           parts: project.parts,
           hash: project.hash,
-        })
+        }, 2)
       }))
     },
     configureServer(server) {

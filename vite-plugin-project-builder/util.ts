@@ -7,8 +7,8 @@ export const readJson = async (filename: string) => {
   return JSON.parse(await fs.readFile(filename, 'utf-8'))
 }
 
-export const writeJson = async <T>(filename: string, value: T) => {
-  return fs.writeFile(filename, JSON.stringify(value, undefined, 2), 'utf-8')
+export const writeJson = async <T>(filename: string, value: T, indent?: number) => {
+  return fs.writeFile(filename, JSON.stringify(value, undefined, indent), 'utf-8')
 }
 
 export const hashJson = (value: unknown) => {
