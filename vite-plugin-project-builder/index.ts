@@ -3,12 +3,12 @@ import { glob } from 'glob'
 import mpcData from 'mpc_api/data'
 import { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { ProjectInfo, ProjectV1Meta, ProjectV2, ProjectV2Meta } from './types'
+import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import projectValidator from './validation'
 
 
-interface ProjectWithFilename extends ProjectV2Meta {
+interface ProjectWithFilename extends ProjectLatestMeta {
   filename: string
 }
 
@@ -32,7 +32,7 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
     .flatMap(e => e.urls),
 })
 
-const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectV2 => ({
+const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectLatest => ({
   version,
   code,
   parts: parts.map(e => ({
@@ -41,7 +41,7 @@ const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): Proj
   })),
 })
 
-const upgradeProject = (project: ProjectV1Meta | ProjectV2Meta): ProjectV2Meta => {
+const upgradeProject = (project: ProjectUnionMeta): ProjectLatestMeta => {
   if (project.version == 1) {
     const { cards, name, ...rest } = project
     return {
@@ -58,7 +58,7 @@ const upgradeProject = (project: ProjectV1Meta | ProjectV2Meta): ProjectV2Meta =
   return project
 }
 
-const parseProject = (project: unknown): ProjectV2Meta | null => {
+const parseProject = (project: unknown): ProjectLatestMeta | null => {
   return projectValidator(project) ? upgradeProject(project) : null
 }
 
@@ -111,10 +111,10 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       await fs.mkdir(resolve(outDir, projectsDir))
       await Promise.all(projectList.map(async e => {
-        await writeJson<ProjectV2>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
+        await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<ProjectV2Meta>(resolve(projectsDir, filename), project)
+        await writeJson<ProjectLatestMeta>(resolve(projectsDir, filename), project)
       }))
     },
     configureServer(server) {

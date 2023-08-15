@@ -30,6 +30,10 @@ export interface ProjectV2 {
   parts: Part[]
 }
 
+export type ProjectLatest = ProjectV2
+
+export type ProjectUnion = ProjectV1 | ProjectV2
+
 export interface ProjectMeta {
   projectId: string[]
   name: string
@@ -54,6 +58,10 @@ export interface ProjectV1Meta extends ProjectV1, ProjectMeta {
 export interface ProjectV2Meta extends ProjectV2, ProjectMeta {
   parts: PartMeta[]
 }
+
+export type ProjectLatestMeta = ProjectV2Meta
+
+export type ProjectUnionMeta = ProjectV1Meta | ProjectV2Meta
 
 export interface PartInfo {
   name: string
