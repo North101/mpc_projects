@@ -13,6 +13,9 @@ export default defineConfig({
     projectsBuilder({
       projectsDir: path.join('projects'),
       projectsFilename: 'projects.json',
+      input: [
+        '.src/scss/styles.scss',
+      ],
     }),
   ],
 })

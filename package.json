@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "watch": "vite & tsc --watch .",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "pm2 deploy --env production deploy.json update"
@@ -38,6 +39,7 @@
     "glob": "^10.3.3",
     "mpc_api": "https://github.com/North101/mpc_api",
     "path": "^0.12.7",
+    "sass": "^1.65.1",
     "typescript": "^5.1.6",
     "vite": "^4.4.5",
     "vite-plugin-rewrite-all": "^1.0.1"

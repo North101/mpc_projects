@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './scss/styles.scss'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route } from 'wouter'
@@ -8,7 +8,6 @@ import { HomePage } from './components/HomePage'
 import { ProjectPage } from './components/ProjectPage'
 import { SitePage } from './components/SitePage'
 import { TagPage } from './components/TagPage'
-import './index.css'
 
 const App = () => <>
   <Route path='/'><HomePage /></Route>

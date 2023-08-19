@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-menu .dropdown-item:hover,
+.checkbox-menu .dropdown-item:active {
+  background-color: transparent;
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
