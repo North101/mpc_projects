@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Dispatch, SetStateAction, useState } from 'react'
 import { Nav, NavLink } from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
 import Form from 'react-bootstrap/esm/Form'
@@ -11,7 +11,7 @@ import { ProjectList } from './ProjectList'
 
 
 interface HeaderProps {
-  setSearch: (value: string) => void
+  setSearch: Dispatch<SetStateAction<string>>
 }
 
 const Header = ({ setSearch }: HeaderProps) => (
