@@ -6,7 +6,7 @@ Software development: **North101**
 
 Evangelism, support, and AHLCG project file maintenance: **Coldtoes**
 
-## **Installing the Extension**![](about9.png)
+## **Installing the Extension**![](images/about9.png)
 
 1. Install the extension from the [chrome web store](https://chrome.google.com/webstore/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko) by clicking **Add to Chrome**.
 2. If, after installing the extension, you don't see the snowflake icon on the right side of your toolbar, click the puzzle piece icon to list your Chrome extensions and select the **Pin** icon next to MPC Project Helper to make the icon visible.
@@ -24,7 +24,7 @@ If you have individual card images and you need to create your own MPC project f
 1. If you don't already have a project .json file, download the Arkham Horror homebrew or FFG PnP project(s) you want to print from [Coldtoes' Google Drive](https://drive.google.com/drive/folders/17xBgcvPOBx3w4_zzscvT9KKXf3u7nEKP?usp=drive_link). The [Index of Projects](https://docs.google.com/spreadsheets/u/0/d/1o2S68H-SMew3Jbyp6T_N1GA5iH4SswJgK1EMa2Bi2dE/edit) can help you see which projects are available and has links to more information on each project.
 2. Click the **Add projects** button on the **Project** tab.
 
-![](about1.png){width="5.85in" height="1.3859995625546806in"}
+![](images/about1.png){width="5.85in" height="1.3859995625546806in"}
 
 3. Browse to the location of your project .json file, select it, and click **Open**.
 
@@ -34,14 +34,14 @@ As MPC charges a flat fee for a given number of cards, you can save money by com
 
 The bottom right corner will show your total card count out of the maximum project size on MPC (612 for Arkham Horror-sized cards). If your total exceeds the max, the extension will automatically split it into multiple projects.
 
-1. You may select additional .json files to combine multiple projects into one. Use the draggable handles on the left to reorder projects as desired. ![](about2.png)
+1. You may select additional .json files to combine multiple projects into one. Use the draggable handles on the left to reorder projects as desired. ![](images/about2.png)
 2. If you wish to remove cards from an existing project, click the edit icon next to the project. Then use the trash icon to delete any cards you don't need.
 
-![](about3.png)
+![](images/about3.png)
 
 3. If you wish to add or replace cards within a project, you'll need to make a second project file with the cards you want to add and then combine the two projects. See the [Combining and Editing Projects] section under [Creating a Project from Card Images] for more detailed instructions.
 
-## Finalizing and Uploading Your Project ![](about4.png)
+## Finalizing and Uploading Your Project ![](images/about4.png)
 
 1. When you are happy with the project, click **Upload**.
 2. Choose your desired print settings. The following settings are recommended for Arkham Horror LCG:
@@ -50,7 +50,7 @@ The bottom right corner will show your total card count out of the maximum proje
 
    **Card Stock:** (S33) Superior Smooth (S33 is closest to FFG cards, but a little bit thicker. S30 Standard Smooth is slightly thinner but also acceptable, especially if you sleeve.)
 
-   **Project name:** This is just for your own reference but may need to be shortened to fit MPC's max length. At the very least you can remove (card count).json. ![](about5.png)
+   **Project name:** This is just for your own reference but may need to be shortened to fit MPC's max length. At the very least you can remove (card count).json. ![](images/about5.png)
 
    Other settings can be left at the default.
 
@@ -65,11 +65,11 @@ The bottom right corner will show your total card count out of the maximum proje
 1. You will see you have leapfrogged to Step 5 of MPC's project design, bypassing the first four time-consuming steps.
 2. If you are loading a project that someone else created, even after giving the page time to load, you may see broken image icons instead of the card images you expect. This is due to the way MPC caches images — it is likely that if you printed the project it would print correctly (one person has tested this and it was successful), but this is an understandably big risk, given the cost of MPC printing and shipping.
 
-   ![](about6.png)
+   ![](images/about6.png)
 
    The way to resolve this problem is to contact the person who created the project file and ask them to click **Edit** on their saved project(s), allowing the images to reload. Once they have done this, you should be able to see the images in your account as well.
 
-3. Check the disclaimer box and **Add to Cart** to purchase or **Add to Saved Projects** to save for later. ![](about7.png)
+3. Check the disclaimer box and **Add to Cart** to purchase or **Add to Saved Projects** to save for later. ![](images/about7.png)
 
 ## CREATING A PROJECT FROM CARD IMAGES
 
