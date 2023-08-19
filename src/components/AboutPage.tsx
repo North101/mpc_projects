@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 import { AppContainer } from './AppContainer'
 
 
@@ -24,7 +25,9 @@ export const AboutPage = () => {
   return (
     <AppContainer>
       <div className='w-75 m-auto'>
-        <ReactMarkdown>{data ?? ''}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+          {data ?? ''}
+        </ReactMarkdown>
       </div>
     </AppContainer>
   )
