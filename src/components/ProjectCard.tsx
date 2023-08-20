@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CloudArrowDown, InfoCircle } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
+import { BoxArrowUpRight } from 'react-bootstrap-icons'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
 import Tooltip from 'react-bootstrap/esm/Tooltip'
 import { ProjectInfo } from '../types'
@@ -38,29 +39,30 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
 
   return (
     <>
-      <Card>
-        <Card.Header as='h5'>
-          <div className='d-flex align-items-center'>
+      <Card className='h-100'>
+        <Card.Header as='div'>
+          <h2 className='d-flex align-items-center'>
             <Card.Link
-              className='text-truncate flex-fill align-self-center'
+              className='flex-fill align-self-center icon-link'
               href={project.website ?? undefined}
             >
               {project.name}
+              <BoxArrowUpRight />
             </Card.Link>
             <Button
-              style={{ width: 32, height: 32, marginLeft: 4 }}
+              className='download'
               variant='outline-primary'
               size='sm'
               onClick={onShow}
             >
               <CloudArrowDown />
             </Button>
-          </div>
-          <Card.Subtitle className='text-truncate'>
+          </h2>
+          <Card.Subtitle as='h3' className='text-truncate h6'>
             <ProjectAuthors authors={project.authors} />
           </Card.Subtitle>
         </Card.Header>
-        <Card.Body className='d-flex align-items-center'>
+        <Card.Body className='d-flex'>
           <small className='flex-fill'>Cards: {count}</small>
           {project.info && <ProjectTooltip
             name={project.name}

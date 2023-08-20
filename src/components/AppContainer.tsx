@@ -20,19 +20,25 @@ const Header = ({ setSearch }: HeaderProps) => (
       <Navbar.Brand href='/' className="col-sm-4 d-flex justify-content-start align-items-stretch">
         <img
           alt=''
-          src='/public/logo.svg'
+          src='/src/assets/logo.svg'
           height='65'
           width='50'
           className='siteLogo'
         />
         <div className='branding'>
-          <div className='siteTitle'>Inexorable Fate</div>
+          <img 
+            src='/src/assets/logotype.svg'
+            className='siteTitle'
+            alt='Inexorable Fate'
+            height='50'
+          />
           <div className='tagline'>Enabling your AHLCG print needs</div>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle />
       <NavbarCollapse>
-        <Nav className='d-flex justify-content-start flex-fill'>
+        <Nav className='d-flex justify-content-start flex-fill ms-4'>
+          <NavLink href='/help'>Getting Started</NavLink>
           <NavLink href='/about'>About</NavLink>
           <span className='flex-fill' />
           <Form>

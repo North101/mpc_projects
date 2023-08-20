@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
 import Stack from 'react-bootstrap/esm/Stack'
+import { Intro } from './Intro'
 import { ProjectInfo } from '../types'
 import { AppContainer } from './AppContainer'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
-import { Intro } from './Intro'
 
 declare global {
   interface Array<T> {
@@ -218,6 +218,8 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      
+      <Intro />
 
       <ProjectList projects={filteredProjects} />
     </Stack>

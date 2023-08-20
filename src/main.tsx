@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { Route } from 'wouter'
 import { AboutPage } from './components/AboutPage'
 import { AuthorPage } from './components/AuthorPage'
+import { HelpPage } from './components/HelpPage'
 import { HomePage } from './components/HomePage'
 import { ProjectPage } from './components/ProjectPage'
 import { SitePage } from './components/SitePage'
@@ -16,6 +17,7 @@ const App = () => <>
   <Route path='/tag/:tag'>{({ tag }) => <TagPage tag={decodeURI(tag)} />}</Route>
   <Route path='/site/:site'>{({ site }) => <SitePage site={decodeURI(site)} />}</Route>
   <Route path='/about'>{<AboutPage />}</Route>
+  <Route path='/help'>{<HelpPage />}</Route>
 </>
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

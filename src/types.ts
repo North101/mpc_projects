@@ -38,6 +38,7 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
+  image?: string
   info?: string | null
   website?: string | null
   authors: string[]
@@ -73,6 +74,7 @@ export interface ProjectInfo {
   filename: string
   name: string
   description: string
+  image: string | null
   info: string | null
   website: string | null
   authors: string[]

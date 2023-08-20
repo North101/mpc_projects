@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "watch": "vite & tsc --watch .",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "pm2 deploy --env production deploy.json update"
@@ -20,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",
     "rehype-raw": "^6.1.1",
+    "smartquotes": "^2.3.2",
     "wouter": "^2.11.0"
   },
   "devDependencies": {
