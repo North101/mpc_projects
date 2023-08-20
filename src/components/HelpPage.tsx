@@ -9,7 +9,7 @@ const useFetch = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const r = await fetch('/src/assets/about.md')
+      const r = await fetch('/src/assets/getting-started.md')
       setData(await r.text())
     }
 
@@ -20,7 +20,7 @@ const useFetch = () => {
 }
 
 
-export const AboutPage = () => {
+export const HelpPage = () => {
   const data = useFetch()
   return (
     <AppContainer>
