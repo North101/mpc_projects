@@ -7,6 +7,7 @@ import { ProjectInfo } from '../types'
 import { AppContainer } from './AppContainer'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
+import { Intro } from './Intro'
 
 declare global {
   interface Array<T> {

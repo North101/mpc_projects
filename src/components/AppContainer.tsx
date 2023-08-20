@@ -17,7 +17,19 @@ interface HeaderProps {
 const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='sm' className='bg-body-tertiary' sticky='top'>
     <Container>
-      <Navbar.Brand href='/'>MPC Projects</Navbar.Brand>
+      <Navbar.Brand href='/' className="col-sm-4 d-flex justify-content-start align-items-stretch">
+        <img
+          alt=''
+          src='/public/logo.svg'
+          height='65'
+          width='50'
+          className='siteLogo'
+        />
+        <div className='branding'>
+          <div className='siteTitle'>Inexorable Fate</div>
+          <div className='tagline'>Enabling your AHLCG print needs</div>
+        </div>
+      </Navbar.Brand>
       <Navbar.Toggle />
       <NavbarCollapse>
         <Nav className='d-flex justify-content-start flex-fill'>
