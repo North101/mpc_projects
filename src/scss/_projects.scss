@@ -1,10 +1,25 @@
-body {
-  display: flex;
-  flex-direction: column;
+.projects {
+  h2 {
+    font-size: $h5-font-size;
+    
+    a {
+      color: $body-color;
+    }
+  }
+  
+}
+button.download {
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
 }
 
-.checkbox-menu .dropdown-item:hover,
-.checkbox-menu .dropdown-item:active {
-  background-color: transparent;
-  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+.checkbox-menu {
+  .dropdown-item {
+    &:hover,
+    &:active {
+      background-color: transparent;
+      color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    }
+  }
 }

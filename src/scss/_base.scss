@@ -1,3 +1,21 @@
+// Images 
+img.float-end {
+  margin: 10px 0 10px 20px;
+}
+
+img.float-start {
+  margin: 10px 20px 10px;
+}
+
+img.w-100 {
+  height: auto;
+  margin: 10px 0;
+}
+
+.outline {
+  border: 1px solid $body-secondary-color-dark;
+}
+
 //Header 
 
 .branding {
@@ -5,14 +23,16 @@
 }
 
 .siteLogo {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 
 .siteTitle {
   font-size: $h2-font-size;
-  line-height: 1.05;
+  line-height: 1.1;
+  margin-top: 5px;
 }
 
 .tagline {
   font-size: .95rem;
+  font-style: italic;
 }
