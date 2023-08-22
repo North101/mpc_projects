@@ -1,13 +1,28 @@
 .projects {
   h2 {
     font-size: $h5-font-size;
-    
-    a {
-      color: $body-color;
-    }
+    margin-bottom: 2px;
   }
   
+  h3 {
+    font-family: $font-family-sans-serif;
+  }
+    
+  h2,
+  h3 {    
+    a {
+      color: $body-color;
+      text-decoration: none;
+      
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
 }
+
 button.download {
   width: 32px;
   height: 32px;

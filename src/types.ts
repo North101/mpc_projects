@@ -38,7 +38,7 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
-  image?: string
+  image?: string | null
   info?: string | null
   website?: string | null
   authors: string[]

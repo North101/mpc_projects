@@ -6,6 +6,7 @@ import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import projectValidator from './validation'
+import smartquotes from 'smartquotes';
 
 
 interface ProjectWithFilename extends ProjectLatestMeta {
@@ -16,6 +17,7 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   filename: e.filename,
   name: e.name,
   description: e.description,
+  image: e.image ?? null,
   info: e.info ?? null,
   website: e.website ?? null,
   authors: e.authors,
@@ -123,6 +125,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           projectId: project.projectId,
           name: project.name,
           description: project.description,
+          image: project.image,
           info: project.info,
           website: project.website,
           authors: project.authors,
