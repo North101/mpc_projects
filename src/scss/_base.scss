@@ -18,8 +18,14 @@ img.w-100 {
 
 //Header 
 
-.branding {
-  
+.navbar-brand {
+  flex-basis: 372px;
+  flex-shrink: 0;
+}
+
+.siteLogo,
+.siteTitle {
+  fill: var(--bs-emphasis-color);
 }
 
 .siteLogo {

@@ -179,6 +179,8 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 
   return (
     <Stack gap={2}>
+      <Intro />
+
       <Navbar className='bg-body-tertiary' sticky='top'>
         <Container fluid>
           <Navbar.Collapse id='basic-navbar-nav'>
@@ -218,8 +220,6 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
-      <Intro />
 
       <ProjectList projects={filteredProjects} />
     </Stack>

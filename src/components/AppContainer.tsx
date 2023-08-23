@@ -8,6 +8,8 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { useProjects } from '../projects'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { ProjectList } from './ProjectList'
+import { Logo } from './Logo'
+import { Logotype } from './Logotype'
 
 
 interface HeaderProps {
@@ -18,21 +20,10 @@ const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='sm' className='bg-body-tertiary' sticky='top'>
     <Container>
       <Navbar.Brand href='/' className="col-sm-4 d-flex justify-content-start align-items-stretch">
-        <img
-          alt=''
-          src='/src/assets/logo.svg'
-          height='65'
-          width='50'
-          className='siteLogo'
-        />
+        <Logo />
         <div className='branding'>
-          <img 
-            src='/src/assets/logotype.svg'
-            className='siteTitle'
-            alt='Inexorable Fate'
-            height='50'
-          />
-          <div className='tagline'>Enabling your AHLCG print needs</div>
+          <Logotype />
+          <div className='tagline'>Your AHLCG destiny, professionally printed</div>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle />

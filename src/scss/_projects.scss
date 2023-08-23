@@ -11,7 +11,7 @@
   h2,
   h3 {    
     a {
-      color: $body-color;
+      color: var(--bs-body-color);
       text-decoration: none;
       
       &:hover,
