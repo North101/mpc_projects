@@ -42,7 +42,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       <Card className='h-100'>
         <img 
           className='card-img-top'
-          src={`src/assets/images/projects/${project.image || 'core.jpg'}`}
+          src={`/src/assets/images/projects/${project.image || 'core.jpg'}`}
         /> 
         <Card.Header as='div'>
           <h2 className='d-flex align-items-center'>
