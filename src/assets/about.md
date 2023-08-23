@@ -25,8 +25,8 @@
 <h3>Special Thanks</h3>
 <p>This entire enterprise relies on the work of many others, so we'd like to thank:</p>
 <ul class="list-unstyled">
-  <li><a href="https://strengthinnumbersarkham.wordpress.com/">ElseWhere</a>, for making our homepage intro Arkham-worthy.</li>
-  <li><a href="https://mythosbusters.com/">Mythos Busters</a>, for providing the incredible 
+  <li><a href="https://strengthinnumbersarkham.wordpress.com/">ElseWhere</a>, for eldritch wordsmithing.</li>
+  <li><a href="https://mythosbusters.com/">Mythos Busters</a>, for bringing us all together</li> 
   <li>The entire AHLCG homebrew community, for making all of this necessary with the incredibly high quality custom content they produce.</li>
   <li>Long-time lead developer Maxine Newman, current lead developer Duke!! Harrist, and everyone who works or has worked to bring us Arkham Horror: The Card Game.</li> 
 </ul> 
