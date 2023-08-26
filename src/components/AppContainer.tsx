@@ -8,8 +8,7 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { useProjects } from '../projects'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { ProjectList } from './ProjectList'
-import { Logo } from './Logo'
-import { Logotype } from './Logotype'
+import { Branding } from './Branding'
 
 
 interface HeaderProps {
@@ -20,11 +19,7 @@ const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='sm' className='bg-body-tertiary' sticky='top'>
     <Container>
       <Navbar.Brand href='/' className="col-sm-4 d-flex justify-content-start align-items-stretch">
-        <Logo />
-        <div className='branding'>
-          <Logotype />
-          <div className='tagline'>Your AHLCG destiny, professionally printed</div>
-        </div>
+        <Branding />
       </Navbar.Brand>
       <Navbar.Toggle />
       <NavbarCollapse>
@@ -74,7 +69,7 @@ export const AppContainer = ({ children }: AppContainerProps) => {
     <Stack gap={2} className='d-flex h-100'>
       <Header setSearch={setSearch} />
       <div className='d-flex flex-fill overflow-auto'>
-        <Container>
+        <Container className='main'>
           {search.trim() ? <SearchProjectList search={search} /> : children}
         </Container>
       </div>
