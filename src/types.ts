@@ -78,6 +78,7 @@ export interface ProjectInfo {
   info: string | null
   website: string | null
   authors: string[]
+  status: string[]
   tags: string[]
   created: string
   updated: string

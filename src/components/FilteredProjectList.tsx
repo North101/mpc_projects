@@ -82,15 +82,15 @@ export const useAuthorFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   }))
   .toSorted(sortByLabel))
 
-export const useTagFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.tags)
-  .distinct()
-  .map(e => ({
-    id: e,
-    label: e,
-    checked: false,
-  }))
-  .toSorted(sortByLabel)
-)
+  export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.status)
+    .distinct()
+    .map(e => ({
+      id: e,
+      label: e,
+      checked: false,
+    }))
+    .toSorted(sortByLabel)
+  )
 
 export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
   .distinct()

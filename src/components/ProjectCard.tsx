@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import { CloudArrowDown, InfoCircle } from 'react-bootstrap-icons'
+import { CloudArrowDown, InfoCircle, BoxArrowUpRight } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
-import { BoxArrowUpRight } from 'react-bootstrap-icons'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
 import Tooltip from 'react-bootstrap/esm/Tooltip'
 import { ProjectInfo } from '../types'
@@ -59,7 +58,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               size='sm'
               onClick={onShow}
             >
-              <CloudArrowDown />
+              <CloudArrowDown className='icon-dl' />
             </Button>
           </h2>
           <Card.Subtitle as='h3' className='text-truncate h6'>
