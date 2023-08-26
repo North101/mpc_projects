@@ -1,3 +1,5 @@
+//Links
+
 // Images 
 img.float-end {
   margin: 10px 0 10px 20px;
@@ -17,9 +19,8 @@ img.w-100 {
 }
 
 //Header 
-
 .navbar-brand {
-  flex-basis: 372px;
+  flex-basis: 380px;
   flex-shrink: 0;
 }
 
@@ -39,6 +40,32 @@ img.w-100 {
 }
 
 .tagline {
-  font-size: .95rem;
+  font-family: $font-family-serif;
+  font-size: 1rem;
   font-style: italic;
+}
+
+// Main
+.intro,
+.about,
+.getting-started {
+  a {
+    text-underline-offset: 6px;
+    
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 3px solid var(--bs-link-hover-color);
+    }
+  }
+}
+
+.lead {
+  font-family: $font-family-serif;
+}
+
+.arkham-choice {
+  a {
+    font-weight: 700;
+  }
 }

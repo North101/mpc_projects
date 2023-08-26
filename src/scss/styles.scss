@@ -1,19 +1,37 @@
+// Bootstrap Required (functions)
+@import "bootstrap/scss/functions";
+
 //Variable Overrides
+$primary:       #6f42c1; //$purple
+//$secondary:     $gray-600 !default;
+//$light:         $gray-100 !default;
+//$dark:          $gray-900 !default;
+
+$link-color:    #6f42c1; //$purple
+$link-shade-percentage: 25%; //default
+// $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration: none;
+
+$link-color-dark: tint-color($primary, 50%);
+$link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage);
+
 
 // Typography
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap');
 
 $font-family-sans-serif: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
-$font-family-condensed: 'Roboto Condensed', sans-serif;
+$font-family-serif: 'Source Serif 4', serif;
 $font-family-slab: 'Roboto Slab', serif;
-
 
 $headings-font-family: $font-family-slab;
 
-// Bootstrap Required
-@import "bootstrap/scss/functions";
+// Bootstrap Required (Variables)
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
+
+// Map Overrides
+
+// Bootstrap Required
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
@@ -36,7 +54,7 @@ $headings-font-family: $font-family-slab;
 @import "bootstrap/scss/card";
 @import "bootstrap/scss/breadcrumb";
 @import "bootstrap/scss/accordion";
-@import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/pagination";
 @import "bootstrap/scss/badge";
 @import "bootstrap/scss/alert";
 @import "bootstrap/scss/progress";
