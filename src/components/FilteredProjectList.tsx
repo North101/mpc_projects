@@ -8,6 +8,8 @@ import { ProjectInfo } from '../types'
 import { AppContainer } from './AppContainer'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
+import { SortDown, Funnel } from 'react-bootstrap-icons'
+
 
 declare global {
   interface Array<T> {
@@ -185,6 +187,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
         <Container fluid>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='flex-grow-1'>
+              <SortDown className='icon' />
               <CheckboxDropdown
                 type='radio'
                 label='Sort'
@@ -195,6 +198,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 }))}
                 onChecked={onSetSort}
               />
+              <Funnel className='icon' />
               <CheckboxDropdown
                 type='checkbox'
                 label='Authors'
