@@ -55,11 +55,7 @@ const SearchProjectList = ({ search }: SearchProjectListProps) => {
   )
 }
 
-interface AppContainerProps {
-  children: JSX.Element
-}
-
-export const AppContainer = ({ children }: AppContainerProps) => {
+export const AppContainer = ({ children }: React.PropsWithChildren) => {
   const [search, setSearch] = useState<string>('')
   return (
     <Stack gap={2} className='d-flex h-100'>

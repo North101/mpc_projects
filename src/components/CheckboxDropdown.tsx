@@ -12,8 +12,7 @@ export interface CheckboxState {
   checked: boolean
 }
 
-interface CheckboxMenuProps {
-  children: JSX.Element[]
+interface CheckboxMenuProps extends React.PropsWithChildren {
   style: object
   className: string
   type: CheckboxType
@@ -80,8 +79,7 @@ const CheckboxMenuRenderer = (
 
 const CheckboxMenu = React.forwardRef<HTMLDivElement, CheckboxMenuProps>(CheckboxMenuRenderer)
 
-interface CheckDropdownItemProps {
-  children: JSX.Element[]
+interface CheckDropdownItemProps extends React.PropsWithChildren {
   type: 'checkbox' | 'radio'
   id: string
   checked: boolean
