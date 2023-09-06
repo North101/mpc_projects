@@ -96,15 +96,17 @@ const refreshProjects = async () => {
 
     console.log(`Loading ${projectIds.length} projects`)
     const imageIds = await Promise.all(projectIds.map(projectId => loadProjectImages(cookie, projectId)))
-      .then(e => e.flat())
     console.log(`Loading ${imageIds.length} images`)
-    await Promise.all(imageIds.map((imageId) => loadImage(cookie, imageId)))
+    await Promise.all(imageIds.flat().map((imageId) => loadImage(cookie, imageId)))
     console.log('Done')
   } catch (e) {
     console.error(e)
   }
 }
 
-cron.schedule(config.refreshProjects.schedule, refreshProjects, {
-  runOnInit: config.refreshProjects.immediatly,
-})
+if (config.refreshProjects.schedule) {
+  cron.schedule(config.refreshProjects.schedule, refreshProjects)
+}
+if (config.refreshProjects.immediatly) {
+  refreshProjects()
+}
