@@ -9,6 +9,7 @@
     "deploy": "pm2 deploy --env production deploy.json update"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.1",
     "cheerio": "^1.0.0-rc.12",
     "dotenv-flow": "^3.3.0",
