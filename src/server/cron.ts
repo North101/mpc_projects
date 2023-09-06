@@ -23,7 +23,7 @@ const login = async () => {
   body.set('__VIEWSTATE', '/wEPDwUKMTM3NjI2NzUxMg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw9kFgICAQ9kFggCCw8WAh4Hb25jbGljawUnamF2YXNjcmlwdDpyZXR1cm4gYnRuX3N1Ym1pdF9vbmNsaWNrKCk7ZAINDxYCHgRocmVmBRouL3N5c3RlbS9zeXNfcmVnaXN0ZXIuYXNweGQCDw8PFgQeBUFwcElkBQ8xNzQ3NjU5NzU5ODUyNTceCExvZ2luVXJsBQpsb2dpbi5hc3B4ZGQCEQ8PFgQeCENsaWVudElkBUg2NjY1Mjc5MDE0OTAtZWRmMzM1NGFtODh1OGR2cDI2YWQ5NGw1MDY1bGRxNDIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20fBAUKbG9naW4uYXNweGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQxja2JfcmVtZW1iZXJAO4PuIRL4YBdOmiolbn9lUmBRRg==')
   body.set('__VIEWSTATEGENERATOR', 'C2EE9ABB')
   body.set('txt_email', config.refreshProjects.email)
-  body.set('txt_password',  config.refreshProjects.password)
+  body.set('txt_password', config.refreshProjects.password)
   body.set('g-recaptcha-response', '')
   body.set('hidd_verifyResponse', '')
   body.set('ckb_remember', 'on')
@@ -35,7 +35,6 @@ const login = async () => {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
     body,
-    credentials: 'include',
   })
   return r.headers.get('set-cookie')
     ?.split(',')
@@ -81,21 +80,29 @@ const loadImage = async (cookie: string, imageId: string) => {
 }
 
 const refreshProjects = async () => {
-  const cookie = await login()
-  if (cookie == undefined) {
-    console.log('Failed to login')
-    return
-  }
+  try {
+    console.log('Refreshing projects')
+    const cookie = await login()
+    if (cookie == undefined) {
+      console.log('Failed to login')
+      return
+    }
 
-  const images: string[] = []
-  const projectIds = await readProjectList('./projects')
-  console.log(`Loading ${projectIds.length} projects`)
-  for (const projectId of projectIds) {
-    images.push(...await loadProjectImages(projectId, cookie))
-  }
+    const images: string[] = []
+    const projectIds = await readProjectList('./projects')
+    console.log(`Loading ${projectIds.length} projects`)
+    for (const projectId of projectIds) {
+      images.push(...await loadProjectImages(projectId, cookie))
+    }
 
-  console.log(`Loading ${images.length} images`)
-  await Promise.all(images.map((imageId) => loadImage(cookie, imageId)))
+    console.log(`Loading ${images.length} images`)
+    await Promise.all(images.map((imageId) => loadImage(cookie, imageId)))
+    console.log('Done')
+  } catch (e) {
+    console.error(e)
+  }
 }
 
-cron.schedule(config.refreshProjects.schedule, refreshProjects)
+cron.schedule(config.refreshProjects.schedule, refreshProjects, {
+  runOnInit: config.refreshProjects.immediatly,
+})
