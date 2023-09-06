@@ -42,7 +42,7 @@ const login = async () => {
     .join('; ')
 }
 
-const loadProjectPreview = async (projectId: string, cookie: string) => {
+const loadProjectPreview = async (cookie: string, projectId: string) => {
   const r = await fetch(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
     headers: {
       'Cookie': cookie,
@@ -61,8 +61,8 @@ const loadProjectPreview = async (projectId: string, cookie: string) => {
   return await r2.text()
 }
 
-const loadProjectImages = async (projectId: string, cookie: string): Promise<string[]> => {
-  const html = load(await loadProjectPreview(projectId, cookie))
+const loadProjectImages = async (cookie: string, projectId: string): Promise<string[]> => {
+  const html = load(await loadProjectPreview(cookie, projectId))
   return html('div[class="m-front"] img,div[class="m-back"] img')
     .toArray()
     .map((e) => e.attribs['src'])
@@ -82,21 +82,23 @@ const loadImage = async (cookie: string, imageId: string) => {
 const refreshProjects = async () => {
   try {
     console.log('Refreshing projects')
+    const projectIds = await readProjectList('./projects')
+    if (projectIds.length == 0) {
+      console.log('No projects found')
+      return
+    }
+
     const cookie = await login()
     if (cookie == undefined) {
       console.log('Failed to login')
       return
     }
 
-    const images: string[] = []
-    const projectIds = await readProjectList('./projects')
     console.log(`Loading ${projectIds.length} projects`)
-    for (const projectId of projectIds) {
-      images.push(...await loadProjectImages(projectId, cookie))
-    }
-
-    console.log(`Loading ${images.length} images`)
-    await Promise.all(images.map((imageId) => loadImage(cookie, imageId)))
+    const imageIds = await Promise.all(projectIds.map(projectId => loadProjectImages(cookie, projectId)))
+      .then(e => e.flat())
+    console.log(`Loading ${imageIds.length} images`)
+    await Promise.all(imageIds.map((imageId) => loadImage(cookie, imageId)))
     console.log('Done')
   } catch (e) {
     console.error(e)
