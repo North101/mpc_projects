@@ -1,9 +1,22 @@
-import { load } from 'cheerio';
-import { glob } from 'glob';
-import cron from 'node-cron';
-import path from 'path';
-import config from './config';
-import { readJson } from './util';
+import { load } from 'cheerio'
+import { glob } from 'glob'
+import cron from 'node-cron'
+import path from 'path'
+import config from './config'
+import { readJson } from './util'
+
+const fetchTimeout = (input: RequestInfo | URL, init: RequestInit): Promise<Response> => {
+  const controller = new AbortController()
+  const timeoutId = setTimeout(() => controller.abort(), 120000)
+  try {
+    return fetch(input, {
+      ...init,
+      signal: controller.signal,
+    })
+  } finally {
+    clearTimeout(timeoutId)
+  }
+}
 
 
 const readProject = async (filename: string): Promise<string[]> => {
@@ -43,7 +56,7 @@ const login = async () => {
 }
 
 const loadProjectPreview = async (cookie: string, projectId: string) => {
-  const r = await fetch(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
+  const r = await fetchTimeout(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
     headers: {
       'Cookie': cookie,
     },
@@ -52,7 +65,7 @@ const loadProjectPreview = async (cookie: string, projectId: string) => {
   if (url.pathname == '/design/dn_preview_layout.aspx') await r.text()
 
   url.pathname = '/design/dn_preview_layout.aspx'
-  const r2 = await fetch(url.toString(), {
+  const r2 = await fetchTimeout(url.toString(), {
     method: 'POST',
     headers: {
       'Cookie': cookie,
@@ -68,15 +81,21 @@ const loadProjectImages = async (cookie: string, projectId: string): Promise<str
     .map((e) => e.attribs['src'])
 }
 
-const loadImage = async (cookie: string, imageId: string) => {
-  const r = await fetch(new URL(imageId, config.refreshProjects.url), {
-    headers: {
-      'Cookie': cookie,
-    },
-  })
-  if (!r.ok || r.headers.get('Content-Type') != 'image/jpeg') {
-    console.log(`Could not load image ${imageId}`)
+const loadImage = async (cookie: string, projectId: string, imageId: string) => {
+  const url = new URL(imageId, config.refreshProjects.url)
+  try {
+    const r = await fetchTimeout(url, {
+      headers: {
+        'Cookie': cookie,
+      },
+    })
+    if (r.ok && r.headers.get('Content-Type') == 'image/jpeg') return true
+  } catch (e) {
+    console.error(e)
   }
+
+  console.log(`${projectId} Could not load image ${url}`)
+  return false
 }
 
 const refreshProjects = async () => {
@@ -95,9 +114,12 @@ const refreshProjects = async () => {
     }
 
     console.log(`Loading ${projectIds.length} projects`)
-    const imageIds = await Promise.all(projectIds.map(projectId => loadProjectImages(cookie, projectId)))
-    console.log(`Loading ${imageIds.length} images`)
-    await Promise.all(imageIds.flat().map((imageId) => loadImage(cookie, imageId)))
+    for (const projectId of projectIds) {
+      const imageIds = await loadProjectImages(cookie, projectId)
+      console.log(`${projectId}: Loading ${imageIds.length} images`)
+      await Promise.all(imageIds.map((imageId) => loadImage(cookie, projectId, imageId)))
+      await new Promise(r => setTimeout(r, 2000))
+    }
     console.log('Done')
   } catch (e) {
     console.error(e)
