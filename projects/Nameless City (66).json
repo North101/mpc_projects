@@ -5,10 +5,16 @@
   "name": "The Nameless City",
   "description": "",
   "image": "nameless-city.png",
+  "artist": "Alexander Joseba",
   "info": null,
   "website": "http://arkhamcentral.com/index.php/the-nameless-city/",
+  "linktext": null,
   "authors": [
     "Niccolò Sbaraini"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Standalone"

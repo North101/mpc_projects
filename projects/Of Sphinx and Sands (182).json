@@ -5,10 +5,16 @@
   "name": "Of Sphinx and Sands",
   "description": "",
   "image": "sphinx-and-sands.png",
+  "artist": null,
   "info": null,
   "website": "https://boardgamegeek.com/thread/1754803/sphinx-and-sands-2021-revised-version",
+  "linktext": null,
   "authors": [
     "PuertoMateo"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Campaign"

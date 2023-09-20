@@ -5,21 +5,27 @@
   "name": "Where in Arkham is Carmen Sandiego?",
   "description": "",
   "image": "carmen-sandiego.png",
+  "artist": null,
   "info": null,
   "website": "Where in Arkham Is Carmen Sandiego?",
+  "linktext": null,
   "authors": [
     "Blue Barracuda"
   ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
   "tags": [
-    "Investigator"
+    "Investigator(s)"
   ],
   "created": "2023-08-08T04:45:26.695Z",
-  "updated": "2023-08-13T20:43:40.206Z",
+  "updated": "2023-09-09T15:18:15.656Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Where in Arkham is Carmen Sandiego?",
+      "name": "Carmen Sandiego?",
       "cards": [
         {
           "count": 1,
@@ -252,5 +258,5 @@
       ]
     }
   ],
-  "hash": "dab1b71c94f2e1aecdb6c3f8385f767fd42bd7db3aa81ef5cb7e46a9911343cb"
+  "hash": "4b05a3a145b45e844753253c7fa9339cfbaa13e98695e71545070125c7a6b5f0"
 }

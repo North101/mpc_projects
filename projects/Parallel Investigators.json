@@ -7,13 +7,19 @@
   "name": "Parallel Investigators",
   "description": "",
   "image": "ahc_ashcanpete_article_preview.png",
+  "artist": "Jake Murray",
   "info": null,
   "website": null,
+  "linktext": null,
   "authors": [
     "Fantasy Flight Games"
   ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
   "tags": [
-    "Investigator",
+    "Investigator(s)",
     "Standalone",
     "Parallel"
   ],

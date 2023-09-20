@@ -5,10 +5,16 @@
   "name": "Alice in Wonderland",
   "description": "",
   "image": "alice.png",
+  "artist": "Hanh Chu",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/alice-in-wonderland-campaign/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Campaign"

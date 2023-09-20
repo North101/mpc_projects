@@ -1,0 +1,726 @@
+{
+  "projectId": [
+    "141F0934306A1F6F45EB727391E3D4B204EE626176689EA0AE94550644624724EA451903BC1A38F1",
+    "A727F130CE476BA254BE18B87B1B790F8A3E33371635224F1CFCCB3B599F2569C018703466A8DEFC",
+    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B"
+  ],
+  "name": "Jumbo Cards & TFA Microsupplies",
+  "description": "",
+  "image": "antis-jumbo-maps.png",
+  "artist": null,
+  "info": null,
+  "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
+  "linktext": null,
+  "authors": [
+    "Antimarkovnikov"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
+  "tags": [
+    "Add-On"
+  ],
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2023-09-09T15:22:56.373Z",
+  "version": 2,
+  "code": "3BDC5812E3F03AB4",
+  "parts": [
+    {
+      "name": "Jumbo Location Maps",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 TDL location map - LiTaS-a.png",
+            "ID": "E22881536C99B9F7B66FE2F18F48FE96",
+            "SourceID": "1B42EE4B197EB3F476056B2522D53D90BD9BD6AE",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "01 TDL location map - LiTaS-b.png",
+            "ID": "02BE1521EA1DCEEB08DF2AE3B415A2CF",
+            "SourceID": "FD68830A4519EBBF6C51D89D8EE47534AF08873A",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 RtTDL location map - LiTaS-a.png",
+            "ID": "4102D5EF58A59A090B042F3D03908EB8",
+            "SourceID": "4B01A96CE6FB596B1CCE28394C2179816FDE4777",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "02 RtTDL location map - LiTaS-b.png",
+            "ID": "02BE1521EA1DCEEB08DF2AE3B415A2CF",
+            "SourceID": "FD68830A4519EBBF6C51D89D8EE47534AF08873A",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 TFA location map - The Jungle-a.jpg",
+            "ID": "BAB7E0424BCDD0E769CD7CD19E275216",
+            "SourceID": "D3B6DB7D3519F1FD96DDEB303BE219B8CEC0F5B4",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "03 TFA location map - The Jungle-b.png",
+            "ID": "E9A72FCEE7650698D01C4A6604BEAA5F",
+            "SourceID": "49BF99085E687BEBA2BA688C879DE2F66F5ED969",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04 TFA location map - Eztli Ruins-a.jpg",
+            "ID": "A236FD0EEB69728C923D2AD91BF40F4E",
+            "SourceID": "845897DAC00719F30C556366FA6584570936E08D",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "04 TFA location map - Eztli Ruins-b.png",
+            "ID": "EADCC2D9907435AE691CA5D083C26778",
+            "SourceID": "FEF8BDA1A74BF361D346FCA5DAB874EE8A24E687",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05 RtTFA location map - Eztli Ruins-a.jpg",
+            "ID": "BC9D322A6CCF085769D46DAF862F543B",
+            "SourceID": "846168FEC5822F09B3AFF1B040E72C05786C79F7",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "05 RtTFA location map - Eztli Ruins-b.png",
+            "ID": "EADCC2D9907435AE691CA5D083C26778",
+            "SourceID": "FEF8BDA1A74BF361D346FCA5DAB874EE8A24E687",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06 TFA location map - Kn-yan-a.jpg",
+            "ID": "2CE1D2874882164C0204AAD3BFD146B4",
+            "SourceID": "27014245E46FE5F34E3E8CB92E24F8EA13556F04",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "06 TFA location map - Kn-yan-b.png",
+            "ID": "EADCC2D9907435AE691CA5D083C26778",
+            "SourceID": "FEF8BDA1A74BF361D346FCA5DAB874EE8A24E687",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07 TFA location map - Yoth-a.jpg",
+            "ID": "BDD7180D5C8D135663CB7E431A4AE338",
+            "SourceID": "23F603DD105D12EAED884B315388840BA70805E7",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "07 TFA location map - Yoth-b.png",
+            "ID": "E9A72FCEE7650698D01C4A6604BEAA5F",
+            "SourceID": "49BF99085E687BEBA2BA688C879DE2F66F5ED969",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08 GotA location map - Egypt-a.png",
+            "ID": "6228D3F7BA52C181B064805B0084E8AD",
+            "SourceID": "28343947805A87FE6F46A4B5BC4735A10FB12DF4",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "08 GotA location map - Egypt-b.png",
+            "ID": "4BAED83195C605321E1B3AE3EF27F59E",
+            "SourceID": "1781CE62E725DCEE3F0C9684DAD496FC216D2758",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jumbo Out-of-Play Areas",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 TDL - The Void-a.png",
+            "ID": "DBD94FBC54429EDF74A9ED993B265A9D",
+            "SourceID": "9D48A5F06D5BBAB844167698DCE6C05D0AF0BE10",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "01 TDL - The Void-b.png",
+            "ID": "A30DB4BCD6E2FC4E3014B5B166C98D71",
+            "SourceID": "A2F37A3D309BF0108D10954211C3DC95858D1FB5",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 TFA - Pursuit-a.png",
+            "ID": "29EFB078E41835279A4688CEEA520957",
+            "SourceID": "8784E293AB77C15901D56E1B9A4DF1393701FA5B",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "02 TFA - Pursuit-b.png",
+            "ID": "E9A72FCEE7650698D01C4A6604BEAA5F",
+            "SourceID": "49BF99085E687BEBA2BA688C879DE2F66F5ED969",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 TIC - The Depths-a.png",
+            "ID": "843D831CFF005D8B31297C83E92D5B79",
+            "SourceID": "7568463749D0CA672DA1E165B926684571135494",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "03 TIC - The Depths-b.png",
+            "ID": "85EC90EB93FBE2110CB3229C2F0AC8C6",
+            "SourceID": "247D4FB134E37E121AE6762C9A461D02C97D7C8D",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04 TSK - Shadows-a.png",
+            "ID": "EC2331281E95262F6B86C979281401FD",
+            "SourceID": "247D0716BB92AF6023BE520FBC36D255148F3011",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "04 TSK - Shadows-b.png",
+            "ID": "AD76EA85BFD101EC2D1C4A6E5D251403",
+            "SourceID": "69401B17D7CCA39CBD62765299B7580FF0CEC71F",
+            "Exp": "png",
+            "Width": 1120,
+            "Height": 1570
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jumbo Blob Enemy",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Big Blob-a.jpg",
+            "ID": "94C5D4291F021308F931A4BB18021EA5",
+            "SourceID": "6FB7589CB4A53B253229F747D276273F8F1D2AEE",
+            "Exp": "jpg",
+            "Width": 1120,
+            "Height": 1570
+          },
+          "back": {
+            "Name": "Big Blob-b.jpg",
+            "ID": "8633E9636817C25C48B786279EB76E89",
+            "SourceID": "B9D6868CBBC2597CD0F9713390D89ED4808D78A4",
+            "Exp": "jpg",
+            "Width": 1120,
+            "Height": 1570
+          }
+        }
+      ]
+    },
+    {
+      "name": "8-up Microsupplies on Jumbo Cards",
+      "cards": [
+        {
+          "count": 4,
+          "front": {
+            "Name": "TFA Micro Supply Cards 1-x4-a.png",
+            "ID": "8F6E8E92E21AC67E767078A84ABFE179",
+            "SourceID": "D47B1B10D3E93D7FAA4C41912F334DC9360672B2",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          },
+          "back": {
+            "Name": "TFA Micro Supply Cards 1-x4-b.png",
+            "ID": "D807D33295FC723E31B4877927467CA5",
+            "SourceID": "A35098FA1B108D390578F125156CCC4E839C429C",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "TFA Micro Supply Cards 2-x4-a.png",
+            "ID": "9F22134C69156A9251F06A7039969493",
+            "SourceID": "E4C2563142EC4BB0DA980A572F1B29EFA2E73D7B",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          },
+          "back": {
+            "Name": "TFA Micro Supply Cards 2-x4-b.png",
+            "ID": "DE41600F78B3ED56ACCA9E2C7A05DCEC",
+            "SourceID": "17E3015ADE4D1F60A62992899B29239C22C669CD",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "TFA Micro Supply Cards 3-x4-a.png",
+            "ID": "33D1AE35C927B19C08A93BDE1FB41241",
+            "SourceID": "884A9965E108388B210F498F93BF435F8320EC07",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          },
+          "back": {
+            "Name": "TFA Micro Supply Cards 3-x4-b.png",
+            "ID": "C282F874CD900CB9ADC58C2671D48DD0",
+            "SourceID": "C7AA306102F1294ED6CE05AC82F0ED37D7B6F8BA",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "TFA Micro Supply Cards 4-x1-a.png",
+            "ID": "10B390BE9858A4025B26D249EDCFADB5",
+            "SourceID": "55C9008E151BA4A1DB9954EDFA1CC06BAB4640C4",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          },
+          "back": {
+            "Name": "TFA Micro Supply Cards 4-x1-b.png",
+            "ID": "2B442EAC1207796E2EE71FD79C7131DD",
+            "SourceID": "93CBB2452B40660FBC1D278BEF5D7FCF6185DB36",
+            "Exp": "png",
+            "Width": 2240,
+            "Height": 3140
+          }
+        }
+      ]
+    },
+    {
+      "name": "Microcard-sized TFA Supplies",
+      "cards": [
+        {
+          "count": 4,
+          "front": {
+            "Name": "Binoculars-x4-a.png",
+            "ID": "EA2BD9684B0A2A59BAEFED3F733DEE7E",
+            "SourceID": "CF4E88CF74165A147CE79C019726315F1D866A8E",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Blanket-x4-a.png",
+            "ID": "9FB63E413DC26389D9E3A0A22233F382",
+            "SourceID": "8135891C600042AC345137BF86F74855A7A7208C",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Canteen-x4-a.png",
+            "ID": "7C5111C53DAA864B19B588666A303F9F",
+            "SourceID": "C74B759D59DF0B91639A05FBC86086C2B2A71B33",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Chalk-x4-a.png",
+            "ID": "871CDB110715CBDAF37E4A02E4C622AB",
+            "SourceID": "03679B3B3F6594F07E259D74BE1AB3A269A3309A",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Compass-x4-a.png",
+            "ID": "94038D299CD9ABBA739D274CF655DD56",
+            "SourceID": "0C873067F50643BFD6226B586B4BAB693CA72CAB",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Gasoline-x16-a.png",
+            "ID": "B1F70533D29E5F54A3ADA4A1539F6D45",
+            "SourceID": "4911541952C4A94379535780ED6709D5055AE510",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Key-of-Eztil-x1-a.png",
+            "ID": "B26DAA10A84FE34B7473F4EAA20B8307",
+            "SourceID": "70C6943B9BA7677689CF3A52C28B8B39E4CE1F80",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Map-x4-a.png",
+            "ID": "6E7320DBAB6D41D95406D5CE43092E76",
+            "SourceID": "465CDBA18F63D49245CB35673BEB91B4C45ABF82",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 24,
+          "front": {
+            "Name": "Medicine-x24-a.png",
+            "ID": "F098CB18C030D375D369C1C418EE4EBE",
+            "SourceID": "D018846E013A2A78F419C3E92F7EDAF4592E8774",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mysterious-Scepter-x1-a.png",
+            "ID": "821D25CE1512A2E858344061C34845F9",
+            "SourceID": "B645A47E1BC698ACF12B8ADBBA11591EB03107F0",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pendant-x4-a.png",
+            "ID": "C50F278A9EF98D0059B6C5A3669BF390",
+            "SourceID": "352FCD58D35CFA773287D748A645595BC400BB2E",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pickaxe-x4-a.png",
+            "ID": "9ADFEA08538CCC251DCAA5A975DB4D49",
+            "SourceID": "6F51F7490504F106E3DB2A1AC52BFB641950A206",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pocketknife-x4-a.png",
+            "ID": "1DE20158CD16BA82AC8A8D2FF9040CE7",
+            "SourceID": "A3EDBA5ECFBE761FD3FE6B625718563E2F49B406",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Provisions-x16-a.png",
+            "ID": "84F1F0546F18B82F954A7BFB95BF4B65",
+            "SourceID": "F004654BEBC7FCB80FFAC41D0972F1420EA00B45",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Rope-x4-a.png",
+            "ID": "0A2FFEB4FF3DE432FD0989D366D28E2D",
+            "SourceID": "0AD440C875FFAF58555679F359B3BBA6EFA47505",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Sticky-Goop-x1-a.png",
+            "ID": "5040B5B9D1A767CBFD3B12FE4A281D7A",
+            "SourceID": "05DE14E45D8EA891B14D6D42ED8DAF9E7C9CFA24",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Torches-x4-a.png",
+            "ID": "0B69B44BA839687FB8405EE3F99C8CA8",
+            "SourceID": "E475F89A430F46257C9C75AEAD1428E0A37415A6",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        }
+      ]
+    },
+    {
+      "name": "Summoned Servitor Microcard",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Summoned-Servitor-a.png",
+            "ID": "05BFC5B55658D037B0D580B7805168F0",
+            "SourceID": "8B4CF4EB52B8FCB9B4889EBBB6C23976D715C92D",
+            "Exp": "png",
+            "Width": 1126,
+            "Height": 1650
+          },
+          "back": {
+            "Name": "Summoned-Servitor-b.png",
+            "ID": "B04EE4DBB4B744092B9978BF8E7ACA89",
+            "SourceID": "B3BFF70C0BEEAB8900E8E10C73BA73FAD1BC9C39",
+            "Exp": "png",
+            "Width": 1126,
+            "Height": 1650
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "730f3ec7b9a86468c01d8189d8fb39c43ec628504218eecc053d176cbf6471a9"
+}

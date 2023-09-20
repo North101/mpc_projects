@@ -5,11 +5,17 @@
   "name": "The Colour Out of Space",
   "description": "",
   "image": "colour-out-of-space.png",
+  "artist": "Vashar23",
   "info": null,
   "website": "http://arkhamcentral.com/index.php/the-colour-out-of-space-fan-created-content-for-arkham-horror-lcg/",
+  "linktext": null,
   "authors": [
     "Joe Ehret",
     "Jayne Cobb"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Standalone"

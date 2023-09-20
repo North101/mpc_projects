@@ -5,10 +5,16 @@
   "name": "The Legend of Sleepy Hollow",
   "description": "",
   "image": "sleepy-hollow.png",
+  "artist": "Jason Juta",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/the-legend-of-sleepy-hollow/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Standalone"

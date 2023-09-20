@@ -5,10 +5,16 @@
   "name": "Consternation on the Constellation",
   "description": "",
   "image": "consternation-on-the-constellation.png",
+  "artist": "Ethan Patrick Harris",
   "info": null,
   "website": "https://mythosbusters.com/custom-scenarios/",
+  "linktext": null,
   "authors": [
-    "MythosBusters"
+    "Mythos Busters"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Standalone"

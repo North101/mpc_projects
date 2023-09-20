@@ -1,20 +1,28 @@
 {
   "projectId": [
-    "09B5B555D9E4C9A3690FFA85F59A06BB01B068456000130739B4AE9A41B7C200211F0D90B41FF9E9"
+    "09B5B555D9E4C9A3690FFA85F59A06BB01B068456000130739B4AE9A41B7C200211F0D90B41FF9E9",
+    "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40"
   ],
   "name": "Heart of Darkness",
   "description": "",
   "image": "heart-of-darkness.png",
+  "artist": "Malte Blom Madsen",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2023/06/30/heart-of-darkness-campaign/",
+  "linktext": null,
   "authors": [
     "Vinn Quest"
   ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
   "tags": [
-    "Campaign"
+    "Campaign",
+    "Investigator(s)"
   ],
   "created": "2023-08-08T04:45:26.687Z",
-  "updated": "2023-08-14T07:15:31.730Z",
+  "updated": "2023-09-20T19:14:40.642Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -1621,8 +1629,8 @@
           "count": 1,
           "front": {
             "Name": "071 Jani La Mfalme 1-1.jpg",
-            "ID": "F7DBBDF919352048970D10534086C818",
-            "SourceID": "43785C1CA315FA3610CB61750DF3CE42FE767793",
+            "ID": "37FE55CD2848F189A52891A5B3B03D4E",
+            "SourceID": "AC10328FF04EB08908DB90A2CAA2650CA341255A",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -1640,8 +1648,8 @@
           "count": 1,
           "front": {
             "Name": "071 Jani La Mfalme 2-1.jpg",
-            "ID": "CB9112DE7CA8E043B824FDA99CD53CA9",
-            "SourceID": "0FFF2ECAFFAFD3F3826B14C2519215D87C25BD71",
+            "ID": "65F406E1FD19B32E3E333D094E0842F0",
+            "SourceID": "02EF4E2AF79FB6D25F0D5F864F34475E0120D6D3",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -1830,8 +1838,8 @@
           "count": 1,
           "front": {
             "Name": "075 Ritual of the Black Sun 1-1.jpg",
-            "ID": "614B1A58062068C7C1A10395E0CA3908",
-            "SourceID": "24F5862B680B6FB245BBEADF208CD2A8234BB943",
+            "ID": "CDE6406EAE5226043DCCF28C3302705A",
+            "SourceID": "40D0ABFCBEFA93F871A34789BBC07CD9075B4B97",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -1849,8 +1857,8 @@
           "count": 1,
           "front": {
             "Name": "075 Ritual of the Black Sun 2-1.jpg",
-            "ID": "E2119DE529AFF8A5AA52FF0E2D9AC475",
-            "SourceID": "11C8322DCC489A680DB34BB772D55EE34D56E398",
+            "ID": "8CD39B29667A9F9B1065BA6DEB13F8DE",
+            "SourceID": "493044CBF1458EE5E00C4FB30D43BD0E05EA169C",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -1868,8 +1876,8 @@
           "count": 1,
           "front": {
             "Name": "075 Ritual of the Black Sun 3-1.jpg",
-            "ID": "30D7E404D8089FCDBE06554224B58662",
-            "SourceID": "6DC0DA5683D3C2C509CFFA07033A2540AC0D5744",
+            "ID": "5744427FB06471C9E6EB2D98C7473A27",
+            "SourceID": "5EEFE90B78471A03087509CEB04933B214A11C2C",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2047,8 +2055,8 @@
           },
           "back": {
             "Name": "084 The Avatar of Darkness Act 2a-2.jpg",
-            "ID": "BEFFCE0F72D155D59C55BE8A53A7FEA3",
-            "SourceID": "C374208A206E7AB9447953D332339D844C1D3676",
+            "ID": "04F3A578AAFA80AF4BC2F1041FC7CE6F",
+            "SourceID": "9778B74B01484C09936099E85B13D92E309FAB34",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2161,8 +2169,8 @@
           },
           "back": {
             "Name": "090 The Avatar of Darkness Act 3a-2.jpg",
-            "ID": "71A9F2A6728F4EFD6FD406876E3D2C31",
-            "SourceID": "260EB10401C9F459ECB418321F0B2099107BB954",
+            "ID": "2317B854E3D4097FDF06D43F305D1BEC",
+            "SourceID": "2CBADC95FF6E30A13B958AA7612AEECB1E1C343A",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2731,8 +2739,8 @@
           },
           "back": {
             "Name": "120 You Attacked Kurtz-2.jpg",
-            "ID": "18FDEE99B8CB5E995EC54946F33D2A25",
-            "SourceID": "203BB1FB893F5EFFADCCE8D1F58BBF7E1670C9E3",
+            "ID": "2EBB3712D65D9736D5F84DD74D1C1931",
+            "SourceID": "FAEF00E34E0C2C34CD6746B0837480E62B24B14B",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2750,8 +2758,8 @@
           },
           "back": {
             "Name": "121 Kurtz's Downfall-2.jpg",
-            "ID": "C94BA5833AD978474F9DB9FCA50A9ABB",
-            "SourceID": "7C7C1A328CD76939104972408C58F1FFF35C26CB",
+            "ID": "40022C99BE3E4B6DD2F6551DED801F84",
+            "SourceID": "40BED41DC0364E74F6BBD3004194A1144A2144D2",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2799,8 +2807,8 @@
           "count": 1,
           "front": {
             "Name": "124 Kurtz's Bodyguard 1-1.jpg",
-            "ID": "E62E0CBD46328734319C2E9171956686",
-            "SourceID": "4304170B1973025BB975F8DED0854A1274275A32",
+            "ID": "6D01CD0F97DA2901575BCB27AE5893EA",
+            "SourceID": "E179AC82B0E9657D2C552CAB25B75ADF3F45F516",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2818,8 +2826,8 @@
           "count": 1,
           "front": {
             "Name": "124 Kurtz's Bodyguard 2-1.jpg",
-            "ID": "60E3AFD086048D129335A42FB8A4558A",
-            "SourceID": "96ADBE942087373297986F7A9B4A76CA7E4BF84E",
+            "ID": "A9BB8457A0BE80E13AA38CFE035A1865",
+            "SourceID": "6A9A8F21F04535EE1BCAB5FB6FC9E899B664742B",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2951,8 +2959,8 @@
           "count": 1,
           "front": {
             "Name": "127 The Songs of Distant Land 1-1.jpg",
-            "ID": "9A650E200104223CC7FDBEC64197B631",
-            "SourceID": "8CF51930E19F46A2488E1441F91E71FB111E8DB4",
+            "ID": "060493FC50088C7E629A67F9CB0D9D00",
+            "SourceID": "9C052AAF1DF3F18177D34EE6C30C3F2CD64217B8",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2970,8 +2978,8 @@
           "count": 1,
           "front": {
             "Name": "127 The Songs of Distant Land 2-1.jpg",
-            "ID": "A0E2500D8C1F82CF5DAACB9E2EC39891",
-            "SourceID": "8D8F887B71A2F019D2BBD361F570B37BCEED9E91",
+            "ID": "99FE8AFF3219264D9A13DB8B6817FAA1",
+            "SourceID": "9E83D4B1B08175E17352F27A4E242F4B683BBDC6",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -2989,8 +2997,8 @@
           "count": 1,
           "front": {
             "Name": "127 The Songs of Distant Land 3-1.jpg",
-            "ID": "052996CF2D44BB41F93ADC207FD12C90",
-            "SourceID": "F449A1BE8924EAE2471AF452798993E591E95C60",
+            "ID": "F0F4D7E44DDE382921D671A66D291FC1",
+            "SourceID": "284E8469AF18666AAD8A4C10B90A9E29356AACD8",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3065,8 +3073,8 @@
           "count": 1,
           "front": {
             "Name": "129 The Harlequin's Journal-1.jpg",
-            "ID": "D73F6E841DA186E5C94FA7B75B9CDEEA",
-            "SourceID": "0BE87E33CDA239BC63A3073756EC3F33F2B0D488",
+            "ID": "B1D2FA2A3F5700B8346CA5BC85C25F5D",
+            "SourceID": "A58C4AD3C08F0B2DCC666B561CEF36EBDD4D108C",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3084,8 +3092,8 @@
           "count": 1,
           "front": {
             "Name": "130 Winchester .22 1-1.jpg",
-            "ID": "E2BA2A7D5F009425B9890ACB6AD70912",
-            "SourceID": "694D5C3FD2BE56D54AC01EC5240761D96F0E9408",
+            "ID": "56FA8B1306B31591BBE221382660DAC8",
+            "SourceID": "06135CE1F733924E6B8B6AB92E36688E0EFEC4CB",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3103,8 +3111,8 @@
           "count": 1,
           "front": {
             "Name": "130 Winchester .22 2-1.jpg",
-            "ID": "063AAFCC93ABB2B8FAB2A1B2654EAF99",
-            "SourceID": "BC13F5ACE3515B6C616E0811147F240FAA6DAA31",
+            "ID": "95FA92E74E6480219D06AEEC6C4BB592",
+            "SourceID": "E7929BA57D0F9360133057D890BAD56E0189DB8D",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3217,8 +3225,8 @@
           "count": 1,
           "front": {
             "Name": "133 Concealed Archer 1-1.jpg",
-            "ID": "F078BA00C0EFD2E2F1520BF5B679801D",
-            "SourceID": "7685D5A3DCA1A7CE1FCAC1CC3AE9B4C1489F6DA9",
+            "ID": "24EF8D50093112E6994728814BD9E5C4",
+            "SourceID": "142251A67D929176C171E574CF8D3E9A5FC0DB3F",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3236,8 +3244,8 @@
           "count": 1,
           "front": {
             "Name": "133 Concealed Archer 2-1.jpg",
-            "ID": "AAD8331193F32CBFDE0A7FE0DFBDB02A",
-            "SourceID": "88445CEA46FC7D51D836E5CDCE8BD28FB5329C81",
+            "ID": "2477E325479E735AE52CA96473F2E962",
+            "SourceID": "FEEE187213AA6FB4692933BA5479B88BE49FDDB9",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3255,8 +3263,8 @@
           "count": 1,
           "front": {
             "Name": "133 Concealed Archer 3-1.jpg",
-            "ID": "C8DEFA3E8ADAC3A3E03907CEF9775097",
-            "SourceID": "EAC24864F7DA377F837FC1881E433F5BC1846C20",
+            "ID": "0DE9EBD101CF7EAE1690B3DD1071E4AE",
+            "SourceID": "73A2A2B05BB4A3C1F140CD4E5765F6EE3F1C53A8",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3578,8 +3586,8 @@
           "count": 1,
           "front": {
             "Name": "141 Nightmare 1-1.jpg",
-            "ID": "8CA595013E9FCB0BEAEC5AFF048AF622",
-            "SourceID": "D8136649739956E5F3C41BFDC391D0B79BA1E357",
+            "ID": "7DADFD8000247C1164DC468B5231DA69",
+            "SourceID": "7E7B50A5E8A090636EA10DBB6ED3DE9C5A4E85E8",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3597,8 +3605,8 @@
           "count": 1,
           "front": {
             "Name": "141 Nightmare 2-1.jpg",
-            "ID": "E467ADD524141355361321A77F52D872",
-            "SourceID": "CD71F7B8BA50BE319E671A79820985B8D8C1221F",
+            "ID": "A0ED2108D7B900FD8DAA6B22A5F36313",
+            "SourceID": "8B8437217D74759AF5BE90768ECF50E49D1B2802",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3616,8 +3624,8 @@
           "count": 1,
           "front": {
             "Name": "142 Strange Disease 1-1.jpg",
-            "ID": "C2533D6BE86B81FFF2EEFA8B6FFF57DC",
-            "SourceID": "615B3331E3DC9C81D0E6AE359F750A918DAAB27A",
+            "ID": "4EC0D4ED449503A6EF309AF3735E431B",
+            "SourceID": "E3403188F21B787B976DEF78D4EFC907D0878B9A",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3635,8 +3643,8 @@
           "count": 1,
           "front": {
             "Name": "142 Strange Disease 2-1.jpg",
-            "ID": "E8070CFAC242E3FD927AD1BFCF0A6672",
-            "SourceID": "A4C3B3DD138466B37EE339C59E75FE409DF9472F",
+            "ID": "98AFCBB6E8A5BF7D0FD5DB2129A8C0F6",
+            "SourceID": "AE5912C5B377ADAAFD3C0769DC9F1B6665FC08A7",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3692,8 +3700,8 @@
           "count": 1,
           "front": {
             "Name": "144 Journey to Darkness 1-1.jpg",
-            "ID": "BA864541DC3B48057A1BF76EDD3786DC",
-            "SourceID": "402C49A0B3E48AF0A045AED0167F86B53632EB53",
+            "ID": "48D69F845D0304B76A6D1613F7493977",
+            "SourceID": "38646C2E6606A7D8E59D563D7ED086590B28E8D4",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3711,8 +3719,8 @@
           "count": 1,
           "front": {
             "Name": "144 Journey to Darkness 2-1.jpg",
-            "ID": "B9FED7058E4B6DD5546CE140F457220D",
-            "SourceID": "82EE1BC76BB190B82558257F6317558BC2D2E635",
+            "ID": "5FC1C75C717F0DD6D80C00A0E47F2C89",
+            "SourceID": "45F4CE8D268EA11AA9B44D58A0388ECA9A39F5FA",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3730,8 +3738,8 @@
           "count": 1,
           "front": {
             "Name": "145 Dark Presence 1-1.jpg",
-            "ID": "F402FADD37716FB673961B2C86308FA9",
-            "SourceID": "3A103998867DF93C659535D91451282BF6AD7896",
+            "ID": "0D091785B4C1E52DA2FF0729E581F9A7",
+            "SourceID": "D174CF8600BC9BA734D982B09508B02B4CF44F6C",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3749,8 +3757,8 @@
           "count": 1,
           "front": {
             "Name": "145 Dark Presence 2-1.jpg",
-            "ID": "54B3FEAD48664B2E01E3D5D64F4DEE2B",
-            "SourceID": "A896BCFAD98F141A81FDDF3DD18567205B47468D",
+            "ID": "3DC4C017A7235B3DD9006B048D1FEF8A",
+            "SourceID": "099E0B93217637F4AA8E9D7FE20335B9F8BA10D9",
             "Exp": "jpg",
             "Width": 1650,
             "Height": 2250
@@ -3995,5 +4003,5 @@
       ]
     }
   ],
-  "hash": "4e7a5c1d8649250299220905584a51cdc66d7bbb5a468c80b5a7e2239164bd76"
+  "hash": "391bce91bd79e57831de772411b6be6b110eab62f67fce25baf0533ddb2de1ac"
 }

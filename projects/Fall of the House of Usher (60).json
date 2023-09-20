@@ -5,10 +5,16 @@
   "name": "The Fall of the House of Usher",
   "description": "",
   "image": "usher.png",
+  "artist": "Daniel Danger",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/10/01/the-fall-of-the-house-of-usher/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Standalone"

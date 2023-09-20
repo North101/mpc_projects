@@ -6,13 +6,19 @@
   "name": "Dark Matter",
   "description": "",
   "image": "dark-matter.png",
+  "artist": null,
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/17/dark-matter-campaign/",
+  "linktext": null,
   "authors": [
     "Axolotl",
     "Dr Xavier Bertou",
     "Levi Thornton",
     "Mint Tea Fan"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Campaign",

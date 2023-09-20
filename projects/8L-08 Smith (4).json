@@ -5,13 +5,19 @@
   "name": "8L-08 Smith",
   "description": "",
   "image": "ahc_blobarticle_preview.png",
+  "artist": "Peter Polach",
   "info": null,
   "website": "https://www.fantasyflightgames.com/en/news/2023/4/1/the-blob-that-investigated-everything/",
+  "linktext": null,
   "authors": [
     "Fantasy Flight Games"
   ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
   "tags": [
-    "Investigator"
+    "Investigator(s)"
   ],
   "created": "2023-08-08T04:45:26.700Z",
   "updated": "2023-08-13T20:43:40.213Z",

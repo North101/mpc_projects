@@ -5,10 +5,16 @@
   "name": "Call of the Plaguebearer",
   "description": "",
   "image": "plaguebearer.png",
+  "artist": "Robin Olausson",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/04/06/call-of-the-plaguebearer/",
+  "linktext": null,
   "authors": [
     "Dr. Jack Science"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Campaign"

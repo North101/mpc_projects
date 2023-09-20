@@ -5,10 +5,16 @@
   "name": "Celtic Rising",
   "description": "",
   "image": "celtic-rising.png",
+  "artist": "Shaliara",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/07/20/celtic-rising-campaign/",
+  "linktext": null,
   "authors": [
     "QggOne"
+  ],
+  "statuses": [
+    "Final",
+    "Project Available"
   ],
   "tags": [
     "Campaign"

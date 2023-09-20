@@ -1,32 +1,42 @@
 {
   "projectId": [
+    "1E23A6C43FD8DF62F1F645E0BDCC4233BB6F4F78535B366FD37B48555A515F6248809D0AD155D0CA",
     "011510745B9EE6A5554FEAC7D318FE46F8BF3EDE37372B245255BED9C427CB189A06845D5EC43264"
   ],
   "name": "Return to the Innsmouth Conspiracy (Unofficial)",
   "description": "",
   "image": "rttic.png",
+  "artist": null,
+  "info": "Encounter cards require The Innsmouth Conspiracy campaign. Some player cards make use of bless & curse tokens.",
   "website": "https://derbk.com/ancientevils/the-unofficial-return-to-the-innsmouth-conspiracy/",
+  "linktext": null,
   "authors": [
     "DerBK",
     "Hauke"
   ],
+  "statuses": [
+    "Final",
+    "Project Available"
+  ],
   "tags": [
-    "Campaign Expansion"
+    "Campaign Expansion",
+    "Player Cards",
+    "Return to"
   ],
   "created": "2023-08-08T04:45:26.680Z",
-  "updated": "2023-08-14T07:15:31.727Z",
+  "updated": "2023-09-20T15:20:04.480Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Return to the Innsmouth Conspiracy (Unofficial)",
+      "name": "Return to Innsmouth Player Cards",
       "cards": [
         {
           "count": 2,
           "front": {
             "Name": "001 Blessed Blade-x2-1.png",
-            "ID": "A20D47B3564DEB10CB32643EF44CBDB4",
-            "SourceID": "E27F8C18AA8EFD60B829A90994A497A429F3A5F3",
+            "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
+            "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -343,7 +353,12 @@
             "Width": 822,
             "Height": 1122
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Return to Innsmouth Encounter Cards",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -367,16 +382,16 @@
           "count": 1,
           "front": {
             "Name": "019 Pit of Despair Act 1 v2-1.png",
-            "ID": "07041BDEBAB1A90B8B607284A84F26D4",
-            "SourceID": "91575A6DF5CBF77F0B20CA1ACE543F0E333FC2A3",
+            "ID": "09283683119F72A7BC33C94653E3DC06",
+            "SourceID": "9D028E5F31F4112E02C138756935619450694872",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "019 Pit of Despair Act 1 v2-2.png",
-            "ID": "EBD1A94554CDB8223786CC5DFE78E27A",
-            "SourceID": "57E727A2A08585D35AAE47E9CAB84F149A0ACEA2",
+            "ID": "8DABF5868176F229972EA57EC61BBC16",
+            "SourceID": "6EB1116E63A55AD4AABAF35865D7F826725A1A04",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -386,8 +401,8 @@
           "count": 2,
           "front": {
             "Name": "020 Lost in the Caves-x2-1.png",
-            "ID": "11CD2320C07EC0CA4CDE38D08BF3397D",
-            "SourceID": "5ED8BCE4DE0E1A663182B05149D08FB165AC1564",
+            "ID": "FC3C56E42D6FCE520F7C3F8DBC6438A7",
+            "SourceID": "62741BC82A4DF6431259AF38E087E1611F03124F",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -405,8 +420,8 @@
           "count": 2,
           "front": {
             "Name": "021 Troubling Memories-x2-1.png",
-            "ID": "03E9DA779D335D714C36DF1852FD80D1",
-            "SourceID": "BCD62B3E2EBBED0B8746CBE1B4FCDBE63FFA83D1",
+            "ID": "A6D6C06704B3F100C5FE61D1BAC35FE2",
+            "SourceID": "EE6114FB2601DEF6580CF771AF8E2ECE52775B06",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -424,16 +439,16 @@
           "count": 1,
           "front": {
             "Name": "022 Return to The Vanishing of Elina Harper-1.png",
-            "ID": "6A4266198F29B2ED48A6A8D0FCA4BE0A",
-            "SourceID": "923B0F877E5A9930D2EDD88786156EAD94F3BD6E",
+            "ID": "8A2504D9180ED6EDA56DC937BA81A23A",
+            "SourceID": "8693DB058A5AF0FEB962F7DC9842AF20A1243852",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "022 Return to The Vanishing of Elina Harper-2.png",
-            "ID": "7E8DBA689F850A7208960F1C4CF777F4",
-            "SourceID": "910080DDECDE18B01A58D30456CF1BF0C86FA140",
+            "ID": "13DBCF54A8B4FB5A251F382B26DD6F16",
+            "SourceID": "D78EF773EFF9A150B2F9E18C7094A106D001A89E",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -443,16 +458,16 @@
           "count": 1,
           "front": {
             "Name": "023 The Vanishing of Elina Harper Act 1 v2-1.png",
-            "ID": "8B662D414790061BA1865C6177A10512",
-            "SourceID": "EB8A19DA01334357E76C4282537C6EBFB4396064",
+            "ID": "A94E8E7080B3F9CEC57F1C8AC1B508C3",
+            "SourceID": "DD6AF7B203CE84433A65F968BA64D976835D2B5B",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "023 The Vanishing of Elina Harper Act 1 v2-2.png",
-            "ID": "D8546E31A7AAE49BF5277921FBABF54B",
-            "SourceID": "6E478076C43B75DEE87F7663D78D8630518FECB7",
+            "ID": "1257D41926DBC20E3C1B760B192639CE",
+            "SourceID": "4EEAE70A6DFEB4DD224CC259C0DA833082BE054C",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -462,8 +477,8 @@
           "count": 2,
           "front": {
             "Name": "024 Growing Suspicion-x2-1.png",
-            "ID": "3D55433F436470D3AA26AD2CD2EBE1E1",
-            "SourceID": "5B8FD20C8F8D3E06A56DED821D1A86CA1B8E3B3A",
+            "ID": "B893415E414E8DCF2DAA3ACB0463D9BB",
+            "SourceID": "2224C7FBDF7D3F40543A32BC7907065C09351745",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -481,8 +496,8 @@
           "count": 1,
           "front": {
             "Name": "025 Little Gemma-1.png",
-            "ID": "071D7ADFA33BEBDC88D3571A7F9AAFA3",
-            "SourceID": "BC11A40B0A0F2D343F188C08CAA02E880929241D",
+            "ID": "9BF4A369DD02034424E65E1CFA6F596A",
+            "SourceID": "E1B6845C8D0D6D1B7C00F13D53431C53F4934A26",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -500,8 +515,8 @@
           "count": 1,
           "front": {
             "Name": "026 Ron Stalwick-1.png",
-            "ID": "712604167E4F82C511FA84E8BFEF2FD2",
-            "SourceID": "CB8D52DE28F0CD495D8CC20F1E23F1D8A0904406",
+            "ID": "F348D955EE217E08B6DFDE5FEB8AF889",
+            "SourceID": "D8F406091D22F68C1445DF9924F1F150EE206F8F",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -519,8 +534,8 @@
           "count": 1,
           "front": {
             "Name": "027 Roderick-1.png",
-            "ID": "DD84EB483D7B01CFA43BBAB58BA4EEA8",
-            "SourceID": "448EF808B291A55338D2CB4C71F60E4775D74866",
+            "ID": "73A7496B03DE639E50C84A02D6BB9AEC",
+            "SourceID": "9A0013104AA4D8767775662B6D6FC11BCF8D983D",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -538,16 +553,16 @@
           "count": 1,
           "front": {
             "Name": "028 Return to In Too Deep-1.png",
-            "ID": "58466DD34225EB70FA1DFD518D8D0172",
-            "SourceID": "2C2D1C6F236355B579A6FA71F57E82BD6469C3FD",
+            "ID": "C883E94566BAD86B9644181F3D96EEC4",
+            "SourceID": "A79F850E48FDF20B28E7B513D63D636D85E0D2D3",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "028 Return to In Too Deep-2.png",
-            "ID": "C2B2645779E996C8365EDF4D2E659E2B",
-            "SourceID": "39BD6BC439BD6880DBFEBB637E34389E185FF6F1",
+            "ID": "03E330794B6ED58AFB6B89E0E5D34021",
+            "SourceID": "73416D79D1EEB2DB791940DC88CA6D21808C614D",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -557,16 +572,16 @@
           "count": 1,
           "front": {
             "Name": "029 In Too Deep Act 1 v2-1.png",
-            "ID": "2187FB50065BB99CD4885689AA7D9713",
-            "SourceID": "3CC877C59490749D3984A9CB5BC3CAD574FBBCE2",
+            "ID": "3039DB3E42A3D8A8FAA984DFCA8C4CA8",
+            "SourceID": "7636E2A0C49A203F4172B018AB5D094BBB681E95",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "029 In Too Deep Act 1 v2-2.png",
-            "ID": "626D53E8EE972B10EB772E0AA8AED870",
-            "SourceID": "EED92A28281875787DC1947047D8CA7ED0E4053E",
+            "ID": "42203BEF43E9FC2A4BD9B84F16173BF9",
+            "SourceID": "4C637100273164EC2935756295868EBA07E4442C",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -576,8 +591,8 @@
           "count": 4,
           "front": {
             "Name": "030 Innsmouth Influence-x4-1.png",
-            "ID": "0DC341496340599F33AEDE378A713648",
-            "SourceID": "660E439D33B27525178A176979198E2A66E65BE1",
+            "ID": "FD61E882DCE7000E60662C14A22B1475",
+            "SourceID": "E11FF38C2471F87DB826BD1DD1673E1E610C47BB",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -652,8 +667,8 @@
           "count": 1,
           "front": {
             "Name": "034 Fishing Vessel-1.png",
-            "ID": "50C5DF69A6AA2FB139B153874012C59F",
-            "SourceID": "2AC7691ACF06E0983C51808125C1559B866FB263",
+            "ID": "6086AC1B314E331D975B887A60307529",
+            "SourceID": "7C68C755DB6D08EA569E226AFC1D5E3B56F21CCB",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -709,8 +724,8 @@
           "count": 1,
           "front": {
             "Name": "037 Straight Section-1.png",
-            "ID": "C14DB84B7E45D9951EC3F4AC9EFAEF43",
-            "SourceID": "866C24014A95C9A4068D08D35418FBFD31504A44",
+            "ID": "ACE8C51557389AA48349F3C2E568A003",
+            "SourceID": "A9745908A16906DD91F5FFC27028D6F444282E46",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -728,8 +743,8 @@
           "count": 2,
           "front": {
             "Name": "038 Wrecked-x2-1.png",
-            "ID": "1A0ACCE2DCDD683D35F91F63EFAEB654",
-            "SourceID": "6DFEF0E9F5D6D4EF3232C562805D0F361F0894AC",
+            "ID": "3A83BF350438062E7AF95D966095B36C",
+            "SourceID": "FE8FAFDDC756E0366678FEC1043718857A59F868",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -766,16 +781,16 @@
           "count": 1,
           "front": {
             "Name": "040 A Light in the Fog Agenda 4 v2-1.png",
-            "ID": "CED29D4801A2892592DEF36CF9A0CE67",
-            "SourceID": "F7D866A3444585A7D0ADF3BBC5C736088E9047EF",
+            "ID": "178471965D531BFB56807000FD7FD583",
+            "SourceID": "594B914AD54C62ED249BEFF4817899E5CEA58A0B",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "040 A Light in the Fog Agenda 4 v2-2.png",
-            "ID": "A8CD4FB5BDA052BEA17C40C9C4545DCF",
-            "SourceID": "089865F89F1CE51DAB7A948A5BD3225731B5D7BC",
+            "ID": "8CDC0736C57814BB77A664CC176F2655",
+            "SourceID": "285820CA8761A7BE5B10A962AB63E9E076CF4EF8",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -785,8 +800,8 @@
           "count": 2,
           "front": {
             "Name": "041 Born to Breed-x2-1.png",
-            "ID": "2BE5D63D89319C6B1621E43FC6DD44AF",
-            "SourceID": "29C25A159B87EFCC388093B4BFB8343F12388893",
+            "ID": "D0B22204A7DBB1F5E4714979FA68146A",
+            "SourceID": "AE221CB9C40C64061D83DFC825C894DBF0F203B8",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -804,8 +819,8 @@
           "count": 3,
           "front": {
             "Name": "042 Deep One Grappler-x3-1.png",
-            "ID": "D0E1B87185A20BBEBF7F8C8A81681BE9",
-            "SourceID": "ACD2ED0CE2FABBF13E8237CF306F375DE55BD669",
+            "ID": "F924FDFD4E7B23A2D4CC8E16C65F6485",
+            "SourceID": "EAD529FF325D85AE473C1EE35054C785EBFD5023",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -842,16 +857,16 @@
           "count": 1,
           "front": {
             "Name": "044 Lair of Dagon Act 2 v2-1.png",
-            "ID": "D38211BEE35EE7C73AE089713A5DF855",
-            "SourceID": "5B7944992B716A102C65387DE4621CED874A4BF2",
+            "ID": "9C7F6F0D60B8E2732CF8710DDFC537BF",
+            "SourceID": "7E54B0ED457142B95C6D8D1EDC8A4142A8F0E00B",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "044 Lair of Dagon Act 2 v2-2.png",
-            "ID": "866E2FCED49C9A4498A5C8BD43F54704",
-            "SourceID": "6B5F0360C3E6B48358955737213C0ADBF36EB282",
+            "ID": "22092F9CEABBB3755AF0C4CDE788692B",
+            "SourceID": "74ADA45D41F6F06D43895D3CB4EE9E97ABAA5729",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -899,8 +914,8 @@
           "count": 1,
           "front": {
             "Name": "047 Stirring in His Sleep-1.png",
-            "ID": "C93F1DB55E4F02C8A9AA8B321AE8CCC3",
-            "SourceID": "DA7CCC2EB519A5D1DC77A62B856D3E2076A072AB",
+            "ID": "155B38DE4B2CF249BAAE6A74A79A001B",
+            "SourceID": "0CACDA1B2095A17FBA89E27B14543BA4D7F1C9F6",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -937,16 +952,16 @@
           "count": 1,
           "front": {
             "Name": "049 Into the Maelstrom Agenda 1 v2-1.png",
-            "ID": "3356571663F965D7A89E80874AEDFD8A",
-            "SourceID": "F736B0A38693B1173E988ED2D5B71AF9BEE63C46",
+            "ID": "F7A6F09A74000F3BDD05B1E441172434",
+            "SourceID": "DFCEDAB97C7B7E4AA04ACF141E784B0B8F956F45",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "049 Into the Maelstrom Agenda 1 v2-2.png",
-            "ID": "C64EF4F4E7E91C5802AC70F4052059EF",
-            "SourceID": "E18D11C081B1B92FA1AF334F9106714AC9F706F0",
+            "ID": "37A2C7E5EC26454C8C080096D85F7EE0",
+            "SourceID": "4A1ECD7040340E31C7EEA2B3FA5E9788737C08B2",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -956,16 +971,16 @@
           "count": 1,
           "front": {
             "Name": "050 Into the Maelstrom Agenda 2 v2-1.png",
-            "ID": "3A4323AC138E568FB89013F7A06A5A95",
-            "SourceID": "F7AC834C5E128E37B5E75BF57FBC5EB7E259A168",
+            "ID": "D586F5DB3FECF205BC3C20D63526A7A3",
+            "SourceID": "77BA39608971C94FC2F89D62DAB94FA4161D5740",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "050 Into the Maelstrom Agenda 2 v2-2.png",
-            "ID": "2B02B21EE1BE179F1EAC3AC923D94AF4",
-            "SourceID": "FF7F058F7930D045B9870B3619FF3766FC0870DA",
+            "ID": "3DD6C18E3D02641AA712A0D1E1BA684B",
+            "SourceID": "C38286823CD05C1C37E7F9CCAF9FF8169587363F",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -975,16 +990,16 @@
           "count": 1,
           "front": {
             "Name": "051 Into the Maelstrom Act 1 v2-1.png",
-            "ID": "F37E8B11282E4780B988808C27169C6B",
-            "SourceID": "729475CF01839A65BF7829E7EE10CC888CCFAD54",
+            "ID": "719BB9010E106AC89BF656D3FABCEED2",
+            "SourceID": "B5DA10A5A60F98753C051A42E77632233D166CCD",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
           },
           "back": {
             "Name": "051 Into the Maelstrom Act 1 v2-2.png",
-            "ID": "7F4A3BACD451134AB11D5DE260634DBC",
-            "SourceID": "3E4D79B0209C4C58BAE12617334817E8B807FE5B",
+            "ID": "FC8ACB1C2731FC778E716ACE6A99B962",
+            "SourceID": "555501FC706E4564963116286D84783839254ED8",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -994,8 +1009,8 @@
           "count": 1,
           "front": {
             "Name": "052 Presence of the Father-1.png",
-            "ID": "3F5CEC30780DC156D0CF128A22A5E266",
-            "SourceID": "FBDAA4D281A868E6CF9525D4687A62AF96FA3B97",
+            "ID": "14BF2EB67C30B03FD5EB48EC941B961F",
+            "SourceID": "B2E21A7475A55016B9B4C3608093972D9211879C",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1013,8 +1028,8 @@
           "count": 1,
           "front": {
             "Name": "053 Presence of the Mother-1.png",
-            "ID": "8BFFF3588B878566FEA6938421D6D99D",
-            "SourceID": "E8D86C67FED3AECF69FE9DCC8151B3F878E88CD6",
+            "ID": "F15A86AE366004F5455A9CE0032EDB44",
+            "SourceID": "21BAFF9A1431F33638C2CBC9CE1C4535D9404948",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1032,8 +1047,8 @@
           "count": 2,
           "front": {
             "Name": "054 Stirring in Their Sleep-x2-1.png",
-            "ID": "DC24C75BD0159F7A1228584F90A2EAB3",
-            "SourceID": "686E8E08C4E197033394663FA423732825540AC7",
+            "ID": "2DDAD9B7117DE6CDF20216D955886128",
+            "SourceID": "BD6C12986D8F92C60B2224C2385B4D448D7BD61B",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1051,8 +1066,8 @@
           "count": 2,
           "front": {
             "Name": "055 Barricaded Door-x2-1.png",
-            "ID": "C5C289D2A72D9EB203540B568657E150",
-            "SourceID": "5CACF99FA0A60708600EE961BCEC752C7723260F",
+            "ID": "587E02C422FE22B6BF7EEA76F691BF28",
+            "SourceID": "8B9673C7AF29E36BE13B228FCA93D4A96A421064",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1070,8 +1085,8 @@
           "count": 1,
           "front": {
             "Name": "056 Immaterial One-1.png",
-            "ID": "9C8E0EC94BDBE376F3B9AFCDC3BCC335",
-            "SourceID": "83A8B6E08521FFC60432D7A7CFFD5B1C8D2600F1",
+            "ID": "EE15A286903A1A05112984D60A572170",
+            "SourceID": "5B7EFB981971314BE5F621D3CE6B41351A0FB8BC",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1089,8 +1104,8 @@
           "count": 2,
           "front": {
             "Name": "057 Innsmouth Haze-x2-1.png",
-            "ID": "4EE058ABD05B3215CA8F95E7DCB023B1",
-            "SourceID": "B1933385A487A8CFDC8BE0C14155778EB5CAA8FE",
+            "ID": "CE35AB2F3290315F5B360A76D56B0D94",
+            "SourceID": "DC73F14DE4B296AACCF01B7B09CC289515647A85",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1108,8 +1123,8 @@
           "count": 2,
           "front": {
             "Name": "058 King Tide-x2-1.png",
-            "ID": "9B6170EDDB7A4253A63C14F13736AC8B",
-            "SourceID": "E08EFCD803D8A92DA0E44C94A1A6F7602857E48D",
+            "ID": "EC968CAFACD2B1F2708E4C46F12F5EAE",
+            "SourceID": "E4B9B1F502FB696567DDA12D5FCFBC82D38550ED",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1127,8 +1142,8 @@
           "count": 2,
           "front": {
             "Name": "059 Occultation-x2-1.png",
-            "ID": "676A7E442422B859827588311549053E",
-            "SourceID": "E2B0D88744526267D6B6A53FCCFE12A094FB6118",
+            "ID": "F18C7D4D45255C4435D75954492C89D2",
+            "SourceID": "85AFE410CCEEFE508E28E25BB659BB7F53C3A0F0",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1146,8 +1161,8 @@
           "count": 2,
           "front": {
             "Name": "060 Call of the Sea-x2-1.png",
-            "ID": "949AE5ECF455E1268EDD00ED28BA0321",
-            "SourceID": "4FF6EA200B6A4878F9731ED469DA1D59005F8985",
+            "ID": "B130F085BBF33B6B0B324248911A2B89",
+            "SourceID": "85A0C4A1094D64A972C581EFF6E63519E4150E88",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1165,8 +1180,8 @@
           "count": 2,
           "front": {
             "Name": "061 Rolling Tide-x2-1.png",
-            "ID": "EAA9FE3FAA85AD675E9610033895D1F1",
-            "SourceID": "87DD3B82D5B27B69EEE52A61EF57F7D72BC1D94C",
+            "ID": "4A2655621B9872D0A8DD12E4B372EBEE",
+            "SourceID": "6F41D1153F0266445C1881C4678041A6531AB703",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1184,8 +1199,8 @@
           "count": 2,
           "front": {
             "Name": "062 Struggle for Air-x2-1.png",
-            "ID": "5AB1F2CBDE28AD7E9FFE093FD120285E",
-            "SourceID": "D5DF3E4F1B82550A1DAB4F1798234EA67C2719F6",
+            "ID": "93641D064DF3C32D3A1053E147512699",
+            "SourceID": "86D2812ED3AFFFE667CE29413C07B548AD75D609",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1203,8 +1218,8 @@
           "count": 2,
           "front": {
             "Name": "063 Deep One Ambusher-x2-1.png",
-            "ID": "F07DFBA24AB01D16B7DEC6185233B785",
-            "SourceID": "F1C7D5267C90D678319AA8F0C73C4E662D5B95CF",
+            "ID": "2B5FD6E0044AE87DAF74991BE3E73319",
+            "SourceID": "A4CDCB52F873D549DFFF51D9E879CA50816CB422",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1222,8 +1237,8 @@
           "count": 2,
           "front": {
             "Name": "064 Stalked by Deep Ones-x2-1.png",
-            "ID": "E9BB25BA12428DFCE16D3F8F1AEBF659",
-            "SourceID": "443B26F762A1031044495ACC8A9A315D18A981E9",
+            "ID": "5C9325EB098ABC37C31C4D608199D7D1",
+            "SourceID": "20B57A055E8751A7FF2D60349516E46AC417C74A",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1241,8 +1256,8 @@
           "count": 2,
           "front": {
             "Name": "065 Underwater Cavern-x2-1.png",
-            "ID": "81A6B35127BC5DD200E3DA0B6F429B4C",
-            "SourceID": "E47E0EC96EAB4E25FC1ED95CD3F09002F022CD45",
+            "ID": "48F58C4FEC860D7338F2132AA5A4F408",
+            "SourceID": "21E0586AFEB7AE6231106456D527713545828E5E",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1297,5 +1312,5 @@
       ]
     }
   ],
-  "hash": "404af605071f3a0892beff4ece2eef0a9a6b2065cb49f9eb1348abb25b623323"
+  "hash": "46ec8f933de6b135429991b99b420ea8a89b518af99ac5e0f5c6812dde94f9f0"
 }
