@@ -28,5 +28,9 @@ export const SitePage = (props: SitePageProps) => {
     )
   }
 
-  return <SiteProjects {...props} projects={projects} />
+  return (
+    <AppContainer>
+      <SiteProjects {...props} projects={projects} />
+    </AppContainer>
+  )
 }

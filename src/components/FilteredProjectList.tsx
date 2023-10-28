@@ -1,11 +1,9 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
 import Stack from 'react-bootstrap/esm/Stack'
-import { Intro } from './Intro'
 import { ProjectInfo } from '../types'
-import { AppContainer } from './AppContainer'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
 import { SortDown, Funnel } from 'react-bootstrap-icons'
@@ -47,15 +45,15 @@ const removeArticle = (value: string) => {
 const sorts: {
   [key: string]: (a: ProjectInfo, b: ProjectInfo) => number
 } = {
-  'Alphabetical': (a: ProjectInfo, b: ProjectInfo) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
   'Natural': (a: ProjectInfo, b: ProjectInfo) => {
     const aName = removeArticle(a.name)
     const bName = removeArticle(b.name)
     return aName == bName ? 0 : aName > bName ? 1 : -1
   },
+  'Alphabetical': (a: ProjectInfo, b: ProjectInfo) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
   'Last Updated': (a: ProjectInfo, b: ProjectInfo) => a.updated == b.updated ? 0 : a.updated > b.updated ? -1 : 1,
-  'Newest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
-  'Oldest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
+  'Newest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
+  'Oldest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
 }
 
 export const useSort = (): [string, (value: string) => void] => {
@@ -80,19 +78,10 @@ export const useAuthorFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
     label: e,
     checked: false,
   }))
-  .toSorted(sortByLabel))
+  .toSorted(sortByLabel)
+)
 
-  export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.status)
-    .distinct()
-    .map(e => ({
-      id: e,
-      label: e,
-      checked: false,
-    }))
-    .toSorted(sortByLabel)
-  )
-
-export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
+export const useTagFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.tags)
   .distinct()
   .map(e => ({
     id: e,
@@ -102,6 +91,26 @@ export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .toSorted(sortByLabel)
 )
 
+export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.statuses)
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel)
+)
+
+{/*export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel)
+)*/}
+
 interface FilteredProjectListProps {
   projects: ProjectInfo[]
   sort: string
@@ -110,8 +119,10 @@ interface FilteredProjectListProps {
   setAuthorFilter: (state: CheckboxState[]) => void
   tagFilter: CheckboxState[]
   setTagFilter: (state: CheckboxState[]) => void
-  siteFilter: CheckboxState[]
-  setSiteFilter: (state: CheckboxState[]) => void
+  statusFilter: CheckboxState[]
+  setStatusFilter: (state: CheckboxState[]) => void
+  //siteFilter: CheckboxState[]
+  //setSiteFilter: (state: CheckboxState[]) => void
 }
 
 export const FilteredProjectList = (props: FilteredProjectListProps) => {
@@ -123,18 +134,23 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     setAuthorFilter,
     tagFilter,
     setTagFilter,
-    siteFilter,
-    setSiteFilter,
+    statusFilter,
+    setStatusFilter,
+    //siteFilter,
+    //setSiteFilter,
   } = props
 
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id)
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id)
-  const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)
+  const filteredStatuses = statusFilter.filter(e => e.checked).map(e => e.id)
+  {/*const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)*/}
   const filteredProjects = projects.filter(e => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
-    const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(tag => filteredSites.includes(tag))
-    return hasSomeAuthors && hasSomeTags && hasSomeSites
+    const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
+    {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/}
+    {/*return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeSites*/}
+    return hasSomeAuthors && hasSomeStatuses && hasSomeTags
   }).toSorted(sorts[sort])
 
   const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
@@ -165,6 +181,21 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     })))
   }
 
+  const onStatusChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setStatusFilter(statusFilter.map(e => ({
+      ...e,
+      checked: e.id == id ? event.currentTarget.checked : e.checked,
+    })))
+  }
+  
+  const onStatusSelectNone = () => {
+    setStatusFilter(statusFilter.map(e => ({
+      ...e,
+      checked: false,
+    })))
+  }
+
+  {/*
   const onSiteChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
     setSiteFilter(siteFilter.map(e => ({
       ...e,
@@ -176,50 +207,76 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     ...e,
     checked: false,
   })))
+  */}
 
   const onSetSort = (id: string) => setSort(id)
 
   return (
     <Stack gap={2}>
-      <Intro />
 
-      <Navbar className='bg-body-tertiary' sticky='top'>
+      <Navbar
+        className='filters bg-body-tertiary'
+        sticky='top'
+        id='filters'
+      >
         <Container fluid>
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='flex-grow-1'>
-              <SortDown className='icon' />
-              <CheckboxDropdown
-                type='radio'
-                label='Sort'
-                items={Object.keys(sorts).map((e) => ({
-                  id: e,
-                  label: e,
-                  checked: e == sort,
-                }))}
-                onChecked={onSetSort}
-              />
-              <Funnel className='icon' />
-              <CheckboxDropdown
-                type='checkbox'
-                label='Authors'
-                items={authorFilter}
-                onChecked={onAuthorChecked}
-                onSelectNone={onAuthorSelectNone}
-              />
-              <CheckboxDropdown
-                type='checkbox'
-                label='Tags'
-                items={tagFilter}
-                onChecked={onTagChecked}
-                onSelectNone={onTagSelectNone}
-              />
-              <CheckboxDropdown
-                type='checkbox'
-                label='Sites'
-                items={siteFilter}
-                onChecked={onSiteChecked}
-                onSelectNone={onSiteSelectNone}
-              />
+            <Nav className='d-flex'>
+              <div className='sort d-flex align-items-center me-sm-4'>
+                <SortDown 
+                  className='icon'
+                  width='24'
+                  height='24'
+                />
+                <CheckboxDropdown
+                  type='radio'
+                  label='Sort'
+                  items={Object.keys(sorts).map((e) => ({
+                    id: e,
+                    label: e,
+                    checked: e == sort,
+                  }))}
+                  onChecked={onSetSort}
+                />
+              </div>
+              <div id='filters' className='filter d-flex align-items-center flex-grow-1'>
+                <Funnel
+                  className='icon'
+                  width='24'
+                  height='24'
+                />
+                <CheckboxDropdown
+                  type='checkbox'
+                  label='Authors'
+                  items={authorFilter}
+                  onChecked={onAuthorChecked}
+                  onSelectNone={onAuthorSelectNone}
+                />
+                <CheckboxDropdown
+                  type='checkbox'
+                  label='Tags'
+                  items={tagFilter}
+                  onChecked={onTagChecked}
+                  onSelectNone={onTagSelectNone}
+                />
+                <CheckboxDropdown
+                  type='checkbox'
+                  label='Status'
+                  items={statusFilter}
+                  onChecked={onStatusChecked}
+                  onSelectNone={onStatusSelectNone}
+                  //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
+                />
+                {/*
+                <CheckboxDropdown
+                  type='checkbox'
+                  label='Sites'
+                  items={siteFilter}
+                  onChecked={onSiteChecked}
+                  onSelectNone={onSiteSelectNone}
+                />
+                */}
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -238,20 +295,21 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
   const [sort, setSort] = useSort()
   const [authorFilter, setAuthorFilter] = useAuthorFilter(projects)
   const [tagFilter, setTagFilter] = useTagFilter(projects)
-  const [siteFilter, setSiteFilter] = useSiteFilter(projects)
+  const [statusFilter, setStatusFilter] = useStatusFilter(projects)
+  {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/}
   return (
-    <AppContainer>
-      <FilteredProjectList
-        projects={projects}
-        sort={sort}
-        setSort={setSort}
-        authorFilter={authorFilter}
-        setAuthorFilter={setAuthorFilter}
-        tagFilter={tagFilter}
-        setTagFilter={setTagFilter}
-        siteFilter={siteFilter}
-        setSiteFilter={setSiteFilter}
-      />
-    </AppContainer>
+    <FilteredProjectList
+      projects={projects}
+      sort={sort}
+      setSort={setSort}
+      authorFilter={authorFilter}
+      setAuthorFilter={setAuthorFilter}
+      tagFilter={tagFilter}
+      setTagFilter={setTagFilter}
+      statusFilter={statusFilter}
+      setStatusFilter={setStatusFilter}
+      //siteFilter={siteFilter}
+      //setSiteFilter={setSiteFilter}
+    />
   )
 }

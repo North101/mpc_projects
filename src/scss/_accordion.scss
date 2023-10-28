@@ -1,0 +1,30 @@
+// Accordion
+
+h3.accordion-header {
+  margin: 0;
+}
+
+.accordion-button {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.54;
+
+  > span {
+    margin-right: 1rem;
+  }
+
+  &:not(.collapsed) {
+    color: $white;
+    background-color: transparent;
+    box-shadow: none;
+
+    > span {
+      border-bottom: 8px solid $purple-100;
+    }
+  }
+}
+
+.accordion-body {
+  padding-bottom: 3rem;
+}

@@ -5,17 +5,17 @@ import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { FilteredProjectListContainer } from './FilteredProjectList'
 
 interface StatusProjectsProps {
-  tag: string
+  status: string
   projects: ProjectInfo[]
 }
 
 const StatusProjects = ({ status, projects }: StatusProjectsProps) => {
-  const filteredProjects = projects.filter(e => e.status.find(e => e == status))
+  const filteredProjects = projects.filter(e => e.statuses.find(e => e == status))
   return <FilteredProjectListContainer projects={filteredProjects} />
 }
 
 interface StatusPageProps {
-  tag: string
+  status: string
 }
 
 export const StatusPage = (props: StatusPageProps) => {
@@ -28,5 +28,9 @@ export const StatusPage = (props: StatusPageProps) => {
     )
   }
 
-  return <StatusProjects {...props} projects={projects} />
+  return (
+    <AppContainer>
+      <StatusProjects {...props} projects={projects} />
+    </AppContainer>
+  )
 }

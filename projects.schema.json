@@ -15,13 +15,28 @@
     "content": {
       "type": "string"
     },
+    "image": {
+      "type": ["string", "null"]
+    },
+    "artist": {
+      "type": ["string", "null"]
+    },
     "info": {
       "type": ["string", "null"]
     },
     "website": {
       "type": ["string", "null"]
     },
+    "linktext": {
+      "type": ["string", "null"]
+    },
     "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "statuses": {
       "type": "array",
       "items": {
         "type": "string"
@@ -138,6 +153,7 @@
     "info",
     "website",
     "authors",
+    "statuses",
     "tags",
     "created",
     "updated",

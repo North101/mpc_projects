@@ -2,28 +2,61 @@
 @import "bootstrap/scss/functions";
 
 //Variable Overrides
-$primary:       #6f42c1; //$purple
-//$secondary:     $gray-600 !default;
-//$light:         $gray-100 !default;
-//$dark:          $gray-900 !default;
+$prefix: 'bs-'; // because that hasn't been imported yet
 
-$link-color:    #6f42c1; //$purple
+$purple-100: #e2d9f3;
+$purple-200: #c5b3e6;
+$purple-300: #a98eda;
+$purple-400: #8c68cd;
+$purple-500: #6f42c1;
+$purple-600: #59359a;
+$purple-700: #432874;
+$purple-800: #2c1a4d;
+$purple-900: #160d27;
+$gray-100:   #f8f9fa;
+$gray-200:   #e9ecef;
+$gray-300:   #dee2e6;
+$gray-400:   #ced4da;
+$gray-500:   #adb5bd;
+$gray-600:   #6c757d;
+$gray-700:   #495057;
+$gray-800:   #343a40;
+$gray-900:   #212529;
+
+$primary:       $purple-500;
+$link-color:    $purple-500;
 $link-shade-percentage: 25%; //default
-// $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration: none;
+$link-color-dark: tint-color($primary, 50%); // #b7a1e0
+$link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage); // #b7a1e0
+//$form-check-border-color:
 
-$link-color-dark: tint-color($primary, 50%);
-$link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage);
+//$warning-pink:    #fa4f96;
+//$dark-pink:       #a51250;
+//$warning-blue:    #028090;
+//$warning-yellow:  #edaf19;
 
+[data-bs-theme=dark] {
+  $body-bg:                     $gray-900;
+  $btn-color:                   var(--#{$prefix}body-color);
+  $btn-link-color:              var(--#{$prefix}link-color-dark);
+  $btn-link-hover-color:        var(--#{$prefix}link-hover-color-dark);
+  $btn-link-disabled-color:     $gray-300;
+  //$modal-backdrop-bg:           #ffffff;
+  //$modal-backdrop-opacity:      0.4;
+  //$form-check-border-color:     $gray-700;
+}
 
 // Typography
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,500;1,700&display=swap');
 $font-family-sans-serif: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
-$font-family-serif: 'Source Serif 4', serif;
+//$font-family-serif: 'Source Serif 4', serif;
+$font-family-serif: arno-pro, serif;
 $font-family-slab: 'Roboto Slab', serif;
-
 $headings-font-family: $font-family-slab;
+
+$font-weight-base: 300;
+
 
 // Bootstrap Required (Variables)
 @import "bootstrap/scss/variables";
@@ -76,5 +109,9 @@ $headings-font-family: $font-family-slab;
 @import "bootstrap/scss/utilities/api";
 
 // Custom
+@import "_mixins.scss";
 @import "_base.scss";
-@import "_projects.scss"
+@import "_projects.scss";
+@import "_accordion.scss";
+@import "_buttons.scss";
+@import "_modal.scss";

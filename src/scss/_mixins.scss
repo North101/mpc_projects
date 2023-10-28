@@ -1,0 +1,10 @@
+@mixin fancy-underline {
+  text-underline-offset: 6px;
+  border-bottom: 3px solid transparent;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-bottom: 3px solid var(--bs-link-hover-color);
+  }
+}

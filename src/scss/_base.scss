@@ -1,27 +1,19 @@
-//Links
-
-// Images 
-img.float-end {
-  margin: 10px 0 10px 20px;
+// Fonts
+.font-sans-serif {
+  font-family: $font-family-sans-serif;
+}
+.font-serif {
+  font-family: $font-family-serif;
+}
+.font-slab {
+  font-family: $font-family-slab;
 }
 
-img.float-start {
-  margin: 10px 20px 10px;
-}
-
-img.w-100 {
-  height: auto;
-  margin: 10px 0;
-}
-
-.outline {
-  border: 1px solid $body-secondary-color-dark;
-}
-
-//Header 
+// Header
 .navbar-brand {
   flex-basis: 380px;
-  flex-shrink: 0;
+  flex-shrink: 1;
+  max-width: 70vw;
 }
 
 .siteLogo,
@@ -45,27 +37,179 @@ img.w-100 {
   font-style: italic;
 }
 
-// Main
-.intro,
-.about,
-.getting-started {
-  a {
-    text-underline-offset: 6px;
-    
-    &:hover,
-    &:focus,
-    &:active {
-      border-bottom: 3px solid var(--bs-link-hover-color);
+@include media-breakpoint-only(xs) {
+  .siteLogo {
+    width: 35px;
+  }
+
+  .siteTitle {
+    height: 41px;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  .siteLogo {
+    width: 38px;
+  }
+
+  .siteTitle {
+    height: 46px;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .tagline {
+    font-size: 1.2rem;
+  }
+}
+
+// Nav
+.navbar-main {
+  min-height: 105px;
+  z-index: 1050;
+}
+
+@include media-breakpoint-up(xl) {
+  .navbar-main.navbar-expand-lg {
+    .navbar-nav {
+      .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
     }
   }
 }
 
+aside {
+  padding-top: 3.35rem;
+
+  .nav li {
+    font-weight: 300;
+    font-size: 1rem;
+
+    a {
+      padding: 0.1875rem 0.5rem;
+      margin-top: 0.125rem;
+      margin-left: 0.5rem;
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      border-radius: 0.25rem;
+      border: 1px solid transparent;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: rgba(255,255,255,1);
+        background-color: $purple-700;
+        border: 1px solid rgba(255,255,255,0.85);
+      }
+    }
+  }
+
+  > .nav > li {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+}
+
+// Links
+a {
+  font-weight: 500;
+  text-underline-offset: 6px;
+}
+
+// Images
+img.float-end {
+  margin: 10px 0 10px 20px;
+}
+
+img.float-start {
+  margin: 10px 20px 10px;
+}
+
+img.w-100 {
+  height: auto;
+  margin: 10px 0;
+}
+
+.outline {
+  border: 1px solid $body-secondary-color-dark;
+}
+
+// Forms
+$input-border-color: $gray-500;
+
+@include color-mode(dark) {
+  $input-border-color: $gray-300;
+}
+
+.form-control,
+.form-check-input {
+  border-color: $input-border-color;
+}
+
+// Main
+.main.container {
+  position: relative; // to position the intro show checkbox
+}
+
+.tldr {
+  font-size: 1.1rem;
+
+  a {
+    @include fancy-underline;
+  }
+
+  h1.display-3,
+  h2.display-4 {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  h4 {
+    font-family: $font-family-sans-serif;
+    font-weight: 100;
+  }
+}
+
+.intro,
 .lead {
   font-family: $font-family-serif;
 }
 
-.arkham-choice {
-  a {
-    font-weight: 700;
+.lead {
+  font-size: 1.75rem;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: $font-family-sans-serif;
+  font-weight: 100;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  color: #ecb0cd;
+
+  + em {
+    font-size: 1rem;
   }
 }

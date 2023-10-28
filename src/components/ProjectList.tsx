@@ -8,7 +8,7 @@ interface ProjectListProps {
 }
 
 export const ProjectList = ({ projects }: ProjectListProps) => (
-  <Row xs={1} md={2} lg={3} className='projects g-4'>
+  <Row xs={1} md={2} lg={3} className='projects g-4 mt-2 mt-md-0'>
     {projects.map((e, index) => (
       <Col key={index}>
         <ProjectCard project={e} />

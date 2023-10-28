@@ -1,6 +1,8 @@
-import { BrightnessHigh, MoonStars, CircleHalf } from 'react-bootstrap-icons'
-import Button from 'react-bootstrap/esm/Button'
 import { useState } from "react"
+import Button from 'react-bootstrap/esm/Button'
+//import ButtonGroup from 'react-bootstrap/esm/ButtonGroup'
+//import Dropdown from 'react-bootstrap/esm/Dropdown'
+//import { BrightnessHigh, MoonStars, CircleHalf } from 'react-bootstrap-icons'
 
 /*!
  * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
@@ -115,4 +117,19 @@ export const ThemeSwitcher = (props: ThemeSwitcherProps) => {
       </ul>
     </li>
   </>
+}
+
+__________
+function MyPage() {
+  const [theme, setTheme] = useState('dark');
+  return (
+    <ThemeContext.Provider value={theme}>
+      <Form />
+      <Button onClick={() => {
+        setTheme('light');
+      }}>
+        Switch to light theme
+      </Button>
+    </ThemeContext.Provider>
+  );
 }
