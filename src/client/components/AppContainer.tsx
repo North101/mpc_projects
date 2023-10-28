@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from 'react'
+import { Dispatch, PropsWithChildren, SetStateAction, useState } from 'react'
 import { Nav, NavLink } from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
 import Form from 'react-bootstrap/esm/Form'
@@ -72,7 +72,7 @@ export const AppContainer = ({ children }: React.PropsWithChildren) => {
   )
 }
 
-export const AppContainerHome = ({ children }: AppContainerProps) => {
+export const AppContainerHome = ({ children }: PropsWithChildren) => {
   const [search, setSearch] = useState<string>('')
   return (
     <Stack gap={2} className='d-flex h-100'>

@@ -8,7 +8,7 @@ import { ProjectInfo } from '../types'
 import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
 import { ProjectTags } from './ProjectTags'
-import { ProjectStatuses } from './ProjectStatuses.tsx'
+import { ProjectStatuses } from './ProjectStatuses'
 
 interface ProjectTooltipProps {
   name: string
