@@ -52,7 +52,6 @@ export interface ProjectMeta {
 }
 
 export interface PartMeta extends Part {
-  key: number
   enabled?: boolean
 }
 
@@ -69,7 +68,6 @@ export type ProjectLatestMeta = ProjectV2Meta
 export type ProjectUnionMeta = ProjectV1Meta | ProjectV2Meta
 
 export interface PartInfo {
-  key: number
   name: string
   count: number
   enabled: boolean

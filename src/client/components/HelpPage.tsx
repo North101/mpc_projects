@@ -3,7 +3,6 @@ import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 import { AppContainer } from './AppContainer'
 import Nav from 'react-bootstrap/Nav'
-import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
 import Accordion from 'react-bootstrap/Accordion';
 

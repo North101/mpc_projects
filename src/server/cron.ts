@@ -2,21 +2,11 @@ import { load } from 'cheerio'
 import { glob } from 'glob'
 import cron from 'node-cron'
 import path from 'path'
+import { Agent, fetch, setGlobalDispatcher } from 'undici'
 import config from './config'
 import { readJson } from './util'
 
-const fetchTimeout = (input: RequestInfo | URL, init: RequestInit): Promise<Response> => {
-  const controller = new AbortController()
-  const timeoutId = setTimeout(() => controller.abort(), 120000)
-  try {
-    return fetch(input, {
-      ...init,
-      signal: controller.signal,
-    })
-  } finally {
-    clearTimeout(timeoutId)
-  }
-}
+setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }) )
 
 
 const readProject = async (filename: string): Promise<string[]> => {
@@ -72,7 +62,7 @@ const login = async () => {
 }
 
 const loadProjectPreview = async (cookie: string, projectId: string) => {
-  const r = await fetchTimeout(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
+  const r = await fetch(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
     headers: {
       'Cookie': cookie,
     },
@@ -81,7 +71,7 @@ const loadProjectPreview = async (cookie: string, projectId: string) => {
   if (url.pathname == '/design/dn_preview_layout.aspx') await r.text()
 
   url.pathname = '/design/dn_preview_layout.aspx'
-  const r2 = await fetchTimeout(url.toString(), {
+  const r2 = await fetch(url.toString(), {
     method: 'POST',
     headers: {
       'Cookie': cookie,
@@ -100,7 +90,7 @@ const loadProjectImages = async (cookie: string, projectId: string): Promise<str
 const loadImage = async (cookie: string, projectId: string, imageId: string) => {
   const url = new URL(imageId, config.refreshProjects.url)
   try {
-    const r = await fetchTimeout(url, {
+    const r = await fetch(url, {
       headers: {
         'Cookie': cookie,
       },

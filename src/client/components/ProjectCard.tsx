@@ -50,7 +50,7 @@ export const ProjectImage = ({ name, info }: ProjectTooltipProps) => {
           id={name || 'core.jpg'}
           className='card-img-top'
           alt=''
-          src={`/assets/images/projects/${name || 'core.jpg'}`}
+          src={`/projects/${name || 'core.jpg'}`}
         />
       </OverlayTrigger>
     )
@@ -59,7 +59,7 @@ export const ProjectImage = ({ name, info }: ProjectTooltipProps) => {
       <img
         className='card-img-top'
         alt=''
-        src={`/assets/images/projects/${name || 'core.jpg'}`}
+        src={`/projects/${name || 'core.jpg'}`}
       />
     )
   }

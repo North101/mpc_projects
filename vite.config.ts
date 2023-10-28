@@ -61,14 +61,15 @@ export default defineConfig({
     }),
     viteExpressBuilder({
       external: [
+        "cheerio",
+        "crypto",
         "dotenv-flow/config",
+        "fs",
         "glob",
         "node-cron",
         "path",
-        "cheerio",
-        "crypto",
-        "fs",
         "path",
+        "undici"
       ],
       plugins: [
         json(),

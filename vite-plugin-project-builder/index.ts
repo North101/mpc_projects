@@ -1,12 +1,11 @@
-import { promises as fs } from 'fs'
+import { promises as fs } from 'node:fs'
 import { glob } from 'glob'
 //import mpcData from 'mpc_api/data'
-import { basename, relative, resolve } from 'path'
+import path, { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import projectValidator from './validation'
-import smartquotes from 'smartquotes';
 
 
 interface ProjectWithFilename extends ProjectLatestMeta {
@@ -28,7 +27,6 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   created: e.created,
   updated: e.updated,
   parts: e.parts.map(e => ({
-    key: e.key,
     enabled: e.enabled ?? true,
     name: e.name,
     count: e.cards.reduce((value, card) => value + card.count, 0),
@@ -73,6 +71,21 @@ const parseProject = (project: unknown): ProjectLatestMeta | null => {
   return projectValidator(project) ? upgradeProject(project) : null
 }
 
+const getProjectImage = async (filename: string) => {
+  const filenameInfo = path.parse(filename)
+  const image = path.format({
+    ...filenameInfo,
+    base: undefined,
+    ext: '.png'
+  })
+  try {
+    await fs.access(image, fs.constants.R_OK)
+    return basename(image)
+  } catch (e) {
+    return null
+  }
+}
+
 const readProject = async (filename: string): Promise<ProjectWithFilename | null> => {
   const project = parseProject(await readJson(filename))
   if (project == null) {
@@ -91,6 +104,7 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
   return {
     ...project,
     filename: basename(filename),
+    image: await getProjectImage(filename),
     hash,
     updated,
   }
@@ -119,17 +133,27 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     async writeBundle() {
       const outDir = viteConfig.build.outDir
       const projectList = await readProjectList(projectsDir)
+      // write projects.json
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
+      // create /dist/clients/projects
       await fs.mkdir(resolve(outDir, projectsDir))
+      // write all project json files
       await Promise.all(projectList.map(async e => {
         await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
+      // copy all project images
+      await Promise.all(projectList.map(async e => {
+        const image = e.image
+        if (!image) return
+
+        await fs.copyFile(resolve(projectsDir, image), resolve(outDir, projectsDir, image))
+      }))
+      // update project files
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
         await writeJson<ProjectLatestMeta>(resolve(projectsDir, filename), {
           projectId: project.projectId,
           name: project.name,
           description: project.description,
-          image: project.image,
           artist: project.artist,
           info: project.info,
           website: project.website,
@@ -149,19 +173,38 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         if (req.url == `/${projectsFilename}`) {
+          // /projects.json
           const projectList = await readProjectList(projectsDir)
           const projectsJson = projectList.map(mapProjectInfo)
           return res.writeHead(200, {
             'Content-Type': 'application/json',
           }).end(JSON.stringify(projectsJson))
-        } else if (req.url?.startsWith(`/projects/`)) {
-          const filename = decodeURI(req.url.split('/').pop() ?? '')
-          const project = await readProject(resolve(projectsDir, filename))
-          if (project == undefined) return next()
 
-          return res.writeHead(200, {
-            'Content-Type': 'application/json',
-          }).end(JSON.stringify(mapProjectDownload(project)))
+        } else if (req.url?.startsWith(`/projects/`)) {
+          // /projects/*.json
+          if (req.url.endsWith('.json')) {
+            const filename = decodeURI(req.url.split('/').pop() ?? '')
+            const project = await readProject(resolve(projectsDir, filename))
+            if (project == undefined) return next()
+
+            return res.writeHead(200, {
+              'Content-Type': 'application/json',
+            }).end(JSON.stringify(mapProjectDownload(project)))
+
+          } else if (req.url.endsWith('.png')) {
+            // /projects/*.png
+            const filename = decodeURI(req.url.split('/').pop() ?? '')
+            return res.writeHead(200, {
+              'Content-Type': 'image/png',
+            }).end(await fs.readFile(resolve(projectsDir, filename)))
+
+          } else if (req.url.endsWith('.jpg')) {
+            // /projects/*.jpg
+            const filename = decodeURI(req.url.split('/').pop() ?? '')
+            return res.writeHead(200, {
+              'Content-Type': 'image/jpeg',
+            }).end(await fs.readFile(resolve(projectsDir, filename)))
+          }
         }
         return next()
       })
