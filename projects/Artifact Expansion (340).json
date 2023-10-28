@@ -1,0 +1,4750 @@
+{
+  "projectId": [
+    "F6C5C6098C3C42AC255E221E7A3A351C63E0BAACF051D50076FB9D7B6C3D766A799328B797477DAC",
+    "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85"
+  ],
+  "name": "Artifact Expansion",
+  "description": "Add Artifacts from Eldritch Horror to the card game as a module that can be added to any scenario. Plus custom investigators and player cards.",
+  "image": "artifact.png",
+  "artist": "Rafal Szlapa",
+  "info": null,
+  "website": null,
+  "linktext": null,
+  "authors": [
+    "Mint Tea Fan"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)",
+    "Player Cards"
+  ],
+  "created": "2021-06-07T15:18:15.658Z",
+  "updated": "2023-09-29T21:58:11.900Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Artifact Deck",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Ancient Spear-1.png",
+            "ID": "FBA14DF9A473D55100839DE63DB9F994",
+            "SourceID": "2FE91589738E4BE3CF31DFC0F4803D44ABD235DA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Astral Mirror-1.png",
+            "ID": "6F3AC7EDBCB88C33BE8FF3642DC24B5E",
+            "SourceID": "B1CC79AE5819C8C42397453D95552675D60B7999",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Black Fan-1.png",
+            "ID": "C7627CC8CA633C75FB2A8DA176083B2E",
+            "SourceID": "EC72551B59872DAF8FFF73023AF263189F619332",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Bone Pipe-1.png",
+            "ID": "766405603218514EF6B9E9CCEAFFC090",
+            "SourceID": "CC10C3E39333F0A478261E6B06FC5B30938ECF5D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Book of Dzyan-1.png",
+            "ID": "0E586BC0FD0224DAF6CDEDC1AE5989E4",
+            "SourceID": "85685836FEA2463F8FB15A7912FFD802667B6F36",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Book of the Believer-1.png",
+            "ID": "B92C4B71D537D8CC05A48E30C69E6951",
+            "SourceID": "C1BD503FD4FC8553AB34BCD4DD2B38F3DA2D6F2B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Book of the Dead-1.png",
+            "ID": "ADFF67BE09CF475D37556AC3BF91DF78",
+            "SourceID": "E313A2A975A9DE34F18041B3E7C854891684E476",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Brazier of Souls-1.png",
+            "ID": "303544DE4DB471F332087F364A470658",
+            "SourceID": "E2EC609E6E42752C323A7E7871EDD3DF3BE5633E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Cabala of Saboth-1.png",
+            "ID": "E9AD2AAF031E7B654FE3F7EE1C6726D9",
+            "SourceID": "2172D53B92E635201AF74AF3AF4D7AA27BC5B543",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Chime of Ra-1.png",
+            "ID": "501C4603508BEE5D6F73B7CB6E6AFB4D",
+            "SourceID": "C9DA575F706F2161EA89A53E9B170E920BAB7178",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Crux of Cykranosh-1.png",
+            "ID": "164AEBAE003FEFB3B006137B89DD1051",
+            "SourceID": "16A36DFCA1C71C25B0C7EFB5CF0C1617F2DB8C03",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Crystal of the Elder Things-1.png",
+            "ID": "8F1FDD2E320BE6044C9D05D610F5773F",
+            "SourceID": "1E7BA9D46A82D4C63C6DA635311F798063D5FCB8",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Cultes des Goules-1.png",
+            "ID": "B294DFAC9D06F1D83A48B5E3353E9BF8",
+            "SourceID": "BDEAFD6559103D8DA242E1F5EBB7C846B825911B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Cursed Sphere-1.png",
+            "ID": "9E428CF2ED20984D76479EA8B2546648",
+            "SourceID": "9DB46A8B06C8F9DA25100BF88E373B1DE02B69F1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Dhol Chants-1.png",
+            "ID": "15BEECA38EBC36592F622BF99079B954",
+            "SourceID": "629936AFD35E2205C31E50AB375891EA9BC6F6C2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Dragon Idol-1.png",
+            "ID": "DDD7835C868322A1388770882841B208",
+            "SourceID": "9F8D917DA594689F40CA80D07AA535E4B5E90DC7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Elder Key-1.png",
+            "ID": "EF26209C75F674DFFBF671F86854BE31",
+            "SourceID": "00CEA5C035D96F78A058EEA7C99AC37525D2252C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Eldtown Shards-1.png",
+            "ID": "90140EFF5F461420C0BEEBBF564D59AA",
+            "SourceID": "1135EBA787B3B78E2DB7BA801020BC6D39AE50E9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Elixir of Life-1.png",
+            "ID": "AE09471054F5E62C395F0DB24C46AA6D",
+            "SourceID": "D8FD0D36765E115BA79A7315A8962BB41AAE16AA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Execration Text-1.png",
+            "ID": "13694761A57663C00DBDF59D4E839DFA",
+            "SourceID": "BE741004B11FB66ECE5EC5052353C866813B62B9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Eye of Light and Darkness-1.png",
+            "ID": "671AD4B8152B1CBC15448308BD184980",
+            "SourceID": "8AC8208907B8F5D9B4460B36BC696DA50451F1DE",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Fetch Stick-1.png",
+            "ID": "701CF00E52AE4AF182B6551E6503F807",
+            "SourceID": "2994BA34AF84C8705657DCC662A52336DD5E6E22",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Fire of Asshuranipal-1.png",
+            "ID": "2A1B3DF08BD98E5702195213DED8D492",
+            "SourceID": "6C1B7F21A524888F4B716178FA7A6A6B8C5CB935",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "G'harne Fragments-1.png",
+            "ID": "201B9237F90639F8D1088DEB8FEB56E0",
+            "SourceID": "69E68CC4F281CF7ABE2B173B74160C233A976096",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Glass of Mortlan-1.png",
+            "ID": "230DF7AEFC2CF4DAC575C6B589F83761",
+            "SourceID": "00A3145D510ADAB6E9C193FE2C7F58358F41DD89",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Gruesome Talisman-1.png",
+            "ID": "6DDFBD879C2238598F93EC587E970AE7",
+            "SourceID": "3C75EEBAED4B271ED9CB136C49971819CCB7FA09",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Heart of Winter-1.png",
+            "ID": "2CB25EDEA2F5FADFB00E369CF5C3A55B",
+            "SourceID": "5EB9DB2FECB3C09CA478F3DAB80D515B9241732D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Hyperborean Crystal-1.png",
+            "ID": "FF945ECF62B375BD4250FEE8922C4393",
+            "SourceID": "4EA4392BEDC34B464A02AE10133C868927AB6333",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Key of Tawil At-Umr-1.png",
+            "ID": "F0144011D3C36D02E954AC1AC5BC569C",
+            "SourceID": "CA61EAAC0A82FDA0FD2C9455543B6890EDA126DE",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Key to Carcosa-1.png",
+            "ID": "7B43E22B0FD8FB4ACB01B01CD7E6B3EE",
+            "SourceID": "C21E6AD6B20A2EBD3866F4FECF76A6414FA1CF79",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Lamp of Alhazred-1.png",
+            "ID": "B4BB2141F7640D1BF7CA8FA731742763",
+            "SourceID": "05C664DD3437E2CD6137EAA3E0FD998223A2CD4A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Livre d'Ivon-1.png",
+            "ID": "2FE64DEF7D7C5E29618ABD2AE37D7F53",
+            "SourceID": "5F74778073EF5BB941D80895EA3D208AE400977F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mask of Sthenelus-1.png",
+            "ID": "3425596C4E41BECB51AB219993F411BA",
+            "SourceID": "4B19BF34679D8B31173532A1C80A457998369153",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mask of the Watcher-1.png",
+            "ID": "EBD8D4DDF3BCB25A39A6DC9CFAB6AF4D",
+            "SourceID": "3871AC06AD33F81A8E75EC7CD5E93EDD7BA1B63A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mask of Vice-1.png",
+            "ID": "D09961F6CD17C256C6AFA5AC1F7D2472",
+            "SourceID": "5E548A6231004D2E36EC652626914FDF9D2E01C2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mask of Wisdom-1.png",
+            "ID": "B12DF9243F9A252CCA4FD5C2C9FE3BE3",
+            "SourceID": "E3FBB44C2CC01140AD9D55CB4BB3E366DC7D7814",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Massa di Requiem per Shuggay-1.png",
+            "ID": "ADAB95B2CE797B9FC1F2572BBA8DD604",
+            "SourceID": "CE5FB3800BB78558FCC58F5C0F79820A6F11ACBA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mi-Go Brain Case-1.png",
+            "ID": "3C24F2294945FCFB8D23E50D68F1B7B4",
+            "SourceID": "3EF49098C53C65D3EE84A8F38DCD5BC2FDAA3447",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Milk of Shub-Niggurath-1.png",
+            "ID": "24EA5A2C1B40B9700DBEE78BB64A124C",
+            "SourceID": "9FE55E800C2CBA0177B9D47B2AB9EE002CD8D31E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Nacaal Key-1.png",
+            "ID": "4456C3B1650BEE3923D7785954C178E3",
+            "SourceID": "21488D0FA0ACC08F0F521391C48BE69718D8F944",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Pentacle of Planes-1.png",
+            "ID": "DFF5FEF23F19947143B38B5FC75196F2",
+            "SourceID": "15AEFDE7AE464BBE0A9F7852FA967FDD1057CB48",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Ruby of R'yleh-1.png",
+            "ID": "B2E8CECB8BF86ED10DE8E7F674085FC2",
+            "SourceID": "6F55C95922FD6F82C37F4B3A5CEC5E99BDBA1E3D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Satchel of the Void-1.png",
+            "ID": "36DFD10A7E6D9C3C36BB10DB2751B25F",
+            "SourceID": "BEEDEF53889F322B8FD0AEC71A043431155E8D25",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Scales of Thoth-1.png",
+            "ID": "4D3A8A0FD2B33076862A196E07BB09E6",
+            "SourceID": "705438BAE1B05918299DE22AD4C406CD25BA003F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Serpent Crown-1.png",
+            "ID": "73456C59BC1034CD610B9F7C2B83B746",
+            "SourceID": "3576E3EB5A7DA3F958235AD59171F227CF01852B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Seven Cryptical Books of Hsan-1.png",
+            "ID": "DBC49A7B53CD3CFBDF2E0B7A509A5BFA",
+            "SourceID": "847C6AFA6F77AEABA036815B0A3D427B5ED4C45C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Soul Gem-1.png",
+            "ID": "DF9ABEFA9117124809D5A9454469671B",
+            "SourceID": "A43BC1A99DEC181FD9795E4B0B9AA4540F148BE0",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Spirit Vessel-1.png",
+            "ID": "99D3DD3BA3191C6BD9DE6F6E6701CC90",
+            "SourceID": "2592359726BBBC22978FFAA6B79AE93D50629592",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Summoning Glass-1.png",
+            "ID": "BC0FC1CEDAE4079EA3092721F392EFCA",
+            "SourceID": "4050830F1800C05AD2A00066C20736AAE457DB83",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Sword of Glory-1.png",
+            "ID": "C95BB48DD4C6435A4C9761CABC84F768",
+            "SourceID": "B93A5E8BEBE725DEB8D9ECECFE90CF84DBD1FC49",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Sword of Saint Jerome-1.png",
+            "ID": "14F7D333469E11F6D206B355CA8185EE",
+            "SourceID": "AB3C0C8DA7F92AE9E1FC5B1A21F2E95E581AA674",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Sword of Y'ha-Talla-1.png",
+            "ID": "3A66C6481C84D31D1BA7229B63F94AC5",
+            "SourceID": "98A6A678EAC6BED811CFCB33F1E20882F769ED70",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "T'tka Halot-1.png",
+            "ID": "6F13FF0E5EB786DA316B669C5E63AA4C",
+            "SourceID": "8B6E77EE41943BAB0C4C7C9CC6C2F15645493124",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Tablet of Bast-1.png",
+            "ID": "3D795636DA2DAABAE21DEF2B8355B1EC",
+            "SourceID": "0B04B5AE77AC581770F233616374B5A1F15E68C8",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Tikkoun Elixir-1.png",
+            "ID": "15DA6B3F021D66EEF4EB1D6AC947493D",
+            "SourceID": "108F5E0773C2E2AAB47A58F54EE6B5CE48C3C292",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "True Magick-1.png",
+            "ID": "4113D1FBE1CFF7630F5C9185C0B320D9",
+            "SourceID": "568F825114F40F7DF622A96502BA376713FE9521",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Twin Scepters-1.png",
+            "ID": "9589127E11850F7AEE74C0BE5C393894",
+            "SourceID": "50F7E35D0C46F5AB9A7C5A891CB38C360E18FD4F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Undead Servant-1.png",
+            "ID": "ED038ABE6022F6A26BC4BE5E0A270D1D",
+            "SourceID": "9D63E082EA84B6EC6E44EADE0C3E0AE34FB6AE71",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "Undead Servant-2.png",
+            "ID": "F0BD95F425EF1DC612B44860D8910CEF",
+            "SourceID": "3A3E7759D1B55B809F72A7359AE820E47D0230CF",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Vach-Viraj Chant-1.png",
+            "ID": "0CA7D0429B4326FDD751AD41DAB0DD51",
+            "SourceID": "C191B8B69A3AEE7BB686BFB431FB5E1971086CDF",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Warding Statue-1.png",
+            "ID": "6F776E395968ACA4AE65514E4DBCA85F",
+            "SourceID": "AA1413FA900BA532FC3C54210FD58E5C46006082",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Yithian Rifle-1.png",
+            "ID": "AA28DCA7E53E6A4CCFD577D54B60DFEE",
+            "SourceID": "5E201DBE1E8D67882EAE1B5B948B289FA923AFFF",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Zanthu Tablets-1.png",
+            "ID": "FF40EE373A6AD4B0613A0C7765A2561C",
+            "SourceID": "5F914153FC892F98FBC598433C39762173445694",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_artifactback.png",
+            "ID": "257BDA4289C933E7A6C9A988D01FE0C0",
+            "SourceID": "F42D3E917EE34C5E76F77E2386DAC8311213C4ED",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Artifacts Discovered!-x2-1.png",
+            "ID": "034A37F842FE745BAE0F490A7F609201",
+            "SourceID": "B26B9FEE4EE3D6B1ED1B3B2CB34365E38C5BABC7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "Artifacts Discovered!-x2-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Convoy-x2-1.png",
+            "ID": "D83DA008A8EA6363D01A39AF7D446760",
+            "SourceID": "4541ACBC7BD37C4A662C37F15C6A0060F3016B13",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Edward Jayce-x2-1.png",
+            "ID": "12582FD70E98B020D3EED26307A126C8",
+            "SourceID": "4F6FF5460B513A988CAE9A997918BBF0E6AB594D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Family Heirloom-x2-1.png",
+            "ID": "E46BE74EEB667D5D2E499E30026B5807",
+            "SourceID": "4EBCAEFDDC506DDFD1F3EED6AB85B30CAB983240",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Museum Curator-x2-1.png",
+            "ID": "82C1E88E24DCF0104755223E6B04FDDF",
+            "SourceID": "BAF449A57F999FAA1376ED407446862BAED5909B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Perilous Expedition-x2-1.png",
+            "ID": "BF17E6FCB6F681EA1FF776FE64E1BBF5",
+            "SourceID": "337846EB387DD6D1B341B73B120B8C34C91753E0",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Prosperity-x2-1.png",
+            "ID": "A142246228D7A75430A6DE417CB6636E",
+            "SourceID": "F01EEAB12FA607C17A37D3667EA7159AC0454DE0",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Atonement)-1.png",
+            "ID": "9547DC064BBE956A7ECF6BAC0FB498F6",
+            "SourceID": "F102C390FE31856BE39CC4467E99C2982E6F3484",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Atonement)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Corruption)-1.png",
+            "ID": "DDCF68544071D0172984038A9214322A",
+            "SourceID": "7221D80F789ADE9B0F89F919D072A08DFBED54B5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Corruption)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Disorientation)-1.png",
+            "ID": "8979E0B1BCE631BE338DA4B4227DBC80",
+            "SourceID": "DE80AB54970AA2635612C572425318A626F636B9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Disorientation)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Guilt)-1.png",
+            "ID": "457D39C9FC5DBAC37C6CAC8288F246AD",
+            "SourceID": "570219C2666EC0E6F50A5F19C7A0A373D33623D6",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Guilt)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Judgment)-1.png",
+            "ID": "0402B965E33377121C9F98679621EF4C",
+            "SourceID": "A0A2D2B5062B1CAB18D5283877B93D994787B6BC",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Judgment)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Malevolence)-1.png",
+            "ID": "90C5E6A8B3DBDC333F159A4B6460D1A4",
+            "SourceID": "ECA60CAEF5F438B70336B9B7EE4AD9013DAD6634",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Malevolence)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "The Price (Retribution)-1.png",
+            "ID": "B4F65BA778D622A88E3C9DA330F1048A",
+            "SourceID": "547A24E0FBA476192C62773B9F000E83DF7C9D47",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "The Price (Retribution)-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Unearth the Artifact-1.png",
+            "ID": "2E1280A2A77932FAC7416966C2DA6D54",
+            "SourceID": "E1EDAF296FF6B102713DD84FD45887C31F7E553F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "Unearth the Artifact-2.png",
+            "ID": "F934D8D395B9134D8661718FEBE93D89",
+            "SourceID": "39D713901E8A69DEDB85E58D6AC650D06466DC1E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Venture Too Deep-x2-1.png",
+            "ID": "A93094BBD38F78B6AF953FB77388BEBD",
+            "SourceID": "DB4AA696D8347DF51FB1E12099B85E570681CA12",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "Venture Too Deep-x2-2.png",
+            "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+            "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Artifact Investigators",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 Daniela Reyes-1.png",
+            "ID": "F2102B56E8C9CD3FE7CF54D90D4910CC",
+            "SourceID": "D6317FDB511FE5B06F3EF535A2E6E172458D27A0",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "01 Daniela Reyes-2.png",
+            "ID": "FEF1040129253BF0CDEA82635CC10EE5",
+            "SourceID": "843BF40EDB5F321978DA57EDD9D1E8171B7BD80E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.1 Tool Belt 0-1.png",
+            "ID": "8F5E3F4F30F5DFBC0FAD7277F9EEF35E",
+            "SourceID": "4D93ED6647E8366C94BC9633CC3111A870A8EA53",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.1 Tool Belt 3-1.png",
+            "ID": "B2FCCAEBD7D7D800923B30A2988AED63",
+            "SourceID": "EB9E743F68BDCF931F5F24E8521660473384C093",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.2 Gabriel-1.png",
+            "ID": "9A4111C6C3850AF4FDF32887C488C5AC",
+            "SourceID": "FA3821A9A92B38D33D6018282E5C042CF5C51035",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.3 Pishtaco-1.png",
+            "ID": "87A1F21D1835C6FDA0FFAFAFDEF55A6A",
+            "SourceID": "2177720DA0FC030DFDE20BA441670B25D535CE71",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.4 Lonnie's Wrench 0-1.png",
+            "ID": "D4910817284DAEACDA8A12D706EBC447",
+            "SourceID": "A497960F0A07FF57B96CB6832E7C13F58D1BEDBD",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.4 Lonnie's Wrench 4-1.png",
+            "ID": "EBE168A6A84B983E73E4E82035E9002B",
+            "SourceID": "EE6D32C4ABA3D69D78F4C2CA31DA4FF326363A8D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 Kate Winthrop-1.png",
+            "ID": "0FF18CB37BBF66062DEA85AD913F5CEB",
+            "SourceID": "440F1903CDE9E23AA648F51F626CFF6B17B8596E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "02 Kate Winthrop-2.png",
+            "ID": "B140FDCB3D4E0AB0DCB587AFFC9CD3F5",
+            "SourceID": "26854996160E2787FA0737FFAF92BF81065D114A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.1 Flux Stabilizer-1.png",
+            "ID": "0EEA0665460FDE7D22918B0257201691",
+            "SourceID": "6E39A314BCB133FE1C1CB88DF49D16617C693BCF",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.2 Dimensional Study-1.png",
+            "ID": "B911012664BF3E2768E08360AD86CBCF",
+            "SourceID": "9A37508B8CCF56A76469434040A2EE9B9D5F71C7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.3 Dimensional Rift-1.png",
+            "ID": "0665136745D8287FE1E9F523C931190D",
+            "SourceID": "6420E62B193662AFF88152869CAE382EA7A05BE9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.4 Rift Walker-1.png",
+            "ID": "1E2E73EE04101C5C1B0D62AC4C699FAB",
+            "SourceID": "6C51347D844BA84EA6BE78C86C759709BEFF6D53",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 Monterey Jack-1.png",
+            "ID": "60637C6B1980FF746F214A0E4B3D281B",
+            "SourceID": "CA60CC0729E06C911094539D0C34BB7978C5309C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "03 Monterey Jack-2.png",
+            "ID": "30906907F50488C34B7AF155B6E462AA",
+            "SourceID": "ABD714AF540893DFFDFA52B165A8CEFBC72C0F09",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03.1 Excavation-1.png",
+            "ID": "D13009CDA7844C53F61A4A55866ADEEE",
+            "SourceID": "27A2ED30227842C4115BF2E21A43D0C8E5AD3566",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03.2 Bull Whip-1.png",
+            "ID": "465D9EC0734D7A2176D22D6DD3C15124",
+            "SourceID": "653A78DD7007A1E60938B95B522C378A246F7A55",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03.3 Price of Greed-1.png",
+            "ID": "550BBB42BDDFA6CA2341B56F735760C3",
+            "SourceID": "673951B189E19A0E6BA9A83084162C3C95A56C8E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04 Agatha Crane-1.png",
+            "ID": "B1975AA25B9353F02083CCDEE4182A07",
+            "SourceID": "F29322343437E4C10622F736B26F0DE13B1A5453",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "04 Agatha Crane-2.png",
+            "ID": "C8021B92761BB873D2322BD4FFBD3249",
+            "SourceID": "06CDCEA4905A78876BC03DE67ADE268768F54306",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04.1 Precognition-1.png",
+            "ID": "E6F63A5DDEFA1FE5268EE892D3B1B296",
+            "SourceID": "18520635874E03FB1D6FEC13F5D35EA0B243F93C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04.2 Telekinesis-1.png",
+            "ID": "AA4CE6B8DBDDAE9BFE878B23D9452C61",
+            "SourceID": "8300A8FA67616C753A09B2872797F53161385033",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04.3 Superstitious-1.png",
+            "ID": "2E74A9FDF9C45B426498BB7DB62CC86C",
+            "SourceID": "31B64FCB624AE1C9BE18B6C5E48DED78B53B6316",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05 Darrell Simmons-1.png",
+            "ID": "5A299C3046D4E7E698CD3B1364D0F8C7",
+            "SourceID": "1AC0005236842EB144CD0BB10F2914F587046172",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "05 Darrell Simmons-2.png",
+            "ID": "398605D3D78D6064EB15D524FE762AF7",
+            "SourceID": "14845A911E18253DE6755A07EFB404572B106866",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05.1 Arkham Advertiser-1.png",
+            "ID": "B497C0999042C6C03FD8AA8DC0227645",
+            "SourceID": "61E6B569E9E2634F810D4906B47D864590823F8C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05.2 Doyle Jeffries-1.png",
+            "ID": "CC03AB5985CF7B1C60E9C65FEC19D1BA",
+            "SourceID": "D9FDE0719C9FE246635ECB8BABD8484E6D83C2B1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05.3 Tunnel Vision-1.png",
+            "ID": "D2A48F0BF7E3CB3AFF9FB4AF2D11A743",
+            "SourceID": "630BA4C591D92B1AC1D5D5D050995456B5F40D6B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06 Vincent Lee-1.png",
+            "ID": "22BB69D38993B8B4E64215AB8827C432",
+            "SourceID": "1B7DBA0424AE6543D6A385F315828678A7E60C4C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "06 Vincent Lee-2.png",
+            "ID": "65E85F1B6BB1DD860E2F048AC02EF004",
+            "SourceID": "D7847503F5CEC2CD5A3FD3E65E6022B76CAB2029",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06.1 Surgical Saw-1.png",
+            "ID": "6F4E503C413CD90933B9A3D80A773F70",
+            "SourceID": "D786C3EB25656AED53B566C7E30E9FF3AD6C2324",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06.2 Malpractice-1.png",
+            "ID": "CBD760D71ED1BC6C6EAAFFE3CE540FE8",
+            "SourceID": "DE8C17D6D4DBDAFCB23C02523C7A01B60F742338",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07 George Barnaby-1.png",
+            "ID": "E375AC767E107B9C0B36D1EC5B890CDB",
+            "SourceID": "C0575E9564E15BAA257A1610B044595FF31FAF5D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "07 George Barnaby-2.png",
+            "ID": "C5C6C00E4A4EA59282BEF6B66BCFE58C",
+            "SourceID": "A1E725AE9969755047C1E17B2B3C5696004A665E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "07.1 Solatium-x2-1.png",
+            "ID": "7FBFD89B82FE541BA98C063442366F7F",
+            "SourceID": "31BBFA1E18D5B21402E050D7332B805A05AA066B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07.2 Tainted Justice-1.png",
+            "ID": "BC079EB04F7BE8723B55766754D7C90B",
+            "SourceID": "0AE561AD2F136B506E1764A4590AD4A2A5CA47F7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08 Indira Jain-1.png",
+            "ID": "6517B981154FAA83691BD52C586D3F7B",
+            "SourceID": "EE8F3AECC633E743A0C4FA634B8EFFB7C8B3086F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "08 Indira Jain-2.png",
+            "ID": "8B54DD0CED2EA10749B99AC3C3274A28",
+            "SourceID": "2A6290C0A282BEF7ABD3DEE17E863BC8D8F4173B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08.1 Blue Blood-1.png",
+            "ID": "6D2E859B73AC070FD3E1605D3CD076E0",
+            "SourceID": "412012BFD14BC85501E7C6642829D0E30EBA2B07",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08.2 Kali Assassin-1.png",
+            "ID": "24C7CCDEDE0BBC9ECB26F22C297762B3",
+            "SourceID": "C43A6ACD1687BE6789D4F35376EECD14AC7E9F0B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09 Minako Miyawaki-1.png",
+            "ID": "4B5FD0B7C84B7D14B4AD2BA08CFD5850",
+            "SourceID": "69037D8E6F8946B5E82F2CE11087E08B43A7C83E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "09 Minako Miyawaki-2.png",
+            "ID": "37BE421BD9E802B6C50E28FDB5987006",
+            "SourceID": "F8DE1F4E3746C3A875974331A3EDD948F2900D3D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09.1 Shamisen-1.png",
+            "ID": "63FAA82FCCEC7A5874C3DC8D4561C6F1",
+            "SourceID": "70D2C453A8E61F3FD322A9FFA30160A55472F109",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09.2 Dance of the Geisha-1.png",
+            "ID": "B8ACAEF8414F2E00147325188913C7B5",
+            "SourceID": "45801C38D2235B0FDE8BCBBD7906184120FED475",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09.3 Scorned-1.png",
+            "ID": "3F0C1CBCA35F4DE1FBF4A2C76BC32C73",
+            "SourceID": "DCD64794327E8B2AB1F984816615FA7EE752F2D5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10 Carson Sinclair-1.png",
+            "ID": "CB0C848D58935ACE5837B1970C4C9840",
+            "SourceID": "0E0EC4B404DBDEA11BB521A44B434BF0C5857C87",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "10 Carson Sinclair-2.png",
+            "ID": "616EB3974B23255E660E8C971D642848",
+            "SourceID": "98B8ED70B61CEB4DD536F660DB05F82A62566867",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10.1 Webb Estate-1.png",
+            "ID": "D4558A19318AA4AA4F4292812EF24951",
+            "SourceID": "F3428256E993C56537432125FFC44669984C4274",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10.2 Anticipation-1.png",
+            "ID": "563B4701FEB186DC5B70E744F2435795",
+            "SourceID": "2A8467D26B737D3DE03FE847C03D1005F23682A2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10.3 Francis Dupuis-1.png",
+            "ID": "B5CC52AA474FCB93333DFABEA26C0D1F",
+            "SourceID": "AD7F37918D1F2CF681FAA5CBDDC48160BA9580D1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11 Bo Wen-1.png",
+            "ID": "3656D6612CD8EEDB0F76ACBB2C90707B",
+            "SourceID": "A0C92A600328AA06EC3B0F57A736B33FA2B5B49C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "11 Bo Wen-2.png",
+            "ID": "D882247AF9232202A8E058ACE2241CE0",
+            "SourceID": "DA98A8CF1AE1606C25858F127939164646359DB5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.1 Mastery-1.png",
+            "ID": "20BA3AB9D19CFDF619BF45416F91D916",
+            "SourceID": "CD1E8517F6120F47F7E2087C54B30E092A0C4179",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Invigorate-1.png",
+            "ID": "247F4189D930462F6C8DEB9E817A5390",
+            "SourceID": "49E5811EFA316D422316573FD6786FAE11625393",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Scorch-1.png",
+            "ID": "3BA8258F36CF4F28966538AB3FF0B84D",
+            "SourceID": "BA689467F72B31FF773E203955E2807E4ADAAD6B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Spark-1.png",
+            "ID": "B8BC89B31ADE39786CB864413D3D1DF4",
+            "SourceID": "F5369F064BCA57A1822B8E22909E327D0AEA5E1A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Submerge-1.png",
+            "ID": "A366D8FCA6AA2DA34CFFA55CDDC880E8",
+            "SourceID": "850E4D72F47B80A3390A5EA0320043502FE7EB27",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Tempest-1.png",
+            "ID": "5BC51BAFC759CAAE763535D9C11EF527",
+            "SourceID": "8FAC94145F07936E7901430C5840134DD9E1F8B4",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.3 Monastic Conspiracy-1.png",
+            "ID": "036296D15ECA6F411227D136CCF472F9",
+            "SourceID": "156C1B2FE7C99EFE1132D0678B4C6DF0CE6B93DC",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Artifact Minis with Crop Marks",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.1 Daniela Mini-1.png",
+            "ID": "FEC18DCE8F5C64857B53E42562D99DE7",
+            "SourceID": "4FB8EEBA2E559E4527079F278EAA7772B2D3118D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "01.1 Daniela Mini-2.png",
+            "ID": "759A88ED02C2CAE2F5C321905A835AD3",
+            "SourceID": "A20E6D01692EC7F39E3393EA4DBFCE37609882DA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.1 Kate Winthrop Mini-1.png",
+            "ID": "19580B0698A44B36C46A3E40B0F5F7A9",
+            "SourceID": "7FA2A59F6CFD6A5D52FA1E79B553B8ECF0C6061D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02.1 Kate Winthrop Mini-2.png",
+            "ID": "087ABD9C0526538CD8180F245E70BEA7",
+            "SourceID": "5E75B15132B52D46D4618DD6B0BC9ADCED43450E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03.1 Monterey Jack Mini-1.png",
+            "ID": "08E97A003E45E6A2FAEACF4FABE43E5B",
+            "SourceID": "3B29A6F2F6BC7590D0757D91A91C31AECECBF528",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "03.1 Monterey Jack Mini-2.png",
+            "ID": "CE14EEB6240CD3013011A60309A67F72",
+            "SourceID": "3CA26F96D426DAC98DC688AF48786A2B9F2711BA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04.1 Agatha Mini-1.png",
+            "ID": "098FDC9F3925E4B1D25127497D089EE9",
+            "SourceID": "486CFDE3B3E1E7545D071BADD81C813BA7014950",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "04.1 Agatha Mini-2.png",
+            "ID": "A477B41293FE830A841329C16F332D61",
+            "SourceID": "92E0000C06F5F9A297B00F396486AE6D96294456",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05.1 Darrell Mini-1.png",
+            "ID": "769FDF23A0A71C58721D7C505F7CA2AC",
+            "SourceID": "3118487E105A0760B6C7A4BBB9E208E28CAFE1C2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "05.1 Darrell Mini-2.png",
+            "ID": "45C4A6D41A60DA80CD29270A91855FD5",
+            "SourceID": "80A6C25A0229E5861C629A676B13141587A4448F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06.1 Vincent Mini-1.png",
+            "ID": "1F5AB55E50F9BB0E5962B92AC7A58C50",
+            "SourceID": "562D8B5A781A938736CBC619672AAAB674F2B98F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "06.1 Vincent Mini-2.png",
+            "ID": "135B2B5C3177576119B855BEF83F2438",
+            "SourceID": "DBA5E10ADEF7F29E213E298247D73527C9102A12",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07.1 George Mini-1.png",
+            "ID": "0B9FD30C7A53F3759193DED4E0BA657E",
+            "SourceID": "6C0A518228B9D5D5619511443768152C9E2D8C9A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "07.1 George Mini-2.png",
+            "ID": "8D02D98B9D98E1D61B879F7A4A55E9F1",
+            "SourceID": "D7138D47A4C658E1358B5E75A8847699FF9D00E3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08.1 Indira Mini-1.png",
+            "ID": "AE9D544CBEC4BB537032CF17E73548BF",
+            "SourceID": "BB1B94753F0F6B011F16A98914FFFA5D7B06D68B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "08.1 Indira Mini-2.png",
+            "ID": "976AD8E62AB88E429E1E3FFF9EC97640",
+            "SourceID": "DBF06A9DD7AF2426BFDFF8DE52BF078E2987FF19",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09.1 Minako Mini-1.png",
+            "ID": "35DDC4EF86D0B9350B7AE83C3829F490",
+            "SourceID": "33A137ABEDD824C76FD41D713E159A207898A0B6",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "09.1 Minako Mini-2.png",
+            "ID": "9ABC2158810653882CD552561DA374F5",
+            "SourceID": "42BB924C6AF97DB6650E9F62B3713D1940FD9234",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10.1 Carson Mini-1.png",
+            "ID": "9A82E26FBA588AFD4D8672D682F08AA1",
+            "SourceID": "9D1D95120E35DA40E48BC0AF284EE84F2C3D43D7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "10.1 Carson Mini-2.png",
+            "ID": "C7FBB5B2C527A0FB72B9220691369A0F",
+            "SourceID": "3D8FAE5D61EE978D2D66F8ECF94D683676BF070C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.1 Bo Wen Mini-1.png",
+            "ID": "A1B065D01B5F87BD8499A0BEE28E4E87",
+            "SourceID": "3D69FD5203D58D47C591F4EB4B4686BC6054F725",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "11.1 Bo Wen Mini-2.png",
+            "ID": "F30955EFFBB48FDF22059DC39DB4BDCA",
+            "SourceID": "2A18121DFB9BE21CCE422D7B211F4F084D217A28",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        }
+      ]
+    },
+    {
+      "name": "Artifact Investigator Minicard-Sized Minis",
+      "enabled": false,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01.2 Daniela Mini-1.png",
+            "ID": "4F8ECFF794E80565FF706E2DE97373D2",
+            "SourceID": "C1795D2B90545CC09CA9CFB8B2C91B38CF4B6646",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "01.2 Daniela Mini-2.png",
+            "ID": "EE3F0B6CAD7E57714D6991B883630EC7",
+            "SourceID": "4FAD0ABC7E75573C8D44114668BFD68C665A2FB7",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02.2 Kate Mini-1.png",
+            "ID": "A12DE217ED3787AE0F8963362772C150",
+            "SourceID": "3742AB8F3EFCC3E307485D3DE9316D25B25D2FDA",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "02.2 Kate Mini-2.png",
+            "ID": "1EC9F5ACFB6D855DA4D4A1D67E6A13F3",
+            "SourceID": "BA3192B59ED22B47B6E49037CFB2E659F1E201C2",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03.2 Monterey Jack Mini-1.png",
+            "ID": "68F521DF873913BAB4805CDC6D7A2F86",
+            "SourceID": "67AE2F6BBA183BD989D0BF06E39C070635D237F3",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "03.2 Monterey Jack Mini-2.png",
+            "ID": "16EA343579BDB1CDDFDDD7E63D331D9D",
+            "SourceID": "99811B96CEFF12E0D45B1CCFDB085A0A1709642B",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04.2 Agatha Mini-1.png",
+            "ID": "B1D0D7C195DAC2B2F72E06C54A53F207",
+            "SourceID": "1BEA522FF22CD5315FAE1408D459EFA6A6EEF68F",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "04.2 Agatha Mini-2.png",
+            "ID": "B47522F72E666255CED9D0C22F5697F6",
+            "SourceID": "CFE284840A22E29BD4647C8EC431D5108AE1FEEF",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05.2 Darrell Mini-1.png",
+            "ID": "206AD62030157D1C557F0F0B5348A440",
+            "SourceID": "2C294B8CCAAC31BBA294ACED2E1D0EC5C6154FBD",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "05.2 Darrell Mini-2.png",
+            "ID": "E243C06A6E0EEA72199544892CCC3B2A",
+            "SourceID": "14FF668109ACF31090CA6FF409F6FA167027BED8",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06.2 Vincent Mini-1.png",
+            "ID": "BBD26E4B9A769FB83F45B18E3A1153B8",
+            "SourceID": "C40426FCD555864F403CE247003B4D0D10F78214",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "06.2 Vincent Mini-2.png",
+            "ID": "F868B6A5A8E564B79F19A3CB90017092",
+            "SourceID": "06FD5980741A7F154EF0F790004E269DE679AA00",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07.2 George Mini-1.png",
+            "ID": "67B15E61D13D1F6E8C241EEE0B0CE3BE",
+            "SourceID": "DEFF00117950A01690B3A79E7D6AE487700051D1",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "07.2 George Mini-2.png",
+            "ID": "70E9E2C2F99313831AB56BD082CD6A56",
+            "SourceID": "E3A1EC8080B992FEF883A3D8A737E670515702FC",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08.2 Indira Mini-1.png",
+            "ID": "145E1BBEBC4C11F4C65774BDEAC22AD8",
+            "SourceID": "A9440EC2B36F3E1744F0784E6112C341212CDB40",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "08.2 Indira Mini-2.png",
+            "ID": "54E7EA0DF5298C9AB4629AEE0A6EAB38",
+            "SourceID": "6F494F9E317A7113156DC07D98C927336EAF884A",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09.2 Minako Mini-1.png",
+            "ID": "AEF140C13C8109223A4A6AC9A602D844",
+            "SourceID": "D7EDBDD589AA204D44DB09480BE16828CB51BC97",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "09.2 Minako Mini-2.png",
+            "ID": "E68ACFB9CBD4887D60A949B77D68C082",
+            "SourceID": "72383DC5D8E881EECD010C1639BEC8CE0C32D60C",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10.2 Carson Mini-1.png",
+            "ID": "ED15CEEDE87AE775B6C2A96F271718AB",
+            "SourceID": "1B6A5F74BFBBD809EB1BCE3AEB559304CDD66019",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "10.2 Carson Mini-2.png",
+            "ID": "2AA26CBEE77DE3A47A29AA44A6198980",
+            "SourceID": "F9D1DE58BA2B4858FFA58EF53CD43A944F35BAAF",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11.2 Bo Wen Mini-1.png",
+            "ID": "22097E9DD378E480DBCEF59C41D55419",
+            "SourceID": "FF5BE7DCE3EA5D71DB1F8B7C6B62B92BEF16F5E0",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          },
+          "back": {
+            "Name": "11.2 Bo Wen Mini-2.png",
+            "ID": "6FDCB8CA0B43AEACB65618A010D6B850",
+            "SourceID": "BCC8CDFE50C15BD5D801F4E89A1CE2AD7CA4ABE0",
+            "Exp": "png",
+            "Width": 564,
+            "Height": 826
+          }
+        }
+      ]
+    },
+    {
+      "name": "Artifact Player Cards",
+      "cards": [
+        {
+          "count": 2,
+          "front": {
+            "Name": "001 My Body as a Shield-x2-1.png",
+            "ID": "43715AE5371702AC2C9392233C181759",
+            "SourceID": "70D4C05AE4CF74C93699DABA7F097EF3950EC951",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "002 Pendant of the Acolyte-x2-1.png",
+            "ID": "4446E99D947EA90087CFBB14382B159A",
+            "SourceID": "8D837FE227BA9817A377418546FD5A478319D906",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "003 Throwing Knife-x2-1.png",
+            "ID": "0282EDE6F63A681957A30A60204147A6",
+            "SourceID": "3629EEA36574AD44BF2AD36797F6E308A4E80532",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "004 Christmas on the Front Lines-x2-1.png",
+            "ID": "D2C9E16191674E9A065718474083CB06",
+            "SourceID": "5DB8ADC261F44CC669785CDC9082D64D94D86C76",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "005 High Treason-x2-1.png",
+            "ID": "E926F067FB2935D5015AA0BE364589D8",
+            "SourceID": "EE6D14054E834D88BD4979A448863318400DEF6E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "006 Last Shot-x2-1.png",
+            "ID": "9E5A3D60A7A2BD6756BB4E15F2F4DAA1",
+            "SourceID": "8C9ADC348AABEFA1089E181284194D0471CEEDBE",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "007 Rally 0-x2-1.png",
+            "ID": "6E7D81094C9A38DE5A0F6CA51906EB23",
+            "SourceID": "29EF04C75FBAFCC148EBEACA3E526A94436B4EB7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "008 Resolve-x2-1.png",
+            "ID": "5D61DFBB80747E9376135F02E2BBF3DA",
+            "SourceID": "502C9AEEA7ABE470D294DB45B561F46EA373B39D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "009 Technician-x2-1.png",
+            "ID": "6C2246D7759A2EC7E8CA2B9A506052A3",
+            "SourceID": "7DE638BBA7021C72046016C1D12B8E1C2F86D535",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "010 Umbrella Sword-x2-1.png",
+            "ID": "F2ACC61AE956299B500F2D946999512B",
+            "SourceID": "A0145427AF353D2536AFCD5ABE1D0F2CFCFEBB8F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "011 Valor-x2-1.png",
+            "ID": "CF75FEA3D4A2467FD9C2865CA0EF6D4A",
+            "SourceID": "0F6530682A70E7BF94E21C8850120576ACBD400B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "012 Beacon-x2-1.png",
+            "ID": "AE4D89D425334213FC579231677E49A3",
+            "SourceID": "01493E73986C9CFDFDEB913E712EA164622176E0",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "013 Brawler-x2-1.png",
+            "ID": "BE23882F15766B66F4C14B5FEE6E9E96",
+            "SourceID": "4A17F83CF043829DE988D270AB3FDEDD475B03E4",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "014 Rendezvous-x2-1.png",
+            "ID": "5168654D087CC8C7F93F39FDFF38005B",
+            "SourceID": "A82B44BDEDA905B5C9B907177CD058EB6B159F38",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "015 Tactician-x2-1.png",
+            "ID": "75913A0E5B56887BB0FD93768BBE6A70",
+            "SourceID": "D5A76B1C0AE6DF4EEF30C0ED8BE81D0F64EB0583",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "016 Armistice-x2-1.png",
+            "ID": "2BE15C4BF21FF921DA47E7D409A78452",
+            "SourceID": "A58170A2B7F133D342A738B30C8092C1461A6CF9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "017 Rally 4-x2-1.png",
+            "ID": "9B5F76EB7FE669696487CEC112006512",
+            "SourceID": "164134B7438CA4AFDA013F910729A6BCE5B4AE22",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "018 Gatling Gun-x2-1.png",
+            "ID": "E6C7FE88AA71A0997FD0BCAFF8339333",
+            "SourceID": "CA1E93ABA61FE45252969290AEE1775EE0197AD5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "019 Dream-Inducing Serum 0-x2-1.png",
+            "ID": "531D8AC843FD32A2BE3FA1E204D1FB35",
+            "SourceID": "2DEC52BBD7264FDF8E3081AE7ACF4D9B4DBBF39D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "020 Erica Carlyle-x2-1.png",
+            "ID": "8798C57CF6E242CC4D4373B8B87C3BF6",
+            "SourceID": "E83642C4CC9827D777ED7F7CF7396F733D712EC1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "021 Telescope-x2-1.png",
+            "ID": "3FD7A84A9582D6C08FF85ACA0E8A3031",
+            "SourceID": "17617AF709F689FE6FFF8C1C834665B28F71ED1F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "022 Two Steps Ahead-x2-1.png",
+            "ID": "6B7456D687081E83B387A540988F0D69",
+            "SourceID": "EA15111E2F1F52FA1BA983E6AD6DF7DA04ED2C58",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "023 Archaeological Find-x2-1.png",
+            "ID": "D6061A82BD442B6B66C194BD05675B12",
+            "SourceID": "19DDAA85481671275D16CA84D80F6B1B18617098",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "024 Eliminate the Impossible-x2-1.png",
+            "ID": "A8E998BD7407ACA4B5D5BA3573647B12",
+            "SourceID": "85BF9F93A02E2DA615A393DB63B7FB4662D0D45C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "025 Tracks in the Snow-x2-1.png",
+            "ID": "CB03E8B3AE13B0AA8868AB48398327BC",
+            "SourceID": "91868C4788B94C78D746B91021C4DD936CC5B6B7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "026 Keykeeper-x2-1.png",
+            "ID": "4D558BB0473F96DE95784191003C84A1",
+            "SourceID": "E6823853F05708DD195D11D652197D6FEB8DE26F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "027 Inspect-x2-1.png",
+            "ID": "31F5CD5C056E6B5D42AC927968491119",
+            "SourceID": "0A1069C929ED40EE08624377F07272E305B721C8",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "028A Underwood Typewriter-1.png",
+            "ID": "29D344874BEC4412BAD8ECA975C95B21",
+            "SourceID": "F6FA95A812372EC9C0A878E55BF4CA82ACAA5FC8",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "028B Investigative Report-1.png",
+            "ID": "EE835BA065851A20AF14AF87661881AC",
+            "SourceID": "944841C1EF9198F4E9682F65D021920592848561",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "029 Wanderlust-x2-1.png",
+            "ID": "A62C9F2653B2F34DB6A42972AF70AF58",
+            "SourceID": "34F57F47E1BEED6B9EC66A0430DB8FCA128486BC",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "030 Search Party-x2-1.png",
+            "ID": "1393B636F3A67595A9D4CA0E5BBCE2BD",
+            "SourceID": "11F40D00C449B65170D27FE720C16B0223E1F87E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "031 Dream-Inducing Serum 3B-x2-1.png",
+            "ID": "0A80D3ACCE70087042F210FC67B3BCA6",
+            "SourceID": "239B4F746DA552CE250ED1B3BDF095E237640A3D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "032 Dream-Inducing Serum 3A-x2-1.png",
+            "ID": "B5679978B7DE6E5B36FE6D6BCDE65026",
+            "SourceID": "09A9F095422584D5FFC6E5EFA54C103D2835F7BD",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "033 Office Hours-x2-1.png",
+            "ID": "1C43DFEC45BC3E56040C502142538A21",
+            "SourceID": "4F06AA2DE943AFE160FFD85E3591E26186F6574D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "034 Nullius In Verba-x1-1.png",
+            "ID": "5E6D1E62B093315EC33F1D24ABDC3543",
+            "SourceID": "589FB6E8654A53FB3045F1B8968CCDB6E97FF298",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "035 Amery Wendy-Smith-x2-1.png",
+            "ID": "436E46F4CAAD9EC5472F64DED5ECFA69",
+            "SourceID": "A216B90935FD36932A3CC0F8950BABCB5243011A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "036 Forbidden Sutra-x2-1.png",
+            "ID": "79160EF890E5C8D954F501CD531E3F73",
+            "SourceID": "8337D0F71353EEC24435A3574DB9100EE6E4FA15",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "037 Molly Brown-x2-1.png",
+            "ID": "813160C14DC948FF1E9BAA7015720C62",
+            "SourceID": "AEDC941B8373A14FEA94C0BA194C5E5580102624",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "038 Snake Sword-x2-1.png",
+            "ID": "2F9C22BB7B9E8AA6F263876820007371",
+            "SourceID": "E59003586138803E93DE6CCA231FA04E27E624D5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "039 Intimidate 0-x2-1.png",
+            "ID": "AE300BF76225FC7971CB47BA090AE9FD",
+            "SourceID": "F29AE010A97C1C847BF3089144EAF8CBA10E2082",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "040 Seduce 0-x2-1.png",
+            "ID": "4610672CF9BE711821AC65285A67BD79",
+            "SourceID": "8C8C3B5F8887B4D707EDFC5D4F5B4143993B10AD",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "041 Whack-x2-1.png",
+            "ID": "F444C9F264C338916AA055E741D1282B",
+            "SourceID": "CEE8B352E277002D0E1A0B21404CFBE8C2946D83",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "042 Dressed to the Nines-x2-1.png",
+            "ID": "461A17F3B063F1373F00E9F9A3DE3F27",
+            "SourceID": "8C40C1268C3F937C4BD14EB9BC0558809D6C9FD1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "043 Contingency-x2-1.png",
+            "ID": "D9381837DEBCD60C9A2CFE82374A91FB",
+            "SourceID": "40D87D948A95AFB9320AB325D8C95DC6A3D9F686",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "044 Pastime-x2-1.png",
+            "ID": "F0EA4CC6D7704054D0E2652DEF9E3FEA",
+            "SourceID": "D76EFBD806269619B4BA2F97BE4581AD354DF7A3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "045 Ancient Crossbow 0-x2-1.png",
+            "ID": "708F22422B230317C4B78CC60695B646",
+            "SourceID": "12490AC9F38CE0AB5B3A0F85B8DBACA184C3CA23",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "046 Blood Money-x2-1.png",
+            "ID": "7F4A0615B72300D0411469C4969275DC",
+            "SourceID": "EFBADEB710E477932864F840B320EC813EE99F36",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "047 Heist-x2-1.png",
+            "ID": "8C0A9A01158D1949CF8FDD34361F931A",
+            "SourceID": "06C2FE76A3EF67A41A34E6AA54F0B1400AF41234",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "048 Seduce 3-x2-1.png",
+            "ID": "E5007BBE531239E1D39FD8CF18134D45",
+            "SourceID": "7A16A0FA9AED622606562B9CBF57FF32399A6DE3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "049 Extortion-x2-1.png",
+            "ID": "D2A0157907555EC2884FAB372FAF3284",
+            "SourceID": "72E37CC2F7E582C90B142BE2947F78CB41BCF974",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "050 Reconnaissance-x2-1.png",
+            "ID": "205BEF35A3A29DE96F5206590DB8F04F",
+            "SourceID": "E9B4F7B1024308C2D07147880A4BD83C9F11605B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "051 Socialite-x1-1.png",
+            "ID": "9F3501DF721B554FD3C90306ACB5A621",
+            "SourceID": "1FD875820D0D0E3C490FBF80A1C1B031B0DC5D80",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "052 Ancient Crossbow 3 Rogue-x2-1.png",
+            "ID": "633C785775574A700142DB29FAAFA4C1",
+            "SourceID": "49843E3E96FD45E8A112F6B72B237CD16EB53688",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "053 Intimidate 3-x2-1.png",
+            "ID": "1BFC74717809B6828B66E2BC181C4CBA",
+            "SourceID": "46EA1301EA461430F272A611EC12934A8F1B2646",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "054 Mimic-x2-1.png",
+            "ID": "1BFC16DC2D9489979C405C6E8E734657",
+            "SourceID": "5A8EF61A3CD321FAFB741B47DFB8257A455A87F4",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "055 Intimidate 5-x2-1.png",
+            "ID": "76030DB0E73FE715131C8AF9784C2FB6",
+            "SourceID": "164BD5461744CF05F45E54BA8107540A9D25781F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "056 Enchanting Grace 0-x2-1.png",
+            "ID": "CA09B320D7E15259EAA26D2CD1FFE10C",
+            "SourceID": "392A70FA38A27ABF7973010498906F8B14170606",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "057 Ritual Dagger-x2-1.png",
+            "ID": "1C803F32EA1BB9C7170074691F110030",
+            "SourceID": "84F81690B70E9DC1FFD18A72A8504E1F20C4B372",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "058 Myrtle Mason-x2-1.png",
+            "ID": "1289DFFE4552B3246A5152C1F3FAF121",
+            "SourceID": "E7E1F01D339186A91FED77E7DA7F7EC8C13EE398",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "059 Plumb the Void 0-x2-1.png",
+            "ID": "BDF7E0195E1770523B3F40406BB50BF5",
+            "SourceID": "712A9616F2D0D8D11E32140C17E11D48295ECE03",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "060 Astral Sea-x2-1.png",
+            "ID": "44A2D44948453397F0D5286F80DE7F2C",
+            "SourceID": "08E24D7B89045949BDC0A1260212FED5AE1731D6",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "061 Spellshifting 0-x2-1.png",
+            "ID": "16535740E8253FA1E7A87DF715B705CC",
+            "SourceID": "505B80C9C4BBFCE2AE47F3A96DB78D8E922658D4",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "062 Beckoned by the Light-x2-1.png",
+            "ID": "B2D526592DD64B5829A31843FF323487",
+            "SourceID": "97B97FDC3690CC40A23B034D425ACAC47D23E844",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "063 Imbue-x2-1.png",
+            "ID": "B4C68D0546A3A25D432A51905FBCD245",
+            "SourceID": "CB5CC7FE613B4E11E0E787FFE909988B4B2FA9A7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "064 Delirium-x2-1.png",
+            "ID": "847271173DDFBDAAB3D5056FD0C3690B",
+            "SourceID": "8E0CB446C11E3ABD0C0092DB3F22B079203077CC",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "065 Living Link-x2-1.png",
+            "ID": "D527AB8E3DF90399E833B2634D1ABA04",
+            "SourceID": "63C3A5E7C17858873EF3F5366FA25FCD4DC6A453",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "066 Blood Tithe-x2-1.png",
+            "ID": "7E410CBD62F39BB646F128D00AAF1825",
+            "SourceID": "877D5EFA754C9FEB44052AE632F65169E9F22685",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "067 Spellshifting 2-x2-1.png",
+            "ID": "5ED2F4F5BC1F2199B3E380F89CFB541B",
+            "SourceID": "27BB489EAE2B048788261DB5656D74D56AF074E4",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "068 Rapid Healing-x2-1.png",
+            "ID": "0300D9F5F0D4FEFA7221C2B40B50996A",
+            "SourceID": "35770D348733DE4CF4062423B7F54B2DFEE45D8D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "069 Holy Circle-x2-1.png",
+            "ID": "C407F6FA00D49F944C0127A793DB1DCE",
+            "SourceID": "288651222E0D801C3F56ADD599006A43514995C2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "070 Blood Sigil-x2-1.png",
+            "ID": "9B1A35671EE3C4650DA47A7A4527A182",
+            "SourceID": "192B54C2E7E39E809B671593632E757D02924196",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "071 Enchanting Grace 3-x2-1.png",
+            "ID": "95C243814A366C16A842D96A1288EB5F",
+            "SourceID": "92560E9B54E7E32ADBD8E957D479E7C6DB8DB6DB",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "072 Favor of Eshu-x2-1.png",
+            "ID": "515F72B54F3B9867BF39EAE88DCB543C",
+            "SourceID": "1F18763CEB8F69A589A57A3D83DDC354FA8116F7",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "073 Plumb the Void 3 Mystic (Greg)-x2-1.png",
+            "ID": "453253362B924190A1D8A9168F8DEE8D",
+            "SourceID": "F448E4291E5F3B511B640C493CCB86C868ED8CE6",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "074 Enchanting Grace 5-x2-1.png",
+            "ID": "737E23C314233BBAEF925F2FCC456911",
+            "SourceID": "EF79DC634C09A9360BB260AB3BFB0F7AFE58E1F2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "075 Leather Pouch-x2-1.png",
+            "ID": "74DABBFDA0AB450BC6BDB9B0DBAAB0A8",
+            "SourceID": "E04D096188A189A46835B5253520A32F859E9647",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "076A Grandmere's Knife-1.png",
+            "ID": "D6769C80469AE743C7397B91E6241D3F",
+            "SourceID": "01ED47AA063CF6CD340989AF93D31100CC48B58F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "076B Bloodline-x3-1.png",
+            "ID": "3817B46550FE81CCCD6787599C5459F9",
+            "SourceID": "0319F5FC9580887622ED519CFAECFBA37578F301",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "077 Cleansing Ritual-x2-1.png",
+            "ID": "8A75D2DCA4DBF720A1A050632874A07C",
+            "SourceID": "1FF1436F603819ECC778E2EA0C8E20A6C100270F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "078 Tread Water-x2-1.png",
+            "ID": "8EAD9E127FB5EBBA4721B70E9098D9FD",
+            "SourceID": "DE9551A6A78073937FDF0A26C7EA125E86F9F7E3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "079 Act of Resistance-x2-1.png",
+            "ID": "479F177C59898938FC552917DE73EC25",
+            "SourceID": "21357553ED5A0A6F030041EA22D54F6271D11A4B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "080 Stopping for the Night-x2-1.png",
+            "ID": "298ABFAB40076DC4190DA004814A715A",
+            "SourceID": "64446E4E100DCAEAFEE984C313B30A15CC01A641",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "081 Kinship-x2-1.png",
+            "ID": "6518776D833F1420B5D7B8528C52DA43",
+            "SourceID": "3B718CBEEF71C4D8048576B3ED57571FAAA88318",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "082 Strained Nerves-x2-1.png",
+            "ID": "513AD10FCDC36284884157572730F53E",
+            "SourceID": "92DA41345EC6AC3A0D437135AEFD0AC88838E6C5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "083 Madame LaBranche-x2-1.png",
+            "ID": "FBF584109D520E57A86D1C3EBDFE370F",
+            "SourceID": "F2BFE9EADF1D1918FF5DDCC7EC09278BC9066A1F",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "084 Better Together-x2-1.png",
+            "ID": "D1C63EF573054BD75BAC8D3B6DF9060B",
+            "SourceID": "81361A55E140CC00B903715AE549D76AF34ACCFC",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "085 Premature-x2-1.png",
+            "ID": "E92E9946F27529C8412E556B1D19A9E4",
+            "SourceID": "C6BAF99063CEAD773A7BCC1B3EA5A72421160FAD",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "086 Resilient-x2-1.png",
+            "ID": "8D958BE269E7CE7B821610C51B498E15",
+            "SourceID": "BED0782F227CCADC4C43935D9A7FE02B20740BF3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "087 Ancient Crossbow 3 Survivor-x2-1.png",
+            "ID": "774510C2E3243C14B2F5DF7890BE730A",
+            "SourceID": "A089C0346F189A85B0F798DB26535AE1B6107FC5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "088 Plumb the Void 3 Survivor (Greg)-x2-1.png",
+            "ID": "33F25CF46F48C4FBF82D73B745F67513",
+            "SourceID": "D81B3B98F7AA9CA3912019C52DE9B8025784AB7E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "089 Henry Wilcox-x2-1.png",
+            "ID": "146DD83E2A21633F21DB9298C0E3D999",
+            "SourceID": "AFD6AADC6DED5F955EC678FFF09D2DC93F288723",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "090 One Eye Open-x2-1.png",
+            "ID": "E6E36BFDF7E1BA34BF3A792CF37C40AE",
+            "SourceID": "A0D2A0325650C80C6D91ED1781A8D0CD36F0D44D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "091 Shepherd-1.png",
+            "ID": "A3D78A901B4F86F94AC3E43EC24A3EDE",
+            "SourceID": "398635266C8515FED0D87B923F968A49F50AE355",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "092 Fine Clothes-x2-1.png",
+            "ID": "2951557366360896665CD6CDE997DA92",
+            "SourceID": "66DEEC93B2027A32DCDA0C9A4797527885A70E82",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "093 Knife-x2-1.png",
+            "ID": "662D3F37C46C836A36A577946E46D64F",
+            "SourceID": "DD194FA94E922285FCE28221D6B6C671BA00FD85",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "094 Forbidden Knowledge-x2-1.png",
+            "ID": "F2B1A12EBA2EF13F8592E517D2094321",
+            "SourceID": "B27696A0ABADA568EF286BE2C26542478EF65930",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "095 Medical Texts-x2-1.png",
+            "ID": "82BD2C73180E3FA19F8DFC86D874748E",
+            "SourceID": "3289EA697B1A39C7F66CA755928250B319D00AAA",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "096 Painkillers-x2-1.png",
+            "ID": "B34F6F56BB4D84F1ED429DFF03D70ECD",
+            "SourceID": "27287436E5738CDFF08931975A7C25F0042C43C2",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "7de76b60f8ec44353f3749f127cdd0e26bc9f3f612fdaee3f4784b9aee81985d"
+}

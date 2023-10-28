@@ -1,0 +1,117 @@
+// Bootstrap Required (functions)
+@import "bootstrap/scss/functions";
+
+//Variable Overrides
+$prefix: 'bs-'; // because that hasn't been imported yet
+
+$purple-100: #e2d9f3;
+$purple-200: #c5b3e6;
+$purple-300: #a98eda;
+$purple-400: #8c68cd;
+$purple-500: #6f42c1;
+$purple-600: #59359a;
+$purple-700: #432874;
+$purple-800: #2c1a4d;
+$purple-900: #160d27;
+$gray-100:   #f8f9fa;
+$gray-200:   #e9ecef;
+$gray-300:   #dee2e6;
+$gray-400:   #ced4da;
+$gray-500:   #adb5bd;
+$gray-600:   #6c757d;
+$gray-700:   #495057;
+$gray-800:   #343a40;
+$gray-900:   #212529;
+
+$primary:       $purple-500;
+$link-color:    $purple-500;
+$link-shade-percentage: 25%; //default
+$link-hover-decoration: none;
+$link-color-dark: tint-color($primary, 50%); // #b7a1e0
+$link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage); // #b7a1e0
+//$form-check-border-color:
+
+//$warning-pink:    #fa4f96;
+//$dark-pink:       #a51250;
+//$warning-blue:    #028090;
+//$warning-yellow:  #edaf19;
+
+[data-bs-theme=dark] {
+  $body-bg:                     $gray-900;
+  $btn-color:                   var(--#{$prefix}body-color);
+  $btn-link-color:              var(--#{$prefix}link-color-dark);
+  $btn-link-hover-color:        var(--#{$prefix}link-hover-color-dark);
+  $btn-link-disabled-color:     $gray-300;
+  //$modal-backdrop-bg:           #ffffff;
+  //$modal-backdrop-opacity:      0.4;
+  //$form-check-border-color:     $gray-700;
+}
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,500;1,700&display=swap');
+$font-family-sans-serif: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+//$font-family-serif: 'Source Serif 4', serif;
+$font-family-serif: arno-pro, serif;
+$font-family-slab: 'Roboto Slab', serif;
+$headings-font-family: $font-family-slab;
+
+$font-weight-base: 300;
+
+
+// Bootstrap Required (Variables)
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+// Map Overrides
+
+// Bootstrap Required
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+
+// Bootstrap Optional
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+// @import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal"; // Requires transitions
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas"; // Requires transitions
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+// Custom
+@import "_mixins.scss";
+@import "_base.scss";
+@import "_projects.scss";
+@import "_accordion.scss";
+@import "_buttons.scss";
+@import "_modal.scss";

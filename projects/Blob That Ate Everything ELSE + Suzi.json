@@ -2,19 +2,26 @@
   "projectId": [
     "B3909516B2CBDF90034A19668D4B11643E94F7FD7593BB30E3A4C4F30173939A85DC8889C8F14B63"
   ],
-  "name": "The Blob That Ate Everything ELSE & Suzi",
-  "description": "",
+  "name": "The Blob That Ate Everything ELSE",
+  "description": "Additional cards to expand The Blob That Ate Everything and neutral investigator Subject 5U-21 “Suzi.”",
+  "image": "gcop2301_article_preview.png",
+  "artist": "Peter Polach",
   "info": "Scenario cards require The Blob That Ate Everything standalone scenario. Suzi can be played with any scenario.",
   "website": "https://www.fantasyflightgames.com/en/news/2023/7/13/the-blob-that-ate-everything-else/",
+  "linktext": null,
   "authors": [
     "Fantasy Flight Games"
   ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
   "tags": [
-    "Investigator",
-    "Standalone Expansion"
+    "Investigator(s)",
+    "Rework"
   ],
   "created": "2023-08-13T17:37:00Z",
-  "updated": "2023-08-15T10:53:59.458Z",
+  "updated": "2023-09-15T23:25:30.190Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -38,25 +45,6 @@
             "Exp": "png",
             "Width": 822,
             "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "gcop2301-001.1 Suzi mini-1.png",
-            "ID": "85B8991C7944470E62187F5C7A80A06E",
-            "SourceID": "5830161FF5CCDEDF25E55DFB43FF0EE603AE68E3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "gcop2301-001.1 Suzi mini-2.png",
-            "ID": "CF746234C690C7D756A79D19A0BC886B",
-            "SourceID": "AB5BB1E55A46BCF43E219061EDAEA501CBD325D6",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
           }
         },
         {
@@ -133,6 +121,30 @@
             "Exp": "png",
             "Width": 822,
             "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Suzi minicard with crop marks",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "gcop2301-001.1 Suzi mini-1.png",
+            "ID": "85B8991C7944470E62187F5C7A80A06E",
+            "SourceID": "5830161FF5CCDEDF25E55DFB43FF0EE603AE68E3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "gcop2301-001.1 Suzi mini-2.png",
+            "ID": "CF746234C690C7D756A79D19A0BC886B",
+            "SourceID": "AB5BB1E55A46BCF43E219061EDAEA501CBD325D6",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
           }
         }
       ]
@@ -618,5 +630,5 @@
       ]
     }
   ],
-  "hash": "f206942f1aac50c5fdf4350a2a22fed13f606fd91025ad1fe40cace34258688e"
+  "hash": "3b05d4427d7856b00ec745f65d3cc90463b81bdf91e077391ff784054a84e68a"
 }

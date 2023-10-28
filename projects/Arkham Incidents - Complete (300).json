@@ -3,22 +3,29 @@
     "BBC801D90E974E1222AB25C1A6EE2DA54790B7141EA5769657E7788EC8D34F16D06C51B26D7C736C"
   ],
   "name": "Arkham Incidents",
-  "description": "",
+  "description": "A set of five Arkham-based side-scenarios, each focusing on and synergizing with an existing ally card from a different class.",
+  "image": "arkham-incidents.png",
+  "artist": "T. Jedruszek, J. Cairós, S. Winters, J.L. Johnson, A. Folny, C. Boyer",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/02/01/arkham-incidents/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.696Z",
-  "updated": "2023-08-15T10:53:59.468Z",
+  "created": "2022-12-31T04:45:26.696Z",
+  "updated": "2023-09-09T15:18:15.668Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Too Noble (Tetsuo Mori)",
+      "name": "Too Noble — Tetsuo Mori",
       "cards": [
         {
           "count": 1,
@@ -802,7 +809,7 @@
       ]
     },
     {
-      "name": "Something Big (Dr. William T. Maleson)",
+      "name": "Something Big — Dr. William T. Maleson",
       "cards": [
         {
           "count": 1,
@@ -1586,7 +1593,7 @@
       ]
     },
     {
-      "name": "Unscrupulous Investments (Dario El-Amin)",
+      "name": "Unscrupulous Investments — Dario El-Amin",
       "cards": [
         {
           "count": 1,
@@ -2389,7 +2396,7 @@
       ]
     },
     {
-      "name": "Anything Once (Olive McBride)",
+      "name": "Anything Once — Olive McBride",
       "cards": [
         {
           "count": 1,
@@ -3192,7 +3199,7 @@
       ]
     },
     {
-      "name": "Mysterious Benefits (Madame Labranche)",
+      "name": "Mysterious Benefits — Madame Labranche",
       "cards": [
         {
           "count": 1,
@@ -4014,5 +4021,5 @@
       ]
     }
   ],
-  "hash": "e9abcaa32f4f3061a36af3504d18ffe3045cc876b7783aa6f0c5dc5015ce5b11"
+  "hash": "3675c09e0608296f4ee7b314961adbf4737c64820ffc8a6af6ffcb65dc5379e2"
 }

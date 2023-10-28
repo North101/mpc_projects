@@ -3,16 +3,23 @@
     "6B1F6E08544C79EF5D67D9668B1F067101F58EAA81EB59111424C1B60E66BDB2B3F1A75917D51005"
   ],
   "name": "Machining a Mystery",
-  "description": "",
-  "info": null,
+  "description": "A 7-scenario cyberpunk/steampunk campaign inspired by Shadowrun.",
+  "image": "machining-a-mystery.png",
+  "artist": null,
+  "info": "Note that one scenario uses a puzzle mechanic which requires bespoke tokens. MPC does not print tokens so you will need to cut them out of the campaign guide.",
   "website": "https://mysteriouschanting.wordpress.com/2022/08/28/machining-a-mystery/",
+  "linktext": null,
   "authors": [
     "PuertoMateo"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.685Z",
+  "created": "2022-10-19T04:45:26.685Z",
   "updated": "2023-08-13T20:43:40.201Z",
   "version": 2,
   "code": "C380050185D1C1AF",

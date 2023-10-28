@@ -1,11 +1,12 @@
 import { promises as fs } from 'fs'
 import { glob } from 'glob'
-import mpcData from 'mpc_api/data'
+//import mpcData from 'mpc_api/data'
 import { basename, relative, resolve } from 'path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 import projectValidator from './validation'
+import smartquotes from 'smartquotes';
 
 
 interface ProjectWithFilename extends ProjectLatestMeta {
@@ -16,25 +17,30 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   filename: e.filename,
   name: e.name,
   description: e.description,
+  image: e.image ?? null,
+  artist: e.artist ?? null,
   info: e.info ?? null,
   website: e.website ?? null,
+  linktext: e.linktext ?? null,
   authors: e.authors,
+  statuses: e.statuses,
   tags: e.tags,
   created: e.created,
   updated: e.updated,
   parts: e.parts.map(e => ({
+    key: e.key,
     enabled: e.enabled ?? true,
     name: e.name,
     count: e.cards.reduce((value, card) => value + card.count, 0),
   })),
-  sites: Object.fromEntries(
-    mpcData.sites.flatMap(site => {
-      const unit = mpcData.units[site.code]?.find(unit => unit.code == e.code)
-      if (!unit) return []
-
-      return site.urls.map(url => [url, unit.name])
-    })
-  ),
+  //sites: Object.fromEntries(
+  //  mpcData.sites.flatMap(site => {
+  //    const unit = mpcData.units[site.code]?.find(unit => unit.code == e.code)
+  //    if (!unit) return []
+  //
+  //    return site.urls.map(url => [url, unit.name])
+  //  })
+  //),
 })
 
 const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectLatest => ({
@@ -123,9 +129,13 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           projectId: project.projectId,
           name: project.name,
           description: project.description,
+          image: project.image,
+          artist: project.artist,
           info: project.info,
           website: project.website,
+          linktext: project.linktext,
           authors: project.authors,
+          statuses: project.statuses,
           tags: project.tags,
           created: project.created,
           updated: project.updated,

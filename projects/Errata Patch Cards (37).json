@@ -1,0 +1,738 @@
+{
+  "projectId": [
+    "10BBA356C8E063B9C82BF9B03DE2531652BBEF963C3550E28E4A08CCF7A5FEEB13257B6A016736D4"
+  ],
+  "name": "Errata Patch Cards",
+  "description": "These cards, with errata from the official FFG FAQs, slide underneath the original cards in play for easy reference. The back sides give a spoiler-free listing of the card(s) the errata applies to.",
+  "image": "errata-patch-cards.png",
+  "artist": null,
+  "info": "Note that FFG does incorporate errata when they reprint campaigns, so you likely only need a subset of these cards.",
+  "website": null,
+  "linktext": null,
+  "authors": [
+    "5argon"
+  ],
+  "statuses": [
+    "Ongoing",
+    "Project Available"
+  ],
+  "tags": [
+    "Add-On",
+    "Taboo & Errata"
+  ],
+  "created": "2023-10-01T14:39:00.687Z",
+  "updated": "2023-10-06T15:59:51.464Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Errata Patch Cards",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc02-1.1-DWL-Burned Ruins (revealed)-1.png",
+            "ID": "38B68CF1C085E2CEE24AEDC126FD6B31",
+            "SourceID": "450DAE5FB08A8AD246E0C980D569C0B22F8551FD",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc02-1.1-DWL-Burned Ruins (revealed)-2.png",
+            "ID": "72BD46152D1F929DD34EF204D6E92EF5",
+            "SourceID": "5A74FFE94FFA428A6917F05BA989DDCD5C7D2A96",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc02-1.2-DWL-Clover Club Pit Boss-1.png",
+            "ID": "821C24D9E39263AF705C231F42B19A40",
+            "SourceID": "DAEC277D937470767B521D855ADF41996C14B509",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc02-1.2-DWL-Clover Club Pit Boss-2.png",
+            "ID": "7FC25517497D9EEA3B757E0AEA3AA9BE",
+            "SourceID": "65F2147E355BCC289C63EAD6EE6958138D508BBC",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc02-1.2-DWL-Peter Clover-1.png",
+            "ID": "63F19F6DB3A02C88B9F9D023CF56AD71",
+            "SourceID": "0B8FE2E172A92F4A2F0E66160437E1940B90D8A1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc02-1.2-DWL-Peter Clover-2.png",
+            "ID": "D770A9F089DC1ACA2E2850B09FCF27B4",
+            "SourceID": "F9B366C3FB5B3AC0AFABDAAFECFA1D815C7FD740",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc02-1.3-DWL-Henry Armitage-1.png",
+            "ID": "EBE82930EE12C94A867E317E78CE1B96",
+            "SourceID": "7AC619EE27A71DE958BC34145E201B1F7C499302",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc02-1.3-DWL-Henry Armitage-2.png",
+            "ID": "478CC3D80511A2FF5A06D3681B72B441",
+            "SourceID": "182B117B22662FE62BE9F8286FB80348206B7EE0",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc02-1.6-DWL-A Sacrifice Made-1.png",
+            "ID": "B69235451B4E229BB08B3164D99E3770",
+            "SourceID": "3007D4829C83190BFEBA7A0F460C4563220A784D",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc02-1.6-DWL-A Sacrifice Made-2.png",
+            "ID": "AF4D144E979A4FF4445169BEEE2A939B",
+            "SourceID": "746FADE973D0D0B0BC6169043DC6F4213E8D2001",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.2-PTC-Corrosion-1.png",
+            "ID": "50E5BD8C272B6C78217513D684AF4CEA",
+            "SourceID": "FCD582C9E137219E504519510943A377E50A3639",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.2-PTC-Corrosion-2.png",
+            "ID": "F9ADDF94C3DFF489EF9E5BAD9AADB4EA",
+            "SourceID": "42972B15287FD897F9D58607368710338D3D0ED4",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.2-PTC-Historical Society-1.png",
+            "ID": "7185D56BA609C3E0597B9DCB4F5535D2",
+            "SourceID": "94BD28E915D9739D68DE3B6F3C45DDC2461651AF",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.2-PTC-Historical Society-2.png",
+            "ID": "BC12BCCE0CE96EC1D4F0E056CE362FBE",
+            "SourceID": "4DADB1A69D3AFDD212AE70B8C74EE61B7C9A1127",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.2-PTC-Patient Confinement-1.png",
+            "ID": "A93614DBF293E1E061AF9362C46AA40F",
+            "SourceID": "DC6F56E7DC7B6D044F1AA09A28BBA69D694EBE23",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.2-PTC-Patient Confinement-2.png",
+            "ID": "BCFCFD586FAF8D91C3675A3C73FB8FC1",
+            "SourceID": "A5EDF8FA5A5F363AFB67EBCB18ED11C5544703C8",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.2-PTC-The Truth is Hidden-1.png",
+            "ID": "CF654D58503E509032FCDE7041832F8C",
+            "SourceID": "E082CE622CD377B0D512E94AD6E1EBBBFFF1E122",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.2-PTC-The Truth is Hidden-2.png",
+            "ID": "8BD1BD22354B4E5C605243DE83621669",
+            "SourceID": "12300158DF2A29A4A81097EBA793D8EF5BE7B8A0",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.3-PTC-Candlelit Tunnels-1.png",
+            "ID": "6BF5B466A38F464B774A364EB53026E1",
+            "SourceID": "2F30AB500DEB9C00D860CAA19B07CAD814138151",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.3-PTC-Candlelit Tunnels-2.png",
+            "ID": "DA1555AC354DF1A9B13791D87A473DE1",
+            "SourceID": "DF077AF3B29C5372D6C013F025B69B61C89936F9",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.3-PTC-Catacombs Docent-1.png",
+            "ID": "627550826C2F94C17B638EEF1BA0F89D",
+            "SourceID": "15C3B1D8490B65D068BBA28D85335EFF430FDE30",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.3-PTC-Catacombs Docent-2.png",
+            "ID": "39E9D27D779E144E4F179A4952FB5953",
+            "SourceID": "E3D3C4BE123E4E989AFADC186F570CD50732BF13",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.3-PTC-Madness Dies-1.png",
+            "ID": "F1D007D856918D07ACA9F346090072E3",
+            "SourceID": "23585B30B81A29D521CEF43A74C61434BBDBFCA1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.3-PTC-Madness Dies-2.png",
+            "ID": "5C283DDB51D4232FB01250759C07AC78",
+            "SourceID": "19815FB8614162FE7842779E04B6F87721E439D9",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc11-1.4-PTC-Realm of Madness-1.png",
+            "ID": "00637BFF8CE63F70B873182AA9AB581A",
+            "SourceID": "BD2FF63E3175F58864552A21995043A6663918A3",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc11-1.4-PTC-Realm of Madness-2.png",
+            "ID": "098F1972C545DBF878D9ED2F4F9C8093",
+            "SourceID": "5DDABE789B82D5C48754521BF98AE3DF8845D9B7",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.6-TCU-Deaths Approach-1.png",
+            "ID": "80CB628E3B5408FAD7BEB0A5897A0579",
+            "SourceID": "2216EE00017B4CC74976685906C66C8AA7C6A4C3",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.6-TCU-Deaths Approach-2.png",
+            "ID": "E1CD6733CDCD47BD8B0203FB27795088",
+            "SourceID": "772C648D6085BE1D70737114BC5E296BF962FFB2",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.6-TCU-In Pursuit of the Dead-1.png",
+            "ID": "B8D26B2553B5235B4DB258B9F9047FC9",
+            "SourceID": "1B480B9521E7B2969D3078B5AC30A0D8D46172E2",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.6-TCU-In Pursuit of the Dead-2.png",
+            "ID": "594734686964C32ACC2BB64E8950F83C",
+            "SourceID": "A71DEC6D173D111B8B1C0853EFAE4875C7F03948",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.6-TCU-Unfinished Business (My bones...)-1.png",
+            "ID": "25B49EA96861339C7339576146C484A6",
+            "SourceID": "4725318C5959984DA262F93B3D722F2E6FC2ABB0",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.6-TCU-Unfinished Business (My bones...)-2.png",
+            "ID": "B53169145869503F524C03C49F12C2D2",
+            "SourceID": "6BF2541066840E499AC6EEEB68E27965BB02A042",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.6-TCU-Unfinished Business-1.png",
+            "ID": "C446E397F094A9D5C042AAE17256B3AD",
+            "SourceID": "09B8316D9404FC20C3D7CA2FC363EBD1424B3290",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.6-TCU-Unfinished Business-2.png",
+            "ID": "B9E554F8418BD1E223DA7C87598AE528",
+            "SourceID": "7770F23E49EF00E286706AFB4FF13C8476CECCE1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.7-TCU-Nucleus of the Universe-1.png",
+            "ID": "411F4A894050B7D9FD34F4781B5FCA5B",
+            "SourceID": "ADDB5BFAA6298E288518E493EFAF90CE949A8C99",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.7-TCU-Nucleus of the Universe-2.png",
+            "ID": "AEDBCE609090FD5656D54A7776905A3B",
+            "SourceID": "FBCD20DC66ADFBD1B8FD5E1DE4665D8C17C3A9DC",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc29-1.7-TCU-Palace of the Old Ones-1.png",
+            "ID": "671BE37F9AAA6EBD04D4A36E7078FC1C",
+            "SourceID": "50424EF48784494AAB2DB0C8ED909A9DB06490D2",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc29-1.7-TCU-Palace of the Old Ones-2.png",
+            "ID": "C2BFAD473304958C8E67FBD1C9A713B8",
+            "SourceID": "C7D550877D915C728EE1842851198E4BC501326A",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc37-1.9-TDE-The Black Expanse-1.png",
+            "ID": "F607C7FD2732F26DC624598C5A76D639",
+            "SourceID": "7EC80C0D604FBD5F62C1C27DB99EE03955DCDAF1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc37-1.9-TDE-The Black Expanse-2.png",
+            "ID": "E55AA212C44526087824649280D10181",
+            "SourceID": "ED6D3AF0F7B84A5A3744C7CE897539569E4D5EC4",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc38-1.7-HOTEL-Otherworldly Meddler-1.png",
+            "ID": "2BC9E38102E4E9BBD8F8346E01FAF413",
+            "SourceID": "539A39936FA1D6F7894692BD96A93B3BF109B232",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc38-1.7-HOTEL-Otherworldly Meddler-2.png",
+            "ID": "9E5079003A2A2C6E97F710AB7A154E44",
+            "SourceID": "FDFDEB4DCCF36FE25EC1FB0461B6BDAA32365E4A",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc52-1.9-TIC-Back into the Depths-1.png",
+            "ID": "B1CEA0110FEECEE4E367490C046E92B0",
+            "SourceID": "4936D7FAE85CC3882D9C220285C6A9BBEA0A3095",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc52-1.9-TIC-Back into the Depths-2.png",
+            "ID": "7B3217733D41B3F0BE151AE9DED8C183",
+            "SourceID": "E2C01412A93541DE83A8C85C95BE66D543252063",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc52-2.0-TIC-Dagon-1.png",
+            "ID": "5AF172BA86315F60F0DCC225F8C8CA03",
+            "SourceID": "64F230C1D45EEC533B31BAAB6923617980026BA8",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc52-2.0-TIC-Dagon-2.png",
+            "ID": "B639B946948F184EF9D9BAE9BFA2ECFB",
+            "SourceID": "2C6E915155BF3FF4A1B8E4E2EBE92DC0634DDA11",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc61-2.0-RTTCU-Unstable Energies-1.png",
+            "ID": "EFD14ED53AA45E798D1AA8F8BFF110B5",
+            "SourceID": "E26F5BF32A0537FF5E54BBD73C8B7498D06482A1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc61-2.0-RTTCU-Unstable Energies-2.png",
+            "ID": "AAEA3ABD06806513A60EACDC8A1FC136",
+            "SourceID": "D229C411D3B9910766CC7E73BFA7E1EE73D42F59",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc61-2.0-RTTCU-Winding Gulf-1.png",
+            "ID": "777DC66D9E5438B0CD608E7E4D6564DE",
+            "SourceID": "CB20AE37E9C4C759EB8DA4D8D7CDE9A502F35D96",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc61-2.0-RTTCU-Winding Gulf-2.png",
+            "ID": "102EDABDFBF790B4CCD20969458308A3",
+            "SourceID": "87C1EEDD4C9349CA34F5827C88B7B79DD035111F",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc61-2.0-RTTCU-Witchweed-1.png",
+            "ID": "E833D8D4EAEBBC595833B08469B780A7",
+            "SourceID": "0E794DF47F5CF5386E39B45C7AC9D4C806EF4453",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc61-2.0-RTTCU-Witchweed-2.png",
+            "ID": "8A5DF7F8F4BBEC3F96A7932F0B5682B9",
+            "SourceID": "9C11DE89D12F4D0A119946EE3E50A9505F6E5009",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc61-2.1-RTTCU-Wine Cellar-1.png",
+            "ID": "5A08B33E6F48BAE9376CCD9A8617E64E",
+            "SourceID": "C4F44E432D0C10E8422CD5067D8E37C836B133FA",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc61-2.1-RTTCU-Wine Cellar-2.png",
+            "ID": "BD5317997EBF4EDDE596C2533DF362D6",
+            "SourceID": "FFEB119503531BEE39537BFA82061C36E0D8DC28",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc64-2.1-EOTE-Map Room-1.png",
+            "ID": "3EF6733B9E275871FBE045348F895692",
+            "SourceID": "4A3063F26F813D189CD5584C0AEB118470F642D2",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc64-2.1-EOTE-Map Room-2.png",
+            "ID": "E71BF104A82BA59C2175C6493012F4C9",
+            "SourceID": "51DC5E22437456078C81DBA4DD1C0FF30C0A8D15",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc64-2.1-EOTE-Protoplasmic Mass-1.png",
+            "ID": "679EA32D6F994061AA8D0853F2BD0E06",
+            "SourceID": "7A96D34AA188ED6FE6A662BA4D3CCE59818D6ACF",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc64-2.1-EOTE-Protoplasmic Mass-2.png",
+            "ID": "0E1C517E70C77EFA6FF9F43CC05114F2",
+            "SourceID": "14E4B3908D1CDC7A254D01D47BF46E6B9C530208",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc64-2.1-EOTE-To the Forbidden Peaks-1.png",
+            "ID": "0D5A364358EA807F491336141DD16A2E",
+            "SourceID": "3D400E53E8E32EB265771F1BA735D113F27619E4",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc64-2.1-EOTE-To the Forbidden Peaks-2.png",
+            "ID": "C82259F92BE2DF02E6286CBBC68D2E7F",
+            "SourceID": "A3481788609F3676285D6A7276EB40F383B6EA3C",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-Bamboozled!-1.png",
+            "ID": "3EA39AB88C19FA7D6B70FF6837EEA8AB",
+            "SourceID": "DF43123E895DEAD40AAE7300F7E11A4DBFB48416",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-Bamboozled!-2.png",
+            "ID": "9304A51A284743DDD4D709123AA7F793",
+            "SourceID": "973D957A4E0FDE3F6B3F90154C7C4763413DCEF1",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-Court of the Outsiders-1.png",
+            "ID": "9988F1F8CE9FD676C9322F8F0B741364",
+            "SourceID": "1EA27DB35B0D53507DA69198046A91A8E00C982D",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-Court of the Outsiders-2.png",
+            "ID": "2011EF368C020D2DB318DBBB4BD3C787",
+            "SourceID": "8110B71C1D67225087AE2569799F7E9E008293BB",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-In a Shadow of Voidlight-1.png",
+            "ID": "9526DA098F1B2EDAD32969D7D500C090",
+            "SourceID": "6344139CCD255E56BE50DF1E8A0C1F67D9EDE410",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-In a Shadow of Voidlight-2.png",
+            "ID": "8B1A4D3C5DA56401ECA364F8C70059E3",
+            "SourceID": "55F575A471B941C757F51AD56A6B6A8F8CFB639E",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-Seeing Red-1.png",
+            "ID": "6CA8C1AE7C062EA76F73EC3BD2485454",
+            "SourceID": "9C3794380DEEE88E58553F9770B31EC50D5DE4A5",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-Seeing Red-2.png",
+            "ID": "5A0611A3FBD8B7871C736AB3C3AC33D9",
+            "SourceID": "37361ADB74B95C2F2E189360E1CE7715C059C59E",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-Talisman Discovered-1.png",
+            "ID": "A2EEFF075F4D35552EE7C0351E666DEC",
+            "SourceID": "6A94FFCEED7449AAD5DB40A5FDEF8EFB7E4BA2F7",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-Talisman Discovered-2.png",
+            "ID": "1A7B23A810E8E58F64A3DE318CC12855",
+            "SourceID": "ECD74CF6D13892FDE95470EAC4BA44F85AB154D3",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-The Chase-1.png",
+            "ID": "A7BF030CCD903863DF40335E3E7A19CD",
+            "SourceID": "8AE670FA3B84D162EB931D2E4338FE4E7A38F2D6",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-The Chase-2.png",
+            "ID": "51999B72B37187050219CF4C035228C4",
+            "SourceID": "DCD5AD8D88B53DBBBD85D2A2C906A7428B08734F",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "ahc70-2.1-TSK-Truths Untold-1.png",
+            "ID": "24C8BD3C784390EC30BBD2E7DC5CB5AD",
+            "SourceID": "22A4CE1DD07DD87856301E6AFB19E1724438740E",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          },
+          "back": {
+            "Name": "ahc70-2.1-TSK-Truths Untold-2.png",
+            "ID": "FEE5E6B7E1244C5B426757CF54EC4DE2",
+            "SourceID": "765EBF8A38E5AFE36C19F728A925A058DEF46454",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1124
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "efca43620f5cec93f8be4225a12a34fae79e953b2ef33d28e88714ee7a7f14ad"
+}

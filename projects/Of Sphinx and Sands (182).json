@@ -3,16 +3,23 @@
     "EF50597E7CDEEBC404F8A67D00915C801B6A50A923CDCDA52BD6167025044FD8E22D362F3765317D"
   ],
   "name": "Of Sphinx and Sands",
-  "description": "",
+  "description": "A 3-scenario Egyptian-themed campaign, revised in 2021.",
+  "image": "sphinx-and-sands.png",
+  "artist": null,
   "info": null,
   "website": "https://boardgamegeek.com/thread/1754803/sphinx-and-sands-2021-revised-version",
+  "linktext": null,
   "authors": [
     "PuertoMateo"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.683Z",
+  "created": "2017-11-24T04:45:26.683Z",
   "updated": "2023-08-13T20:43:40.200Z",
   "version": 2,
   "code": "C380050185D1C1AF",

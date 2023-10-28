@@ -3,16 +3,23 @@
     "A7D2555D6D25450B4D9908C521CBE2DD131AC85C1D8EDFC077C5734ACC4A7825CED202AB40230E27"
   ],
   "name": "Cyclopean Foundations",
-  "description": "",
+  "description": "An 8-part campaign drawing from Lovecraft’s “Call of Cthulhu” and the Eldritch Horror board game.",
+  "image": "cyclopean-foundations.png",
+  "artist": "Anton Kurbatov",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/05/29/cyclopean-foundations-campaign/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.694Z",
+  "created": "2022-08-06T04:45:26.694Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,
   "code": "C380050185D1C1AF",

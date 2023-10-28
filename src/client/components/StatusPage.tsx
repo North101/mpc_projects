@@ -4,21 +4,21 @@ import { AppContainer } from './AppContainer'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { FilteredProjectListContainer } from './FilteredProjectList'
 
-interface SiteProjectsProps {
-  site: string
+interface StatusProjectsProps {
+  status: string
   projects: ProjectInfo[]
 }
 
-const SiteProjects = ({ site, projects }: SiteProjectsProps) => {
-  const filteredProjects = projects.filter(e => Object.values(e.sites).find(e => e == site))
+const StatusProjects = ({ status, projects }: StatusProjectsProps) => {
+  const filteredProjects = projects.filter(e => e.statuses.find(e => e == status))
   return <FilteredProjectListContainer projects={filteredProjects} />
 }
 
-interface SitePageProps {
-  site: string
+interface StatusPageProps {
+  status: string
 }
 
-export const SitePage = (props: SitePageProps) => {
+export const StatusPage = (props: StatusPageProps) => {
   const projects = useProjects()
   if (projects == undefined) {
     return (
@@ -28,5 +28,9 @@ export const SitePage = (props: SitePageProps) => {
     )
   }
 
-  return <SiteProjects {...props} projects={projects} />
+  return (
+    <AppContainer>
+      <StatusProjects {...props} projects={projects} />
+    </AppContainer>
+  )
 }

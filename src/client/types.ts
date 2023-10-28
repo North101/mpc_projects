@@ -38,9 +38,13 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
+  image?: string | null
+  artist?: string | null
   info?: string | null
   website?: string | null
+  linktext?: string | null
   authors: string[]
+  statuses: string[]
   tags: string[]
   created: string
   updated: string
@@ -48,6 +52,7 @@ export interface ProjectMeta {
 }
 
 export interface PartMeta extends Part {
+  key: number
   enabled?: boolean
 }
 
@@ -64,6 +69,7 @@ export type ProjectLatestMeta = ProjectV2Meta
 export type ProjectUnionMeta = ProjectV1Meta | ProjectV2Meta
 
 export interface PartInfo {
+  key: number
   name: string
   count: number
   enabled: boolean
@@ -73,14 +79,18 @@ export interface ProjectInfo {
   filename: string
   name: string
   description: string
+  image: string | null
   info: string | null
+  artist: string | null
   website: string | null
+  linktext: string | null
   authors: string[]
+  statuses: string[]
   tags: string[]
   created: string
   updated: string
-  sites: {
-    [key: string]: string
-  }
+  //sites: {
+  //  [key: string]: string
+  //}
   parts: PartInfo[]
 }

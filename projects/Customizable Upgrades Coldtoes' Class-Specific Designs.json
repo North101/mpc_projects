@@ -2,18 +2,26 @@
   "projectId": [
     "4C5F3184E5AF2C5E9625FC346B40774FEF4BF7BA20C458CD5E853491320BF9B33BABF4D42DBB6897"
   ],
-  "name": "Customizable Upgrade Cards, Class-Specific Alt-Art ",
-  "description": "Alternate design of TSK customizable upgrade cards for a more colorful, class-specific look. Note that in some cases the card text has been modified slightly for space concerns. By default the project is set to only one copy of each card, so make sure to customize for the quantity you want.",
-  "info": null,
+  "name": "Customizable Upgrade Cards",
+  "description": "Alternate design of TSK customizable upgrade cards for a more colorful, class-specific look. ",
+  "image": "coldtoes-customizable.png",
+  "artist": null,
+  "info": "Requires the customizable player cards from The Scarlet Keys Investigator Expansion. Note that in some cases the card text has been modified slightly for space concerns. By default the project is set to only one copy of each card, so make sure to customize for the quantity you want.",
   "website": "https://drive.google.com/drive/folders/1qF_iKUTU8aPWgWQe-ee64tJuPc22E-gR?usp=drive_link",
+  "linktext": "View the cards",
   "authors": [
     "Coldtoes"
   ],
-  "tags": [
-    "Investigator",
-    "Alt-Art"
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
-  "created": "2023-08-08T04:45:26.693Z",
+  "tags": [
+    "Player Cards",
+    "Alt-Art",
+    "Add-On"
+  ],
+  "created": "2022-04-12T04:45:26.693Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,
   "code": "C380050185D1C1AF",

@@ -2,22 +2,30 @@
   "projectId": [
     "B8A79C0D599053412E6D29828DD4C9389E754B16608C52CC4AA095BFE26DB3BA279C09B5DA3CEAC6",
     "2772015665F9119BEB59A778FCF39B3A7EC2CAB58EEE66543A1622C40C138C80252A97735527CF1D",
-    "58539D4AE7D79DA95857DEADE1E2448E4B4963FD356165545EA19997855DE4429F123D762C4E8173"
+    "58539D4AE7D79DA95857DEADE1E2448E4B4963FD356165545EA19997855DE4429F123D762C4E8173",
+    "C4060208A4C5FF04EA0705C14AE99AF7110D5316AD5B6441FDE029DDDBD67588A431AD3020E42D2F"
   ],
   "name": "Parallel Investigators",
-  "description": "",
+  "description": "Enter an alternate dimension with FFG's parallel versions of Arkham investigators.",
+  "image": "ahc_ashcanpete_article_preview.png",
+  "artist": "Jake Murray",
   "info": null,
   "website": null,
+  "linktext": null,
   "authors": [
     "Fantasy Flight Games"
   ],
-  "tags": [
-    "Investigator",
-    "Standalone",
-    "Parallel"
+  "statuses": [
+    "Ongoing",
+    "Project Available"
   ],
-  "created": "2023-08-08T04:45:26.681Z",
-  "updated": "2023-08-14T07:15:31.721Z",
+  "tags": [
+    "Investigator(s)",
+    "Standalone",
+    "Rework"
+  ],
+  "created": "2020-05-05T04:45:26.681Z",
+  "updated": "2023-10-22T14:00:31.935Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -84,7 +92,8 @@
       ]
     },
     {
-      "name": "Parallel Daisy Walker (Revised Art)",
+      "name": "Parallel Daisy Walker (Revised Core Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -146,7 +155,7 @@
       ]
     },
     {
-      "name": "Parallel Daisy Walker - Read or Die",
+      "name": "Read or Die (scenario for Parallel Daisy)",
       "cards": [
         {
           "count": 1,
@@ -289,7 +298,8 @@
       ]
     },
     {
-      "name": "Parallel \"Skids\" O'Toole (Revised Art)",
+      "name": "Parallel \"Skids\" O'Toole (Revised Core Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -351,7 +361,7 @@
       ]
     },
     {
-      "name": "Parallel \"Skids\" O'Toole - All or Nothing",
+      "name": "All or Nothing (scenario for Parallel Skids)",
       "cards": [
         {
           "count": 1,
@@ -532,7 +542,8 @@
       ]
     },
     {
-      "name": "Parallel Agnes Baker (Revised Art)",
+      "name": "Parallel Agnes Baker (Revised Core Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -594,7 +605,7 @@
       ]
     },
     {
-      "name": "Parallel Agnes Baker - Bad Blood",
+      "name": "Bad Blood (scenario for Parallel Agnes)",
       "cards": [
         {
           "count": 1,
@@ -832,7 +843,8 @@
       ]
     },
     {
-      "name": "Parallel Roland Banks (Revised Art)",
+      "name": "Parallel Roland Banks (Revised Core Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -989,7 +1001,7 @@
       ]
     },
     {
-      "name": "Parallel Roland Banks - By the Book",
+      "name": "By the Book (scenario for Parallel Roland)",
       "cards": [
         {
           "count": 1,
@@ -1170,7 +1182,8 @@
       ]
     },
     {
-      "name": "Parallel Wendy Adams (Revised Art)",
+      "name": "Parallel Wendy Adams (Revised Core Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -1252,6 +1265,7 @@
     },
     {
       "name": "Parallel Wendy Adams (Hard Knocks Art)",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -1275,7 +1289,7 @@
       ]
     },
     {
-      "name": "Parallel Wendy Adams - Red Tide Rising",
+      "name": "Red Tide Rising (scenario for Parallel Wendy)",
       "cards": [
         {
           "count": 1,
@@ -1435,7 +1449,259 @@
           }
         }
       ]
+    },
+    {
+      "name": "Parallel Jim Culver + Laid to Rest scenario",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "049 Parallel Jim Culver-1.png",
+            "ID": "A52F25857A0A1A386DF82094D8C6DA43",
+            "SourceID": "7F913E9320C2F7A6400BF12DCCC517BBF45A93FE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "049 Parallel Jim Culver-2.png",
+            "ID": "22951647330410D3A6B9381CC4618F15",
+            "SourceID": "D562DB6057AD7AF0A44A884B0B2F796099D95C5E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "050 Jim's Trumpet Advanced-1.png",
+            "ID": "A53499E5EA2F45F1B503727DDC629026",
+            "SourceID": "E76A242DF031FE819D2C9C65132004EC44F13774",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "051 Final Rhapsody Advanced-1.png",
+            "ID": "C81725B5392BCF1200557B63F3CEA738",
+            "SourceID": "3EE9FF5C7F5B79E039A3A0EAFF83C5FA42052083",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "052 The Beyond-1.png",
+            "ID": "72E6CD90B9B6655D24A753C68D794E2F",
+            "SourceID": "42BFC475972136BF7D8B0F8994CFC094465E712A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "052 The Beyond-2.png",
+            "ID": "2E2BA465669220EC53804F9E0D24C52F",
+            "SourceID": "D2440E22E130F1A97CC675232AAA5F2B20E554CE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "053 Vengeful Shade-1.png",
+            "ID": "33FEA0BDFFE3DCEB281F47658C3F4545",
+            "SourceID": "71D461B76ECA103DB89DB829C74441F318469129",
+            "Exp": "png",
+            "Width": 824,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "054 Laid to Rest-1.png",
+            "ID": "5526BF0E8CA72362436CBD68081207BF",
+            "SourceID": "CA97DE2E46D1D7655A086E2664719F9E08749702",
+            "Exp": "png",
+            "Width": 821,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "054 Laid to Rest-2.png",
+            "ID": "FA1DE940EA09373F322DC493A4CC2DEE",
+            "SourceID": "D12BE5D65BAF2A1187EBC912534ACC0860748800",
+            "Exp": "png",
+            "Width": 821,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "055 Agenda 1-a.png",
+            "ID": "F702E24B662F5339061856DE72220A80",
+            "SourceID": "D01AA077EC0D01BE5CF9B47ED3BA4335F4920355",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "055 Agenda 1-b.png",
+            "ID": "FE0951D85B696221F530ABB208704718",
+            "SourceID": "79B913486DD3A3F282A024CE2AE1132FA6730F61",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "056 Act 1-a.png",
+            "ID": "C13DA19E96DB43DCC3FCE1E94F61AAE3",
+            "SourceID": "20CB60A442101ACA47B26B3C454055E786429DD3",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "056 Act 1-b.png",
+            "ID": "2CC4A5663AFF33C64B3930160F8B74D2",
+            "SourceID": "0BF3CE8AC23D65B21143FBC78E4DDDCD370F5811",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "057 Jean Devereux-1.png",
+            "ID": "C75398DB3DA6A76C2FB4BC8BBC6F7180",
+            "SourceID": "36A85E9321C4B0BA86097153B0D95238DEF40621",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "057 Jean Devereux-2.png",
+            "ID": "72090DB3A4118D882653E0EC83D02976",
+            "SourceID": "4E8F9D906D8A71B9EA35832C19F1F4A6FDBD8DB0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "058 Ravenous Spirit-01-1.png",
+            "ID": "A7E6472DB5A49E218A9CBFCE3CD30849",
+            "SourceID": "B549783A9DC6DE582E4FDD59D075CC04BD5B773A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "058 Ravenous Spirit-01-2.png",
+            "ID": "E370CAC7FB710BCF2739D04C7085AF32",
+            "SourceID": "DC73A09881B7D2B909204F8615C8154FED46FCB4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "058 Ravenous Spirit-02-1.png",
+            "ID": "ED5B116B25521F57811C5FC57FCDCF56",
+            "SourceID": "40CFC9576E55967799CCE2AFC18B75D058208ECE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "058 Ravenous Spirit-02-2.png",
+            "ID": "E370CAC7FB710BCF2739D04C7085AF32",
+            "SourceID": "DC73A09881B7D2B909204F8615C8154FED46FCB4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "058 Ravenous Spirit-03-1.png",
+            "ID": "82770B995867742966615A6056EFBE4A",
+            "SourceID": "81884327D9F14EB966A6B71F17B004E349C7C015",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "058 Ravenous Spirit-03-2.png",
+            "ID": "E370CAC7FB710BCF2739D04C7085AF32",
+            "SourceID": "DC73A09881B7D2B909204F8615C8154FED46FCB4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "058 Ravenous Spirit-04-1.png",
+            "ID": "A631BFDFA4CDA1E0465D6C1BAD8AE5B9",
+            "SourceID": "F683835BDF77DFAB5DB6ACB158B0F1B6847A790A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "058 Ravenous Spirit-04-2.png",
+            "ID": "E370CAC7FB710BCF2739D04C7085AF32",
+            "SourceID": "DC73A09881B7D2B909204F8615C8154FED46FCB4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
     }
   ],
-  "hash": "2e1caa201b4ad5008fa44dfa19cf6b3ddc671daed57e5564dd1c9e0b7e60496f"
+  "hash": "62052626079c25222245d1e786ea2fa33ca3b58e5797668b900aeea7eb25b511"
 }

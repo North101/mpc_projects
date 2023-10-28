@@ -3,16 +3,24 @@
     "95BFD5A9B5DE7CD802D91D83F45FA23B77C4658183FFF7591157596DCEB41F91B6B93EEC19BEB3F5"
   ],
   "name": "The Symphony of Erich Zann",
-  "description": "",
+  "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
+  "image": "erich-zann.png",
+  "artist": "Ilich Henriquez",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/16/the-symphony-of-erich-zann/",
+  "linktext": null,
   "authors": [
     "Axolotl"
   ],
-  "tags": [
-    "Standalone"
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
-  "created": "2023-08-08T04:45:26.680Z",
+  "tags": [
+    "Standalone",
+    "Investigator(s)"
+  ],
+  "created": "2020-04-20T04:45:26.680Z",
   "updated": "2023-08-13T20:43:40.202Z",
   "version": 2,
   "code": "C380050185D1C1AF",

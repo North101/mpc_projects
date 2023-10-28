@@ -28,5 +28,9 @@ export const TagPage = (props: TagPageProps) => {
     )
   }
 
-  return <TagProjects {...props} projects={projects} />
+  return (
+    <AppContainer>
+      <TagProjects {...props} projects={projects} />
+    </AppContainer>
+  )
 }

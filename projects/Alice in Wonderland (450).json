@@ -3,16 +3,23 @@
     "8E4239E5875D201D7D96BE7448B4CB6DFD31F59E7DB82A2C828CAB56B1F53B8D3FACD40576604374"
   ],
   "name": "Alice in Wonderland",
-  "description": "",
+  "description": "An 8-scenario campaign that can be played forwards or backwards, mixing Arkham with the Lewis Carroll classics.",
+  "image": "alice.png",
+  "artist": "Hanh Chu",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/alice-in-wonderland-campaign/",
+  "linktext": null,
   "authors": [
     "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.702Z",
+  "created": "2021-03-23T04:45:26.702Z",
   "updated": "2023-08-13T20:43:40.209Z",
   "version": 2,
   "code": "C380050185D1C1AF",
