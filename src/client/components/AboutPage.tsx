@@ -1,6 +1,4 @@
 import { AppContainer } from './AppContainer'
-import Col from 'react-bootstrap/esm/Col'
-import Row from 'react-bootstrap/esm/Row'
 
 export const AboutPage = () => {
   return (

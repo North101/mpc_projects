@@ -1,16 +1,17 @@
 {
   "name": "mpc_projects",
   "private": true,
-  "version": "0.0.0",
+  "type": "module",
+  "version": "1.0.0",
   "scripts": {
     "dev": "nodemon src/server/main.ts -w src/server",
     "start": "NODE_ENV=production ts-node src/server/main.ts",
-    "build": "vite build",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts.tsx --report-unused-disable-directives",
     "deploy": "pm2 deploy --env production deploy.json update"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-
     "bootstrap": "^5.3.1",
     "cheerio": "^1.0.0-rc.12",
     "dotenv-flow": "^3.3.0",
@@ -25,9 +26,10 @@
     "react-markdown": "^8.0.7",
     "rehype-raw": "^6.1.1",
     "smartquotes": "^2.3.2",
-    "use-debounce": "^9.0.4",
+    "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2",
+    "use-debounce": "^9.0.4",
     "vite-express": "*",
     "wouter": "^2.11.0"
   },
