@@ -1,1 +1,1 @@
-../src/types.ts
+../src/client/types.ts
