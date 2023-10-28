@@ -62,8 +62,8 @@ export const Intro = () => {
   return (
     <>
       <Modal className='intro' show={show} onHide={handleClose} onShow={handleShow}>
-        <img className='intro-bg mobile d-block d-lg-none' src='/src/assets/images/act-1-mobile.png' alt='The left half of an Arkham Horror Act card, depicting an old book open to a page titled Your Inexorable Fate.' />
-        <img className='intro-bg d-none d-lg-block' src='/src/assets/images/act-1.png' alt='An Arkham Horror Act card with the art from the TCU card Fate of All Fools by Brian Valenzuela, showing a red-robed cultist holding a curved knife to the throat of a limp man.' />
+        <img className='intro-bg mobile d-block d-lg-none' src='/assets/images/act-1-mobile.png' alt='The left half of an Arkham Horror Act card, depicting an old book open to a page titled Your Inexorable Fate.' />
+        <img className='intro-bg d-none d-lg-block' src='/assets/images/act-1.png' alt='An Arkham Horror Act card with the art from the TCU card Fate of All Fools by Brian Valenzuela, showing a red-robed cultist holding a curved knife to the throat of a limp man.' />
         <Modal.Header closeButton />
         <Modal.Body>
           <p>

@@ -13,7 +13,7 @@ const useFetch = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const r = await fetch('/src/assets/help.md')
+      const r = await fetch('/assets/help.md')
       setData(await r.text())
     }
 

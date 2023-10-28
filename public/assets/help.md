@@ -2,7 +2,7 @@
   <section id="getting-started">
     <h2 class="display-4">Getting Started</h2>
     <h3 id="install-extension">Installing the Chrome Extension</h3>
-    <img class="float-end outline ms-4 mb-4" width=312 height=271 src="/src/assets/images/screenshot-pin-extension.png"/>
+    <img class="float-end outline ms-4 mb-4" width=312 height=271 src="/assets/images/screenshot-pin-extension.png"/>
     <ol>
       <li>
         <p>Install the extension from the <a href="https://chrome.google.com/webstore/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko">chrome web store</a> by clicking <strong>Add to Chrome</strong>.
@@ -120,7 +120,7 @@
         <p>Download the Arkham Horror homebrew or FFG PnP project(s) you want to print.</p>
       <li>
         <p>Click the <strong>Add projects</strong> button on the <strong>Project</strong> tab.</p>
-        <img class="w-100 outline mb-4" src="/src/assets/images/screenshot-add-projects.png"/>
+        <img class="w-100 outline mb-4" src="/assets/images/screenshot-add-projects.png"/>
       <li>
         <p>Browse to the location of your project .json file, select it, and click <strong>Open</strong>.</p>
       </li>
@@ -136,17 +136,17 @@
         </p>
       </li>
       <li>
-        <p><img class="float-end outline" width=40 src="/src/assets/images/screenshot-edit-button.png"/>If you wish to remove cards from an existing project, click the edit icon next to the project. Then use the trash icon to delete any cards you don&rsquo;t need.
+        <p><img class="float-end outline" width=40 src="/assets/images/screenshot-edit-button.png"/>If you wish to remove cards from an existing project, click the edit icon next to the project. Then use the trash icon to delete any cards you don&rsquo;t need.
         </p>
       </li>
-      <img class="w-100 outline mb-4" src="/src/assets/images/screenshot-delete-card.png"/>
+      <img class="w-100 outline mb-4" src="/assets/images/screenshot-delete-card.png"/>
       <li>
         <p>If you wish to add or replace cards within a project, you&rsquo;ll need to make a second project file with the cards you want to add and then combine the two projects. See the <a href="#creator-combine-edit">Combining and Editing Projects</a> section under <a href="#project-create">Creating a Project from Card Images</a> for more detailed instructions.
         </p>
       </li>
     </ol>
     <h3 id="finalize">Finalizing and Uploading Your Project</h3>
-    <img class="float-end outline ms-4" width=300 src="./src/assets/images/screenshot-print-options.png"/>
+    <img class="float-end outline ms-4" width=300 src="./assets/images/screenshot-print-options.png"/>
     <ol>
       <li>
         <p>When you are happy with the project, click <strong>Upload</strong>.</p>
@@ -160,7 +160,7 @@
         <p>Other settings can be left at the default.</p>
         <p>Click <strong>Upload</strong>.</p>
       <li>
-        <p><img class="float-end outline ms-4" width=300 src="/src/assets/images/screenshot-success.png"/>On the <strong>Success</strong> screen, if you have combined multiple projects or made any edits, click the <strong>Save as Project</strong> button to save a .json file for your project. This will enable you to reload and edit it later if you need to make changes.
+        <p><img class="float-end outline ms-4" width=300 src="/assets/images/screenshot-success.png"/>On the <strong>Success</strong> screen, if you have combined multiple projects or made any edits, click the <strong>Save as Project</strong> button to save a .json file for your project. This will enable you to reload and edit it later if you need to make changes.
         </p>
       </li>
       <li>
@@ -182,7 +182,7 @@
     <li>
       <p>If you are loading a project that someone else created, even after giving the page time to load, you may see broken image icons instead of the card images you expect. This is due to the way MPC caches images — it is likely that if you printed the project it would print correctly (one person has tested this and it was successful), but this is an understandably big risk, given the cost of MPC printing and shipping.
       </p>
-      <img class="mt-2 mb-4" width=500 src="/src/assets/images/screenshot-broken-image.png"/>
+      <img class="mt-2 mb-4" width=500 src="/assets/images/screenshot-broken-image.png"/>
       <p>The way to resolve this problem is to contact the person who created the project file and ask them to click
         <strong>Edit</strong> on their saved project(s), allowing the images to reload. Once they have done this, you should be able to see the images in your account as well.
       </p>
