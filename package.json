@@ -1,7 +1,6 @@
 {
   "name": "mpc_projects",
   "private": true,
-  "type": "module",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon src/server/main.ts -w src/server",

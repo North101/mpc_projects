@@ -6,4 +6,4 @@
 /dev
 
 deploy.json
-.env
+*.env
