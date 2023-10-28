@@ -30,18 +30,34 @@ const readProjectList = async (projectsDir: string) => {
 }
 
 const login = async () => {
+  const url = config.refreshProjects.url
+  if (!url) {
+    console.log('REFRESH_PROJECTS_URL is empty')
+    return
+  }
+  const email = config.refreshProjects.email
+  if (!email) {
+    console.log('REFRESH_PROJECTS_EMAIL is empty')
+    return
+  }
+  const password = config.refreshProjects.password
+  if (!password) {
+    console.log('REFRESH_PROJECTS_PASSWORD is empty')
+    return
+  }
+
   const body = new URLSearchParams()
   body.set('__EVENTTARGET', 'btn_submit')
   body.set('__EVENTARGUMENT', '')
   body.set('__VIEWSTATE', '/wEPDwUKMTM3NjI2NzUxMg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw9kFgICAQ9kFggCCw8WAh4Hb25jbGljawUnamF2YXNjcmlwdDpyZXR1cm4gYnRuX3N1Ym1pdF9vbmNsaWNrKCk7ZAINDxYCHgRocmVmBRouL3N5c3RlbS9zeXNfcmVnaXN0ZXIuYXNweGQCDw8PFgQeBUFwcElkBQ8xNzQ3NjU5NzU5ODUyNTceCExvZ2luVXJsBQpsb2dpbi5hc3B4ZGQCEQ8PFgQeCENsaWVudElkBUg2NjY1Mjc5MDE0OTAtZWRmMzM1NGFtODh1OGR2cDI2YWQ5NGw1MDY1bGRxNDIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20fBAUKbG9naW4uYXNweGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQxja2JfcmVtZW1iZXJAO4PuIRL4YBdOmiolbn9lUmBRRg==')
   body.set('__VIEWSTATEGENERATOR', 'C2EE9ABB')
-  body.set('txt_email', config.refreshProjects.email)
-  body.set('txt_password', config.refreshProjects.password)
+  body.set('txt_email', email)
+  body.set('txt_password', password)
   body.set('g-recaptcha-response', '')
   body.set('hidd_verifyResponse', '')
   body.set('ckb_remember', 'on')
 
-  const r = await fetch(new URL('/login.aspx', config.refreshProjects.url), {
+  const r = await fetch(new URL('/login.aspx',url), {
     method: 'POST',
     redirect: 'manual',
     headers: {

@@ -6,8 +6,8 @@ export default {
   refreshProjects: {
     schedule: envVar.get('REFRESH_PROJECTS_SCHEDULE').asString(),
     immediatly: envVar.get('REFRESH_PROJECTS_IMMEDIATLY').default('false').asBool(),
-    url: envVar.get('REFRESH_PROJECTS_URL').required().asUrlString(),
-    email: envVar.get('REFRESH_PROJECTS_EMAIL').required().asEmailString(),
-    password: envVar.get('REFRESH_PROJECTS_PASSWORD').required().asString(),
+    url: envVar.get('REFRESH_PROJECTS_URL').default('').asUrlString(),
+    email: envVar.get('REFRESH_PROJECTS_EMAIL').default('').asEmailString(),
+    password: envVar.get('REFRESH_PROJECTS_PASSWORD').default('').asString(),
   },
 }
