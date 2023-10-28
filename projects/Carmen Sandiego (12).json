@@ -3,23 +3,23 @@
     "AB2410B44679208B0FF54A30816DE9A834452402D2A17E2BA60401C2D3499EC04C3095C34B683898"
   ],
   "name": "Where in Arkham is Carmen Sandiego?",
-  "description": "",
+  "description": "A custom investigator inspired by the Netflix series and a certain Scarlet Keys character.",
   "image": "carmen-sandiego.png",
   "artist": null,
   "info": null,
-  "website": "Where in Arkham Is Carmen Sandiego?",
+  "website": "https://mysteriouschanting.wordpress.com/2023/04/17/where-in-arkham-is-carmen-sandiego/",
   "linktext": null,
   "authors": [
     "Blue Barracuda"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Investigator(s)"
   ],
-  "created": "2023-08-08T04:45:26.695Z",
+  "created": "2023-04-17T04:45:26.695Z",
   "updated": "2023-09-09T15:18:15.656Z",
   "version": 2,
   "code": "C380050185D1C1AF",

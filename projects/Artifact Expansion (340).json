@@ -4,7 +4,7 @@
     "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85"
   ],
   "name": "Artifact Expansion",
-  "description": "",
+  "description": "Add Artifacts from Eldritch Horror to the card game as a module that can be added to any scenario. Plus custom investigators and player cards.",
   "image": "artifact.png",
   "artist": "Rafal Szlapa",
   "info": null,
@@ -14,15 +14,15 @@
     "Mint Tea Fan"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Investigator(s)",
     "Player Cards"
   ],
-  "created": "",
-  "updated": "2023-09-09T15:18:15.658Z",
+  "created": "2021-06-07T15:18:15.658Z",
+  "updated": "2023-09-29T21:58:11.900Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -2665,6 +2665,7 @@
     },
     {
       "name": "Artifact Investigator Minicard-Sized Minis",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -4745,5 +4746,5 @@
       ]
     }
   ],
-  "hash": "88fd023bd82371af1b422e51dda5053eadc0249380a37cadd7c893d8201df08b"
+  "hash": "7de76b60f8ec44353f3749f127cdd0e26bc9f3f612fdaee3f4784b9aee81985d"
 }

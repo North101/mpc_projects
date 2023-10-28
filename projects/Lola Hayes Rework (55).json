@@ -3,7 +3,7 @@
     "14D26E7DF915B5A8947127797C42CDEF6D0E3164E5E36B9BFF998539115DE6CB91BF266BF1D914B7"
   ],
   "name": "Lola Hayes Rework",
-  "description": "",
+  "description": "Mix up the rules for playing Lola Hayes with a revised ability and signatures, plus a character deck built with selections from 50 role cards from all six classes.",
   "image": "lola-hayes-rework.png",
   "artist": "IrenHorrors",
   "info": null,
@@ -13,13 +13,14 @@
     "Mint Tea Fan"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
-    "Investigator(s)"
+    "Investigator(s)",
+    "Rework"
   ],
-  "created": "2023-09-08T23:11:28.754Z",
+  "created": "2021-11-21T23:11:28.754Z",
   "updated": "2023-09-08T23:11:28.754Z",
   "version": 2,
   "code": "C380050185D1C1AF",

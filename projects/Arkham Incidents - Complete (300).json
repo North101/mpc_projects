@@ -3,9 +3,9 @@
     "BBC801D90E974E1222AB25C1A6EE2DA54790B7141EA5769657E7788EC8D34F16D06C51B26D7C736C"
   ],
   "name": "Arkham Incidents",
-  "description": "",
+  "description": "A set of five Arkham-based side-scenarios, each focusing on and synergizing with an existing ally card from a different class.",
   "image": "arkham-incidents.png",
-  "artist": "Tomasz Jedurszek, Joshua Cairós, Sara Winters, Jeff Lee Johnson, Aurore Folny, Colin Boyer",
+  "artist": "T. Jedruszek, J. Cairós, S. Winters, J.L. Johnson, A. Folny, C. Boyer",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/02/01/arkham-incidents/",
   "linktext": null,
@@ -13,13 +13,13 @@
     "The Beard"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.696Z",
+  "created": "2022-12-31T04:45:26.696Z",
   "updated": "2023-09-09T15:18:15.668Z",
   "version": 2,
   "code": "C380050185D1C1AF",

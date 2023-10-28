@@ -3,7 +3,7 @@
     "3E3D5872FF296015FEDF6F9DDB0758D02F3BFD839041C72F4D420F52A48DEF1D64D4DE89EFB7302F"
   ],
   "name": "The Fall of the House of Usher",
-  "description": "",
+  "description": "Uncover and destroy an ancient evil from a crumbling house in this standalone based on the Edgar Allen Poe short story.",
   "image": "usher.png",
   "artist": "Daniel Danger",
   "info": null,
@@ -13,13 +13,13 @@
     "The Beard"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.686Z",
+  "created": "2022-01-25T04:45:26.686Z",
   "updated": "2023-08-13T20:43:40.202Z",
   "version": 2,
   "code": "C380050185D1C1AF",

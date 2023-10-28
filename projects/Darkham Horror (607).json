@@ -4,7 +4,7 @@
     "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6"
   ],
   "name": "Darkham Horror",
-  "description": "",
+  "description": "A gritty 8-scenario dungeon-crawling campaign and investigator expansion based on the setting of Darkest Dungeon",
   "image": "darkham-horror.png",
   "artist": null,
   "info": null,
@@ -14,7 +14,7 @@
     "Frostmaze"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
@@ -22,8 +22,8 @@
     "Investigator(s)",
     "Player Cards"
   ],
-  "created": "",
-  "updated": "2023-09-09T15:18:15.650Z",
+  "created": "2021-09-11T15:18:15.650Z",
+  "updated": "2023-09-29T21:58:11.893Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -1065,6 +1065,7 @@
     },
     {
       "name": "Darkham Minicard-Sized Minis",
+      "enabled": false,
       "cards": [
         {
           "count": 1,
@@ -8636,5 +8637,5 @@
       ]
     }
   ],
-  "hash": "2ef9d94daf6735dc044bc15668448f41f71168c126bf7c0af4908ca0f4518c00"
+  "hash": "2f0e871d3d393e493684bab7b626487e277929dd24a35d1156e0d01a0e14a865"
 }

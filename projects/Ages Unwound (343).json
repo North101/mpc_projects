@@ -3,7 +3,7 @@
     "798B9EA1FE5737F619095A0EC71D43C5F527C1C9151F06D97DF713BD620AE819725CBB61231292A4"
   ],
   "name": "Ages Unwound",
-  "description": "",
+  "description": "An adventure through time. Cultists and also dinosaurs. Maybe cultists riding dinosaurs? (No. Sorry.)",
   "image": "ages-unwound.png",
   "artist": "Wenzel Hablick",
   "info": null,
@@ -13,13 +13,13 @@
     "Olivia Juliet"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.703Z",
+  "created": "2022-10-08T04:45:26.703Z",
   "updated": "2023-08-13T20:43:40.212Z",
   "version": 2,
   "code": "C380050185D1C1AF",

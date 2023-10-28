@@ -3,7 +3,7 @@
     "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD"
   ],
   "name": "Celtic Rising",
-  "description": "",
+  "description": "A Celtic-themed 5-part cycle with a similar complexity to Dunwich and Carcosa.",
   "image": "celtic-rising.png",
   "artist": "Shaliara",
   "info": null,
@@ -13,13 +13,13 @@
     "QggOne"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.699Z",
+  "created": "2022-07-11T04:45:26.699Z",
   "updated": "2023-08-13T20:43:40.208Z",
   "version": 2,
   "code": "C380050185D1C1AF",

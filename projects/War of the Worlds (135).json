@@ -3,7 +3,7 @@
     "DC6812F4C18F65470E101E34A837DF3E9479654E032BBCA080D2DC0497D0CC739B8041D4D2FF2652"
   ],
   "name": "The War of the Worlds",
-  "description": "",
+  "description": "Defend Earth from a Martian invasion in this 3-part campaign based on the HG Wells book and the Orson Welles radio adaptation.",
   "image": "war-of-the-worlds.png",
   "artist": "Tom Kidd",
   "info": null,
@@ -13,13 +13,13 @@
     "The Beard"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.679Z",
+  "created": "2021-03-23T04:45:26.679Z",
   "updated": "2023-08-13T20:43:40.199Z",
   "version": 2,
   "code": "C380050185D1C1AF",

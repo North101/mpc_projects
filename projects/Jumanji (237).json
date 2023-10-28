@@ -3,7 +3,7 @@
     "0E89C6044EC8BA82A1455DFFC73230B5D871F89B4B1ABD3452BCE782E70E5DA26384E1B2D7F23740"
   ],
   "name": "Jumanji",
-  "description": "",
+  "description": "Play through a cursed board game while surviving the perils of the jungle in this 4-part campaign based on the Chris van Allsburg book and subsequent movie.",
   "image": "jumanji.png",
   "artist": "Mokhtar Saber Abdo",
   "info": null,
@@ -13,19 +13,19 @@
     "The Beard"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "",
-  "updated": "2023-09-15T23:25:30.177Z",
+  "created": "2023-08-03T23:25:30.177Z",
+  "updated": "2023-09-29T21:58:11.886Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Jumanji (237)",
+      "name": "Jumanji",
       "cards": [
         {
           "count": 1,
@@ -3260,5 +3260,5 @@
       ]
     }
   ],
-  "hash": "ae9dffd3f04633f55a709bb2de392c6ce84eacab77d25c09227d13de63b9bf32"
+  "hash": "1cad88283fa0b024e1394b1560ce28eface192f26e1de3b399dd173d1eae099d"
 }

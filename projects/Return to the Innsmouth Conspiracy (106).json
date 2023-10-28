@@ -1,10 +1,11 @@
 {
   "projectId": [
+    "B226CE330A6514570353458C1DB95BF3A8166440BDCC03C2B9E9FC7EFA6650F5D7DC159A3DD8AB54",
     "1E23A6C43FD8DF62F1F645E0BDCC4233BB6F4F78535B366FD37B48555A515F6248809D0AD155D0CA",
     "011510745B9EE6A5554FEAC7D318FE46F8BF3EDE37372B245255BED9C427CB189A06845D5EC43264"
   ],
   "name": "Return to the Innsmouth Conspiracy (Unofficial)",
-  "description": "",
+  "description": "A fan-made upgrade expansion adding new supplementary content to the entire The Innsmouth Conspiracy campaign.",
   "image": "rttic.png",
   "artist": null,
   "info": "Encounter cards require The Innsmouth Conspiracy campaign. Some player cards make use of bless & curse tokens.",
@@ -15,7 +16,7 @@
     "Hauke"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
@@ -23,8 +24,8 @@
     "Player Cards",
     "Return to"
   ],
-  "created": "2023-08-08T04:45:26.680Z",
-  "updated": "2023-09-20T15:20:04.480Z",
+  "created": "2023-07-06T04:45:26.680Z",
+  "updated": "2023-09-21T18:46:41.519Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -648,8 +649,8 @@
           "count": 1,
           "front": {
             "Name": "033 Cave Mouth-1.png",
-            "ID": "23D1C54BB3E4DAC499C27FD5C76EEFB5",
-            "SourceID": "DB2F78218A697F35E740191F83EC8167E95FAEA1",
+            "ID": "54D4DABF300B92D2DB798774CA1B6184",
+            "SourceID": "7C9FB45BC553B58B4CA8C45C4C16323A9B564E96",
             "Exp": "png",
             "Width": 826,
             "Height": 1126
@@ -1312,5 +1313,5 @@
       ]
     }
   ],
-  "hash": "46ec8f933de6b135429991b99b420ea8a89b518af99ac5e0f5c6812dde94f9f0"
+  "hash": "3b323a94cbea1bc0da34c23e659f005de53cf21f3a4e3c5165ed308a23ce4943"
 }

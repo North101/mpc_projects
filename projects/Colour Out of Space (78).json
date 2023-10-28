@@ -3,24 +3,23 @@
     "58C82E41C20E53CCF29C9F56A62F19FB454932E5EDBB47D5688F68A74CAAFC87774897EEC1A9A215"
   ],
   "name": "The Colour Out of Space",
-  "description": "",
+  "description": "A reimagining of the Lovecraft story. Updated in 2022 by Jayne Cobb.",
   "image": "colour-out-of-space.png",
   "artist": "Vashar23",
   "info": null,
   "website": "http://arkhamcentral.com/index.php/the-colour-out-of-space-fan-created-content-for-arkham-horror-lcg/",
   "linktext": null,
   "authors": [
-    "Joe Ehret",
-    "Jayne Cobb"
+    "Joe Ehret"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.695Z",
+  "created": "2017-03-10T04:45:26.695Z",
   "updated": "2023-08-13T20:43:40.206Z",
   "version": 2,
   "code": "C380050185D1C1AF",

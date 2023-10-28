@@ -4,9 +4,9 @@
     "86710D028BCEA79BC494B4E58D4BAA39F9EEFA83BBA92D2C56B0AE8CC83C50F7202DD9BFB8518BAE"
   ],
   "name": "Taboo",
-  "description": "",
+  "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
   "image": "double-or-nothing.png",
-  "artist": null,
+  "artist": "Mark Molnar",
   "info": null,
   "website": "https://www.fantasyflightgames.com/en/news/2023/8/30/unveiling-secrets/",
   "linktext": null,
@@ -14,16 +14,16 @@
     "Fantasy Flight Games"
   ],
   "statuses": [
-    "Final",
+    "Ongoing",
     "Project Available"
   ],
   "tags": [
     "Investigator(s)",
     "Player Cards",
-    "Taboo"
+    "Taboo & Errata"
   ],
-  "created": "2023-09-05T11:42:26.679Z",
-  "updated": "2023-09-08T22:02:48.347Z",
+  "created": "2019-04-23T11:42:26.679Z",
+  "updated": "2023-09-29T21:58:11.868Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -1231,6 +1231,7 @@
     },
     {
       "name": "Taboo 2.1 Changes from 2.0 Only",
+      "enabled": false,
       "cards": [
         {
           "count": 2,
@@ -1616,6 +1617,7 @@
     },
     {
       "name": "Taboo 2.1 Mutations Only",
+      "enabled": false,
       "cards": [
         {
           "count": 2,
@@ -2590,6 +2592,7 @@
     },
     {
       "name": "Taboo 2.1 New/Changed Mutations Only",
+      "enabled": false,
       "cards": [
         {
           "count": 2,
@@ -2880,6 +2883,7 @@
     },
     {
       "name": "Taboo 2.0, Aug 2022",
+      "enabled": false,
       "cards": [
         {
           "count": 2,
@@ -3835,6 +3839,7 @@
     },
     {
       "name": "Taboo 2.0 Changes from 1.8 Only",
+      "enabled": false,
       "cards": [
         {
           "count": 2,
@@ -4238,5 +4243,5 @@
       ]
     }
   ],
-  "hash": "e84f3bf6a3ca8b0fbb170bfdfd1308e645313182428109064042612b2d7bb295"
+  "hash": "268b318c0a45b1424d16d221481e250804d76d01f4779bcf6c0a0f0d8b5f8a70"
 }

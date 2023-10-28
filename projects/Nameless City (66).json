@@ -3,7 +3,7 @@
     "35ACF130109B237F582E6D673FF319D0E8EA001780545F0971402920C0E6E5992CB708909D807295"
   ],
   "name": "The Nameless City",
-  "description": "",
+  "description": "A standalone based on the Lovecraft short story.",
   "image": "nameless-city.png",
   "artist": "Alexander Joseba",
   "info": null,
@@ -13,13 +13,13 @@
     "Niccolò Sbaraini"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.684Z",
+  "created": "2021-05-02T04:45:26.684Z",
   "updated": "2023-08-13T20:43:40.202Z",
   "version": 2,
   "code": "C380050185D1C1AF",

@@ -1,0 +1,52 @@
+{
+  "projectId": [
+    ""
+  ],
+  "name": "Shadows of Yog-Sothoth",
+  "description": "Discover the origins of the Hermetic Order of the Silver Twilight in this re-telling of the classic 1982 Call of Cthulhu campaign “Shadows of Yog Sothoth”",
+  "image": null,
+  "artist": null,
+  "info": "Requires cards from The Dunwich Legacy campaign.",
+  "website": "http://arkhamcentral.com/index.php/shadows-of-yog-sothoth-campaign/",
+  "linktext": null,
+  "authors": [
+    "Red Rob"
+  ],
+  "statuses": [
+    "Changes Pending"
+  ],
+  "tags": [
+    "Campaign"
+  ],
+  "created": "2023-05-29T04:45:26.680Z",
+  "updated": "2023-09-25T21:12:50.089Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Return to Innsmouth Player Cards",
+      "cards": [
+        {
+          "count": 2,
+          "front": {
+            "Name": "001 Blessed Blade-x2-1.png",
+            "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
+            "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "9a352c0565646c4fbacce70248571fe812adaf5dd89655720c9db6c9ef7d2ee0"
+}

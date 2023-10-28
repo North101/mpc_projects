@@ -3,7 +3,7 @@
     "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40"
   ],
   "name": "Buffy the Vampire Slayer",
-  "description": "",
+  "description": "Bring Buffy Summers and her allies into the world of Eldritch Horror with this Scooby Gang investigator expansion.",
   "image": "buffy.png",
   "artist": "Brian Horton",
   "info": null,
@@ -13,14 +13,14 @@
     "AtomicZ"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Investigator(s)",
     "Player Cards"
   ],
-  "created": "2023-09-20T15:11:28.754Z",
+  "created": "2023-06-10T15:11:28.754Z",
   "updated": "2023-09-20T19:14:40.655Z",
   "version": 2,
   "code": "C380050185D1C1AF",

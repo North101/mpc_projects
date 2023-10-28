@@ -3,7 +3,7 @@
     "562B132E93D4E524ABFAC338CC27D4517CF9E9016E159C43E6A5C3EFC02A30AEEED0A48E7BF0DBDD"
   ],
   "name": "Call of the Plaguebearer",
-  "description": "",
+  "description": "A Resident Evil-inspired 8-scenario campaign through a plague-struck Arkham, set over the course of a single day.",
   "image": "plaguebearer.png",
   "artist": "Robin Olausson",
   "info": null,
@@ -13,13 +13,13 @@
     "Dr. Jack Science"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-08T04:45:26.697Z",
+  "created": "2021-10-26T04:45:26.697Z",
   "updated": "2023-08-13T20:43:40.213Z",
   "version": 2,
   "code": "C380050185D1C1AF",

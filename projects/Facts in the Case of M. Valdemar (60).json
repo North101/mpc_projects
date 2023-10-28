@@ -3,23 +3,24 @@
     "A30D5FD13633936E6ACCEA018C8C66046FF5CAE12618955EB28FBD256B34D8DB5D70071AEC3C4FDB"
   ],
   "name": "The Facts in the Case of M. Valdemar",
-  "description": "",
+  "description": "Stop the mindbending schemes of a group of devious mesmerists in this scenario based on the Edgar Allen Poe story",
   "image": "m-valdemar.png",
   "artist": "Simone Murgia",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2023/03/18/the-facts-in-the-case-of-m-valdemar/",
   "linktext": null,
   "authors": [
-    "The Beard"
+    "The Beard",
+    "Nate (Great Old Ones Gaming)"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.688Z",
+  "created": "2023-03-18T04:45:26.688Z",
   "updated": "2023-08-13T20:43:40.204Z",
   "version": 2,
   "code": "C380050185D1C1AF",

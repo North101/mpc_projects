@@ -2,8 +2,8 @@
   "projectId": [
     "804DA6F941847BAE1D9B582F80E0DE07650278FE982680544FE5AB2199D20F1EBCE0487F52AF695E"
   ],
-  "name": "Play & Share Full Card Art Investigators",
-  "description": "",
+  "name": "Play & Share Investigator Promos",
+  "description": "Full card art versions of both standard and parallel core set investigators.",
   "image": "ahc_play-and-share-wendy.png",
   "artist": "Jake Murray, FFG",
   "info": null,
@@ -13,15 +13,14 @@
     "Fantasy Flight Games"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Investigator(s)",
-    "Alt-Art",
-    "Parallel"
+    "Alt-Art"
   ],
-  "created": "2023-08-08T04:45:26.680Z",
+  "created": "2021-06-23T04:45:26.680Z",
   "updated": "2023-08-14T00:23:58.830Z",
   "version": 2,
   "code": "C380050185D1C1AF",

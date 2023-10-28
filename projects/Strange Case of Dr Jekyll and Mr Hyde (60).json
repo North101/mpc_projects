@@ -3,7 +3,7 @@
     "E0C19D718B68B605A5C627FD1FA04144FC6BCAD6A452E00FA032AD02F35C630B1CE646E3433C779D"
   ],
   "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
-  "description": "",
+  "description": "Save Dr. Jekyll from Mr. Hyde and the cult of Yog-Sothoth in this standalone based on the book by Robert Louis Stevenson",
   "image": "jekyll-hyde.png",
   "artist": "Alina Kiriyenko",
   "info": null,
@@ -13,13 +13,13 @@
     "The Beard"
   ],
   "statuses": [
-    "Final",
+    "Finished",
     "Project Available"
   ],
   "tags": [
     "Standalone"
   ],
-  "created": "2023-08-08T04:45:26.679Z",
+  "created": "2022-10-01T04:45:26.679Z",
   "updated": "2023-08-13T20:43:40.199Z",
   "version": 2,
   "code": "C380050185D1C1AF",
