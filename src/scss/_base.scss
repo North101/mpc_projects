@@ -71,6 +71,7 @@
 .navbar-main {
   min-height: 105px;
   z-index: 1050;
+  border-bottom: 1px solid $gray-600;
 }
 
 @include media-breakpoint-up(xl) {
