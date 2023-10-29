@@ -6,4 +6,5 @@
 /dev
 
 deploy.json
+deploy.key
 *.env
