@@ -45,9 +45,9 @@
 
   .modal-content {
     background-image:
-            url('./images/act-1-mobile-top.png'),
-            url('./images/act-1-mobile-bottom.png'),
-            url('./images/act-1-mobile-stretch.png');
+            url('/assets/images/act-1-mobile-top.png'),
+            url('/assets/images/act-1-mobile-bottom.png'),
+            url('/assets/images/act-1-mobile-stretch.png');
     background-position:
             top center,
             bottom center,
@@ -121,7 +121,7 @@
 
     a {
       font-weight: 700;
-      color: #6C1F25;
+      color: #6c1f25;
 
       &:hover,
       &:focus,
@@ -152,11 +152,11 @@
       &:active {
         border-width: 2px;
       }
+    }
 
-      &:checked {
-        background-color: #a4363c;
-        border-color: #a4363c;
-      }
+    .form-check-input:checked {
+      background-color: #a4363c;
+      border-color: #a4363c;
     }
   }
 
