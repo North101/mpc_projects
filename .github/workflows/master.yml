@@ -11,8 +11,6 @@ jobs:
 
       - uses: actions/setup-node@v3
 
-      - run: npm install pm2@latest -g
-
       - name: Set up SSH
         run: |
           mkdir -p ~/.ssh/
