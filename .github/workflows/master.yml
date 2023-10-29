@@ -25,7 +25,7 @@ jobs:
           PM2_DEPLOY: ${{secrets.PM2_DEPLOY}}
 
       - name: Install PM2
-        run: npm i pm2
+        run: yarn global add pm2
 
       - name: Deploy
         run: yarn run deploy
