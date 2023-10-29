@@ -44,7 +44,23 @@
   }
 
   .modal-content {
-    background: transparent;
+    background-image:
+            url('./public/assets/images/act-1-mobile-top.png'),
+            url('./public/assets/images/act-1-mobile-bottom.png'),
+            url('./public/assets/images/act-1-mobile-stretch.png');
+    background-position:
+            top center,
+            bottom center,
+            top center;
+    background-repeat: no-repeat;
+    background-size:
+            contain,
+            contain,
+            cover;
+
+    @include media-breakpoint-up(lg) {
+      background: transparent;
+    }
   }
 
   .modal-header {
@@ -62,9 +78,6 @@
   .modal-body {
     border: 0;
     color: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
     margin: 27% 10% 12% 2%;
 
     p {
@@ -100,10 +113,10 @@
   } */
 
   .arkham-choice {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 
     p {
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
     }
 
     a {
@@ -120,7 +133,7 @@
   }
 
   .modal-footer {
-    margin-top: -6%;
+    margin-top: -5%;
     z-index: 10;
     padding-right: 4%;
     padding-bottom: 0.25rem;
@@ -212,6 +225,9 @@
     }
 
     .modal-body {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 50%;
       margin: 17% 0 10% 2.5%;
 

@@ -2,7 +2,7 @@
 /node_modules
 /dist
 /.nova
-/src/dev
+/dev/dev
 /dev
 
 deploy.json

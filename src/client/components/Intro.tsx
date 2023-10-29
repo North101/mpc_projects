@@ -62,7 +62,6 @@ export const Intro = () => {
   return (
     <>
       <Modal className='intro' show={show} onHide={handleClose} onShow={handleShow}>
-        <img className='intro-bg mobile d-block d-lg-none' src='/assets/images/act-1-mobile.png' alt='The left half of an Arkham Horror Act card, depicting an old book open to a page titled Your Inexorable Fate.' />
         <img className='intro-bg d-none d-lg-block' src='/assets/images/act-1.png' alt='An Arkham Horror Act card with the art from the TCU card Fate of All Fools by Brian Valenzuela, showing a red-robed cultist holding a curved knife to the throat of a limp man.' />
         <Modal.Header closeButton />
         <Modal.Body>
@@ -84,15 +83,15 @@ export const Intro = () => {
           <div className='arkham-choice'>
             <p>
               <em>If “the investigators are uninitiated,”</em> proceed to{" "}
-              <a href="/help" title="Instruct me.">Intro 1</a>.
+              <a href="/help" title="Instruct me.">Intro&nbsp;1</a>.
             </p>
             <p>
               <em>If “you reject your fate,”</em> proceed to{" "}
-              <a href="/help#why" title="Why all this?">Intro 2</a>.
+              <a href="/help#why" title="Why all this?">Intro&nbsp;2</a>.
             </p>
             <p>
               <em>If “you have been here before,”</em> proceed to{" "}
-              <a href="#filters" title="Find projects!" onClick={handleClose}>Intro 3</a>.
+              <a href="#filters" title="Find projects!" onClick={handleClose}>Intro&nbsp;3</a>.
             </p>
           </div>
         </Modal.Body>
