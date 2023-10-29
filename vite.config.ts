@@ -64,12 +64,13 @@ export default defineConfig({
         "cheerio",
         "crypto",
         "dotenv-flow/config",
+        "env-var",
         "fs",
         "glob",
         "node-cron",
         "path",
         "path",
-        "undici"
+        "undici",
       ],
       plugins: [
         json(),
