@@ -1,26 +1,8 @@
-import { useEffect, useState } from 'react'
-import ReactMarkdown from 'react-markdown'
-import rehypeRaw from 'rehype-raw'
-import { AppContainer } from './AppContainer'
-import Nav from 'react-bootstrap/Nav'
-import Row from 'react-bootstrap/esm/Row'
 import Accordion from 'react-bootstrap/Accordion';
-
-
-const useFetch = () => {
-  const [data, setData] = useState<string | undefined>()
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const r = await fetch('/assets/help.md')
-      setData(await r.text())
-    }
-
-    fetchData()
-  }, [])
-
-  return data
-}
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/esm/Row';
+import { AppContainer } from './AppContainer';
+import { HelpText } from './HelpText';
 
 const SideNav = () => {
   return (
@@ -92,7 +74,6 @@ const SideNav = () => {
 }
 
 export const HelpPage = () => {
-  const data = useFetch()
   return (
     <AppContainer>
       <Row className='gx-5'>
@@ -100,9 +81,7 @@ export const HelpPage = () => {
           <SideNav></SideNav>
         </aside>
         <div className='tldr col-md-9'>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {data ?? ''}
-          </ReactMarkdown>
+          <HelpText />
 
           <section id='faq'>
             <h2 className='display-4'>Frequently Asked Questions</h2>
