@@ -75,6 +75,7 @@ const getProjectImage = async (filename: string) => {
   const filenameInfo = path.parse(filename)
   const image = path.format({
     ...filenameInfo,
+    dir: resolve('public/projects/'),
     base: undefined,
     ext: '.png'
   })
@@ -135,18 +136,9 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       const projectList = await readProjectList(projectsDir)
       // write projects.json
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
-      // create /dist/clients/projects
-      await fs.mkdir(resolve(outDir, projectsDir))
       // write all project json files
       await Promise.all(projectList.map(async e => {
         await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
-      }))
-      // copy all project images
-      await Promise.all(projectList.map(async e => {
-        const image = e.image
-        if (!image) return
-
-        await fs.copyFile(resolve(projectsDir, image), resolve(outDir, projectsDir, image))
       }))
       // update project files
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
@@ -190,20 +182,6 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
             return res.writeHead(200, {
               'Content-Type': 'application/json',
             }).end(JSON.stringify(mapProjectDownload(project)))
-
-          } else if (req.url.endsWith('.png')) {
-            // /projects/*.png
-            const filename = decodeURI(req.url.split('/').pop() ?? '')
-            return res.writeHead(200, {
-              'Content-Type': 'image/png',
-            }).end(await fs.readFile(resolve(projectsDir, filename)))
-
-          } else if (req.url.endsWith('.jpg')) {
-            // /projects/*.jpg
-            const filename = decodeURI(req.url.split('/').pop() ?? '')
-            return res.writeHead(200, {
-              'Content-Type': 'image/jpeg',
-            }).end(await fs.readFile(resolve(projectsDir, filename)))
           }
         }
         return next()
