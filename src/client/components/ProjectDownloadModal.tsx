@@ -12,20 +12,32 @@ const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose
     parts: file.parts.filter((_, index) => checked[index]),
   }
 
-  const handle = await window.showSaveFilePicker({
-    suggestedName: project.filename,
-    types: [
-      {
-        description: 'Project file',
-        accept: {
-          'application/json': ['.json'],
+  if (window.showSaveFilePicker) {
+    const handle = await window.showSaveFilePicker({
+      suggestedName: project.filename,
+      types: [
+        {
+          description: 'Project file',
+          accept: {
+            'application/json': ['.json'],
+          },
         },
-      },
-    ],
-  })
-  const writable = await handle.createWritable()
-  await writable.write(JSON.stringify(download))
-  await writable.close()
+      ],
+    })
+    const writable = await handle.createWritable()
+    await writable.write(JSON.stringify(download))
+    await writable.close()
+  } else {
+    const blob = new Blob([JSON.stringify(download)], { type: "application/json" });
+    const element = document.createElement('a');
+    const url = URL.createObjectURL(blob);
+    document.body.appendChild(element);
+    element.href = url;
+    element.download = project.filename;
+    element.click();
+    element.remove();
+    URL.revokeObjectURL(url);
+  }
 
   onClose()
 }
