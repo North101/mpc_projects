@@ -3,7 +3,7 @@ export const HelpText = () => (
     <section id="getting-started">
       <h2 className="display-4">Getting Started</h2>
       <h3 id="install-extension">Installing the Chrome Extension</h3>
-      <div
+      <span
         style={{ overflow: 'scroll' }}>
         <img
           className="float-end outline ms-4 mb-4"
@@ -11,7 +11,7 @@ export const HelpText = () => (
           height={271}
           src="/assets/images/screenshot-pin-extension.png"
         />
-      </div>
+      </span>
       <ol>
         <li>
           <p>
@@ -288,14 +288,14 @@ export const HelpText = () => (
         </li>
       </ol>
       <h3 id="finalize">Finalizing and Uploading Your Project</h3>
-      <div
+      <span
         style={{ overflow: 'scroll' }}>
         <img
           className="float-end outline ms-4"
           width={300}
           src="./assets/images/screenshot-print-options.png"
         />
-      </div>
+      </span>
       <ol>
         <li>
           <p>
@@ -327,14 +327,14 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            <div
+            <span
               style={{ overflow: 'scroll' }}>
               <img
                 className="float-end outline ms-4"
                 width={300}
                 src="/assets/images/screenshot-success.png"
               />
-            </div>
+            </span>
             On the <strong>Success</strong> screen, if you have combined multiple
             projects or made any edits, click the <strong>Save as Project</strong>{" "}
             button to save a .json file for your project. This will enable you to
@@ -375,14 +375,14 @@ export const HelpText = () => (
           (one person has tested this and it was successful), but this is an
           understandably big risk, given the cost of MPC printing and shipping.
         </p>
-        <div
+        <span
           style={{ overflow: 'scroll' }}>
           <img
             className="mt-2 mb-4"
             width={500}
             src="/assets/images/screenshot-broken-image.png"
           />
-        </div>
+        </span>
         <p>
           The way to resolve this problem is to contact the person who created the
           project file and ask them to click
