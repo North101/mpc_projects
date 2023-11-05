@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
-import { CheckSquare, Funnel, FunnelFill, Person, SortDown, Tag } from 'react-bootstrap-icons'
+import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
@@ -165,7 +165,10 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     {/*return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeSites*/ }
     return hasSomeAuthors && hasSomeStatuses && hasSomeTags
   }).toSorted(sorts[sort])
-  const filtersAny = filteredAuthors.length > 0 || filteredTags.length > 0 || filteredStatuses.length > 0;
+  const hasFilteredAuthors = filteredAuthors.length > 0
+  const hasFilteredTags = filteredTags.length > 0
+  const hasFilteredStatuses = filteredStatuses.length > 0
+  const hasFilters = hasFilteredAuthors || hasFilteredTags || hasFilteredStatuses
 
   const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
     setAuthorFilter(authorFilter.map(e => ({
@@ -236,7 +239,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
         <Container fluid>
           <Navbar.Brand className='d-md-none d-lg-none'>Sort & Filter</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
-            {filtersAny ? <FunnelFill /> : <Funnel />}
+            {hasFilters ? <FunnelFill /> : <Funnel />}
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='d-flex'>
@@ -259,11 +262,15 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                <Person
+                {hasFilteredAuthors ? <PersonFill
                   className='icon'
                   style={{ margin: '9px 0' }}
                   width='20'
-                  height='20' />
+                  height='20' /> : <Person
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Authors'
@@ -273,11 +280,15 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                <Tag
+                {hasFilteredTags ? <TagFill
                   className='icon'
                   style={{ margin: '9px 0' }}
                   width='20'
-                  height='20' />
+                  height='20' /> : <Tag
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Tags'
@@ -287,11 +298,15 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                <CheckSquare
+                {hasFilteredStatuses ? <CheckSquareFill
                   className='icon'
                   style={{ margin: '9px 0' }}
                   width='20'
-                  height='20' />
+                  height='20' /> : <CheckSquare
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Status'

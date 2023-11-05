@@ -68,7 +68,7 @@ const CheckboxMenuRenderer = (
         {onSelectNone && <div className='dropdown-item border-top pt-2 pb-0'>
           <ButtonGroup size='sm'>
             <Button variant='link' className='select-none' onClick={onSelectNone}>
-              Select None
+              Clear
             </Button>
           </ButtonGroup>
         </div>}

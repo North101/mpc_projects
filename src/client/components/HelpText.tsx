@@ -199,7 +199,7 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            To clear a filter, choose “Select None” at the bottom of the filter
+            To clear a filter, choose “Clear” at the bottom of the filter
             dropdown, or click the <strong>Inexorable Fate</strong> logo in the
             header to return to the unfiltered homepage.
           </p>
