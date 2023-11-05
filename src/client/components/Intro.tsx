@@ -36,6 +36,7 @@ export const Intro = () => {
   const [show, setShow] = useState(initState);
 
   const IntroShow = () => {
+    return <></>
     const [checked, setChecked] = useState(show)
 
     const onChange = () => {

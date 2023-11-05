@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { CheckSquare, Funnel, FunnelFill, Person, SortDown, Tag } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
@@ -6,7 +7,6 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
-import { SortDown, Funnel } from 'react-bootstrap-icons'
 
 
 declare global {
@@ -143,15 +143,16 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id)
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id)
   const filteredStatuses = statusFilter.filter(e => e.checked).map(e => e.id)
-  {/*const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)*/}
+  {/*const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)*/ }
   const filteredProjects = projects.filter(e => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
     const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
-    {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/}
-    {/*return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeSites*/}
+    {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/ }
+    {/*return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeSites*/ }
     return hasSomeAuthors && hasSomeStatuses && hasSomeTags
   }).toSorted(sorts[sort])
+  const filtersAny = filteredAuthors.length > 0 || filteredTags.length > 0 || filteredStatuses.length > 0;
 
   const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
     setAuthorFilter(authorFilter.map(e => ({
@@ -187,7 +188,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
       checked: e.id == id ? event.currentTarget.checked : e.checked,
     })))
   }
-  
+
   const onStatusSelectNone = () => {
     setStatusFilter(statusFilter.map(e => ({
       ...e,
@@ -213,20 +214,25 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 
   return (
     <Stack gap={2}>
-
       <Navbar
         className='filters bg-body-tertiary'
         sticky='top'
+        expand='md'
         id='filters'
       >
         <Container fluid>
+          <Navbar.Brand className='d-md-none d-lg-none'>Sort & Filter</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+            {filtersAny ? <FunnelFill /> : <Funnel />}
+          </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='d-flex'>
-              <div className='sort d-flex align-items-center me-sm-4'>
-                <SortDown 
+              <Nav.Item className='d-flex'>
+                <SortDown
                   className='icon'
-                  width='24'
-                  height='24'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20'
                 />
                 <CheckboxDropdown
                   type='radio'
@@ -238,13 +244,13 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   }))}
                   onChecked={onSetSort}
                 />
-              </div>
-              <div id='filters' className='filter d-flex align-items-center flex-grow-1'>
-                <Funnel
+              </Nav.Item>
+              <Nav.Item className='d-flex'>
+                <Person
                   className='icon'
-                  width='24'
-                  height='24'
-                />
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />
                 <CheckboxDropdown
                   type='checkbox'
                   label='Authors'
@@ -252,6 +258,13 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   onChecked={onAuthorChecked}
                   onSelectNone={onAuthorSelectNone}
                 />
+              </Nav.Item>
+              <Nav.Item className='d-flex'>
+                <Tag
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />
                 <CheckboxDropdown
                   type='checkbox'
                   label='Tags'
@@ -259,15 +272,23 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   onChecked={onTagChecked}
                   onSelectNone={onTagSelectNone}
                 />
+              </Nav.Item>
+              <Nav.Item className='d-flex'>
+                <CheckSquare
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />
                 <CheckboxDropdown
                   type='checkbox'
                   label='Status'
                   items={statusFilter}
                   onChecked={onStatusChecked}
                   onSelectNone={onStatusSelectNone}
-                  //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
+                //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
                 />
-                {/*
+              </Nav.Item>
+              {/*
                 <CheckboxDropdown
                   type='checkbox'
                   label='Sites'
@@ -276,14 +297,13 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   onSelectNone={onSiteSelectNone}
                 />
                 */}
-              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar >
 
       <ProjectList projects={filteredProjects} />
-    </Stack>
+    </Stack >
   )
 }
 
@@ -296,7 +316,7 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
   const [authorFilter, setAuthorFilter] = useAuthorFilter(projects)
   const [tagFilter, setTagFilter] = useTagFilter(projects)
   const [statusFilter, setStatusFilter] = useStatusFilter(projects)
-  {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/}
+  {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/ }
   return (
     <FilteredProjectList
       projects={projects}
@@ -308,8 +328,8 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
       setTagFilter={setTagFilter}
       statusFilter={statusFilter}
       setStatusFilter={setStatusFilter}
-      //siteFilter={siteFilter}
-      //setSiteFilter={setSiteFilter}
+    //siteFilter={siteFilter}
+    //setSiteFilter={setSiteFilter}
     />
   )
 }
