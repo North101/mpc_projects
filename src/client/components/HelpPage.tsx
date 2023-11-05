@@ -76,7 +76,7 @@ const SideNav = () => {
 export const HelpPage = () => {
   return (
     <AppContainer>
-      <Row className='gx-5'>
+      <Row className='gx-5' style={{maxWidth: '100%'}}>
         <aside className='col-md-3'>
           <SideNav></SideNav>
         </aside>
