@@ -23,6 +23,7 @@
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.17.0",
     "rehype-raw": "^6.1.1",
     "smartquotes": "^2.3.2",
     "ts-node": "^10.9.1",
