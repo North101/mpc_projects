@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/esm/Row';
@@ -74,6 +75,11 @@ const SideNav = () => {
 }
 
 export const HelpPage = () => {
+  const hash = window.location.hash
+  useEffect(() => {
+    document.querySelector(hash)?.scrollIntoView()
+  }, [hash])
+
   return (
     <AppContainer>
       <Row className='gx-5' style={{maxWidth: '100%'}}>
