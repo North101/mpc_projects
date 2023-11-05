@@ -5,9 +5,7 @@ import useLocation from 'wouter/use-location'
 
 export const IntroContext = createContext<[boolean, React.Dispatch<React.SetStateAction<boolean>>]>([
   false,
-  () => {
-    throw Error()
-  }
+  () => { throw Error() },
 ])
 
 const initIntro = () => {

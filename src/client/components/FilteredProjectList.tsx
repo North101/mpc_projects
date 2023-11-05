@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction, useEffect, useState } from 'react'
+import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
 import { CheckSquare, Funnel, FunnelFill, Person, SortDown, Tag } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
@@ -111,23 +111,36 @@ export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .toSorted(sortByLabel)
 )*/}
 
+export const FilterContext = createContext<{
+  sort: string,
+  setSort: Dispatch<SetStateAction<string>>,
+  authorFilter: CheckboxState[],
+  setAuthorFilter: (state: CheckboxState[]) => void,
+  tagFilter: CheckboxState[],
+  setTagFilter: (state: CheckboxState[]) => void,
+  statusFilter: CheckboxState[],
+  setStatusFilter: (state: CheckboxState[]) => void,
+}>({
+  sort: '',
+  setSort: () => { throw Error() },
+  authorFilter: [],
+  setAuthorFilter: () => { throw Error() },
+  tagFilter: [],
+  setTagFilter: () => { throw Error() },
+  statusFilter: [],
+  setStatusFilter: () => { throw Error() },
+})
+
 interface FilteredProjectListProps {
   projects: ProjectInfo[]
-  sort: string
-  setSort: (state: string) => void
-  authorFilter: CheckboxState[]
-  setAuthorFilter: (state: CheckboxState[]) => void
-  tagFilter: CheckboxState[]
-  setTagFilter: (state: CheckboxState[]) => void
-  statusFilter: CheckboxState[]
-  setStatusFilter: (state: CheckboxState[]) => void
-  //siteFilter: CheckboxState[]
-  //setSiteFilter: (state: CheckboxState[]) => void
 }
 
 export const FilteredProjectList = (props: FilteredProjectListProps) => {
   const {
     projects,
+  } = props
+
+  const {
     sort,
     setSort,
     authorFilter,
@@ -138,7 +151,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     setStatusFilter,
     //siteFilter,
     //setSiteFilter,
-  } = props
+  } = useContext(FilterContext)
 
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id)
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id)
@@ -318,18 +331,21 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
   const [statusFilter, setStatusFilter] = useStatusFilter(projects)
   {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/ }
   return (
-    <FilteredProjectList
-      projects={projects}
-      sort={sort}
-      setSort={setSort}
-      authorFilter={authorFilter}
-      setAuthorFilter={setAuthorFilter}
-      tagFilter={tagFilter}
-      setTagFilter={setTagFilter}
-      statusFilter={statusFilter}
-      setStatusFilter={setStatusFilter}
-    //siteFilter={siteFilter}
-    //setSiteFilter={setSiteFilter}
-    />
+    <FilterContext.Provider value={{
+      sort,
+      setSort,
+      authorFilter,
+      setAuthorFilter,
+      tagFilter,
+      setTagFilter,
+      statusFilter,
+      setStatusFilter,
+      //siteFilter
+      //setSiteFilter
+    }}>
+      <FilteredProjectList
+        projects={projects}
+      />
+    </FilterContext.Provider>
   )
 }
