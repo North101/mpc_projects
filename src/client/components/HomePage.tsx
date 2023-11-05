@@ -2,7 +2,6 @@ import { useProjects } from '../projects'
 import { AppContainer } from './AppContainer'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { FilteredProjectListContainer } from './FilteredProjectList'
-import { Intro } from './Intro'
 
 export const HomePage = () => {
   const projects = useProjects()
@@ -16,10 +15,7 @@ export const HomePage = () => {
 
   return (
     <AppContainer>
-      <>
-        <Intro />
-        <FilteredProjectListContainer projects={projects} />
-      </>
+      <FilteredProjectListContainer projects={projects} />
     </AppContainer>
   )
 }

@@ -1,4 +1,4 @@
-import { Dispatch, PropsWithChildren, SetStateAction, useState } from 'react'
+import { Dispatch, PropsWithChildren, SetStateAction, useContext, useState } from 'react'
 import { Nav, NavLink } from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
 import Form from 'react-bootstrap/esm/Form'
@@ -6,9 +6,18 @@ import Navbar from 'react-bootstrap/esm/Navbar'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import Stack from 'react-bootstrap/esm/Stack'
 import { useProjects } from '../projects'
-import { CircularProgressIndicator } from './CircularProgressIndicator'
-import { ProjectList } from './ProjectList'
 import { Branding } from './Branding'
+import { CircularProgressIndicator } from './CircularProgressIndicator'
+import { IntroContext } from './Intro'
+import { ProjectList } from './ProjectList'
+
+const IntroNavLink = () => {
+  const [_show, setShow] = useContext(IntroContext)
+
+  const onClick = () => setShow(true)
+
+  return <NavLink onClick={onClick}>Intro</NavLink>
+}
 
 
 interface HeaderProps {
@@ -26,6 +35,7 @@ const Header = ({ setSearch }: HeaderProps) => (
         <Nav className='d-flex justify-content-end flex-fill ms-xl-4 fs-5'>
           <NavLink href='/help'>Help</NavLink>
           <NavLink href='/about'>About</NavLink>
+          <IntroNavLink/>
           <Form className='ms-lg-4 ms-xxl-5 me-2 search'>
             <Form.Control
               type='search'
@@ -60,15 +70,15 @@ const SearchProjectList = ({ search }: SearchProjectListProps) => {
 export const AppContainer = ({ children }: React.PropsWithChildren) => {
   const [search, setSearch] = useState<string>('')
   return (
-    <Stack gap={2} className='d-flex h-100'>
-      <Header setSearch={setSearch} />
-      <div className='d-flex flex-fill'>
-        <Container className='main'>
-          {search.trim() ? <SearchProjectList search={search} /> : children}
-        </Container>
-      </div>
-      <div />
-    </Stack>
+      <Stack gap={2} className='d-flex h-100'>
+        <Header setSearch={setSearch} />
+        <div className='d-flex flex-fill'>
+          <Container className='main'>
+            {search.trim() ? <SearchProjectList search={search} /> : children}
+          </Container>
+        </div>
+        <div />
+      </Stack>
   )
 }
 

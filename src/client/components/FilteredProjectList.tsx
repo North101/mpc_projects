@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { Dispatch, SetStateAction, useEffect, useState } from 'react'
 import { CheckSquare, Funnel, FunnelFill, Person, SortDown, Tag } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
@@ -56,7 +56,7 @@ const sorts: {
   'Oldest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
 }
 
-export const useSort = (): [string, (value: string) => void] => {
+export const useSort = (): [string, Dispatch<SetStateAction<string>>] => {
   const [sort, setSort] = useState(() => {
     const sort = localStorage.getItem('sort')
     if (!sort || !(sort in sorts)) return Object.keys(sorts)[0]
