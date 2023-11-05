@@ -1,10 +1,11 @@
-import { useEffect, useRef } from 'react'
-import { useLocation } from 'react-router-dom';
+//import { useEffect, useRef } from 'react'
+//import { useLocation } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/esm/Row';
 import { AppContainer } from './AppContainer';
 import { HelpText } from './HelpText';
 import { FAQ } from './FAQ';
+
 
 
 const SideNav = () => {
@@ -81,7 +82,7 @@ export const HelpPage = () => {
     <AppContainer>
       <Row className='gx-5'>
         <aside className='col-md-3'>
-          <SideNav></SideNav>
+          <SideNav />
         </aside>
         <div className='tldr col-md-9'>
           <HelpText />
