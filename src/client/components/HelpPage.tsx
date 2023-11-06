@@ -37,13 +37,13 @@ const SideNav = () => {
         {items.map((e, index) => (
           <Nav.Item key={index} as='li'>
             {e.name}
-            {e.items.map((e, index) => (
-              <Nav key={index} as='ul' className="flex-column">
-                <Nav.Item as='li'>
+            <Nav as='ul' className="flex-column">
+              {e.items.map((e, index) => (
+                <Nav.Item key={index} as='li'>
                   <Nav.Link href={`#${e.id}`}>{e.name}</Nav.Link>
                 </Nav.Item>
-              </Nav>
-            ))}
+              ))}
+            </Nav>
           </Nav.Item>
         ))}
       </Nav>
