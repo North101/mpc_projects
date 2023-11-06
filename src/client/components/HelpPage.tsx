@@ -17,18 +17,24 @@ const SideNav = () => {
   const [nav, setNav] = useState<JSX.Element | null>(null)
   useEffect(() => {
     const items = []
-    const iterator = document.evaluate("//*[@class='help tldr']//section", document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null)
+    const iterator = document.evaluate("//section", document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null)
     for (const node of nodeIterator(iterator)) {
       const subitems = []
       const iterator2 = document.evaluate(".//h3", node, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null)
       for (const node2 of nodeIterator(iterator2)) {
         subitems.push({
           id: document.evaluate("./@id", node2, null, XPathResult.STRING_TYPE).stringValue,
-          name: document.evaluate("./text()", node2, null, XPathResult.STRING_TYPE).stringValue,
+          name: document.evaluate("./text()|.//span/text()", node2, null, XPathResult.STRING_TYPE).stringValue,
+        })
+      }
+      if (subitems.length == 0) {
+        subitems.push({
+          id: document.evaluate("./@id", node, null, XPathResult.STRING_TYPE).stringValue,
+          name: document.evaluate("./h2/text()", node, null, XPathResult.STRING_TYPE).stringValue,
         })
       }
       items.push({
-        name: document.evaluate(".//h2/text()", node, null, XPathResult.STRING_TYPE).stringValue,
+        name: document.evaluate("./h2/text()", node, null, XPathResult.STRING_TYPE).stringValue,
         items: subitems,
       })
     }
