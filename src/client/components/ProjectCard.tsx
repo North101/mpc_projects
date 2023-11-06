@@ -94,9 +94,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               className='download'
               variant='outline-primary'
               size='sm'
+              aria-label={`download ${project.name}`}
               onClick={onShow}
             >
-              <CloudArrowDown className='icon-dl' />
+              <CloudArrowDown
+                className='icon-dl'
+                focusable='false'
+                aria-hidden='true'
+              />
             </Button>
           </h2>
           <Card.Subtitle as='h3' className='h6'>
