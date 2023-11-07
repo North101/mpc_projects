@@ -4,22 +4,22 @@
     font-size: $h5-font-size;
     margin: 0.25rem 0 2px;
   }
-  
+
   h3 {
     font-family: $font-family-sans-serif;
     font-size: 1.2rem;
 
-    a.btn-link {
+    button.btn-link {
       font-weight: 300;
     }
   }
-    
+
   h2,
-  h3 {    
-    a {
+  h3 {
+    button {
       color: var(--bs-body-color);
       text-decoration: none;
-      
+
       &:hover,
       &:active,
       &:focus {
@@ -81,7 +81,7 @@ button.download {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
-  
+
 .icon-dl {
   width: 18px;
   height: 18px;
