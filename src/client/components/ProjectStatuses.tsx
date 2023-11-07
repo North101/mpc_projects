@@ -11,21 +11,19 @@ const stringToClass = (rawString: string): string => {
   return statusClass.toLowerCase()
 }
 
-export const ProjectStatus = ({ status }: { status: string }) => {
+const ProjectStatus = ({ status }: { status: string }) => {
   const { statusFilter, setStatusFilter } = useContext(FilterContext)
-  const onClick = () => {
-    setStatusFilter(statusFilter.map((v) => {
-      if (status == v.label) {
-        return {
-          ...v,
-          checked: true,
-        }
+  const onClick = () => setStatusFilter(statusFilter.map((v) => {
+    if (status == v.label) {
+      return {
+        ...v,
+        checked: true,
       }
-      return v
-    }))
-  }
+    }
+    return v
+  }))
   return (
-    <Button variant='link' className={`status status-${stringToClass(status)}`} onClick={onClick}>
+    <Button variant='link' className={`p-0 m-0 status status-${stringToClass(status)}`} onClick={onClick}>
       <Badge pill bg='secondary'>{status}</Badge>
     </Button>
   )
