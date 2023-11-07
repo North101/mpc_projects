@@ -5,7 +5,7 @@ import '../scss/styles.scss'
 import { AboutPage } from './components/AboutPage'
 import { HelpPage } from './components/HelpPage'
 import { HomePage } from './components/HomePage'
-import { Intro, IntroContext, useIntro } from './components/Intro'
+import { Intro, IntroContext, useIntro } from './components/IntroPage'
 {/*import {SitePage} from './components/SitePage'*/ }
 
 const Router = () => <>

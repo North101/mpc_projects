@@ -153,6 +153,191 @@ $input-border-color: $gray-500;
   border-color: $input-border-color;
 }
 
+// Intro
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/assets/images/act-1-mobile-top.png'),
+                    url('/assets/images/act-1-mobile-bottom.png'),
+                    url('/assets/images/act-1-mobile-stretch.png');
+  background-position: top center,
+                    bottom center,
+                    top center;
+  background-repeat: no-repeat;
+  background-size: contain,
+                    contain,
+                    cover;
+
+  @include media-breakpoint-up(lg) {
+    //background-image: url('/assets/images/act-1.png');
+    //background-position: top center;
+    //background-size: contain;
+    background: transparent;
+  }
+
+  .intro-bg {
+    object-fit: contain;
+    position: relative;
+  }
+
+  .intro-content {
+    font-size: 1rem;
+    padding: 27% 10% 0 2%;
+  }
+
+  .intro-body {
+    color: #000;
+
+    p {
+      margin-bottom: 0.25rem;
+      line-height: 1.1;
+    }
+  }
+
+  .arkham-choice {
+    margin-top: 1rem;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      font-weight: 700;
+      color: #6c1f25;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: #a4363c;
+        border-bottom: 3px solid #a4363c;
+      }
+    }
+  }
+  .intro-footer {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    .form-check {
+      color: #ffffff;
+
+      .form-check-input {
+        border-color: #fff;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-width: 2px;
+      }
+    }
+
+    .form-check-input:checked {
+      background-color: #a4363c;
+      border-color: #a4363c;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    font-size: 2.75vw;
+
+    .intro-content {
+      padding: 28% 12% 0 2%;
+
+      p {
+        margin-bottom: 0.4rem;
+      }
+    }
+
+    .arkham-choice {
+      p {
+        margin-bottom: 0.25rem;
+      }
+    }
+
+    .intro-footer {
+      margin-top: -7.5%;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .intro-content {
+      padding: 30% 14% 0 4%;
+
+      p {
+        margin-bottom: 0.5rem;
+        line-height: 1.15;
+      }
+    }
+
+    .arkham-choice {
+      p {
+        margin-bottom: 0.25rem;
+      }
+
+      a {
+        text-underline-offset: 6px;
+      }
+    }
+
+    .intro-footer {
+      margin-top: -7.5%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.525vw;
+
+      .intro-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        padding: 18% 0 0 2.5%;
+      }
+
+      .arkham-choice {
+        margin-top: 1rem;
+
+        p {
+          margin-bottom: 0.3rem;
+        }
+      }
+
+      .intro-footer {
+        margin-top: -5%;
+      }
+    }
+
+    @include media-breakpoint-up(xl) {
+      .intro-content {
+        padding: 18% 0 0 3%;
+      }
+
+      .intro-footer {
+        margin-top: -4.5%;
+      }
+    }
+
+    @include media-breakpoint-up(xxl) {
+      .intro-content {
+        padding: 18% 0 0 3%;
+
+        p {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      .intro-footer {
+        margin-top: -4%;
+      }
+    }
+  }
+}
+
+
 // Main
 .main.container {
   position: relative; // to position the intro show checkbox

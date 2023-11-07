@@ -8,7 +8,7 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { useProjects } from '../projects'
 import { Branding } from './Branding'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
-import { IntroContext } from './Intro'
+import { IntroContext } from './IntroPage'
 import { ProjectList } from './ProjectList'
 
 const IntroNavLink = () => {
@@ -33,6 +33,7 @@ const Header = ({ setSearch }: HeaderProps) => (
       <Navbar.Toggle />
       <NavbarCollapse>
         <Nav className='d-flex justify-content-end flex-fill ms-xl-4 fs-5'>
+          <NavLink href='/home'>Projects</NavLink>
           <NavLink href='/help'>Help</NavLink>
           <NavLink href='/about'>About</NavLink>
           <IntroNavLink/>
