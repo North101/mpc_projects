@@ -32,7 +32,7 @@ interface ProjectCardProps {
 {/*
 export const ProjectParts= ({ project }: ProjectCardProps) => {
   const parts = project.parts.map(part =>
-    {part.key > 0 <li>{part.name}</li> ?? "" }
+    {part.key > 0 <li>{part.name}</li> ?? '' }
   )
   return <ul>{parts}</ul>
 })
@@ -72,7 +72,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   const onClose = () => setShow(false)
 
   const enabledParts= project.parts.filter((part) => {
-     return part.enabled;
+     return part.enabled
   })
 
   const count = enabledParts.reduce((count, card) => count + card.count, 0)

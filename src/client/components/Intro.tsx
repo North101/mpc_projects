@@ -10,8 +10,8 @@ export const IntroContext = createContext<[boolean, React.Dispatch<React.SetStat
 
 const initIntro = () => {
   const saved = localStorage.getItem('hideIntro')
-  const isHidden = saved !== null ? JSON.parse(saved) : false;
-  return !isHidden;
+  const isHidden = saved !== null ? JSON.parse(saved) : false
+  return !isHidden
 }
 
 export const useIntro = (): [boolean, React.Dispatch<React.SetStateAction<boolean>>] => {
@@ -44,8 +44,8 @@ const IntroHide = () => {
 export const Intro = () => {
   const [show, setShow] = useContext(IntroContext)
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
 
   return (
     <Modal className='intro' show={show} onHide={handleClose} onShow={handleShow}>
@@ -64,21 +64,21 @@ export const Intro = () => {
         <p>
           You know what it is you desperately need. Professionally printed copies of all the Arkham Horror community’s home-brewed content and every single FFG card available for print &amp; play. Surely that will sate you. Surely that will be enough.&hellip; Won’t it?</p>
         <p>
-          There’s only one way to find out. It’s time to accept your{" "}
+          There’s only one way to find out. It’s time to accept your{' '}
           <strong>Inexorable Fate</strong>.
         </p>
         <div className='arkham-choice'>
           <p>
-            <em>If “the investigators are uninitiated,”</em> proceed to{" "}
-            <a href="/help" title="Instruct me.">Intro&nbsp;1</a>.
+            <em>If “the investigators are uninitiated,”</em> proceed to{' '}
+            <a href='/help' title='Instruct me.'>Intro&nbsp;1</a>.
           </p>
           <p>
-            <em>If “you reject your fate,”</em> proceed to{" "}
-            <a href="/help#why" title="Why all this?">Intro&nbsp;2</a>.
+            <em>If “you reject your fate,”</em> proceed to{' '}
+            <a href='/help#why' title='Why all this?'>Intro&nbsp;2</a>.
           </p>
           <p>
-            <em>If “you have been here before,”</em> proceed to{" "}
-            <a href="#filters" title="Find projects!" onClick={handleClose}>Intro&nbsp;3</a>.
+            <em>If “you have been here before,”</em> proceed to{' '}
+            <a href='#filters' title='Find projects!' onClick={handleClose}>Intro&nbsp;3</a>.
           </p>
         </div>
       </Modal.Body>

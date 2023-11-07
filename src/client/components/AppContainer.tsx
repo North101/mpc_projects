@@ -27,7 +27,7 @@ interface HeaderProps {
 const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='lg' className='navbar-main bg-body-tertiary' sticky='top'>
     <Container>
-      <Navbar.Brand href='/' className="col-xs-8 col-sm-4 d-flex justify-content-start align-items-stretch flex-shrink">
+      <Navbar.Brand href='/' className='col-xs-8 col-sm-4 d-flex justify-content-start align-items-stretch flex-shrink'>
         <Branding />
       </Navbar.Brand>
       <Navbar.Toggle />

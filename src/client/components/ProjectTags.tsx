@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import Badge from 'react-bootstrap/esm/Badge'
+import Button from 'react-bootstrap/esm/Button'
 import Stack from 'react-bootstrap/esm/Stack'
 import { FilterContext } from './FilteredProjectList'
 
@@ -18,9 +19,9 @@ export const ProjectTag = ({ tag }: { tag: string }) => {
     }))
   }
   return (
-    <a href='javascript:void(0)' onClick={onClick}>
+    <Button variant='link' onClick={onClick}>
       <Badge pill bg='secondary'>{tag}</Badge>
-    </a>
+    </Button>
   )
 }
 
