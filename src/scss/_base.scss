@@ -242,9 +242,8 @@ $input-border-color: $gray-500;
   }
 
   @include media-breakpoint-up(sm) {
-    font-size: 2.75vw;
-
     .intro-content {
+      font-size: 1.75vw;
       padding: 28% 12% 0 2%;
 
       p {
@@ -288,13 +287,12 @@ $input-border-color: $gray-500;
     }
 
     @include media-breakpoint-up(lg) {
-      font-size: 1.525vw;
-
       .intro-content {
         position: absolute;
         top: 0;
         left: 0;
         width: 50%;
+        font-size: 1.125rem;
         padding: 18% 0 0 2.5%;
       }
 
@@ -313,6 +311,7 @@ $input-border-color: $gray-500;
 
     @include media-breakpoint-up(xl) {
       .intro-content {
+        font-size: 1.3rem;
         padding: 18% 0 0 3%;
       }
 
@@ -323,6 +322,7 @@ $input-border-color: $gray-500;
 
     @include media-breakpoint-up(xxl) {
       .intro-content {
+        font-size: 1.5rem;
         padding: 18% 0 0 3%;
 
         p {

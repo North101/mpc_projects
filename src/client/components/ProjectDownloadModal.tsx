@@ -28,15 +28,15 @@ const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose
     await writable.write(JSON.stringify(download))
     await writable.close()
   } else {
-    const blob = new Blob([JSON.stringify(download)], { type: "application/json" });
-    const element = document.createElement('a');
-    const url = URL.createObjectURL(blob);
-    document.body.appendChild(element);
-    element.href = url;
-    element.download = project.filename;
-    element.click();
-    element.remove();
-    URL.revokeObjectURL(url);
+    const blob = new Blob([JSON.stringify(download)], { type: 'application/json' })
+    const element = document.createElement('a')
+    const url = URL.createObjectURL(blob)
+    document.body.appendChild(element)
+    element.href = url
+    element.download = project.filename
+    element.click()
+    element.remove()
+    URL.revokeObjectURL(url)
   }
 
   onClose()

@@ -1,24 +1,24 @@
 export const HelpText = () => (
-  <div className="help tldr">
-    <section id="getting-started">
-      <h2 className="display-4">Getting Started</h2>
-      <h3 id="install-extension">Installing the Chrome Extension</h3>
+  <div className='help tldr'>
+    <section id='getting-started'>
+      <h2 className='display-4'>Getting Started</h2>
+      <h3 id='install-extension'>Installing the Chrome Extension</h3>
       <span
         style={{ overflow: 'scroll' }}>
         <img
-          className="float-end outline ms-4 mb-4"
+          className='float-end outline ms-4 mb-4'
           width={312}
           height={271}
-          src="/assets/images/screenshot-pin-extension.png"
+          src='/assets/images/screenshot-pin-extension.png'
         />
       </span>
       <ol>
         <li>
           <p>
-            Install the extension from the{" "}
-            <a href="https://chrome.google.com/webstore/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko">
+            Install the extension from the{' '}
+            <a href='https://chrome.google.com/webstore/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko'>
               chrome web store
-            </a>{" "}
+            </a>{' '}
             by clicking <strong>Add to Chrome</strong>.
           </p>
         </li>
@@ -32,8 +32,8 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            Go to{" "}
-            <a href="https://www.makeplayingcards.com/">makeplayingcards.com</a>{" "}
+            Go to{' '}
+            <a href='https://www.makeplayingcards.com/'>makeplayingcards.com</a>{' '}
             in Chrome and log in to your account.
           </p>
         </li>
@@ -41,27 +41,27 @@ export const HelpText = () => (
           <p>Click the snowflake icon to bring up the MPC Project Helper.</p>
         </li>
       </ol>
-      <h3 id="next-steps">Next Steps</h3>
+      <h3 id='next-steps'>Next Steps</h3>
       <ul>
         <li>
           <p>
             If you want to print a project that has already been set up, continue
-            to the next step,{" "}
-            <a href="#website">Find Projects on Inexorable Fate</a>.
+            to the next step,{' '}
+            <a href='#website'>Find Projects on Inexorable Fate</a>.
           </p>
         </li>
         <li>
           <p>
             If you have individual card images and you need to create your own MPC
-            project from them, jump to{" "}
-            <a href="project-create">Create a Project from Card Images</a>.
+            project from them, jump to{' '}
+            <a href='project-create'>Create a Project from Card Images</a>.
           </p>
         </li>
       </ul>
     </section>
-    <section id="website">
-      <h2 className="display-4">Find Projects on Inexorable Fate</h2>
-      <h3 id="download">Downloading a Project</h3>
+    <section id='website'>
+      <h2 className='display-4'>Find Projects on Inexorable Fate</h2>
+      <h3 id='download'>Downloading a Project</h3>
       <ol>
         <li>
           <p>Click the download icon next to the name of the project you want.</p>
@@ -81,23 +81,23 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            When you’ve chosen your desired project components, click the{" "}
-            <strong>Download</strong> button and save the resulting{" "}
+            When you’ve chosen your desired project components, click the{' '}
+            <strong>Download</strong> button and save the resulting{' '}
             <code>.json</code> file.
           </p>
         </li>
         <li>
           <p>
-            If you are ready to print your downloaded project(s), jump to{" "}
-            <a href="#project-load">Loading a Project File</a>
+            If you are ready to print your downloaded project(s), jump to{' '}
+            <a href='#project-load'>Loading a Project File</a>
           </p>
           <p>
             If you want more details about finding projects on Inexorable Fate,
-            continue to the next step, <a href="#search">Using Project Search</a>.
+            continue to the next step, <a href='#search'>Using Project Search</a>.
           </p>
         </li>
       </ol>
-      <h3 id="search">Using Project Search</h3>
+      <h3 id='search'>Using Project Search</h3>
       <ol>
         <li>
           <p>
@@ -124,7 +124,7 @@ export const HelpText = () => (
           </p>
         </li>
       </ol>
-      <h3 id="filter">Filtering Projects</h3>
+      <h3 id='filter'>Filtering Projects</h3>
       <p>
         Filters, indicated by the funnel icon, provide an even more powerful way
         to narrow the project list.
@@ -135,7 +135,7 @@ export const HelpText = () => (
           <ul>
             <li>
               <p>
-                You can find the work of specific content creators using{" "}
+                You can find the work of specific content creators using{' '}
                 <strong>Authors</strong> filter. The list of projects will
                 immediately update to projects by the selected author(s). To view
                 only official PnP content, filter on the author “Fantasy Flight
@@ -166,7 +166,7 @@ export const HelpText = () => (
                 </li>
                 <li>
                   <p>
-                    We suggest you hold off on any projects marked{" "}
+                    We suggest you hold off on any projects marked{' '}
                     <strong>Changes Pending</strong>. Typically these need fixes
                     either upcoming from the homebrew author or to the project
                     file, and an improved version will be available shortly. You
@@ -187,11 +187,11 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            Selecting multiple filters in the same category{" "}
+            Selecting multiple filters in the same category{' '}
             <strong>broadens</strong> your search, so choosing both Campaign and
-            Investigator tags won’t will get you projects with either the Campaign{" "}
+            Investigator tags won’t will get you projects with either the Campaign{' '}
             <strong>OR</strong> the Investigator tag, not projects with both. But
-            selecting filters in different categories <strong>narrows</strong>{" "}
+            selecting filters in different categories <strong>narrows</strong>{' '}
             your search. Selecting author Fantasy Flight Games and status Ongoing
             will find projects that are both by FFG <strong>AND</strong> which are
             preiodically updated, like Parallels and Taboo.
@@ -206,9 +206,9 @@ export const HelpText = () => (
         </li>
       </ol>
     </section>
-    <section id="project-tab">
-      <h2 className="display-4">Load a Project File</h2>
-      <h3 id="loading-project">Loading the Project from a .json file</h3>
+    <section id='project-tab'>
+      <h2 className='display-4'>Load a Project File</h2>
+      <h3 id='loading-project'>Loading the Project from a .json file</h3>
       <ol>
         <li>
           <p>
@@ -218,12 +218,12 @@ export const HelpText = () => (
         </li>
         <li>
           <p>
-            Click the <strong>Add projects</strong> button on the{" "}
+            Click the <strong>Add projects</strong> button on the{' '}
             <strong>Project</strong> tab.
           </p>
           <img
-            className="w-100 outline mb-4"
-            src="/assets/images/screenshot-add-projects.png"
+            className='w-100 outline mb-4'
+            src='/assets/images/screenshot-add-projects.png'
           />
         </li>
         <li>
@@ -233,16 +233,16 @@ export const HelpText = () => (
           </p>
         </li>
       </ol>
-      <h3 id="combine-edit">Combining and Editing Projects (Optional)</h3>
+      <h3 id='combine-edit'>Combining and Editing Projects (Optional)</h3>
       <p>
         As MPC charges a flat fee for a given number of cards, you can save money
         by combining several smaller projects for a lower cost per card than if
         you print them separately. You may even be able to print a smaller project
         for free by combining it with a larger project you are also printing, so
-        check{" "}
-        <a href="https://www.makeplayingcards.com/design/custom-blank-card.html">
+        check{' '}
+        <a href='https://www.makeplayingcards.com/design/custom-blank-card.html'>
           MPC’s pricing
-        </a>{" "}
+        </a>{' '}
         to determine whether combining projects will be advantageous.
       </p>
       <p>
@@ -262,9 +262,9 @@ export const HelpText = () => (
         <li>
           <p>
             <img
-              className="float-end outline"
+              className='float-end outline'
               width={40}
-              src="/assets/images/screenshot-edit-button.png"
+              src='/assets/images/screenshot-edit-button.png'
             />
             If you wish to remove cards from an existing project, click the edit
             icon next to the project. Then use the trash icon to delete any cards
@@ -272,28 +272,28 @@ export const HelpText = () => (
           </p>
         </li>
         <img
-          className="w-100 outline mb-4"
-          src="/assets/images/screenshot-delete-card.png"
+          className='w-100 outline mb-4'
+          src='/assets/images/screenshot-delete-card.png'
         />
         <li>
           <p>
             If you wish to add or replace cards within a project, you’ll need to
             make a second project file with the cards you want to add and then
-            combine the two projects. See the{" "}
-            <a href="#creator-combine-edit">Combining and Editing Projects</a>{" "}
-            section under{" "}
-            <a href="#project-create">Creating a Project from Card Images</a> for
+            combine the two projects. See the{' '}
+            <a href='#creator-combine-edit'>Combining and Editing Projects</a>{' '}
+            section under{' '}
+            <a href='#project-create'>Creating a Project from Card Images</a> for
             more detailed instructions.
           </p>
         </li>
       </ol>
-      <h3 id="finalize">Finalizing and Uploading Your Project</h3>
+      <h3 id='finalize'>Finalizing and Uploading Your Project</h3>
       <span
         style={{ overflow: 'scroll' }}>
         <img
-          className="float-end outline ms-4"
+          className='float-end outline ms-4'
           width={300}
-          src="./assets/images/screenshot-print-options.png"
+          src='./assets/images/screenshot-print-options.png'
         />
       </span>
       <ol>
@@ -330,13 +330,13 @@ export const HelpText = () => (
             <span
               style={{ overflow: 'scroll' }}>
               <img
-                className="float-end outline ms-4"
+                className='float-end outline ms-4'
                 width={300}
-                src="/assets/images/screenshot-success.png"
+                src='/assets/images/screenshot-success.png'
               />
             </span>
             On the <strong>Success</strong> screen, if you have combined multiple
-            projects or made any edits, click the <strong>Save as Project</strong>{" "}
+            projects or made any edits, click the <strong>Save as Project</strong>{' '}
             button to save a .json file for your project. This will enable you to
             reload and edit it later if you need to make changes.
           </p>
@@ -351,14 +351,14 @@ export const HelpText = () => (
         <li>
           <p>
             If your project exceeded the max MPC size and were split into multiple
-            projects, you will need to return to this tab to click the other{" "}
-            <strong>Open Project</strong> buttons ( <strong>2/x</strong>,{" "}
+            projects, you will need to return to this tab to click the other{' '}
+            <strong>Open Project</strong> buttons ( <strong>2/x</strong>,{' '}
             <strong>3/x</strong>, etc.) in order to access them on MPC.
           </p>
         </li>
       </ol>
     </section>
-    <h3 id="view-on-mpc">Viewing Your Project on MPC</h3>
+    <h3 id='view-on-mpc'>Viewing Your Project on MPC</h3>
     <ol>
       <li>
         <p>
@@ -378,9 +378,9 @@ export const HelpText = () => (
         <span
           style={{ overflow: 'scroll' }}>
           <img
-            className="mt-2 mb-4"
+            className='mt-2 mb-4'
             width={500}
-            src="/assets/images/screenshot-broken-image.png"
+            src='/assets/images/screenshot-broken-image.png'
           />
         </span>
         <p>
@@ -393,14 +393,14 @@ export const HelpText = () => (
       </li>
       <li>
         <p>
-          Check the disclaimer box and <strong>Add to Cart</strong> to purchase or{" "}
+          Check the disclaimer box and <strong>Add to Cart</strong> to purchase or{' '}
           <strong>Add to Saved Projects</strong> to save for later.
         </p>
       </li>
     </ol>
-    <section id="images-tab">
-      <h2 className="display-4">Create a Project from Card Images</h2>
-      <h3 id="image-prep">Preparing Images for Upload</h3>
+    <section id='images-tab'>
+      <h2 className='display-4'>Create a Project from Card Images</h2>
+      <h3 id='image-prep'>Preparing Images for Upload</h3>
       <ol>
         <li>
           <p>
@@ -410,27 +410,27 @@ export const HelpText = () => (
           <p>
             Minimum resolution for printing Arkham Horror-sized cards at MPC are
             750 x 1050 px at 300dpi, with 36px bleed on all sides, so your final
-            size should be at least 822 x 1122 px. See{" "}
-            <a href="https://www.makeplayingcards.com/pops/faq-photo.html">
+            size should be at least 822 x 1122 px. See{' '}
+            <a href='https://www.makeplayingcards.com/pops/faq-photo.html'>
               MPC&apos;s bleed guidelines
-            </a>{" "}
+            </a>{' '}
             for more information and details on other card sizes.
           </p>
           <p>
             Bleed is an extension of the card art/design so that if the cut is
             slightly off you won&apos;t end up with an unprinted strip of white
             cardstock on one edge. You can automatically add mirrored bleed to
-            cards in Strange Eons by downloading{" "}
-            <a href="https://drive.google.com/file/d/1MpJ9UAUHsSkvmegd4WTy3-kX5AMB1GZ-/view?usp=share_link">
+            cards in Strange Eons by downloading{' '}
+            <a href='https://drive.google.com/file/d/1MpJ9UAUHsSkvmegd4WTy3-kX5AMB1GZ-/view?usp=share_link'>
               this script
-            </a>{" "}
-            and putting its path in the{" "}
-            <strong>Postprocess each image using a script</strong> field of{" "}
+            </a>{' '}
+            and putting its path in the{' '}
+            <strong>Postprocess each image using a script</strong> field of{' '}
             <strong>Bulk Export</strong> settings. Or you can use the Python
-            script{" "}
-            <a href="https://drive.google.com/drive/folders/1JcuCjJRC2p3jvw2FVMfsLN1qv0Oqv6Us?usp=drive_link">
+            script{' '}
+            <a href='https://drive.google.com/drive/folders/1JcuCjJRC2p3jvw2FVMfsLN1qv0Oqv6Us?usp=drive_link'>
               bleedy
-            </a>{" "}
+            </a>{' '}
             by Olivia Juliet and North101 to create mirrored bleed in bulk on
             individual images.
           </p>
@@ -486,7 +486,7 @@ export const HelpText = () => (
               <br />
               003-card-a.png
               <br />
-              003 card-b.png{" "}
+              003 card-b.png{' '}
             </code>
             <em>(this will take priority over back.png)</em>
             <br />
@@ -515,8 +515,8 @@ export const HelpText = () => (
                 Or, you can upload all your player cards as one project with a
                 default player back, then make a second project with the default
                 encounter back, and, finally, combine the two projects into one.
-                See{" "}
-                <a href="#creator-combine-edit">Combining and Editing Projects</a>{" "}
+                See{' '}
+                <a href='#creator-combine-edit'>Combining and Editing Projects</a>{' '}
                 for more details.
               </p>
             </li>
@@ -530,7 +530,7 @@ export const HelpText = () => (
           <code>
             back.png
             <br />
-            001-card-a.png{" "}
+            001-card-a.png{' '}
           </code>
           <em>(prints a single copy of card 001)</em>
           <br />
@@ -543,11 +543,11 @@ export const HelpText = () => (
           <code>003-card-x5-b.png</code>
         </li>
       </ol>
-      <h3 id="image-upload">Uploading Images</h3>
+      <h3 id='image-upload'>Uploading Images</h3>
       <ol>
         <li>
           <p>
-            Click the <strong>Images</strong> tab and then{" "}
+            Click the <strong>Images</strong> tab and then{' '}
             <strong>Add Images</strong> underneath.
           </p>
         </li>
@@ -592,11 +592,11 @@ export const HelpText = () => (
         <li>
           <p>
             Click <strong>Upload</strong> and choose your desired card size. For
-            Arkham Horror LCG, select{" "}
+            Arkham Horror LCG, select{' '}
             <strong>Custom Game Cards (63 x 88mm)</strong>. Although you have the
             opportunity to set or change this in the next step, doing it here
             ensures you will get a warning if your image resolution is too low.
-            Assuming this is a finalized project, check the{" "}
+            Assuming this is a finalized project, check the{' '}
             <strong>Upload project?</strong> checkbox to create a project on your
             MPC account.
           </p>
@@ -604,8 +604,8 @@ export const HelpText = () => (
         <li>
           <p>
             Name your project and choose your desired print settings. The
-            following settings are recommended for Arkham Horror LCG: Product:{" "}
-            <strong>Custom Game Cards (63 x 88mm)</strong>. Card Stock:{" "}
+            following settings are recommended for Arkham Horror LCG: Product:{' '}
+            <strong>Custom Game Cards (63 x 88mm)</strong>. Card Stock:{' '}
             <strong>(S33) Superior Smooth</strong> (S30 Standard Smooth is
             slightly thinner but also acceptable, especially if you sleeve.)
           </p>
@@ -626,20 +626,20 @@ export const HelpText = () => (
       </ol>
       <p>
         If you did not check the <strong>Upload project?</strong> checkbox,
-        continue to{" "}
-        <a href="#creator-combine-edit">Combining and Editing Projects</a>.
-        Otherwise skip to <a href="creator-view">Viewing Your Project on MPC</a>.
+        continue to{' '}
+        <a href='#creator-combine-edit'>Combining and Editing Projects</a>.
+        Otherwise skip to <a href='creator-view'>Viewing Your Project on MPC</a>.
       </p>
-      <h3 id="creator-combine-edit">Combining and Editing Projects (Optional)</h3>
+      <h3 id='creator-combine-edit'>Combining and Editing Projects (Optional)</h3>
       <p>
         As MPC charges a flat fee for a given number of cards, you can save money
         by combining several smaller projects for a lower cost per card than if
         you print them separately. You may even be able to print a small project
         for free by combining it with a larger project you are also printing, so
-        check{" "}
-        <a href="https://www.makeplayingcards.com/design/custom-blank-card.html">
+        check{' '}
+        <a href='https://www.makeplayingcards.com/design/custom-blank-card.html'>
           their pricing
-        </a>{" "}
+        </a>{' '}
         to determine whether combining projects will be advantageous.
       </p>
       <ol>
@@ -664,7 +664,7 @@ export const HelpText = () => (
         <li>
           <p>
             If you wish to reorder cards within multiple projects (i.e., mixing
-            cards from an updated version into an earlier project), use the{" "}
+            cards from an updated version into an earlier project), use the{' '}
             <strong>Export</strong> button to create a single project file, then
             clear the loaded projects, load your new combined file, and use the
             edit button to reorder.
@@ -677,7 +677,7 @@ export const HelpText = () => (
             in your project and want to replace them without re-uploading the
             entire project, or you created separate groups of player-backed cards
             and encounter-backed cards that you want to merge into a single
-            campaign), you do not need to check the{" "}
+            campaign), you do not need to check the{' '}
             <strong>Upload project?</strong> checkbox on the Card Settings dialog.
           </p>
           <p>
@@ -686,7 +686,7 @@ export const HelpText = () => (
             your project file.
           </p>
           <p>
-            Switch to the <strong>Project</strong> tab, click{" "}
+            Switch to the <strong>Project</strong> tab, click{' '}
             <strong>Add projects,</strong> and add both project files. You may
             remove cards from either project at this point.
           </p>
@@ -699,7 +699,7 @@ export const HelpText = () => (
           </p>
         </li>
       </ol>
-      <h3 id="creator-view">Viewing Your Project on MPC</h3>
+      <h3 id='creator-view'>Viewing Your Project on MPC</h3>
       <ol>
         <li>
           <p>

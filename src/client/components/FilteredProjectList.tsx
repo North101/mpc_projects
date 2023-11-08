@@ -238,7 +238,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
       >
         <Container fluid>
           <Navbar.Brand className='d-md-none d-lg-none'>Sort & Filter</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls='responsive-navbar-nav'>
             {hasFilters ? <FunnelFill /> : <Funnel />}
           </Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>

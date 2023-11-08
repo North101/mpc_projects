@@ -27,16 +27,16 @@ interface HeaderProps {
 const Header = ({ setSearch }: HeaderProps) => (
   <Navbar expand='lg' className='navbar-main bg-body-tertiary' sticky='top'>
     <Container>
-      <Navbar.Brand href='/' className="col-xs-8 col-sm-4 d-flex justify-content-start align-items-stretch flex-shrink">
+      <Navbar.Brand href='/' className='col-xs-8 col-sm-4 d-flex justify-content-start align-items-stretch flex-shrink'>
         <Branding />
       </Navbar.Brand>
       <Navbar.Toggle />
       <NavbarCollapse>
         <Nav className='d-flex justify-content-end flex-fill ms-xl-4 fs-5'>
-          <NavLink href='/home'>Projects</NavLink>
+          <NavLink href='/projects'>Projects</NavLink>
+          <IntroNavLink/>
           <NavLink href='/help'>Help</NavLink>
           <NavLink href='/about'>About</NavLink>
-          <IntroNavLink/>
           <Form className='ms-lg-4 ms-xxl-5 me-2 search'>
             <Form.Control
               type='search'
@@ -71,25 +71,25 @@ const SearchProjectList = ({ search }: SearchProjectListProps) => {
 export const AppContainer = ({ children }: React.PropsWithChildren) => {
   const [search, setSearch] = useState<string>('')
   return (
-      <Stack gap={2} className='d-flex h-100'>
-        <Header setSearch={setSearch} />
-        <div className='d-flex flex-fill'>
-          <Container className='main'>
-            {search.trim() ? <SearchProjectList search={search} /> : children}
-          </Container>
-        </div>
-        <div />
-      </Stack>
+    <Stack gap={2} className='d-flex h-100'>
+      <Header setSearch={setSearch} />
+      <div className='d-flex flex-fill'>
+        <Container className='main'>
+          {search.trim() ? <SearchProjectList search={search} /> : children}
+        </Container>
+      </div>
+      <div />
+    </Stack>
   )
 }
 
-export const AppContainerHome = ({ children }: PropsWithChildren) => {
+export const AppContainerIntro = ({ children }: PropsWithChildren) => {
   const [search, setSearch] = useState<string>('')
   return (
     <Stack gap={2} className='d-flex h-100'>
       <Header setSearch={setSearch} />
       <div className='d-flex flex-fill'>
-        <Container className='main'>
+        <Container fluid='xxl' className='main'>
           {search.trim() ? <SearchProjectList search={search} /> : children}
         </Container>
       </div>

@@ -9,14 +9,16 @@ import { Intro, IntroContext, useIntro } from './components/IntroPage'
 {/*import {SitePage} from './components/SitePage'*/ }
 
 const Router = () => <>
-  <Route path="/"><HomePage /></Route>
-  {/*<Route path="/project/:project">{({ project }) => <ProjectPage name={decodeURI(project)} />}</Route>*/}
-  {/*<Route path="/author/:author">{({ author }) => <AuthorPage name={decodeURI(author)} />}</Route>*/}
-  {/*<Route path="/tag/:tag">{({ tag }) => <TagPage tag={decodeURI(tag)} />}</Route>*/}
-  {/*<Route path="/status/:status">{({ status }) => <StatusPage status={decodeURI(status)} />}</Route>*/}
-  {/*<Route path="/site/:site">{({site}) => <SitePage site={decodeURI(site)}/>}</Route>*/}
-  <Route path="/about">{<AboutPage />}</Route>
-  <Route path="/help">{<HelpPage />}</Route>
+  <Route path='/'><HomePage /></Route>
+  <Route path='/projects'><HomePage /></Route>
+  <Route path='/intro'><Intro /></Route>
+  {/*<Route path='/project/:project'>{({ project }) => <ProjectPage name={decodeURI(project)} />}</Route>*/}
+  {/*<Route path='/author/:author'>{({ author }) => <AuthorPage name={decodeURI(author)} />}</Route>*/}
+  {/*<Route path='/tag/:tag'>{({ tag }) => <TagPage tag={decodeURI(tag)} />}</Route>*/}
+  {/*<Route path='/status/:status'>{({ status }) => <StatusPage status={decodeURI(status)} />}</Route>*/}
+  {/*<Route path='/site/:site'>{({site}) => <SitePage site={decodeURI(site)}/>}</Route>*/}
+  <Route path='/about'>{<AboutPage />}</Route>
+  <Route path='/help'>{<HelpPage />}</Route>
 </>
 
 const App = () => {

@@ -1,4 +1,4 @@
-import { AppContainer } from './AppContainer'
+import { AppContainerIntro } from './AppContainer'
 import { ChangeEvent, createContext, useContext, useEffect, useState } from 'react'
 import Form from 'react-bootstrap/esm/Form'
 import useLocation from 'wouter/use-location'
@@ -10,8 +10,8 @@ export const IntroContext = createContext<[boolean, React.Dispatch<React.SetStat
 
 const initIntro = () => {
   const saved = localStorage.getItem('hideIntro')
-  const isHidden = saved !== null ? JSON.parse(saved) : false;
-  return !isHidden;
+  const isHidden = saved !== null ? JSON.parse(saved) : false
+  return !isHidden
 }
 
 export const useIntro = (): [boolean, React.Dispatch<React.SetStateAction<boolean>>] => {
@@ -44,11 +44,11 @@ const IntroHide = () => {
 export const Intro = () => {
   const [show, setShow] = useContext(IntroContext)
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
 
   return (
-    <AppContainer>
+    <AppContainerIntro>
       <div className='intro w-100 m-auto d-flex flex-column align-items-stretch'>
         <img className='intro-bg d-none d-lg-block' src='/assets/images/act-1.png' alt='An Arkham Horror Act card with the art from the TCU card Fate of All Fools by Brian Valenzuela, showing a red-robed cultist holding a curved knife to the throat of a limp man.' />
         <div className='intro-content h-100 d-flex flex-column justify-content-between'>
@@ -88,6 +88,6 @@ export const Intro = () => {
           </div>
         </div>
       </div>
-    </AppContainer>
+    </AppContainerIntro>
   )
 }
