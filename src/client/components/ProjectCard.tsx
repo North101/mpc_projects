@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CloudArrowDown, InfoCircle, BoxArrowUpRight } from 'react-bootstrap-icons'
+import { BoxArrowUpRight, CloudArrowDown, InfoCircle } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
@@ -7,8 +7,8 @@ import Tooltip from 'react-bootstrap/esm/Tooltip'
 import { ProjectInfo } from '../types'
 import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
-import { ProjectTags } from './ProjectTags'
 import { ProjectStatuses } from './ProjectStatuses'
+import { ProjectTags } from './ProjectTags'
 
 interface ProjectTooltipProps {
   name: string
@@ -39,11 +39,11 @@ export const ProjectParts= ({ project }: ProjectCardProps) => {
 */}
 
 export const ProjectImage = ({ name, info }: ProjectTooltipProps) => {
-  {/* name = project.image, info = project.artist */}
+  {/* name = project.image, info = project.artist */ }
   if (info) {
     return (
       <OverlayTrigger
-        placement = 'bottom-end'
+        placement='bottom-end'
         overlay={<Tooltip className='illustrator-tooltip' id={name || 'core.jpg'}>Illus. {info}</Tooltip>}
       >
         <img
@@ -71,8 +71,8 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   const onShow = () => setShow(true)
   const onClose = () => setShow(false)
 
-  const enabledParts= project.parts.filter((part) => {
-     return part.enabled
+  const enabledParts = project.parts.filter((part) => {
+    return part.enabled
   })
 
   const count = enabledParts.reduce((count, card) => count + card.count, 0)
@@ -129,7 +129,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         <Card.Footer>
           <ProjectTags tags={project.tags} />
           <ProjectStatuses statuses={project.statuses} />
-       </Card.Footer>
+        </Card.Footer>
       </Card>
       {show && <ProjectDownloadModal
         project={project}

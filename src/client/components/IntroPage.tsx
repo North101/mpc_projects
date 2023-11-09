@@ -1,7 +1,8 @@
-import { AppContainerIntro } from './AppContainer'
 import { ChangeEvent, createContext, useContext, useEffect, useState } from 'react'
 import Form from 'react-bootstrap/esm/Form'
-import useLocation from 'wouter/use-location'
+import { AppContainerIntro } from './AppContainer'
+
+const introKey = 'intro'
 
 export const IntroContext = createContext<[boolean, React.Dispatch<React.SetStateAction<boolean>>]>([
   false,
@@ -9,32 +10,30 @@ export const IntroContext = createContext<[boolean, React.Dispatch<React.SetStat
 ])
 
 const initIntro = () => {
-  const saved = localStorage.getItem('hideIntro')
-  const isHidden = saved !== null ? JSON.parse(saved) : false
-  return !isHidden
+  const value = localStorage.getItem(introKey)
+  const showIntro = value !== null ? JSON.parse(value) : true
+  return showIntro
 }
 
 export const useIntro = (): [boolean, React.Dispatch<React.SetStateAction<boolean>>] => {
-  const [location, _setLocation] = useLocation()
-  const [show, setShow] = useState(initIntro() && location == '/')
-  return [show, setShow]
+  const [intro, setIntro] = useState(initIntro)
+  useEffect(() => {
+    localStorage.setItem(introKey, JSON.stringify(intro))
+  }, [intro])
+  return [intro, setIntro]
 }
 
 const IntroHide = () => {
-  const [show, setChecked] = useState(initIntro)
+  const [intro, setIntro] = useContext(IntroContext)
 
-  const onChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(!e.currentTarget.checked)
-
-  useEffect(() => {
-    localStorage.setItem('hideIntro', JSON.stringify(!show))
-  }, [show])
+  const onChange = (e: ChangeEvent<HTMLInputElement>) => setIntro(!e.currentTarget.checked)
 
   return (
     <Form>
       <Form.Check
         type='checkbox'
         label='Don’t show again'
-        checked={!show}
+        checked={!intro}
         onChange={onChange}
       />
     </Form>
@@ -42,11 +41,6 @@ const IntroHide = () => {
 }
 
 export const IntroPage = () => {
-  const [show, setShow] = useContext(IntroContext)
-
-  const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
-
   return (
     <AppContainerIntro>
       <div className='intro w-100 h-100 m-auto d-flex flex-column align-items-stretch'>
@@ -65,21 +59,21 @@ export const IntroPage = () => {
             <p>
               You know what it is you desperately need. Professionally printed copies of all the Arkham Horror community’s home-brewed content and every single FFG card available for print &amp; play. Surely that will sate you. Surely that will be enough.&hellip; Won’t it?</p>
             <p>
-              There’s only one way to find out. It’s time to accept your{" "}
+              There’s only one way to find out. It’s time to accept your{' '}
               <strong>Inexorable Fate</strong>.
             </p>
             <div className='arkham-choice'>
               <p>
-                <em>If “the investigators are uninitiated,”</em> proceed to{" "}
-                <a href="/help" title="Instruct me.">Intro&nbsp;1</a>.
+                <em>If “the investigators are uninitiated,”</em> proceed to{' '}
+                <a href='/help' title='Instruct me.'>Intro&nbsp;1</a>.
               </p>
               <p>
-                <em>If “you reject your fate,”</em> proceed to{" "}
-                <a href="/help#why" title="Why all this?">Intro&nbsp;2</a>.
+                <em>If “you reject your fate,”</em> proceed to{' '}
+                <a href='/help#why' title='Why all this?'>Intro&nbsp;2</a>.
               </p>
               <p>
-                <em>If “you have been here before,”</em> proceed to{" "}
-                <a href="/home" title="Find projects!">Intro&nbsp;3</a>.
+                <em>If “you have been here before,”</em> proceed to{' '}
+                <a href='/projects' title='Find projects!'>Intro&nbsp;3</a>.
               </p>
             </div>
           </div>
