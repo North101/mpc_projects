@@ -26,7 +26,7 @@ const App = () => {
   return (
     <IntroContext.Provider value={[showIntro, setShowIntro]}>
       <Router />
-      {/*<IntroPage />*/}
+      <IntroPage />
     </IntroContext.Provider>
   )
 }
