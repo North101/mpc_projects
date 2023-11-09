@@ -1,3 +1,11 @@
+// Layout
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 // Fonts
 .font-sans-serif {
   font-family: $font-family-sans-serif;
@@ -156,8 +164,6 @@ $input-border-color: $gray-500;
 // Intro
 .intro {
   position: relative;
-  display: flex;
-  flex-direction: column;
   background-image: url('/assets/images/act-1-mobile-top.png'),
                     url('/assets/images/act-1-mobile-bottom.png'),
                     url('/assets/images/act-1-mobile-stretch.png');
@@ -169,10 +175,7 @@ $input-border-color: $gray-500;
                     contain,
                     cover;
 
-  @include media-breakpoint-up(lg) {
-    //background-image: url('/assets/images/act-1.png');
-    //background-position: top center;
-    //background-size: contain;
+  @include media-breakpoint-up(md) {
     background: transparent;
   }
 
@@ -182,8 +185,8 @@ $input-border-color: $gray-500;
   }
 
   .intro-content {
-    font-size: 1rem;
-    padding: 27% 10% 0 2%;
+    font-size: 3vw;
+    padding: 30% 15% 0 5%;
   }
 
   .intro-body {
@@ -214,6 +217,7 @@ $input-border-color: $gray-500;
       }
     }
   }
+
   .intro-footer {
     display: flex;
     flex-shrink: 0;
@@ -243,11 +247,13 @@ $input-border-color: $gray-500;
 
   @include media-breakpoint-up(sm) {
     .intro-content {
-      font-size: 1.75vw;
-      padding: 28% 12% 0 2%;
+      //font-size: 1.75vw;
+      //padding: 28% 12% 0 2%;
+      font-size: 3vw;
+      padding: 30% 15% 0 5%;
 
       p {
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.5rem;
       }
     }
 
@@ -264,15 +270,25 @@ $input-border-color: $gray-500;
 
   @include media-breakpoint-up(md) {
     .intro-content {
-      padding: 30% 14% 0 4%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 52%;
+      font-size: 2vw;
+      padding: 18% 0 0 2.5%;
+      //padding: 30% 14% 0 4%;
 
       p {
-        margin-bottom: 0.5rem;
-        line-height: 1.15;
+        //margin-bottom: 0.5rem;
+        //line-height: 1.15;
+        margin-bottom: 0.35rem;
+        line-height: 1.1;
       }
     }
 
     .arkham-choice {
+      margin-top: 0.5rem;
+
       p {
         margin-bottom: 0.25rem;
       }
@@ -288,11 +304,7 @@ $input-border-color: $gray-500;
 
     @include media-breakpoint-up(lg) {
       .intro-content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        font-size: 1.125rem;
+        //font-size: 1.125rem;
         padding: 18% 0 0 2.5%;
       }
 
@@ -311,7 +323,9 @@ $input-border-color: $gray-500;
 
     @include media-breakpoint-up(xl) {
       .intro-content {
-        font-size: 1.3rem;
+        //font-size: 1.3rem;
+        font-size: 1.9vw;
+        width: 50%;
         padding: 18% 0 0 3%;
       }
 
@@ -323,7 +337,8 @@ $input-border-color: $gray-500;
     @include media-breakpoint-up(xxl) {
       .intro-content {
         font-size: 1.5rem;
-        padding: 18% 0 0 3%;
+        //font-size: 1.75vw;
+        padding: 19% 0 0 3%;
 
         p {
           margin-bottom: 0.5rem;
