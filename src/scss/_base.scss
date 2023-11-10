@@ -1,3 +1,8 @@
+// Layout
+.main.container {
+  position: relative; // to position the intro show checkbox
+}
+
 // Fonts
 .font-sans-serif {
   font-family: $font-family-sans-serif;
@@ -7,6 +12,60 @@
 }
 .font-slab {
   font-family: $font-family-slab;
+}
+
+// Typography
+.tldr {
+  font-size: 1.1rem;
+
+  a {
+    @include fancy-underline;
+  }
+
+  h1.display-3,
+  h2.display-4 {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  h4 {
+    font-family: $font-family-sans-serif;
+    font-weight: 100;
+  }
+}
+
+.lead {
+  font-family: $font-family-serif;
+  font-size: 1.75rem;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: $font-family-sans-serif;
+  font-weight: 100;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  color: #ecb0cd;
+
+  + em {
+    font-size: 1rem;
+  }
 }
 
 // Header
@@ -71,6 +130,16 @@
 .navbar-main {
   min-height: 105px;
   z-index: 1050;
+  border-bottom: 1px solid $gray-600;
+}
+
+.navbar-toggler-icon {
+
+}
+
+.navbar-collapse.show {
+  background-color: $gray-900; // @TODO fix for light theme
+  padding: 10px 20px 20px;
   border-bottom: 1px solid $gray-600;
 }
 
@@ -151,66 +220,4 @@ $input-border-color: $gray-500;
 .form-control,
 .form-check-input {
   border-color: $input-border-color;
-}
-
-// Main
-.main.container {
-  position: relative; // to position the intro show checkbox
-}
-
-.tldr {
-  font-size: 1.1rem;
-
-  a {
-    @include fancy-underline;
-  }
-
-  h1.display-3,
-  h2.display-4 {
-    margin-top: 3rem;
-  }
-
-  h2 {
-    margin: 2.5rem 0 1rem;
-  }
-
-  h3 {
-    margin: 2rem 0 1rem;
-  }
-
-  h4 {
-    font-family: $font-family-sans-serif;
-    font-weight: 100;
-  }
-}
-
-.intro,
-.lead {
-  font-family: $font-family-serif;
-}
-
-.lead {
-  font-size: 1.75rem;
-}
-
-.display-1,
-.display-2,
-.display-3,
-.display-4,
-.display-5,
-.display-6 {
-  font-family: $font-family-sans-serif;
-  font-weight: 100;
-}
-
-strong {
-  font-weight: 700;
-}
-
-code {
-  color: #ecb0cd;
-
-  + em {
-    font-size: 1rem;
-  }
 }

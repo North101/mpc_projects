@@ -92,6 +92,7 @@ button.download {
 .card-footer .hstack {
   flex-wrap: wrap;
 }
+
 .status-changes-pending,
 .status-needs-qa {
   > .badge {
@@ -120,29 +121,46 @@ button.download {
     margin-top: 0.75rem;
   }
 
+  .navbar-toggler {
+    svg {
+      margin: 0 auto;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: #fff;
+      }
+    }
+  }
+
   .navbar-nav {
     flex-wrap: wrap;
   }
 
-  .icon {
-    fill: $btn-color;
-    margin-right: -7px;
-  }
+  .nav-item {
+    margin-right: 12px;
 
-  button {
-    font-weight: 300;
-    font-size: 1rem;
-
-    &.btn-link {
-      text-decoration: none;
+    .icon {
+      fill: $btn-color;
+      margin-right: -7px;
     }
 
-    @include media-breakpoint-up(sm) {
-      //font-size: 1.1rem;
-    }
+    button {
+      font-weight: 300;
+      font-size: 1rem;
+      padding-left: 6px;
 
-    @include media-breakpoint-up(md) {
-      font-size: 1.1rem;
+      &.btn-link {
+        text-decoration: none;
+      }
+
+      @include media-breakpoint-up(sm) {
+        //font-size: 1.1rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.1rem;
+      }
     }
   }
 }
@@ -155,6 +173,10 @@ button.download {
     &:active {
       background-color: transparent;
       color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    }
+
+    .select-none {
+      padding-left: 1.2rem;
     }
   }
 }

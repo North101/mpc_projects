@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Row from 'react-bootstrap/esm/Row'
 import { AppContainer } from './AppContainer'
-import { HelpText } from './HelpText'
 import { HelpFaq } from './HelpFaq'
+import { HelpText } from './HelpText'
 
 function* nodeIterator(result: XPathResult) {
   let thisNode = result.iterateNext()

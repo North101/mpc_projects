@@ -1,21 +1,7 @@
-import { useProjects } from '../projects'
-import { AppContainer } from './AppContainer'
-import { CircularProgressIndicator } from './CircularProgressIndicator'
-import { FilteredProjectListContainer } from './FilteredProjectList'
+import { IntroPage, useIntro } from './IntroPage'
+import { ProjectsPage } from './ProjectsPage'
 
 export const HomePage = () => {
-  const projects = useProjects()
-  if (projects == undefined) {
-    return (
-      <AppContainer>
-        <CircularProgressIndicator />
-      </AppContainer>
-    )
-  }
-
-  return (
-    <AppContainer>
-      <FilteredProjectListContainer projects={projects} />
-    </AppContainer>
-  )
+  const [showIntro] = useIntro()
+  return showIntro ? <IntroPage /> : <ProjectsPage />
 }
