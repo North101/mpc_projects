@@ -24,13 +24,11 @@ interface ProjectAuthorsProps {
   authors: string[]
 }
 
-export const ProjectAuthors = ({ authors }: ProjectAuthorsProps) => {
-  return (
-    <>
-      {authors.map((e, i) => <span key={i}>
-        {i > 0 && ', '}
-        <ProjectAuthor key={i} author={e} />
-      </span>)}
-    </>
-  )
-}
+export const ProjectAuthors = ({ authors }: ProjectAuthorsProps) => (
+  <>
+    {authors.map((e, i) => <span key={i}>
+      {i > 0 && ', '}
+      <ProjectAuthor key={i} author={e} />
+    </span>)}
+  </>
+)
