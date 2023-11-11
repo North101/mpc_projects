@@ -24,6 +24,7 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   authors: e.authors,
   statuses: e.statuses,
   tags: e.tags,
+  lang: e.lang,
   created: e.created,
   updated: e.updated,
   parts: e.parts.map(e => ({
@@ -146,6 +147,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           projectId: project.projectId,
           name: project.name,
           description: project.description,
+          image: project.image,
           artist: project.artist,
           info: project.info,
           website: project.website,
@@ -153,6 +155,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           authors: project.authors,
           statuses: project.statuses,
           tags: project.tags,
+          lang: project.lang,
           created: project.created,
           updated: project.updated,
           version: project.version,

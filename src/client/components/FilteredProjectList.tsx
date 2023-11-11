@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
-import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
+import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, GeoAlt, GeoAltFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
@@ -101,6 +101,17 @@ export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .toSorted(sortByLabel)
 )
 
+export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.map(e => e.lang)
+  .filter((e): e is string => e != null)
+  .distinct()
+  .map(e => ({
+    id: e,
+    label: e,
+    checked: false,
+  }))
+  .toSorted(sortByLabel)
+)
+
 {/*export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
   .distinct()
   .map(e => ({
@@ -120,6 +131,8 @@ export const FilterContext = createContext<{
   setTagFilter: (state: CheckboxState[]) => void,
   statusFilter: CheckboxState[],
   setStatusFilter: (state: CheckboxState[]) => void,
+  langFilter: CheckboxState[],
+  setLangFilter: (state: CheckboxState[]) => void,
 }>({
   sort: '',
   setSort: () => { throw Error() },
@@ -129,6 +142,8 @@ export const FilterContext = createContext<{
   setTagFilter: () => { throw Error() },
   statusFilter: [],
   setStatusFilter: () => { throw Error() },
+  langFilter: [],
+  setLangFilter: () => { throw Error() },
 })
 
 interface FilteredProjectListProps {
@@ -149,6 +164,8 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     setTagFilter,
     statusFilter,
     setStatusFilter,
+    langFilter,
+    setLangFilter,
     //siteFilter,
     //setSiteFilter,
   } = useContext(FilterContext)
@@ -156,19 +173,21 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id)
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id)
   const filteredStatuses = statusFilter.filter(e => e.checked).map(e => e.id)
+  const filteredLangs = langFilter.filter(e => e.checked).map(e => e.id)
   {/*const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)*/ }
   const filteredProjects = projects.filter(e => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
     const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
+    const hasSomeLangs = !filteredLangs.length || e.lang == null || filteredLangs.includes(e.lang)
     {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/ }
-    {/*return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeSites*/ }
-    return hasSomeAuthors && hasSomeStatuses && hasSomeTags
+    return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeLangs
   }).toSorted(sorts[sort])
   const hasFilteredAuthors = filteredAuthors.length > 0
   const hasFilteredTags = filteredTags.length > 0
   const hasFilteredStatuses = filteredStatuses.length > 0
-  const hasFilters = hasFilteredAuthors || hasFilteredTags || hasFilteredStatuses
+  const hasFilteredLangs = filteredLangs.length > 0
+  const hasFilters = hasFilteredAuthors || hasFilteredTags || hasFilteredStatuses || hasFilteredLangs
 
   const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
     setAuthorFilter(authorFilter.map(e => ({
@@ -207,6 +226,20 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 
   const onStatusSelectNone = () => {
     setStatusFilter(statusFilter.map(e => ({
+      ...e,
+      checked: false,
+    })))
+  }
+
+  const onLangChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setLangFilter(langFilter.map(e => ({
+      ...e,
+      checked: e.id == id ? event.currentTarget.checked : e.checked,
+    })))
+  }
+
+  const onLangSelectNone = () => {
+    setLangFilter(langFilter.map(e => ({
       ...e,
       checked: false,
     })))
@@ -318,6 +351,25 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
                 />
               </Nav.Item>
+              <Nav.Item className='d-flex'>
+                {hasFilteredLangs ? <GeoAltFill
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' /> : <GeoAlt
+                  className='icon'
+                  style={{ margin: '9px 0' }}
+                  width='20'
+                  height='20' />}
+                <CheckboxDropdown
+                  type='checkbox'
+                  label='Languages'
+                  items={langFilter}
+                  onChecked={onLangChecked}
+                  onSelectNone={onLangSelectNone}
+                //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
+                />
+              </Nav.Item>
               {/*
                 <CheckboxDropdown
                   type='checkbox'
@@ -346,6 +398,7 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
   const [authorFilter, setAuthorFilter] = useAuthorFilter(projects)
   const [tagFilter, setTagFilter] = useTagFilter(projects)
   const [statusFilter, setStatusFilter] = useStatusFilter(projects)
+  const [langFilter, setLangFilter] = useLangFilter(projects)
   {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/ }
   return (
     <FilterContext.Provider value={{
@@ -357,6 +410,8 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
       setTagFilter,
       statusFilter,
       setStatusFilter,
+      langFilter,
+      setLangFilter,
       //siteFilter
       //setSiteFilter
     }}>

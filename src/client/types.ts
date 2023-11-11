@@ -46,6 +46,7 @@ export interface ProjectMeta {
   authors: string[]
   statuses: string[]
   tags: string[]
+  lang?: string | null
   created: string
   updated: string
   hash: string
@@ -55,9 +56,7 @@ export interface PartMeta extends Part {
   enabled?: boolean
 }
 
-export interface ProjectV1Meta extends ProjectV1, ProjectMeta {
-
-}
+export interface ProjectV1Meta extends ProjectV1, ProjectMeta { }
 
 export interface ProjectV2Meta extends ProjectV2, ProjectMeta {
   parts: PartMeta[]
@@ -73,22 +72,7 @@ export interface PartInfo {
   enabled: boolean
 }
 
-export interface ProjectInfo {
+export interface ProjectInfo extends Omit<ProjectMeta, 'projectId' | 'hash'> {
   filename: string
-  name: string
-  description: string
-  image: string | null
-  info: string | null
-  artist: string | null
-  website: string | null
-  linktext: string | null
-  authors: string[]
-  statuses: string[]
-  tags: string[]
-  created: string
-  updated: string
-  //sites: {
-  //  [key: string]: string
-  //}
   parts: PartInfo[]
 }
