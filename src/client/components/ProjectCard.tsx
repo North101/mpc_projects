@@ -79,8 +79,8 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     <>
       <Card className='h-100'>
         <ProjectImage
-          name={project.image !== null ? project.image : ''}
-          info={project.artist !== null ? project.artist : ''}
+          name={project.image ?? ''}
+          info={project.artist ?? ''}
         />
         <Card.Header as='div'>
           <h2 className='card-title d-flex align-items-top'>
