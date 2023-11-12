@@ -1,7 +1,8 @@
 {
   "projectId": [
     "2C77CE95D7F194816E1D2B17FF4EB7A78357BE78382C63F09A9FF38E46CA67EC7C6E70701A22A51A",
-    "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6"
+    "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6",
+    "3568CC72BB874AB613B44F041DD70FEBC9ECADEF2AD89866E6DEADC34711F7FFA305A39EF061E3FE"
   ],
   "name": "Darkham Horror",
   "description": "A gritty 8-scenario dungeon-crawling campaign and investigator expansion based on the setting of Darkest Dungeon",
@@ -22,7 +23,7 @@
     "Player Cards"
   ],
   "created": "2021-09-11T15:18:15.650Z",
-  "updated": "2023-09-29T21:58:11.893Z",
+  "updated": "2023-11-10T17:53:11.893Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -2120,19 +2121,19 @@
           "count": 1,
           "front": {
             "Name": "138 Blind Leading the Blind-1.jpg",
-            "ID": "6C5AE4AA4DD3A2D698735D56762CCD48",
-            "SourceID": "AB071D0AA12CE978B991C8B619C80A0228FF1992",
+            "ID": "196AD71B828B7AE4B1E3B599339F9F80",
+            "SourceID": "C42DCDE207BB1633642FFDAEEA8C5C6054209944",
             "Exp": "jpg",
-            "Width": 902,
-            "Height": 1202
-          },
-          "back": {
+            "Width": 826,
+            "Height": 1126
+        },
+        "back": {
             "Name": "138 Blind Leading the Blind-2.jpg",
-            "ID": "EEB36629B0B0246265117BB863870665",
-            "SourceID": "4AE7BA58CA0E2B347F3B1976CE1C13A3271F009F",
+            "ID": "A75FB924CC9514E888CAE4DD369A2E38",
+            "SourceID": "82CE81609D1F3B279D173144D1D7617238AFCE48",
             "Exp": "jpg",
-            "Width": 902,
-            "Height": 1202
+            "Width": 826,
+            "Height": 1126
           }
         },
         {
