@@ -48,6 +48,9 @@
         "type": "string"
       }
     },
+    "lang": {
+      "type": ["string", "null"]
+    },
     "created": {
       "type": "string"
     },

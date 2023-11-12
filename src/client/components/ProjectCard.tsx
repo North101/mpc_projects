@@ -15,15 +15,13 @@ interface ProjectTooltipProps {
   info: string
 }
 
-export const ProjectTooltip = ({ name, info }: ProjectTooltipProps) => {
-  return (
-    <OverlayTrigger
-      overlay={<Tooltip id={name}>{info}</Tooltip>}
-    >
-      <InfoCircle size={16} className='info-tooltip mx-3 mt-3 position-absolute top-0 end-0' />
-    </OverlayTrigger>
-  )
-}
+export const ProjectTooltip = ({ name, info }: ProjectTooltipProps) => (
+  <OverlayTrigger
+    overlay={<Tooltip id={name}>{info}</Tooltip>}
+  >
+    <InfoCircle size={16} className='info-tooltip mx-3 mt-3 position-absolute top-0 end-0' />
+  </OverlayTrigger>
+)
 
 interface ProjectCardProps {
   project: ProjectInfo
@@ -81,8 +79,8 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     <>
       <Card className='h-100'>
         <ProjectImage
-          name={project.image !== null ? project.image : ''}
-          info={project.artist !== null ? project.artist : ''}
+          name={project.image ?? ''}
+          info={project.artist ?? ''}
         />
         <Card.Header as='div'>
           <h2 className='card-title d-flex align-items-top'>
