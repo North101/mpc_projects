@@ -137,7 +137,7 @@ code {
 
 }
 
-.navbar-collapse.show {
+.navbar-collapse.show,.navbar-collapse.collapsing {
   background-color: $gray-900; // @TODO fix for light theme
   padding: 10px 20px 20px;
   border-bottom: 1px solid $gray-600;
