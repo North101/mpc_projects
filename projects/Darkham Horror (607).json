@@ -2,10 +2,13 @@
   "projectId": [
     "2C77CE95D7F194816E1D2B17FF4EB7A78357BE78382C63F09A9FF38E46CA67EC7C6E70701A22A51A",
     "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6",
-    "3568CC72BB874AB613B44F041DD70FEBC9ECADEF2AD89866E6DEADC34711F7FFA305A39EF061E3FE"
+    "3568CC72BB874AB613B44F041DD70FEBC9ECADEF2AD89866E6DEADC34711F7FFA305A39EF061E3FE",
+    "174D39BFED79525CCA8041D95350D6255182D470666AC7CB25A428D23803EC8D2859109AB8125696",
+    "0A3430055D902251EBA96FE4117AF1491B55FEC72D07AFF0AD388E136077BD0524C83B1A3F4E4B97"
   ],
   "name": "Darkham Horror",
   "description": "A gritty 8-scenario dungeon-crawling campaign and investigator expansion based on the setting of Darkest Dungeon",
+  "image": "Darkham Horror (607).png",
   "artist": "Chris Bourassa",
   "info": null,
   "website": "https://www.keyboardsanddice.com/darkham",
@@ -24,7 +27,7 @@
   ],
   "lang": "English",
   "created": "2021-09-11T15:18:15.650Z",
-  "updated": "2023-11-10T17:53:11.893Z",
+  "updated": "2023-11-13T02:32:54.909Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -2127,8 +2130,8 @@
             "Exp": "jpg",
             "Width": 826,
             "Height": 1126
-        },
-        "back": {
+          },
+          "back": {
             "Name": "138 Blind Leading the Blind-2.jpg",
             "ID": "A75FB924CC9514E888CAE4DD369A2E38",
             "SourceID": "82CE81609D1F3B279D173144D1D7617238AFCE48",
@@ -8638,5 +8641,5 @@
       ]
     }
   ],
-  "hash": "2f0e871d3d393e493684bab7b626487e277929dd24a35d1156e0d01a0e14a865"
+  "hash": "69ea3710938a8bdf7785e02c08f0810319c8eb8a4120cf2d088a1e499d75f6f4"
 }

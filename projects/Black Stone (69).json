@@ -1,7 +1,8 @@
 {
-  "projectId": [],
+  "projectId": ["048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781"],
   "name": "The Black Stone",
   "description": "A standalone scenario based on Robert Howard’s “The Black Stone.”",
+  "image": "Black Stone (69).png",
   "artist": null,
   "info": "re-export in Arno",
   "website": "http://arkhamcentral.com/index.php/the-black-stone/",
