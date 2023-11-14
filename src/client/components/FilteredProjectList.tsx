@@ -7,7 +7,7 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
-import { Translate, TranslateReverse, TranslateOutline, TranslateFill } from './TranslateIcons'
+import { Size, SizeFill, Translate, TranslateReverse } from './AppIcons'
 
 
 declare global {
@@ -113,7 +113,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .toSorted(sortByLabel)
 )
 
-{/*export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
+export const useSizeFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sizes))
   .distinct()
   .map(e => ({
     id: e,
@@ -121,7 +121,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
     checked: false,
   }))
   .toSorted(sortByLabel)
-)*/}
+)
 
 export const FilterContext = createContext<{
   sort: string,
@@ -134,6 +134,8 @@ export const FilterContext = createContext<{
   setStatusFilter: (state: CheckboxState[]) => void,
   langFilter: CheckboxState[],
   setLangFilter: (state: CheckboxState[]) => void,
+  sizeFilter: CheckboxState[],
+  setSizeFilter: (state: CheckboxState[]) => void,
 }>({
   sort: '',
   setSort: () => { throw Error() },
@@ -145,6 +147,8 @@ export const FilterContext = createContext<{
   setStatusFilter: () => { throw Error() },
   langFilter: [],
   setLangFilter: () => { throw Error() },
+  sizeFilter: [],
+  setSizeFilter: () => { throw Error() },
 })
 
 interface FilteredProjectListProps {
@@ -167,28 +171,29 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     setStatusFilter,
     langFilter,
     setLangFilter,
-    //siteFilter,
-    //setSiteFilter,
+    sizeFilter,
+    setSizeFilter,
   } = useContext(FilterContext)
 
   const filteredAuthors = authorFilter.filter(e => e.checked).map(e => e.id)
   const filteredTags = tagFilter.filter(e => e.checked).map(e => e.id)
   const filteredStatuses = statusFilter.filter(e => e.checked).map(e => e.id)
   const filteredLangs = langFilter.filter(e => e.checked).map(e => e.id)
-  {/*const filteredSites = siteFilter.filter(e => e.checked).map(e => e.id)*/ }
+  const filteredSizes = sizeFilter.filter(e => e.checked).map(e => e.id)
   const filteredProjects = projects.filter(e => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
     const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
     const hasSomeLangs = !filteredLangs.length || e.lang == null || filteredLangs.includes(e.lang)
-    {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/ }
-    return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeLangs
+    const hasSomeSizes = !filteredSizes.length || Object.values(e.sizes).some(size => filteredSizes.includes(size))
+    return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeLangs && hasSomeSizes
   }).toSorted(sorts[sort])
   const hasFilteredAuthors = filteredAuthors.length > 0
   const hasFilteredTags = filteredTags.length > 0
   const hasFilteredStatuses = filteredStatuses.length > 0
   const hasFilteredLangs = filteredLangs.length > 0
-  const hasFilters = hasFilteredAuthors || hasFilteredTags || hasFilteredStatuses || hasFilteredLangs
+  const hasFilteredSizes = filteredSizes.length > 0
+  const hasFilters = hasFilteredAuthors || hasFilteredTags || hasFilteredStatuses || hasFilteredLangs || hasFilteredSizes
 
   const onAuthorChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
     setAuthorFilter(authorFilter.map(e => ({
@@ -246,19 +251,19 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     })))
   }
 
-  {/*
-  const onSiteChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
-    setSiteFilter(siteFilter.map(e => ({
+  const onSizeChecked = (id: string, event: React.FormEvent<HTMLInputElement>) => {
+    setSizeFilter(sizeFilter.map(e => ({
       ...e,
       checked: e.id == id ? event.currentTarget.checked : e.checked,
     })))
   }
 
-  const onSiteSelectNone = () => setSiteFilter(siteFilter.map(e => ({
-    ...e,
-    checked: false,
-  })))
-  */}
+  const onSizeSelectNone = () => {
+    setSizeFilter(sizeFilter.map(e => ({
+      ...e,
+      checked: false
+    })))
+  }
 
   const onSetSort = (id: string) => setSort(id)
 
@@ -345,13 +350,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredLangs ? <TranslateReverse
-                  className='icon'
-                  width='20'
-                  height='20' /> : <Translate
-                  className='icon'
-                  width='20'
-                  height='20' />}
+                {hasFilteredLangs ? <TranslateReverse /> : <Translate/>}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Languages'
@@ -360,15 +359,16 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   onSelectNone={onLangSelectNone}
                 />
               </Nav.Item>
-              {/*
+              <Nav.Item className='d-flex'>
+                {hasFilteredSizes ? <SizeFill/> : <Size/>}
                 <CheckboxDropdown
                   type='checkbox'
-                  label='Sites'
-                  items={siteFilter}
-                  onChecked={onSiteChecked}
-                  onSelectNone={onSiteSelectNone}
+                  label='Sizes'
+                  items={sizeFilter}
+                  onChecked={onSizeChecked}
+                  onSelectNone={onSizeSelectNone}
                 />
-                */}
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -389,7 +389,7 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
   const [tagFilter, setTagFilter] = useTagFilter(projects)
   const [statusFilter, setStatusFilter] = useStatusFilter(projects)
   const [langFilter, setLangFilter] = useLangFilter(projects)
-  {/*}const [siteFilter, setSiteFilter] = useSiteFilter(projects)*/ }
+  const [sizeFilter, setSizeFilter] = useSizeFilter(projects)
   return (
     <FilterContext.Provider value={{
       sort,
@@ -402,8 +402,8 @@ export const FilteredProjectListContainer = ({ projects }: FilteredProjectListCo
       setStatusFilter,
       langFilter,
       setLangFilter,
-      //siteFilter
-      //setSiteFilter
+      sizeFilter,
+      setSizeFilter
     }}>
       <FilteredProjectList
         projects={projects}

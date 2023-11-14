@@ -49,6 +49,9 @@ export interface ProjectMeta {
   lang?: string | null
   created: string
   updated: string
+  sizes: {
+    [key: string]: string
+  }
   hash: string
 }
 
