@@ -147,7 +147,6 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           projectId: project.projectId,
           name: project.name,
           description: project.description,
-          image: project.image,
           artist: project.artist,
           info: project.info,
           website: project.website,
