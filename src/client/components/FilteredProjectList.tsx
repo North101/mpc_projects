@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
-import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, GeoAlt, GeoAltFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
+import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
@@ -7,6 +7,7 @@ import Stack from 'react-bootstrap/esm/Stack'
 import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { ProjectList } from './ProjectList'
+import { Translate, TranslateReverse, TranslateOutline, TranslateFill } from './TranslateIcons'
 
 
 declare global {
@@ -281,7 +282,6 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
               <Nav.Item className='d-flex'>
                 <SortDown
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20'
                 />
@@ -299,11 +299,9 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
               <Nav.Item className='d-flex'>
                 {hasFilteredAuthors ? <PersonFill
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' /> : <Person
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' />}
                 <CheckboxDropdown
@@ -317,11 +315,9 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
               <Nav.Item className='d-flex'>
                 {hasFilteredTags ? <TagFill
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' /> : <Tag
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' />}
                 <CheckboxDropdown
@@ -335,11 +331,9 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
               <Nav.Item className='d-flex'>
                 {hasFilteredStatuses ? <CheckSquareFill
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' /> : <CheckSquare
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' />}
                 <CheckboxDropdown
@@ -348,17 +342,14 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   items={statusFilter}
                   onChecked={onStatusChecked}
                   onSelectNone={onStatusSelectNone}
-                //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredLangs ? <GeoAltFill
+                {hasFilteredLangs ? <TranslateReverse
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
-                  height='20' /> : <GeoAlt
+                  height='20' /> : <Translate
                   className='icon'
-                  style={{ margin: '9px 0' }}
                   width='20'
                   height='20' />}
                 <CheckboxDropdown
@@ -367,7 +358,6 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                   items={langFilter}
                   onChecked={onLangChecked}
                   onSelectNone={onLangSelectNone}
-                //align={{ sm: 'start' }} @TODO this needs to be on the button, not the dropdown menu, help
                 />
               </Nav.Item>
               {/*

@@ -1,18 +1,19 @@
 {
   "projectId": [
-    "42751481455CD2543802B39CA7691D15DBA243CFA1057AA0F19AACB5A6E0FDFDE7E51214715FA28A"
+    "42751481455CD2543802B39CA7691D15DBA243CFA1057AA0F19AACB5A6E0FDFDE7E51214715FA28A",
+    "E02FF39E69D7848CD2B47BB6A1371862FBF92610AD05E4345A34E9E06091CCF53F1DA773CC526D13"
   ],
   "name": "Echoes of Antiquity",
   "description": "Ten iconic Arkham Horror cards thematically translated into a variety of ancient languages.",
+  "image": "Echoes of Antiquity (17).png",
   "artist": null,
-  "info": "Grimms has been updated with more authentic period German since this project was created",
+  "info": null,
   "website": "https://mysteriouschanting.wordpress.com/?p=1751",
   "linktext": null,
   "authors": [
     "Buteremelse"
   ],
   "statuses": [
-    "Changes Pending",
     "Project Available"
   ],
   "tags": [
@@ -21,7 +22,7 @@
   ],
   "lang": "English",
   "created": "2023-09-29T15:52:26.684Z",
-  "updated": "2023-09-29T21:58:11.889Z",
+  "updated": "2023-11-13T02:32:54.904Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -221,5 +222,5 @@
       ]
     }
   ],
-  "hash": "421813d0ea88aaee546f0eef87d91e0912e043e9be065deea662d461064dd48d"
+  "hash": "16da5a14654d681878752807e4ffb3bbfccded7bcb8fc233059a05bbc1bdfa6d"
 }

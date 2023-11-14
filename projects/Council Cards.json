@@ -5,6 +5,7 @@
   ],
   "name": "Council Cards",
   "description": "Play with beta copies of the cards created on FFG’s Create-a-Card livestreams before their final versions see official release.",
+  "image": "Council Cards.png",
   "artist": "Ethan Patrick Harris",
   "info": null,
   "website": "https://www.youtube.com/watch?v=e0I3kYeWMcs",
@@ -21,7 +22,7 @@
   ],
   "lang": "English",
   "created": "2020-11-04T04:45:26.681Z",
-  "updated": "2023-11-03T18:07:00.817Z",
+  "updated": "2023-11-13T02:32:54.907Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -156,5 +157,5 @@
       ]
     }
   ],
-  "hash": "bb8a393dcb6885f7a1f1880cbf925892ea5cb1a8eaf3b124fa73cc7a4c9f27fa"
+  "hash": "b1def3ed51dbdb684b5691d0e5a0e37eaabd6f84a580f84a6a7b69cf6f8dda52"
 }
