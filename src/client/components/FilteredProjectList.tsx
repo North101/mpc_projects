@@ -1,13 +1,13 @@
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
-import { CheckSquare, CheckSquareFill, Funnel, FunnelFill, Person, PersonFill, SortDown, Tag, TagFill } from 'react-bootstrap-icons'
+import { Funnel, FunnelFill, SortDown } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
 import Stack from 'react-bootstrap/esm/Stack'
 import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
+import { AuthorIcon, AuthorIconFiltered, LanguageIcon, LanguageIconFiltered, StatusIcon, StatusIconFiltered, TagIcon, TagIconFiltered } from './Icons'
 import { ProjectList } from './ProjectList'
-import { Translate, TranslateReverse, TranslateOutline, TranslateFill } from './TranslateIcons'
 
 
 declare global {
@@ -297,13 +297,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredAuthors ? <PersonFill
-                  className='icon'
-                  width='20'
-                  height='20' /> : <Person
-                  className='icon'
-                  width='20'
-                  height='20' />}
+                {hasFilteredAuthors ? <AuthorIconFiltered /> : <AuthorIcon />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Authors'
@@ -313,13 +307,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredTags ? <TagFill
-                  className='icon'
-                  width='20'
-                  height='20' /> : <Tag
-                  className='icon'
-                  width='20'
-                  height='20' />}
+                {hasFilteredTags ? <TagIconFiltered /> : <TagIcon />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Tags'
@@ -329,13 +317,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredStatuses ? <CheckSquareFill
-                  className='icon'
-                  width='20'
-                  height='20' /> : <CheckSquare
-                  className='icon'
-                  width='20'
-                  height='20' />}
+                {hasFilteredStatuses ? <StatusIconFiltered /> : <StatusIcon />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Status'
@@ -345,13 +327,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
                 />
               </Nav.Item>
               <Nav.Item className='d-flex'>
-                {hasFilteredLangs ? <TranslateReverse
-                  className='icon'
-                  width='20'
-                  height='20' /> : <Translate
-                  className='icon'
-                  width='20'
-                  height='20' />}
+                {hasFilteredLangs ? <LanguageIconFiltered /> : <LanguageIcon />}
                 <CheckboxDropdown
                   type='checkbox'
                   label='Languages'
