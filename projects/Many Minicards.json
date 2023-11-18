@@ -1,0 +1,690 @@
+{
+  "projectId": [
+    "A61E6EE9A565023807EDC2CB4FF9ED1C56B25B77C011CFBDABABF33877C97B5AEC363BAAB02DF58F",
+    "6166C0DF9F1379938ED5EB51B991B6DA9802F5C1B8762E8B587E05F4898A853F0666E28688187C4F",
+    "9C9C851EF4EBF438861FF8326AE8103A7A76AC19563F7259DC823C21A4BE760B814CD2D0004BC6C2",
+    "DA1D57EDB976A8D2C27CE43CD944FE15E4CF1DFB362EEC076820551FB9015961C048274E56105A08",
+    "A77191CE4CAA74FA1B48AE0AF04D814257E4001CB547FA38364FD864265CEA230AB72E9FACA321D3",
+    "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6",
+    "DC6D845017D322F63199EB98789DB1E79417B0C791340542892919DB3D716B5717BEA39911A9AE33",
+    "0720908D85ACFA1716E1A9B0E2C9F459A3D9D137ACFF5C2B728BF586AFF70ECD473CB48002A2803F",
+    "FAAB4C9C63D0CFF93FE7D7993D77169E3AA88F58C5AB9690F4A838593383C8819B422647D0A353F8",
+    "80ECA4C26BCBC397BA0E6080061FDE651E4D69144E14A63DA44C62C1E1E16CFEB4DC7FEF4717E73E",
+    "678F27535E688A8C4C310EC615870AE43A9B1120BC4238D3E61494E13A695692EE6B87B722A8C6F7"
+  ],
+  "name": "Many Minicards",
+  "description": "While cards that can be cropped down to minicard size are included with most homebrew investigators, if you prefer to print your minis at mini size, this is the project for you. ",
+  "artist": null,
+  "info": "Artifact minis in progress. Additional minicards will be added as needed.",
+  "website": null,
+  "linktext": null,
+  "authors": [
+    "AtomicZ",
+    "Aughhhh",
+    "Axolotl",
+    "The Beard",
+    "Blue Barracuda",
+    "FFG",
+    "Frostmaze",
+    "Mint Tea Fan",
+    "QggOne",
+    "VinnQuest"
+  ],
+  "statuses": [
+    "Project Available",
+    "Changes Pending",
+    "Ongoing"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "lang": "English",
+  "created": "2023-07-15T04:45:26.680Z",
+  "updated": "2023-11-14T02:32:54.908Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "5U-21 Suzi minicard",
+      "cards": [
+        {
+          "id": "e56ca2cd-6a3f-4447-a2ce-12831049f8fd",
+          "count": 1,
+          "front": {
+            "Name": "Blob - 5U-21 Suzi-1.png",
+            "ID": "C6A0E1E001A31734579A509ACB8AA1CE",
+            "SourceID": "11627F4D7ED2AB45C53570F50AEDCA64C078C190",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Blob - 5U-21 Suzi-2.png",
+            "ID": "549AD50E38CA976E133E502D94F480E7",
+            "SourceID": "FD188F398F9115780649EDAA35C9A02BDD60C889",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "8L-08 Smith minicard",
+      "cards": [
+        {
+          "id": "58815809-17f6-406d-8c49-2863211a205e",
+          "count": 1,
+          "front": {
+            "Name": "Blob - 8L-08 Smith-1.png",
+            "ID": "EBEC4FB942B3A1EF9EB042AFBC249C7D",
+            "SourceID": "42A1131A623991B152E131DA1B6EE432D93DCE5A",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          },
+          "back": {
+            "Name": "Blob - 8L-08 Smith-2.png",
+            "ID": "4059F72B1E58E0FC352E42AEE5B74B91",
+            "SourceID": "61D8B05B465D81A1A62BFA181C15F403C6118606",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alice in Wonderland - Alice Liddell minicard",
+      "cards": [
+        {
+          "id": "a2c8fc16-0494-42a5-b107-cf2e1c1c1ae2",
+          "count": 1,
+          "front": {
+            "Name": "Alice - Alice Liddell-1.png",
+            "ID": "F02C395C658871A52F6A0C3651BD5C3D",
+            "SourceID": "E3820C1511593FE7336E128A94C5E23243158FDE",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          },
+          "back": {
+            "Name": "Alice - Alice Liddell-2.png",
+            "ID": "EAC214FA9576CE8B2DD9CEAF6F34F60A",
+            "SourceID": "B3DFBC4346A5FE3F6264664EA5474F8D83D5AF5E",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          }
+        }
+      ]
+    },
+    {
+      "name": "Buffy the Vampire Slayer minicards",
+      "cards": [
+        {
+          "id": "44e9634a-eaf6-4403-98fb-ddf754756300",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 01 Angel-1.png",
+            "ID": "888A9C8B78B5EC3AB50A1979A923D44F",
+            "SourceID": "B4A29A150CB1FB712CCE43CDF107FC62213F58AA",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 01 Angel-2.png",
+            "ID": "8C3EF442356939ACA7F0DC66C61E707D",
+            "SourceID": "1FE6D79C92BBCEE2AF44EA8AE78405D8ADE0E841",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "id": "38ca991f-12a1-4546-8a25-4712354f9f7a",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 02 Rupert Giles-1.png",
+            "ID": "613538822B7AB9E102865032BE872BF2",
+            "SourceID": "496822225CDE221761CEE03DD099F4301E5B06CE",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 02 Rupert Giles-2.png",
+            "ID": "93379109EE7AFFB5E17B396AD5DEF8AD",
+            "SourceID": "360171EC61D13000A243A4A6AEB478F667623A77",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "id": "50940b23-e0e5-4bea-85ca-ec3b1f0cd7ac",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 03 Cordelia Chase-1.png",
+            "ID": "5EDE47E97CEE5E1E806297D2C750E6FE",
+            "SourceID": "03DC2D84DE36BC44C6D3111EF61D05151A07ECED",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 03 Cordelia Chase-2.png",
+            "ID": "F25585909708F29497FFB42698AE97E0",
+            "SourceID": "5508A12EE4DC13235344E075FBC958D0F1F7BE4A",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "id": "54165b8d-0f76-49f3-84a0-75d798c83390",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 04 Willow Rosenberg-1.png",
+            "ID": "B2FE9E4D2E9AF681287FDF0AC4A0D7C5",
+            "SourceID": "12882BE9E802F6F52064E0EBA472CDC22DE0878D",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 04 Willow Rosenberg-2.png",
+            "ID": "F6A799AAE3978B5EA587D088465FEA3C",
+            "SourceID": "4D94FE589621365BE23CB98C67C3BE7925E49677",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "id": "e0ce38e4-ba36-444e-9b96-fd9bdb94d4ea",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 05 Xander Harris-1.png",
+            "ID": "8B3C88DFB761024EE415D96CD43BF956",
+            "SourceID": "CBF0D5B3405BB4BA4CBDF465D8ED4EA8E7628B7B",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 05 Xander Harris-2.png",
+            "ID": "EB350BF3143DEB93A1D02189C8104CD5",
+            "SourceID": "E496A6B052DA7CD8E68DABBA8F96EBE77908109E",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "id": "f1782bf9-c3e7-42b3-be56-8e7f48a943e0",
+          "count": 1,
+          "front": {
+            "Name": "Buffy - 06 Buffy Summers-1.png",
+            "ID": "A3866F84AF02F9A62D269AABB83FAA70",
+            "SourceID": "F9B1DC961B0DC24F95B1367DA215D6D7F42EEC0B",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Buffy - 06 Buffy Summers-2.png",
+            "ID": "C2FD9C14A152CBF59FD11EA565ADE933",
+            "SourceID": "CFC7415C74E6869234E66838268E2D20F662E70D",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carmen Sandiego minicard",
+      "cards": [
+        {
+          "id": "cbe898b2-2f51-4686-b031-9f6cb5480239",
+          "count": 1,
+          "front": {
+            "Name": "Carmen Sandiego - Carmen Sandiego-1.png",
+            "ID": "17F30FDF1C042D72F676CB7834E1B0BB",
+            "SourceID": "C094F65B33FF1BAEE0E6CFE2AAAC823990F20DE3",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          },
+          "back": {
+            "Name": "Carmen Sandiego - Carmen Sandiego-2.png",
+            "ID": "40C42D0B3F195D2A23E89E42811A86F2",
+            "SourceID": "92EBBBA3830068D9D48715B8C678855BDD833B2E",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          }
+        }
+      ]
+    },
+    {
+      "name": "Celtic Rising - Alannah Stephens minicard",
+      "cards": [
+        {
+          "id": "5e1357fd-31f2-4764-a4a7-e7c005a103be",
+          "count": 1,
+          "front": {
+            "Name": "Celtic Rising - Alannah Stephens-1.png",
+            "ID": "194C01B3E86F188DAC98E4F471A564EB",
+            "SourceID": "2FB0DE6ACB64E7B5C201D78701E6CFDF452D4116",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          },
+          "back": {
+            "Name": "Celtic Rising - Alannah Stephens-2.png",
+            "ID": "CF76751E598D76F61770CA917E2430BA",
+            "SourceID": "AF88B0B5CC079817C8539172F1EFC5CD2FAECB71",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          }
+        }
+      ]
+    },
+    {
+      "name": "City of Secrets minicards",
+      "enabled": true,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Kerry-mini-1.png",
+            "ID": "AD0614A6D9556F02D7A9302D7F6DF059",
+            "SourceID": "B046414CC2F6D8AAC8E4C71B75CE9BDEA5B4ADB2",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "001 Kerry-mini-2.png",
+            "ID": "08E889EE5B75679B1F1931DC1609E01E",
+            "SourceID": "8B515371B14435A8D67F8BB035A23E5C513DD8E8",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "004 Madeline-mini-1.png",
+            "ID": "E70B7FE9F5E6CC2395873104E2DC2DB8",
+            "SourceID": "2805BE00FEA40567CB3D31864E9007936C48A7CF",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "004 Madeline-mini-2.png",
+            "ID": "4047D5577F207EAFF412596093714081",
+            "SourceID": "E71095D56B7747790D7AB817EEC2EA79BF97D935",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "007 Lotte-mini-1.png",
+            "ID": "38693C40E30960D4F7DA7F28A3F51279",
+            "SourceID": "76A6187A0DC48E201C7455508F1D064AEAE5CF59",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "007 Lotte-mini-2.png",
+            "ID": "1399C9484DB4C360A75D066C82E25795",
+            "SourceID": "67AA9D2DECCAB8274400825087DC7B75687FF254",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "012 Antoine-mini-1.png",
+            "ID": "A14AC893020036A7E9CFB20FABE9D4C7",
+            "SourceID": "238CD17896FACD9D4EE404D82B3EE65B7BA70B54",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "012 Antoine-mini-2.png",
+            "ID": "30E3DA7803CE579EED6A93504819F10A",
+            "SourceID": "1813FC6DCEAA4A1DA77D6D35CC3BD5E7089E1D37",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "015 Rohan-mini-1.png",
+            "ID": "15B4B23F52E3E6488F90D39BD5F3063C",
+            "SourceID": "DECBEF4A94A76A328944BA0DDEF2691EB0DEF8D9",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "015 Rohan-mini-2.png",
+            "ID": "3F6C3CC8A271E6059F841BA696131988",
+            "SourceID": "BB45945FC01C0276CE31303C2B0FFDA87E78A3C8",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "018 Maria-mini-1.png",
+            "ID": "066878F006A8DB101C9A4EE0F3E78BF2",
+            "SourceID": "046BD6A1A167E80CF46DB8FD5ECD08BCE855572C",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "018 Maria-mini-2.png",
+            "ID": "554CD4B979B87D1F2E1BA53F68B86F97",
+            "SourceID": "E17F9440E2C7F2F3AF59FE4BD82598DB6A4BF4AE",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "021 Dean-mini-1.png",
+            "ID": "D408EA0E41A574616CD3DE09C13E07F7",
+            "SourceID": "89A994715D0BA503D2CEF836623AD1C1A71F2FE9",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "021 Dean-mini-2.png",
+            "ID": "90EDE2D0250E0BAD6209A357294ADA24",
+            "SourceID": "F4D1221F742261E79818E55D6715C78FD9EC9CBB",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "025 Nina-mini-1.png",
+            "ID": "9F03FBDC5E5F13D53201BD33BB80E0FA",
+            "SourceID": "31F865F334742AC3C38A769FE47321957DC2BDA4",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "025 Nina-mini-2.png",
+            "ID": "8C98B964455BAAC9C17B6E52CDBEC3E5",
+            "SourceID": "CBC73BD6D0C86E1D1308B0D2D85D36DEDD14C97B",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "028 Sofia-mini-1.png",
+            "ID": "B944510706FB77F046618BD1BD8EC5A7",
+            "SourceID": "8641E451600B04215E7F63F97326955E3A858AA8",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "028 Sofia-mini-2.png",
+            "ID": "A4E83FCBE8BCC3C392A1FA33E4EAF27A",
+            "SourceID": "167C2359FCDA35CCAE0C84858401AF908409BDFD",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "031 Oskar-mini-1.png",
+            "ID": "41336C13EC049BFA5B87DD3B2D83E771",
+            "SourceID": "3D3EC6CF3180EDDAAFF5A99A31EC12C0AA87CB5A",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "031 Oskar-mini-2.png",
+            "ID": "2366BB5820A3C704578E660599EB2378",
+            "SourceID": "EB4CAAE137D99D352F52218C46FB60FC0CDF0F0A",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dark Matter Science Expansion - Kate Winthrop minicard",
+      "cards": [
+        {
+          "id": "8f8a0670-67bd-4373-9ca0-bae985763c25",
+          "count": 1,
+          "front": {
+            "Name": "Dark Matter Science & Artifact - 02 Kate Winthrop-1.png",
+            "ID": "037BF82D48B9426FEA28C8D320EE4805",
+            "SourceID": "809005C06DC5A5BF45089B45DBEF453D1E348213",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Dark Matter Science & Artifact - 02 Kate Winthrop-2.png",
+            "ID": "62C100DA5CE58DC79A41CECEFAE946F4",
+            "SourceID": "EF8CD32DA32D5445E9BE6ED27E28C2C6C58311C6",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "Darkham Horror minicards",
+      "enabled": true,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001.2 Reynauld de Chatillon mini no crop-1.png",
+            "ID": "F768CB153EA0EC7917A5C7BBA5A8B7D8",
+            "SourceID": "188BE09B1F7D03D39CA07A551A89CBA15DCC255B",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "001.2 Reynauld de Chatillon mini no crop-2.png",
+            "ID": "6C1D16194DA4AFE02A388079D0686BBD",
+            "SourceID": "4ECA8E3792F777C78754E7F19809D48AFD3D1DFE",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "002.2 Audrey Bourassa mini no crop-1.png",
+            "ID": "8224EFD849DA6102464421014AFA835B",
+            "SourceID": "B4B4915AF18AD86E98294D52D48E0054D263EB40",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "002.2 Audrey Bourassa mini no crop-2.png",
+            "ID": "9141600F4AC807A04CE89CE94A488882",
+            "SourceID": "47CEF3B53531E02339CA6518A79B4EFE5580708B",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "003.2 Sarmentus mini no crop-1.png",
+            "ID": "CFF8CAA260562385F28CD0F9A346C3F4",
+            "SourceID": "B394360BE827CB3E57C7B58B57EDA6BEDCF18FA1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "003.2 Sarmentus mini no crop-2.png",
+            "ID": "33A4F6AC606B5BFF7CC35358BAD67BA3",
+            "SourceID": "749240682A97AD87CD6FA75CA362A2AE3D313007",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "004.2 Abdul Alhazred mini no crop-1.png",
+            "ID": "93FF00ABF317F5E0D20ACDC22104EBA0",
+            "SourceID": "BD98F7A4043B697142E3C14E372098B2C5C92ADF",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "004.2 Abdul Alhazred mini no crop-2.png",
+            "ID": "A9D9C0C0D1E51FF565CCA03D642BE049",
+            "SourceID": "5D3CCB7B4E9ECCED96CAEB95B49AE3DEC44C5288",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "005.2 Henry Bigby mini no crop-1.png",
+            "ID": "6DEC75E49C96C0D917773CEB379B965E",
+            "SourceID": "501BCEEB761AF03CAABBB3D55B620E217DB8F799",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "005.2 Henry Bigby mini no crop-2.png",
+            "ID": "B4EBF03774E6E9338471372DDCD0D5BD",
+            "SourceID": "ECFA7264CB003B799941D2F49B8E432E405ADE08",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "006.2 Beast mini no crop-1.png",
+            "ID": "42154DA14842BA7C6F1F36A00D6DC33E",
+            "SourceID": "6C754ECA800781317E2C8E65A751AFA476404565",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "006.2 Beast mini no crop-2.png",
+            "ID": "9D7125607586A89190349B80A538DC5E",
+            "SourceID": "C1AF46A0201B208E394D8016B474FD829A8AA235",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "Symphony of Erich Zann - Isabelle La Fratta minicard",
+      "cards": [
+        {
+          "id": "ec48169d-84ae-40a1-95f9-485fdd125297",
+          "count": 1,
+          "front": {
+            "Name": "Erich Zann - Isabelle La Fratta-1.png",
+            "ID": "C7D8A3A34A0539040561F4D83CDC9736",
+            "SourceID": "BF8783725AC8962456A78E4B629879461BB432C6",
+            "Exp": "png",
+            "Width": 596,
+            "Height": 821
+          },
+          "back": {
+            "Name": "Erich Zann - Isabelle La Fratta-2.png",
+            "ID": "95B2E0D618ED9BF421270ECB7BE4161B",
+            "SourceID": "FD50967049D04E2DF1E1E02E70911834D95001A2",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "Heart of Darkness - Julian Herbert minicard",
+      "enabled": true,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Julian Herbert mini-sized minicard-1.jpg",
+            "ID": "409867EA931EB7313BE08EF804EDDC69",
+            "SourceID": "54AE5B82F0F5945CE819D72F53F81D970A7D1F02",
+            "Exp": "jpg",
+            "Width": 1126,
+            "Height": 1650
+          },
+          "back": {
+            "Name": "Julian Herbert mini-sized minicard-2.jpg",
+            "ID": "42CBA9E6E5609BB777732A6CB27C352A",
+            "SourceID": "845C0E125B55A2827F704C418F760B7483180451",
+            "Exp": "jpg",
+            "Width": 1126,
+            "Height": 1650
+          }
+        }
+      ]
+    }
+  ],
+  "hash": ""
+}

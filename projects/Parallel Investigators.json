@@ -5,10 +5,10 @@
     "58539D4AE7D79DA95857DEADE1E2448E4B4963FD356165545EA19997855DE4429F123D762C4E8173",
     "C4060208A4C5FF04EA0705C14AE99AF7110D5316AD5B6441FDE029DDDBD67588A431AD3020E42D2F",
     "7EFEDF8CE04242DA41D22C755AE44E7620B9E2C3A26D986AD43A132BFF95555A5200EC07336CD99F",
-    "6817D3B6D80D57C6D7152E8DFC6A124BCFA1DBE26BE8F94F987E4BA5C9B4C83D809EB8E803B8DA93",
     "BCAAB3CF52F60CB8E079ACCC01588F46720A8FF64432622F3690C3F5BEB605EFF073BFC86DC31CB7",
     "D2932C461A919DBAF7EC282829030F398D5478DF0D233CC41141CE9BDC04B0FA605D0B1CFB9D10D2",
-    "6487AAE642B88A83B1CA8193D2992FE4DA25A529923F389324E8C014740437A7172AF1D3E0143CC3"
+    "6487AAE642B88A83B1CA8193D2992FE4DA25A529923F389324E8C014740437A7172AF1D3E0143CC3",
+    "6817D3B6D80D57C6D7152E8DFC6A124BCFA1DBE26BE8F94F987E4BA5C9B4C83D809EB8E803B8DA93"
   ],
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators.",
@@ -1457,7 +1457,7 @@
       ]
     },
     {
-      "name": "Parallel Jim Culver + Laid to Rest scenario",
+      "name": "Parallel Jim Culver",
       "cards": [
         {
           "count": 1,
@@ -1553,7 +1553,12 @@
             "Width": 822,
             "Height": 1122
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Laid to Rest (Scenario for Parallel Jim)",
+      "cards": [
         {
           "count": 1,
           "front": {
@@ -1701,6 +1706,71 @@
             "Name": "058 Ravenous Spirit-04-2.png",
             "ID": "E370CAC7FB710BCF2739D04C7085AF32",
             "SourceID": "DC73A09881B7D2B909204F8615C8154FED46FCB4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Parallel Zoey Samaras",
+      "cards": [
+        {
+          "id": "77203a41-dd38-47a4-af97-9a50dce45091",
+          "count": 1,
+          "front": {
+            "Name": "pnp-059 Parallel Zoey Samaras-1.png",
+            "ID": "7BBF34B124D07D87378EE60C8A406451",
+            "SourceID": "58D56982C8CC9DB36833EBD126FD0022F5C3D37C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "pnp-059 Parallel Zoey Samaras-2.png",
+            "ID": "DE7BD475C63709B08462384115F99210",
+            "SourceID": "7B2B540F833A0EAE70F6E60B091842C33D89F47D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "id": "47d4ea83-e7aa-4b19-818b-08c03cca0356",
+          "count": 1,
+          "front": {
+            "Name": "pnp-060 Zoey's Cross-1.png",
+            "ID": "0441940ADFB8BB3A4D731048820D7F61",
+            "SourceID": "8EA34B2C3DC7681F63CBB22061AD585CFACA8525",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "id": "41f71efb-d7fa-4690-bcbd-e29d90fb02e2",
+          "count": 1,
+          "front": {
+            "Name": "pnp-061 Smite the Wicked-1.png",
+            "ID": "DA9E365EC5C816FEB0B1EF5C1030CDF5",
+            "SourceID": "E5229E362C0B6563FFED2E619115A87AA6043730",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
             "Exp": "png",
             "Width": 822,
             "Height": 1122

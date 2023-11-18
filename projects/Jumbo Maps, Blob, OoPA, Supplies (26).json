@@ -6,10 +6,10 @@
     "14A065381DB597FD66ADC23C46248140F3BEC2C2D737389D0D6E407233A887973A39D563862A9051"
   ],
   "name": "Jumbo Cards & TFA Microsupplies",
-  "description": "Jumbo-sized cards with missing scenario maps, a jumbo Blob enemy, and out-of-play area cards. Plus TFA supplies that can be printed either on micro-sized cards or 8-up on jumbo cards for cutting at home.",
+  "description": "Jumbo-sized cards with missing scenario maps, a jumbo Blob enemy, and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home.",
   "image": "Jumbo Maps, Blob, OoPA, Supplies (26).png",
   "artist": null,
-  "info": "not currently working; needs to be reuploaded",
+  "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
   "linktext": null,
   "authors": [
@@ -23,7 +23,7 @@
   ],
   "lang": "English",
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-11-13T02:32:54.899Z",
+  "updated": "2023-11-14T02:32:54.899Z",
   "version": 2,
   "code": "3BDC5812E3F03AB4",
   "parts": [

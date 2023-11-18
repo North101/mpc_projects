@@ -4010,31 +4010,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "Julian Herbert mini-sized minicard",
-      "enabled": false,
-      "cards": [
-        {
-          "count": 1,
-          "front": {
-            "Name": "Julian Herbert mini-sized minicard-1.jpg",
-            "ID": "409867EA931EB7313BE08EF804EDDC69",
-            "SourceID": "54AE5B82F0F5945CE819D72F53F81D970A7D1F02",
-            "Exp": "jpg",
-            "Width": 1126,
-            "Height": 1650
-          },
-          "back": {
-            "Name": "Julian Herbert mini-sized minicard-2.jpg",
-            "ID": "42CBA9E6E5609BB777732A6CB27C352A",
-            "SourceID": "845C0E125B55A2827F704C418F760B7483180451",
-            "Exp": "jpg",
-            "Width": 1126,
-            "Height": 1650
-          }
-        }
-      ]
     }
   ],
   "hash": "ba379762afa9c3dfc4474ede9a4278878220e243151c346e18968df018a2b6b2"
