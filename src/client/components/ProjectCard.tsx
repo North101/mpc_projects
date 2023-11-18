@@ -116,13 +116,13 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             {project.description}
           </Card.Text>
           {/* <ProjectParts /> */}
-          <Card.Link
-            className='icon-link mt-auto'
-            href={project.website ?? undefined}
+          {project.website && <Card.Link
+            className="icon-link mt-auto"
+            href={project.website}
           >
             {project.linktext ?? 'Learn more'}
-            <BoxArrowUpRight />
-          </Card.Link>
+            <BoxArrowUpRight/>
+          </Card.Link>}
         </Card.Body>
         <Card.Footer>
           <ProjectTags tags={project.tags} />
