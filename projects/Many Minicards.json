@@ -40,7 +40,7 @@
   ],
   "lang": "English",
   "created": "2023-07-15T04:45:26.680Z",
-  "updated": "2023-11-14T02:32:54.908Z",
+  "updated": "2023-11-18T21:21:08.848Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -48,7 +48,6 @@
       "name": "5U-21 Suzi minicard",
       "cards": [
         {
-          "id": "e56ca2cd-6a3f-4447-a2ce-12831049f8fd",
           "count": 1,
           "front": {
             "Name": "Blob - 5U-21 Suzi-1.png",
@@ -73,7 +72,6 @@
       "name": "8L-08 Smith minicard",
       "cards": [
         {
-          "id": "58815809-17f6-406d-8c49-2863211a205e",
           "count": 1,
           "front": {
             "Name": "Blob - 8L-08 Smith-1.png",
@@ -98,7 +96,6 @@
       "name": "Alice in Wonderland - Alice Liddell minicard",
       "cards": [
         {
-          "id": "a2c8fc16-0494-42a5-b107-cf2e1c1c1ae2",
           "count": 1,
           "front": {
             "Name": "Alice - Alice Liddell-1.png",
@@ -123,7 +120,6 @@
       "name": "Buffy the Vampire Slayer minicards",
       "cards": [
         {
-          "id": "44e9634a-eaf6-4403-98fb-ddf754756300",
           "count": 1,
           "front": {
             "Name": "Buffy - 01 Angel-1.png",
@@ -143,7 +139,6 @@
           }
         },
         {
-          "id": "38ca991f-12a1-4546-8a25-4712354f9f7a",
           "count": 1,
           "front": {
             "Name": "Buffy - 02 Rupert Giles-1.png",
@@ -163,7 +158,6 @@
           }
         },
         {
-          "id": "50940b23-e0e5-4bea-85ca-ec3b1f0cd7ac",
           "count": 1,
           "front": {
             "Name": "Buffy - 03 Cordelia Chase-1.png",
@@ -183,7 +177,6 @@
           }
         },
         {
-          "id": "54165b8d-0f76-49f3-84a0-75d798c83390",
           "count": 1,
           "front": {
             "Name": "Buffy - 04 Willow Rosenberg-1.png",
@@ -203,7 +196,6 @@
           }
         },
         {
-          "id": "e0ce38e4-ba36-444e-9b96-fd9bdb94d4ea",
           "count": 1,
           "front": {
             "Name": "Buffy - 05 Xander Harris-1.png",
@@ -223,7 +215,6 @@
           }
         },
         {
-          "id": "f1782bf9-c3e7-42b3-be56-8e7f48a943e0",
           "count": 1,
           "front": {
             "Name": "Buffy - 06 Buffy Summers-1.png",
@@ -248,7 +239,6 @@
       "name": "Carmen Sandiego minicard",
       "cards": [
         {
-          "id": "cbe898b2-2f51-4686-b031-9f6cb5480239",
           "count": 1,
           "front": {
             "Name": "Carmen Sandiego - Carmen Sandiego-1.png",
@@ -273,7 +263,6 @@
       "name": "Celtic Rising - Alannah Stephens minicard",
       "cards": [
         {
-          "id": "5e1357fd-31f2-4764-a4a7-e7c005a103be",
           "count": 1,
           "front": {
             "Name": "Celtic Rising - Alannah Stephens-1.png",
@@ -494,7 +483,6 @@
       "name": "Dark Matter Science Expansion - Kate Winthrop minicard",
       "cards": [
         {
-          "id": "8f8a0670-67bd-4373-9ca0-bae985763c25",
           "count": 1,
           "front": {
             "Name": "Dark Matter Science & Artifact - 02 Kate Winthrop-1.png",
@@ -639,7 +627,6 @@
       "name": "Symphony of Erich Zann - Isabelle La Fratta minicard",
       "cards": [
         {
-          "id": "ec48169d-84ae-40a1-95f9-485fdd125297",
           "count": 1,
           "front": {
             "Name": "Erich Zann - Isabelle La Fratta-1.png",
@@ -686,5 +673,5 @@
       ]
     }
   ],
-  "hash": ""
+  "hash": "a62790850030216b37c18907877e24a8a2eec8610d55af0f3f9f70d927a7deaf"
 }

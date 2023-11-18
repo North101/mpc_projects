@@ -4,7 +4,6 @@
   ],
   "name": "TFA Microsupplies",
   "description": "TFA supplies that on micro-sized cards, half the size of investigator minis. Plus, a tiny Summoned Servitor for moving your summoned friend around on its own.",
-  "image": "TFA Microsupplies.png",
   "artist": null,
   "info": "Supply cards for use with The Forgotten Age campaign. Summoned Servitor microcard pairs with the customizable player card of the same name from The Scarlet Keys investigator expansion.",
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
@@ -21,11 +20,11 @@
   ],
   "lang": "English",
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-11-14T02:32:54.899Z",
+  "updated": "2023-11-18T21:21:08.842Z",
   "version": 2,
   "code": "3BDC5812E3F03AB4",
   "parts": [
-        {
+    {
       "name": "Microcard-sized TFA Supplies",
       "cards": [
         {
@@ -378,5 +377,5 @@
       ]
     }
   ],
-  "hash": ""
+  "hash": "42cfdfbd69529222488a4469d8f0250f82a2728c7c5a74c87bf02ef98be56316"
 }

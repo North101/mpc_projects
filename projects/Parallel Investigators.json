@@ -30,7 +30,7 @@
   ],
   "lang": "English",
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2023-11-03T18:07:00.806Z",
+  "updated": "2023-11-18T21:21:08.848Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -1716,7 +1716,6 @@
       "name": "Parallel Zoey Samaras",
       "cards": [
         {
-          "id": "77203a41-dd38-47a4-af97-9a50dce45091",
           "count": 1,
           "front": {
             "Name": "pnp-059 Parallel Zoey Samaras-1.png",
@@ -1736,7 +1735,6 @@
           }
         },
         {
-          "id": "47d4ea83-e7aa-4b19-818b-08c03cca0356",
           "count": 1,
           "front": {
             "Name": "pnp-060 Zoey's Cross-1.png",
@@ -1756,7 +1754,6 @@
           }
         },
         {
-          "id": "41f71efb-d7fa-4690-bcbd-e29d90fb02e2",
           "count": 1,
           "front": {
             "Name": "pnp-061 Smite the Wicked-1.png",
@@ -1778,5 +1775,5 @@
       ]
     }
   ],
-  "hash": "68114fe630f60ecb7c95cf0ca08d90c92812c3e547622a783ab485541ff14613"
+  "hash": "e4fcd0d7c9eb06507e0fbd072f7724b58a9d20c388eaf587cd39d178c4e238fc"
 }
