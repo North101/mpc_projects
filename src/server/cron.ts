@@ -1,13 +1,15 @@
 import { load } from 'cheerio'
+import DotenvFlow from 'dotenv-flow'
 import { glob } from 'glob'
 import cron from 'node-cron'
+import nodemailer from 'nodemailer'
 import path from 'path'
 import { Agent, fetch, setGlobalDispatcher } from 'undici'
+import { v4 as uuidv4 } from 'uuid'
 import config from './config'
 import { readJson } from './util'
 
-setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }) )
-
+setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
 
 const readProject = async (filename: string): Promise<string[]> => {
   const project = await readJson(filename)
@@ -19,58 +21,20 @@ const readProjectList = async (projectsDir: string) => {
   return await Promise.all(allProjects.map(readProject)).then(e => e.flatMap(e => e))
 }
 
-const login = async () => {
-  const url = config.refreshProjects.url
-  if (!url) {
-    console.log('REFRESH_PROJECTS_URL is empty')
-    return
-  }
-  const email = config.refreshProjects.email
-  if (!email) {
-    console.log('REFRESH_PROJECTS_EMAIL is empty')
-    return
-  }
-  const password = config.refreshProjects.password
-  if (!password) {
-    console.log('REFRESH_PROJECTS_PASSWORD is empty')
-    return
-  }
+const loadProjectPreview = async (baseUrl: string, cookie: string, projectId: string) => {
+  const url = new URL(`/design/dn_temporary_parse.aspx`, baseUrl)
+  url.searchParams.append('id', projectId)
+  url.searchParams.append('edit', 'Y')
 
-  const body = new URLSearchParams()
-  body.set('__EVENTTARGET', 'btn_submit')
-  body.set('__EVENTARGUMENT', '')
-  body.set('__VIEWSTATE', '/wEPDwUKMTM3NjI2NzUxMg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw9kFgICAQ9kFggCCw8WAh4Hb25jbGljawUnamF2YXNjcmlwdDpyZXR1cm4gYnRuX3N1Ym1pdF9vbmNsaWNrKCk7ZAINDxYCHgRocmVmBRouL3N5c3RlbS9zeXNfcmVnaXN0ZXIuYXNweGQCDw8PFgQeBUFwcElkBQ8xNzQ3NjU5NzU5ODUyNTceCExvZ2luVXJsBQpsb2dpbi5hc3B4ZGQCEQ8PFgQeCENsaWVudElkBUg2NjY1Mjc5MDE0OTAtZWRmMzM1NGFtODh1OGR2cDI2YWQ5NGw1MDY1bGRxNDIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20fBAUKbG9naW4uYXNweGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQxja2JfcmVtZW1iZXJAO4PuIRL4YBdOmiolbn9lUmBRRg==')
-  body.set('__VIEWSTATEGENERATOR', 'C2EE9ABB')
-  body.set('txt_email', email)
-  body.set('txt_password', password)
-  body.set('g-recaptcha-response', '')
-  body.set('hidd_verifyResponse', '')
-  body.set('ckb_remember', 'on')
-
-  const r = await fetch(new URL('/login.aspx',url), {
-    method: 'POST',
-    redirect: 'manual',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body,
-  })
-  return r.headers.get('set-cookie')
-    ?.split(',')
-    .map(cookie => cookie.split(';')[0])
-    .join('; ')
-}
-
-const loadProjectPreview = async (cookie: string, projectId: string) => {
-  const r = await fetch(new URL(`/design/dn_temporary_parse.aspx?id=${projectId}&edit=Y`, config.refreshProjects.url), {
+  const r = await fetch(url, {
     headers: {
       'Cookie': cookie,
     },
   })
-  const url = new URL(r.url)
-  if (url.pathname == '/design/dn_preview_layout.aspx') await r.text()
+  const responseUrl = new URL(r.url)
+  if (responseUrl.pathname == '/design/dn_preview_layout.aspx') await r.text()
 
-  url.pathname = '/design/dn_preview_layout.aspx'
+  responseUrl.pathname = '/design/dn_preview_layout.aspx'
   const r2 = await fetch(url.toString(), {
     method: 'POST',
     headers: {
@@ -80,15 +44,15 @@ const loadProjectPreview = async (cookie: string, projectId: string) => {
   return await r2.text()
 }
 
-const loadProjectImages = async (cookie: string, projectId: string): Promise<string[]> => {
-  const html = load(await loadProjectPreview(cookie, projectId))
+const loadProjectImages = async (baseUrl: string, cookie: string, projectId: string): Promise<string[]> => {
+  const html = load(await loadProjectPreview(baseUrl, cookie, projectId))
   return html('div[class="m-front"] img,div[class="m-back"] img')
     .toArray()
     .map((e) => e.attribs['src'])
 }
 
-const loadImage = async (cookie: string, projectId: string, imageId: string) => {
-  const url = new URL(imageId, config.refreshProjects.url)
+const loadImage = async (baseUrl: string, cookie: string, projectId: string, imageId: string) => {
+  const url = new URL(imageId, baseUrl)
   try {
     const r = await fetch(url, {
       headers: {
@@ -104,7 +68,20 @@ const loadImage = async (cookie: string, projectId: string, imageId: string) => 
   return false
 }
 
-const refreshProjects = async () => {
+const getCookie = () => process.env.REFRESH_PROJECTS_COOKIE ? `PrinterStudioCookie=${process.env.REFRESH_PROJECTS_COOKIE}` : null
+
+const login = async (baseUrl: string, cookie: string) => {
+  const r = await fetch(new URL('/design/dn_temporary_designes.aspx', baseUrl), {
+    headers: {
+      'Cookie': cookie,
+    },
+  })
+  return !r.redirected
+}
+
+const refreshProjects = async (baseUrl: string) => {
+  DotenvFlow.load(DotenvFlow.listFiles())
+
   try {
     console.log('Refreshing projects')
     const projectIds = await readProjectList('./projects')
@@ -113,17 +90,46 @@ const refreshProjects = async () => {
       return
     }
 
-    const cookie = await login()
-    if (cookie == undefined) {
-      console.log('Failed to login')
+    const cookie = getCookie()
+    if (!cookie || !await login(baseUrl, cookie)) {
+      const code = uuidv4()
+      process.env.REFRESH_PROJECTS_CODE = code
+
+      const url = new URL('set_cookie', config.mailer?.baseUrl)
+      url.searchParams.append('code', code)
+      console.log(`set_cookie url: ${url.toString()}`)
+
+      if (!config.mailer) {
+        console.log('MAILER not set')
+        return
+      }
+
+      const mailer = nodemailer.createTransport({
+        host: config.mailer.host,
+        port: config.mailer.port,
+        auth: {
+          user: config.mailer.user,
+          pass: config.mailer.pass,
+        },
+      })
+      await mailer.sendMail({
+        from: {
+          name: 'MPC Projects',
+          address: config.mailer.from
+        },
+        to: config.mailer.to,
+        subject: 'MPC Projects Cookie Refresh',
+        text: url.toString(),
+      })
+      console.log(`Email sent to: ${config.mailer.to}`)
       return
     }
 
     console.log(`Loading ${projectIds.length} projects`)
     for (const projectId of projectIds) {
-      const imageIds = await loadProjectImages(cookie, projectId)
+      const imageIds = await loadProjectImages(baseUrl, cookie, projectId)
       console.log(`${projectId}: Loading ${imageIds.length} images`)
-      await Promise.all(imageIds.map((imageId) => loadImage(cookie, projectId, imageId)))
+      await Promise.all(imageIds.map((imageId) => loadImage(baseUrl, cookie, projectId, imageId)))
       await new Promise(r => setTimeout(r, 2000))
     }
     console.log('Done')
@@ -132,9 +138,10 @@ const refreshProjects = async () => {
   }
 }
 
-if (config.refreshProjects.schedule) {
-  cron.schedule(config.refreshProjects.schedule, refreshProjects)
-}
-if (config.refreshProjects.immediatly) {
-  refreshProjects()
+if (config.refreshProjects) {
+  cron.schedule(config.refreshProjects.expression, () => refreshProjects(config.refreshProjects!.baseUrl), {
+    name: 'refreshProjects',
+    scheduled: config.refreshProjects.scheduled,
+    runOnInit: config.refreshProjects.immediatly,
+  })
 }
