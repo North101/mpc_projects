@@ -21,13 +21,24 @@ const tryParseEnv = (filename: string) => {
 }
 
 export const updateEnv = async (values: { [key: string]: string | undefined }) => {
-  Object.entries(values).forEach(([key, value]) => process.env[key] = value)
+  Object.entries(values).forEach(([key, value]) => {
+    if (value == undefined) {
+      delete process.env[key]
+    } else {
+      process.env[key] = value
+    }
+  })
 
   const env = {
     ...tryParseEnv('.env'),
     ...values,
   }
-  await fs.writeFile('.env', Object.entries(env).map(([key, value]) => `${key}=${value}`).join('\n'))
+  await fs.writeFile(
+    '.env',
+    Object.entries(env)
+      .filter(([_key, value]) => value != undefined)
+      .map(([key, value]) => `${key}=${value}`).join('\n'),
+  )
 }
 
 const readProject = async (filename: string): Promise<string[]> => {
