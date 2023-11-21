@@ -42,6 +42,7 @@ $link-hover-color-dark: shift-color($link-color-dark, -$link-shade-percentage); 
   $btn-link-color:              var(--#{$prefix}link-color-dark);
   $btn-link-hover-color:        var(--#{$prefix}link-hover-color-dark);
   $btn-link-disabled-color:     $gray-300;
+  --bs-btn-focus-shadow-rgb:    #fff;
   //$modal-backdrop-bg:           #ffffff;
   //$modal-backdrop-opacity:      0.4;
   //$form-check-border-color:     $gray-700;
