@@ -8,8 +8,19 @@ import { Agent, fetch, setGlobalDispatcher } from 'undici'
 import { v4 as uuidv4 } from 'uuid'
 import config from './config'
 import { readJson } from './util'
+import fs from 'node:fs/promises'
 
 setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
+
+export const updateEnv = async (values: { [key: string]: string | undefined }) => {
+  Object.entries(values).forEach(([key, value]) => process.env[key] = value)
+
+  const env = {
+    ...DotenvFlow.parse('.env'),
+    ...values,
+  }
+  await fs.writeFile('.env', Object.entries(env).map(([key, value]) => `${key}=${value}`).join('\n'))
+}
 
 const readProject = async (filename: string): Promise<string[]> => {
   const project = await readJson(filename)
@@ -93,7 +104,9 @@ const refreshProjects = async (baseUrl: string) => {
     const cookie = getCookie()
     if (!cookie || !await login(baseUrl, cookie)) {
       const code = uuidv4()
-      process.env.REFRESH_PROJECTS_CODE = code
+      updateEnv({
+        REFRESH_PROJECTS_CODE: code,
+      })
 
       const url = new URL('set_cookie', config.mailer?.baseUrl)
       url.searchParams.append('code', code)

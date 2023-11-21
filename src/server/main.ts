@@ -4,6 +4,7 @@ import cron from 'node-cron'
 import ViteExpress from 'vite-express'
 import config from './config'
 import './cron'
+import { updateEnv } from './cron'
 
 const app = express()
 
@@ -28,8 +29,10 @@ app.post('/set_cookie', (req, res) => {
     return res.render('set_cookie_failed')
   }
 
-  process.env.REFRESH_PROJECTS_CODE = undefined
-  process.env.REFRESH_PROJECTS_COOKIE = cookie
+  updateEnv({
+    REFRESH_PROJECTS_CODE: undefined,
+    REFRESH_PROJECTS_COOKIE: cookie,
+  })
 
   task.now()
 
