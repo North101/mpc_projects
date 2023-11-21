@@ -12,11 +12,19 @@ import fs from 'node:fs/promises'
 
 setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
 
+const tryParseEnv = (filename: string) => {
+  try {
+    return DotenvFlow.parse(filename)
+  } catch (e) {
+    return {}
+  }
+}
+
 export const updateEnv = async (values: { [key: string]: string | undefined }) => {
   Object.entries(values).forEach(([key, value]) => process.env[key] = value)
 
   const env = {
-    ...DotenvFlow.parse('.env'),
+    ...tryParseEnv('.env'),
     ...values,
   }
   await fs.writeFile('.env', Object.entries(env).map(([key, value]) => `${key}=${value}`).join('\n'))
@@ -104,7 +112,7 @@ const refreshProjects = async (baseUrl: string) => {
     const cookie = getCookie()
     if (!cookie || !await login(baseUrl, cookie)) {
       const code = uuidv4()
-      updateEnv({
+      await updateEnv({
         REFRESH_PROJECTS_CODE: code,
       })
 
