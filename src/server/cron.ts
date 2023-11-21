@@ -127,33 +127,34 @@ const refreshProjects = async (baseUrl: string) => {
         REFRESH_PROJECTS_CODE: code,
       })
 
-      const url = new URL('set_cookie', config.mailer?.baseUrl)
+      const mailerConfig = config.refreshProjects?.mailer
+      const url = new URL('set_cookie', mailerConfig?.baseUrl)
       url.searchParams.append('code', code)
       console.log(`set_cookie url: ${url.toString()}`)
 
-      if (!config.mailer) {
+      if (!mailerConfig) {
         console.log('MAILER not set')
         return
       }
 
       const mailer = nodemailer.createTransport({
-        host: config.mailer.host,
-        port: config.mailer.port,
+        host: mailerConfig.host,
+        port: mailerConfig.port,
         auth: {
-          user: config.mailer.user,
-          pass: config.mailer.pass,
+          user: mailerConfig.user,
+          pass: mailerConfig.pass,
         },
       })
       await mailer.sendMail({
         from: {
           name: 'MPC Projects',
-          address: config.mailer.from
+          address: mailerConfig.from
         },
-        to: config.mailer.to,
+        to: mailerConfig.to,
         subject: 'MPC Projects Cookie Refresh',
         text: url.toString(),
       })
-      console.log(`Email sent to: ${config.mailer.to}`)
+      console.log(`Email sent to: ${mailerConfig.to}`)
       return
     }
 
