@@ -54,7 +54,7 @@ export const HelpText = () => (
           <p>
             If you have individual card images and you need to create your own MPC
             project from them, jump to{' '}
-            <a href='project-create'>Create a Project from Card Images</a>.
+            <a href='#images-tab'>Create a Project from Card Images</a>.
           </p>
         </li>
       </ul>

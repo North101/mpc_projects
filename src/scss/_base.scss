@@ -3,6 +3,13 @@
   position: relative; // to position the intro show checkbox
 }
 
+.tldr {
+  section,
+  h3 {
+    scroll-margin-top: 140px;
+  }
+}
+
 // Fonts
 .font-sans-serif {
   font-family: $font-family-sans-serif;
