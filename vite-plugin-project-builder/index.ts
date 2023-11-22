@@ -1,7 +1,7 @@
-import { promises as fs } from 'node:fs'
 import { glob } from 'glob'
+import fs from 'node:fs/promises'
 //import mpcData from 'mpc_api/data'
-import path, { basename, relative, resolve } from 'path'
+import path, { basename, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
@@ -68,7 +68,7 @@ const upgradeProject = (project: ProjectUnionMeta): ProjectLatestMeta => {
   return project
 }
 
-const parseProject = (project: unknown): ProjectLatestMeta | null => {
+const parseProject = (project: ProjectUnionMeta): ProjectLatestMeta | null => {
   return projectValidator(project) ? upgradeProject(project) : null
 }
 

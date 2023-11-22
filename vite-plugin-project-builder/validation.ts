@@ -15,7 +15,7 @@ const cardFaceSchema: JSONSchemaType<CardFace> = {
   required: [
     'Name',
     'ID',
-    "SourceID",
+    'SourceID',
     'Exp',
     'Width',
     'Height',
