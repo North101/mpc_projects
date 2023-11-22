@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BoxArrowUpRight, CloudArrowDown, InfoCircle } from 'react-bootstrap-icons'
+import { BoxArrowUpRight, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
@@ -19,7 +19,7 @@ export const ProjectTooltip = ({ name, info }: ProjectTooltipProps) => (
   <OverlayTrigger
     overlay={<Tooltip id={name}>{info}</Tooltip>}
   >
-    <InfoCircle size={16} className='info-tooltip mx-3 mt-3 position-absolute top-0 end-0' />
+    <InfoCircleFill size={16} className='info-tooltip mx-3 mt-3 position-absolute top-0 end-0' />
   </OverlayTrigger>
 )
 
