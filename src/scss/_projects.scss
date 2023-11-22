@@ -146,13 +146,13 @@ button.download {
 
     .icon {
       fill: $btn-color;
-      margin: 9px 0;
+      margin: 9px 4px 9px 0;
     }
 
     button {
       font-weight: 300;
       font-size: 1rem;
-      padding-left: 6px;
+      padding-left: 2px;
 
       &.btn-link {
         text-decoration: none;

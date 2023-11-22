@@ -75,6 +75,13 @@ code {
   max-width: 70vw;
 }
 
+[data-bs-theme=dark] {
+  .navbar-brand:focus-visible {
+    box-shadow: 0 0 0 0.25rem rgba(135, 109, 191, 0.35);
+    border-radius: 0.375rem;
+  }
+}
+
 .siteLogo,
 .siteTitle {
   fill: var(--bs-emphasis-color);
@@ -154,6 +161,13 @@ code {
   }
 }
 
+[data-bs-theme=dark] {
+  .nav-link:focus-visible {
+    box-shadow: 0 0 0 0.25rem rgba(135, 109, 191, 0.35);
+    border-radius: 0.375rem;
+  }
+}
+
 aside {
   padding-top: 3.35rem;
 
@@ -220,4 +234,13 @@ $input-border-color: $gray-500;
 .form-control,
 .form-check-input {
   border-color: $input-border-color;
+}
+
+[data-bs-theme=dark] {
+  .form-check-input,
+  .form-control {
+    &:focus {
+      box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    }
+  }
 }
