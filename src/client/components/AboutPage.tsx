@@ -31,7 +31,7 @@ export const AboutPage = () => (
         <li><a href='https://github.com/Antimarkovnikov/AHC/wiki'>Antimarkovnikov</a>, for advice and enthusiasm.</li>
         <li><strong>Buteremelse</strong>, for accountability check-ins, rubber ducking, and <s>generally being a huge distraction</s> unflagging moral support.</li>
         <li><strong>Soul Turtle</strong>, for the kick in the pants.</li>
-        <li>Beta testers <strong>dernincitrus (accessibility)</strong>, <strong>Ektheleon (is it Excel enough?)</strong>, <strong>SecretGarden</strong>&hellip; <em>(list in progress)</em>.</li>
+        <li>Beta testers <strong>dernincitrus (accessibility and more)</strong>, <strong>Ektheleon (is it Excel enough?)</strong>, <strong>Moruna</strong>, <strong>SecretGarden</strong>, <strong>Stormy &ldquo;Nested Checkboxes&rdquo; Waters</strong>&hellip; <em>(list in progress)</em>.</li>
         <li>The entire AHLCG homebrew community, for making all of this necessary with the incredibly high quality custom content they produce.</li>
         <li><strong>MickeyTheQ</strong>, for building Zoop features to make it easier for homebrewers to make PnP versions of their content, and making it easier for us to bring that content to you.</li>
         <li><a href='https://mythosbusters.com/'>Mythos Busters</a>, for bringing us all together</li>
