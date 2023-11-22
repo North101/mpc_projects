@@ -2,9 +2,9 @@ import bodyParser from 'body-parser'
 import express from 'express'
 import cron from 'node-cron'
 import ViteExpress from 'vite-express'
-import config from './config'
-import './cron'
-import { updateEnv } from './cron'
+import config from './config.ts'
+import './cron.ts'
+import { updateEnv } from './cron.ts'
 
 const app = express()
 

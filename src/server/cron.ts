@@ -2,13 +2,13 @@ import { load } from 'cheerio'
 import DotenvFlow from 'dotenv-flow'
 import { glob } from 'glob'
 import cron from 'node-cron'
+import fs from 'node:fs/promises'
+import path from 'node:path'
 import nodemailer from 'nodemailer'
-import path from 'path'
 import { Agent, fetch, setGlobalDispatcher } from 'undici'
 import { v4 as uuidv4 } from 'uuid'
-import config from './config'
-import { readJson } from './util'
-import fs from 'node:fs/promises'
+import config from './config.ts'
+import { readJson } from './util.ts'
 
 setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
 

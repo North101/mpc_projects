@@ -32,4 +32,4 @@ jobs:
           PM2_DEPLOY: ${{secrets.PM2_DEPLOY}}
 
       - name: Deploy
-        run: yarn run deploy
+        run: pm2 deploy --env production deploy.json update
