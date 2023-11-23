@@ -110,51 +110,17 @@ const login = async (baseUrl: string, cookie: string) => {
 }
 
 const refreshProjects = async (baseUrl: string) => {
-  DotenvFlow.load(DotenvFlow.listFiles())
-
   try {
     console.log('Refreshing projects')
-    const projectIds = await readProjectList('./projects')
-    if (projectIds.length == 0) {
-      console.log('No projects found')
+    const cookie = getCookie()
+    if (!cookie || !await login(baseUrl, cookie)) {
+      console.log('Invalid cookie')
       return
     }
 
-    const cookie = getCookie()
-    if (!cookie || !await login(baseUrl, cookie)) {
-      const code = uuidv4()
-      await updateEnv({
-        REFRESH_PROJECTS_CODE: code,
-      })
-
-      const mailerConfig = config.refreshProjects?.mailer
-      const url = new URL('set_cookie', mailerConfig?.baseUrl)
-      url.searchParams.append('code', code)
-      console.log(`set_cookie url: ${url.toString()}`)
-
-      if (!mailerConfig) {
-        console.log('MAILER not set')
-        return
-      }
-
-      const mailer = nodemailer.createTransport({
-        host: mailerConfig.host,
-        port: mailerConfig.port,
-        auth: {
-          user: mailerConfig.user,
-          pass: mailerConfig.pass,
-        },
-      })
-      await mailer.sendMail({
-        from: {
-          name: 'MPC Projects',
-          address: mailerConfig.from
-        },
-        to: mailerConfig.to,
-        subject: 'MPC Projects Cookie Refresh',
-        text: url.toString(),
-      })
-      console.log(`Email sent to: ${mailerConfig.to}`)
+    const projectIds = await readProjectList('./projects')
+    if (projectIds.length == 0) {
+      console.log('No projects found')
       return
     }
 
@@ -171,9 +137,54 @@ const refreshProjects = async (baseUrl: string) => {
   }
 }
 
+const refreshCookie = async (baseUrl: string) => {
+  const cookie = getCookie()
+  if (!cookie || !await login(baseUrl, cookie)) {
+    const code = uuidv4()
+    await updateEnv({
+      REFRESH_PROJECTS_CODE: code,
+    })
+
+    const mailerConfig = config.refreshProjects?.mailer
+    const url = new URL('set_cookie', mailerConfig?.baseUrl)
+    url.searchParams.append('code', code)
+    console.log(`set_cookie url: ${url.toString()}`)
+
+    if (!mailerConfig) {
+      console.log('MAILER not set')
+      return
+    }
+
+    const mailer = nodemailer.createTransport({
+      host: mailerConfig.host,
+      port: mailerConfig.port,
+      auth: {
+        user: mailerConfig.user,
+        pass: mailerConfig.pass,
+      },
+    })
+    await mailer.sendMail({
+      from: {
+        name: 'MPC Projects',
+        address: mailerConfig.from
+      },
+      to: mailerConfig.to,
+      subject: 'MPC Projects Cookie Refresh',
+      text: url.toString(),
+    })
+    console.log(`Email sent to: ${mailerConfig.to}`)
+    return
+  }
+}
+
 if (config.refreshProjects) {
   cron.schedule(config.refreshProjects.expression, () => refreshProjects(config.refreshProjects!.baseUrl), {
     name: 'refreshProjects',
+    scheduled: config.refreshProjects.scheduled,
+    runOnInit: config.refreshProjects.immediatly,
+  })
+  cron.schedule('0 * * * *', () => refreshCookie(config.refreshProjects!.baseUrl), {
+    name: 'refreshCookie',
     scheduled: config.refreshProjects.scheduled,
     runOnInit: config.refreshProjects.immediatly,
   })
