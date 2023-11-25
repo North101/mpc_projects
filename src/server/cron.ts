@@ -139,42 +139,48 @@ const refreshProjects = async (baseUrl: string) => {
 
 const refreshCookie = async (baseUrl: string) => {
   const cookie = getCookie()
-  if (!cookie || !await login(baseUrl, cookie)) {
-    const code = uuidv4()
-    await updateEnv({
-      REFRESH_PROJECTS_CODE: code,
-    })
-
-    const mailerConfig = config.refreshProjects?.mailer
-    const url = new URL('set_cookie', mailerConfig?.baseUrl)
-    url.searchParams.append('code', code)
-    console.log(`set_cookie url: ${url.toString()}`)
-
-    if (!mailerConfig) {
-      console.log('MAILER not set')
-      return
-    }
-
-    const mailer = nodemailer.createTransport({
-      host: mailerConfig.host,
-      port: mailerConfig.port,
-      auth: {
-        user: mailerConfig.user,
-        pass: mailerConfig.pass,
-      },
-    })
-    await mailer.sendMail({
-      from: {
-        name: 'MPC Projects',
-        address: mailerConfig.from
-      },
-      to: mailerConfig.to,
-      subject: 'MPC Projects Cookie Refresh',
-      text: url.toString(),
-    })
-    console.log(`Email sent to: ${mailerConfig.to}`)
+  if (cookie && await login(baseUrl, cookie)) {
     return
   }
+
+  if (process.env.REFRESH_PROJECTS_CODE) {
+    return
+  }
+
+  const code = uuidv4()
+  await updateEnv({
+    REFRESH_PROJECTS_CODE: code,
+  })
+
+  const mailerConfig = config.refreshProjects?.mailer
+  const url = new URL('set_cookie', mailerConfig?.baseUrl)
+  url.searchParams.append('code', code)
+  console.log(`set_cookie url: ${url.toString()}`)
+
+  if (!mailerConfig) {
+    console.log('MAILER not set')
+    return
+  }
+
+  const mailer = nodemailer.createTransport({
+    host: mailerConfig.host,
+    port: mailerConfig.port,
+    auth: {
+      user: mailerConfig.user,
+      pass: mailerConfig.pass,
+    },
+  })
+  await mailer.sendMail({
+    from: {
+      name: 'MPC Projects',
+      address: mailerConfig.from
+    },
+    to: mailerConfig.to,
+    subject: 'MPC Projects Cookie Refresh',
+    text: url.toString(),
+  })
+  console.log(`Email sent to: ${mailerConfig.to}`)
+  return
 }
 
 if (config.refreshProjects) {
