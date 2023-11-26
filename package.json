@@ -27,7 +27,7 @@
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
-    "undici": "^5.27.0",
+    "undici": "^5.28.0",
     "uuid": "^9.0.1",
     "vite-express": "*",
     "wouter": "^2.11.0"
@@ -35,11 +35,11 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/express": "^4.17.15",
-    "@types/node": "^20.9.3",
+    "@types/node": "^20.10.0",
     "@types/node-cron": "^3.0.8",
     "@types/nodemailer": "^6.4.14",
     "@types/react": "^18.2.38",
-    "@types/react-dom": "^18.2.16",
+    "@types/react-dom": "^18.2.17",
     "@types/uuid": "^9.0.7",
     "@types/wicg-file-system-access": "^2023.10.4",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
