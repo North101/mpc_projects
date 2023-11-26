@@ -334,6 +334,52 @@
           }
         }
       ]
+    },
+    {
+      "name": "Customizable Upgrades, Taboo 2.1",
+      "enabled": false,
+      "cards": [
+        {
+          "id": "8e804dc8-2c6d-4955-9452-26ac2c84747c",
+          "count": 1,
+          "front": {
+            "Name": "TABOO 022-U Runic Axe-1.png",
+            "ID": "9543369CCEA55FEA195F43C707230DB4",
+            "SourceID": "15E0578BD07351AB86FB58B3A6B620F0E12ECC8D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "Customizable back with bleed.png",
+            "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+            "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "id": "5dbda1b3-3bef-4733-98cc-e3ee9d944f59",
+          "count": 1,
+          "front": {
+            "Name": "TABOO 081-U Power Word-1.png",
+            "ID": "484D2ADA34454F0A7BDED0A6A37B8D82",
+            "SourceID": "82B5AF89E7A025A828856E342BDE107F59D07CEC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "Customizable back with bleed.png",
+            "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+            "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
     }
   ],
   "hash": "3b65501df1a862f6381b5ae45e70ac1b1ac4bd02e475b8a3e91b6ad182e45188"
