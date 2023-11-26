@@ -1,0 +1,362 @@
+{
+  "projectId": [
+    "B23204113AC62379EFFCC0F11B8FCD57212749007DE950751C0F96175C65EA1793C780802B8E33F7"
+  ],
+  "name": "TFA Mini Supply Cards",
+  "description": "Minicard-sized TFA supplies designed to look like neutral assets. Optionally add RTTFA supplies if needed. The default quantites cover every possible combination a party of four might choose, so you may want to print fewer of some or all cards depending on your party size and preferences.",
+  "artist": null,
+  "info": "Supply cards for use with The Forgotten Age campaign.",
+  "website": "https://arkham-starter.com/supply",
+  "linktext": null,
+  "authors": [
+    "5argon"
+  ],
+  "statuses": [
+    "Project Available"
+  ],
+  "tags": [
+    "Add-On",
+    "Finished"
+  ],
+  "lang": "English",
+  "created": "2023-11-25T04:45:26.684Z",
+  "updated": "2023-11-26T17:55:33.347Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "TFA Mini Supply Cards",
+      "cards": [
+        {
+          "count": 4,
+          "front": {
+            "Name": "Binoculars-x4-a.png",
+            "ID": "A606AB7343697EB15CE2C0F70336A86C",
+            "SourceID": "E78679D29E2A26E60D33602FD31AA1C5B16FC9F5",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Blanket-x4-a.png",
+            "ID": "9503F5CCC5CDBB628D6A41A9052C8434",
+            "SourceID": "F252E1BD749C62C36FDF29C9B991F9CA63045FE8",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Canteen-x4-a.png",
+            "ID": "F34077ECCA585072751CEA147F9C9BFD",
+            "SourceID": "0A38BA066141A8F0B5B10B9FB0BE6734B1152B57",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Chalk-x4-a.png",
+            "ID": "2C642EDDEC36ABA4B872249A76149D76",
+            "SourceID": "85330DF2A0CDB0674C17039609A63B70B3845815",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Compass-x4-a.png",
+            "ID": "BAE158D4D546037EAF0D481A2265F8F7",
+            "SourceID": "248BC0B5314F46F14352423861C7147423E66623",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Gasoline-x16-a.png",
+            "ID": "4D316582C82AB6141C518C3EAA30D9D7",
+            "SourceID": "42B0F1F5276F3AD05BDB41EA526805F989D31811",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Map-x4-a.png",
+            "ID": "0C2626095B77010C3937718EB8CC77B2",
+            "SourceID": "3469B4D9EC0DAD820D778B494564028AA622BE81",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 24,
+          "front": {
+            "Name": "Medicine-x24-a.png",
+            "ID": "BA868554E0C772BC0E6C0495CC1BBF3B",
+            "SourceID": "F52E6AEA312C0DE1F65F4C19D7773E2F978C88C2",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pendant-x4-a.png",
+            "ID": "FF27F673161788F02C1089E10726777F",
+            "SourceID": "B56CF2E53159036EFD1EBAE0D6BDE17F95248B0E",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pickaxe-x4-a.png",
+            "ID": "F3892BE6A25B64815236A223DBAE2C59",
+            "SourceID": "9CE3C2A29BF127DA1888CB350541A08A1A995606",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pocketknife-x4-a.png",
+            "ID": "5FD7706D2038FCC1590F95D938FD8A8B",
+            "SourceID": "075C0FB8218E9263E0BF50FDEB73703B3F771F7E",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Provisions-x16-a.png",
+            "ID": "B3E035712FEC68060F786152FBACFC05",
+            "SourceID": "7A96351D59D222D86B43F69D99A6F497B830A8A8",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Rope-x4-a.png",
+            "ID": "C916A7FC32AB1B52FD8A7F869A2E8E4E",
+            "SourceID": "967DD5FC8FAE7DBEA1E44949E7D7F2826593AA0A",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Torches-x4-a.png",
+            "ID": "AE46EC3E73C77C9C4F1FF6826D6DEA77",
+            "SourceID": "A2D3E8ADDA50F4A0C98EFF4F37C9014820A7C2D2",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    },
+    {
+      "name": "RTTFA Mini Supply Cards",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "RTTFA Key of Eztli-x1-a.png",
+            "ID": "2BD3EC3384D9CF97591D04A67DDCB8EC",
+            "SourceID": "B5359A0FFCCB8816570BA6831ED192560D93C4C7",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "RTTFA Mysterious Scepter-x1-a.png",
+            "ID": "F544607569DAD849C8BC1A42F1242F02",
+            "SourceID": "93BA34C955E07CBAF05438FDFCA07C0CCE77AF27",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "RTTFA Sticky Goop-x1-a.png",
+            "ID": "CD8D8A5327C2B2504C522B3BD7AE53C6",
+            "SourceID": "9B719668E88E7903AFB920A2E9E9AD8E6E2D65BD",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "1655429566DC7524DF01B7DCB4635AEF",
+            "SourceID": "DEE92D583B2A26A7461BC5B15D0F0A453489B4A1",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "1f03dbe221924cc44cce0f46ed0119986a0a24f830d3f6c882ea9a7648ecc89a"
+}
