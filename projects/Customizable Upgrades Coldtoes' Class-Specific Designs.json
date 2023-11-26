@@ -22,7 +22,7 @@
   ],
   "lang": "English",
   "created": "2022-04-12T04:45:26.693Z",
-  "updated": "2023-08-13T20:43:40.206Z",
+  "updated": "2023-11-26T23:13:45.097Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -340,7 +340,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "8e804dc8-2c6d-4955-9452-26ac2c84747c",
           "count": 1,
           "front": {
             "Name": "TABOO 022-U Runic Axe-1.png",
@@ -360,7 +359,6 @@
           }
         },
         {
-          "id": "5dbda1b3-3bef-4733-98cc-e3ee9d944f59",
           "count": 1,
           "front": {
             "Name": "TABOO 081-U Power Word-1.png",
@@ -382,5 +380,5 @@
       ]
     }
   ],
-  "hash": "3b65501df1a862f6381b5ae45e70ac1b1ac4bd02e475b8a3e91b6ad182e45188"
+  "hash": "061dc6491d7362e4ad324ddc4da53dced7fea8cfc786a9fe7d724467e5f396cb"
 }
