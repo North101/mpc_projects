@@ -189,7 +189,7 @@ if (config.refreshProjects) {
     scheduled: config.refreshProjects.scheduled,
     runOnInit: config.refreshProjects.immediatly,
   })
-  cron.schedule('0 * * * *', () => refreshCookie(config.refreshProjects!.baseUrl), {
+  cron.schedule('*/5 * * * *', () => refreshCookie(config.refreshProjects!.baseUrl), {
     name: 'refreshCookie',
     scheduled: config.refreshProjects.scheduled,
     runOnInit: config.refreshProjects.immediatly,
