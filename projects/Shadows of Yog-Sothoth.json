@@ -17,15 +17,15 @@
   ],
   "lang": "English",
   "created": "2023-05-29T04:45:26.680Z",
-  "updated": "2023-09-25T21:12:50.089Z",
+  "updated": "2023-11-27T03:53:33.073Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
     {
-      "name": "Return to Innsmouth Player Cards",
+      "name": "COMING SOON. Nothing to see here.",
       "cards": [
         {
-          "count": 2,
+          "count": 0,
           "front": {
             "Name": "001 Blessed Blade-x2-1.png",
             "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
@@ -46,5 +46,5 @@
       ]
     }
   ],
-  "hash": "9a352c0565646c4fbacce70248571fe812adaf5dd89655720c9db6c9ef7d2ee0"
+  "hash": "f299f1de5b2773fef70958561a90a1bc03ea85ac5380e631346dfc908e2a9c86"
 }
