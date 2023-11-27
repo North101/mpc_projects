@@ -20,7 +20,11 @@
   ],
   "lang": "English",
   "created": "2023-11-25T04:45:26.684Z",
+<<<<<<< HEAD
   "updated": "2023-11-27T03:53:33.074Z",
+=======
+  "updated": "2023-11-26T23:13:45.085Z",
+>>>>>>> master
   "version": 2,
   "code": "CA7C88A094DDABB0",
   "parts": [
@@ -358,5 +362,9 @@
       ]
     }
   ],
+<<<<<<< HEAD
   "hash": "8a0ee20b559774eef2dc875203d8e94ef0028fc5e8f7556446e3e764d29de071"
+=======
+  "hash": "107e944659ced86ca70e049499fb76f0ff9a31be6597b2f22ee0af05ebf918bf"
+>>>>>>> master
 }
