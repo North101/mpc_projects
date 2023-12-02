@@ -13,14 +13,15 @@
     "2487201A4AB45DD4E81B9A3653348CBBB3329ED4D46B0925E62115C2224273F102DFA9BE714082FE",
     "74EF1B67A255050C1B7B370C6F777BCF5A78BBEB402D364DE4DEFACF53CFDEF9DCF7BCFB379815FF",
     "7A2C48FB2F5476B664F446D59B5EF1CF9630A42E2F308BD149509648A3C09A3009F024A7B2531395",
-    "BA4C4D24268D7BAE215832A0F19F1F08636D3F5F2EDECD64E36C3BD4950363EEC1E2AC23180CF200"
+    "BA4C4D24268D7BAE215832A0F19F1F08636D3F5F2EDECD64E36C3BD4950363EEC1E2AC23180CF200",
+    "A383CAC60AD37AE583DB443E6783B96358BFAE09AD63DD8310418D31550D2D9E4B388F527CD0945C"
   ],
   "name": "Many Minicards",
   "description": "While cards that can be cropped down to minicard size are included with most homebrew investigators, if you prefer to print your minis at mini size, this is the project for you. ",
   "artist": null,
   "info": "Additional minicards will be added as needed.",
-  "website": null,
-  "linktext": null,
+  "website": "https://drive.google.com/drive/folders/1ip3CoUi6XmiRBTerX4BOwa7gp8y__li0?usp=drive_link",
+  "linktext": "View the cards",
   "authors": [
     "AtomicZ",
     "Aughhhh",
@@ -29,6 +30,7 @@
     "Blue Barracuda",
     "FFG",
     "Frostmaze",
+    "Jaxtrasi",
     "Mint Tea Fan",
     "QggOne",
     "VinnQuest"
@@ -114,6 +116,31 @@
             "Exp": "png",
             "Width": 596,
             "Height": 821
+          }
+        }
+      ]
+    },
+    {
+      "name": "Arabella Freeman mini",
+      "cards": [
+        {
+          "id": "cdb3c0be-6431-491d-81dd-4f0df3ca0cae",
+          "count": 1,
+          "front": {
+            "Name": "Arabella Freeman mini-1.png",
+            "ID": "59003536EF93D4A466550B846C2CCCFC",
+            "SourceID": "9B5B833FE7936976F5F225D4C3350EB39A0FCCD5",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
+          },
+          "back": {
+            "Name": "Arabella Freeman mini-2.png",
+            "ID": "04708180E90D7D69E6DDF6E7102D3CCF",
+            "SourceID": "AB4224A709FD20BDDF7710AD4C187FCD5C9451BE",
+            "Exp": "png",
+            "Width": 597,
+            "Height": 822
           }
         }
       ]
