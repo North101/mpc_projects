@@ -6,8 +6,10 @@
   "description": "Alternate design of TSK customizable upgrade cards for a more colorful, class-specific look. ",
   "artist": null,
   "info": "Requires the customizable player cards from The Scarlet Keys Investigator Expansion. Note that in some cases the card text has been modified slightly for space concerns. By default the project is set to only one copy of each card, so make sure to customize for the quantity you want.",
-  "website": "https://drive.google.com/drive/folders/1qF_iKUTU8aPWgWQe-ee64tJuPc22E-gR?usp=drive_link",
-  "linktext": "View the cards",
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/1qF_iKUTU8aPWgWQe-ee64tJuPc22E-gR?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Coldtoes"
   ],

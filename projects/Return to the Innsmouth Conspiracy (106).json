@@ -12,7 +12,9 @@
   "artist": null,
   "info": "Encounter cards require The Innsmouth Conspiracy campaign. Some player cards make use of bless & curse tokens.",
   "website": "https://derbk.com/ancientevils/the-unofficial-return-to-the-innsmouth-conspiracy/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "DerBK",
     "Hauke"

@@ -7,7 +7,9 @@
   "artist": null,
   "info": "Note that FFG does incorporate errata when they reprint campaigns, so you likely only need a subset of these cards.",
   "website": "https://arkham-starter.com/errata",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "5argon"
   ],

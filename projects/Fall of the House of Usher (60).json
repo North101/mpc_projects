@@ -7,7 +7,9 @@
   "artist": "Daniel Danger",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/10/01/the-fall-of-the-house-of-usher/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
   "authors": [
     "The Beard"
   ],

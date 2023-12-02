@@ -11,7 +11,9 @@
   "artist": "Malte Blom Madsen",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2023/06/30/heart-of-darkness-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 3,
+  "investigatorCount": 1,
   "authors": [
     "Vinn Quest"
   ],

@@ -10,7 +10,9 @@
   "artist": null,
   "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Antimarkovnikov"
   ],

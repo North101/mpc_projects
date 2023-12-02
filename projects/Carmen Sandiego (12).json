@@ -7,7 +7,9 @@
   "artist": null,
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2023/04/17/where-in-arkham-is-carmen-sandiego/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 1,
   "authors": [
     "Blue Barracuda"
   ],

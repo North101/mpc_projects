@@ -7,7 +7,9 @@
   "artist": "Hanh Chu",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/alice-in-wonderland-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 1,
   "authors": [
     "The Beard"
   ],

@@ -194,7 +194,7 @@ export const HelpText = () => (
             selecting filters in different categories <strong>narrows</strong>{' '}
             your search. Selecting author Fantasy Flight Games and status Ongoing
             will find projects that are both by FFG <strong>AND</strong> which are
-            preiodically updated, like Parallels and Taboo.
+            periodically updated, like Parallels and Taboo.
           </p>
         </li>
         <li>

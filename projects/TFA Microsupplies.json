@@ -7,7 +7,9 @@
   "artist": null,
   "info": "Supply cards for use with The Forgotten Age campaign. Summoned Servitor microcard pairs with the customizable player card of the same name from The Scarlet Keys investigator expansion.",
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Antimarkovnikov"
   ],

@@ -8,7 +8,9 @@
   "artist": null,
   "info": "Requires cards from The Path to Carcosa Campaign Expansion.",
   "website": "https://mysteriouschanting.wordpress.com/2020/10/17/dark-matter-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 0,
   "authors": [
     "Axolotl"
   ],

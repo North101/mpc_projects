@@ -42,7 +42,9 @@ export interface ProjectMeta {
   artist?: string | null
   info?: string | null
   website?: string | null
-  linktext?: string | null
+  cardsLink?: string | null
+  scenarioCount?: number
+  investigatorCount?: number
   authors: string[]
   statuses: string[]
   tags: string[]

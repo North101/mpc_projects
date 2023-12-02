@@ -7,7 +7,9 @@
   "artist": "Ilich Henriquez",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/16/the-symphony-of-erich-zann/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 1,
   "authors": [
     "Axolotl"
   ],

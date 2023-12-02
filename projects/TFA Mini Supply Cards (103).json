@@ -7,7 +7,9 @@
   "artist": null,
   "info": "Supply cards for use with The Forgotten Age campaign.",
   "website": "https://arkham-starter.com/supply",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "5argon"
   ],

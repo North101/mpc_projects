@@ -8,8 +8,10 @@
   "description": "Pump up your Arkham Horror collection with alt-art versions of the popular permanents your team is always fighting over. You get a Charisma, you get a Charisma, EVERYONE gets a Charisma!",
   "artist": "Diego Gisbert Llorens",
   "info": "By default you’ll get two copies of each permanent; make sure to change the counts if you want more or fewer.",
-  "website": "https://drive.google.com/drive/folders/12u7U9DfIASnL4xBK0TnTyPXKUOZ_1vUI?usp=drive_link",
-  "linktext": "View the cards",
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/12u7U9DfIASnL4xBK0TnTyPXKUOZ_1vUI?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Hatful Bob"
   ],

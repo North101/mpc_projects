@@ -7,7 +7,9 @@
   "artist": "psdelux, Vlad Ricean",
   "info": "Requires cards from The Forgotten Age campaign and Dunwich's Essex County Express scenario.",
   "website": "http://arkhamcentral.com/index.php/snakes-on-a-train/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
   "authors": [
     "StartsWithTheName"
   ],
