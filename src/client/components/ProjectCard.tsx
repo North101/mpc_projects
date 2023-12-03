@@ -108,11 +108,11 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         </Card.Header>
         <Card.Body className='card-text position-relative d-flex flex-column align-items-start justify-content-start'>
           <small className='project-count'>Cards: {count}</small>
-          {project.scenarioCount > 0 ? <small
+          {project.scenarioCount && project.scenarioCount > 0 ? <small
             className='scenario-count'>
             Scenarios: {project.scenarioCount}
           </small> : ''}
-          {project.investigatorCount > 0 ? <small
+          {project.investigatorCount && project.investigatorCount > 0 ? <small
             className='scenario-count'>
             Investigators: {project.investigatorCount}
           </small> : ''}

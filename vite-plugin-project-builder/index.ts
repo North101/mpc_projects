@@ -104,13 +104,13 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
     project.code,
     project.parts,
   ])
-  //TEMP const updated = hash == project.hash ? project.updated : new Date().toISOString()
+  const updated = hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,
     filename: basename(filename),
     image: await getProjectImage(filename),
     hash,
-    //TEMP updated,
+    updated,
   }
 }
 
