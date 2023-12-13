@@ -44,7 +44,7 @@
   ],
   "lang": "English",
   "created": "2023-07-15T04:45:26.680Z",
-  "updated": "2023-11-26T17:55:33.354Z",
+  "updated": "2023-12-13T01:07:06.753Z",
   "version": 2,
   "code": "CA7C88A094DDABB0",
   "parts": [
@@ -124,7 +124,6 @@
       "name": "Arabella Freeman mini",
       "cards": [
         {
-          "id": "cdb3c0be-6431-491d-81dd-4f0df3ca0cae",
           "count": 1,
           "front": {
             "Name": "Arabella Freeman mini-1.png",
@@ -726,5 +725,5 @@
       ]
     }
   ],
-  "hash": "c2a39ffa3b04a47cc5101ae19b061b1a397f523fa75a0abd51bae7951fb17575"
+  "hash": "e3cd6bc0287c2e1aac5c68b9bba814404726c56b317582cc023fdaece7a42921"
 }

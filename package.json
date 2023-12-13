@@ -4,11 +4,11 @@
   "type": "module",
   "version": "0.8.0",
   "scripts": {
-    "dev": "nodemon -w src/server -x node --loader ts-node/esm src/server/main.ts",
-    "build:client": "tsc && vite build",
-    "build:server": "tsc && vite build -c vite.config.server.ts",
+    "dev": "nodemon -w src/server -x tsx src/server/main.ts",
+    "build:client": "vite build",
+    "build:server": "vite build -c vite.config.server.ts",
     "build": "yarn run build:client && yarn run build:server",
-    "start": "NODE_ENV=production node --loader ts-node/esm src/server/main.ts",
+    "start": "NODE_ENV=production tsx src/server/main.ts",
     "lint": "eslint . --ext ts.tsx --report-unused-disable-directives"
   },
   "dependencies": {
@@ -38,12 +38,12 @@
     "@types/node": "^20.10.4",
     "@types/node-cron": "^3.0.8",
     "@types/nodemailer": "^6.4.14",
-    "@types/react": "^18.2.42",
+    "@types/react": "^18.2.44",
     "@types/react-dom": "^18.2.17",
     "@types/uuid": "^9.0.7",
     "@types/wicg-file-system-access": "^2023.10.4",
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "ajv": "^8.12.0",
     "eslint": "^8.55.0",
@@ -53,9 +53,8 @@
     "mpc_api": "https://github.com/North101/mpc_api",
     "nodemon": "^3.0.2",
     "sass": "^1.65.1",
-    "ts-node": "^10.9.2",
-    "tslib": "^2.6.2",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.3",
-    "vite": "^5.0.7"
+    "vite": "^5.0.8"
   }
 }
