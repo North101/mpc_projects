@@ -7,7 +7,9 @@
   "artist": "Robin Olausson",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2021/04/06/call-of-the-plaguebearer/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 0,
   "authors": [
     "Dr. Jack Science"
   ],

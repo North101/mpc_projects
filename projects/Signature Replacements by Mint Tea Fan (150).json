@@ -7,8 +7,10 @@
   "description": "Open up new playstyles for your favorite investigators with these custom-made signature replacement cards for official FFG investigators.",
   "artist": null,
   "info": null,
-  "website": "https://drive.google.com/drive/folders/1udvV7Ltt-o-Zsx7OX9O-cqpb2-YG7gYR",
-  "linktext": "View the cards",
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/1udvV7Ltt-o-Zsx7OX9O-cqpb2-YG7gYR",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Mint Tea Fan"
   ],

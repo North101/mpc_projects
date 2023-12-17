@@ -11,7 +11,9 @@
   "artist": "Chris Bourassa",
   "info": null,
   "website": "https://www.keyboardsanddice.com/darkham",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 5,
   "authors": [
     "Frostmaze"
   ],

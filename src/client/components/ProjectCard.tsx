@@ -108,6 +108,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         </Card.Header>
         <Card.Body className='card-text position-relative d-flex flex-column align-items-start justify-content-start'>
           <small className='project-count'>Cards: {count}</small>
+          {project.scenarioCount && project.scenarioCount > 0 ? <small
+            className='scenario-count'>
+            Scenarios: {project.scenarioCount}
+          </small> : ''}
+          {project.investigatorCount && project.investigatorCount > 0 ? <small
+            className='scenario-count'>
+            Investigators: {project.investigatorCount}
+          </small> : ''}
           {project.info && <ProjectTooltip
             name={project.name}
             info={project.info}
@@ -120,7 +128,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             className="icon-link mt-auto"
             href={project.website}
           >
-            {project.linktext ?? 'Learn more'}
+            Learn more
+            <BoxArrowUpRight/>
+          </Card.Link>}
+          {project.cardsLink && <Card.Link
+              className="icon-link mt-auto"
+              href={project.cardsLink}
+          >
+            View the cards
             <BoxArrowUpRight/>
           </Card.Link>}
         </Card.Body>

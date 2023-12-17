@@ -5,7 +5,9 @@
   "artist": "DemonSheyd500025",
   "info": "Requires cards from The Dunwich Legacy campaign.",
   "website": "http://arkhamcentral.com/index.php/shadows-of-yog-sothoth-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 0,
   "authors": [
     "Red Rob"
   ],

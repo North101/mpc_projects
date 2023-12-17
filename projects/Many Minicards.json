@@ -20,8 +20,10 @@
   "description": "While cards that can be cropped down to minicard size are included with most homebrew investigators, if you prefer to print your minis at mini size, this is the project for you. ",
   "artist": null,
   "info": "Additional minicards will be added as needed.",
-  "website": "https://drive.google.com/drive/folders/1ip3CoUi6XmiRBTerX4BOwa7gp8y__li0?usp=drive_link",
-  "linktext": "View the cards",
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/1ip3CoUi6XmiRBTerX4BOwa7gp8y__li0?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "AtomicZ",
     "Aughhhh",
@@ -44,7 +46,7 @@
   ],
   "lang": "English",
   "created": "2023-07-15T04:45:26.680Z",
-  "updated": "2023-12-13T01:07:06.753Z",
+  "updated": "2023-11-26T17:55:33.354Z",
   "version": 2,
   "code": "CA7C88A094DDABB0",
   "parts": [

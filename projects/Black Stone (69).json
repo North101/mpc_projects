@@ -7,7 +7,9 @@
   "artist": null,
   "info": null,
   "website": "http://arkhamcentral.com/index.php/the-black-stone/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
   "authors": [
     "Stephen Fazio"
   ],

@@ -7,7 +7,9 @@
   "artist": "Jason Juta",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/the-legend-of-sleepy-hollow/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
   "authors": [
     "The Beard"
   ],

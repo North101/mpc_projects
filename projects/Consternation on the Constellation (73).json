@@ -7,7 +7,9 @@
   "artist": "Ethan Patrick Harris",
   "info": null,
   "website": "https://mythosbusters.com/custom-scenarios/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
   "authors": [
     "Mythos Busters"
   ],

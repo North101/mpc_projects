@@ -7,7 +7,9 @@
   "artist": "Mokhtar Saber Abdo",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/06/21/jumanji-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 4,
+  "investigatorCount": 1,
   "authors": [
     "The Beard"
   ],

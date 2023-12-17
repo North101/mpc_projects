@@ -7,7 +7,9 @@
   "artist": "Tom Kidd",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2020/10/30/the-war-of-the-worlds-campaign/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 3,
+  "investigatorCount": 0,
   "authors": [
     "The Beard"
   ],

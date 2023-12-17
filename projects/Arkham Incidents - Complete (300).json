@@ -7,7 +7,9 @@
   "artist": "T. Jedruszek, J. Cairós, S. Winters, J.L. Johnson, A. Folny, C. Boyer",
   "info": null,
   "website": "https://mysteriouschanting.wordpress.com/2022/02/01/arkham-incidents/",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 5,
+  "investigatorCount": 0,
   "authors": [
     "The Beard"
   ],

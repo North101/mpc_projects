@@ -41,6 +41,10 @@
 
   .card-link {
     @include fancy-underline;
+
+    & + .card-link {
+      margin-left: 0;
+    }
   }
 
   .info-tooltip {

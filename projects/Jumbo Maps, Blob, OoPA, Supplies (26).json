@@ -1,5 +1,8 @@
 {
   "projectId": [
+    "0254E8520E944D5E020310AB23E557F9477CDDCF641D3E3137A65DA43EBF4286ECE869B7A036A884",
+    "FAB51EE24B752AC8CBAE52BF9FC00451800869FB582F72BC47485BCC02C0505A0DD7E64E5766D688",
+    "7F9E9474C41227D576444CE6095F4CEA55E17AA8203B20A191C72CC3B0698100E86C1E81FC220ABD",
     "141F0934306A1F6F45EB727391E3D4B204EE626176689EA0AE94550644624724EA451903BC1A38F1",
     "A727F130CE476BA254BE18B87B1B790F8A3E33371635224F1CFCCB3B599F2569C018703466A8DEFC",
     "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B",
@@ -10,7 +13,9 @@
   "artist": null,
   "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
-  "linktext": null,
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
   "authors": [
     "Antimarkovnikov"
   ],
@@ -22,7 +27,7 @@
   ],
   "lang": "English",
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-11-29T21:19:45.941Z",
+  "updated": "2023-12-17T10:01:45.941Z",
   "version": 2,
   "code": "3BDC5812E3F03AB4",
   "parts": [
@@ -70,7 +75,7 @@
         {
           "count": 1,
           "front": {
-            "Name": "03 TFA location map - The Jungle-a.jpg",
+            "Name": "03 TFA location map - The Jungle-a.png",
             "ID": "BAB7E0424BCDD0E769CD7CD19E275216",
             "SourceID": "D3B6DB7D3519F1FD96DDEB303BE219B8CEC0F5B4",
             "Exp": "png",
@@ -89,9 +94,9 @@
         {
           "count": 1,
           "front": {
-            "Name": "05 RtTFA location map - Eztli Ruins-a.png",
-            "ID": "27AF780569F00D34E140998384AAD0A5",
-            "SourceID": "E50847643B346FD8B8BBC759B9288127282CFAAF",
+            "Name": "04 TFA location map - Eztli Ruins-a.png",
+            "ID": "A236FD0EEB69728C923D2AD91BF40F4E",
+            "SourceID": "845897DAC00719F30C556366FA6584570936E08D",
             "Exp": "png",
             "Width": 1120,
             "Height": 1570
@@ -108,9 +113,9 @@
         {
           "count": 1,
           "front": {
-            "Name": "05 RtTFA location map - Eztli Ruins-a.jpg",
-            "ID": "BC9D322A6CCF085769D46DAF862F543B",
-            "SourceID": "846168FEC5822F09B3AFF1B040E72C05786C79F7",
+            "Name": "05 RtTFA location map - Eztli Ruins-a.png",
+            "ID": "D3669E10E87808260743B7CF1B2E10B6",
+            "SourceID": "1A9DF60FADEE13903438930621F4E4C1812B819F",
             "Exp": "png",
             "Width": 1120,
             "Height": 1570
@@ -127,9 +132,9 @@
         {
           "count": 1,
           "front": {
-            "Name": "06 TFA location map - Kn-yan-a.jpg",
-            "ID": "2CE1D2874882164C0204AAD3BFD146B4",
-            "SourceID": "27014245E46FE5F34E3E8CB92E24F8EA13556F04",
+            "Name": "06 TFA location map - Kn-yan-a.png",
+            "ID": "1FBEE9E339DBE4AB73CCBC8D9BD160EE",
+            "SourceID": "522F860C5637F82DD3112B2816B4158A02856FB7",
             "Exp": "png",
             "Width": 1120,
             "Height": 1570
@@ -146,9 +151,9 @@
         {
           "count": 1,
           "front": {
-            "Name": "07 TFA location map - Yoth-a.jpg",
-            "ID": "BDD7180D5C8D135663CB7E431A4AE338",
-            "SourceID": "23F603DD105D12EAED884B315388840BA70805E7",
+            "Name": "07 TFA location map - Yoth-a.png",
+            "ID": "4C3DA533CE4680EA0D0A0C47143271DB",
+            "SourceID": "FD8E3EF9E58AF3433EF60A2F4E6F844DEEE2EB1D",
             "Exp": "png",
             "Width": 1120,
             "Height": 1570
@@ -166,7 +171,7 @@
           "count": 1,
           "front": {
             "Name": "08 GotA location map - Egypt-a.png",
-            "ID": "25412453A2590CE6DE0B8C7E8DCA5EFA",
+            "ID": "F317CCD41A885733B0396A5739783299",
             "SourceID": "E23DA583F2D4858C673256EDCD5DA884A82A6C3A",
             "Exp": "png",
             "Width": 1120,
@@ -174,7 +179,7 @@
           },
           "back": {
             "Name": "08 GotA location map - Egypt-b.png",
-            "ID": "8C4953D525AACB7910FF841FFE574ADE",
+            "ID": "4BAED83195C605321E1B3AE3EF27F59E",
             "SourceID": "1781CE62E725DCEE3F0C9684DAD496FC216D2758",
             "Exp": "png",
             "Width": 1120,

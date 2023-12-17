@@ -27,7 +27,7 @@
     "website": {
       "type": ["string", "null"]
     },
-    "linktext": {
+    "cardsLink": {
       "type": ["string", "null"]
     },
     "authors": {
