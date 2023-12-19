@@ -1,7 +1,60 @@
+<html lang="en">
+  <head>
+    <title>Set MPC Cookie</title>
+    <style>
+      body {
+        padding: 40px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1em;
+      }
+      label {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      #cookie {
+        width: 100%;
+        margin: 0.5em 0;
+        padding: 8px;
+      }
+      input[type="submit"] {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding: 0.5rem 1rem;
+      }
+      .instructions {
+        margin-top: 3rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      code {
+        display: inline-block;
+        padding: 0.75rem;
+        background-color: aliceblue;
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
 <form action="/set_cookie" method="POST">
   <input type="hidden" name="code" value="<%= code %>"/>
   <label for="cookie">Cookie:</label><br>
-  <input type="text" name="cookie" name="cookie">
+  <input type="text" id="cookie">
   <br/>
   <input type="submit" value="Submit">
 </form>
+<div class="instructions">
+  <h3>To get the cookie:</h3>
+  <ol>
+    <li>Log into the Arkham Horror Homebrew MPC account.</li>
+    <li>Go to the Saved Projects page.</li>
+    <li>Open developer tools in your browser and go to the Console tab.</li>
+    <li>Paste the following code into the console:<br />
+      <code>Object.fromEntries(document.cookie.split("; ").map(v => v.split('=',2))).PrinterStudioCookie</code>
+    </li>
+    <li>Copy the cookie from the console (excluding the quotation marks).</li>
+    <li>Paste the cookie into the input above and submit.</li>
+    <li>Thank you for fighting the good fight to keep homebrew printing available!</li>
+  </ol>
+</div>
+</html>
