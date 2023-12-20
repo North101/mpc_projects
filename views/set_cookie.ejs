@@ -92,35 +92,32 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
   <script>
-    const copyButtonLabel = "Copy Code";
+    const copyButtonLabel = "Copy Code"
+    const copiedButtonLabel = "Code Copied"
 
-    // use a class selector if available
-    const blocks = document.querySelectorAll("pre");
-    blocks.forEach(block => {
-      // only add button if browser supports Clipboard API
-      if (navigator.clipboard) {
-        let button = document.createElement("button");
-
-        button.innerText = copyButtonLabel;
-        block.appendChild(button);
-
-        button.addEventListener("click", async () => {
-          await copyCode(block, button);
-        });
-      }
-    });
+    function addButton() {
+      const blocks = document.querySelectorAll("pre")
+      blocks.forEach(block => {
+        const button = document.createElement("button")
+        button.innerText = copyButtonLabel
+        button.addEventListener("click", () => copyCode(block, button))
+        block.appendChild(button)
+      })
+    }
 
     async function copyCode(block, button) {
-      let code = block.querySelector("code");
-      let text = code.innerText;
+      const code = block.querySelector("code")
+      await navigator.clipboard.writeText(code.innerText)
 
-      await navigator.clipboard.writeText(text);
-
-      button.innerText = "Code Copied";
-
+      button.innerText = copiedButtonLabel
       setTimeout(() => {
-        button.innerText = copyButtonLabel;
-      }, 700);
+        button.innerText = copyButtonLabel
+      }, 700)
+    }
+
+    // only add button if browser supports Clipboard API
+    if (navigator.clipboard) {
+      addButton()
     }
   </script>
 </body>
