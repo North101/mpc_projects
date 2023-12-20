@@ -1,62 +1,129 @@
 <html lang="en">
-  <head>
-    <title>Set MPC Cookie</title>
-    <style>
-      body {
-        padding: 40px;
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 1em;
+
+<head>
+  <title>Set MPC Cookie</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism-tomorrow.min.css">
+
+  <style>
+    body {
+      padding: 40px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1em;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    #cookie {
+      width: 100%;
+      margin: 0.5em 0;
+      padding: 8px;
+    }
+
+    input[type="submit"] {
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      padding: 0.5rem 1rem;
+    }
+
+    .instructions {
+      margin-top: 3rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    pre[class*="language-"] {
+      position: relative;
+      overflow: auto;
+
+      /* make space  */
+      border-radius: 10px;
+    }
+
+    pre[class*="language-"] button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+
+      font-size: 0.9rem;
+      padding: 0.15rem;
+      background-color: #828282;
+
+      border: ridge 1px #7b7b7c;
+      border-radius: 5px;
+      text-shadow: #c4c4c4 0 0 2px;
+    }
+
+    pre[class*="language-"] button:hover {
+      cursor: pointer;
+      background-color: #bcbabb;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/set_cookie" method="POST">
+    <input type="hidden" name="code" value="<%= code %>" />
+    <label for="cookie">Cookie:</label><br>
+    <input type="text" id="cookie">
+    <br />
+    <input type="submit" value="Submit">
+  </form>
+  <div class="instructions">
+    <h3>To get the cookie:</h3>
+    <ol>
+      <li>Log into the Arkham Horror Homebrew MPC account.</li>
+      <li>Go to the Saved Projects page.</li>
+      <li>Open developer tools in your browser and go to the Console tab.</li>
+      <li>Paste the following code into the console:<br />
+        <pre>
+<code class="language-javascript">copy(Object.fromEntries(document.cookie.split("; ").map(v => v.split('=',2))).PrinterStudioCookie)</code>
+          </pre>
+      </li>
+      <li>This will copy the cookie to your clipboard.</li>
+      <li>Paste the cookie into the input above and submit.</li>
+      <li>Thank you for fighting the good fight to keep homebrew printing available!</li>
+    </ol>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+  <script>
+    const copyButtonLabel = "Copy Code";
+
+    // use a class selector if available
+    const blocks = document.querySelectorAll("pre");
+    blocks.forEach(block => {
+      // only add button if browser supports Clipboard API
+      if (navigator.clipboard) {
+        let button = document.createElement("button");
+
+        button.innerText = copyButtonLabel;
+        block.appendChild(button);
+
+        button.addEventListener("click", async () => {
+          await copyCode(block, button);
+        });
       }
-      label {
-        font-weight: bold;
-        font-size: 1.1em;
-      }
-      #cookie {
-        width: 100%;
-        margin: 0.5em 0;
-        padding: 8px;
-      }
-      input[type="submit"] {
-        text-transform: uppercase;
-        font-size: 1rem;
-        letter-spacing: 1px;
-        padding: 0.5rem 1rem;
-      }
-      .instructions {
-        margin-top: 3rem;
-      }
-      li {
-        margin-bottom: 0.5rem;
-      }
-      code {
-        display: inline-block;
-        padding: 0.75rem;
-        background-color: aliceblue;
-        margin-top: 0.5rem;
-      }
-    </style>
-  </head>
-  <body>
-    <form action="/set_cookie" method="POST">
-      <input type="hidden" name="code" value="<%= code %>"/>
-      <label for="cookie">Cookie:</label><br>
-      <input type="text" id="cookie">
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
-    <div class="instructions">
-      <h3>To get the cookie:</h3>
-      <ol>
-        <li>Log into the Arkham Horror Homebrew MPC account.</li>
-        <li>Go to the Saved Projects page.</li>
-        <li>Open developer tools in your browser and go to the Console tab.</li>
-        <li>Paste the following code into the console:<br />
-          <code>Object.fromEntries(document.cookie.split("; ").map(v => v.split('=',2))).PrinterStudioCookie</code>
-        </li>
-        <li>Copy the cookie from the console (excluding the quotation marks).</li>
-        <li>Paste the cookie into the input above and submit.</li>
-        <li>Thank you for fighting the good fight to keep homebrew printing available!</li>
-      </ol>
-    </div>
-  </body>
+    });
+
+    async function copyCode(block, button) {
+      let code = block.querySelector("code");
+      let text = code.innerText;
+
+      await navigator.clipboard.writeText(text);
+
+      button.innerText = "Code Copied";
+
+      setTimeout(() => {
+        button.innerText = copyButtonLabel;
+      }, 700);
+    }
+  </script>
+</body>
+
 </html>
