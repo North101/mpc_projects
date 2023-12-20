@@ -180,7 +180,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
     const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
-    const hasSomeLangs = !filteredLangs.length || e.lang == null || filteredLangs.includes(e.lang)
+    const hasSomeLangs = !filteredLangs.length || filteredLangs.includes(e.lang)
     {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/ }
     return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeLangs
   }).toSorted(sorts[sort])

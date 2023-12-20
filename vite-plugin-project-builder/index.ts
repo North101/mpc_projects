@@ -75,7 +75,8 @@ const parseProject = (project: ProjectUnionMeta): ProjectLatestMeta | null => {
 }
 
 const getProjectImage = async (filename: string) => {
-  const filenameInfo = path.parse(filename)
+  const imageFilename = filename.split(' (')[0]
+  const filenameInfo = path.parse(imageFilename)
   const image = path.format({
     ...filenameInfo,
     dir: resolve('public/projects/'),
@@ -104,6 +105,8 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
     project.code,
     project.parts,
   ])
+  // change updated const to run build without updating date
+  //const updated = project.updated
   const updated = hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,

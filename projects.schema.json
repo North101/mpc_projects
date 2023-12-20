@@ -49,7 +49,7 @@
       }
     },
     "lang": {
-      "type": ["string", "null"]
+      "type": "string"
     },
     "created": {
       "type": "string"
@@ -158,6 +158,7 @@
     "authors",
     "statuses",
     "tags",
+    "lang",
     "created",
     "updated",
     "version",

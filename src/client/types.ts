@@ -48,7 +48,7 @@ export interface ProjectMeta {
   authors: string[]
   statuses: string[]
   tags: string[]
-  lang?: string | null
+  lang: string
   created: string
   updated: string
   hash: string

@@ -34,7 +34,7 @@ interface ProjectStatusProps {
 }
 
 export const ProjectStatuses = ({ statuses }: ProjectStatusProps) => (
-  <Stack direction='horizontal' gap={1}>
+  <Stack direction='horizontal' gap={1} className='status-pills'>
     {statuses.map(e =>
       <ProjectStatus key={e} status={e} />
     )}
