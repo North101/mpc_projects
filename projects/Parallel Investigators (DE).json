@@ -1,0 +1,1311 @@
+{
+  "projectId": [
+    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7"
+  ],
+  "name": "Parallel-Ermittler und Challenge-Szenarios",
+  "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators.",
+  "artist": "Magali Villeneuve",
+  "info": null,
+  "website": "https://www.fantasyflightgames.com/en/news/2020/5/5/beyond-our-dimension/",
+  "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 8,
+  "authors": [
+    "Fantasy Flight Games"
+  ],
+  "statuses": [
+    "Ongoing",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)",
+    "Standalone",
+    "Rework"
+  ],
+  "lang": "Deutsch",
+  "created": "2020-05-05T04:45:26.681Z",
+  "updated": "2023-12-20T15:16:08.848Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Parallel-Ermittler ",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Roland Banks-de-a.png",
+            "ID": "655D80C2A2FAC76B2439E43E2F4305DE",
+            "SourceID": "BF7A6EDF742160191B62ED9F35F162065F7F1F80",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Roland Banks-de-b.png",
+            "ID": "0497F86D2B3B70FE3B74E63F1CB699D0",
+            "SourceID": "B843094B91E6A060D2AB91EE8CDE5FBA503274AA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Roland Banks-de-a.png",
+            "ID": "83D81869C746E2A50BBD38444AE2FC4B",
+            "SourceID": "517931113B99EB9F324B5A433A4905FAFB037C99",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Roland Banks-de-b.png",
+            "ID": "D8BA192C2B9301488A80703591FE4939",
+            "SourceID": "8DDAB3C50A809F8DC9764A2416E5548B65A8240D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Roland Banks-de-a.png",
+            "ID": "E2CD0DCB7E86A82DC24BB68EDCC0EE71",
+            "SourceID": "A91C0F117AB5F99F1EA060FE4BB8A2B9F37A2E12",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Roland Banks-de-b.png",
+            "ID": "348CE739FD55DF85A84D31DA92B475CF",
+            "SourceID": "CDE922A4AF536569D65D68C94FF36D246DEB1CC7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Parallel Roland Banks-de-a.png",
+            "ID": "BAD7C2BA53EB45F066CC0FDFAFF892D2",
+            "SourceID": "2E32AF16D62000C9C9C57578534E352B0D8B36A0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Parallel Roland Banks-de-b.png",
+            "ID": "4BFB258F33B92B59482A53A7A51B3966",
+            "SourceID": "1620F480A63E61888EF2E61E66E5F00CF54D6455",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Parallel Roland Banks-de-a.png",
+            "ID": "CB841F9654266A60803E2A14228B6E15",
+            "SourceID": "AF92501ED3B8E8FD51C886A7440795434F92DF8D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Parallel Roland Banks-de-b.png",
+            "ID": "22E9C2586087D062D5F73BC7A13C9FB9",
+            "SourceID": "5F3A55DD444E0EEF1B5E266861C4840D91BB4D72",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Parallel Roland Banks-de-a.png",
+            "ID": "7D580B1CB1A0B4130BB68DF1AEB791FE",
+            "SourceID": "EC416F22ED82F3983985E7DD5ABB437C6DBB1047",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Parallel Roland Banks-de-b.png",
+            "ID": "2C736C65E606D82AD4CE58F07A668F87",
+            "SourceID": "05338FA8F25F0D67DC4D6B6AAE1F99DD3460C736",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Parallel Roland Banks-de-a.png",
+            "ID": "D2966608662A77C8A5B23601E8F92555",
+            "SourceID": "0859303FB397A3EB716B780369479F04968EB043",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07-Parallel Roland Banks-de-b.png",
+            "ID": "3DA672A5780EA62D37EC09CEA2514181",
+            "SourceID": "41225219124D101C5118A8AB0899069524563648",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08-Parallel Roland Banks-de-a.png",
+            "ID": "AEAAB1EF7C9E636F00961E338C371786",
+            "SourceID": "A9B0C4F82FCBB4D0C114F3639BAD308022797E9E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "08-Parallel Roland Banks-de-b.png",
+            "ID": "52B58011565C60F2976D0E0362DA6209",
+            "SourceID": "77D94ED07E7DFF746E390CB415FFB960FA472B70",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09-Streng nach Vorschrift-de-a.png",
+            "ID": "7B63CA83B2A99BDD2C156881FAB5F3E4",
+            "SourceID": "E0407B81C04C9C81469A95F17B75633F0BF42323",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "09-Streng nach Vorschrift-de-b.png",
+            "ID": "91DB90CE8E39C80A7B3C63C570118397",
+            "SourceID": "87B4BCEBA1CEB66AA0ABB95EA9050D6864FD6C19",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10-Streng nach Vorschrift-de-a.png",
+            "ID": "73CC618D5A0760A55AF7D4125EC06F7E",
+            "SourceID": "D109ED343FAD20F4A990ADAD3AB97F402CC8947C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "10-Streng nach Vorschrift-de-b.png",
+            "ID": "09C541DFAABE77F032C66DF68E57D45E",
+            "SourceID": "3C09A638E81237D0762D79A0EA5F056291965761",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11-Streng nach Vorschrift-de-a.png",
+            "ID": "AC72AECF01E5A43244DDD9A96F2C9A74",
+            "SourceID": "79FB66A7E19FB364BBAAA261830F81E341D98F58",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "11-Streng nach Vorschrift-de-b.png",
+            "ID": "CC3A4400CD53FEC8B019BC3522A1D1B9",
+            "SourceID": "486E9BA697C443E5888D289F335EBDBA78171AEA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "12-Streng nach Vorschrift-de-a.png",
+            "ID": "F8742F25A2BF69F3766F5E963807F9DB",
+            "SourceID": "8E1B0699A107BED24B195AA0E3AB7DAF915F1EE7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "12-Streng nach Vorschrift-de-b.png",
+            "ID": "632A36DA49438164EB25C847E8C0CC2F",
+            "SourceID": "0AA18AA3B8AE010BD96983F8E5E1B4CC0A4CA6CC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "13-Streng nach Vorschrift-de-a.png",
+            "ID": "BFD2FF8B9451109C9DDFF9A2428BA110",
+            "SourceID": "46F66B69D4B174A4C49146E035660B99BA63CC72",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "13-Streng nach Vorschrift-de-b.png",
+            "ID": "6CFEFC47EB89529658206E2EFB67CD06",
+            "SourceID": "4CB49644133121FE4EC810C32C661839892AD07E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Daisy Walker-de-a.png",
+            "ID": "6E829E5C2E0FFB0592785C26F39C9C19",
+            "SourceID": "268001485D9818E4893FF7B1954036F64DB9EBFE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Daisy Walker-de-b.png",
+            "ID": "DD3080F8578D60E673F20981293C33C6",
+            "SourceID": "8576E319EF05655973958C12FFAABA39676B50EA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Daisy Walker-de-a.png",
+            "ID": "7822077A6678D9A5EB2ED89798F4272E",
+            "SourceID": "F24C3C4C89226A78BC8C3174EF259AD90D59D7B0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Daisy Walker-de-b.png",
+            "ID": "17EB6EA676B45348B80A00077D94A562",
+            "SourceID": "A98D3161F7DF649BC1CF376E8EBD7D000C79ACBD",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Daisy Walker-de-a.png",
+            "ID": "C85BF33338C684845490247CBAE5EB1C",
+            "SourceID": "A0BD7821944EBAE8126F6CBD19A8E71D3F1459BD",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Daisy Walker-de-b.png",
+            "ID": "F24EE460B87B67DC229105485540A712",
+            "SourceID": "001AC737AFD82583587BF15749BF8C175D695A63",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Lies oder Stirb-de-a.png",
+            "ID": "13BA9C827EBB26BF44C4B37CC33A6796",
+            "SourceID": "FC8ADB88D4A6178D63325F13B1F1FA7243E17681",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Lies oder Stirb-de-b.png",
+            "ID": "1947D1ED4A36386AB9FC9DFE681433F8",
+            "SourceID": "E94892847CF3AB0D2E3AA5876135C9EEF1D54562",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Lies oder Stirb-de-a.png",
+            "ID": "CF9784410834CC65850542E1E6E323C1",
+            "SourceID": "7B573BAF7663CF95FD0C1C19658F3D44C39552B8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Lies oder Stirb-de-b.png",
+            "ID": "9B063BD3F802D2471D00CD674FB623F4",
+            "SourceID": "6CCD9EB7B1BEC352510E59143C32833AF71EBB2E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Lies oder Stirb-de-a.png",
+            "ID": "8710A8C7547E83D76D7BBBC2C296E5C4",
+            "SourceID": "FBACC9356A7F3C980290610641CAD32928FCAB4F",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Lies oder Stirb-de-b.png",
+            "ID": "618FA6A95D4D550647A5948CE8A1CC1C",
+            "SourceID": "6FB0BAD8B6FF6E9A6CCC1E3D43FC49979148BC4A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Lies oder Stirb-de-a.png",
+            "ID": "A5D16ADBA4774792E753CA19A31F9B7E",
+            "SourceID": "548B20C3C02C74788AC7774B0511D7E6DAD4F3E1",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Skids O_Toole-de-a.png",
+            "ID": "FC3752761B618560516758A7DD206620",
+            "SourceID": "89AA8822588EA9BA601BFE086FD4198F20A84F24",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Skids O_Toole-de-b.png",
+            "ID": "03E94ABBF4F317FC2CE191E6859F0EA9",
+            "SourceID": "6C1742474A881F1D6E8BA2A67429FD8D0247AFCB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Skids O_Toole-de-a.png",
+            "ID": "80726AB6E37C3DA1A005B8FBFA182F18",
+            "SourceID": "B829A61D5F3F1AC6BD478E9E8AF6F7D1DBC5B746",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Skids O_Toole-de-b.png",
+            "ID": "3A04693EF85731C479C87B06E92C46EA",
+            "SourceID": "A5DD44033DD260DFBE06904543B2E9581A7641EE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Skids O_Toole-de-a.png",
+            "ID": "F29B5F5F14216E6ED328E2383AF45B03",
+            "SourceID": "221696A8FA3E71606EA495FE2088D38383F556C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Skids O_Toole-de-b.png",
+            "ID": "E7606F0AA1AB9089DD2766EB98506B52",
+            "SourceID": "4390A27633F9A53255458DC75747CF54BB025A41",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Alles oder Nichts-de-a.png",
+            "ID": "78CC1C97EACF0C1E1876DB6BA3BBC2E5",
+            "SourceID": "6DF3BAE90BECEA1681C3AFD1C02E6A910E3D7C9E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Alles oder Nichts-de-b.png",
+            "ID": "E268394019F1D687BF97DAD47D11AC19",
+            "SourceID": "9DC45BCC45FC45BB2EF656D5B9FAB912EB1E7267",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Alles oder Nichts-de-a.png",
+            "ID": "A54D9094A801885B6EA6006D92BD3760",
+            "SourceID": "57CCBF126A84737AA3DB79ECF88D968E3C01FA37",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Alles oder Nichts-de-b.png",
+            "ID": "5F888825AE5D7DFCD55B901F419DC375",
+            "SourceID": "8C92F6AB68E73FF5E9E55683A62AA36FBBC6B68C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Alles oder Nichts-de-a.png",
+            "ID": "F0290C488E6A97A032D0C80A49590CC9",
+            "SourceID": "C6CEF490599D0BAC9FBE8156A1FF8514419FD02C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Alles oder Nichts-de-b.png",
+            "ID": "74A07CA3C7B84AAAD7137CC68DD9CFFF",
+            "SourceID": "2F234F8581E40A0C507BBF6D3FBE8DB494279433",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Alles oder Nichts-de-a.png",
+            "ID": "E93E33F9435D85EEDAF65B35D56835A1",
+            "SourceID": "EE0BE25D6D046561BD7BB4E16AF14D5D3A1C882D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07-Alles oder Nichts-de-b.png",
+            "ID": "B4D9F58D4DC51185FD0B6EA74790E9F3",
+            "SourceID": "594814701C52529119DB90E767B9715D96B30FB2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08-Alles oder Nichts-de-a.png",
+            "ID": "EBB2761A432EAA7112F23AAD1A0793E5",
+            "SourceID": "401C3CA902D186058897B701CFA4C16F0151AC4E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09-Alles oder Nichts-de-a.png",
+            "ID": "04164BED6CA4F1DE0B66F763F802DB8E",
+            "SourceID": "1BB648E98F6DA76DC40EAB0DC0FC88F5B67722C9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10-Alles oder Nichts-de-a.png",
+            "ID": "C3C31B33D71F3514943D670993AB36E2",
+            "SourceID": "13B73DDD9B941631901B6FD26B011CD1138A6001",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11-Alles oder Nichts-de-a.png",
+            "ID": "8F27176241B885D8E5EE87330EB35483",
+            "SourceID": "F542F3C2F8C1DA207AD7540042749D5F6B0D024D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "12-Alles oder Nichts-de-a.png",
+            "ID": "888A538938B5B6E46EF5F36EAAF294F5",
+            "SourceID": "09EFE0238B0BE62D1029A1CFBFA2E18B53672219",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Agnes Baker-de-a.png",
+            "ID": "F4651703AA13A59247A8C1C03824E003",
+            "SourceID": "9E2BD1D71F6FEB7E0DCF19BFF5B92CC6BA38241B",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Agnes Baker-de-b.png",
+            "ID": "CFF5AC0A3400E7C4459B2342AB1E0EE3",
+            "SourceID": "C1E2C4943D977CC6BF903D727C02DB9854974AAC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Agnes Baker-de-a.png",
+            "ID": "0524362C7CB4CA8EA24BBDCD5E4AE93E",
+            "SourceID": "1100489D32E6F5A30F9C07B648E633E25022AFF4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Agnes Baker-de-b.png",
+            "ID": "8AF15D3DFBB272193617A2B099B73E48",
+            "SourceID": "A704E62E387FF2F4878549D9A2C048A768586D31",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Agnes Baker-de-a.png",
+            "ID": "8714823F5C5BED7BE21C940C4298D12A",
+            "SourceID": "E2CB95BE57985C80B5732843813A9E54F344F6FB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Agnes Baker-de-b.png",
+            "ID": "C3A8EAE7ED899C29FCD90C01115E983F",
+            "SourceID": "12A46BC085A0F65417331DDE4A62F59D1F018CC6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Böses Blut-de-a.png",
+            "ID": "09B17D835E05FB2C485DF5F12AEC5388",
+            "SourceID": "2290C5DD7DD2ECCDAC543B7EE02C971872DE69DA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Böses Blut-de-b.png",
+            "ID": "5EDACE45F5104D0BBF456BDE3758463B",
+            "SourceID": "EA3D8CBE0BB4C53043606E2C451E35C326980D7C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Böses Blut-de-a.png",
+            "ID": "87406BD5A47F304479B82D2D441C6FB9",
+            "SourceID": "300F2D21B2C3119031559F4994E577586AAB78F6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Böses Blut-de-b.png",
+            "ID": "6670B2EEFDEF6C487A2EBE5B84CEF938",
+            "SourceID": "82B106837C9037875194F40FA9C58C60E5D790A7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Böses Blut-de-a.png",
+            "ID": "3E3BEA4696124EE827CFB3EF43AB4E70",
+            "SourceID": "A132AEAE6043FDC8E5065824399CDDA48A102C87",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Böses Blut-de-b.png",
+            "ID": "B8014F4B388E154ED36D8E63338A2B1F",
+            "SourceID": "CA362B7EF74E8AB8C11E660EA8CF0931C0599FAC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Böses Blut-de-a.png",
+            "ID": "76959B66FB330B80D96EA902A919789F",
+            "SourceID": "6047AF9F6D0225A2E0AB19B5E5DEAA5E44E667E2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07-Böses Blut-de-b.png",
+            "ID": "6CE1F068EEB20B5C1CCF62CEE864173F",
+            "SourceID": "3E5A1E92295DA243639FA30FCF4207E900DA4715",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Wendy Adams-de-a.png",
+            "ID": "C993A2ABA3FF8C8D44921D9C882FDA96",
+            "SourceID": "4DD1BD79980A1E77E44E88FFC76746B98EF70469",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Wendy Adams-de-b.png",
+            "ID": "5BEAE81AB51A27EB5CB3BC6AF491C058",
+            "SourceID": "BF1835BDF059E32B5A2674B7A3FECA47CB4B8BD5",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Wendy Adams-de-a.png",
+            "ID": "1F1A23FE8B7AF202EB39851BFB06AA34",
+            "SourceID": "4B91719BC550D0AA97CEFCFFA5FFCE0DAD1A64E2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Wendy Adams-de-b.png",
+            "ID": "7A9DF7DF4F70A4525338068778C29A3F",
+            "SourceID": "E02EBF8ADBFAD5A4EDA0B19C46386FFC82E8F9D6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Wendy Adams-de-a.png",
+            "ID": "FDE36C262610CD3DD68403023220CFD6",
+            "SourceID": "210247A0873BA531FCC6BB16BEEB33C8605F6F57",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Wendy Adams-de-b.png",
+            "ID": "D681E446FF0732D09B10DE305DF0A06E",
+            "SourceID": "3BCC07BC7968B716E4E68D102E44956FB51BA9A2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Parallel Wendy Adams-de-a.png",
+            "ID": "B499376BF6AA116F1C46A977A22A1346",
+            "SourceID": "947DA9EEDFBEC677C28D1403A6FD8E7DBAE13299",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Parallel Wendy Adams-de-b.png",
+            "ID": "C84E7BCA6A9D4F1CD58A36D7C033494A",
+            "SourceID": "008F1239D42CA8EA5E5DCCE442A3E716B5893F2C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Die Rote Flut-de-a.png",
+            "ID": "C5DB939D6DFF146EBAF58220262A9787",
+            "SourceID": "C7A954771081DCA106E7007A6E2CD6333640CBC8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Die Rote Flut-de-b.png",
+            "ID": "29DB70AB9B020AA1828375EB45B9F4FE",
+            "SourceID": "EB697AD4561FE65E588849E3EEEED6D211FEBEEE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Die Rote Flut-de-a.png",
+            "ID": "1679E32DECB727D31FB73112C300BC1E",
+            "SourceID": "DD0A1E471BAA1CD985540A8E493093B92E7E7232",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Die Rote Flut-de-b.png",
+            "ID": "FA7C4A5216FC8A938E88C3E4353254D5",
+            "SourceID": "673E7CD3942B0538C81CD81883EB3923A30544B9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Die Rote Flut-de-a.png",
+            "ID": "0E6A6FCF6FD6526BBE68FE2E31C3529B",
+            "SourceID": "B9829919CBE56BAA8DEF8FC6C5BB0407722D2C46",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07-Die Rote Flut-de-b.png",
+            "ID": "B3197D1E519C26F0BB202554385E0BC1",
+            "SourceID": "E15D66FDA65EF846C2413F0777F7FD935777F289",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08-Die Rote Flut-de-a.png",
+            "ID": "7A620ECFDF2C27B22F353CAFCB522AD2",
+            "SourceID": "7D3756FED72D63D658BCCD9A7E727D3D218CE5B0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "08-Die Rote Flut-de-b.png",
+            "ID": "49D2F2EAE8686D512285E60F7FF97682",
+            "SourceID": "A12880E9862537C790AC890E7908392160ED9AB0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09-Die Rote Flut-de-a.png",
+            "ID": "B2B5E300D890EDD6FD6EE5CB52F715BE",
+            "SourceID": "CE62CB99D6EF1A2B6B093DCD4352FEC38B43315F",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "09-Die Rote Flut-de-b.png",
+            "ID": "2043B1DBC62279E343D7160A00BF9BDD",
+            "SourceID": "0FFB8A771A45ABDE1859A95ACDC8FCCC65045C69",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Zoey Samaras-de-a.png",
+            "ID": "1C80A9488873BE17E91C3F3E1BFF52E8",
+            "SourceID": "D9906C5435EEC21A4A47B0CEEB0C596111AE72E9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Zoey Samaras-de-b.png",
+            "ID": "82991C9D2DDB9F17F0CD8FB404E32533",
+            "SourceID": "DDB4738DE4CC60FA6BDB4E74A1DE10C8A7E9CA48",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Zoey Samaras-de-a.png",
+            "ID": "940C4C2A36E0B9F6B16EED9BD310D038",
+            "SourceID": "52B39926365E643B6B2669579ED12920A397585D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Zoey Samaras-de-b.png",
+            "ID": "8113C5E89B3894C21BB8DB9EA6D946AE",
+            "SourceID": "1A84369A9BB84873B89D3E7614A6FC7044B3BBB8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Zoey Samaras-de-a.png",
+            "ID": "B13F26FD974567360E7CF31AC5B909A3",
+            "SourceID": "8953D151479989D5CF320298738E140F2EBB4B4B",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Zoey Samaras-de-b.png",
+            "ID": "134112691E2FA2B8908F7B5071E76862",
+            "SourceID": "4967CFCD6AFFFB626926AC421825AD7B950EC7DC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Jim Culver-de-a.png",
+            "ID": "5F935B7A5C84E6E2705547F3B024F8FA",
+            "SourceID": "A6B74F15EFF2388EE8B54AC2DFDCF9CF344668F6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Jim Culver-de-b.png",
+            "ID": "0635C2F1D7C4015A1EAC05400EBEC4F0",
+            "SourceID": "01D1D5B2BEF83284D7153A8B58B1C7B588576A01",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Jim Culver-de-a.png",
+            "ID": "1D7C9A2B0469D26BCB22EFE27202B58B",
+            "SourceID": "46BF350F1A1305D3A69A609A5B3D4BAF7B5BE966",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Jim Culver-de-b.png",
+            "ID": "17429CA91CE827F16941A399F6C0B746",
+            "SourceID": "3674523A0A8E4CFB7EE6912B454597FE9E08B17E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Jim Culver-de-a.png",
+            "ID": "4176756F5989CE97C3D3FA972D1178F8",
+            "SourceID": "981A526C9FAE91B71DDFAF2AD80348B8B2E836BF",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Jim Culver-de-b.png",
+            "ID": "FF17740DA43BA14B8BB51AFE9AFF95B0",
+            "SourceID": "6AF46F8860273887F24187B67E63B616ECCB6323",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04-Parallel Jim Culver-de-a.png",
+            "ID": "6026B82C857B98BD505B7AB5D179B458",
+            "SourceID": "418DB66552B8C4D172F3B11E39A8E3F600DEA928",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04-Parallel Jim Culver-de-b.png",
+            "ID": "E229B682147440AB355C020F894AAFBB",
+            "SourceID": "7DC696BF5616ACFF61C68FF4E808358F210EE44E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05-Parallel Jim Culver-de-a.png",
+            "ID": "CFF9592C78A533319520038DF24A6134",
+            "SourceID": "264E37DB42AFE2A1DC27B07A76FA926132DC8E35",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05-Parallel Jim Culver-de-b.png",
+            "ID": "C51A677DF98F52C1EF10BA13F97D4381",
+            "SourceID": "C2842D4424091C65FD0EA9E9B5C56BC4D6993295",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06-Zur Ruhe gebettet-de-a.png",
+            "ID": "807CE861C402069AA9BD28B2DB44E901",
+            "SourceID": "FF8C7B2A3B2BBA59C5E1D03A3F0ABD2D60D615A5",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06-Zur Ruhe gebettet-de-b.png",
+            "ID": "7881822D36EFE3F71A4BBFBB9F2B41CD",
+            "SourceID": "E1555C2D1B1322599FE3B4B9AFE2FDACBEB100A1",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07-Zur Ruhe gebettet-de-a.png",
+            "ID": "A4603257D0160FEF5E513AE9369FC0E2",
+            "SourceID": "985CDB23F23C30420C406604018DEB2E4884AF7E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07-Zur Ruhe gebettet-de-b.png",
+            "ID": "238549A329E7944C1A3C7B5A376B98B3",
+            "SourceID": "B07AADAA2314D7342A2049BF63B7320CC6BBF5A8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08-Zur Ruhe gebettet-de-a.png",
+            "ID": "29CB875B85EFF109FA587AB078BF98E6",
+            "SourceID": "463CE7DE5C11870080B3440D04CC5A4E73AB45A2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "08-Zur Ruhe gebettet-de-b.png",
+            "ID": "210D3DE5F7476D430B093E22CC5B20AA",
+            "SourceID": "9B4A974E2CCD1F533F792820BD862E9EA159FA93",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09-Zur Ruhe gebettet-de-a.png",
+            "ID": "B9C386769E7E85ED4DBCEDE7CE4C3AE7",
+            "SourceID": "96BBF6051014A7DD15FA522C4D04062982ED1A2B",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "09-Zur Ruhe gebettet-de-b.png",
+            "ID": "73E27958E2D5EF5E572ED985ABED41E1",
+            "SourceID": "1263188DB4F319B852D4EC0D78419936A40DC344",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10-Zur Ruhe gebettet-de-a.png",
+            "ID": "5A1704DDDC72FAE9E890BC5C8B21AD5F",
+            "SourceID": "935A9405B92DDCCAD7862778D601A28B8524FDC6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11-Zur Ruhe gebettet-de-a.png",
+            "ID": "DA386449767F4F9A1E60731E994E232F",
+            "SourceID": "8AE337995DC0DF944E299FAECCF9150D1085ECD2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "12-Zur Ruhe gebettet-de-a.png",
+            "ID": "94DFCB8B164C99950CEFE73A34FA20EC",
+            "SourceID": "ED3CF15A31370F613D400E2A51C4D9D774931AC0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "13-Zur Ruhe gebettet-de-a.png",
+            "ID": "6533085E235C18BBE3B7D80824BBA525",
+            "SourceID": "0AA620BE2C67775CE79AD53F50A7A4649D01ACAB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "558088E7F0B658FFE0772A9189492307",
+            "SourceID": "43441092CC6543A26D8956875D3AA3CA3815C4C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01-Parallel Ashcan Pete-de-a.png",
+            "ID": "EA70FF751085BD571AADF3E736D267B4",
+            "SourceID": "AEA7041134306EF77AFC39EE0EC5B8ACFAF53E00",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01-Parallel Ashcan Pete-de-b.png",
+            "ID": "CAAE4DE064638DC0197FD28CE081B101",
+            "SourceID": "21DBB85E98D2AF51EB34F8B52461431A45162230",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02-Parallel Ashcan Pete-de-a.png",
+            "ID": "2F54F77E4A0E6021DC011A0C681DDA82",
+            "SourceID": "054780A861BF4159392058E6B10EDDF0CF2954D4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02-Parallel Ashcan Pete-de-b.png",
+            "ID": "5C088F140A6987AAEF17006621F76F05",
+            "SourceID": "53319B640DCE28154E6320DABC068EFD9B3FC8A9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Parallel Ashcan Pete-de-a.png",
+            "ID": "EEC6D2C3F491947349F8DCE41E35E0F8",
+            "SourceID": "29444DB42C5DE7529899B34C562191B5DE7CCEA9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03-Parallel Ashcan Pete-de-b.png",
+            "ID": "8BB9FCB66E6D68BB9A05B0813A959638",
+            "SourceID": "907C02F7F435A7CA142EAC0A39359D4232DB5E6A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "19d0e426754cffac1e71890109f830bfcd1c81e00af210a7f102d51603bdc5b9"
+}

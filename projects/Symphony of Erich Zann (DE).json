@@ -1,0 +1,968 @@
+{
+  "projectId": [
+    "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18"
+  ],
+  "name": "Die Sinfonie des Erich Zann",
+  "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
+  "artist": "Ilich Henriquez",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2020/10/16/the-symphony-of-erich-zann/",
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 1,
+  "authors": [
+    "Axolotl"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Standalone",
+    "Investigator(s)"
+  ],
+  "lang": "Deutsch",
+  "created": "2020-04-20T04:45:26.680Z",
+  "updated": "2023-12-20T12:13:01.466Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 Isabel La Fratta-1.png",
+            "ID": "E4642D832661468301CE969CAD5B0E6F",
+            "SourceID": "9BB936BA44283F3C8D84F441BC6EB29D6AE29C10",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01 Isabel La Fratta-2.png",
+            "ID": "CC06874C109A1EB3EA61BBF9EFC10C79",
+            "SourceID": "4B432038875E72CE164633EC7E768050470C3545",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 Kadenz-1.png",
+            "ID": "9688E8278CFD2CB8A27C97A9E997F16F",
+            "SourceID": "81B5F1062C64C7A17B987282B4A3976F773AC880",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02 Kadenz-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 Erlkönig-1.png",
+            "ID": "4D05383BCFD5C4043A692B88A110E324",
+            "SourceID": "88E1A3434286984D940CAA9694584668F77D67C2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03 Erlkönig-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03-Isabel La Frata-Minikarte-1.png",
+            "ID": "9AC5920ECE0A3FC561911EBC681F04C6",
+            "SourceID": "5E5A7ECCC9A73502806208C9B147CF83018F00E4",
+            "Exp": "png",
+            "Width": 804,
+            "Height": 1111
+          },
+          "back": {
+            "Name": "03-Isabel La Frata-Minikarte-2.png",
+            "ID": "1375FA658B9B17175ECB97B8D961EB82",
+            "SourceID": "08DAF014889AAADAA3F2064617625771F31701A4",
+            "Exp": "png",
+            "Width": 804,
+            "Height": 1111
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 Die Sinfonie des Erich Zann-1.png",
+            "ID": "A2759D99D63116D5430CFA6122F4DC55",
+            "SourceID": "4DEC75A0599C339A09612339871280C2AA1936FC",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "01 Die Sinfonie des Erich Zann-2.png",
+            "ID": "66AFF69B52D2ECB6816AFC81100D8A93",
+            "SourceID": "F7C85C751730A9C7547C4FB23BBA5690FE3C724D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 Agenda 1-1.png",
+            "ID": "1ACF5BFBBAC3126C165A1B6D14B7D910",
+            "SourceID": "6F38C1060A2AB8B746F64E52824AF42D43D13F92",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "02 Agenda 1-2.png",
+            "ID": "B68C55D27EAB0CAEA3F4EA5D124145E7",
+            "SourceID": "165A4E774E535D5A66E0068E6631C757109E393B",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 Agenda 2-1.png",
+            "ID": "317E68280F19763A972A8347F644D056",
+            "SourceID": "C847C8B5368E4717528AF96DFF6D3B5B9D76D030",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "03 Agenda 2-2.png",
+            "ID": "C8FF626AF6CB64B66A48379E9E50E3F3",
+            "SourceID": "2AAB2B9C7E849EDAFC79D367ECBFA535C7F9206F",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "04 Agenda 3-1.png",
+            "ID": "AC763F73B20B2C0BE27FDF94D8BDBCD7",
+            "SourceID": "7B049E763DCD99DE705A842D647D7CA4CF86D92A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "04 Agenda 3-2.png",
+            "ID": "D57822189A169A19CDFEA92CEC668AC0",
+            "SourceID": "8EBB8E3A4F6165C5667BE3AAC5BBE0A1627CEB2C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "05 Szene 1-1.png",
+            "ID": "3DE493A0D87C17B92B1612E8E17032B1",
+            "SourceID": "11C436F669BB0DACDC928DDEEA46DE58784FA385",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "05 Szene 1-2.png",
+            "ID": "1659C375814072565B102C40250548B1",
+            "SourceID": "1BF4F7106525268D04783FAA2B6F5B6BD5481498",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "06 Szene 2-1.png",
+            "ID": "6F70FA48622C48FBDA971D9CBBAE02B1",
+            "SourceID": "FFE31198215018A1256712F8D1C95758478D018D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "06 Szene 2-2.png",
+            "ID": "52E54A8F77C71E9C2FF2A4EA105B7A20",
+            "SourceID": "311F507F065CC33B47831061DC8F951F465E31A8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "07 Szene 3-1.png",
+            "ID": "D3DCFFCECE7646F62305167781412C2A",
+            "SourceID": "3626DE4EE156FAE115441FD958D0669AA19EE614",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "07 Szene 3-2.png",
+            "ID": "27876578D223F214C2E1CE78C3552615",
+            "SourceID": "726648E62C32E2ACDD83ACEFCA9B091D1FD36041",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "08 Hinter dem Vorhang-1.png",
+            "ID": "EAAB3A3981F9CEB8D9A7DF411FA1921B",
+            "SourceID": "2690233849DAD8FF9BEABE2EA48A1704FD2F8864",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "08 Hinter dem Vorhang-2.png",
+            "ID": "7A8D8A2032CEB10B8ED47A1CBF293673",
+            "SourceID": "9920175FFCE14EB82DB9ADAA4642B8770D35D55D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "09 Eingangshalle-1.png",
+            "ID": "C1F15CC2D043D30A44D7062C0406990C",
+            "SourceID": "7FE75F7C3CED45E370A4E74F7CF6901A6B063FF3",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "09 Eingangshalle-2.png",
+            "ID": "B75EE8A666550E9E4E22858562C907F7",
+            "SourceID": "8A7D16B3B65A7B4A3248A3297A2F4BAD81AE3BB6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "10 Foyer-1.png",
+            "ID": "447CC5D7C904056FE893E9FD449423E0",
+            "SourceID": "6FE66A00680854C3BB46058BD7B193629A68C9B9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "10 Foyer-2.png",
+            "ID": "D6FAFAFA41C3A5D328E17EB406E05882",
+            "SourceID": "97795168BEC9F669BA9DD03C1B2CA2CAA8A485EE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "11 Loge-1.png",
+            "ID": "2791A80037A877A090960D34216BF93E",
+            "SourceID": "8ED75DB2A9863527E7793817A4190D9A1459E0BB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "11 Loge-2.png",
+            "ID": "E778607029BAED1C592169431BB2C4C3",
+            "SourceID": "4A50629F38774146EDA427F15FD65D4DCEE8BEF3",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "12 Auditorium-1.png",
+            "ID": "125F312E88AB49973362883133CEAA17",
+            "SourceID": "F1690B786A7004CE2DF74F5260CDCDA340A8DBFB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "12 Auditorium-2.png",
+            "ID": "BEF1E1288B23800023FB4B6062966337",
+            "SourceID": "3127DF9C729EB1456B9440D029979628683BBE9D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "13 Schalltoter Raum-1.png",
+            "ID": "0AB72ECC9530667F83533390627881F8",
+            "SourceID": "EAD6F252219ED4DF67AC852E9F5B02FF1A213D55",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "13 Schalltoter Raum-2.png",
+            "ID": "995D219DC0669369564A186FDC37C72F",
+            "SourceID": "A013102EFB5A4D29A7EA7AC242E68160934DFADF",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "14 Instrumentenschrank-1.png",
+            "ID": "0AB72ECC9530667F83533390627881F8",
+            "SourceID": "EAD6F252219ED4DF67AC852E9F5B02FF1A213D55",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "14 Instrumentenschrank-2.png",
+            "ID": "9A49137245D5F058756D7A7DB7838145",
+            "SourceID": "A1899DE15867C064018D4B32CF79610D51E0E794",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "15 Tonstudio-1.png",
+            "ID": "0AB72ECC9530667F83533390627881F8",
+            "SourceID": "EAD6F252219ED4DF67AC852E9F5B02FF1A213D55",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "15 Tonstudio-2.png",
+            "ID": "844D2CA2DE3A3FE136A750E129013C42",
+            "SourceID": "195A841C3F53D4100D911181E97F1C097F44540E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "16 Probenraum-1.png",
+            "ID": "0AB72ECC9530667F83533390627881F8",
+            "SourceID": "EAD6F252219ED4DF67AC852E9F5B02FF1A213D55",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "16 Probenraum-2.png",
+            "ID": "AFF95DC61FB043754A9AB7ED50614ED8",
+            "SourceID": "C422F4D3C2AFDF18247F1E125E1B15EF66907FA7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "17 Malersaal-1.png",
+            "ID": "97F520EB4AA3314A0F1DFFE05DDF84F0",
+            "SourceID": "A7F4BE3C0E59118D99BA631B096EB2481A6D86CB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "17 Malersaal-2.png",
+            "ID": "208D3074605795C1E40590C8AD6F4951",
+            "SourceID": "496FF698373BBA22589FC776E8321F912FB3DF64",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "18 Ankleideraum-1.png",
+            "ID": "0AB72ECC9530667F83533390627881F8",
+            "SourceID": "EAD6F252219ED4DF67AC852E9F5B02FF1A213D55",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "18 Ankleideraum-2.png",
+            "ID": "BD70E539B4ADDD0DF1CE3DFBFE14A958",
+            "SourceID": "DA5EEF8B42C6CA6FC1457260C262979DBD1D4307",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "19 Hinterbühne-1.png",
+            "ID": "2B5E5D47C591A024AFFA691643467C79",
+            "SourceID": "24C28338E9A0685DF5A461DB2F8E2DA53A164B13",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "19 Hinterbühne-2.png",
+            "ID": "23BA10C5372E8950E00A5791B4BD065F",
+            "SourceID": "FED270103553D0A18E71D2EA356C9BD67C1D27C6",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "20 Arnold Walker-1.png",
+            "ID": "A3DE698DB250FEA50352DAC956073047",
+            "SourceID": "07571485B0704E5D2667C4530601AD942098D8BF",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "20 Arnold Walker-2.png",
+            "ID": "290A662C7CA2FD6DAFBF24750F01C17F",
+            "SourceID": "8292707BE217FCF3186C7517312BB720D19EAB3C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "21 Isabel La Fratta-1.png",
+            "ID": "8EAC3DE4495EDBD62EB61B65239D95CF",
+            "SourceID": "CA3FE81110C3868A49AD34ADE9A72388C52CD866",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "21 Isabel La Fratta-2.png",
+            "ID": "E34B005320ECBECA49D02A884505EE72",
+            "SourceID": "766B9AD781250FE44BECAC94380F015814A51883",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "22 Nicole Page-1.png",
+            "ID": "A86176C27D0D168E3300818DCE3CFF18",
+            "SourceID": "DC07F94D264B457A6096F567FC5DE0F37B04241B",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "22 Nicole Page-2.png",
+            "ID": "88D47B790914F990E3E3F4461CB4E836",
+            "SourceID": "89A7D8B2F959F79EB30C106424D7D04A5669574A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "23 Song Yin-1.png",
+            "ID": "0EFDEAE353C86F911A99D98DB53075A8",
+            "SourceID": "BE37497AF53F0935B4714FC75FA3B3BD541B9A45",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "23 Song Yin-2.png",
+            "ID": "D36FDCDBD9F5EC6530CB6973B0A138AD",
+            "SourceID": "62E045774066F9BEDCFD175BD78F0580E82D6EE5",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "24 Yins Trommelstöcke-1.png",
+            "ID": "DC8E9595858110173D1074007F17C75F",
+            "SourceID": "0C6B2597E53565113BE76F97A9AD81747C13FBE8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "24 Yins Trommelstöcke-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "25 Pages Geige-1.png",
+            "ID": "B5FED1ABC57917435FEC86B45781932C",
+            "SourceID": "96F968E7979ACAEBB8F51993994802DC011DA352",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "25 Pages Geige-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "26 La Frattas Klaviertaste-1.png",
+            "ID": "A42421DDE619533A9EE322AA377C7A00",
+            "SourceID": "4BB783D528E50FE3D96C3C049437FE42F43BDD25",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "26 La Frattas Klaviertaste-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "27 Walkers Trompete-1.png",
+            "ID": "F357693EBD6CF9B6A3F865AC4164EA6B",
+            "SourceID": "4F367634D199CDD940317386ABCCF58166556588",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "27 Walkers Trompete-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "28 Ohrwurm-x4-1.png",
+            "ID": "D054191D721E4050A3247018F84047BE",
+            "SourceID": "3144150326C5B6624F9F8EB21DA1ED7834CA9877",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "28 Ohrwurm-x4-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "32 Ohrenbetäubende Blasmusik-x2-1.png",
+            "ID": "E07A259B08C0C957F22F0532C0976D40",
+            "SourceID": "03E9311A123A78ED88A26B740A757E806D19D835",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "34 Dies Irae-x2-1.png",
+            "ID": "C69070DAD70EF6F31E2FD9D6398959E3",
+            "SourceID": "67FD6160021650ECB7B25C4C20108FB1B0992EFB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "36 Ohren der Leere-x2-1.png",
+            "ID": "A0691149454E29F174D6D20E7D3D9D07",
+            "SourceID": "CB8AE075702412AF6B4DC25F2C667E26200E77F4",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "38 Endloses Echo-x2-1.png",
+            "ID": "C76AD9DC6CDBFB19080EC779B3EF8132",
+            "SourceID": "C67148E3536AFE0B38F7F3346EA9E63AEFC59876",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "40 Ätherische Melodie-x2-1.png",
+            "ID": "8D9671D4840ACCBFC34F2BC03F4E95B9",
+            "SourceID": "5C2999A7463F30DE4B309A814CB4C99EBC21FDF0",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "42 Etwas hört zu-x3-1.png",
+            "ID": "EC17C69C1C5C57600586DA6E6A527B33",
+            "SourceID": "CA84E07005330EB495C0D252AAD5703450435B8D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "45 Zischelndes Geräusch-x2-1.png",
+            "ID": "98D5495C5F9CDEA50EB65C82DABFB31E",
+            "SourceID": "FFE10B395CAA7FAD569436D10D77769774EAF148",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "47 Makabere Tänzer-x2-1.png",
+            "ID": "BFC7D01BFB04E22D67486FB84184DE9F",
+            "SourceID": "AC161ABAB92ABCAE98C15951F6BC827822976CCF",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "49 Überwältigung-x2-1.png",
+            "ID": "B7B2B81A3F5A22037A7EDDB0986B3087",
+            "SourceID": "8338B24322E545266B6A1EF77D4BC5FF776614C9",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "51 Jenseitiger Rhythmus-x2-1.png",
+            "ID": "F293DF29D25F2297F61ED798804BE371",
+            "SourceID": "A6C3453389A5A557F1ACDAB6B405F358C5264465",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "53 Kreischende Geige-x2-1.png",
+            "ID": "AF6E5868B38E2C2B459B4BA79DC1CF1F",
+            "SourceID": "BBDDB254CEDCF7D4F922A1CA4D044769E8B96E7F",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "55 Tanzende Ratten-x3-1.png",
+            "ID": "C30E41BFA438A7B18EF21246DDA886A3",
+            "SourceID": "7731264A32186E745EECB6BED1FDD72E73C35C11",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "58 Tanz der Spähren-x3-1.png",
+            "ID": "D580DA4C99D2BF920C0093384BAF5C34",
+            "SourceID": "A84BDB30E2C3EEE79F09FC1390C5D0F39B48AAFA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "61 Junge Nachtigall-1.png",
+            "ID": "5ADF5F5B1CAD87E25EF28F3D01DEDF4A",
+            "SourceID": "694EC44C4F4455569B2ADEEE8C2ACF83B8E1DC23",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "62 Modulation-x2-1.png",
+            "ID": "D2404E90B28D930A2FBB3E4A7E19216C",
+            "SourceID": "EDB7296881D19B55DFEA8BB8BBA7B0247F404C93",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "64 Auguste Gaudin-1.png",
+            "ID": "72CDA7EF332E7955C8C7C1098340248B",
+            "SourceID": "98904DDF3799CB99CB93051E42B612BBB0FD5D3C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "64 Auguste Gaudin-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "65 Das Klavier-1.png",
+            "ID": "D514F4EF37D9BC6B49646A7E02796E92",
+            "SourceID": "AADCADFEA767144B85038F91207B353986FB6D4A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "65 Das Klavier-2.png",
+            "ID": "D98F36F74A236D8641736A1686D2987C",
+            "SourceID": "64E77645A517A6EDDF20FBF40B1559661155059D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "9faa8dafba4066e806afdb00a7bff3ea17e5082bd60aa897244bee959344dc9f"
+}
