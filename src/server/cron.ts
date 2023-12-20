@@ -114,7 +114,7 @@ const refreshProjects = async (baseUrl: string) => {
     console.log('Refreshing projects')
     const cookie = getCookie()
     if (!cookie || !await login(baseUrl, cookie)) {
-      console.log('Invalid cookie')
+      console.log(`Invalid cookie: ${cookie}`)
       return
     }
 
@@ -140,6 +140,7 @@ const refreshProjects = async (baseUrl: string) => {
 const refreshCookie = async (baseUrl: string) => {
   const cookie = getCookie()
   if (cookie && await login(baseUrl, cookie)) {
+    console.log(`Invalid cookie: ${cookie}`)
     return
   }
 
