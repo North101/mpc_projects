@@ -59,6 +59,8 @@ const projectV1Schema: JSONSchemaType<ProjectV1Meta> = {
     info: { type: 'string', nullable: true },
     website: { type: 'string', nullable: true },
     cardsLink: {type: 'string', nullable: true },
+    scenarioCount: { type: 'number' },
+    investigatorCount: { type: 'number' },
     authors: { type: 'array', items: { type: 'string' } },
     tags: { type: 'array', items: { type: 'string' } },
     statuses: { type: 'array', items: { type: 'string'} },

@@ -43,8 +43,8 @@ export interface ProjectMeta {
   info?: string | null
   website?: string | null
   cardsLink?: string | null
-  scenarioCount?: number
-  investigatorCount?: number
+  scenarioCount: number
+  investigatorCount: number
   authors: string[]
   statuses: string[]
   tags: string[]
