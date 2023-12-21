@@ -1,0 +1,382 @@
+{
+  "projectId": [
+    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B"
+  ],
+  "name": "TFA Microsupplies",
+  "description": "TFA supplies on micro-sized cards, half the size of investigator minis. Plus, a tiny Summoned Servitor for moving your summoned friend around on its own.",
+  "artist": null,
+  "info": "Supply cards for use with The Forgotten Age campaign. Summoned Servitor microcard pairs with the customizable player card of the same name from The Scarlet Keys investigator expansion.",
+  "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
+  "authors": [
+    "Antimarkovnikov"
+  ],
+  "statuses": [
+    "Project Available",
+    "Finished"
+  ],
+  "tags": [
+    "Add-On"
+  ],
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2023-11-26T23:13:45.084Z",
+  "version": 2,
+  "code": "FC50335ACE92877B",
+  "parts": [
+    {
+      "name": "Microcard-sized TFA Supplies",
+      "cards": [
+        {
+          "count": 4,
+          "front": {
+            "Name": "Binoculars-x4-a.png",
+            "ID": "EA2BD9684B0A2A59BAEFED3F733DEE7E",
+            "SourceID": "CF4E88CF74165A147CE79C019726315F1D866A8E",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Blanket-x4-a.png",
+            "ID": "9FB63E413DC26389D9E3A0A22233F382",
+            "SourceID": "8135891C600042AC345137BF86F74855A7A7208C",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Canteen-x4-a.png",
+            "ID": "7C5111C53DAA864B19B588666A303F9F",
+            "SourceID": "C74B759D59DF0B91639A05FBC86086C2B2A71B33",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Chalk-x4-a.png",
+            "ID": "871CDB110715CBDAF37E4A02E4C622AB",
+            "SourceID": "03679B3B3F6594F07E259D74BE1AB3A269A3309A",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Compass-x4-a.png",
+            "ID": "94038D299CD9ABBA739D274CF655DD56",
+            "SourceID": "0C873067F50643BFD6226B586B4BAB693CA72CAB",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Gasoline-x16-a.png",
+            "ID": "B1F70533D29E5F54A3ADA4A1539F6D45",
+            "SourceID": "4911541952C4A94379535780ED6709D5055AE510",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Key-of-Eztil-x1-a.png",
+            "ID": "B26DAA10A84FE34B7473F4EAA20B8307",
+            "SourceID": "70C6943B9BA7677689CF3A52C28B8B39E4CE1F80",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Map-x4-a.png",
+            "ID": "6E7320DBAB6D41D95406D5CE43092E76",
+            "SourceID": "465CDBA18F63D49245CB35673BEB91B4C45ABF82",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 24,
+          "front": {
+            "Name": "Medicine-x24-a.png",
+            "ID": "F098CB18C030D375D369C1C418EE4EBE",
+            "SourceID": "D018846E013A2A78F419C3E92F7EDAF4592E8774",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Mysterious-Scepter-x1-a.png",
+            "ID": "821D25CE1512A2E858344061C34845F9",
+            "SourceID": "B645A47E1BC698ACF12B8ADBBA11591EB03107F0",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pendant-x4-a.png",
+            "ID": "C50F278A9EF98D0059B6C5A3669BF390",
+            "SourceID": "352FCD58D35CFA773287D748A645595BC400BB2E",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pickaxe-x4-a.png",
+            "ID": "9ADFEA08538CCC251DCAA5A975DB4D49",
+            "SourceID": "6F51F7490504F106E3DB2A1AC52BFB641950A206",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Pocketknife-x4-a.png",
+            "ID": "1DE20158CD16BA82AC8A8D2FF9040CE7",
+            "SourceID": "A3EDBA5ECFBE761FD3FE6B625718563E2F49B406",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 16,
+          "front": {
+            "Name": "Provisions-x16-a.png",
+            "ID": "84F1F0546F18B82F954A7BFB95BF4B65",
+            "SourceID": "F004654BEBC7FCB80FFAC41D0972F1420EA00B45",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Rope-x4-a.png",
+            "ID": "0A2FFEB4FF3DE432FD0989D366D28E2D",
+            "SourceID": "0AD440C875FFAF58555679F359B3BBA6EFA47505",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "Sticky-Goop-x1-a.png",
+            "ID": "5040B5B9D1A767CBFD3B12FE4A281D7A",
+            "SourceID": "05DE14E45D8EA891B14D6D42ED8DAF9E7C9CFA24",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "Torches-x4-a.png",
+            "ID": "0B69B44BA839687FB8405EE3F99C8CA8",
+            "SourceID": "E475F89A430F46257C9C75AEAD1428E0A37415A6",
+            "Exp": "png",
+            "Width": 815,
+            "Height": 1088
+          },
+          "back": {
+            "Name": "_microcardback.png",
+            "ID": "6A685A4F80BE0774472D71B99F72C6EF",
+            "SourceID": "2A2583D0F5F682781256542BC4E007672C5EB7F4",
+            "Exp": "png",
+            "Width": 788,
+            "Height": 1088
+          }
+        }
+      ]
+    },
+    {
+      "name": "Summoned Servitor Microcard",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "Summoned-Servitor-a.png",
+            "ID": "05BFC5B55658D037B0D580B7805168F0",
+            "SourceID": "8B4CF4EB52B8FCB9B4889EBBB6C23976D715C92D",
+            "Exp": "png",
+            "Width": 1126,
+            "Height": 1650
+          },
+          "back": {
+            "Name": "Summoned-Servitor-b.png",
+            "ID": "B04EE4DBB4B744092B9978BF8E7ACA89",
+            "SourceID": "B3BFF70C0BEEAB8900E8E10C73BA73FAD1BC9C39",
+            "Exp": "png",
+            "Width": 1126,
+            "Height": 1650
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "f683a6e0bb14db2d88d3a216d7894e94b11a9adb25b65290863188a5a0aed2f3"
+}

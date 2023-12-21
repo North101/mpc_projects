@@ -1,0 +1,663 @@
+{
+  "projectId": [
+    "E722269A5F9ABCF7004DFE598A13A6415A603BCEC8F2A51402366191A4DEF8B71BEC90D2049E6268",
+    "3AB0BC9319BDC0CF0E37EC4BB40DF815BF6581157468BEAA3E8B3997AD50813D8773586DE1D55F07"
+  ],
+  "name": "Die Legende von Sleepy Hollow",
+  "description": "Something wicked stirs within the haunted New York glen of Sleepy Hollow in this standalone based on the Washington Irving story.",
+  "artist": "Jason Juta",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2020/10/30/the-legend-of-sleepy-hollow/",
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "created": "2021-03-21T04:45:26.684Z",
+  "updated": "2023-12-20T12:10:51.466Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Deutsch-Die Legende von Sleepy Hollow",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001-Guide 1-1.png",
+            "ID": "B37EB6A99D064D858C5F1F7F29E6A150",
+            "SourceID": "A1315768D3834E3CE6C5E22C051B3F06F9B95308",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "001-Guide 1-2.png",
+            "ID": "39D28EB8DD9D34B7FF622C405F9A5C33",
+            "SourceID": "3196A5FAFDFBC168ADC2453846A686F93F20C80B",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "002-Guide 2-1.png",
+            "ID": "9DA9895ADDF35AA5BCEED0866EB7D50C",
+            "SourceID": "2261F951F6B5E6532A06CDD77B383BACA7247103",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "002-Guide 2-2.png",
+            "ID": "72E5D1CBDBCC93F5CEB67AC2779E8133",
+            "SourceID": "27D3075C6696D25CF93863ABC962B214BE571709",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "003-Guide 3-1.png",
+            "ID": "E61E30EBCAFC8E531DFD1D05722594BE",
+            "SourceID": "A25716EF4677E76CB40E9B75A5407F74494F13B5",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "003-Guide 3-2.png",
+            "ID": "4D4A6F3C27E2D2526614BB8BA110C364",
+            "SourceID": "5D7B6B515A30EB7C87E80FC186DCC5B372760464",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "004-Guide 4-1.png",
+            "ID": "CECD02C470968532447C80BB0C58C43C",
+            "SourceID": "4962661CA32382CD3E2D87C83C1FBD240A9350B2",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "004-Guide 4-2.png",
+            "ID": "43A12C9EAD9C385D904861B582E104A1",
+            "SourceID": "4633C9C8E6646FBAB5EB0DD63D8E76FD2DD64E21",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "005-Guide 5-1.png",
+            "ID": "70E68D88EAB789A7AA1CA66221AE0729",
+            "SourceID": "D08EC75EED35CBC5292D5A0AEA55EF8F3A3A5E2E",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "005-Guide 5-2.png",
+            "ID": "11EF263C338EF252A028DC69BA7275E8",
+            "SourceID": "665DCBE00028CF86A41D1125F2B4382AA917F398",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "006-Szenarioübersichtskarte-1.png",
+            "ID": "3AF7A8396ECB813956AFC30BCF1AA328",
+            "SourceID": "7ADCC700F1D31668DBFD59F8D687E6F25D633779",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "006-Szenarioübersichtskarte-2.png",
+            "ID": "7AD43253DB79911207B903087F2BABBD",
+            "SourceID": "A309CABEB3E309873471303412B8308BF921A386",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "007-Agenda 1-1.png",
+            "ID": "485A5EDF2E8E12AAB1A57F1290B327E5",
+            "SourceID": "8BC95519EEEBD85E183DAA510070FDD69E3A91AB",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "007-Agenda 1-2.png",
+            "ID": "B6ED9C952895CC7964FF6C7F5E366212",
+            "SourceID": "36750A6C1CEACFA033887A404C6CD9DC29E68388",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "008-Szene 1-1.png",
+            "ID": "CCA7FBCDCAFDEAFA8FA610ECA57BF1B3",
+            "SourceID": "A5E620C6308E98AA62AF109DC8D97B6C40281807",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "008-Szene 1-2.png",
+            "ID": "65204F0EBBD4543E1EDFE1A64555DB5F",
+            "SourceID": "F1504882BFE0C225BC2E0EE26D47D8712C57FF1D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "009-Szene 2-1.png",
+            "ID": "36F4B87F8D922406DF511B708FF1D44A",
+            "SourceID": "F3AE4930BE8E53A5023F1D6A3BAAFD4A4C810C05",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "009-Szene 2-2.png",
+            "ID": "3D00990E160839263F577C46B3103646",
+            "SourceID": "D7415377739B591F759C75DC10993892B8BBA000",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "010-Szene 3-1.png",
+            "ID": "5312DF2639D8C7EAF3B45DFBD960C4A6",
+            "SourceID": "2D1960BBFF2C52EDE27CEB9AF86AE1CBD925EB24",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "010-Szene 3-2.png",
+            "ID": "B0C5D2AFA8A99F2B5E05167EA3C3CE17",
+            "SourceID": "068506436FFD0B846ED06F74574EC8BFC88FCF11",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "011-Ichabod Crane-1.png",
+            "ID": "88D873D7783D8D1610ABECEF1E54AFF4",
+            "SourceID": "748A6336155C165C5BFA296B11941354C02A730F",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "011-Ichabod Crane-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "012-Ichabods Bücher-1.png",
+            "ID": "2C3A4B9A28BCBBDA8798C82BB3BAA25E",
+            "SourceID": "20C341B265BCE8235A870EDEDEEC3D57FF6A4123",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "013-Van Brunts Belohnung-x4-1.png",
+            "ID": "BD4E362203ADCAB39014592ABEE39AA8",
+            "SourceID": "0BE336345D4AE5E3CC74F199EBEE5FDA0D491CEE",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "013-Van Brunts Belohnung-x4-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "014-White Plains-1.png",
+            "ID": "D1C7BA92748D28520475D129E73E5993",
+            "SourceID": "C02F1C1294A38A456564693E97D3E335527156B6",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "014-White Plains-2.png",
+            "ID": "FBD32CCE3BA81085C6B45840A1A1A0C8",
+            "SourceID": "0C31200F11F44C8681397FD9F3813884B45AFD26",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "015-Verlassenes Schulhaus-1.png",
+            "ID": "7476CFE63B1B94DD5DD1AB98B14E2A79",
+            "SourceID": "F4DD5E2AE5CB645F856D3B2BA2C37E9DE0016C34",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "015-Verlassenes Schulhaus-2.png",
+            "ID": "F7CC44EAA5C02701F19100CC7531DFB8",
+            "SourceID": "D4FE1B4F5644AB26C199696F0E716C59AABEB3F2",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "016-Alte Holländische Kirche-1.png",
+            "ID": "39B2A877041031C2ACB854F1C6023F37",
+            "SourceID": "5E0C1C1C3FA49BC9B3C46B6DC3941CAAE49B2F96",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "016-Alte Holländische Kirche-2.png",
+            "ID": "91FC7CFC4CDE298D636C61FDB40D1CA5",
+            "SourceID": "8AFEDED9DF4E7E5A10D4283B173D99692BAB6171",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017-Wileys Sumpf-1.png",
+            "ID": "8C678BBC64FF6A279E1E4E9F64CBBF88",
+            "SourceID": "69FFCCC0B0672DBDCF816E3148D959D5848E75F0",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "017-Wileys Sumpf-2.png",
+            "ID": "C749D80E22B2B711E7F739A52884935E",
+            "SourceID": "8B9C92C36263A78BF91D7DDCB3D94BF3BA817CB3",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "018-Major Andrés Baum-1.png",
+            "ID": "10836F6542EB5B217E2790E8F30DA2B7",
+            "SourceID": "D4B7C2EA5EEBF438C317681F2B457D1AB0624C07",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "018-Major Andrés Baum-2.png",
+            "ID": "AC10BDD85AB561BDA25119E10B6DDD23",
+            "SourceID": "3D7C4D4273A88D6285845F6644E9DC27014E3CB7",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "019-Van-Tassel-Gehöft-1.png",
+            "ID": "21CF8F7DDF8D823F59470CAB1F193DF0",
+            "SourceID": "24D362F24392D654A9686CA2D66D22D07D8531BC",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "019-Van-Tassel-Gehöft-2.png",
+            "ID": "DB382C3356465882B41E03A79ACC3A45",
+            "SourceID": "FE128FBD4A96A9EB57B19F2F1DBA95D9602A90D6",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "020-Enthauptetes Opfer-x3-1.png",
+            "ID": "0DC27B99EB0F59C18BE2C1761F72E785",
+            "SourceID": "B6D5CC2A513CD50CF70590036AC56EC5EBE7266F",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "021-Verfluchtes Tal-x2-1.png",
+            "ID": "C48FC640444E8B89739B91072788B705",
+            "SourceID": "078698C0B6096DE58BE57C033F16E20AF16A0735",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "022-Verhext-x4-1.png",
+            "ID": "84BF72A11A65CA743DAD6EFDF7F5788E",
+            "SourceID": "ECA6E265FC9BFC5FBC63F626F16361367379E777",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "023-Florierendes Böses-x3-1.png",
+            "ID": "92C1EAA2DB5ED34C905B2AE20B93ADA9",
+            "SourceID": "1EC8D17152F93D76CFE6258EDA034A71895C69B3",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "024-Hexe der Schlucht-x3-1.png",
+            "ID": "CA49813F07F10204B7BA87EDB7B304CD",
+            "SourceID": "D884E4635F535B0F4D6E0B335342EEEE0F8CCF09",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "025-Flüstern im Wind-x3-1.png",
+            "ID": "AA13A1B2BF778EE4A3D3A8B50ED38A61",
+            "SourceID": "22ED016C785E740D9D44B0B08883101AD21047BE",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "026-Geheimnisvolle Alte-x2-1.png",
+            "ID": "88F091CE07B0F104BDD9388B0448F9BD",
+            "SourceID": "A41B893B42D1B1A1E7BEA9081428A0B653E0D36C",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "027-Beschleunigtes Ritual-x4-1.png",
+            "ID": "20904C9F4EE7A4CC76B0897916DCD0D3",
+            "SourceID": "66930FA57EADF49303C524D6032B6D997B40B8E5",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "028-Vom Reiter gezeichnet-x3-1.png",
+            "ID": "12CA957E5AB47D3F2294256FD6878D23",
+            "SourceID": "2B019A799BA1FB366971161CE2089EF42D43E1FD",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "029-Heraufziehender Geist-x2-1.png",
+            "ID": "03CF57BB9617AA308ED5D73AE503EC24",
+            "SourceID": "272E9D2C5D196BF975C8F633E7EE79F8660993C9",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "030-Geschleuderter Kürbis-x3-1.png",
+            "ID": "1DFEF79D049EB289249252C1ADAC3E70",
+            "SourceID": "E7708DB2D005AEF816450FB94187554E94E31DDD",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "031-Hessisches Gespenst-x3-1.png",
+            "ID": "B59E31566D1CE697AFE8FD8F7E53F82D",
+            "SourceID": "D99FA6CD17D304AEB231CD6DE6AC49C2DD4A9FF3",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "032-Geisterhafter Schädel-x2-1.png",
+            "ID": "60A563437457CF618955C522587B4096",
+            "SourceID": "8F9C6832B95F7C8BF9A7578C3B524459E3E5739C",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "033-Der Kopflose Reiter-1.png",
+            "ID": "9BCE94E762155FC7DE82C2290C791B5B",
+            "SourceID": "12A2DC2A9A2A152895EC6CE84FB7FDABB1C24CC8",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "09cc0ab7f4b0ae42d0110d9422e632b14b1e46368f336fb3821d2a41879e7c72"
+}

@@ -48,9 +48,6 @@
         "type": "string"
       }
     },
-    "lang": {
-      "type": "string"
-    },
     "created": {
       "type": "string"
     },
@@ -158,7 +155,6 @@
     "authors",
     "statuses",
     "tags",
-    "lang",
     "created",
     "updated",
     "version",

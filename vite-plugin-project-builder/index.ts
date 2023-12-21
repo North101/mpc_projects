@@ -26,7 +26,7 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   authors: e.authors,
   statuses: e.statuses,
   tags: e.tags,
-  lang: e.lang,
+  lang: e.filename.split('/')[0],
   created: e.created,
   updated: e.updated,
   parts: e.parts.map(e => ({
@@ -117,7 +117,7 @@ const readProject = async (projectsDir: string, filename: string): Promise<Proje
 }
 
 const readProjectList = async (projectsDir: string) => {
-  const allProjects = await glob(resolve(projectsDir, '**/*.json'))
+  const allProjects = await glob(resolve(projectsDir, '*/*.json'))
   return await Promise
     .all(allProjects.map((filename) => readProject(projectsDir, filename)))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
@@ -161,7 +161,6 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           authors: project.authors,
           statuses: project.statuses,
           tags: project.tags,
-          lang: project.lang,
           created: project.created,
           updated: project.updated,
           version: project.version,

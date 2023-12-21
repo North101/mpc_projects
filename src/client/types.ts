@@ -48,7 +48,6 @@ export interface ProjectMeta {
   authors: string[]
   statuses: string[]
   tags: string[]
-  lang: string
   created: string
   updated: string
   hash: string
@@ -75,6 +74,7 @@ export interface PartInfo {
 }
 
 export interface ProjectInfo extends Omit<ProjectMeta, 'projectId' | 'hash'> {
+  lang: string
   filename: string
   parts: PartInfo[]
 }

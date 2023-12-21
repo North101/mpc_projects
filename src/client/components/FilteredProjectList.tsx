@@ -8,7 +8,10 @@ import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { AuthorIcon, AuthorIconFiltered, LanguageIcon, LanguageIconFiltered, StatusIcon, StatusIconFiltered, TagIcon, TagIconFiltered } from './Icons'
 import { ProjectList } from './ProjectList'
+import codes from 'iso-lang-codes'
 
+
+const locales = codes.locales()
 
 declare global {
   interface Array<T> {
@@ -107,8 +110,8 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .distinct()
   .map(e => ({
     id: e,
-    label: e,
-    checked: e == 'English',
+    label: locales[e],
+    checked: e == 'en-US',
   }))
   .toSorted(sortByLabel)
 )
