@@ -1,0 +1,208 @@
+{
+  "projectId": [
+    "F965FDF0A4B4A726D234591B93535ECB615A78FBD5F53184F7ACE38A9EAB4AD91E5ECB064D7FC013",
+    "B9BF84C5044471F759C2689FC6F438D03065F4478FE04FD381A102436284C77B082A478F1A74DF48",
+    "231945D78C5EF8FC000732063E1901EFF3B3DF0D212A1F76BC69AE0A9DB9577F6751548967BDBDE7"
+  ],
+  "name": "Alt-Art Permanents",
+  "description": "Pump up your Arkham Horror collection with alt-art versions of the popular permanents your team is always fighting over. You get a Charisma, you get a Charisma, EVERYONE gets a Charisma!",
+  "artist": "Diego Gisbert Llorens",
+  "info": "By default you’ll get two copies of each permanent; make sure to change the counts if you want more or fewer.",
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/12u7U9DfIASnL4xBK0TnTyPXKUOZ_1vUI?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
+  "authors": [
+    "Hatful Bob"
+  ],
+  "statuses": [
+    "Project Available"
+  ],
+  "tags": [
+    "Alt-Art",
+    "Player Cards"
+  ],
+  "created": "2023-11-29T04:45:26.681Z",
+  "updated": "2023-12-02T15:36:51.466Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Alt-Art Permanents",
+      "cards": [
+        {
+          "count": 2,
+          "front": {
+            "Name": "01 Charisma-HatfulBob-Alt-x2-1.png",
+            "ID": "FF3092B9D37791427BC3CFB7FF5EA2E3",
+            "SourceID": "9B7436A3B858B486FD4A4D82EB210044EB73FABF",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "02 Relic Hunter-HatfulBob-Alt-1.png",
+            "ID": "DF35A579FE95D3F1AE93FA08E7287F44",
+            "SourceID": "ACCBF7BF49669ADFB67559E29D73E7B443F02D10",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "03 In the Thick of It-HatfulBob-Alt-x2-1.png",
+            "ID": "2B76EF1AB4DA59E7B8459CD20FF93938",
+            "SourceID": "AC769E57DBCE5C1C3A4515303DD15AE643A62B6C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "019 Geared Up-HatfulBob-Alt-x2-1.png",
+            "ID": "08F9158299ADA9B4B1D571A3F95BB5E3",
+            "SourceID": "993B902051C0AC9AC4AA25C5F7BE835AA1E0259B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "031 Forced Learning-HatfulBob-Alt-x2-1.png",
+            "ID": "CC99AE989B118EBEA000E24813A087EC",
+            "SourceID": "D0F7AE76B2FD216FC12053B024C8D4BFF376CC55",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "046 Underworld Support-HatfulBob-Alt-x2-1.png",
+            "ID": "7F176EDEFDAA847D5C5CED3FE35420E2",
+            "SourceID": "8098BBC98F5AF2A88DFFA9FC1F605567AFCBA590",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "059 Down the Rabbit Hole-HatfulBob-Alt-x2-1.png",
+            "ID": "4CCF35A95135ABFE011BF4FD290A44FD",
+            "SourceID": "59076ACF9A154ABADD17374D421B845AA5C5DE00",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "071 Short Supply-HatfulBob-Alt-x2-1.png",
+            "ID": "107031242C55BDD17E4F230870DE236D",
+            "SourceID": "F28010E94418588BA62A4B06EF6ACF0FDFEC3E5B",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "Geared Up Taboo-HatfulBob-Alt-x2-1.png",
+            "ID": "F84556449F06B06EA25C7AA76B04D813",
+            "SourceID": "8B4A0B3499DD0423D6498E879FB56EABB3113114",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "_playerback.png",
+            "ID": "F2C892495D430CF932D00FCC1CD986B8",
+            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "51087136983dfb083c7afc406605b203e0c938846b86a1fcc01f15fa67a272c5"
+}

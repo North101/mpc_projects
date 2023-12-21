@@ -28,7 +28,7 @@ interface ProjectTagsProps {
 }
 
 export const ProjectTags = ({ tags }: ProjectTagsProps) => (
-  <Stack direction='horizontal' gap={1}>
+  <Stack direction='horizontal' gap={1} className='tag-pills'>
     {tags.map(e =>
       <ProjectTag key={e} tag={e} />
     )}

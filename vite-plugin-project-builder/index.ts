@@ -1,7 +1,7 @@
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
 //import mpcData from 'mpc_api/data'
-import path, { basename, relative, resolve } from 'node:path'
+import path, { basename, dirname, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
@@ -10,15 +10,16 @@ import projectValidator from './validation'
 
 interface ProjectWithFilename extends ProjectLatestMeta {
   filename: string
+  image: string | null
 }
 
 const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   filename: e.filename,
   name: e.name,
   description: e.description,
-  image: e.image ?? null,
   artist: e.artist ?? null,
   info: e.info ?? null,
+  image: e.image,
   website: e.website ?? null,
   cardsLink: e.cardsLink ?? null,
   scenarioCount: e.scenarioCount ?? 0,
@@ -26,7 +27,7 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   authors: e.authors,
   statuses: e.statuses,
   tags: e.tags,
-  lang: e.lang,
+  lang: e.filename.split('/')[0],
   created: e.created,
   updated: e.updated,
   parts: e.parts.map(e => ({
@@ -90,10 +91,10 @@ const getProjectImage = async (filename: string) => {
   }
 }
 
-const readProject = async (filename: string): Promise<ProjectWithFilename | null> => {
+const readProject = async (projectsDir: string, filename: string): Promise<ProjectWithFilename | null> => {
   const project = parseProject(await readJson(filename))
   if (project == null) {
-    console.log(basename(filename))
+    console.log(relative(resolve(projectsDir), filename))
     projectValidator.errors
       ?.map(e => `  ${e.instancePath}/ ${e.message}`)
       ?.forEach((e) => console.log(e))
@@ -104,10 +105,12 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
     project.code,
     project.parts,
   ])
+  // change updated const to run build without updating date
+  //const updated = project.updated
   const updated = hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,
-    filename: basename(filename),
+    filename: relative(resolve(projectsDir), filename),
     image: await getProjectImage(filename),
     hash,
     updated,
@@ -115,9 +118,9 @@ const readProject = async (filename: string): Promise<ProjectWithFilename | null
 }
 
 const readProjectList = async (projectsDir: string) => {
-  const allProjects = await glob(resolve(projectsDir, '*.json'))
+  const allProjects = await glob(resolve(projectsDir, '*/*.json'))
   return await Promise
-    .all(allProjects.map(readProject))
+    .all(allProjects.map((filename) => readProject(projectsDir, filename)))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
 }
 
@@ -141,6 +144,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       // write all project json files
       await Promise.all(projectList.map(async e => {
+        await fs.mkdir(dirname(resolve(outDir, projectsDir, e.filename))).catch(() => {})
         await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
       }))
       // update project files
@@ -158,7 +162,6 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           authors: project.authors,
           statuses: project.statuses,
           tags: project.tags,
-          lang: project.lang,
           created: project.created,
           updated: project.updated,
           version: project.version,
@@ -181,8 +184,8 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
         } else if (req.url?.startsWith(`/projects/`)) {
           // /projects/*.json
           if (req.url.endsWith('.json')) {
-            const filename = decodeURI(req.url.split('/').pop() ?? '')
-            const project = await readProject(resolve(projectsDir, filename))
+            const filename = path.resolve(projectsDir, path.resolve(decodeURI(req.url).substring(1)))
+            const project = await readProject(projectsDir, filename)
             if (project == undefined) return next()
 
             return res.writeHead(200, {

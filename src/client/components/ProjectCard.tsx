@@ -9,6 +9,7 @@ import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
 import { ProjectStatuses } from './ProjectStatuses'
 import { ProjectTags } from './ProjectTags'
+import { ProjectLangs } from './ProjectLangs'
 
 interface ProjectTooltipProps {
   name: string
@@ -37,7 +38,6 @@ export const ProjectParts= ({ project }: ProjectCardProps) => {
 */}
 
 export const ProjectImage = ({ name, info }: ProjectTooltipProps) => {
-  {/* name = project.image, info = project.artist */ }
   if (info) {
     return (
       <OverlayTrigger
@@ -140,8 +140,9 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           </Card.Link>}
         </Card.Body>
         <Card.Footer>
-          <ProjectTags tags={project.tags} />
+          <ProjectLangs lang={project.lang} />
           <ProjectStatuses statuses={project.statuses} />
+          <ProjectTags tags={project.tags} />
         </Card.Footer>
       </Card>
       {show && <ProjectDownloadModal

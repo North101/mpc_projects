@@ -1,3 +1,4 @@
+import ISO6391 from 'iso-639-1'
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
 import { Funnel, FunnelFill, SortDown } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
@@ -8,7 +9,6 @@ import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { AuthorIcon, AuthorIconFiltered, LanguageIcon, LanguageIconFiltered, StatusIcon, StatusIconFiltered, TagIcon, TagIconFiltered } from './Icons'
 import { ProjectList } from './ProjectList'
-
 
 declare global {
   interface Array<T> {
@@ -97,7 +97,7 @@ export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .map(e => ({
     id: e,
     label: e,
-    checked: false,
+    checked: e == 'Project Available',
   }))
   .toSorted(sortByLabel)
 )
@@ -107,8 +107,8 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .distinct()
   .map(e => ({
     id: e,
-    label: e,
-    checked: false,
+    label: ISO6391.getNativeName(e),
+    checked: e == 'en',
   }))
   .toSorted(sortByLabel)
 )
@@ -180,7 +180,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
     const hasSomeAuthors = !filteredAuthors.length || e.authors.some(author => filteredAuthors.includes(author))
     const hasSomeTags = !filteredTags.length || e.tags.some(tag => filteredTags.includes(tag))
     const hasSomeStatuses = !filteredStatuses.length || e.statuses.some(status => filteredStatuses.includes(status))
-    const hasSomeLangs = !filteredLangs.length || e.lang == null || filteredLangs.includes(e.lang)
+    const hasSomeLangs = !filteredLangs.length || filteredLangs.includes(e.lang)
     {/*const hasSomeSites = !filteredSites.length || Object.values(e.sites).some(site => filteredSites.includes(site))*/ }
     return hasSomeAuthors && hasSomeStatuses && hasSomeTags && hasSomeLangs
   }).toSorted(sorts[sort])

@@ -44,6 +44,7 @@
 
     & + .card-link {
       margin-left: 0;
+      margin-top: 0 !important;
     }
   }
 
@@ -97,6 +98,17 @@ button.download {
   flex-wrap: wrap;
 }
 
+.hstack.lang-pills,
+.hstack.status-pills {
+  display: inline-block;
+}
+
+.hstack.lang-pills {
+  .badge:last-child {
+    margin-right: 0.25rem;
+  }
+}
+
 .status-changes-pending,
 .status-needs-qa {
   > .badge {
@@ -108,8 +120,14 @@ button.download {
   }
 }
 
-.status-project-available {
+.status-project-available,
+.lang-english {
   display: none;
+}
+
+.lang > .badge {
+  background-color: $purple-200 !important;
+  color: #000;
 }
 
 .status-not-available > .badge {

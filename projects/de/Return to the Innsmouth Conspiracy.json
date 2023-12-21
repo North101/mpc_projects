@@ -1,0 +1,1311 @@
+{
+  "projectId": [
+    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7"
+  ],
+  "name": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung",
+  "description": "A fan-made upgrade expansion adding new supplementary content to the entire The Innsmouth Conspiracy campaign.",
+  "artist": null,
+  "info": "Encounter cards require The Innsmouth Conspiracy campaign. Some player cards make use of bless & curse tokens.",
+  "website": "https://derbk.com/ancientevils/the-unofficial-return-to-the-innsmouth-conspiracy/",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
+  "authors": [
+    "DerBK",
+    "Hauke"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Campaign Expansion",
+    "Player Cards",
+    "Return to"
+  ],
+  "created": "2023-07-06T04:45:26.680Z",
+  "updated": "2023-12-20T15:22:41.519Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Inoffizielle RTTIC",
+      "cards": [
+        {
+          "count": 2,
+          "front": {
+            "Name": "001-Gesegnete Klinge-x2-1.png",
+            "ID": "FE9DD5E64E65E892CB99351621155851",
+            "SourceID": "0CA74228107DC39ACEC93620B206B6BAA91BCB0D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "001-Gesegnete Klinge-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "002-Wandel des Schicksals-x2-1.png",
+            "ID": "1BABC44FE7044C68DE871BE29B6E7FE8",
+            "SourceID": "1BD5B93F1E231748139D30472E7236482D593C46",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "002-Wandel des Schicksals-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "003-Hand des Schicksals-x2-1.png",
+            "ID": "FEBDF037FA5A8499F2F5310BB8AC51EE",
+            "SourceID": "959CC7E49BC041090536BC823C143C8834B2500D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "003-Hand des Schicksals-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "004-Buch der Psalmen-x2-1.png",
+            "ID": "5437840D3DEB13171C559BC8B7FE0947",
+            "SourceID": "A0FF47D81D754A394EF6F2DBE9AD9471461C82CC",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "004-Buch der Psalmen-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "005-Verschlüsselungsgerät-x2-1.png",
+            "ID": "CF9F6E89475DE0D81EED9E3831D47CBC",
+            "SourceID": "1912DE19F7F62CF9AD4CDC889825F69CF56AFFDE",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "005-Verschlüsselungsgerät-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "006-Kryptisches Zauberbuch-x2-1.png",
+            "ID": "8EB08D9A8BE4AB086838483E6503B8DA",
+            "SourceID": "06CF6CFB1815B33BDB7777AC34CE4C369A3C5F72",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "006-Kryptisches Zauberbuch-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "007-Aktionsplan-x2-1.png",
+            "ID": "E2AC2DB76CE8022356B71AD2FCE4F73E",
+            "SourceID": "A941B044A58CEDA5A3827F756121BCE91BA3DECB",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "007-Aktionsplan-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "008-Unter Beobachtung-x2-1.png",
+            "ID": "F7A030C854F555947B7A6CDC0676C986",
+            "SourceID": "FF726C26458BF561F6A318799A68CB9755A13A63",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "008-Unter Beobachtung-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "009-Tristan Botley-x2-1.png",
+            "ID": "942FAB06FDC03DFA4A5FA2E61123FA7F",
+            "SourceID": "30A824CAC16AF41FD1E839A85BFAFB92DC5CF908",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "009-Tristan Botley-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "010-Den Glauben bewahren-x2-1.png",
+            "ID": "D37C06D9FC0FE548561C2F920D61DB74",
+            "SourceID": "99D08CA681B2B341C38469472636485CEBE59FA6",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "010-Den Glauben bewahren-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "011-Stockdegen-x2-1.png",
+            "ID": "D8D8F37A332A3D0E3B0848D8066E174A",
+            "SourceID": "4606C645575A45F436E819E9942B5C0924A23B0A",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "011-Stockdegen-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "012-Abyssisches Buch-x2-1.png",
+            "ID": "0F4EA7F9EC156B3FAAEEB1A033C368BB",
+            "SourceID": "658B7A0AE7AC96742C00775995F653DF43347722",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "012-Abyssisches Buch-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "013-Zweigläubiger Priester-x2-1.png",
+            "ID": "AFC3696E46E40E04AA7852095BC38A5B",
+            "SourceID": "53BB9B16FC96DA2E217E6DD47432D7927F8EBCE9",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "013-Zweigläubiger Priester-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "014-Schmetterlingseffekt-x2-1.png",
+            "ID": "756E4ADA62F7F15B24C197F47E82395C",
+            "SourceID": "A28FD16814A77A8DFB305C7BF3689778F0144325",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "014-Schmetterlingseffekt-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "015-Talisman des Glaubens-x2-1.png",
+            "ID": "C8926D946965AF0E3D49893D1BC8112B",
+            "SourceID": "B87BC4B25CFEB7A30F883E0768951721D273A39C",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "015-Talisman des Glaubens-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "016-Das Schicksal manipulieren-x2-1.png",
+            "ID": "FE2772761D713F7B2EC7E64D7B761EF1",
+            "SourceID": "39EBBF6C66772ADDE656C104C7996CD17CEC83DA",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "016-Das Schicksal manipulieren-x2-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017-Verflucht-1.png",
+            "ID": "1C575159C9620D18B7C9BBC7E841268D",
+            "SourceID": "D64AC8160C52E0BF51389F1F52DFAAD46EE1F945",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "017-Verflucht-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "018-Rückkehr zu Die Grotte der Verzweiflung-1.png",
+            "ID": "CD49116D945DE5F8AAEEE68112E3B3A0",
+            "SourceID": "4B24BFFEF960FF7BC8C69E9B94EDF641CBCA5D29",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "018-Rückkehr zu Die Grotte der Verzweiflung-2.png",
+            "ID": "ADFA33AD236F8335A033EB4440B6EBF7",
+            "SourceID": "A3452AAE4E81EC0CDF671A66198BEBB9C1EB6BB9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "019-Die Grotte v2-1.png",
+            "ID": "DDA59713453DEBF60B509240CFAF423C",
+            "SourceID": "3C6C59831A4B854326BF058F7D006934239C6254",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "019-Die Grotte v2-2.png",
+            "ID": "58289AB46DE5A13CFD22972A0263DE73",
+            "SourceID": "C7437EFE6EAAF3041501556D7D7A796737DA3F84",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "020-In den Höhlen verirrt-x2-1.png",
+            "ID": "9726581CA56570E90329A8E75C89623A",
+            "SourceID": "0AEC96B4814E19B835FB60F7821AB7F3689DBD5D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "021-Beunruhigende Erinnerungen-x2-1.png",
+            "ID": "61B3F99CEA67E9C5DDF54066A26C592F",
+            "SourceID": "E3A9241BD3A4C2F1528652331E0A1BC50672A030",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "022-Rückkehr zu Das Verschwinden der Elina Harper-1.png",
+            "ID": "1F296F5F847107110A7681BAC3D27D29",
+            "SourceID": "CD51D547E40558AF250B83F52651615053702A5A",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "022-Rückkehr zu Das Verschwinden der Elina Harper-2.png",
+            "ID": "81D79DBAED4B531B1FC3C7D57A57AF15",
+            "SourceID": "8133E9D7BCC49B14C2D0418501E49DB594DE5C39",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "023-Die Suche nach Agent Harper v2-1.png",
+            "ID": "8B5862ECE5023B369FED382834E65338",
+            "SourceID": "E228278362DB1A6701B73FEDE2CD1DB02090A7C0",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "023-Die Suche nach Agent Harper v2-2.png",
+            "ID": "5D1495AFF9E88BCA5D323EB3B632C119",
+            "SourceID": "74C9142E1459A58F93BD258C5414169557EE2E42",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "024-Wachsendes Misstrauen-x2-1.png",
+            "ID": "B6DFAFB2B39195DDAA0D4B8E8D402540",
+            "SourceID": "C2D876971AF2632764A3E93F64E0D110797A0E7F",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "025-Gemma, Die Kleine-1.png",
+            "ID": "905B601A59F3C00D1BC8E547E6E0C3BD",
+            "SourceID": "C8D2B18343A2C4C168761A8E64A7F7834D3DBAE6",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "026-Ron Stalwick-1.png",
+            "ID": "EF5E0EC8923B30F2794890C0BC622285",
+            "SourceID": "26871C553730F642321DD36717628EC188000625",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "027-Roderick-1.png",
+            "ID": "1E4001853EAAD0FC2E847CB6E92E04A0",
+            "SourceID": "71CBF4D6E9F40BF4FB8DE7A81B458DB86A9412AF",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "028-Rückkehr zu Zu tief drin-1.png",
+            "ID": "589670C31BC0D3A5518CF6E77BC1A3C1",
+            "SourceID": "37030FAF5E1D644A70880F251927CBE17DB5936E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "028-Rückkehr zu Zu tief drin-2.png",
+            "ID": "0B058729CAB548D30D1805A75D07FA8E",
+            "SourceID": "94F7CD69797FF17EEA3742B47D5F4144F3530F00",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "029-Durch das Labyrinth v2-1.png",
+            "ID": "DD4151ECE339F8D52B8A8BF4DADF7BB6",
+            "SourceID": "8F9CC756D1AFAA231EB479C5A1C9D49D20E0E19B",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "029-Durch das Labyrinth v2-2.png",
+            "ID": "30B154329481180256C8DE8DA08C248D",
+            "SourceID": "220A36487BD66313284004976422B33193825047",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 4,
+          "front": {
+            "Name": "030-Innsmouths Einfluss-x4-1.png",
+            "ID": "6447DC36BB452280ADE4286F0EAE39F6",
+            "SourceID": "136C269143B69FA0187FE9918D45052E1F8CE9B1",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "030-Innsmouths Einfluss-x4-2.png",
+            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1141
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "031-Rückkehr zu Das Teufelsriff-1.png",
+            "ID": "68F4F919C412D188841AB62F9A9E1553",
+            "SourceID": "FB26C37F148F2F794493434491C5AF1C540E8E5E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "031-Rückkehr zu Das Teufelsriff-2.png",
+            "ID": "A86330ACA8AE833EDCE39CACD0FB1A28",
+            "SourceID": "CA75BD063078463139C689FF9AB256F76DBF0A1C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "032-Schrein der Hydra-1.png",
+            "ID": "457BB18971D1299D34CA17E5DF7552A9",
+            "SourceID": "4FFC49C8F788C899FA1BFAD2D8B37A7523D1E7CB",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "033-Höhlenschlund-1.png",
+            "ID": "737A31F5B8D1C1ED1022804FA6002A73",
+            "SourceID": "496EE20B96B97F64E2C9064D7A3B5363D8324841",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "033-Höhlenschlund-2.png",
+            "ID": "D0E7A671CC0BDA112967D2A5C8805C3B",
+            "SourceID": "0A515785B19B276A60176A6AC4532A053049B804",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "034-Fischkutter-1.png",
+            "ID": "E1182E2748B89968F73884870EDCC61B",
+            "SourceID": "53EE3C991CD2B29081091CA5FFA7E9FDADF3C7DE",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "035-Rückkehr zu Der reinste Schrecken-1.png",
+            "ID": "8EC0EC4F0A39B74B87234B975295CC17",
+            "SourceID": "85CF81C7DFA74C0C86B352D926BA27F481BEE7E3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "035-Rückkehr zu Der reinste Schrecken-2.png",
+            "ID": "CD24374DF6A3FAE840D7D719B4ADDB74",
+            "SourceID": "E92E6DF8B6C5A7B68C9A46ADD0CFB80E54490A8C",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "036-Schlammspur-1.png",
+            "ID": "DF28719F1830EF205782A6815F3E7FAA",
+            "SourceID": "B96373664B98B764F41F934FC6E37F9BB8F1A442",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "036-Schlammspur-2.png",
+            "ID": "07F9CC348A6B2149240F7139B365B863",
+            "SourceID": "0C8557B2339B4FE37FE4E693172F89A62DC709E1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037-Gerade Strecke-1.png",
+            "ID": "DF28719F1830EF205782A6815F3E7FAA",
+            "SourceID": "B96373664B98B764F41F934FC6E37F9BB8F1A442",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "037-Gerade Strecke-2.png",
+            "ID": "EFA5F30E0AB71888C4ACCD65E88E0A93",
+            "SourceID": "97CD65DEC978B9FDE4E5F203A3C188577CC076E9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "038-Schrottreif-x2-1.png",
+            "ID": "231481C0E475D2DBE4BF2B4E484F317B",
+            "SourceID": "24D4832BCFFC6894A36FEC86C68E7EA68C05B33D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "039-Rückkehr zu Ein Licht im Nebel-1.png",
+            "ID": "D7C6BC6BBFB7FC3A7078985223721ECC",
+            "SourceID": "2DA9222F7300684931F74E0CFF6B2610603B78B9",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "039-Rückkehr zu Ein Licht im Nebel-2.png",
+            "ID": "7A8069474A5CF8B8044F19159435D6AF",
+            "SourceID": "930046C553CF0E8F9EE638795C424B2A5DDD6F7E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "040-Schrecken am Falcon Point v2-1.png",
+            "ID": "9ACD2A1A5EB801BAAFDEA222F7ECEAF8",
+            "SourceID": "6739487B7548FE6E38CA0C0A6FA2AE09A38CD8AA",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "040-Schrecken am Falcon Point v2-2.png",
+            "ID": "AB674F365CB5E907B0EBA50B60CE5990",
+            "SourceID": "8915CE40D21E7199D62357114540721FBC69AA01",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "041-Zum Vermehren geboren-x2-1.png",
+            "ID": "8144B56514D01E14250EADFB0FF91EE9",
+            "SourceID": "5CB39D63B5E4ED8113057F87F46C2AA2B086BBE0",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 3,
+          "front": {
+            "Name": "042-Ringer der Tiefen Wesen-x3-1.png",
+            "ID": "822A847670595349BA5873C2875DB37D",
+            "SourceID": "D2B914251A39172556FBD9DA3D5430883AFC0226",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "043-Rückkehr zu In Dagons Reich-1.png",
+            "ID": "8BA349D21A567E950A11EEDEB4826166",
+            "SourceID": "394246F1ADE3C4F203CC64FA3DB2D34A139AABB5",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "043-Rückkehr zu In Dagons Reich-2.png",
+            "ID": "D62EB2159C298F70569C19EE0998BF53",
+            "SourceID": "BB0223E1382077C862BE8BAC4064940813A44593",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "044-Der zweite Eid v2-1.png",
+            "ID": "45532B1C0E35B4992701A167ABAEB2A3",
+            "SourceID": "61261AE6277ED98ADAEF94182286E1AF8EA315BE",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "044-Der zweite Eid v2-2.png",
+            "ID": "CC4B6082B4AFB66859C5E42FBF868C7B",
+            "SourceID": "AF3F65103B501F544A74D1B7462A74C5A1C4C72A",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "045-Durchgang in die Tiefen v2-1.png",
+            "ID": "B8822E605D7B8EDA3BB8691B5F3F5585",
+            "SourceID": "F5F5085517157DB19E5934235E63EFB93CA79F01",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "045-Durchgang in die Tiefen v2-2.png",
+            "ID": "4D1E1EC7BBFCA83F6EEEE874DB3E790F",
+            "SourceID": "44A7EDAD9E6464525375E0B99C1733A10457BCCD",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "046-Durchgang in die Tiefen v3-1.png",
+            "ID": "B8822E605D7B8EDA3BB8691B5F3F5585",
+            "SourceID": "F5F5085517157DB19E5934235E63EFB93CA79F01",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "046-Durchgang in die Tiefen v3-2.png",
+            "ID": "1FFD7608A2C2D5A1406A1F485F100FF0",
+            "SourceID": "86D1F64EC07D717E2A20FDF90A89AD9EAA1DD3E3",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "047-Er regt sich im Schlaf-1.png",
+            "ID": "08B4602849DC179BA1A18729870D0C2E",
+            "SourceID": "06BCC177CA9D39D8DD09FCCAFCE491193C10A437",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "048-Rückkehr zu In den Mahlstrom hinein-1.png",
+            "ID": "44EBAD23DB7B32C5885111E64EC61A10",
+            "SourceID": "10551763212DE22DB8B5719E15B11D3FCAA223D8",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "048-Rückkehr zu In den Mahlstrom hinein-2.png",
+            "ID": "92840D563E07B73FCC19D8613ED08F15",
+            "SourceID": "554496A38F9CA23AF490127B78255752413DCD30",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "049-Unter der Oberfläche v2-1.png",
+            "ID": "FF639C73777078A3BCF1D5D31DEFCE80",
+            "SourceID": "5D33655FDB7008DB349C4C223DDCD5C0DADB9D38",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "049-Unter der Oberfläche v2-2.png",
+            "ID": "37CEB4C19BD40F5C0DAACE47DBAC1CDD",
+            "SourceID": "B6BEC57A4D961C2B71B0A413F63C21BBAD111897",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "050-Himmelskonstellation v2-1.png",
+            "ID": "26E06340488E8DE1901A004FD8DD43C1",
+            "SourceID": "013EBD1BC307C2FFF5C8782F60DD4CA836566F37",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "050-Himmelskonstellation v2-2.png",
+            "ID": "6DDE3E450D54A0EE344FDBF459F5117B",
+            "SourceID": "13EDF2D24933B5AAB65B769177ACA26F51BF1889",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "051-Zurück in die Tiefen v2-1.png",
+            "ID": "CC3064340688418A50E4497C0F1FD892",
+            "SourceID": "486E66D1C74950C1D62A1BA059A69C204EC49C4A",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "051-Zurück in die Tiefen v2-2.png",
+            "ID": "D3A88D41FEE897A60799C64D454F1FA1",
+            "SourceID": "391E114315241078228DE35EBDCBA5954A0B3E9B",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "052-Präsenz des Vaters-1.png",
+            "ID": "DB9C6367EB2469E81CE5BBFB59F2DBEC",
+            "SourceID": "BD8FC14828191D6D2963C55AE34E571F82AD5284",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "053-Präsenz der Mutter-1.png",
+            "ID": "729B38F57BBCFD1AE628D58453B4372E",
+            "SourceID": "C306FC135EC55E131166575C55DF693BEF9421D9",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "054-Sie regen sich im Schlaf-x2-1.png",
+            "ID": "265481B4885A7B161348A1F1C90FA5F8",
+            "SourceID": "1D3EEB47CBA960A27CEC58723C46A4063A663247",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "055-Verbarrikadierte Tür-x2-1.png",
+            "ID": "126E4D68AD72C62ECFC4CD0318124D30",
+            "SourceID": "73494B085246AAFC78DB8C14C0EBB9C1B30CBD15",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "056-Das Körperlose-1.png",
+            "ID": "305E4D75950B8B4DA3424E83DD828041",
+            "SourceID": "7EC96795147C106C11807A64579AA56EB2C5B98E",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "057-Innsmouth-Dunst-x2-1.png",
+            "ID": "F666D595798EA41B2B1EDF279F88210A",
+            "SourceID": "1D9D4763665980231207383EC6F950F76A7F01C2",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "058-Sturmflut-x2-1.png",
+            "ID": "CB86142462FAE715CC3078B400F4F095",
+            "SourceID": "C6077C62CEC33A2CC68866D6ACB1A805256B16D6",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "059-Verfinsterung-x2-1.png",
+            "ID": "288F395D9209CA221E386651BAEDA461",
+            "SourceID": "6EAC9A33D2179441B6516DB32E068369C6D19C5E",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "060-Ruf des Meeres-x2-1.png",
+            "ID": "25EFFC875115CD300C18CE7DB10CD3F5",
+            "SourceID": "E8D8E838C836F74484ECC14BDF51E9B20648B876",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "061-Rollende Flut-x2-1.png",
+            "ID": "4A170BFCCED4E09D9F12D6D8C2ED86DF",
+            "SourceID": "9A96A51EDA1AE9BB74529BC59BEA97DEB494667D",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "062-Nach Luft ringen-x2-1.png",
+            "ID": "16A7830322B5989443094DD4B398F682",
+            "SourceID": "E3DCFBFF1364C9CAC470B1C700FAD7DF299781BA",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "063-Hinterhältiges Tiefes Wesen-x2-1.png",
+            "ID": "32D5F9CED1C1DDB795EC28EC6BCBBEA3",
+            "SourceID": "7739B849EC413ED34087F88C6179279F70630889",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "064-Von Tiefen Wesen verfolgt-x2-1.png",
+            "ID": "BBFB4B39C45D3C439D2837EEA40F974B",
+            "SourceID": "F0F9E897E27CB828BCE28ACCB48085EADB7352E5",
+            "Exp": "png",
+            "Width": 1650,
+            "Height": 2250
+          },
+          "back": {
+            "Name": "back.png",
+            "ID": "DEC0E760493EA41064B29B27F44AB53B",
+            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "065-Unterwasserhöhle-x2-1.png",
+            "ID": "B8822E605D7B8EDA3BB8691B5F3F5585",
+            "SourceID": "F5F5085517157DB19E5934235E63EFB93CA79F01",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "065-Unterwasserhöhle-x2-2.png",
+            "ID": "8017B770EC82A1F50E93F4354308DFF5",
+            "SourceID": "09EAC6EFCCB65D721B63A5D2A81B334E47D3679E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "066-Gezeitentümpel-x2-1.png",
+            "ID": "B8822E605D7B8EDA3BB8691B5F3F5585",
+            "SourceID": "F5F5085517157DB19E5934235E63EFB93CA79F01",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "066-Gezeitentümpel-x2-2.png",
+            "ID": "DA311B279E2207094E78627E22D0CE60",
+            "SourceID": "12FAADE40AAA03243DAFD224B0EEFEA201C502D1",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 2,
+          "front": {
+            "Name": "067-Unterirdischer Fluss-x2-1.png",
+            "ID": "B8822E605D7B8EDA3BB8691B5F3F5585",
+            "SourceID": "F5F5085517157DB19E5934235E63EFB93CA79F01",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "067-Unterirdischer Fluss-x2-2.png",
+            "ID": "F1D1D07429E42C4735EAF702A3483911",
+            "SourceID": "868E7C372757A7A6B874C63095F85A296419482E",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "c3d1c8dcb18b78020ba0d3a6ffa32d81f588024a23336d3f95d484953f23b183"
+}
