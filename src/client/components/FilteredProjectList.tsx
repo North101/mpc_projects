@@ -1,3 +1,5 @@
+import getUnicodeFlagIcon from 'country-flag-icons/unicode'
+import isoLangCodes from 'iso-lang-codes'
 import React, { Dispatch, SetStateAction, createContext, useContext, useEffect, useState } from 'react'
 import { Funnel, FunnelFill, SortDown } from 'react-bootstrap-icons'
 import Container from 'react-bootstrap/esm/Container'
@@ -8,10 +10,9 @@ import { ProjectInfo } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { AuthorIcon, AuthorIconFiltered, LanguageIcon, LanguageIconFiltered, StatusIcon, StatusIconFiltered, TagIcon, TagIconFiltered } from './Icons'
 import { ProjectList } from './ProjectList'
-import codes from 'iso-lang-codes'
 
 
-const locales = codes.locales()
+const locales = isoLangCodes.locales()
 
 declare global {
   interface Array<T> {
@@ -110,7 +111,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .distinct()
   .map(e => ({
     id: e,
-    label: locales[e],
+    label: `${getUnicodeFlagIcon(e.split('-')[1])} ${locales[e]}`,
     checked: e == 'en-US',
   }))
   .toSorted(sortByLabel)

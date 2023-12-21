@@ -16,6 +16,7 @@
     "body-parser": "^1.20.2",
     "bootstrap": "^5.3.1",
     "cheerio": "^1.0.0-rc.12",
+    "country-flag-icons": "^1.5.9",
     "dotenv-flow": "^4.0.1",
     "ejs": "^3.1.9",
     "env-var": "^7.4.1",
