@@ -97,7 +97,7 @@ export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .map(e => ({
     id: e,
     label: e,
-    checked: false,
+    checked: e == 'Project Available',
   }))
   .toSorted(sortByLabel)
 )
@@ -108,7 +108,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .map(e => ({
     id: e,
     label: e,
-    checked: false,
+    checked: e == 'English',
   }))
   .toSorted(sortByLabel)
 )
