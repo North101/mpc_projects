@@ -10,15 +10,16 @@ import projectValidator from './validation'
 
 interface ProjectWithFilename extends ProjectLatestMeta {
   filename: string
+  image: string | null
 }
 
 const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   filename: e.filename,
   name: e.name,
   description: e.description,
-  image: e.image ?? null,
   artist: e.artist ?? null,
   info: e.info ?? null,
+  image: e.image,
   website: e.website ?? null,
   cardsLink: e.cardsLink ?? null,
   scenarioCount: e.scenarioCount ?? 0,

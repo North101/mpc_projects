@@ -15,9 +15,6 @@
     "content": {
       "type": "string"
     },
-    "image": {
-      "type": ["string", "null"]
-    },
     "artist": {
       "type": ["string", "null"]
     },

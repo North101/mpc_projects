@@ -38,7 +38,6 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
-  image?: string | null
   artist?: string | null
   info?: string | null
   website?: string | null
@@ -75,6 +74,7 @@ export interface PartInfo {
 
 export interface ProjectInfo extends Omit<ProjectMeta, 'projectId' | 'hash'> {
   lang: string
+  image: string | null
   filename: string
   parts: PartInfo[]
 }
