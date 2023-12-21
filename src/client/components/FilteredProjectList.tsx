@@ -107,7 +107,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .distinct()
   .map(e => ({
     id: e,
-    label: ISO6391.getName(e),
+    label: ISO6391.getNativeName(e),
     checked: e == 'en',
   }))
   .toSorted(sortByLabel)
