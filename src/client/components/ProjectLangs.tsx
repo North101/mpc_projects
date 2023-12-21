@@ -1,3 +1,4 @@
+import ISO6391 from 'iso-639-1'
 import { useContext } from 'react'
 import Badge from 'react-bootstrap/esm/Badge'
 import Button from 'react-bootstrap/esm/Button'
@@ -24,7 +25,7 @@ const ProjectLang = ({ lang }: { lang: string }) => {
   }))
   return (
     <Button variant='link' className={`p-0 m-0 lang lang-${stringToClass(lang)}`} onClick={onClick}>
-      <Badge pill bg='secondary'>{lang}</Badge>
+      <Badge pill bg='secondary'>{ISO6391.getNativeName(lang)}</Badge>
     </Button>
   )
 }

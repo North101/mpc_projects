@@ -1,4 +1,3 @@
-import ISO6391 from 'iso-639-1'
 import { useState } from 'react'
 import { BoxArrowUpRight, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
@@ -141,7 +140,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           </Card.Link>}
         </Card.Body>
         <Card.Footer>
-          <ProjectLangs lang={ISO6391.getNativeName(project.lang)} />
+          <ProjectLangs lang={project.lang} />
           <ProjectStatuses statuses={project.statuses} />
           <ProjectTags tags={project.tags} />
         </Card.Footer>
