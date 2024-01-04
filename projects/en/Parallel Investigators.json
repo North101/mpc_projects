@@ -32,7 +32,7 @@
     "Rework"
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2023-11-18T21:39:08.848Z",
+  "updated": "2024-01-04T21:15:01.300Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -1780,7 +1780,6 @@
       "name": "Parallel Monterey Jack",
       "cards": [
         {
-          "id": "6dad04e9-3ea8-4659-9030-bcf2a16f8f68",
           "count": 1,
           "front": {
             "Name": "062 Parallel Monterey Jack-1.png",
@@ -1800,7 +1799,6 @@
           }
         },
         {
-          "id": "637004b9-a42f-43d5-895b-708201ee0e78",
           "count": 1,
           "front": {
             "Name": "063 Advanced Trusty Bullwhip-1.png",
@@ -1820,7 +1818,6 @@
           }
         },
         {
-          "id": "9f433e54-276e-488d-a298-734c33586bfe",
           "count": 1,
           "front": {
             "Name": "064 Advanced Buried Secrets-1.png",
@@ -1845,7 +1842,6 @@
       "name": "Relics of the Past (Scenario for Parallel Monterey)",
       "cards": [
         {
-          "id": "08b45d3b-34e2-418a-834e-a7694bf0c814",
           "count": 1,
           "front": {
             "Name": "065 Relics of the Past-1.png",
@@ -1865,7 +1861,6 @@
           }
         },
         {
-          "id": "f9994130-2399-477f-941d-0ca6f080b32d",
           "count": 1,
           "front": {
             "Name": "066 Agenda 1-1.png",
@@ -1885,7 +1880,6 @@
           }
         },
         {
-          "id": "3f04d0bc-8475-4fb5-9e82-f20fa55227bd",
           "count": 1,
           "front": {
             "Name": "067 Agenda 2-1.png",
@@ -1905,7 +1899,6 @@
           }
         },
         {
-          "id": "9c41e433-71c8-4178-8b96-ad5eac0005d4",
           "count": 1,
           "front": {
             "Name": "068 Act 1-1.png",
@@ -1925,7 +1918,6 @@
           }
         },
         {
-          "id": "152b5cd9-64fa-44f6-8b98-1a804828e7fe",
           "count": 1,
           "front": {
             "Name": "069 Act 2-1.png",
@@ -1945,7 +1937,6 @@
           }
         },
         {
-          "id": "364129d0-cbc3-4918-a0b9-81d93b5796a9",
           "count": 1,
           "front": {
             "Name": "070 Secret Passage-1.png",
@@ -1965,7 +1956,6 @@
           }
         },
         {
-          "id": "55771e86-7c9e-45e0-8208-22d339bdbae2",
           "count": 1,
           "front": {
             "Name": "071 Inner Chamber-1.png",
@@ -1985,7 +1975,6 @@
           }
         },
         {
-          "id": "0ef2c032-8459-4b1a-855d-4adee2f21aab",
           "count": 1,
           "front": {
             "Name": "072 Ancient Hall-1.png",
@@ -2005,7 +1994,6 @@
           }
         },
         {
-          "id": "942d1a63-290c-4bf2-8ec5-752f7a6fd56d",
           "count": 1,
           "front": {
             "Name": "073 Jade Crocodile-1.png",
@@ -2025,7 +2013,6 @@
           }
         },
         {
-          "id": "cf42dcf8-351d-458e-bc16-e7b39856e09f",
           "count": 1,
           "front": {
             "Name": "074 Obsidian Jaguar-1.png",
@@ -2045,7 +2032,6 @@
           }
         },
         {
-          "id": "226a0ce4-5b50-4ea5-afc9-8fe6f478ff26",
           "count": 1,
           "front": {
             "Name": "075 Citrine Snake-1.png",
@@ -2065,7 +2051,6 @@
           }
         },
         {
-          "id": "38229103-c1b1-4f93-8fa0-37e4873f5cac",
           "count": 1,
           "front": {
             "Name": "076 Turquoise Eagle-1.png",
@@ -2085,7 +2070,6 @@
           }
         },
         {
-          "id": "13520f88-4415-4407-981c-b4bd77188721",
           "count": 1,
           "front": {
             "Name": "077 Vengeant Past-1.png",
@@ -2107,5 +2091,5 @@
       ]
     }
   ],
-  "hash": "e4fcd0d7c9eb06507e0fbd072f7724b58a9d20c388eaf587cd39d178c4e238fc"
+  "hash": "b20ad8444b203dd56c02a60819cfa295a6e2636fde8e08f2c73f9c66cb52c143"
 }
