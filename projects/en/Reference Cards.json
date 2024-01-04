@@ -1,0 +1,92 @@
+{
+  "projectId": [
+    "E343AC9D0D0F47B4DBD023018FDF9C9DC84E2E678CC266E4AEF70CAE6F833808C6033AE974A3BEF9"
+  ],
+  "name": "Reference Cards",
+  "description": "Three double-sided reference cards detailing the phases of a round, skill test timing, types of actions, the initiation sequence, and a number of tricky or sometimes misunderstood rules and terms, such as everyone’s favorite, “as if.”",
+  "artist": null,
+  "info": null,
+  "website": "https://github.com/Antimarkovnikov/AHC/wiki/Reference-Cards",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 0,
+  "authors": [
+    "Antimarkovnikov"
+  ],
+  "statuses": [
+    "Project Available",
+    "Finished"
+  ],
+  "tags": [
+    "Add-On"
+  ],
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2023-12-02T23:13:45.084Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Reference Cards",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "01 Phase-a.png",
+            "ID": "8E37F52E4A2875A14F4F976B277EB7CC",
+            "SourceID": "B813EE01F8D84F016E93D5D9C52988974E8E6F37",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          },
+          "back": {
+            "Name": "01 Phase-b.png",
+            "ID": "D31C836850B370AB36468713D7B5C5E2",
+            "SourceID": "4C1BF58D5CAA0B5DAB75A41A7DCD5BA286E377D2",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "02 Skill-a.png",
+            "ID": "C88D75B6A5E2DDCB0698EFCA1E3AF0A2",
+            "SourceID": "B5DA0E128E397D753C61322550344D10F71906D7",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          },
+          "back": {
+            "Name": "02 Skill-b.png",
+            "ID": "C0BB2AEFF9F0B31AF69E5FD03C5FA7DB",
+            "SourceID": "268ED12146B14BF43F0A31A86B76F8CC3B0EE553",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "03 Initiation-a.png",
+            "ID": "39ECF1B3F077449A327B9327048E2BE2",
+            "SourceID": "05F1AC188552CEE03BD19602AB184239B8454A67",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          },
+          "back": {
+            "Name": "03 Initiation-b.png",
+            "ID": "20EAC4DA3D4774EAEF60002037815781",
+            "SourceID": "23713BE4E99878A230707D929C6F1406F78C64BE",
+            "Exp": "png",
+            "Width": 992,
+            "Height": 1385
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "26d356668b7853892341400d39000a4d2e99cacb77116ba609cefd56c708ccee"
+}

@@ -1,0 +1,632 @@
+{
+  "projectId": [
+    "3F9067BE603A9DD78989D1014F28C98BAF4A3ECB1618E04997356C60967C8DDA69293FB08F2E1F71",
+    "3CF6F09F048A2D7DE4EA6EFA4381EF99356CB424C5BDA7859470AE2AD6FFA87F93E1001CE36DDF34",
+    "E244CED65BF5E61EC2D87763EDD740BBABE299D7F94C1BF70AA9F44E05EA74146F71547939F1205D"
+  ],
+  "name": "Parallel Mix & Match",
+  "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
+  "artist": "Magali Villeneuve",
+  "info": null,
+  "website": null,
+  "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
+  "scenarioCount": 0,
+  "investigatorCount": 8,
+  "authors": [
+    "Fantasy Flight Games"
+  ],
+  "statuses": [
+    "Ongoing",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)",
+    "Rework"
+  ],
+  "created": "2020-05-05T04:45:26.681Z",
+  "updated": "2023-11-03T18:07:00.804Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Core Mix & Match, original art",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Daisy Walker || front std back-a.png",
+            "ID": "569BCE70F33EC23D09BEB478419019F6",
+            "SourceID": "E6F6F801B921A9F5A3DD9C02922F5BE6C2AAEBFB",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "001 Daisy Walker || front std back-b.png",
+            "ID": "42D381121969338EB0C17E37782387D4",
+            "SourceID": "62AD17EA50B8B6B6CEEDA8376515DC223F24529D",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Daisy Walker std front || back-a.png",
+            "ID": "0ACB36F855FD7E91D8066E6E7CACAB67",
+            "SourceID": "375D7DBFEDEDA4F375A8ACFAEB09369B3A9ADE19",
+            "Exp": "png",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "001 Daisy Walker std front || back-b.png",
+            "ID": "898EF467ED29AA160D675BC0E4289291",
+            "SourceID": "6F0ED27CBAC09FAADA6C34DC0352CCDF9B7ADDF2",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "008 Skids O'Toole || front std back-a.png",
+            "ID": "71FD5B049780C6B8FEE01D81DFE0B123",
+            "SourceID": "D6BA4AF0491184518FAA966AFFFCA1408A5AF5C6",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "008 Skids O'Toole || front std back-b.png",
+            "ID": "B743320C159D38420A5AC6AB2096EDA6",
+            "SourceID": "2DFDFBEE70FDBB4F8CDF3F4DDBEFDB67BEB56447",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "008 Skids O'Toole std front || back-a.png",
+            "ID": "6A2661B1BD2583F5F0CE9A92E9A28F5D",
+            "SourceID": "DD0FC66ECB285540DA0C4B957E67C27E50EC03EF",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "008 Skids O'Toole std front || back-b.png",
+            "ID": "04B254B12A72F2BF18BE47AFA2EF702B",
+            "SourceID": "85D5E41DA2BB7D47D6A893FFE4C119FB44082233",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017 Agnes Baker || front std back-a.png",
+            "ID": "45AF70C4DCFBC01E48162F7BD28F9638",
+            "SourceID": "9C5698385080D23CC38712DD00DD4F8C1CF1ED3C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "017 Agnes Baker || front std back-b.png",
+            "ID": "967A044D013C33F9C7754C80A6719749",
+            "SourceID": "B646B846B601CBD774B59109C8C635DFC019D5F6",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017 Agnes Baker std front || back-a.png",
+            "ID": "FA985D5AA46A295D98CF1003A5F2F081",
+            "SourceID": "D18056D232D65B6D2580F40FB865C9457DDF9A7B",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "017 Agnes Baker std front || back-b.png",
+            "ID": "556C065B98494AFE4F21B869FE5CB536",
+            "SourceID": "065CF904CE44E34BC162F80D74FC21D1B8E89B5E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "024 Roland Banks || front std back-a.png",
+            "ID": "1AF7AFC5FAEEB029F072CF6238D1560B",
+            "SourceID": "0D07F4BAF6B94F759080477AEFAAF7A77E848C12",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "024 Roland Banks || front std back-b.png",
+            "ID": "47DFD7CE5C4A9A05B402167708919326",
+            "SourceID": "F27FAA1AD59E11D20DF4014C3B222633F6FC8D82",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "024 Roland Banks std front || back-a.png",
+            "ID": "C12F65EFB36059F643F306B75DEDC0CC",
+            "SourceID": "CAE4863718A1737CC715DC2ED2DF7486E02D8131",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "024 Roland Banks std front || back-b.png",
+            "ID": "6F586D65C5F168FBFA28AFA24F832989",
+            "SourceID": "E110088212CE53954B896FE39734312932700AAB",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams || front std back-a.png",
+            "ID": "225B7DA7213D87E4EBA4B233526C8947",
+            "SourceID": "10020BFD0EF8201ED238D84C94A0A30CBC4C7562",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "037 Wendy Adams || front std back-b.png",
+            "ID": "8F80D6BA9431FD60509381EA7F728387",
+            "SourceID": "30CFD98562B1C3BA7C0EAF9C56A16BB27F22D7E5",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1159
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams std front || back-a.png",
+            "ID": "5969D056DCE14EC7772182C0372F2EDD",
+            "SourceID": "E4980650C721E8121E39553ECDFD99876AD7ED21",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1159
+          },
+          "back": {
+            "Name": "037 Wendy Adams std front || back-b.png",
+            "ID": "D7B93E7CC813AB4DD5DAEE3BE6B739B2",
+            "SourceID": "86F21C63210FBD7C20493CFC2120860CC0B37B72",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        }
+      ]
+    },
+    {
+      "name": "Core Mix & Match, revised core art",
+      "enabled": false,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Daisy Walker || front std back rev core art-a.png",
+            "ID": "5C7802A1353CAAAD43D37BF27C08A7B5",
+            "SourceID": "9EF8D31757E1C3A575142D941A3D2458E55A5B22",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "001 Daisy Walker || front std back rev core art-b.png",
+            "ID": "F027461AB2572D79B352A083EE139DA9",
+            "SourceID": "61822F453E1D7BA754BD5332F2212B9330A30142",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Daisy Walker std front || back rev core art-a.png",
+            "ID": "B351072BA9349C6B259432A8FB799692",
+            "SourceID": "75248506B80659590410ECC5991221374379FE05",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "001 Daisy Walker std front || back rev core art-b.png",
+            "ID": "03B128A2609F04B1153C182DB8D03BFD",
+            "SourceID": "6A9F4F817D7EE4CAAD5014BBA3BC5A857C39596C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "008 Skids O'Toole || front std back rev core art-a.png",
+            "ID": "88AA6C42546A4649D8B2343EF6F325F2",
+            "SourceID": "7C969FD94AFFC2C50F6ABE13E62C999B2757B7AE",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "008 Skids O'Toole || front std back rev core art-b.png",
+            "ID": "92577D82CD642033BAF76E717FA0E9DD",
+            "SourceID": "A221ADF3A48BBA9E812C166DC08A784AA5858694",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "008 Skids O'Toole std front || back rev core art-a.png",
+            "ID": "E03F22CFB58677E404BE3ED243543260",
+            "SourceID": "499AC010C484DE3EC748B22F5A35FC527C4694EC",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "008 Skids O'Toole std front || back rev core art-b.png",
+            "ID": "65CE4705B4A5EB61F3FF4FAC6D311A9A",
+            "SourceID": "C168B583598D51150958B93D61039030362256BA",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017 Agnes Baker || front std back rev core art-a.png",
+            "ID": "A85496F1A1207F08587E9AB07034B254",
+            "SourceID": "06252F91221EC223900CCEA187C5DF01F7460D56",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "017 Agnes Baker || front std back rev core art-b.png",
+            "ID": "F52D3D63815F236AE9353059F1B477ED",
+            "SourceID": "BBF01C0E94B53565129E82CDB497B7BBE82BDAEA",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "017 Agnes Baker std front || back rev core art-a.png",
+            "ID": "B0234A47167BFAB7EEDC354246D1070E",
+            "SourceID": "0E2903177A57C6667AE73892FD9FEDCB10EC2226",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "017 Agnes Baker std front || back rev core art-b.png",
+            "ID": "1688D4A14DA40CDDADB67361DB7C7A4D",
+            "SourceID": "1842A617F585EA06735B6948AD2F1B952C634F7D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "024 Roland Banks || front std back rev core art-a.png",
+            "ID": "F5140DB30B582BC61B240111074F93CF",
+            "SourceID": "7CF0674DAD98EE9738DF09E59A009C0EE962613C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "024 Roland Banks || front std back rev core art-b.png",
+            "ID": "191BD0D6ACC5438C62020A15464DC31E",
+            "SourceID": "BD39C51E58AD533BA1E53E539E83EAD8C020AF6C",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "024 Roland Banks std front || back rev core art-a.png",
+            "ID": "692B9505F2D64AEE96BA86C229A6D739",
+            "SourceID": "CB833F8A30CCC3ECE92C07453C7AEA7BD1368281",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "024 Roland Banks std front || back rev core art-b.png",
+            "ID": "F1026A035C67F24EEB1BDE6DE700BD84",
+            "SourceID": "70B249B005006230EF93911BCCDD0AB2FC430D4F",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams || front std back rev core art-a.png",
+            "ID": "57C01D0890EEC7E922CEF319B1C00C10",
+            "SourceID": "3E1CE07DD020EEEAA135B821F3F7A214B682436E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "037 Wendy Adams || front std back rev core art-b.png",
+            "ID": "EA61A1C16C73511CC4962C1D6D609E50",
+            "SourceID": "4ABC7BD0196902638EB933AF52EF93958DC10371",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams std front || back rev core art-a.png",
+            "ID": "69D3677811540883E159799829B4D818",
+            "SourceID": "4EC90DDB1E694234637F2ED3EEB4063EA2051122",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          },
+          "back": {
+            "Name": "037 Wendy Adams std front || back rev core art-b.png",
+            "ID": "A19FEC2D66A4F97310F5409FC7447AC1",
+            "SourceID": "3F54B628FC12DD6CB181123684714C7AD9C7C244",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1174
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wendy Adams Mix & Match, Hard Knocks alt-art",
+      "enabled": false,
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams || front std back hard knocks art-a.png",
+            "ID": "B9E59361B3D66A9AB2D691101AC68441",
+            "SourceID": "97968FFE694872D1883D194AAE2B7CB1F340052D",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "037 Wendy Adams || front std back hard knocks art-b.png",
+            "ID": "ECD380BA9B4D8A9DDF114D71D262BB9D",
+            "SourceID": "9FEF689D812E4B158C007757196C27D4B39EA2EE",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "037 Wendy Adams std front || back hard knocks art-a.png",
+            "ID": "17755E11D82346A3F2D45C639329F899",
+            "SourceID": "08958608B6939D62B2D189F41ABC8D3CB7D9695E",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          },
+          "back": {
+            "Name": "037 Wendy Adams std front || back hard knocks art-b.png",
+            "ID": "0A0F420ED5B0F843299CCC32B4E6FBDA",
+            "SourceID": "3323077D8AB36ED5E3A4F37BCE5D238070E673F9",
+            "Exp": "png",
+            "Width": 850,
+            "Height": 1156
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dunwich Mix & Match",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "046 Ashcan Pete || front std back-1.png",
+            "ID": "576351A416C2E9DC5E8B3635955F9F1A",
+            "SourceID": "2F25A4D36E867E76D7007DBB50E0AB8A229346D7",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "046 Ashcan Pete || front std back-2.png",
+            "ID": "3C10C445F6B685A74B577BF6A9DCDCFD",
+            "SourceID": "73D038E7ACEE24618F9787784588C4E92CA012B8",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "046 Ashcan Pete std front || back-1.png",
+            "ID": "5A4B11772A70E5088AAB13707A843E36",
+            "SourceID": "2ABE019551EC9B06B91016D5A5C4AF2EFC04C3FA",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "046 Ashcan Pete std front || back-2.png",
+            "ID": "CBB51CFD445010A6A9E3BC84083729DF",
+            "SourceID": "A2481EA6497EFA90BCC73515BC38B487C0BD377E",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "049 Jim Culver || front std back-1.png",
+            "ID": "A52F25857A0A1A386DF82094D8C6DA43",
+            "SourceID": "7F913E9320C2F7A6400BF12DCCC517BBF45A93FE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "049 Jim Culver || front std back-2.png",
+            "ID": "1D9CCA3BF7157F3DA9E50F260F8B8182",
+            "SourceID": "B24BB81D9F73EE085D7B79C016EEFD6223CA53B2",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "049 Jim Culver std front || back-1.png",
+            "ID": "CC4F74770A4927611F302B08347679FA",
+            "SourceID": "5D4D92B665853B2487233D1055533B46E8AC1976",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "049 Jim Culver std front || back-2.png",
+            "ID": "1717216942C98F3C683E1B17DFB6719D",
+            "SourceID": "719E49A7FC9F4EE80653BB9369D77F99BB8876ED",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "059 Zoey Samaras || front std back-1.png",
+            "ID": "7BBF34B124D07D87378EE60C8A406451",
+            "SourceID": "58D56982C8CC9DB36833EBD126FD0022F5C3D37C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "059 Zoey Samaras || front std back-2.png",
+            "ID": "ADF42B114274C07ABDD7123F58C34EE2",
+            "SourceID": "DF64366623CAD5E18BCC7AC131A02B5CA81B02CE",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "059 Zoey Samaras std front || back-1.png",
+            "ID": "DCED30915D617814C67DD82BEE10ACFA",
+            "SourceID": "2BF74BC303EC16FBE73B0811C528ADB6410DD3C1",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "059 Zoey Samaras std front || back-2.png",
+            "ID": "DE7BD475C63709B08462384115F99210",
+            "SourceID": "7B2B540F833A0EAE70F6E60B091842C33D89F47D",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Monterey Mix & Match",
+      "cards": [
+        {
+          "id": "1ca6b91a-1c2b-4094-a163-895c9536eb76",
+          "count": 1,
+          "front": {
+            "Name": "062 Monterey Jack || front std back-1.png",
+            "ID": "47411DD54E146A25EB1EE7F4E23AC2DC",
+            "SourceID": "C084648336551FA186729E3FEC22948D8064F9AB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "062 Monterey Jack || front std back-2.png",
+            "ID": "39421D1AE6AB9924A76C694DC48BBE37",
+            "SourceID": "099B0F489E2015202E840795CDBB4BAD19875B3A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "id": "b0f1a09c-bb9f-4d5d-8af4-8837b856bf6e",
+          "count": 1,
+          "front": {
+            "Name": "062 Monterey Jack std front || back-1.png",
+            "ID": "B90B7438780F368C25F9916AC9ED9CB1",
+            "SourceID": "FDBB446780259929DB8587D72A3E6A0442A494E1",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "062 Monterey Jack std front || back-2.png",
+            "ID": "7005574A41B8D1B75E6891AB05723872",
+            "SourceID": "A97B3D0BA1CF4B43C7268B333C048753D82C162C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "0df293b33879437e998e548c2271f0e654da97ce0d082f6721935131d315b27b"
+}

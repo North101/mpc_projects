@@ -38,17 +38,15 @@ export interface ProjectMeta {
   projectId: string[]
   name: string
   description: string
-  image?: string | null
   artist?: string | null
   info?: string | null
   website?: string | null
   cardsLink?: string | null
-  scenarioCount?: number
-  investigatorCount?: number
+  scenarioCount: number
+  investigatorCount: number
   authors: string[]
   statuses: string[]
   tags: string[]
-  lang?: string | null
   created: string
   updated: string
   hash: string
@@ -75,6 +73,8 @@ export interface PartInfo {
 }
 
 export interface ProjectInfo extends Omit<ProjectMeta, 'projectId' | 'hash'> {
+  lang: string
+  image: string | null
   filename: string
   parts: PartInfo[]
 }
