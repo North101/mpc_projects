@@ -2,7 +2,8 @@
   "projectId": [
     "3F9067BE603A9DD78989D1014F28C98BAF4A3ECB1618E04997356C60967C8DDA69293FB08F2E1F71",
     "3CF6F09F048A2D7DE4EA6EFA4381EF99356CB424C5BDA7859470AE2AD6FFA87F93E1001CE36DDF34",
-    "E244CED65BF5E61EC2D87763EDD740BBABE299D7F94C1BF70AA9F44E05EA74146F71547939F1205D"
+    "E244CED65BF5E61EC2D87763EDD740BBABE299D7F94C1BF70AA9F44E05EA74146F71547939F1205D",
+    "144851010B11AAF2AAAF9D4259B24F3944A8C565766FB9FE83DDCC9C67292AE36CB0C3E130A4BA1D"
   ],
   "name": "Parallel Mix & Match",
   "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
@@ -24,7 +25,7 @@
     "Rework"
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2023-11-03T18:07:00.804Z",
+  "updated": "2024-01-04T21:15:01.316Z",
   "version": 2,
   "code": "C380050185D1C1AF",
   "parts": [
@@ -581,7 +582,50 @@
           }
         }
       ]
+    },
+    {
+      "name": "Monterey Mix & Match",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "062 Monterey Jack || front std back-1.png",
+            "ID": "47411DD54E146A25EB1EE7F4E23AC2DC",
+            "SourceID": "C084648336551FA186729E3FEC22948D8064F9AB",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "062 Monterey Jack || front std back-2.png",
+            "ID": "39421D1AE6AB9924A76C694DC48BBE37",
+            "SourceID": "099B0F489E2015202E840795CDBB4BAD19875B3A",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        },
+        {
+          "count": 1,
+          "front": {
+            "Name": "062 Monterey Jack std front || back-1.png",
+            "ID": "B90B7438780F368C25F9916AC9ED9CB1",
+            "SourceID": "FDBB446780259929DB8587D72A3E6A0442A494E1",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          },
+          "back": {
+            "Name": "062 Monterey Jack std front || back-2.png",
+            "ID": "7005574A41B8D1B75E6891AB05723872",
+            "SourceID": "A97B3D0BA1CF4B43C7268B333C048753D82C162C",
+            "Exp": "png",
+            "Width": 822,
+            "Height": 1122
+          }
+        }
+      ]
     }
   ],
-  "hash": "0df293b33879437e998e548c2271f0e654da97ce0d082f6721935131d315b27b"
+  "hash": "9b18edf808315becdf32e78717d9488e0fad47fb7ffba5cf13cf362729ae151b"
 }
