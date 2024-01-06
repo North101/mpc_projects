@@ -98,7 +98,7 @@ const loadImage = async (baseUrl: string, cookie: string, projectId: string, ima
   return false
 }
 
-const getCookie = () => process.env.REFRESH_PROJECTS_COOKIE ? `PrinterStudioCookie=${process.env.REFRESH_PROJECTS_COOKIE}` : null
+const getCookie = () => process.env.REFRESH_PROJECTS_COOKIE ? `__pcunck=${process.env.REFRESH_PROJECTS_COOKIE}` : null
 
 const login = async (baseUrl: string, cookie: string) => {
   const r = await fetch(new URL('/design/dn_temporary_designes.aspx', baseUrl), {
