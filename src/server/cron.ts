@@ -47,7 +47,7 @@ const readProject = async (filename: string): Promise<string[]> => {
 }
 
 const readProjectList = async (projectsDir: string) => {
-  const allProjects = await glob(path.resolve(projectsDir, '*.json'))
+  const allProjects = await glob(path.resolve(projectsDir, '**/*.json'))
   return await Promise.all(allProjects.map(readProject)).then(e => e.flatMap(e => e))
 }
 
@@ -140,11 +140,8 @@ const refreshProjects = async (baseUrl: string) => {
 const refreshCookie = async (baseUrl: string) => {
   const cookie = getCookie()
   if (cookie && await login(baseUrl, cookie)) {
-    console.log(`Invalid cookie: ${cookie}`)
     return
-  }
-
-  if (process.env.REFRESH_PROJECTS_CODE) {
+  } else if (process.env.REFRESH_PROJECTS_CODE) {
     return
   }
 
