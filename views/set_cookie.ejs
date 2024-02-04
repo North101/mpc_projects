@@ -38,6 +38,10 @@
       margin-bottom: 0.5rem;
     }
 
+    img {
+      max-width: 100%;
+    }
+
     pre[class*="language-"] {
       position: relative;
       overflow: auto;
@@ -76,16 +80,20 @@
     <input type="submit" value="Submit">
   </form>
   <div class="instructions">
+    <p><img src="/assets/images/mpc-cookie-manual.png" /></p>
     <h3>To get the cookie:</h3>
     <ol>
       <li>Log into the Arkham Horror Homebrew MPC account.</li>
-      <li>Open developer tools in your browser and go to the Console tab.</li>
-      <li>Paste the following code into the console:<br />
+      <li>Open developer tools in your browser and go to the <strong>Application</strong> tab.</li>
+      <!--<li>Paste the following code into the console:<br />
         <pre>
 <code class="language-javascript">copy(Object.fromEntries(document.cookie.split("; ").map(v => v.split('=',2))).PrinterStudioCookie)</code>
           </pre>
       </li>
-      <li>This will copy the cookie to your clipboard.</li>
+      <li>This will copy the cookie to your clipboard.</li>-->
+      <li>In the left panel, expand <strong>Cookies</strong> and click &ldquo;https://www/makeplayingcards.com&rdquo;</li>
+      <li>Search for <code>__p</code> and click on <code>__pcunck</code>.</li>
+      <li>Copy the <strong>Cookie Value</strong> displayed at the bottom of the </li>
       <li>Paste the cookie into the input above and submit.</li>
       <li>Thank you for fighting the good fight to keep homebrew printing available!</li>
     </ol>
