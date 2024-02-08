@@ -3,7 +3,7 @@ import express from 'express'
 import cron from 'node-cron'
 import ViteExpress from 'vite-express'
 import config from './config.ts'
-import { login, updateEnv } from './cron.ts'
+import { formatCookie, login, updateEnv } from './cron.ts'
 
 const app = express()
 
@@ -35,7 +35,7 @@ app.post('/set_cookie', async (req, res) => {
 
   task.now()
 
-  if (await login(config.refreshProjects!.baseUrl, cookie)) {
+  if (await login(config.refreshProjects!.baseUrl, formatCookie(cookie))) {
     return res.render('set_cookie_success')
   } else {
     return res.render('set_cookie_failed')
