@@ -143,11 +143,9 @@ const refreshCookie = async (baseUrl: string) => {
   const cookie = getCookie()
   if (cookie && await login(baseUrl, cookie)) {
     return
-  } else if (process.env.REFRESH_PROJECTS_CODE) {
-    return
   }
 
-  const code = uuidv4()
+  const code = process.env.REFRESH_PROJECTS_CODE ?? uuidv4()
   await updateEnv({
     REFRESH_PROJECTS_CODE: code,
   })
@@ -189,7 +187,7 @@ if (config.refreshProjects) {
     scheduled: config.refreshProjects.scheduled,
     runOnInit: config.refreshProjects.immediatly,
   })
-  cron.schedule('*/5 * * * *', () => refreshCookie(config.refreshProjects!.baseUrl), {
+  cron.schedule('0 0 * * *', () => refreshCookie(config.refreshProjects!.baseUrl), {
     name: 'refreshCookie',
     scheduled: config.refreshProjects.scheduled,
     runOnInit: config.refreshProjects.immediatly,
