@@ -66,8 +66,9 @@ export const HelpFaq = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey='#contact'>
-          <Accordion.Header as='h3' id='contact'><span>Who should I contact if I need help, find an error in one of the posted projects, or have suggestions to improve these instructions?</span></Accordion.Header>
+          <Accordion.Header as='h3' id='contact'><span>What should I do or who should I contact if I need help, find an error in one of the posted projects, or have suggestions to improve these instructions?</span></Accordion.Header>
           <Accordion.Body>
+            <p>You can cut out the middle(wo)man by <a href="https://github.com/North101/mpc_projects/issues/new">filing an issue on Github!</a></p>
             <p>Coldtoes (she/her) can be found (in rough order of preference) as <strong>@coldtoes</strong> on the MythosBusters Discord server in the <strong>#bling-your-game channel</strong>, as <a href='https://discord.com/users/10coldtoes'>10coldtoes</a> through Discord DM, as <a href='https://www.reddit.com/user/coldt0es'>u/coldt0es</a> on <a href='https://www.reddit.com/r/arkhamhorrorlcg/'>r/arkhamhorrorlcg</a>, and as <a href='https://boardgamegeek.com/user/coldtoes'>coldtoes</a> on BoardGameGeek.</p>
           </Accordion.Body>
         </Accordion.Item>
