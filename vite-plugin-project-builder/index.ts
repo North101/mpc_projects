@@ -1,6 +1,7 @@
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
 //import mpcData from 'mpc_api/data'
+import envVar from 'env-var'
 import path, { basename, dirname, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
@@ -91,7 +92,7 @@ const getProjectImage = async (filename: string) => {
   }
 }
 
-const readProject = async (projectsDir: string, filename: string): Promise<ProjectWithFilename | null> => {
+const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
   const project = parseProject(await readJson(filename))
   if (project == null) {
     console.log(relative(resolve(projectsDir), filename))
@@ -105,9 +106,7 @@ const readProject = async (projectsDir: string, filename: string): Promise<Proje
     project.code,
     project.parts,
   ])
-  // change updated const to run build without updating date
-  //const updated = project.updated
-  const updated = hash == project.hash ? project.updated : new Date().toISOString()
+  const updated = !updateProject || hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,
     filename: relative(resolve(projectsDir), filename),
@@ -117,10 +116,10 @@ const readProject = async (projectsDir: string, filename: string): Promise<Proje
   }
 }
 
-const readProjectList = async (projectsDir: string) => {
+const readProjectList = async (projectsDir: string, updateProjects: boolean) => {
   const allProjects = await glob(resolve(projectsDir, '*/*.json'))
   return await Promise
-    .all(allProjects.map((filename) => readProject(projectsDir, filename)))
+    .all(allProjects.map((filename) => readProject(projectsDir, filename, updateProjects)))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
 }
 
@@ -131,6 +130,7 @@ interface ProjectsBuilderOptions {
 
 const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
+  const updateProjects = envVar.get('UPDATE_PROJECTS').default('true').asBool()
 
   return {
     name: 'vite-plugin-build-projects',
@@ -139,7 +139,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     },
     async writeBundle() {
       const outDir = viteConfig.build.outDir
-      const projectList = await readProjectList(projectsDir)
+      const projectList = await readProjectList(projectsDir, updateProjects)
       // write projects.json
       await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       // write all project json files
@@ -175,7 +175,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       server.middlewares.use(async (req, res, next) => {
         if (req.url == `/${projectsFilename}`) {
           // /projects.json
-          const projectList = await readProjectList(projectsDir)
+          const projectList = await readProjectList(projectsDir, updateProjects)
           const projectsJson = projectList.map(mapProjectInfo)
           return res.writeHead(200, {
             'Content-Type': 'application/json',
@@ -185,7 +185,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           // /projects/*.json
           if (req.url.endsWith('.json')) {
             const filename = path.resolve(projectsDir, path.resolve(decodeURI(req.url).substring(1)))
-            const project = await readProject(projectsDir, filename)
+            const project = await readProject(projectsDir, filename, updateProjects)
             if (project == undefined) return next()
 
             return res.writeHead(200, {
