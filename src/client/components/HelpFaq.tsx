@@ -39,6 +39,12 @@ export const HelpFaq = () => {
             <p>As MPC charges less per card as the project size increases, you can also save money by combining several projects into one before printing.</p>
           </Accordion.Body>
         </Accordion.Item>
+        <Accordion.Item eventKey='#refresh'>
+          <Accordion.Header as='h3' id='refresh'><span>I&rsquo;ve loaded a project from Inexorable Fate to my MPC account, but some of the card images aren&rsquo;t loading. What gives?</span></Accordion.Header>
+          <Accordion.Body>
+            <p>MPC&rsquo;s image caching expires frequently, and currently can&rsquo;t be refreshed automatically. If the images aren&rsquo;t loading, <a href='#contact'>contact us</a> (Discord is recommended for fastest support) and someone can refresh it for you.</p>
+          </Accordion.Body>
+        </Accordion.Item>
         <Accordion.Item eventKey='#bleed'>
           <Accordion.Header as='h3' id='bleed'><span>I&rsquo;ve uploaded cards with bleed but the red dotted line for MPC&rsquo;s &ldquo;safe area&rdquo; still shows parts of my cards cut off. Should I worry?</span></Accordion.Header>
           <Accordion.Body>
@@ -66,10 +72,13 @@ export const HelpFaq = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey='#contact'>
-          <Accordion.Header as='h3' id='contact'><span>What should I do or who should I contact if I need help, find an error in one of the posted projects, or have suggestions to improve these instructions?</span></Accordion.Header>
+          <Accordion.Header as='h3' id='contact'><span>What should I do if I need help, find an error in one of the posted projects, or have suggestions to improve these instructions? How can I contact the amazing team behind Inexorable Fate?</span></Accordion.Header>
           <Accordion.Body>
-            <p>You can cut out the middle(wo)man by <a href="https://github.com/North101/mpc_projects/issues/new">filing an issue on Github!</a></p>
-            <p>Coldtoes (she/her) can be found (in rough order of preference) as <strong>@coldtoes</strong> on the MythosBusters Discord server in the <strong>#bling-your-game channel</strong>, as <a href='https://discord.com/users/10coldtoes'>10coldtoes</a> through Discord DM, as <a href='https://www.reddit.com/user/coldt0es'>u/coldt0es</a> on <a href='https://www.reddit.com/r/arkhamhorrorlcg/'>r/arkhamhorrorlcg</a>, and as <a href='https://boardgamegeek.com/user/coldtoes'>coldtoes</a> on BoardGameGeek.</p>
+            <ol>
+              <li>You can report bugs, request new features, suggest documentation improvements, or let us know about new/changed projects by <a href="https://github.com/North101/mpc_projects/issues/new">filing an issue on Github.</a></li>
+              <li>Not a GitHub person? Or just need someone to refresh a project? There&rsquo;s a dedicated <a href="https://discord.com/channels/225349059689447425/1192620482168635523">forum section</a> for Inexorable Fate and the MPC Project Helper Mythos Busters Discord server. Find us there for support or dev chat.</li>
+              <li>That&rsquo;s still not what you were hoping for? You can also find Coldtoes (she/her), in rough order of preference, as <strong>@coldtoes</strong> on the Mythos Busters Discord server in the above-mentioned dev forum or the <strong>#bling-your-game channel</strong>, as <a href='https://discord.com/users/10coldtoes'>10coldtoes</a> through Discord DM, as <a href='https://www.reddit.com/user/coldt0es'>u/coldt0es</a> on <a href='https://www.reddit.com/r/arkhamhorrorlcg/'>r/arkhamhorrorlcg</a>, and as <a href='https://boardgamegeek.com/user/coldtoes'>coldtoes</a> on BoardGameGeek.</li>
+            </ol>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
