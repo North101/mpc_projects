@@ -8,7 +8,7 @@
     "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7"
   ],
   "name": "Taboo",
-  "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
+  "description": "Taboo 2.2 cards coming soon! Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
   "artist": "Mark Molnar",
   "info": null,
   "website": "https://www.fantasyflightgames.com/en/news/2023/8/30/unveiling-secrets/",
@@ -19,6 +19,7 @@
     "Fantasy Flight Games"
   ],
   "statuses": [
+    "Changes Pending",
     "Ongoing",
     "Project Available"
   ],
@@ -4252,7 +4253,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "55d87429-d0c6-4ef4-af9c-77adf8422b3d",
           "count": 2,
           "front": {
             "Name": "01 Machete x2-1.png",
@@ -4272,7 +4272,6 @@
           }
         },
         {
-          "id": "7b1e5301-c41d-4d53-bea4-fdde54e97610",
           "count": 2,
           "front": {
             "Name": "02 Pathfinder x2-1.png",
@@ -4292,7 +4291,6 @@
           }
         },
         {
-          "id": "69492167-683b-498e-84b3-f7494535b310",
           "count": 2,
           "front": {
             "Name": "03 Switchblade 2 x2-1.png",
@@ -4312,7 +4310,6 @@
           }
         },
         {
-          "id": "007f13ba-3b3f-47d3-a007-3378eccfcbef",
           "count": 2,
           "front": {
             "Name": "04 Higher Education 3-x2-1.png",
@@ -4332,7 +4329,6 @@
           }
         },
         {
-          "id": "942f443b-08db-4388-833a-c152de23f689",
           "count": 2,
           "front": {
             "Name": "05 Streetwise 3-x2-1.png",
@@ -4352,7 +4348,6 @@
           }
         },
         {
-          "id": "84340fb2-a4fc-4436-b547-716dfe1ce844",
           "count": 2,
           "front": {
             "Name": "06 Scrapper 3-x2-1.png",
@@ -4372,7 +4367,6 @@
           }
         },
         {
-          "id": "841af2cc-204b-44f8-afcb-37bc75cedf8b",
           "count": 2,
           "front": {
             "Name": "07 Flamethrower x2-1.png",
@@ -4392,7 +4386,6 @@
           }
         },
         {
-          "id": "ee8ceb3f-e10f-47fa-8010-f1e029ab21cb",
           "count": 2,
           "front": {
             "Name": "08 Drawing Thin x2-1.png",
@@ -4412,7 +4405,6 @@
           }
         },
         {
-          "id": "21b845e4-f577-4cf1-b7f1-5ff3d334383c",
           "count": 2,
           "front": {
             "Name": "09 Mr Rook x2-1.png",
@@ -4432,7 +4424,6 @@
           }
         },
         {
-          "id": "c4f1307f-8eb4-4358-8e01-2dfd056c4933",
           "count": 2,
           "front": {
             "Name": "10 Knowledge is Power x2-1.png",
@@ -4452,7 +4443,6 @@
           }
         },
         {
-          "id": "12e63269-b32d-4d0e-91f6-1aaad0705d9f",
           "count": 1,
           "front": {
             "Name": "11 Necronomicon-1.png",
@@ -4472,7 +4462,6 @@
           }
         },
         {
-          "id": "845c5ee8-7434-485c-a319-6e86ff8d4c49",
           "count": 2,
           "front": {
             "Name": "12 Dr Milan Christopher x2-1.png",
@@ -4492,7 +4481,6 @@
           }
         },
         {
-          "id": "b6e51f6a-7596-43e8-a573-ccce5131835d",
           "count": 2,
           "front": {
             "Name": "13 Elusive x2-1.png",
@@ -4512,7 +4500,6 @@
           }
         },
         {
-          "id": "4d742e87-303c-49dc-b1df-70bb5586bd84",
           "count": 1,
           "front": {
             "Name": "14 Rex Murphy-1.png",
@@ -4532,7 +4519,6 @@
           }
         },
         {
-          "id": "c99fa3d1-2a86-4c32-98b0-73a0385eb561",
           "count": 2,
           "front": {
             "Name": "15 Delve Too Deep x2-1.png",
@@ -4552,7 +4538,6 @@
           }
         },
         {
-          "id": "1ba0766c-5817-4082-93df-293ff44d9eba",
           "count": 2,
           "front": {
             "Name": "16 Springfield M1903 x2-1.png",
@@ -4572,7 +4557,6 @@
           }
         },
         {
-          "id": "6174f71b-53db-4c05-9256-02c7c216c26a",
           "count": 2,
           "front": {
             "Name": "17 Quick Thinking x2-1.png",
@@ -4592,7 +4576,6 @@
           }
         },
         {
-          "id": "f1275825-a534-4a75-9028-36a5666560da",
           "count": 1,
           "front": {
             "Name": "18 Ace in the Hole-1.png",
@@ -4612,7 +4595,6 @@
           }
         },
         {
-          "id": "b21f3ec7-8434-47e3-8ed8-d0e76bf480f8",
           "count": 2,
           "front": {
             "Name": "19 Sleight of Hand x2-1.png",
@@ -4632,7 +4614,6 @@
           }
         },
         {
-          "id": "b7d41f26-6d95-45fc-a3af-ba801f79168b",
           "count": 1,
           "front": {
             "Name": "20 Key of Ys-1.png",
@@ -4652,7 +4633,6 @@
           }
         },
         {
-          "id": "040f346c-e445-497b-9bd3-f15f506e8c80",
           "count": 2,
           "front": {
             "Name": "21 All In x2-1.png",
@@ -4672,7 +4652,6 @@
           }
         },
         {
-          "id": "9f27cab6-2265-4967-8975-12528ebab891",
           "count": 2,
           "front": {
             "Name": "22 Scroll of Secrets 0 x2-1.png",
@@ -4692,7 +4671,6 @@
           }
         },
         {
-          "id": "6ac04db3-7bdb-4949-b5c3-b5925aef9e83",
           "count": 2,
           "front": {
             "Name": "23 Scroll of Secrets 3 Seeker x2-1.png",
@@ -4712,7 +4690,6 @@
           }
         },
         {
-          "id": "11c2787b-388d-4457-975b-d24fb6ad4d03",
           "count": 2,
           "front": {
             "Name": "24 Scroll of Secrets 3 Mystic x2-1.png",
@@ -4732,7 +4709,6 @@
           }
         },
         {
-          "id": "95793961-9806-445c-8e11-b257502a4608",
           "count": 2,
           "front": {
             "Name": "25 Telescopic Sight x2-1.png",
@@ -4752,7 +4728,6 @@
           }
         },
         {
-          "id": "53453ece-8eb5-4e7d-9406-830af25a1943",
           "count": 2,
           "front": {
             "Name": "26 Eucatastrophe x2-1.png",
@@ -4772,7 +4747,6 @@
           }
         },
         {
-          "id": "3cb94f55-793d-4953-9052-332c6d7c684b",
           "count": 1,
           "front": {
             "Name": "27 Pendant of the Queen-1.png",
@@ -4792,7 +4766,6 @@
           }
         },
         {
-          "id": "e2ba91b6-4275-48d0-833c-5e31da800595",
           "count": 2,
           "front": {
             "Name": "28 35 Winchester x2-1.png",
@@ -4812,7 +4785,6 @@
           }
         },
         {
-          "id": "fa0c9895-4c2b-4bad-ad1d-2e51dfa9198f",
           "count": 3,
           "front": {
             "Name": "29 Three Aces x3-1.png",
@@ -4832,7 +4804,6 @@
           }
         },
         {
-          "id": "a62d9efd-1dc5-4880-86d4-9474a66b1889",
           "count": 2,
           "front": {
             "Name": "30 A Watchful Peace x2-1.png",
@@ -4852,7 +4823,6 @@
           }
         },
         {
-          "id": "c5df4538-6735-47bc-8ce3-f9a2d685d0a3",
           "count": 2,
           "front": {
             "Name": "31 Hallow x2-1.png",
@@ -4872,7 +4842,6 @@
           }
         },
         {
-          "id": "cc726a63-fadc-46db-87fb-3f4899cba432",
           "count": 2,
           "front": {
             "Name": "32 Double or Nothing x2-1.png",
@@ -4898,7 +4867,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "b6e51f6a-7596-43e8-a573-ccce5131835d",
           "count": 2,
           "front": {
             "Name": "13 Elusive x2-1.png",
@@ -4918,7 +4886,6 @@
           }
         },
         {
-          "id": "1ba0766c-5817-4082-93df-293ff44d9eba",
           "count": 2,
           "front": {
             "Name": "16 Springfield M1903 x2-1.png",
@@ -4938,7 +4905,6 @@
           }
         },
         {
-          "id": "95793961-9806-445c-8e11-b257502a4608",
           "count": 2,
           "front": {
             "Name": "25 Telescopic Sight x2-1.png",
@@ -4958,7 +4924,6 @@
           }
         },
         {
-          "id": "53453ece-8eb5-4e7d-9406-830af25a1943",
           "count": 2,
           "front": {
             "Name": "26 Eucatastrophe x2-1.png",
@@ -4978,7 +4943,6 @@
           }
         },
         {
-          "id": "3cb94f55-793d-4953-9052-332c6d7c684b",
           "count": 1,
           "front": {
             "Name": "27 Pendant of the Queen-1.png",
@@ -4998,7 +4962,6 @@
           }
         },
         {
-          "id": "fa0c9895-4c2b-4bad-ad1d-2e51dfa9198f",
           "count": 3,
           "front": {
             "Name": "29 Three Aces x3-1.png",
@@ -5018,7 +4981,6 @@
           }
         },
         {
-          "id": "a62d9efd-1dc5-4880-86d4-9474a66b1889",
           "count": 2,
           "front": {
             "Name": "30 A Watchful Peace x2-1.png",
@@ -5038,7 +5000,6 @@
           }
         },
         {
-          "id": "c5df4538-6735-47bc-8ce3-f9a2d685d0a3",
           "count": 2,
           "front": {
             "Name": "31 Hallow x2-1.png",
@@ -5064,7 +5025,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "71fe00c9-f1ba-42bd-a526-ef76c9a0818f",
           "count": 2,
           "front": {
             "Name": "01 Machete x2-1.png",
@@ -5084,7 +5044,6 @@
           }
         },
         {
-          "id": "9cd2ff0d-d46f-4dab-9670-39ee1e0601d3",
           "count": 2,
           "front": {
             "Name": "02 Elusive x2-1.png",
@@ -5104,7 +5063,6 @@
           }
         },
         {
-          "id": "08c60ec1-9a82-437f-ba85-2bee91fe9aa5",
           "count": 2,
           "front": {
             "Name": "03 Pathfinder x2-1.png",
@@ -5124,7 +5082,6 @@
           }
         },
         {
-          "id": "ca3b3b9f-fe63-4bdc-906e-6e01016c8a4f",
           "count": 2,
           "front": {
             "Name": "04 Switchblade 2 x2-1.png",
@@ -5144,7 +5101,6 @@
           }
         },
         {
-          "id": "a1d44f1a-1501-44aa-8e01-3257ff2c9053",
           "count": 2,
           "front": {
             "Name": "05 Higher Education 3-x2-1.png",
@@ -5164,7 +5120,6 @@
           }
         },
         {
-          "id": "61814517-21fc-44a2-82e0-e9e02a086e99",
           "count": 2,
           "front": {
             "Name": "06 Streetwise 3-x2-1.png",
@@ -5184,7 +5139,6 @@
           }
         },
         {
-          "id": "e4ce0d80-f4c8-4608-bd86-64a19a079299",
           "count": 2,
           "front": {
             "Name": "07 Scrapper 3-x2-1.png",
@@ -5204,7 +5158,6 @@
           }
         },
         {
-          "id": "c7aca86a-33a0-410e-9319-3f54a70a6943",
           "count": 2,
           "front": {
             "Name": "08 Springfield-x2-1.png",
@@ -5224,7 +5177,6 @@
           }
         },
         {
-          "id": "469a0d03-85d5-4014-b965-299ed0f75e92",
           "count": 2,
           "front": {
             "Name": "09 Flamethrower x2-1.png",
@@ -5244,7 +5196,6 @@
           }
         },
         {
-          "id": "2abcecc7-17fa-45c6-9b80-84b70ec4aa9d",
           "count": 2,
           "front": {
             "Name": "10 Drawing Thin x2-1.png",
@@ -5264,7 +5215,6 @@
           }
         },
         {
-          "id": "f6b1e1f4-eb01-44c2-95f3-6b4da3435970",
           "count": 2,
           "front": {
             "Name": "11 Mr Rook x2-1.png",
@@ -5284,7 +5234,6 @@
           }
         },
         {
-          "id": "9c5fd2bf-e200-40d2-9041-09eeb552599a",
           "count": 2,
           "front": {
             "Name": "12 Knowledge is Power x2-1.png",
@@ -5304,7 +5253,6 @@
           }
         },
         {
-          "id": "74fb0d99-9c2f-4402-81c5-d2fe60b81b76",
           "count": 3,
           "front": {
             "Name": "13 Segment of Onyx-x3-1.png",
@@ -5324,7 +5272,6 @@
           }
         },
         {
-          "id": "69425c91-20c0-489b-ba39-dd663b8fe68a",
           "count": 1,
           "front": {
             "Name": "14 Necronomicon-1.png",
@@ -5344,7 +5291,6 @@
           }
         },
         {
-          "id": "78d49697-b111-4eb5-9d2d-a650686e17c9",
           "count": 2,
           "front": {
             "Name": "15 Dr Milan Christopher x2-1.png",
@@ -5364,7 +5310,6 @@
           }
         },
         {
-          "id": "836fe0a0-65eb-42b2-850b-b4d736b20877",
           "count": 1,
           "front": {
             "Name": "16 Rex Murphy-1.png",
@@ -5384,7 +5329,6 @@
           }
         },
         {
-          "id": "392c6646-1ceb-4715-b13f-a8a670f3bb79",
           "count": 2,
           "front": {
             "Name": "17 Delve Too Deep x2-1.png",
@@ -5404,7 +5348,6 @@
           }
         },
         {
-          "id": "e9a36b4e-a4a3-4db9-8e1e-99c6e51aefa1",
           "count": 2,
           "front": {
             "Name": "18 Quick Thinking x2-1.png",
@@ -5424,7 +5367,6 @@
           }
         },
         {
-          "id": "022d9e30-b1a5-4832-842e-689edd9778b4",
           "count": 1,
           "front": {
             "Name": "19 Ace in the Hole-1.png",
@@ -5444,7 +5386,6 @@
           }
         },
         {
-          "id": "02816f0b-3b8f-48db-a093-22433e646d0f",
           "count": 2,
           "front": {
             "Name": "20 Sleight of Hand x2-1.png",
@@ -5464,7 +5405,6 @@
           }
         },
         {
-          "id": "0cdb3b11-038d-4454-a423-d34cd396bf7a",
           "count": 1,
           "front": {
             "Name": "21 Key of Ys-1.png",
@@ -5484,7 +5424,6 @@
           }
         },
         {
-          "id": "62485917-3758-4a02-a148-89d1f701b5cc",
           "count": 2,
           "front": {
             "Name": "22 All In x2-1.png",
@@ -5504,7 +5443,6 @@
           }
         },
         {
-          "id": "0c1ac452-327e-44c8-8fbd-1204aabfa0be",
           "count": 2,
           "front": {
             "Name": "23 Scroll of Secrets 0 x2-1.png",
@@ -5524,7 +5462,6 @@
           }
         },
         {
-          "id": "755edb2c-eb5c-4ae1-8058-39b676ea77f2",
           "count": 2,
           "front": {
             "Name": "24 Scroll of Secrets 3 Seeker x2-1.png",
@@ -5544,7 +5481,6 @@
           }
         },
         {
-          "id": "71cb79c4-87d0-48cb-a24c-b2d0df82a08f",
           "count": 2,
           "front": {
             "Name": "25 Scroll of Secrets 3 Mystic x2-1.png",
@@ -5564,7 +5500,6 @@
           }
         },
         {
-          "id": "a8fb957d-b8eb-4126-a03d-6f7aa90d8b70",
           "count": 2,
           "front": {
             "Name": "26 35 Winchester x2-1.png",
@@ -5584,7 +5519,6 @@
           }
         },
         {
-          "id": "0a39cefe-f967-4630-bfff-0dc840ac4443",
           "count": 2,
           "front": {
             "Name": "27 Double or Nothing x2-1.png",
@@ -5610,7 +5544,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "71fe00c9-f1ba-42bd-a526-ef76c9a0818f",
           "count": 2,
           "front": {
             "Name": "01 Machete x2-1.png",
@@ -5630,7 +5563,6 @@
           }
         },
         {
-          "id": "08c60ec1-9a82-437f-ba85-2bee91fe9aa5",
           "count": 2,
           "front": {
             "Name": "03 Pathfinder x2-1.png",
@@ -5650,7 +5582,6 @@
           }
         },
         {
-          "id": "a1d44f1a-1501-44aa-8e01-3257ff2c9053",
           "count": 2,
           "front": {
             "Name": "05 Higher Education 3-x2-1.png",
@@ -5670,7 +5601,6 @@
           }
         },
         {
-          "id": "61814517-21fc-44a2-82e0-e9e02a086e99",
           "count": 2,
           "front": {
             "Name": "06 Streetwise 3-x2-1.png",
@@ -5690,7 +5620,6 @@
           }
         },
         {
-          "id": "e4ce0d80-f4c8-4608-bd86-64a19a079299",
           "count": 2,
           "front": {
             "Name": "07 Scrapper 3-x2-1.png",
@@ -5710,7 +5639,6 @@
           }
         },
         {
-          "id": "469a0d03-85d5-4014-b965-299ed0f75e92",
           "count": 2,
           "front": {
             "Name": "09 Flamethrower x2-1.png",
@@ -5730,7 +5658,6 @@
           }
         },
         {
-          "id": "f6b1e1f4-eb01-44c2-95f3-6b4da3435970",
           "count": 2,
           "front": {
             "Name": "11 Mr Rook x2-1.png",
@@ -5750,7 +5677,6 @@
           }
         },
         {
-          "id": "9c5fd2bf-e200-40d2-9041-09eeb552599a",
           "count": 2,
           "front": {
             "Name": "12 Knowledge is Power x2-1.png",
@@ -5770,7 +5696,6 @@
           }
         },
         {
-          "id": "74fb0d99-9c2f-4402-81c5-d2fe60b81b76",
           "count": 3,
           "front": {
             "Name": "13 Segment of Onyx-x3-1.png",
@@ -5790,7 +5715,6 @@
           }
         },
         {
-          "id": "69425c91-20c0-489b-ba39-dd663b8fe68a",
           "count": 1,
           "front": {
             "Name": "14 Necronomicon-1.png",
@@ -5810,7 +5734,6 @@
           }
         },
         {
-          "id": "e9a36b4e-a4a3-4db9-8e1e-99c6e51aefa1",
           "count": 2,
           "front": {
             "Name": "18 Quick Thinking x2-1.png",
@@ -5830,7 +5753,6 @@
           }
         },
         {
-          "id": "02816f0b-3b8f-48db-a093-22433e646d0f",
           "count": 2,
           "front": {
             "Name": "20 Sleight of Hand x2-1.png",
@@ -5850,7 +5772,6 @@
           }
         },
         {
-          "id": "62485917-3758-4a02-a148-89d1f701b5cc",
           "count": 2,
           "front": {
             "Name": "22 All In x2-1.png",
@@ -5870,7 +5791,6 @@
           }
         },
         {
-          "id": "0c1ac452-327e-44c8-8fbd-1204aabfa0be",
           "count": 2,
           "front": {
             "Name": "23 Scroll of Secrets 0 x2-1.png",
@@ -5890,7 +5810,6 @@
           }
         },
         {
-          "id": "755edb2c-eb5c-4ae1-8058-39b676ea77f2",
           "count": 2,
           "front": {
             "Name": "24 Scroll of Secrets 3 Seeker x2-1.png",
@@ -5910,7 +5829,6 @@
           }
         },
         {
-          "id": "71cb79c4-87d0-48cb-a24c-b2d0df82a08f",
           "count": 2,
           "front": {
             "Name": "25 Scroll of Secrets 3 Mystic x2-1.png",
@@ -5930,7 +5848,6 @@
           }
         },
         {
-          "id": "a8fb957d-b8eb-4126-a03d-6f7aa90d8b70",
           "count": 2,
           "front": {
             "Name": "26 35 Winchester x2-1.png",
@@ -5950,7 +5867,6 @@
           }
         },
         {
-          "id": "0a39cefe-f967-4630-bfff-0dc840ac4443",
           "count": 2,
           "front": {
             "Name": "27 Double or Nothing x2-1.png",
@@ -5976,7 +5892,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "b5368bf1-37cd-47ef-ac22-d35d4bb10c1d",
           "count": 2,
           "front": {
             "Name": "01 Machete x2-1.png",
@@ -5996,7 +5911,6 @@
           }
         },
         {
-          "id": "4eafaadf-48c6-42dc-823c-01837d1330ce",
           "count": 2,
           "front": {
             "Name": "02 Elusive x2-1.png",
@@ -6016,7 +5930,6 @@
           }
         },
         {
-          "id": "23edeac4-733b-4d2c-b797-dc2cd809579b",
           "count": 2,
           "front": {
             "Name": "03 Double or Nothing x2-1.png",
@@ -6036,7 +5949,6 @@
           }
         },
         {
-          "id": "8947e066-0756-4aa3-99d8-1bd198ec5813",
           "count": 2,
           "front": {
             "Name": "04 Switchblade 2 x2-1.png",
@@ -6056,7 +5968,6 @@
           }
         },
         {
-          "id": "d72bbf04-8b4d-4ca8-aeb4-c68b73ed6b90",
           "count": 2,
           "front": {
             "Name": "05 Higher Education 3-x2-1.png",
@@ -6076,7 +5987,6 @@
           }
         },
         {
-          "id": "084b5970-256e-4e18-bf9d-f2eed033c078",
           "count": 2,
           "front": {
             "Name": "06 Streetwise 3-x2-1.png",
@@ -6096,7 +6006,6 @@
           }
         },
         {
-          "id": "b16e90e6-4ce7-4b26-acce-b3cf6f5bcccb",
           "count": 2,
           "front": {
             "Name": "07 Scrapper 3-x2-1.png",
@@ -6116,7 +6025,6 @@
           }
         },
         {
-          "id": "3919b201-9a32-4467-9d26-6e62aaf54dfd",
           "count": 2,
           "front": {
             "Name": "08 Springfield-x2-1.png",
@@ -6136,7 +6044,6 @@
           }
         },
         {
-          "id": "68b642f6-60b5-4eac-85c7-aa38d4e41322",
           "count": 2,
           "front": {
             "Name": "09 Drawing Thin x2-1.png",
@@ -6156,7 +6063,6 @@
           }
         },
         {
-          "id": "a819e295-117e-4971-9ed5-c08b86c5d92f",
           "count": 2,
           "front": {
             "Name": "10 Dr Milan Christopher x2-1.png",
@@ -6176,7 +6082,6 @@
           }
         },
         {
-          "id": "ee9c7fa6-6a9f-4229-8ee4-86a0dcdf9b7d",
           "count": 1,
           "front": {
             "Name": "11 Rex Murphy-1.png",
@@ -6196,7 +6101,6 @@
           }
         },
         {
-          "id": "0a451da9-205b-448f-b0e3-bc73dd927446",
           "count": 2,
           "front": {
             "Name": "12 Delve Too Deep x2-1.png",
@@ -6216,7 +6120,6 @@
           }
         },
         {
-          "id": "8d338bd0-106b-4816-9a80-166778b97d31",
           "count": 2,
           "front": {
             "Name": "13 Quick Thinking x2-1.png",
@@ -6236,7 +6139,6 @@
           }
         },
         {
-          "id": "d58487c4-2c65-4d9b-bee3-09f7bd905f08",
           "count": 1,
           "front": {
             "Name": "14 Ace in the Hole-1.png",
@@ -6256,7 +6158,6 @@
           }
         },
         {
-          "id": "5e1b6035-a1ed-4579-b958-2859d4c534d0",
           "count": 2,
           "front": {
             "Name": "15 Sleight of Hand x2-1.png",
@@ -6276,7 +6177,6 @@
           }
         },
         {
-          "id": "13830f8e-ec30-46dd-ab03-725e4e19312e",
           "count": 1,
           "front": {
             "Name": "16 Key of Ys-1.png",
@@ -6302,7 +6202,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "23edeac4-733b-4d2c-b797-dc2cd809579b",
           "count": 2,
           "front": {
             "Name": "03 Double or Nothing x2-1.png",
@@ -6322,7 +6221,6 @@
           }
         },
         {
-          "id": "3919b201-9a32-4467-9d26-6e62aaf54dfd",
           "count": 2,
           "front": {
             "Name": "08 Springfield-x2-1.png",
@@ -6342,7 +6240,6 @@
           }
         },
         {
-          "id": "68b642f6-60b5-4eac-85c7-aa38d4e41322",
           "count": 2,
           "front": {
             "Name": "09 Drawing Thin x2-1.png",
@@ -6368,7 +6265,6 @@
       "enabled": false,
       "cards": [
         {
-          "id": "74a59824-e67d-403b-a54b-33da95eaaced",
           "count": 2,
           "front": {
             "Name": "01 Machete x2-1.png",
@@ -6388,7 +6284,6 @@
           }
         },
         {
-          "id": "69b7411f-baa4-44fa-ba3b-e6cb5c04d52e",
           "count": 2,
           "front": {
             "Name": "02 Elusive x2-1.png",
@@ -6408,7 +6303,6 @@
           }
         },
         {
-          "id": "96adafb4-fb20-483f-b8b6-6ece1960c5ce",
           "count": 2,
           "front": {
             "Name": "03 Switchblade 2 x2-1.png",
@@ -6428,7 +6322,6 @@
           }
         },
         {
-          "id": "c3bfd493-f45e-4bc8-a159-5ed2388d89dd",
           "count": 2,
           "front": {
             "Name": "04 Higher Education 3-x2-1.png",
@@ -6448,7 +6341,6 @@
           }
         },
         {
-          "id": "719a1cc2-ab9f-43d9-a2ac-2952726834c5",
           "count": 2,
           "front": {
             "Name": "05 Streetwise 3-x2-1.png",
@@ -6468,7 +6360,6 @@
           }
         },
         {
-          "id": "3c9163f6-437f-4bde-bc89-344b3976f485",
           "count": 2,
           "front": {
             "Name": "06 Scrapper 3-x2-1.png",
@@ -6488,7 +6379,6 @@
           }
         },
         {
-          "id": "cabbb20a-2986-4ce0-a4cf-1bd4f8ac9224",
           "count": 2,
           "front": {
             "Name": "07 Dr Milan Christopher x2-1.png",
@@ -6508,7 +6398,6 @@
           }
         },
         {
-          "id": "7baaba66-0684-409e-be65-c3efb5350f68",
           "count": 1,
           "front": {
             "Name": "08 Rex Murphy-1.png",
@@ -6528,7 +6417,6 @@
           }
         },
         {
-          "id": "c83488e6-ee73-43ef-936a-770aa1bf78d2",
           "count": 2,
           "front": {
             "Name": "09 Delve Too Deep x2-1.png",
@@ -6548,7 +6436,6 @@
           }
         },
         {
-          "id": "090d996c-755f-4a80-9896-bc7e0ba268b1",
           "count": 2,
           "front": {
             "Name": "10 Quick Thinking x2-1.png",
@@ -6568,7 +6455,6 @@
           }
         },
         {
-          "id": "6079f387-2c4e-457a-8c31-8b4deb8f8bfb",
           "count": 1,
           "front": {
             "Name": "11 Ace in the Hole-1.png",
@@ -6588,7 +6474,6 @@
           }
         },
         {
-          "id": "4b779cd3-6c12-4985-b2db-33af714e8b7c",
           "count": 2,
           "front": {
             "Name": "12 Sleight of Hand x2-1.png",
@@ -6608,7 +6493,6 @@
           }
         },
         {
-          "id": "03f1bded-c428-455d-a17b-74caf7f9a1f0",
           "count": 1,
           "front": {
             "Name": "13 Key of Ys-1.png",
@@ -6630,5 +6514,5 @@
       ]
     }
   ],
-  "hash": "268b318c0a45b1424d16d221481e250804d76d01f4779bcf6c0a0f0d8b5f8a70"
+  "hash": "10f356c943c198acfa6c65adffa3b64c8a7a9abed2f2e9e2137e6e13ecabb5b7"
 }
