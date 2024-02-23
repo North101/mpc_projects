@@ -1,0 +1,55 @@
+{
+  "projectId": [
+    "FAAB4C9C63D0CFF93FE7D7993D77169E3AA88F58C5AB9690F4A838593383C8819B422647D0A353F8"
+  ],
+  "name": "Bloodborne — City of the Unseen",
+  "description": "Arkham is mysteriously transformed into the city of Yharnam while you have fallen ill with a mysterious sleeping sickness. Discover what has happened to your world in this 8-part campaign inspired by the Bloodborne video game.",
+  "artist": "Mikael Aguirre",
+  "info": "This will be available very soon — Coldtoes’ dumb job is keeping her from finishing the encounter set number cleanup. Stay tuned!",
+  "website": "https://mysteriouschanting.wordpress.com/2024/02/18/bloodborne-the-city-of-the-unseen/",
+  "cardsLink": null,
+  "scenarioCount": 8,
+  "investigatorCount": 6,
+  "authors": [
+    "Aughhhh"
+  ],
+  "statuses": [
+    "Changes Pending",
+    "Project Available"
+  ],
+  "tags": [
+    "Campaign",
+    "Investigator(s)"
+  ],
+  "created": "2024-02-23T12:19:26.680Z",
+  "updated": "2024-02-23T12:19:26.680Z",
+  "version": 2,
+  "code": "C380050185D1C1AF",
+  "parts": [
+    {
+      "name": "Bloodborne City of the Unseen coming soon! This is not it, sorry.",
+      "cards": [
+        {
+          "count": 1,
+          "front": {
+            "Name": "001 Kerry-Lennox-1.jpg",
+            "ID": "6E9731DF37E01CDD2632E576AF1D2EC6",
+            "SourceID": "4415166665ABFD4569353BABDDCAB86493F7A166",
+            "Exp": "jpg",
+            "Width": 826,
+            "Height": 1126
+          },
+          "back": {
+            "Name": "001 Kerry-Lennox-2.jpg",
+            "ID": "32BBAB35E2B00ECE55509F4915F4507C",
+            "SourceID": "4486EC34985011DAD6517425FE83DDC4018D8094",
+            "Exp": "jpg",
+            "Width": 826,
+            "Height": 1126
+          }
+        }
+      ]
+    }
+  ],
+  "hash": "7f78bf06aea27789b6919fde2444b8f6f1612ac46178cd446a9e7a8e8b41d9a9"
+}
