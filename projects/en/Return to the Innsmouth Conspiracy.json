@@ -30,1292 +30,1297 @@
   ],
   "created": "2023-07-06T04:45:26.680Z",
   "updated": "2023-09-21T18:46:41.519Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
-      "name": "Return to Innsmouth Player Cards",
-      "cards": [
-        {
-          "count": 2,
-          "front": {
-            "Name": "001 Blessed Blade-x2-1.png",
-            "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
-            "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "002 Tides of Fate-x2-1.png",
-            "ID": "5270F54179DFD04C4AC2A0B1D8E343C9",
-            "SourceID": "C101CC0CF9D9402772D76DC11E2DC3D5417B3363",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "003 Hand of Fate-x2-1.png",
-            "ID": "29F104E3850DFCC5B5ECB4CFA7B2557D",
-            "SourceID": "AE1F830229399AFD125BFC403533A49A5C629A98",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "004 Book of Psalms-x2-1.png",
-            "ID": "8D2D0CBBBE5606F83151A0E71DF58F37",
-            "SourceID": "7D598EB4744CD17AD37DA536D36AE9140F0A438A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "005 Cryptographic Cipher-x2-1.png",
-            "ID": "D216D1DB3710D5DF60242BE2B4A5C84C",
-            "SourceID": "9839736BC82371148FDAC2EA85CF1810BB97658F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "006 Cryptic Grimoire-x2-1.png",
-            "ID": "B304CC6F08C52E6AEB2FFDA6D07AF922",
-            "SourceID": "ACC7589855227C5AD499E7342148033490EDCC91",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "007 Plan of Action-x2-1.png",
-            "ID": "3321A54EA6EBA2C4CB9E4D596DDBF075",
-            "SourceID": "BC0CEB5702D02BC70D71D55D4593F65E43287A01",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "008 Under Surveillance-x2-1.png",
-            "ID": "77286A468F44DCDAD62225B2DE9C077E",
-            "SourceID": "8208A59731915B8CAECEC52A01C6CA194568CF4C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "009 Tristan Botley-x2-1.png",
-            "ID": "066BC1A35EDD98620808DD2B7FA35922",
-            "SourceID": "04AFDABDB1039C82A732B02EAE0A3FC725C149D5",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "010 Keep Faith-x2-1.png",
-            "ID": "D975BE3DDD2F6281F2466688A8F6429C",
-            "SourceID": "E38D6CBA7881356A202C227F2F4F3305EE5B4DCB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "011 Sword Cane-x2-1.png",
-            "ID": "4A55A0DE86E7149E0B170261BE7A7E49",
-            "SourceID": "4237EE8CE118815A77CD25488C32C6ED6767179F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "012 Abyssal Tome-x2-1.png",
-            "ID": "CC137DDED5036361177D1268642405C6",
-            "SourceID": "01AEDD807E17E06BE32D24280EA11077B9951E50",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "013 Priest of Two Faiths-x2-1.png",
-            "ID": "575C7D41969C57D75437D177CFB62727",
-            "SourceID": "90024582D59637A4308195B5BEEE94800150050E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "014 Butterfly Effect-x2-1.png",
-            "ID": "BFDF63CC61BE033D2E1F375FA4C7E787",
-            "SourceID": "80B5D380BA54E2360C4ED05FC0C31983E8C579EC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "015 Token of Faith-x2-1.png",
-            "ID": "9D6B3C3EEA242095E66B0E3F4A5EA915",
-            "SourceID": "0F54E81A3A67DBD6A8D530A1D060FAA4A9E3EE70",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "016 Manipulate Destiny-x2-1.png",
-            "ID": "923A461B3A8FF137615A38D1FEE38D28",
-            "SourceID": "AF0923DB2A9152E110F7F1125F56A2CB15C13784",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "017 Accursed-1.png",
-            "ID": "545B86EF3ECA24B683F8A489DA3D2717",
-            "SourceID": "4FAD0EB11F7D5A0AFBE525B9178CF28F1FCB1707",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        }
-      ]
-    },
-    {
-      "name": "Return to Innsmouth Encounter Cards",
-      "cards": [
-        {
-          "count": 1,
-          "front": {
-            "Name": "018 Return to Pit of Despair-1.png",
-            "ID": "5593DAC506129EA0AD6E5E8EB89F8F27",
-            "SourceID": "51086D646E7F828A0C88F6DE4BD361EF7C3ED095",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "018 Return to Pit of Despair-2.png",
-            "ID": "E68004EBD812984A2CF348A265A0B48F",
-            "SourceID": "813577245A3233202E5C6C2B81E157D0899C536D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "019 Pit of Despair Act 1 v2-1.png",
-            "ID": "09283683119F72A7BC33C94653E3DC06",
-            "SourceID": "9D028E5F31F4112E02C138756935619450694872",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "019 Pit of Despair Act 1 v2-2.png",
-            "ID": "8DABF5868176F229972EA57EC61BBC16",
-            "SourceID": "6EB1116E63A55AD4AABAF35865D7F826725A1A04",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "020 Lost in the Caves-x2-1.png",
-            "ID": "FC3C56E42D6FCE520F7C3F8DBC6438A7",
-            "SourceID": "62741BC82A4DF6431259AF38E087E1611F03124F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "021 Troubling Memories-x2-1.png",
-            "ID": "A6D6C06704B3F100C5FE61D1BAC35FE2",
-            "SourceID": "EE6114FB2601DEF6580CF771AF8E2ECE52775B06",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "022 Return to The Vanishing of Elina Harper-1.png",
-            "ID": "8A2504D9180ED6EDA56DC937BA81A23A",
-            "SourceID": "8693DB058A5AF0FEB962F7DC9842AF20A1243852",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "022 Return to The Vanishing of Elina Harper-2.png",
-            "ID": "13DBCF54A8B4FB5A251F382B26DD6F16",
-            "SourceID": "D78EF773EFF9A150B2F9E18C7094A106D001A89E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "023 The Vanishing of Elina Harper Act 1 v2-1.png",
-            "ID": "A94E8E7080B3F9CEC57F1C8AC1B508C3",
-            "SourceID": "DD6AF7B203CE84433A65F968BA64D976835D2B5B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "023 The Vanishing of Elina Harper Act 1 v2-2.png",
-            "ID": "1257D41926DBC20E3C1B760B192639CE",
-            "SourceID": "4EEAE70A6DFEB4DD224CC259C0DA833082BE054C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "024 Growing Suspicion-x2-1.png",
-            "ID": "B893415E414E8DCF2DAA3ACB0463D9BB",
-            "SourceID": "2224C7FBDF7D3F40543A32BC7907065C09351745",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "025 Little Gemma-1.png",
-            "ID": "9BF4A369DD02034424E65E1CFA6F596A",
-            "SourceID": "E1B6845C8D0D6D1B7C00F13D53431C53F4934A26",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "026 Ron Stalwick-1.png",
-            "ID": "F348D955EE217E08B6DFDE5FEB8AF889",
-            "SourceID": "D8F406091D22F68C1445DF9924F1F150EE206F8F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "027 Roderick-1.png",
-            "ID": "73A7496B03DE639E50C84A02D6BB9AEC",
-            "SourceID": "9A0013104AA4D8767775662B6D6FC11BCF8D983D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "028 Return to In Too Deep-1.png",
-            "ID": "C883E94566BAD86B9644181F3D96EEC4",
-            "SourceID": "A79F850E48FDF20B28E7B513D63D636D85E0D2D3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "028 Return to In Too Deep-2.png",
-            "ID": "03E330794B6ED58AFB6B89E0E5D34021",
-            "SourceID": "73416D79D1EEB2DB791940DC88CA6D21808C614D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "029 In Too Deep Act 1 v2-1.png",
-            "ID": "3039DB3E42A3D8A8FAA984DFCA8C4CA8",
-            "SourceID": "7636E2A0C49A203F4172B018AB5D094BBB681E95",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "029 In Too Deep Act 1 v2-2.png",
-            "ID": "42203BEF43E9FC2A4BD9B84F16173BF9",
-            "SourceID": "4C637100273164EC2935756295868EBA07E4442C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 4,
-          "front": {
-            "Name": "030 Innsmouth Influence-x4-1.png",
-            "ID": "FD61E882DCE7000E60662C14A22B1475",
-            "SourceID": "E11FF38C2471F87DB826BD1DD1673E1E610C47BB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "030 Innsmouth Influence-x4-2.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "031 Return to Devil Reef-1.png",
-            "ID": "12653948A69326C843F7D8F9EE3CC75F",
-            "SourceID": "E867415D393BE8A83B19E9AE2F8548C67DEB9911",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "031 Return to Devil Reef-2.png",
-            "ID": "269744B00FFD42E6A43D66599539FD16",
-            "SourceID": "21DD8143F720AFBE9794CA270A361D05BDDD70A3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "032 Shrine to Hydra-1.png",
-            "ID": "AE1F91DDE6D592F407BE8CF2F59E5D3E",
-            "SourceID": "ADC61DFA9255CB4DE35C275414CB901C7B50C487",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "033 Cave Mouth-1.png",
-            "ID": "54D4DABF300B92D2DB798774CA1B6184",
-            "SourceID": "7C9FB45BC553B58B4CA8C45C4C16323A9B564E96",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "033 Cave Mouth-2.png",
-            "ID": "E6D2F05B2D0AAAE0035BE1D5FF13FF7F",
-            "SourceID": "9CD8639893C17DC2DD3FF363EA8F34708E0ADBD4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "034 Fishing Vessel-1.png",
-            "ID": "6086AC1B314E331D975B887A60307529",
-            "SourceID": "7C68C755DB6D08EA569E226AFC1D5E3B56F21CCB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "035 Return to Horror in High Gear-1.png",
-            "ID": "7BF73B58A94696978AFA350F207E5049",
-            "SourceID": "29109B4FBF81CB2C67CD6B22310614076D0BA47B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "035 Return to Horror in High Gear-2.png",
-            "ID": "B86D856BDD99C3B5E88A108F131CBCF8",
-            "SourceID": "D661B540B158BA80D5FE42A7D722DA0F7B2D2207",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "036 Mud Tracks-1.png",
-            "ID": "AA6F1C7699CF9DE49627070E48B2AAF8",
-            "SourceID": "71FD9AC4CD7407CA0E3405F0ECFED4D7BF4B7889",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "036 Mud Tracks-2.png",
-            "ID": "3E45019520FFABF14CF784DE26D4B241",
-            "SourceID": "1F900506E75BF1EA0C757AE57444C6652F62A6BC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "037 Straight Section-1.png",
-            "ID": "ACE8C51557389AA48349F3C2E568A003",
-            "SourceID": "A9745908A16906DD91F5FFC27028D6F444282E46",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "037 Straight Section-2.png",
-            "ID": "3E45019520FFABF14CF784DE26D4B241",
-            "SourceID": "1F900506E75BF1EA0C757AE57444C6652F62A6BC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "038 Wrecked-x2-1.png",
-            "ID": "3A83BF350438062E7AF95D966095B36C",
-            "SourceID": "FE8FAFDDC756E0366678FEC1043718857A59F868",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "039 Return to A Light in the Fog-1.png",
-            "ID": "82C570C0111A9D27029425547BFDDE3C",
-            "SourceID": "E0620D49E5E90AF2659822F33124C8B4BD2ADBD0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "039 Return to A Light in the Fog-2.png",
-            "ID": "6504833A8B185987A8BA1895ACCDD59A",
-            "SourceID": "B94E5FE948F8133845ACD796B46CA9B9167D7CAE",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "040 A Light in the Fog Agenda 4 v2-1.png",
-            "ID": "178471965D531BFB56807000FD7FD583",
-            "SourceID": "594B914AD54C62ED249BEFF4817899E5CEA58A0B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "040 A Light in the Fog Agenda 4 v2-2.png",
-            "ID": "8CDC0736C57814BB77A664CC176F2655",
-            "SourceID": "285820CA8761A7BE5B10A962AB63E9E076CF4EF8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "041 Born to Breed-x2-1.png",
-            "ID": "D0B22204A7DBB1F5E4714979FA68146A",
-            "SourceID": "AE221CB9C40C64061D83DFC825C894DBF0F203B8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "042 Deep One Grappler-x3-1.png",
-            "ID": "F924FDFD4E7B23A2D4CC8E16C65F6485",
-            "SourceID": "EAD529FF325D85AE473C1EE35054C785EBFD5023",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "043 Return to Lair of Dagon-1.png",
-            "ID": "82A5B0E2A30D168687211308D0385A61",
-            "SourceID": "E3E43EE58D7C7A5059E12325933565948F73DDCF",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "043 Return to Lair of Dagon-2.png",
-            "ID": "BB14CA8163851BE270EA47A121C82F3F",
-            "SourceID": "7EB7F0976FA1F0D430112283F0168FF2BC7FA4A8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "044 Lair of Dagon Act 2 v2-1.png",
-            "ID": "9C7F6F0D60B8E2732CF8710DDFC537BF",
-            "SourceID": "7E54B0ED457142B95C6D8D1EDC8A4142A8F0E00B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "044 Lair of Dagon Act 2 v2-2.png",
-            "ID": "22092F9CEABBB3755AF0C4CDE788692B",
-            "SourceID": "74ADA45D41F6F06D43895D3CB4EE9E97ABAA5729",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "045 Doorway to the Depths-1.png",
-            "ID": "E4A5F1D00A58FE118471B6A592267275",
-            "SourceID": "E6D91736B46E98141AA661ED49B3C1C39040A06B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "045 Doorway to the Depths-2.png",
-            "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
-            "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "046 Doorway to the Depths-1.png",
-            "ID": "C68629D8C66FE324FAA73A10FC759F0F",
-            "SourceID": "96A9DE2E325DCD6F0E474036FE9B8A01B9506FBB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "046 Doorway to the Depths-2.png",
-            "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
-            "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "047 Stirring in His Sleep-1.png",
-            "ID": "155B38DE4B2CF249BAAE6A74A79A001B",
-            "SourceID": "0CACDA1B2095A17FBA89E27B14543BA4D7F1C9F6",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "048 Return to Into the Maelstrom-1.png",
-            "ID": "E3E60A92389AF2FA3270F76CD275266D",
-            "SourceID": "82E6D2F1A8B49AE2977ACDA0400EB7838FEF8008",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "048 Return to Into the Maelstrom-2.png",
-            "ID": "4A340291F2F49FE9E0F9CB2083E0D140",
-            "SourceID": "5069D723D327C6D4ED1EA3D8BBCFCF0147A2E0A1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "049 Into the Maelstrom Agenda 1 v2-1.png",
-            "ID": "F7A6F09A74000F3BDD05B1E441172434",
-            "SourceID": "DFCEDAB97C7B7E4AA04ACF141E784B0B8F956F45",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "049 Into the Maelstrom Agenda 1 v2-2.png",
-            "ID": "37A2C7E5EC26454C8C080096D85F7EE0",
-            "SourceID": "4A1ECD7040340E31C7EEA2B3FA5E9788737C08B2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "050 Into the Maelstrom Agenda 2 v2-1.png",
-            "ID": "D586F5DB3FECF205BC3C20D63526A7A3",
-            "SourceID": "77BA39608971C94FC2F89D62DAB94FA4161D5740",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "050 Into the Maelstrom Agenda 2 v2-2.png",
-            "ID": "3DD6C18E3D02641AA712A0D1E1BA684B",
-            "SourceID": "C38286823CD05C1C37E7F9CCAF9FF8169587363F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "051 Into the Maelstrom Act 1 v2-1.png",
-            "ID": "719BB9010E106AC89BF656D3FABCEED2",
-            "SourceID": "B5DA10A5A60F98753C051A42E77632233D166CCD",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "051 Into the Maelstrom Act 1 v2-2.png",
-            "ID": "FC8ACB1C2731FC778E716ACE6A99B962",
-            "SourceID": "555501FC706E4564963116286D84783839254ED8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "052 Presence of the Father-1.png",
-            "ID": "14BF2EB67C30B03FD5EB48EC941B961F",
-            "SourceID": "B2E21A7475A55016B9B4C3608093972D9211879C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "053 Presence of the Mother-1.png",
-            "ID": "F15A86AE366004F5455A9CE0032EDB44",
-            "SourceID": "21BAFF9A1431F33638C2CBC9CE1C4535D9404948",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "054 Stirring in Their Sleep-x2-1.png",
-            "ID": "2DDAD9B7117DE6CDF20216D955886128",
-            "SourceID": "BD6C12986D8F92C60B2224C2385B4D448D7BD61B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "055 Barricaded Door-x2-1.png",
-            "ID": "587E02C422FE22B6BF7EEA76F691BF28",
-            "SourceID": "8B9673C7AF29E36BE13B228FCA93D4A96A421064",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "056 Immaterial One-1.png",
-            "ID": "EE15A286903A1A05112984D60A572170",
-            "SourceID": "5B7EFB981971314BE5F621D3CE6B41351A0FB8BC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "057 Innsmouth Haze-x2-1.png",
-            "ID": "CE35AB2F3290315F5B360A76D56B0D94",
-            "SourceID": "DC73F14DE4B296AACCF01B7B09CC289515647A85",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "058 King Tide-x2-1.png",
-            "ID": "EC968CAFACD2B1F2708E4C46F12F5EAE",
-            "SourceID": "E4B9B1F502FB696567DDA12D5FCFBC82D38550ED",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "059 Occultation-x2-1.png",
-            "ID": "F18C7D4D45255C4435D75954492C89D2",
-            "SourceID": "85AFE410CCEEFE508E28E25BB659BB7F53C3A0F0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "060 Call of the Sea-x2-1.png",
-            "ID": "B130F085BBF33B6B0B324248911A2B89",
-            "SourceID": "85A0C4A1094D64A972C581EFF6E63519E4150E88",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "061 Rolling Tide-x2-1.png",
-            "ID": "4A2655621B9872D0A8DD12E4B372EBEE",
-            "SourceID": "6F41D1153F0266445C1881C4678041A6531AB703",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "062 Struggle for Air-x2-1.png",
-            "ID": "93641D064DF3C32D3A1053E147512699",
-            "SourceID": "86D2812ED3AFFFE667CE29413C07B548AD75D609",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "063 Deep One Ambusher-x2-1.png",
-            "ID": "2B5FD6E0044AE87DAF74991BE3E73319",
-            "SourceID": "A4CDCB52F873D549DFFF51D9E879CA50816CB422",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "064 Stalked by Deep Ones-x2-1.png",
-            "ID": "5C9325EB098ABC37C31C4D608199D7D1",
-            "SourceID": "20B57A055E8751A7FF2D60349516E46AC417C74A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_encounterback.png",
-            "ID": "DEC0E760493EA41064B29B27F44AB53B",
-            "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
-            "Exp": "png",
-            "Width": 850,
-            "Height": 1156
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "065 Underwater Cavern-x2-1.png",
-            "ID": "48F58C4FEC860D7338F2132AA5A4F408",
-            "SourceID": "21E0586AFEB7AE6231106456D527713545828E5E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "065 Underwater Cavern-x2-2.png",
-            "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
-            "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "066 Tidal Pool-x2-1.png",
-            "ID": "E37B9782FD51C9D84C9723654BDF8FED",
-            "SourceID": "F9454D38485E61D0DF34CE3465274292F8BBB64C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "066 Tidal Pool-x2-2.png",
-            "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
-            "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "067 Underground River-x2-1.png",
-            "ID": "91063863BD7D51D7C54AB79FA83CE4B2",
-            "SourceID": "176926E67B8A4F9D58B8159F6317046D01F016F8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "067 Underground River-x2-2.png",
-            "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
-            "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
+      "name": "Return to the Innsmouth Conspiracy (Unofficial)",
+      "parts": [
+        {
+          "name": "Return to Innsmouth Player Cards",
+          "cards": [
+            {
+              "count": 2,
+              "front": {
+                "Name": "001 Blessed Blade-x2-1.png",
+                "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
+                "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "002 Tides of Fate-x2-1.png",
+                "ID": "5270F54179DFD04C4AC2A0B1D8E343C9",
+                "SourceID": "C101CC0CF9D9402772D76DC11E2DC3D5417B3363",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "003 Hand of Fate-x2-1.png",
+                "ID": "29F104E3850DFCC5B5ECB4CFA7B2557D",
+                "SourceID": "AE1F830229399AFD125BFC403533A49A5C629A98",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "004 Book of Psalms-x2-1.png",
+                "ID": "8D2D0CBBBE5606F83151A0E71DF58F37",
+                "SourceID": "7D598EB4744CD17AD37DA536D36AE9140F0A438A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "005 Cryptographic Cipher-x2-1.png",
+                "ID": "D216D1DB3710D5DF60242BE2B4A5C84C",
+                "SourceID": "9839736BC82371148FDAC2EA85CF1810BB97658F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "006 Cryptic Grimoire-x2-1.png",
+                "ID": "B304CC6F08C52E6AEB2FFDA6D07AF922",
+                "SourceID": "ACC7589855227C5AD499E7342148033490EDCC91",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "007 Plan of Action-x2-1.png",
+                "ID": "3321A54EA6EBA2C4CB9E4D596DDBF075",
+                "SourceID": "BC0CEB5702D02BC70D71D55D4593F65E43287A01",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "008 Under Surveillance-x2-1.png",
+                "ID": "77286A468F44DCDAD62225B2DE9C077E",
+                "SourceID": "8208A59731915B8CAECEC52A01C6CA194568CF4C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "009 Tristan Botley-x2-1.png",
+                "ID": "066BC1A35EDD98620808DD2B7FA35922",
+                "SourceID": "04AFDABDB1039C82A732B02EAE0A3FC725C149D5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "010 Keep Faith-x2-1.png",
+                "ID": "D975BE3DDD2F6281F2466688A8F6429C",
+                "SourceID": "E38D6CBA7881356A202C227F2F4F3305EE5B4DCB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "011 Sword Cane-x2-1.png",
+                "ID": "4A55A0DE86E7149E0B170261BE7A7E49",
+                "SourceID": "4237EE8CE118815A77CD25488C32C6ED6767179F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "012 Abyssal Tome-x2-1.png",
+                "ID": "CC137DDED5036361177D1268642405C6",
+                "SourceID": "01AEDD807E17E06BE32D24280EA11077B9951E50",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "013 Priest of Two Faiths-x2-1.png",
+                "ID": "575C7D41969C57D75437D177CFB62727",
+                "SourceID": "90024582D59637A4308195B5BEEE94800150050E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "014 Butterfly Effect-x2-1.png",
+                "ID": "BFDF63CC61BE033D2E1F375FA4C7E787",
+                "SourceID": "80B5D380BA54E2360C4ED05FC0C31983E8C579EC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "015 Token of Faith-x2-1.png",
+                "ID": "9D6B3C3EEA242095E66B0E3F4A5EA915",
+                "SourceID": "0F54E81A3A67DBD6A8D530A1D060FAA4A9E3EE70",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "016 Manipulate Destiny-x2-1.png",
+                "ID": "923A461B3A8FF137615A38D1FEE38D28",
+                "SourceID": "AF0923DB2A9152E110F7F1125F56A2CB15C13784",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "017 Accursed-1.png",
+                "ID": "545B86EF3ECA24B683F8A489DA3D2717",
+                "SourceID": "4FAD0EB11F7D5A0AFBE525B9178CF28F1FCB1707",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
+        },
+        {
+          "name": "Return to Innsmouth Encounter Cards",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "018 Return to Pit of Despair-1.png",
+                "ID": "5593DAC506129EA0AD6E5E8EB89F8F27",
+                "SourceID": "51086D646E7F828A0C88F6DE4BD361EF7C3ED095",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "018 Return to Pit of Despair-2.png",
+                "ID": "E68004EBD812984A2CF348A265A0B48F",
+                "SourceID": "813577245A3233202E5C6C2B81E157D0899C536D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "019 Pit of Despair Act 1 v2-1.png",
+                "ID": "09283683119F72A7BC33C94653E3DC06",
+                "SourceID": "9D028E5F31F4112E02C138756935619450694872",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "019 Pit of Despair Act 1 v2-2.png",
+                "ID": "8DABF5868176F229972EA57EC61BBC16",
+                "SourceID": "6EB1116E63A55AD4AABAF35865D7F826725A1A04",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "020 Lost in the Caves-x2-1.png",
+                "ID": "FC3C56E42D6FCE520F7C3F8DBC6438A7",
+                "SourceID": "62741BC82A4DF6431259AF38E087E1611F03124F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "021 Troubling Memories-x2-1.png",
+                "ID": "A6D6C06704B3F100C5FE61D1BAC35FE2",
+                "SourceID": "EE6114FB2601DEF6580CF771AF8E2ECE52775B06",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "022 Return to The Vanishing of Elina Harper-1.png",
+                "ID": "8A2504D9180ED6EDA56DC937BA81A23A",
+                "SourceID": "8693DB058A5AF0FEB962F7DC9842AF20A1243852",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "022 Return to The Vanishing of Elina Harper-2.png",
+                "ID": "13DBCF54A8B4FB5A251F382B26DD6F16",
+                "SourceID": "D78EF773EFF9A150B2F9E18C7094A106D001A89E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "023 The Vanishing of Elina Harper Act 1 v2-1.png",
+                "ID": "A94E8E7080B3F9CEC57F1C8AC1B508C3",
+                "SourceID": "DD6AF7B203CE84433A65F968BA64D976835D2B5B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "023 The Vanishing of Elina Harper Act 1 v2-2.png",
+                "ID": "1257D41926DBC20E3C1B760B192639CE",
+                "SourceID": "4EEAE70A6DFEB4DD224CC259C0DA833082BE054C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "024 Growing Suspicion-x2-1.png",
+                "ID": "B893415E414E8DCF2DAA3ACB0463D9BB",
+                "SourceID": "2224C7FBDF7D3F40543A32BC7907065C09351745",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "025 Little Gemma-1.png",
+                "ID": "9BF4A369DD02034424E65E1CFA6F596A",
+                "SourceID": "E1B6845C8D0D6D1B7C00F13D53431C53F4934A26",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "026 Ron Stalwick-1.png",
+                "ID": "F348D955EE217E08B6DFDE5FEB8AF889",
+                "SourceID": "D8F406091D22F68C1445DF9924F1F150EE206F8F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "027 Roderick-1.png",
+                "ID": "73A7496B03DE639E50C84A02D6BB9AEC",
+                "SourceID": "9A0013104AA4D8767775662B6D6FC11BCF8D983D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "028 Return to In Too Deep-1.png",
+                "ID": "C883E94566BAD86B9644181F3D96EEC4",
+                "SourceID": "A79F850E48FDF20B28E7B513D63D636D85E0D2D3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "028 Return to In Too Deep-2.png",
+                "ID": "03E330794B6ED58AFB6B89E0E5D34021",
+                "SourceID": "73416D79D1EEB2DB791940DC88CA6D21808C614D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "029 In Too Deep Act 1 v2-1.png",
+                "ID": "3039DB3E42A3D8A8FAA984DFCA8C4CA8",
+                "SourceID": "7636E2A0C49A203F4172B018AB5D094BBB681E95",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "029 In Too Deep Act 1 v2-2.png",
+                "ID": "42203BEF43E9FC2A4BD9B84F16173BF9",
+                "SourceID": "4C637100273164EC2935756295868EBA07E4442C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 4,
+              "front": {
+                "Name": "030 Innsmouth Influence-x4-1.png",
+                "ID": "FD61E882DCE7000E60662C14A22B1475",
+                "SourceID": "E11FF38C2471F87DB826BD1DD1673E1E610C47BB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "030 Innsmouth Influence-x4-2.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "031 Return to Devil Reef-1.png",
+                "ID": "12653948A69326C843F7D8F9EE3CC75F",
+                "SourceID": "E867415D393BE8A83B19E9AE2F8548C67DEB9911",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "031 Return to Devil Reef-2.png",
+                "ID": "269744B00FFD42E6A43D66599539FD16",
+                "SourceID": "21DD8143F720AFBE9794CA270A361D05BDDD70A3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "032 Shrine to Hydra-1.png",
+                "ID": "AE1F91DDE6D592F407BE8CF2F59E5D3E",
+                "SourceID": "ADC61DFA9255CB4DE35C275414CB901C7B50C487",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "033 Cave Mouth-1.png",
+                "ID": "54D4DABF300B92D2DB798774CA1B6184",
+                "SourceID": "7C9FB45BC553B58B4CA8C45C4C16323A9B564E96",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "033 Cave Mouth-2.png",
+                "ID": "E6D2F05B2D0AAAE0035BE1D5FF13FF7F",
+                "SourceID": "9CD8639893C17DC2DD3FF363EA8F34708E0ADBD4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "034 Fishing Vessel-1.png",
+                "ID": "6086AC1B314E331D975B887A60307529",
+                "SourceID": "7C68C755DB6D08EA569E226AFC1D5E3B56F21CCB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "035 Return to Horror in High Gear-1.png",
+                "ID": "7BF73B58A94696978AFA350F207E5049",
+                "SourceID": "29109B4FBF81CB2C67CD6B22310614076D0BA47B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "035 Return to Horror in High Gear-2.png",
+                "ID": "B86D856BDD99C3B5E88A108F131CBCF8",
+                "SourceID": "D661B540B158BA80D5FE42A7D722DA0F7B2D2207",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "036 Mud Tracks-1.png",
+                "ID": "AA6F1C7699CF9DE49627070E48B2AAF8",
+                "SourceID": "71FD9AC4CD7407CA0E3405F0ECFED4D7BF4B7889",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "036 Mud Tracks-2.png",
+                "ID": "3E45019520FFABF14CF784DE26D4B241",
+                "SourceID": "1F900506E75BF1EA0C757AE57444C6652F62A6BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "037 Straight Section-1.png",
+                "ID": "ACE8C51557389AA48349F3C2E568A003",
+                "SourceID": "A9745908A16906DD91F5FFC27028D6F444282E46",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "037 Straight Section-2.png",
+                "ID": "3E45019520FFABF14CF784DE26D4B241",
+                "SourceID": "1F900506E75BF1EA0C757AE57444C6652F62A6BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "038 Wrecked-x2-1.png",
+                "ID": "3A83BF350438062E7AF95D966095B36C",
+                "SourceID": "FE8FAFDDC756E0366678FEC1043718857A59F868",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "039 Return to A Light in the Fog-1.png",
+                "ID": "82C570C0111A9D27029425547BFDDE3C",
+                "SourceID": "E0620D49E5E90AF2659822F33124C8B4BD2ADBD0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "039 Return to A Light in the Fog-2.png",
+                "ID": "6504833A8B185987A8BA1895ACCDD59A",
+                "SourceID": "B94E5FE948F8133845ACD796B46CA9B9167D7CAE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "040 A Light in the Fog Agenda 4 v2-1.png",
+                "ID": "178471965D531BFB56807000FD7FD583",
+                "SourceID": "594B914AD54C62ED249BEFF4817899E5CEA58A0B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "040 A Light in the Fog Agenda 4 v2-2.png",
+                "ID": "8CDC0736C57814BB77A664CC176F2655",
+                "SourceID": "285820CA8761A7BE5B10A962AB63E9E076CF4EF8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "041 Born to Breed-x2-1.png",
+                "ID": "D0B22204A7DBB1F5E4714979FA68146A",
+                "SourceID": "AE221CB9C40C64061D83DFC825C894DBF0F203B8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "042 Deep One Grappler-x3-1.png",
+                "ID": "F924FDFD4E7B23A2D4CC8E16C65F6485",
+                "SourceID": "EAD529FF325D85AE473C1EE35054C785EBFD5023",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "043 Return to Lair of Dagon-1.png",
+                "ID": "82A5B0E2A30D168687211308D0385A61",
+                "SourceID": "E3E43EE58D7C7A5059E12325933565948F73DDCF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "043 Return to Lair of Dagon-2.png",
+                "ID": "BB14CA8163851BE270EA47A121C82F3F",
+                "SourceID": "7EB7F0976FA1F0D430112283F0168FF2BC7FA4A8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "044 Lair of Dagon Act 2 v2-1.png",
+                "ID": "9C7F6F0D60B8E2732CF8710DDFC537BF",
+                "SourceID": "7E54B0ED457142B95C6D8D1EDC8A4142A8F0E00B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "044 Lair of Dagon Act 2 v2-2.png",
+                "ID": "22092F9CEABBB3755AF0C4CDE788692B",
+                "SourceID": "74ADA45D41F6F06D43895D3CB4EE9E97ABAA5729",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "045 Doorway to the Depths-1.png",
+                "ID": "E4A5F1D00A58FE118471B6A592267275",
+                "SourceID": "E6D91736B46E98141AA661ED49B3C1C39040A06B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "045 Doorway to the Depths-2.png",
+                "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
+                "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "046 Doorway to the Depths-1.png",
+                "ID": "C68629D8C66FE324FAA73A10FC759F0F",
+                "SourceID": "96A9DE2E325DCD6F0E474036FE9B8A01B9506FBB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "046 Doorway to the Depths-2.png",
+                "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
+                "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "047 Stirring in His Sleep-1.png",
+                "ID": "155B38DE4B2CF249BAAE6A74A79A001B",
+                "SourceID": "0CACDA1B2095A17FBA89E27B14543BA4D7F1C9F6",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "048 Return to Into the Maelstrom-1.png",
+                "ID": "E3E60A92389AF2FA3270F76CD275266D",
+                "SourceID": "82E6D2F1A8B49AE2977ACDA0400EB7838FEF8008",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "048 Return to Into the Maelstrom-2.png",
+                "ID": "4A340291F2F49FE9E0F9CB2083E0D140",
+                "SourceID": "5069D723D327C6D4ED1EA3D8BBCFCF0147A2E0A1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "049 Into the Maelstrom Agenda 1 v2-1.png",
+                "ID": "F7A6F09A74000F3BDD05B1E441172434",
+                "SourceID": "DFCEDAB97C7B7E4AA04ACF141E784B0B8F956F45",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "049 Into the Maelstrom Agenda 1 v2-2.png",
+                "ID": "37A2C7E5EC26454C8C080096D85F7EE0",
+                "SourceID": "4A1ECD7040340E31C7EEA2B3FA5E9788737C08B2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "050 Into the Maelstrom Agenda 2 v2-1.png",
+                "ID": "D586F5DB3FECF205BC3C20D63526A7A3",
+                "SourceID": "77BA39608971C94FC2F89D62DAB94FA4161D5740",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "050 Into the Maelstrom Agenda 2 v2-2.png",
+                "ID": "3DD6C18E3D02641AA712A0D1E1BA684B",
+                "SourceID": "C38286823CD05C1C37E7F9CCAF9FF8169587363F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "051 Into the Maelstrom Act 1 v2-1.png",
+                "ID": "719BB9010E106AC89BF656D3FABCEED2",
+                "SourceID": "B5DA10A5A60F98753C051A42E77632233D166CCD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "051 Into the Maelstrom Act 1 v2-2.png",
+                "ID": "FC8ACB1C2731FC778E716ACE6A99B962",
+                "SourceID": "555501FC706E4564963116286D84783839254ED8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "052 Presence of the Father-1.png",
+                "ID": "14BF2EB67C30B03FD5EB48EC941B961F",
+                "SourceID": "B2E21A7475A55016B9B4C3608093972D9211879C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "053 Presence of the Mother-1.png",
+                "ID": "F15A86AE366004F5455A9CE0032EDB44",
+                "SourceID": "21BAFF9A1431F33638C2CBC9CE1C4535D9404948",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "054 Stirring in Their Sleep-x2-1.png",
+                "ID": "2DDAD9B7117DE6CDF20216D955886128",
+                "SourceID": "BD6C12986D8F92C60B2224C2385B4D448D7BD61B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "055 Barricaded Door-x2-1.png",
+                "ID": "587E02C422FE22B6BF7EEA76F691BF28",
+                "SourceID": "8B9673C7AF29E36BE13B228FCA93D4A96A421064",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "056 Immaterial One-1.png",
+                "ID": "EE15A286903A1A05112984D60A572170",
+                "SourceID": "5B7EFB981971314BE5F621D3CE6B41351A0FB8BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "057 Innsmouth Haze-x2-1.png",
+                "ID": "CE35AB2F3290315F5B360A76D56B0D94",
+                "SourceID": "DC73F14DE4B296AACCF01B7B09CC289515647A85",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "058 King Tide-x2-1.png",
+                "ID": "EC968CAFACD2B1F2708E4C46F12F5EAE",
+                "SourceID": "E4B9B1F502FB696567DDA12D5FCFBC82D38550ED",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "059 Occultation-x2-1.png",
+                "ID": "F18C7D4D45255C4435D75954492C89D2",
+                "SourceID": "85AFE410CCEEFE508E28E25BB659BB7F53C3A0F0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "060 Call of the Sea-x2-1.png",
+                "ID": "B130F085BBF33B6B0B324248911A2B89",
+                "SourceID": "85A0C4A1094D64A972C581EFF6E63519E4150E88",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "061 Rolling Tide-x2-1.png",
+                "ID": "4A2655621B9872D0A8DD12E4B372EBEE",
+                "SourceID": "6F41D1153F0266445C1881C4678041A6531AB703",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "062 Struggle for Air-x2-1.png",
+                "ID": "93641D064DF3C32D3A1053E147512699",
+                "SourceID": "86D2812ED3AFFFE667CE29413C07B548AD75D609",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "063 Deep One Ambusher-x2-1.png",
+                "ID": "2B5FD6E0044AE87DAF74991BE3E73319",
+                "SourceID": "A4CDCB52F873D549DFFF51D9E879CA50816CB422",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "064 Stalked by Deep Ones-x2-1.png",
+                "ID": "5C9325EB098ABC37C31C4D608199D7D1",
+                "SourceID": "20B57A055E8751A7FF2D60349516E46AC417C74A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_encounterback.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "065 Underwater Cavern-x2-1.png",
+                "ID": "48F58C4FEC860D7338F2132AA5A4F408",
+                "SourceID": "21E0586AFEB7AE6231106456D527713545828E5E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "065 Underwater Cavern-x2-2.png",
+                "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
+                "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "066 Tidal Pool-x2-1.png",
+                "ID": "E37B9782FD51C9D84C9723654BDF8FED",
+                "SourceID": "F9454D38485E61D0DF34CE3465274292F8BBB64C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "066 Tidal Pool-x2-2.png",
+                "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
+                "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "067 Underground River-x2-1.png",
+                "ID": "91063863BD7D51D7C54AB79FA83CE4B2",
+                "SourceID": "176926E67B8A4F9D58B8159F6317046D01F016F8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "067 Underground River-x2-2.png",
+                "ID": "43821ACEB8DBD4B692D4CF3E57F79D0E",
+                "SourceID": "E6EFDEB49CE5FD505939FC52D39A8CA6A0C2EB59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "3b323a94cbea1bc0da34c23e659f005de53cf21f3a4e3c5165ed308a23ce4943"
+  "hash": "84d71e76267d45ce38d06a60eaa8da48257b9b645cb90bb878d7d5d84ce19728"
 }

@@ -26,413 +26,418 @@
   ],
   "created": "2022-10-29T04:45:26.689Z",
   "updated": "2023-12-20T12:10:51.466Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
-      "name": "",
-      "cards": [
+      "name": "Dunkle Materie Wissenschaftserweiterung",
+      "parts": [
         {
-          "count": 1,
-          "front": {
-            "Name": "00e_Kate_Winthrop_Mini-front.png",
-            "ID": "222A5DFF762A94C4A9317D627352D91B",
-            "SourceID": "66CEEC5151D71541BA265AD00884058DF41ACA0A",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "00e_Kate_Winthrop_Mini-back.png",
-            "ID": "176C42CFF8947B3A0875625760752616",
-            "SourceID": "3CD7D8C40394796ED4A4FF0077CEB5FBFC967680",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "01 Kate Winthrop-1.png",
-            "ID": "78FFD1A1D74D4262497E53642116AA53",
-            "SourceID": "52A297B47B91E27CE6646E1B3DF1D7220BC82222",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "01 Kate Winthrop-2.png",
-            "ID": "301F6EFC3D328A95FCE9860BE7908D50",
-            "SourceID": "92BE9A26F271C1ACE0F1B3C47F66508B5B4831AC",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "02 Fluxstabilisator-1.png",
-            "ID": "400098EAF8B2D6475E5B1AED2D2F737C",
-            "SourceID": "C26D588B6F33DF74C1504CB83F63FEC90BC01F1F",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "03 Dimensionsforschung-1.png",
-            "ID": "21F3F2688EBDC4D1090AEB50EAD0B03C",
-            "SourceID": "48F608427F9C6D61F09454A61E1A406021FBAFCF",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "04 Dimensionsspalt-1.png",
-            "ID": "8CB86F33DC31D55671E3E1BE52755220",
-            "SourceID": "E012444B24C082A068EE7C82278D932EA22C84D0",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "05 Wesen aus dem Spalt-1.png",
-            "ID": "50E0E554B53B03AC3C8554EA32B8FFF5",
-            "SourceID": "836884295BF6DBBDAE9BF50F59CAF86C9E5B8ACB",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "01 Große vereinheitlichte Theorie-1.png",
-            "ID": "F29B34E5793DE302DFF3C91A7CA2C48A",
-            "SourceID": "0EFE11837AD57944E0D63915B0E79858E2EC1F26",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "02 Wissenschaft statt Mystik-1.png",
-            "ID": "6B4216B765EE75F4EC87A35812019442",
-            "SourceID": "6B4FBE3DBAC9C980A6F3DAD68B7FDCB4E4485126",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "03 Germaniumdetektor-1.png",
-            "ID": "B72F107784D57E0ABF64CB7A8849D9A6",
-            "SourceID": "7E4D6CA46F763A9E57ACC78A5C3603E6D526D9C5",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "04 Sub-Elektronrauschen-Sensor-1.png",
-            "ID": "54E52EC7C986D8E7928E1E138CC9E783",
-            "SourceID": "0FC88E7CABE286CADF25F06FEB55CDC58B6FD896",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "05 Maschinelles Lernen-1.png",
-            "ID": "882671A71211FBBC9A9C33C02355A9F4",
-            "SourceID": "EFA7DD4390F3228FE987B7E6032B27E70DB9C446",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "06 Kernreaktor-1.png",
-            "ID": "8486991822EB52BF011DC1170E938E7F",
-            "SourceID": "09E97A302F4BAD19FFFAD88107A717D13EBF638C",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "07 Internationale Zusammenarbeit-1.png",
-            "ID": "B2C7D45DB80626E3B50349D9CD0E7D40",
-            "SourceID": "00B97A6B5BDD52954577257D637156F77DB58634",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "08 Rationaler Verstand-1.png",
-            "ID": "DB486A8AB8B8B3888564AF48EFCC3A01",
-            "SourceID": "D0F9C17DE9A4C7955875C5A22DCE3BAA4623DE72",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "09 Teilchenbeschleuniger-1.png",
-            "ID": "45EB60520CE5F5E444E97460647C5D0A",
-            "SourceID": "A772C3083BB49B3FA5514ACA9881682144318CB7",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "10 Spezielle Relativitätstheorie-1.png",
-            "ID": "9A4D1A1C71D3789824E2731ABE89B0D9",
-            "SourceID": "80896D23B99FE0EFDB6DCE1068D8DFF8530EE900",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
-            "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1141
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "11 Verborgene Signale-1.png",
-            "ID": "64E74FC2F24BC227C3491D40B37BA0F9",
-            "SourceID": "0DBE5317DE186248EDAA057B23DB8E6C06CC5A5C",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "11 Verborgene Signale-2.png",
-            "ID": "E596B582D494D52B08C7DD17456C0F1F",
-            "SourceID": "4A21BDF68C3995477BE2BB16E592A11E5398B395",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "12 Der Blick in die Unendlichkeit-1.png",
-            "ID": "CEEAB078C0E2D77D52CA5A81569BDBAB",
-            "SourceID": "035E2A651C1D12EA2E114DD096C8DD3CCA63FECE",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "12 Der Blick in die Unendlichkeit-2.png",
-            "ID": "B04E4EA6BBCCB83964F7843366CC152B",
-            "SourceID": "06D2B6D9766641BFC0D929E40E0FA6B6B5D5C174",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "13 Ein Reisender im All-1.png",
-            "ID": "C39B57C2D7B588CAEBE0AE1C4237EC4A",
-            "SourceID": "74F2801D92E607509FE8C3F79555528BD99BC68F",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "13 Ein Reisender im All-2.png",
-            "ID": "BF4B53532E70C6D3417B0A41F77B6FF2",
-            "SourceID": "D9AC11C16B5D7FFCA467DD1C3DA46D0030CA9BF7",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "14 Neugieriger Entdecker-1.png",
-            "ID": "0853D552B4F5AE4C867735D12ADA31D8",
-            "SourceID": "43475A348C688AEF9FADB11D0B89CBC56E1850D7",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "14 Neugieriger Entdecker-2.png",
-            "ID": "1FD46F30E4F8DD5A06A696F6253BAE64",
-            "SourceID": "39E2E50BEEEEE20C0A0F0EDB9B0C38E85029DC97",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "15 Laika-1.png",
-            "ID": "9EAFBF8F77BA801DDDDEC8CF29C8874A",
-            "SourceID": "B0133F3E976FAE6AB9B9AA48B5073E3F276DB2F0",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "15 Laika-2.png",
-            "ID": "8CB1D4961B18BE4B04B06151811EFB73",
-            "SourceID": "BEBB03135D671F1C716CC2C06BCA9543DE1D9EED",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
+          "name": "",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "00e_Kate_Winthrop_Mini-front.png",
+                "ID": "222A5DFF762A94C4A9317D627352D91B",
+                "SourceID": "66CEEC5151D71541BA265AD00884058DF41ACA0A",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "00e_Kate_Winthrop_Mini-back.png",
+                "ID": "176C42CFF8947B3A0875625760752616",
+                "SourceID": "3CD7D8C40394796ED4A4FF0077CEB5FBFC967680",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "01 Kate Winthrop-1.png",
+                "ID": "78FFD1A1D74D4262497E53642116AA53",
+                "SourceID": "52A297B47B91E27CE6646E1B3DF1D7220BC82222",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "01 Kate Winthrop-2.png",
+                "ID": "301F6EFC3D328A95FCE9860BE7908D50",
+                "SourceID": "92BE9A26F271C1ACE0F1B3C47F66508B5B4831AC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "02 Fluxstabilisator-1.png",
+                "ID": "400098EAF8B2D6475E5B1AED2D2F737C",
+                "SourceID": "C26D588B6F33DF74C1504CB83F63FEC90BC01F1F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "03 Dimensionsforschung-1.png",
+                "ID": "21F3F2688EBDC4D1090AEB50EAD0B03C",
+                "SourceID": "48F608427F9C6D61F09454A61E1A406021FBAFCF",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "04 Dimensionsspalt-1.png",
+                "ID": "8CB86F33DC31D55671E3E1BE52755220",
+                "SourceID": "E012444B24C082A068EE7C82278D932EA22C84D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "05 Wesen aus dem Spalt-1.png",
+                "ID": "50E0E554B53B03AC3C8554EA32B8FFF5",
+                "SourceID": "836884295BF6DBBDAE9BF50F59CAF86C9E5B8ACB",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "01 Große vereinheitlichte Theorie-1.png",
+                "ID": "F29B34E5793DE302DFF3C91A7CA2C48A",
+                "SourceID": "0EFE11837AD57944E0D63915B0E79858E2EC1F26",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "02 Wissenschaft statt Mystik-1.png",
+                "ID": "6B4216B765EE75F4EC87A35812019442",
+                "SourceID": "6B4FBE3DBAC9C980A6F3DAD68B7FDCB4E4485126",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "03 Germaniumdetektor-1.png",
+                "ID": "B72F107784D57E0ABF64CB7A8849D9A6",
+                "SourceID": "7E4D6CA46F763A9E57ACC78A5C3603E6D526D9C5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "04 Sub-Elektronrauschen-Sensor-1.png",
+                "ID": "54E52EC7C986D8E7928E1E138CC9E783",
+                "SourceID": "0FC88E7CABE286CADF25F06FEB55CDC58B6FD896",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "05 Maschinelles Lernen-1.png",
+                "ID": "882671A71211FBBC9A9C33C02355A9F4",
+                "SourceID": "EFA7DD4390F3228FE987B7E6032B27E70DB9C446",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "06 Kernreaktor-1.png",
+                "ID": "8486991822EB52BF011DC1170E938E7F",
+                "SourceID": "09E97A302F4BAD19FFFAD88107A717D13EBF638C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "07 Internationale Zusammenarbeit-1.png",
+                "ID": "B2C7D45DB80626E3B50349D9CD0E7D40",
+                "SourceID": "00B97A6B5BDD52954577257D637156F77DB58634",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "08 Rationaler Verstand-1.png",
+                "ID": "DB486A8AB8B8B3888564AF48EFCC3A01",
+                "SourceID": "D0F9C17DE9A4C7955875C5A22DCE3BAA4623DE72",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "09 Teilchenbeschleuniger-1.png",
+                "ID": "45EB60520CE5F5E444E97460647C5D0A",
+                "SourceID": "A772C3083BB49B3FA5514ACA9881682144318CB7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "10 Spezielle Relativitätstheorie-1.png",
+                "ID": "9A4D1A1C71D3789824E2731ABE89B0D9",
+                "SourceID": "80896D23B99FE0EFDB6DCE1068D8DFF8530EE900",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "11 Verborgene Signale-1.png",
+                "ID": "64E74FC2F24BC227C3491D40B37BA0F9",
+                "SourceID": "0DBE5317DE186248EDAA057B23DB8E6C06CC5A5C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "11 Verborgene Signale-2.png",
+                "ID": "E596B582D494D52B08C7DD17456C0F1F",
+                "SourceID": "4A21BDF68C3995477BE2BB16E592A11E5398B395",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "12 Der Blick in die Unendlichkeit-1.png",
+                "ID": "CEEAB078C0E2D77D52CA5A81569BDBAB",
+                "SourceID": "035E2A651C1D12EA2E114DD096C8DD3CCA63FECE",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "12 Der Blick in die Unendlichkeit-2.png",
+                "ID": "B04E4EA6BBCCB83964F7843366CC152B",
+                "SourceID": "06D2B6D9766641BFC0D929E40E0FA6B6B5D5C174",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "13 Ein Reisender im All-1.png",
+                "ID": "C39B57C2D7B588CAEBE0AE1C4237EC4A",
+                "SourceID": "74F2801D92E607509FE8C3F79555528BD99BC68F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "13 Ein Reisender im All-2.png",
+                "ID": "BF4B53532E70C6D3417B0A41F77B6FF2",
+                "SourceID": "D9AC11C16B5D7FFCA467DD1C3DA46D0030CA9BF7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "14 Neugieriger Entdecker-1.png",
+                "ID": "0853D552B4F5AE4C867735D12ADA31D8",
+                "SourceID": "43475A348C688AEF9FADB11D0B89CBC56E1850D7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "14 Neugieriger Entdecker-2.png",
+                "ID": "1FD46F30E4F8DD5A06A696F6253BAE64",
+                "SourceID": "39E2E50BEEEEE20C0A0F0EDB9B0C38E85029DC97",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "15 Laika-1.png",
+                "ID": "9EAFBF8F77BA801DDDDEC8CF29C8874A",
+                "SourceID": "B0133F3E976FAE6AB9B9AA48B5073E3F276DB2F0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "15 Laika-2.png",
+                "ID": "8CB1D4961B18BE4B04B06151811EFB73",
+                "SourceID": "BEBB03135D671F1C716CC2C06BCA9543DE1D9EED",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "1c57faba4431a96ec2a1ef5be9e0186109b231897ba67373efe311ff1857ef34"
+  "hash": "576279220f2957476fd2afde54ca0e8529b96a1c68622b86d91a9ebb5b3fa2f4"
 }

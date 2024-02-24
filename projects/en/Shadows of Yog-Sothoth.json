@@ -19,33 +19,38 @@
   ],
   "created": "2023-05-29T04:45:26.680Z",
   "updated": "2023-11-27T03:53:33.073Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
-      "name": "COMING SOON. Nothing to see here.",
-      "cards": [
+      "name": "Shadows of Yog-Sothoth",
+      "parts": [
         {
-          "count": 0,
-          "front": {
-            "Name": "001 Blessed Blade-x2-1.png",
-            "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
-            "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
+          "name": "COMING SOON. Nothing to see here.",
+          "cards": [
+            {
+              "count": 0,
+              "front": {
+                "Name": "001 Blessed Blade-x2-1.png",
+                "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
+                "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "f299f1de5b2773fef70958561a90a1bc03ea85ac5380e631346dfc908e2a9c86"
+  "hash": "8d2ce4077acbefcc569f378c20859381a6a030135d67b3381dc2bf7e11c6b5ce"
 }

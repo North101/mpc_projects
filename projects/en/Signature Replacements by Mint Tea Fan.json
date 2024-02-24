@@ -23,2655 +23,2660 @@
   ],
   "created": "2022-01-05T15:18:15.624Z",
   "updated": "2023-09-09T15:18:15.624Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
       "name": "Signature Replacements",
-      "cards": [
-        {
-          "count": 1,
-          "front": {
-            "Name": "001 Roland - Covering Fire-1.png",
-            "ID": "BFC7CD75E4D5F5B17D1FD9410BDEBCA9",
-            "SourceID": "D86BB97F531B88C66F6F5389141E3102CB06A4F1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "002 Roland - Impersonation-1.png",
-            "ID": "EAC6ADDFD9698F6D11F3D81850D391C9",
-            "SourceID": "D4B29AC3933BC6208954545B653D0E53B5936E54",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "003 Daisy - Dewey Decimal-1.png",
-            "ID": "90CA9B4533465F7D3D0DCB725D5CE239",
-            "SourceID": "0C47654CAEBBE9862C9B69F7E9CA6EF04BCB40F1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "004 Daisy - Power Begets Power-1.png",
-            "ID": "09F6E666C5B25292F55798D3C5C4CC7F",
-            "SourceID": "E8325C84F38F1FF459534BB197DE3A425AF8324A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "005-A Skids - Spotter-x3-1.png",
-            "ID": "6EBCB36E7042294DED349E7C0AF802D1",
-            "SourceID": "25A0CB983A8E61327A4189BEEFC98D68CD34EDA2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "005-B Skids - Jackpot-1.png",
-            "ID": "635CBE5427B598E835B87D575E4DBE97",
-            "SourceID": "EFFA2A1C44B2271B0DE717105E400B548CD80BC2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "006 Skids - Blacklisted-1.png",
-            "ID": "EC577FF7C19CFE5AB4B61F0931878D2D",
-            "SourceID": "14929889D6EC81A2C434018A882B7DDAC3F921C9",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "007 Agnes - Release Fate-1.png",
-            "ID": "E534DA0D76E5342252BE193299CF0506",
-            "SourceID": "55860AB7041CD6CB3F23BCD138CB5A20F0180F94",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "008 Agnes - Ampelopsis-1.png",
-            "ID": "B04FF8B7A8D485C8E1EC279E09F8F717",
-            "SourceID": "639EA9462286C42DE893388A1A18F3DE7621B918",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "009 Wendy - Elder Coin-1.png",
-            "ID": "61DFA1EAACAA36BA1D4B6DE04DC04F09",
-            "SourceID": "CD5670012B4B52C0ED895968599D35C683937BF2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "010 Wendy - James Adams-1.png",
-            "ID": "EF177454CC5FB07A3FE7C20853A18B37",
-            "SourceID": "A2561670B4C493EAEA9EF5ADE3B9FE7DA5A9E901",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "011 Zoey - Purify the World-1.png",
-            "ID": "B15A408725572A0D0D9380975DED06FC",
-            "SourceID": "1D0021209D1A5E6A20103EECE017C7A953CD228F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "012 Zoey - Voice of God-1.png",
-            "ID": "5D234605473F6F2F5A63974D5C6FA956",
-            "SourceID": "5E7F6ACB374B2B44875492B8A46E9B4641B6122F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "013 Rex - News Sense-1.png",
-            "ID": "AAF3F7E392E502995DB6CDE8AABFB1CC",
-            "SourceID": "6F1A2E5DEB484CDB43BB2ADB0A4CFF8532E6861F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "014 Rex - Murphy's Law-1.png",
-            "ID": "F5D8C28180F4AA265DA17818A48A2334",
-            "SourceID": "02ABB47A1D00740423840158CD3A365993A77A43",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "015 Jenny - Cherry Lips-1.png",
-            "ID": "08B0DF05DE7392F790DC613249E36375",
-            "SourceID": "8BB98639486C2008653D8357974685BDA8698D84",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "016 Jenny - A Vision in Blue-1.png",
-            "ID": "FC1AB73C51C50BFE2D018AB9468A9290",
-            "SourceID": "EEDE5425465180275BEB7DCCD596F3F265F867BC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "017 Jim - Polyphonic-1.png",
-            "ID": "6BBD6E931B9F1479E4E8E769DB35BA5F",
-            "SourceID": "A39FE0BE486A060E466991B1254B0CBE158E941C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "018 Jim - Revenant-1.png",
-            "ID": "D85FD3A8B0FE3ABC7DA797A5968799E9",
-            "SourceID": "C59EC1933AE65F0C81C4D42CEB22C071F2146DF1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "019-A Ashcan - Ashcans Guitar-1.png",
-            "ID": "F11E75855B1D7EA7D55CC77D5DE41529",
-            "SourceID": "779A2230CA7F3878F16A5898878D6508344196DC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "019-B Ashcan - Faithful-1.png",
-            "ID": "560CD4DC9F33B7069058A1AAB22899BF",
-            "SourceID": "3826E0FACBB37D3CDC68E5798AF804961F671F78",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "020 Ashcan - Corruption-1.png",
-            "ID": "0C99F806004C313DB45CE97A5CEF96C3",
-            "SourceID": "696EBBBD878307EB91E9CDAB932E95802229345A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "021-A Mark - Denial-1.png",
-            "ID": "A01A6E5AC1D4420463D291EF1C69EBD1",
-            "SourceID": "6ED2E64EB9E6DC90C5B3959DB60858900E693C86",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "021-B Mark - Anger-1.png",
-            "ID": "62D511EABE6B3567A52631EE86A34AEB",
-            "SourceID": "EABEE356B056BD0B15E6DA982E0B8F47052512D0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "021-C Mark - Bargaining-1.png",
-            "ID": "BEF217F96E28F42B56FD3312C68B637A",
-            "SourceID": "4E98B7717509E3B972437DB40069AA43EE8827EA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "021-D Mark - Depression-1.png",
-            "ID": "3C0A3541BC10CF81CDDB947056390B8F",
-            "SourceID": "3E4C91222FE7B55C4C4D54D86A5992C4881157D2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "022 Mark - Acceptance-1.png",
-            "ID": "7484E33B82C0878DEB9CD96F543BD23B",
-            "SourceID": "331720B8CFD1DDA6943477DCA0A46CE316727E6C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "023 Minh - Total Recall-1.png",
-            "ID": "CEC8468C9166469728825B0D468BD417",
-            "SourceID": "2B9512E5172108ABEBCA41D387CF628E7805FDD8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "024 Minh - Hypercritical Mind-1.png",
-            "ID": "31C48F2CEC8AD1140248159ED1BCEB36",
-            "SourceID": "840D9A11B4967BC012FB204ACC357CC2CBF6DBA3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "025 Sefina - Escape Reality-1.png",
-            "ID": "0AB78C743A605779448E9346CA421141",
-            "SourceID": "1E7A4145C812E484C1C950B1C7031710D39064C3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "026 Sefina - Corrina Jones-1.png",
-            "ID": "7F57536AE5A5315FDB300E9BEF619807",
-            "SourceID": "DB749BAC86E1A9344E9D6316CEB552258A23E5AB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "027-A Akachi - Force of Nature-1.png",
-            "ID": "8D30C612172DB90FE095487450222170",
-            "SourceID": "DD896FB2D2E5FA4DE4EDB31EC7B763C6DEE635A0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "027-B Akachi - Deluge of Power-1.png",
-            "ID": "29921D9393836881E43F74232F916986",
-            "SourceID": "63B97D638E96369DB94338EBF34318C377FD5251",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "028 Akachi - Overload-1.png",
-            "ID": "A63FEE372FF0476293DCA8B10D04C495",
-            "SourceID": "360D2C244BC4908FDF6AB3F6B3E6F88ACCAABC3A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "029-A Yorick - Hyde Mausoleum-1.png",
-            "ID": "A5F73006A4AB7FB366EAAEC93AACC53F",
-            "SourceID": "03FA30DF3D90A85984993848FF0A9D57AC8D727B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "029-B Yorick - Savage Zombie-1.png",
-            "ID": "ED6665A26C6D7D7D0C5B765FC0D69FE1",
-            "SourceID": "FD6A3EF6630AC768FAC67AFC5A32D9935488D6BA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "030 Yorick - Graverobber's Gaffe-1.png",
-            "ID": "1FF3B08313BE5AFEDE10192A33588303",
-            "SourceID": "C028DD299040B162470C2696F6842D301055828D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "031 Leo - Sir William Brinton-1.png",
-            "ID": "65B6E2E44B61722DC85B2A73922A9746",
-            "SourceID": "02607E2764EB98F2B211F20E528C7C55BE38B28D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "032 Leo - Ride or Die-1.png",
-            "ID": "8857E130B36D77B1263CDAB4B62E1205",
-            "SourceID": "9ED48E6E47DD199CCE7810E8368745B498187B48",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "033 Ursula - Golden Idol-1.png",
-            "ID": "64B49DD15E3FCC95550C6B36467F34B7",
-            "SourceID": "CF3EF3931D70E357248820CD9A5473EE67A1E0A7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "034 Ursula - Cuahchicqueh-1.png",
-            "ID": "00F66FE426EB927D0E5E276F07C1C56F",
-            "SourceID": "EC33447A2BA6F19B34D5D6EEF11DFA044831788F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "035 Finn - Rum Run-1.png",
-            "ID": "B5139B356C456019356FC6FC641F8B11",
-            "SourceID": "31793601CE68AAAF189DF1B47D410B783658F516",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "036 Finn - Intercept-1.png",
-            "ID": "31CFA9D71C4022285F18DE3A9303774D",
-            "SourceID": "CF6C1360D1266A6C7134913AC62CE5BA1A5E1078",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "037-A Father Mateo - Divine Mission-1.png",
-            "ID": "A132EE385EDEA9C8D70A149990739EED",
-            "SourceID": "8FB4BDB3A5C8E1BC8747A32B528E257C6F00E232",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "037-B Father Mateo - Benediction-1.png",
-            "ID": "AD6F5D88E6C8C37159227BF646692715",
-            "SourceID": "74EB2E9B017E73B8F3BC32EE1096E7B064FFF006",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "038 Father Mateo - Despondent-1.png",
-            "ID": "E85A439DDDB6551F857D3D2AEA84D624",
-            "SourceID": "ABF89D8ECD91A9F4C23970C08446200A82EE5719",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "039-A Calvin - Undying-1.png",
-            "ID": "B71F49260990930E63B571FE6BED512A",
-            "SourceID": "1341C8CC8513F445897154E4417BC203DC41FCEF",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "039-B Calvin - João-1.png",
-            "ID": "BADEA957087B260C3A1B8A1D2241C135",
-            "SourceID": "709BD276B49E2D5A2083E53EA1C83BEF6E8094C3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "040 Calvin - Exchanged Demise-1.png",
-            "ID": "6C42804DC14C0EB3284FE1F888B2F28A",
-            "SourceID": "07E11FC75ADBE5BBDDC6C6E82209904E35E0BEE7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "041 Carolyn - Rorschach Test-1.png",
-            "ID": "EC50388D13C3DD0A43C419AF0FA0C9F3",
-            "SourceID": "57E40E32AB27FE986C1F8EABFA7F85187AFA08FE",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "042 Carolyn - Oneirophobia-1.png",
-            "ID": "68E856DA39FAA8B0095E8649B0B9A164",
-            "SourceID": "B28EC453C53CEE315D0097EF277AD262B0455E5C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "043 Joe - Astute-1.png",
-            "ID": "38143421591A65B1C4E053FD970E60DB",
-            "SourceID": "FA603F1C4F0849CF061C3D68C8CB6C25B98BAFD7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "044 Joe - Blindsided-1.png",
-            "ID": "32E659B1BD5F0AAF30B8D44B8D20E6BA",
-            "SourceID": "B0BFE207AB6244EA09DA5261B1CEFD6545EA8C29",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "045 Preston - Social Butterfly-1.png",
-            "ID": "E16B585F94BE5A9C95279A1225DE304D",
-            "SourceID": "64104A4502C55485A86C9316265EA9249A08DD72",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "046 Preston - Fregoli Delusion-1.png",
-            "ID": "B85676270A7F9578583649881444A74F",
-            "SourceID": "5D3D1AB35E4806A45202898677F10C3DCE040A96",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "047 Diana - Clandestine-1.png",
-            "ID": "30AADF944BC218DAE270D1E2B3040FCE",
-            "SourceID": "1CF64C61F3D09B80DA99F1D4DE0A0B4DA6E0DE68",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "048 Diana - Masquerade-1.png",
-            "ID": "6101F8C740C785A9BA959599028B8A47",
-            "SourceID": "5E3940B815A8C5A7254B81D634AF4B6D4F7D0AA6",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "049 Rita - Adrenaline-1.png",
-            "ID": "F5DC505C921B5EDAB4D894F57E855406",
-            "SourceID": "89EDE14D85FAA72B5CF53E60A80BF5079F357FC5",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "050 Rita - Labyrinthine-1.png",
-            "ID": "37A2BDF8C2F101CB74048345D0B07B0C",
-            "SourceID": "BD65B2C17F1ADCDEFCE249526D04D560D05D81A0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "051 Marie - Smoky Velvet-1.png",
-            "ID": "E2FDE3B6AECAA672E0FA5EB048F47D24",
-            "SourceID": "CC7DB52AF45487DD687A066B36FE664A47D6EDCB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "052 Marie - Voodoo Vengeance-1.png",
-            "ID": "BBE6574CB17A56DE5F274BC87F171ABB",
-            "SourceID": "FB70087934F34AA6A2C0BA39B23F3029C8C5A065",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "053-A Tommy - Eddy Muldoon-1.png",
-            "ID": "85A1C26181509C4701FA587C127BA5B7",
-            "SourceID": "167FED1FFB56A1592DE4318CE5D87A817AB296EF",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "053-B Tommy - Arkham Police Station-1.png",
-            "ID": "8914AA87F75332F7B2543A682F3D73CC",
-            "SourceID": "7891B761B1D4B3B371C33AB0EF15C47E873EF423",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "053-C Tommy - Search Warrant-1.png",
-            "ID": "8C5589DDD6C9B1D732A17AFE073E3F27",
-            "SourceID": "AE0C52B9D1DA8FFD3EAFF37826577472711B0D80",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "054 Tommy - Duty Bound-1.png",
-            "ID": "FD2A7D61E31A7F447C4FA61FBBB4A252",
-            "SourceID": "0BC2AE93CD61FC94C6C20BE3C6BC04CA2EBF8E8F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "055 Mandy - Dr-1.png",
-            "ID": "B183BE29943AC00BA7989EE72C26660C",
-            "SourceID": "30A19BDD2034B4C5F1B767312206DF4DBBEC0EA0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "056 Mandy - Hubris-1.png",
-            "ID": "17C3CF4D50A18D3B497742F3720C1007",
-            "SourceID": "A322C9A5897696D84047ED382027CECCB31D2018",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "057 Tony - Bite the Dust-1.png",
-            "ID": "08E7B99711BD5BC70CE9FBC0E370C87E",
-            "SourceID": "14584A806A92C0712B61D7A01358ADAD1771ABC4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "058 Tony - Parallel Disparity-1.png",
-            "ID": "2348FB0DCBAAF240AEAA27AABBD4D4E9",
-            "SourceID": "B3D49E377A97DA212E0754BB95A05A67D2BBBE71",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "059-A Luke - Sekhmet-1.png",
-            "ID": "19A26FE96F551DD622BC0293B0496BC0",
-            "SourceID": "239846CB4C97627402531548F2F59C8BBE272DA7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "059-B Luke - Maahes-1.png",
-            "ID": "7E40C52FB4B317563BA1B8AE40E586F4",
-            "SourceID": "AF76A3FE27E88CE2AD365D8C64A2770691AEC03E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "060 Luke - Dark Charisma-1.png",
-            "ID": "A9638FB5FFF524B9F7292DFD2D571568",
-            "SourceID": "B1E1E2C684231236AA1D904D7BFBD0DE04D62172",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "061 Patrice - Songs to the Moon-1.png",
-            "ID": "4FF25A2A51E16662302FDAC9918CE217",
-            "SourceID": "7F80C6E6A842A73D39E48DB6800E706C7A81D3CE",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "062 Patrice - Lunatic Melody-1.png",
-            "ID": "5E254D9FD26DBCF5DB70AA983E283348",
-            "SourceID": "C3B9AE5D5F981A332920F0B2C0F28C831D0E7F2D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "063 Nathaniel - Rubber Match-1.png",
-            "ID": "6091CBA48C945921711993BF8E538ED4",
-            "SourceID": "89F4EC0C588E1C1F0CD2CE913EB9BB0C934441D8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "064 Nathaniel - Sluggish-1.png",
-            "ID": "E71F32C23FE883404B931B71E7A51BCF",
-            "SourceID": "40C54E577520FFF2EE87E589D37746927D0BB4BB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "065 Harvey - Improve-x3-1.png",
-            "ID": "64830405A503C5B7D8FFCEBC3D86ACBB",
-            "SourceID": "0783FFEB43733AD204CE582D94C689E325CE8693",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "066 Harvey - Stagnate-1.png",
-            "ID": "F616CE7B84B48DA02DD5F69C482A1E74",
-            "SourceID": "D8D2AEB528C464D4BFDF67920D766D4E172EA1A3",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "067-A Winifred - Valiance-1.png",
-            "ID": "A01EA7453EA5EAA814DA552701F37F73",
-            "SourceID": "7A041CE2800112C67D04FC5CF0858095C233A2FE",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "067-B Winifred - Audacious-x3-1.png",
-            "ID": "4DBBD7032B6A78770D3719351AFA2676",
-            "SourceID": "B4EB4F9F2BCD9E90773770169F364D400A4458C2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "068 Winifred - Icarian-1.png",
-            "ID": "CC5BC4200C286E448821B1D8B18835CA",
-            "SourceID": "25D96DE3A2B52D050FE9A49297A7D0B73A28BE4E",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "069 Jacqueline - Defy Certainty-1.png",
-            "ID": "3237E6CF748F87BC7442DC15B0FB2F62",
-            "SourceID": "D7D50CEAA4BC4C62BDF109755692D5BD20B5232F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "070 Jacqueline - The End is Nigh-1.png",
-            "ID": "BAF9259ECC50A418627EE0571A61A245",
-            "SourceID": "667B47F65436C8DBE95C2AAF181B1BD8EF98B3A9",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "071 Stella - Nor Gloom of Night-1.png",
-            "ID": "0B9FF4735B0B9DA044E83A67F954CEF1",
-            "SourceID": "2CC9C418E098BE851D31C90615DF7B824330AA71",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "072 Stella - Dysphoria-1.png",
-            "ID": "FDC8DE31B5E3D5485503E9C283A73984",
-            "SourceID": "AA4F87642BD29A75B77DE887EAB574E9DE5EF3BD",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "073 Sister Mary - Piety-1.png",
-            "ID": "B46EBCF93DA3154EB7E24A74346CF3FF",
-            "SourceID": "64DD7416DDC8FBCB4999BC8DC0BD2BBA339E99B4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "074 Sister Mary - Self-Righteous-1.png",
-            "ID": "C0546446EBF42E5A30A79B5764212308",
-            "SourceID": "C76AC8456B98310F372C358E2EAFC3B4A39D4027",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "075 Amanda - Epiphany-1.png",
-            "ID": "97543092F2941096B00584B5C065BBD7",
-            "SourceID": "1533591BC7BF1529581BD28F25CE619C177770E7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "076 Amanda - At Sea-1.png",
-            "ID": "9FE48731E6F541B8082E80609E76BEB1",
-            "SourceID": "F7923A1932D3C7AE36359F60FBF365039A035E57",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "077 Trish - Infiltrate-1.png",
-            "ID": "7324A75535E0B4D11E771F273286591F",
-            "SourceID": "180B8D14AB491B1FB2F6CA888D5A8FE6B18A394F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "078 Trish - Espionage-1.png",
-            "ID": "A32989F64B2A0E69E8290385911B1908",
-            "SourceID": "4E1C4B527FF4C7A78EDF96AE27B40B6B5FE46D90",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "079 Dexter - Prestidigitator-1.png",
-            "ID": "0A58F88599AE65EAF1783262B9B401C9",
-            "SourceID": "97B529F891C1043E849DF72E690968683E54B5B8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "080 Dexter - Escape Act-1.png",
-            "ID": "E3C05B1759748B0D99EBDA8467C2458E",
-            "SourceID": "8DDC729041EC8373CB193FD76559E899C401F5B0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "081 Silas - Turning the Tide-1.png",
-            "ID": "807BADA50B00A74AC1E0D83FBB36B517",
-            "SourceID": "DB06D0EE357ED29C70DD77190C309ADDDA08B512",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "082 Silas - Exalt the Deep-1.png",
-            "ID": "BA53BFA5CE79A44A016C2CBD5E75E9B4",
-            "SourceID": "B587F07256E7F965E23DDEDD598CB1418DA4E10F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "083-A Daniela - Tool Belt-1.png",
-            "ID": "029E767904516BDC79C8AC2FF378C1CA",
-            "SourceID": "2D1A22E78875442F7A0A5B5CC00A8479C0B88EEF",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "083-B Daniela - Gabriel-1.png",
-            "ID": "0525EC7C8786968FA9AA0B8D48D1842C",
-            "SourceID": "F8F1A153364F1E9BB2A29B7AE46D4164A586315B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "084 Daniela - Pishtaco-1.png",
-            "ID": "94365430D5500F67B723A14E8A3675CC",
-            "SourceID": "16465EE8E7F6016A928889A117311A77AD516A17",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "085 Norman - Astrolabe-1.png",
-            "ID": "9913FA3BD25AEC74E6FEA02736660160",
-            "SourceID": "AF82938DCBA858AF011D27F8175EE5D80DA0F99D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "086 Norman - Angular Time-1.png",
-            "ID": "D249BFAEC414A2048145E0DFF75568A6",
-            "SourceID": "AA62AD9A471ABE5E66B81475D80C4ABA7E6A2B29",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "087 Monterey Jack - Call of the Ancients-1.png",
-            "ID": "181332B9A2A5799360E945C9867C5220",
-            "SourceID": "5197112594E32C9BFEFABE7FD8F27E8F590E8493",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "089 Monterey Jack - Citrine Serpent-1.png",
-            "ID": "8BFAD7B01EC2ADD17CFEB6C5FDB46155",
-            "SourceID": "552EE1ACF78E5B52FB2D080CE948A8A91C15A2F1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "090 Monterey Jack - Obsidian Jaguar-1.png",
-            "ID": "B1DBF2D0147168F919B09BD7D6A52F25",
-            "SourceID": "F1B23655F6F0BCE3BA838EA5C19C619EF67E8DD0",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "091 Monterey Jack - Jade Crocodile-1.png",
-            "ID": "186719270A33439C8A7B77AB6B179A22",
-            "SourceID": "2B2C374791F07082B499C522AAA7A24A1A8F7A79",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "092 Monterey Jack - Turquoise Eagle-1.png",
-            "ID": "41581462B08CD06CB17C0D246996586D",
-            "SourceID": "AA0668C1F396189897D6BA3FEDC1E31E881FB527",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "093 Monterey Jack - Crypt Curse-1.png",
-            "ID": "C2E8E691C47F4C642101166B1931A1B7",
-            "SourceID": "50DF95243E8AA1A8A27F7A9EB7F75E2359CF96FC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "094 Lily - Discipline 1-1.png",
-            "ID": "F30BA817EABC97CBEF5A518B3FD49700",
-            "SourceID": "07DA1D1156CC29D5DADEFE946905C2E956E3B291",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "094 Lily - Discipline 1-2.png",
-            "ID": "8ADA3C116FF4797C06F8EA3725C11CB5",
-            "SourceID": "C11FD886DB0FF9CD147545BA43999B5A4B871DE7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "095 Lily - Discipline 2-1.png",
-            "ID": "4A4FFDA5F4DC0F27AF227A2363547EF0",
-            "SourceID": "81EBB6EB8923D4D8EEC7D1069E52CB0E7B92B6B4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "095 Lily - Discipline 2-2.png",
-            "ID": "C0A3D3164FF9EC35645C804744FD08D1",
-            "SourceID": "D8B050F5527A22155077BB739077FBC812E73039",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "096 Lily - Discipline 3-1.png",
-            "ID": "2E0BD7EDCAD7853D698F5FB40FFB914A",
-            "SourceID": "FCCC7CD17F3A74173325EF762799F78B58621E0A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "096 Lily - Discipline 3-2.png",
-            "ID": "AB1E49B87C267880A13D4C777211A841",
-            "SourceID": "4B58DB11D72F45AEE75C7DCC63C7C368CE3BB165",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "097 Lily - Discipline 4-1.png",
-            "ID": "4C70B2C365418119F40EDA4E1D42874D",
-            "SourceID": "446C73EA7CB07695A1E4833127D02477AFADA7AA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "097 Lily - Discipline 4-2.png",
-            "ID": "0AD7038042D46844CAF9BAF00A32D95A",
-            "SourceID": "75526DD9E8881ECABE274B9C36A71C41E0D69C6A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "098 Bob - Nibble-1.png",
-            "ID": "E508A12E735499A5A7D224EA8CAEC414",
-            "SourceID": "7B9947F89CA0993621B1F49544BD821DB3FBE29F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "099 Bob - Pleonexia-1.png",
-            "ID": "D3F7360D288B35946C632A99BE82DBBD",
-            "SourceID": "15C5E674F36AF1F2C8372560F875CC2D383EA8BC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "100 Carson - Anticipation-x3-1.png",
-            "ID": "B16DF7239C2C0AA15EB67857E47E2457",
-            "SourceID": "2A888FB8F00CDA39E9DE331C1AA9474D64E16203",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "100-U Carson - Anticipation Upgrade Sheet-1.png",
-            "ID": "75B8543D1DDE831C74CB2E754FD87D8F",
-            "SourceID": "7DBE570AF2D4E9461829ECDAAEB278AAB4FD4A13",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "100-U Carson - Anticipation Upgrade Sheet-2.png",
-            "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
-            "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "101 Carson - The Webb Estate-1.png",
-            "ID": "9547A61032BE39079364F95B8D2F258D",
-            "SourceID": "968FCF7BF68B293167A2208B12F374446323CFA1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "102 Vincent - Medical Kit-1.png",
-            "ID": "AC9CFD8420843EAD1BA10649F634214B",
-            "SourceID": "A2BFAF703CD265E4A36A0131CC9B24E222F0B272",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "103 Vincent - Malpractice-1.png",
-            "ID": "1A1C98406EFBB0A6559B6484392F922A",
-            "SourceID": "B6D413EA596A7CDC8348CAACEA01904C58BF30AB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "104 Kymani - Leather Gloves-1.png",
-            "ID": "19CC2C7431ACA2DDB920914D09144D89",
-            "SourceID": "9A810A147797C1BA92825142CC4AFFBF7C4F8420",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "105 Kymani - Trip the Alarm-1.png",
-            "ID": "EE10939574962F456FF405BDDA275B22",
-            "SourceID": "4E585D6056B9E37857F63DA4FB2B78DC6DDF3C1B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "106 Amina - Ancestral Locket-1.png",
-            "ID": "E85057DFC58AB9C28B81FF16C9406061",
-            "SourceID": "CBD64A14B0EB1AA7E698FD529F7B5C9BC79DBBB4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "107 Amina - Harrowed-1.png",
-            "ID": "5F49CAE6253796197EBBB8DD8EED0FA6",
-            "SourceID": "D73AD183E0C1559BAD433F41E760243EC30F5D82",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "108 Darrell - Doyle Jeffries-1.png",
-            "ID": "8F66F3D5D0FF59BBA3D42F91AE89972A",
-            "SourceID": "8A6404B9E4F5DDFEA60F78D071F856C9B7B8ADBD",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "109 Darrell - Tunnel Vision-1.png",
-            "ID": "F302513749BA0AF3E3A30DFAAC252ACB",
-            "SourceID": "3CABAA790FCB356F31C73FE0F734D1C683B911F1",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "110 Charlie - Gathered Support-x3-1.png",
-            "ID": "181AC1F062103481CBBEB0238FD3CE54",
-            "SourceID": "A36341AFD8114732CC16B5E6982C7DE189B64490",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "111 Charlie - Contravention-1.png",
-            "ID": "5249F9EF8BB113A8ACAE9F1B5544DF97",
-            "SourceID": "DFC86C52108DBD37FB4CC135F61D8656A5BE03D4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "150 Gloria - Unfinished Novel-x2-1.png",
-            "ID": "68D2AD61CDA11D399BE486C5FB7E5483",
-            "SourceID": "5CBEB0B804AB3C4528DCF1D7194AF253F7D7AC34",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-A Gloria - The Esteemed Emory 1st-1.png",
-            "ID": "683086C4C3029A4647B7CA6BA35CAFC1",
-            "SourceID": "38C9C2F1AF2D73D74EF54489BE3E06110258A87C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-B Gloria - The Esteemed Emory 2nd-1.png",
-            "ID": "31F65FA1DDDCFCCC0D8EF2C6B96E3F75",
-            "SourceID": "7794E450FECFA2B74AE3BE479B6B7388182CAFE9",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-C Gloria - The Esteemed Emory Pub-1.png",
-            "ID": "2099AD1BD18745AB9A0BA5A37A52415E",
-            "SourceID": "1CDF4C776BD89B2CEE8842064F9057E9EBEFBE46",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-D Gloria - The Secret Affair at Stiltz 1st-1.png",
-            "ID": "41933623C728220D9AD2253C952055C8",
-            "SourceID": "ADE1CB56A4B4AC02B2E34443587B08A8974AC823",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-E Gloria - The Secret Affair at Stiltz 2nd-1.png",
-            "ID": "0318B3474ABB539022827685A881ADA5",
-            "SourceID": "9FE9F5FE5E40ECFA18C3FB45435FA103E69047AD",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-F Gloria - The Secret Affair at Stiltz Pub-1.png",
-            "ID": "2F184660716F4FAC47B05E57EE05F190",
-            "SourceID": "1B88CF9452EBCBE542323D37AEC4A71B54461EFC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-G Gloria - At the Summits of Sanity 1st-1.png",
-            "ID": "1D86882D1F4BEBFEC1391393E208E3A7",
-            "SourceID": "80C7DC0E4DF3E2A85BE9A54A8707F985BA344C38",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-H Gloria - At the Summits of Sanity 2nd-1.png",
-            "ID": "9F083451E94AD49BE3DD277FC2140B8C",
-            "SourceID": "F5A53C51D66508421C9FDF8A6AE408D4830F4456",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-I Gloria - At the Summits of Sanity Pub-1.png",
-            "ID": "784735EFE62598DE41AD9775F866FC70",
-            "SourceID": "A57D00B6F307060E1CE2DC7B4B97DE100CD6FD03",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-J Gloria - All Silent on the Battlefront 1st-1.png",
-            "ID": "185D1F6C527BAB9D504A5359E1FFCCBE",
-            "SourceID": "C48811047D614F9506670C35809EB16BFC9E1047",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-K Gloria - All Silent on the Battlefront 2nd-1.png",
-            "ID": "52980A495EB3B6365676731C85DCEA03",
-            "SourceID": "B8DA1380128ABE1D61E9A27CD4D032BE18A7A732",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "150-L Gloria - All Silent on the Battlefront Pub-1.png",
-            "ID": "6F791D624192C5F96D26A155CE803E78",
-            "SourceID": "3BA5005C217CB10AC97104DADA7866E977E0D690",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "151 Gloria - Tome Lich-1.png",
-            "ID": "C0AB837ED8A85003B5733C2AD84AFBDB",
-            "SourceID": "87FFED12CDF274FEDBEC5868E69273C5D68DE160",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
+      "parts": [
+        {
+          "name": "Signature Replacements",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "001 Roland - Covering Fire-1.png",
+                "ID": "BFC7CD75E4D5F5B17D1FD9410BDEBCA9",
+                "SourceID": "D86BB97F531B88C66F6F5389141E3102CB06A4F1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "002 Roland - Impersonation-1.png",
+                "ID": "EAC6ADDFD9698F6D11F3D81850D391C9",
+                "SourceID": "D4B29AC3933BC6208954545B653D0E53B5936E54",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "003 Daisy - Dewey Decimal-1.png",
+                "ID": "90CA9B4533465F7D3D0DCB725D5CE239",
+                "SourceID": "0C47654CAEBBE9862C9B69F7E9CA6EF04BCB40F1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "004 Daisy - Power Begets Power-1.png",
+                "ID": "09F6E666C5B25292F55798D3C5C4CC7F",
+                "SourceID": "E8325C84F38F1FF459534BB197DE3A425AF8324A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "005-A Skids - Spotter-x3-1.png",
+                "ID": "6EBCB36E7042294DED349E7C0AF802D1",
+                "SourceID": "25A0CB983A8E61327A4189BEEFC98D68CD34EDA2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "005-B Skids - Jackpot-1.png",
+                "ID": "635CBE5427B598E835B87D575E4DBE97",
+                "SourceID": "EFFA2A1C44B2271B0DE717105E400B548CD80BC2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "006 Skids - Blacklisted-1.png",
+                "ID": "EC577FF7C19CFE5AB4B61F0931878D2D",
+                "SourceID": "14929889D6EC81A2C434018A882B7DDAC3F921C9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "007 Agnes - Release Fate-1.png",
+                "ID": "E534DA0D76E5342252BE193299CF0506",
+                "SourceID": "55860AB7041CD6CB3F23BCD138CB5A20F0180F94",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "008 Agnes - Ampelopsis-1.png",
+                "ID": "B04FF8B7A8D485C8E1EC279E09F8F717",
+                "SourceID": "639EA9462286C42DE893388A1A18F3DE7621B918",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "009 Wendy - Elder Coin-1.png",
+                "ID": "61DFA1EAACAA36BA1D4B6DE04DC04F09",
+                "SourceID": "CD5670012B4B52C0ED895968599D35C683937BF2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "010 Wendy - James Adams-1.png",
+                "ID": "EF177454CC5FB07A3FE7C20853A18B37",
+                "SourceID": "A2561670B4C493EAEA9EF5ADE3B9FE7DA5A9E901",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "011 Zoey - Purify the World-1.png",
+                "ID": "B15A408725572A0D0D9380975DED06FC",
+                "SourceID": "1D0021209D1A5E6A20103EECE017C7A953CD228F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "012 Zoey - Voice of God-1.png",
+                "ID": "5D234605473F6F2F5A63974D5C6FA956",
+                "SourceID": "5E7F6ACB374B2B44875492B8A46E9B4641B6122F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "013 Rex - News Sense-1.png",
+                "ID": "AAF3F7E392E502995DB6CDE8AABFB1CC",
+                "SourceID": "6F1A2E5DEB484CDB43BB2ADB0A4CFF8532E6861F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "014 Rex - Murphy's Law-1.png",
+                "ID": "F5D8C28180F4AA265DA17818A48A2334",
+                "SourceID": "02ABB47A1D00740423840158CD3A365993A77A43",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "015 Jenny - Cherry Lips-1.png",
+                "ID": "08B0DF05DE7392F790DC613249E36375",
+                "SourceID": "8BB98639486C2008653D8357974685BDA8698D84",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "016 Jenny - A Vision in Blue-1.png",
+                "ID": "FC1AB73C51C50BFE2D018AB9468A9290",
+                "SourceID": "EEDE5425465180275BEB7DCCD596F3F265F867BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "017 Jim - Polyphonic-1.png",
+                "ID": "6BBD6E931B9F1479E4E8E769DB35BA5F",
+                "SourceID": "A39FE0BE486A060E466991B1254B0CBE158E941C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "018 Jim - Revenant-1.png",
+                "ID": "D85FD3A8B0FE3ABC7DA797A5968799E9",
+                "SourceID": "C59EC1933AE65F0C81C4D42CEB22C071F2146DF1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "019-A Ashcan - Ashcans Guitar-1.png",
+                "ID": "F11E75855B1D7EA7D55CC77D5DE41529",
+                "SourceID": "779A2230CA7F3878F16A5898878D6508344196DC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "019-B Ashcan - Faithful-1.png",
+                "ID": "560CD4DC9F33B7069058A1AAB22899BF",
+                "SourceID": "3826E0FACBB37D3CDC68E5798AF804961F671F78",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "020 Ashcan - Corruption-1.png",
+                "ID": "0C99F806004C313DB45CE97A5CEF96C3",
+                "SourceID": "696EBBBD878307EB91E9CDAB932E95802229345A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "021-A Mark - Denial-1.png",
+                "ID": "A01A6E5AC1D4420463D291EF1C69EBD1",
+                "SourceID": "6ED2E64EB9E6DC90C5B3959DB60858900E693C86",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "021-B Mark - Anger-1.png",
+                "ID": "62D511EABE6B3567A52631EE86A34AEB",
+                "SourceID": "EABEE356B056BD0B15E6DA982E0B8F47052512D0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "021-C Mark - Bargaining-1.png",
+                "ID": "BEF217F96E28F42B56FD3312C68B637A",
+                "SourceID": "4E98B7717509E3B972437DB40069AA43EE8827EA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "021-D Mark - Depression-1.png",
+                "ID": "3C0A3541BC10CF81CDDB947056390B8F",
+                "SourceID": "3E4C91222FE7B55C4C4D54D86A5992C4881157D2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "022 Mark - Acceptance-1.png",
+                "ID": "7484E33B82C0878DEB9CD96F543BD23B",
+                "SourceID": "331720B8CFD1DDA6943477DCA0A46CE316727E6C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "023 Minh - Total Recall-1.png",
+                "ID": "CEC8468C9166469728825B0D468BD417",
+                "SourceID": "2B9512E5172108ABEBCA41D387CF628E7805FDD8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "024 Minh - Hypercritical Mind-1.png",
+                "ID": "31C48F2CEC8AD1140248159ED1BCEB36",
+                "SourceID": "840D9A11B4967BC012FB204ACC357CC2CBF6DBA3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "025 Sefina - Escape Reality-1.png",
+                "ID": "0AB78C743A605779448E9346CA421141",
+                "SourceID": "1E7A4145C812E484C1C950B1C7031710D39064C3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "026 Sefina - Corrina Jones-1.png",
+                "ID": "7F57536AE5A5315FDB300E9BEF619807",
+                "SourceID": "DB749BAC86E1A9344E9D6316CEB552258A23E5AB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "027-A Akachi - Force of Nature-1.png",
+                "ID": "8D30C612172DB90FE095487450222170",
+                "SourceID": "DD896FB2D2E5FA4DE4EDB31EC7B763C6DEE635A0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "027-B Akachi - Deluge of Power-1.png",
+                "ID": "29921D9393836881E43F74232F916986",
+                "SourceID": "63B97D638E96369DB94338EBF34318C377FD5251",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "028 Akachi - Overload-1.png",
+                "ID": "A63FEE372FF0476293DCA8B10D04C495",
+                "SourceID": "360D2C244BC4908FDF6AB3F6B3E6F88ACCAABC3A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "029-A Yorick - Hyde Mausoleum-1.png",
+                "ID": "A5F73006A4AB7FB366EAAEC93AACC53F",
+                "SourceID": "03FA30DF3D90A85984993848FF0A9D57AC8D727B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "029-B Yorick - Savage Zombie-1.png",
+                "ID": "ED6665A26C6D7D7D0C5B765FC0D69FE1",
+                "SourceID": "FD6A3EF6630AC768FAC67AFC5A32D9935488D6BA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "030 Yorick - Graverobber's Gaffe-1.png",
+                "ID": "1FF3B08313BE5AFEDE10192A33588303",
+                "SourceID": "C028DD299040B162470C2696F6842D301055828D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "031 Leo - Sir William Brinton-1.png",
+                "ID": "65B6E2E44B61722DC85B2A73922A9746",
+                "SourceID": "02607E2764EB98F2B211F20E528C7C55BE38B28D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "032 Leo - Ride or Die-1.png",
+                "ID": "8857E130B36D77B1263CDAB4B62E1205",
+                "SourceID": "9ED48E6E47DD199CCE7810E8368745B498187B48",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "033 Ursula - Golden Idol-1.png",
+                "ID": "64B49DD15E3FCC95550C6B36467F34B7",
+                "SourceID": "CF3EF3931D70E357248820CD9A5473EE67A1E0A7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "034 Ursula - Cuahchicqueh-1.png",
+                "ID": "00F66FE426EB927D0E5E276F07C1C56F",
+                "SourceID": "EC33447A2BA6F19B34D5D6EEF11DFA044831788F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "035 Finn - Rum Run-1.png",
+                "ID": "B5139B356C456019356FC6FC641F8B11",
+                "SourceID": "31793601CE68AAAF189DF1B47D410B783658F516",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "036 Finn - Intercept-1.png",
+                "ID": "31CFA9D71C4022285F18DE3A9303774D",
+                "SourceID": "CF6C1360D1266A6C7134913AC62CE5BA1A5E1078",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "037-A Father Mateo - Divine Mission-1.png",
+                "ID": "A132EE385EDEA9C8D70A149990739EED",
+                "SourceID": "8FB4BDB3A5C8E1BC8747A32B528E257C6F00E232",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "037-B Father Mateo - Benediction-1.png",
+                "ID": "AD6F5D88E6C8C37159227BF646692715",
+                "SourceID": "74EB2E9B017E73B8F3BC32EE1096E7B064FFF006",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "038 Father Mateo - Despondent-1.png",
+                "ID": "E85A439DDDB6551F857D3D2AEA84D624",
+                "SourceID": "ABF89D8ECD91A9F4C23970C08446200A82EE5719",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "039-A Calvin - Undying-1.png",
+                "ID": "B71F49260990930E63B571FE6BED512A",
+                "SourceID": "1341C8CC8513F445897154E4417BC203DC41FCEF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "039-B Calvin - João-1.png",
+                "ID": "BADEA957087B260C3A1B8A1D2241C135",
+                "SourceID": "709BD276B49E2D5A2083E53EA1C83BEF6E8094C3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "040 Calvin - Exchanged Demise-1.png",
+                "ID": "6C42804DC14C0EB3284FE1F888B2F28A",
+                "SourceID": "07E11FC75ADBE5BBDDC6C6E82209904E35E0BEE7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "041 Carolyn - Rorschach Test-1.png",
+                "ID": "EC50388D13C3DD0A43C419AF0FA0C9F3",
+                "SourceID": "57E40E32AB27FE986C1F8EABFA7F85187AFA08FE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "042 Carolyn - Oneirophobia-1.png",
+                "ID": "68E856DA39FAA8B0095E8649B0B9A164",
+                "SourceID": "B28EC453C53CEE315D0097EF277AD262B0455E5C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "043 Joe - Astute-1.png",
+                "ID": "38143421591A65B1C4E053FD970E60DB",
+                "SourceID": "FA603F1C4F0849CF061C3D68C8CB6C25B98BAFD7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "044 Joe - Blindsided-1.png",
+                "ID": "32E659B1BD5F0AAF30B8D44B8D20E6BA",
+                "SourceID": "B0BFE207AB6244EA09DA5261B1CEFD6545EA8C29",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "045 Preston - Social Butterfly-1.png",
+                "ID": "E16B585F94BE5A9C95279A1225DE304D",
+                "SourceID": "64104A4502C55485A86C9316265EA9249A08DD72",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "046 Preston - Fregoli Delusion-1.png",
+                "ID": "B85676270A7F9578583649881444A74F",
+                "SourceID": "5D3D1AB35E4806A45202898677F10C3DCE040A96",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "047 Diana - Clandestine-1.png",
+                "ID": "30AADF944BC218DAE270D1E2B3040FCE",
+                "SourceID": "1CF64C61F3D09B80DA99F1D4DE0A0B4DA6E0DE68",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "048 Diana - Masquerade-1.png",
+                "ID": "6101F8C740C785A9BA959599028B8A47",
+                "SourceID": "5E3940B815A8C5A7254B81D634AF4B6D4F7D0AA6",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "049 Rita - Adrenaline-1.png",
+                "ID": "F5DC505C921B5EDAB4D894F57E855406",
+                "SourceID": "89EDE14D85FAA72B5CF53E60A80BF5079F357FC5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "050 Rita - Labyrinthine-1.png",
+                "ID": "37A2BDF8C2F101CB74048345D0B07B0C",
+                "SourceID": "BD65B2C17F1ADCDEFCE249526D04D560D05D81A0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "051 Marie - Smoky Velvet-1.png",
+                "ID": "E2FDE3B6AECAA672E0FA5EB048F47D24",
+                "SourceID": "CC7DB52AF45487DD687A066B36FE664A47D6EDCB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "052 Marie - Voodoo Vengeance-1.png",
+                "ID": "BBE6574CB17A56DE5F274BC87F171ABB",
+                "SourceID": "FB70087934F34AA6A2C0BA39B23F3029C8C5A065",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "053-A Tommy - Eddy Muldoon-1.png",
+                "ID": "85A1C26181509C4701FA587C127BA5B7",
+                "SourceID": "167FED1FFB56A1592DE4318CE5D87A817AB296EF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "053-B Tommy - Arkham Police Station-1.png",
+                "ID": "8914AA87F75332F7B2543A682F3D73CC",
+                "SourceID": "7891B761B1D4B3B371C33AB0EF15C47E873EF423",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "053-C Tommy - Search Warrant-1.png",
+                "ID": "8C5589DDD6C9B1D732A17AFE073E3F27",
+                "SourceID": "AE0C52B9D1DA8FFD3EAFF37826577472711B0D80",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "054 Tommy - Duty Bound-1.png",
+                "ID": "FD2A7D61E31A7F447C4FA61FBBB4A252",
+                "SourceID": "0BC2AE93CD61FC94C6C20BE3C6BC04CA2EBF8E8F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "055 Mandy - Dr-1.png",
+                "ID": "B183BE29943AC00BA7989EE72C26660C",
+                "SourceID": "30A19BDD2034B4C5F1B767312206DF4DBBEC0EA0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "056 Mandy - Hubris-1.png",
+                "ID": "17C3CF4D50A18D3B497742F3720C1007",
+                "SourceID": "A322C9A5897696D84047ED382027CECCB31D2018",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "057 Tony - Bite the Dust-1.png",
+                "ID": "08E7B99711BD5BC70CE9FBC0E370C87E",
+                "SourceID": "14584A806A92C0712B61D7A01358ADAD1771ABC4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "058 Tony - Parallel Disparity-1.png",
+                "ID": "2348FB0DCBAAF240AEAA27AABBD4D4E9",
+                "SourceID": "B3D49E377A97DA212E0754BB95A05A67D2BBBE71",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "059-A Luke - Sekhmet-1.png",
+                "ID": "19A26FE96F551DD622BC0293B0496BC0",
+                "SourceID": "239846CB4C97627402531548F2F59C8BBE272DA7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "059-B Luke - Maahes-1.png",
+                "ID": "7E40C52FB4B317563BA1B8AE40E586F4",
+                "SourceID": "AF76A3FE27E88CE2AD365D8C64A2770691AEC03E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "060 Luke - Dark Charisma-1.png",
+                "ID": "A9638FB5FFF524B9F7292DFD2D571568",
+                "SourceID": "B1E1E2C684231236AA1D904D7BFBD0DE04D62172",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "061 Patrice - Songs to the Moon-1.png",
+                "ID": "4FF25A2A51E16662302FDAC9918CE217",
+                "SourceID": "7F80C6E6A842A73D39E48DB6800E706C7A81D3CE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "062 Patrice - Lunatic Melody-1.png",
+                "ID": "5E254D9FD26DBCF5DB70AA983E283348",
+                "SourceID": "C3B9AE5D5F981A332920F0B2C0F28C831D0E7F2D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "063 Nathaniel - Rubber Match-1.png",
+                "ID": "6091CBA48C945921711993BF8E538ED4",
+                "SourceID": "89F4EC0C588E1C1F0CD2CE913EB9BB0C934441D8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "064 Nathaniel - Sluggish-1.png",
+                "ID": "E71F32C23FE883404B931B71E7A51BCF",
+                "SourceID": "40C54E577520FFF2EE87E589D37746927D0BB4BB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "065 Harvey - Improve-x3-1.png",
+                "ID": "64830405A503C5B7D8FFCEBC3D86ACBB",
+                "SourceID": "0783FFEB43733AD204CE582D94C689E325CE8693",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "066 Harvey - Stagnate-1.png",
+                "ID": "F616CE7B84B48DA02DD5F69C482A1E74",
+                "SourceID": "D8D2AEB528C464D4BFDF67920D766D4E172EA1A3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "067-A Winifred - Valiance-1.png",
+                "ID": "A01EA7453EA5EAA814DA552701F37F73",
+                "SourceID": "7A041CE2800112C67D04FC5CF0858095C233A2FE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "067-B Winifred - Audacious-x3-1.png",
+                "ID": "4DBBD7032B6A78770D3719351AFA2676",
+                "SourceID": "B4EB4F9F2BCD9E90773770169F364D400A4458C2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "068 Winifred - Icarian-1.png",
+                "ID": "CC5BC4200C286E448821B1D8B18835CA",
+                "SourceID": "25D96DE3A2B52D050FE9A49297A7D0B73A28BE4E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "069 Jacqueline - Defy Certainty-1.png",
+                "ID": "3237E6CF748F87BC7442DC15B0FB2F62",
+                "SourceID": "D7D50CEAA4BC4C62BDF109755692D5BD20B5232F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "070 Jacqueline - The End is Nigh-1.png",
+                "ID": "BAF9259ECC50A418627EE0571A61A245",
+                "SourceID": "667B47F65436C8DBE95C2AAF181B1BD8EF98B3A9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "071 Stella - Nor Gloom of Night-1.png",
+                "ID": "0B9FF4735B0B9DA044E83A67F954CEF1",
+                "SourceID": "2CC9C418E098BE851D31C90615DF7B824330AA71",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "072 Stella - Dysphoria-1.png",
+                "ID": "FDC8DE31B5E3D5485503E9C283A73984",
+                "SourceID": "AA4F87642BD29A75B77DE887EAB574E9DE5EF3BD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "073 Sister Mary - Piety-1.png",
+                "ID": "B46EBCF93DA3154EB7E24A74346CF3FF",
+                "SourceID": "64DD7416DDC8FBCB4999BC8DC0BD2BBA339E99B4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "074 Sister Mary - Self-Righteous-1.png",
+                "ID": "C0546446EBF42E5A30A79B5764212308",
+                "SourceID": "C76AC8456B98310F372C358E2EAFC3B4A39D4027",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "075 Amanda - Epiphany-1.png",
+                "ID": "97543092F2941096B00584B5C065BBD7",
+                "SourceID": "1533591BC7BF1529581BD28F25CE619C177770E7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "076 Amanda - At Sea-1.png",
+                "ID": "9FE48731E6F541B8082E80609E76BEB1",
+                "SourceID": "F7923A1932D3C7AE36359F60FBF365039A035E57",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "077 Trish - Infiltrate-1.png",
+                "ID": "7324A75535E0B4D11E771F273286591F",
+                "SourceID": "180B8D14AB491B1FB2F6CA888D5A8FE6B18A394F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "078 Trish - Espionage-1.png",
+                "ID": "A32989F64B2A0E69E8290385911B1908",
+                "SourceID": "4E1C4B527FF4C7A78EDF96AE27B40B6B5FE46D90",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "079 Dexter - Prestidigitator-1.png",
+                "ID": "0A58F88599AE65EAF1783262B9B401C9",
+                "SourceID": "97B529F891C1043E849DF72E690968683E54B5B8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "080 Dexter - Escape Act-1.png",
+                "ID": "E3C05B1759748B0D99EBDA8467C2458E",
+                "SourceID": "8DDC729041EC8373CB193FD76559E899C401F5B0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "081 Silas - Turning the Tide-1.png",
+                "ID": "807BADA50B00A74AC1E0D83FBB36B517",
+                "SourceID": "DB06D0EE357ED29C70DD77190C309ADDDA08B512",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "082 Silas - Exalt the Deep-1.png",
+                "ID": "BA53BFA5CE79A44A016C2CBD5E75E9B4",
+                "SourceID": "B587F07256E7F965E23DDEDD598CB1418DA4E10F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "083-A Daniela - Tool Belt-1.png",
+                "ID": "029E767904516BDC79C8AC2FF378C1CA",
+                "SourceID": "2D1A22E78875442F7A0A5B5CC00A8479C0B88EEF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "083-B Daniela - Gabriel-1.png",
+                "ID": "0525EC7C8786968FA9AA0B8D48D1842C",
+                "SourceID": "F8F1A153364F1E9BB2A29B7AE46D4164A586315B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "084 Daniela - Pishtaco-1.png",
+                "ID": "94365430D5500F67B723A14E8A3675CC",
+                "SourceID": "16465EE8E7F6016A928889A117311A77AD516A17",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "085 Norman - Astrolabe-1.png",
+                "ID": "9913FA3BD25AEC74E6FEA02736660160",
+                "SourceID": "AF82938DCBA858AF011D27F8175EE5D80DA0F99D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "086 Norman - Angular Time-1.png",
+                "ID": "D249BFAEC414A2048145E0DFF75568A6",
+                "SourceID": "AA62AD9A471ABE5E66B81475D80C4ABA7E6A2B29",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "087 Monterey Jack - Call of the Ancients-1.png",
+                "ID": "181332B9A2A5799360E945C9867C5220",
+                "SourceID": "5197112594E32C9BFEFABE7FD8F27E8F590E8493",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "089 Monterey Jack - Citrine Serpent-1.png",
+                "ID": "8BFAD7B01EC2ADD17CFEB6C5FDB46155",
+                "SourceID": "552EE1ACF78E5B52FB2D080CE948A8A91C15A2F1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "090 Monterey Jack - Obsidian Jaguar-1.png",
+                "ID": "B1DBF2D0147168F919B09BD7D6A52F25",
+                "SourceID": "F1B23655F6F0BCE3BA838EA5C19C619EF67E8DD0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "091 Monterey Jack - Jade Crocodile-1.png",
+                "ID": "186719270A33439C8A7B77AB6B179A22",
+                "SourceID": "2B2C374791F07082B499C522AAA7A24A1A8F7A79",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "092 Monterey Jack - Turquoise Eagle-1.png",
+                "ID": "41581462B08CD06CB17C0D246996586D",
+                "SourceID": "AA0668C1F396189897D6BA3FEDC1E31E881FB527",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "093 Monterey Jack - Crypt Curse-1.png",
+                "ID": "C2E8E691C47F4C642101166B1931A1B7",
+                "SourceID": "50DF95243E8AA1A8A27F7A9EB7F75E2359CF96FC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "094 Lily - Discipline 1-1.png",
+                "ID": "F30BA817EABC97CBEF5A518B3FD49700",
+                "SourceID": "07DA1D1156CC29D5DADEFE946905C2E956E3B291",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "094 Lily - Discipline 1-2.png",
+                "ID": "8ADA3C116FF4797C06F8EA3725C11CB5",
+                "SourceID": "C11FD886DB0FF9CD147545BA43999B5A4B871DE7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "095 Lily - Discipline 2-1.png",
+                "ID": "4A4FFDA5F4DC0F27AF227A2363547EF0",
+                "SourceID": "81EBB6EB8923D4D8EEC7D1069E52CB0E7B92B6B4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "095 Lily - Discipline 2-2.png",
+                "ID": "C0A3D3164FF9EC35645C804744FD08D1",
+                "SourceID": "D8B050F5527A22155077BB739077FBC812E73039",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "096 Lily - Discipline 3-1.png",
+                "ID": "2E0BD7EDCAD7853D698F5FB40FFB914A",
+                "SourceID": "FCCC7CD17F3A74173325EF762799F78B58621E0A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "096 Lily - Discipline 3-2.png",
+                "ID": "AB1E49B87C267880A13D4C777211A841",
+                "SourceID": "4B58DB11D72F45AEE75C7DCC63C7C368CE3BB165",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "097 Lily - Discipline 4-1.png",
+                "ID": "4C70B2C365418119F40EDA4E1D42874D",
+                "SourceID": "446C73EA7CB07695A1E4833127D02477AFADA7AA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "097 Lily - Discipline 4-2.png",
+                "ID": "0AD7038042D46844CAF9BAF00A32D95A",
+                "SourceID": "75526DD9E8881ECABE274B9C36A71C41E0D69C6A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "098 Bob - Nibble-1.png",
+                "ID": "E508A12E735499A5A7D224EA8CAEC414",
+                "SourceID": "7B9947F89CA0993621B1F49544BD821DB3FBE29F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "099 Bob - Pleonexia-1.png",
+                "ID": "D3F7360D288B35946C632A99BE82DBBD",
+                "SourceID": "15C5E674F36AF1F2C8372560F875CC2D383EA8BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "100 Carson - Anticipation-x3-1.png",
+                "ID": "B16DF7239C2C0AA15EB67857E47E2457",
+                "SourceID": "2A888FB8F00CDA39E9DE331C1AA9474D64E16203",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "100-U Carson - Anticipation Upgrade Sheet-1.png",
+                "ID": "75B8543D1DDE831C74CB2E754FD87D8F",
+                "SourceID": "7DBE570AF2D4E9461829ECDAAEB278AAB4FD4A13",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "100-U Carson - Anticipation Upgrade Sheet-2.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "101 Carson - The Webb Estate-1.png",
+                "ID": "9547A61032BE39079364F95B8D2F258D",
+                "SourceID": "968FCF7BF68B293167A2208B12F374446323CFA1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "102 Vincent - Medical Kit-1.png",
+                "ID": "AC9CFD8420843EAD1BA10649F634214B",
+                "SourceID": "A2BFAF703CD265E4A36A0131CC9B24E222F0B272",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "103 Vincent - Malpractice-1.png",
+                "ID": "1A1C98406EFBB0A6559B6484392F922A",
+                "SourceID": "B6D413EA596A7CDC8348CAACEA01904C58BF30AB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "104 Kymani - Leather Gloves-1.png",
+                "ID": "19CC2C7431ACA2DDB920914D09144D89",
+                "SourceID": "9A810A147797C1BA92825142CC4AFFBF7C4F8420",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "105 Kymani - Trip the Alarm-1.png",
+                "ID": "EE10939574962F456FF405BDDA275B22",
+                "SourceID": "4E585D6056B9E37857F63DA4FB2B78DC6DDF3C1B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "106 Amina - Ancestral Locket-1.png",
+                "ID": "E85057DFC58AB9C28B81FF16C9406061",
+                "SourceID": "CBD64A14B0EB1AA7E698FD529F7B5C9BC79DBBB4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "107 Amina - Harrowed-1.png",
+                "ID": "5F49CAE6253796197EBBB8DD8EED0FA6",
+                "SourceID": "D73AD183E0C1559BAD433F41E760243EC30F5D82",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "108 Darrell - Doyle Jeffries-1.png",
+                "ID": "8F66F3D5D0FF59BBA3D42F91AE89972A",
+                "SourceID": "8A6404B9E4F5DDFEA60F78D071F856C9B7B8ADBD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "109 Darrell - Tunnel Vision-1.png",
+                "ID": "F302513749BA0AF3E3A30DFAAC252ACB",
+                "SourceID": "3CABAA790FCB356F31C73FE0F734D1C683B911F1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "110 Charlie - Gathered Support-x3-1.png",
+                "ID": "181AC1F062103481CBBEB0238FD3CE54",
+                "SourceID": "A36341AFD8114732CC16B5E6982C7DE189B64490",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "111 Charlie - Contravention-1.png",
+                "ID": "5249F9EF8BB113A8ACAE9F1B5544DF97",
+                "SourceID": "DFC86C52108DBD37FB4CC135F61D8656A5BE03D4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "150 Gloria - Unfinished Novel-x2-1.png",
+                "ID": "68D2AD61CDA11D399BE486C5FB7E5483",
+                "SourceID": "5CBEB0B804AB3C4528DCF1D7194AF253F7D7AC34",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-A Gloria - The Esteemed Emory 1st-1.png",
+                "ID": "683086C4C3029A4647B7CA6BA35CAFC1",
+                "SourceID": "38C9C2F1AF2D73D74EF54489BE3E06110258A87C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-B Gloria - The Esteemed Emory 2nd-1.png",
+                "ID": "31F65FA1DDDCFCCC0D8EF2C6B96E3F75",
+                "SourceID": "7794E450FECFA2B74AE3BE479B6B7388182CAFE9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-C Gloria - The Esteemed Emory Pub-1.png",
+                "ID": "2099AD1BD18745AB9A0BA5A37A52415E",
+                "SourceID": "1CDF4C776BD89B2CEE8842064F9057E9EBEFBE46",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-D Gloria - The Secret Affair at Stiltz 1st-1.png",
+                "ID": "41933623C728220D9AD2253C952055C8",
+                "SourceID": "ADE1CB56A4B4AC02B2E34443587B08A8974AC823",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-E Gloria - The Secret Affair at Stiltz 2nd-1.png",
+                "ID": "0318B3474ABB539022827685A881ADA5",
+                "SourceID": "9FE9F5FE5E40ECFA18C3FB45435FA103E69047AD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-F Gloria - The Secret Affair at Stiltz Pub-1.png",
+                "ID": "2F184660716F4FAC47B05E57EE05F190",
+                "SourceID": "1B88CF9452EBCBE542323D37AEC4A71B54461EFC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-G Gloria - At the Summits of Sanity 1st-1.png",
+                "ID": "1D86882D1F4BEBFEC1391393E208E3A7",
+                "SourceID": "80C7DC0E4DF3E2A85BE9A54A8707F985BA344C38",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-H Gloria - At the Summits of Sanity 2nd-1.png",
+                "ID": "9F083451E94AD49BE3DD277FC2140B8C",
+                "SourceID": "F5A53C51D66508421C9FDF8A6AE408D4830F4456",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-I Gloria - At the Summits of Sanity Pub-1.png",
+                "ID": "784735EFE62598DE41AD9775F866FC70",
+                "SourceID": "A57D00B6F307060E1CE2DC7B4B97DE100CD6FD03",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-J Gloria - All Silent on the Battlefront 1st-1.png",
+                "ID": "185D1F6C527BAB9D504A5359E1FFCCBE",
+                "SourceID": "C48811047D614F9506670C35809EB16BFC9E1047",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-K Gloria - All Silent on the Battlefront 2nd-1.png",
+                "ID": "52980A495EB3B6365676731C85DCEA03",
+                "SourceID": "B8DA1380128ABE1D61E9A27CD4D032BE18A7A732",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "150-L Gloria - All Silent on the Battlefront Pub-1.png",
+                "ID": "6F791D624192C5F96D26A155CE803E78",
+                "SourceID": "3BA5005C217CB10AC97104DADA7866E977E0D690",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "151 Gloria - Tome Lich-1.png",
+                "ID": "C0AB837ED8A85003B5733C2AD84AFBDB",
+                "SourceID": "87FFED12CDF274FEDBEC5868E69273C5D68DE160",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "74b512547de3ebfcfb3c300135d5cb4943a30cf40d797b4a01f9dd6439d1cf14"
+  "hash": "95ba1ed39d23b9b45bbc1b93bbfc3724ce9c1ba5d9caa0cd1d029cd0b133e49e"
 }
