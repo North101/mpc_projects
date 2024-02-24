@@ -22,869 +22,874 @@
   ],
   "created": "2023-10-01T04:45:26.684Z",
   "updated": "2023-10-06T15:59:51.462Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
       "name": "The Invisible Man",
-      "cards": [
+      "parts": [
         {
-          "count": 1,
-          "front": {
-            "Name": "001-Guide-1.png",
-            "ID": "96F3C77FF884B223661863CE966907A5",
-            "SourceID": "BCA0E73B1DA2B79D59A24623F4948273C887854D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "001-Guide-2.png",
-            "ID": "FFCD7739A17EE4D221377C3150D1EBC7",
-            "SourceID": "759527029ADFC9CE65B4B2AAAE49A4C8858FBC30",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "002-Guide-1.png",
-            "ID": "AD2EFE1C2FBD4DB84926EFE9850012BB",
-            "SourceID": "3EFC9F3288F4F8D706C78313326565E2EAE07102",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "002-Guide-2.png",
-            "ID": "159A54063BE35CA6B5589A5B164212AB",
-            "SourceID": "A42CAEE6D8277FFFED52FE44E1739924434A1F4A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "003-Guide-1.png",
-            "ID": "A1D34C8BC51B118C4B0C4A0A886ED285",
-            "SourceID": "7BCF8268C3AFD7CDB2FCA8FBF8C0BFE106066128",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "003-Guide-2.png",
-            "ID": "E9AF69BCF82814C0E577AF1138001AA3",
-            "SourceID": "970B65C6E15BF54C205473E7068057DFBD535CBC",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "004-Guide-1.png",
-            "ID": "F44A0A0A266ADB5453490FC88811914C",
-            "SourceID": "AD78C9E968C9E26A33B9B92C9E15D8B344CAF15A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "004-Guide-2.png",
-            "ID": "01DFA18DC23882549290E13C1C0ACA94",
-            "SourceID": "EF1E5DCF5806D8C5C949BAA170B1DFE03CF8923F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "005-Guide-1.png",
-            "ID": "E9BF9DCEBCF46E5374C82EE723C964B6",
-            "SourceID": "DD050B60F4709E103E4E847CFE6A45E725309FE9",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "005-Guide-2.png",
-            "ID": "EE34871F9C62BD777F28A46B0CEED3D8",
-            "SourceID": "3454DD68467CB0204CE51C6B24702EE09BADDEB4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "006-The Invisible Man-1.png",
-            "ID": "585EA1460B29B978661A5D864417C0B2",
-            "SourceID": "9207D450514BD8DFAFE97E2CBA12FBDB6A5CEF28",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "006-The Invisible Man-2.png",
-            "ID": "EFE3B2F688D1FDFB865A2B4B89A404BB",
-            "SourceID": "51556C8B5056DA4998AB759AE5E46A91C150EBE5",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "007-Agenda 1 Seen by the Unseen-1.png",
-            "ID": "33DB1C794B2661E38E6F74531EB16EDB",
-            "SourceID": "E284B42F441564B8043D66D9845009EFEEF2EC5F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "007-Agenda 1 Seen by the Unseen-2.png",
-            "ID": "4A3265EBB4584AE1479779864A24FF65",
-            "SourceID": "A240B0AF8B3AD63A5364AE8AEF6626AF678A6BF4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "008-Act 1a-1.png",
-            "ID": "28A940E2A8C10AA232055B1312B5F159",
-            "SourceID": "199E722B896A4E43A5977AEF929F50CCF8904102",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "008-Act 1a-2.png",
-            "ID": "332B0BDB8A3023A3EA4D944EF5DA51BF",
-            "SourceID": "591541A20635C3F14D5AAD4281C94956144477AB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "009-Act 2a-1.png",
-            "ID": "0DABA0F0C2788AD0DDEDE6586D22002E",
-            "SourceID": "5CBEC7E0DE0BC7C0384ECFBDF180D9938D7C2028",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "009-Act 2a-2.png",
-            "ID": "A95FB9AADD466F857DA3B43047075EE8",
-            "SourceID": "DCCB296F23BA5DC6AADE770A9D872698FA6E86EF",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "010-Act 1c-1.png",
-            "ID": "485E34C96A244D35BA60BEDB452D377A",
-            "SourceID": "AC03E60E80062758B50F845CF5B66574AB3BAD94",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "010-Act 1c-2.png",
-            "ID": "8FBE4A1FE5AC84F9DA682D78F716A07A",
-            "SourceID": "67ADB018696BC662E4201C6D3F2F84C2D555C33C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "011-Act 2c-1.png",
-            "ID": "116E5679F36B82EB2CF10EC70DFCE6FB",
-            "SourceID": "52CD1A5321F15C6868038B61B927137F2285B2EA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "011-Act 2c-2.png",
-            "ID": "95FA5853534C9252A210385176A053AB",
-            "SourceID": "92CF87EF42390AB87996EB9BB8EFD81651AC4730",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "012-Act 1e-1.png",
-            "ID": "F0DB622839F47BD813459D8CD127D501",
-            "SourceID": "DCAC5C1A6C904E0FAE16B57F574FAC5183FEBCFB",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "012-Act 1e-2.png",
-            "ID": "934CC826B38F334CC545475069BFAFE2",
-            "SourceID": "BF63FD271AFB4F965592B43585D25C9E757A2703",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "013-Act 2e-1.png",
-            "ID": "930B8BB88EF205933580DBD91A597E96",
-            "SourceID": "00B2C436CBEA86F44F386AE3AF4AC789A7726838",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "013-Act 2e-2.png",
-            "ID": "7E2C03B3800187097E5CE38534394DB9",
-            "SourceID": "2B298DAE69B276ACBDABF32828DA15B60E891FD7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "014-Country Road-1.png",
-            "ID": "64C6963904C0939F77727D205FE2C401",
-            "SourceID": "D4246F655828470995C85BC80C1132450F9D14D7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "014-Country Road-2.png",
-            "ID": "54E1F8EA4027578107B06C08BCFAF55A",
-            "SourceID": "DEC05CACA06282CFDF3382998F5850E8F6495043",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "015-Service Station-1.png",
-            "ID": "A3D2421030A366A28123299B0A64696A",
-            "SourceID": "8F2716A9B59BED93B1C29502A0D734CED36034FA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "015-Service Station-2.png",
-            "ID": "3F8A578ABC7D656242FA1D2FB5C7410A",
-            "SourceID": "AA0007F383402F019A6015B0BDD2BBE662A01C8A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "016-Run-Down Cabin-1.png",
-            "ID": "922C67BBFDA1C4D7E15E81ED1AD46610",
-            "SourceID": "80557A72A2F1CAC463372E64C2A46FBCAE84B99A",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "016-Run-Down Cabin-2.png",
-            "ID": "477728F487B16E7C41976D688BC1368F",
-            "SourceID": "670CDE6086F91F81ADE8B33DC27F556A347FD9EA",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "017-Moonshiners Shack-1.png",
-            "ID": "438078DEC774635ED1029DADF94E97FF",
-            "SourceID": "EAF5A8446349C1DB35DCF9E0E3F9870E9F8115A2",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "017-Moonshiners Shack-2.png",
-            "ID": "8CA33E06AD9760C71693F5BA4DB04E0F",
-            "SourceID": "44409123BC9D52B6B382B5E521D019EFDEDFE38C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "018-Sparse Woodlands-1.png",
-            "ID": "0F9D662FBD77369065CE268C3A921B0E",
-            "SourceID": "F7793D4ADB7E79A28298C473DF27DBCCE1291F4C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "018-Sparse Woodlands-2.png",
-            "ID": "4B58501222F8A7C9A39B03CF1685A7D5",
-            "SourceID": "81CF2A64BE7D2F59DD41808275A40F913A7E2E29",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "019-Meltwater Stream-1.png",
-            "ID": "076CA9C7DAA2DF75E6E013F32FBD8E92",
-            "SourceID": "7989A2BCC816C4E1A11252398536BDCDEF26684B",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "019-Meltwater Stream-2.png",
-            "ID": "1AE6E23B065F538A92C4F6AF221E7658",
-            "SourceID": "1FB58CA92DEED0355E9F6347F0F48C29C71466A8",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "020-Lonely Farmstead-1.png",
-            "ID": "864BB2C844F20AE5E9FB05D75124B51C",
-            "SourceID": "24E6EB45419F6A839AA6DEB2DE7C74613A1BBCA4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "020-Lonely Farmstead-2.png",
-            "ID": "D08CC2D43E1DC255BF51651D6E86247A",
-            "SourceID": "57C82719EE4DBA3CBC96281047F8A1750458D726",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "021-Griffin-1.png",
-            "ID": "CD2F48350F6D0F84D685A45BDC3DC605",
-            "SourceID": "3FFE769EFBF9094D99A242E06B3C8993A8EA8EC4",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "022-Invisible Combat 1-1.png",
-            "ID": "1C220DE6880B754094FA662F35259B8C",
-            "SourceID": "D6017969DC55104414F16616E942FE69B8AADCAD",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "023-Invisible Combat 2-1.png",
-            "ID": "96B3134ED7238F5FF676CDFDC50277D3",
-            "SourceID": "E591E02A6F3BA5573C8A8055C66ED9C0364A4F2C",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "024-Invisible Combat 3-1.png",
-            "ID": "B7E8E3A1AB60501786F12054ADAAD95C",
-            "SourceID": "DFFAEB827269BAA6B580A0579CAE73BD988814B5",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "025-Invisible Combat 4-1.png",
-            "ID": "F593BC7084BE56F50EB759E62A6A895B",
-            "SourceID": "5108D6C8823462226B9ADAC72F24A1F60B731A91",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "026-Invisible Combat 5-1.png",
-            "ID": "9B95CAA970804AB45EDF58D6AD6BAA08",
-            "SourceID": "06EC1121F65C9A1BC3EB379B938BF5F80A9F9E40",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "027-Invisible Combat 6-1.png",
-            "ID": "9DB995996720DE8C19D2FCF61811FB3E",
-            "SourceID": "8CAC322D2EF7BEB598787C6559C7F8BCE9CFE98F",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "028-Invisible Escape 1-1.png",
-            "ID": "D57991F85586BAE064F022FE5FBD3F4A",
-            "SourceID": "65AC35F07F3CDC05C0958A6592DF76B5E8A42E02",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "029-Invisible Escape 2-1.png",
-            "ID": "238B5E19B9D978598817C3DA441960B7",
-            "SourceID": "D2737EAC53D657A6491B9527E21374FA8B087E52",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "030-Invisible Escape 3-1.png",
-            "ID": "A261F94F37EF04F2D93245D38D35269F",
-            "SourceID": "64534FC0DD9E28F2AEEB6F5DB9A62088E5619FE7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "031-Invisible Escape 4-1.png",
-            "ID": "3A8D0949749D823706442A9C3A719EA7",
-            "SourceID": "3D51EF2A2C1A562987ED2B7D267E0F0DC0CB5A59",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "032-Clever Sabotage-x2-1.png",
-            "ID": "BBA4C8D05A39763C14DAA260689C39A4",
-            "SourceID": "2BF4EEBAA1A853159E957A49382D4C7324E83A40",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "033-Doubling Back-x2-1.png",
-            "ID": "A44815DE0C5A7A8B1F70E2CAA747C301",
-            "SourceID": "6C610B300CC3662318197D3D8D436EA59F398C30",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "035-Maddened Beast-x2-1.png",
-            "ID": "8D1A32B283E1465EA8C6072483E8CF9D",
-            "SourceID": "2C1FC9F94F329BFF94E1685B8F979043336056E7",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "036-Malicious Laughter-x3-1.png",
-            "ID": "1BD05FB87901EF5AC2761CF643AD93AD",
-            "SourceID": "FAA847460C29FC8309BF358E6BE9A7544C38AC3D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "037-Obvious Signs-x2-1.png",
-            "ID": "DA5FA0D3ACFE3BF370EF86FCB6592130",
-            "SourceID": "15BAC370F56EDCE6378D5AA4A3702855EC525936",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "038-Out of Nowhere-x3-1.png",
-            "ID": "99FEB9CC317D8234E48D5A7E4FE7D866",
-            "SourceID": "48922810BCE11635EB51A0A6A5B6291BB75F1238",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "039-Senseless Murder-x2-1.png",
-            "ID": "1320D7D7E900C3239475024E1CEB3996",
-            "SourceID": "C267A0957E2AD8FC599BF09D0B18854A27656BE5",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "040-Sentient Solution-x2-1.png",
-            "ID": "B51E4495E1ED6816159E89992E7D0D68",
-            "SourceID": "9A39803EAB64D542D51514791E67A8F2827DCF26",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "041-Sheldon Supplier-x2-1.png",
-            "ID": "2FAD6B8AEC8DED52EDF698BEB3A2565F",
-            "SourceID": "95C1BD44B2F84C4A4E7B634FEA925EF2F89FE0E9",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "042-Subtle Interference-x2-1.png",
-            "ID": "418AB80D18FC37683767613B78D4EF25",
-            "SourceID": "DF239D7D66769B6DFC263911C366A2F6A35671DE",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "043-Translucent Experiment-x2-1.png",
-            "ID": "62B5DEDDD1245E09832EDE1B1C16E128",
-            "SourceID": "68067E8D17889149ADD6584BA7A45F174BEA3C03",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 3,
-          "front": {
-            "Name": "044-Unseen Movements-x3-1.png",
-            "ID": "510B9ECE91A617FC1BC9324FBA4FAA30",
-            "SourceID": "61DFFC9D251AB7E21210BFCE0B1AB7385A91515D",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "back.png",
-            "ID": "B94D5857DFE52875842F398D978ADCE0",
-            "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "045-Invisibility Serum-1.png",
-            "ID": "71A6A4C83CECEC46CDF3B36B8A3956AA",
-            "SourceID": "A8EB306249D76A5452315C14302813ABA764B286",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "045-Invisibility Serum-2.png",
-            "ID": "ACF5C21B79E31C80E298F513A752A3EE",
-            "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "046-Griffins Notes-1.png",
-            "ID": "86B33EF0ED8D4428BCF6929211E014A2",
-            "SourceID": "367AF14BB4E4047BD16047571139145A1018F803",
-            "Exp": "png",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "046-Griffins Notes-2.png",
-            "ID": "ACF5C21B79E31C80E298F513A752A3EE",
-            "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
+          "name": "The Invisible Man",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "001-Guide-1.png",
+                "ID": "96F3C77FF884B223661863CE966907A5",
+                "SourceID": "BCA0E73B1DA2B79D59A24623F4948273C887854D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Guide-2.png",
+                "ID": "FFCD7739A17EE4D221377C3150D1EBC7",
+                "SourceID": "759527029ADFC9CE65B4B2AAAE49A4C8858FBC30",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "002-Guide-1.png",
+                "ID": "AD2EFE1C2FBD4DB84926EFE9850012BB",
+                "SourceID": "3EFC9F3288F4F8D706C78313326565E2EAE07102",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "002-Guide-2.png",
+                "ID": "159A54063BE35CA6B5589A5B164212AB",
+                "SourceID": "A42CAEE6D8277FFFED52FE44E1739924434A1F4A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "003-Guide-1.png",
+                "ID": "A1D34C8BC51B118C4B0C4A0A886ED285",
+                "SourceID": "7BCF8268C3AFD7CDB2FCA8FBF8C0BFE106066128",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "003-Guide-2.png",
+                "ID": "E9AF69BCF82814C0E577AF1138001AA3",
+                "SourceID": "970B65C6E15BF54C205473E7068057DFBD535CBC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "004-Guide-1.png",
+                "ID": "F44A0A0A266ADB5453490FC88811914C",
+                "SourceID": "AD78C9E968C9E26A33B9B92C9E15D8B344CAF15A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "004-Guide-2.png",
+                "ID": "01DFA18DC23882549290E13C1C0ACA94",
+                "SourceID": "EF1E5DCF5806D8C5C949BAA170B1DFE03CF8923F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "005-Guide-1.png",
+                "ID": "E9BF9DCEBCF46E5374C82EE723C964B6",
+                "SourceID": "DD050B60F4709E103E4E847CFE6A45E725309FE9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "005-Guide-2.png",
+                "ID": "EE34871F9C62BD777F28A46B0CEED3D8",
+                "SourceID": "3454DD68467CB0204CE51C6B24702EE09BADDEB4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "006-The Invisible Man-1.png",
+                "ID": "585EA1460B29B978661A5D864417C0B2",
+                "SourceID": "9207D450514BD8DFAFE97E2CBA12FBDB6A5CEF28",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "006-The Invisible Man-2.png",
+                "ID": "EFE3B2F688D1FDFB865A2B4B89A404BB",
+                "SourceID": "51556C8B5056DA4998AB759AE5E46A91C150EBE5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "007-Agenda 1 Seen by the Unseen-1.png",
+                "ID": "33DB1C794B2661E38E6F74531EB16EDB",
+                "SourceID": "E284B42F441564B8043D66D9845009EFEEF2EC5F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "007-Agenda 1 Seen by the Unseen-2.png",
+                "ID": "4A3265EBB4584AE1479779864A24FF65",
+                "SourceID": "A240B0AF8B3AD63A5364AE8AEF6626AF678A6BF4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "008-Act 1a-1.png",
+                "ID": "28A940E2A8C10AA232055B1312B5F159",
+                "SourceID": "199E722B896A4E43A5977AEF929F50CCF8904102",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "008-Act 1a-2.png",
+                "ID": "332B0BDB8A3023A3EA4D944EF5DA51BF",
+                "SourceID": "591541A20635C3F14D5AAD4281C94956144477AB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "009-Act 2a-1.png",
+                "ID": "0DABA0F0C2788AD0DDEDE6586D22002E",
+                "SourceID": "5CBEC7E0DE0BC7C0384ECFBDF180D9938D7C2028",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "009-Act 2a-2.png",
+                "ID": "A95FB9AADD466F857DA3B43047075EE8",
+                "SourceID": "DCCB296F23BA5DC6AADE770A9D872698FA6E86EF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "010-Act 1c-1.png",
+                "ID": "485E34C96A244D35BA60BEDB452D377A",
+                "SourceID": "AC03E60E80062758B50F845CF5B66574AB3BAD94",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "010-Act 1c-2.png",
+                "ID": "8FBE4A1FE5AC84F9DA682D78F716A07A",
+                "SourceID": "67ADB018696BC662E4201C6D3F2F84C2D555C33C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "011-Act 2c-1.png",
+                "ID": "116E5679F36B82EB2CF10EC70DFCE6FB",
+                "SourceID": "52CD1A5321F15C6868038B61B927137F2285B2EA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "011-Act 2c-2.png",
+                "ID": "95FA5853534C9252A210385176A053AB",
+                "SourceID": "92CF87EF42390AB87996EB9BB8EFD81651AC4730",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "012-Act 1e-1.png",
+                "ID": "F0DB622839F47BD813459D8CD127D501",
+                "SourceID": "DCAC5C1A6C904E0FAE16B57F574FAC5183FEBCFB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "012-Act 1e-2.png",
+                "ID": "934CC826B38F334CC545475069BFAFE2",
+                "SourceID": "BF63FD271AFB4F965592B43585D25C9E757A2703",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "013-Act 2e-1.png",
+                "ID": "930B8BB88EF205933580DBD91A597E96",
+                "SourceID": "00B2C436CBEA86F44F386AE3AF4AC789A7726838",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "013-Act 2e-2.png",
+                "ID": "7E2C03B3800187097E5CE38534394DB9",
+                "SourceID": "2B298DAE69B276ACBDABF32828DA15B60E891FD7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "014-Country Road-1.png",
+                "ID": "64C6963904C0939F77727D205FE2C401",
+                "SourceID": "D4246F655828470995C85BC80C1132450F9D14D7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "014-Country Road-2.png",
+                "ID": "54E1F8EA4027578107B06C08BCFAF55A",
+                "SourceID": "DEC05CACA06282CFDF3382998F5850E8F6495043",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "015-Service Station-1.png",
+                "ID": "A3D2421030A366A28123299B0A64696A",
+                "SourceID": "8F2716A9B59BED93B1C29502A0D734CED36034FA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "015-Service Station-2.png",
+                "ID": "3F8A578ABC7D656242FA1D2FB5C7410A",
+                "SourceID": "AA0007F383402F019A6015B0BDD2BBE662A01C8A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "016-Run-Down Cabin-1.png",
+                "ID": "922C67BBFDA1C4D7E15E81ED1AD46610",
+                "SourceID": "80557A72A2F1CAC463372E64C2A46FBCAE84B99A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "016-Run-Down Cabin-2.png",
+                "ID": "477728F487B16E7C41976D688BC1368F",
+                "SourceID": "670CDE6086F91F81ADE8B33DC27F556A347FD9EA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "017-Moonshiners Shack-1.png",
+                "ID": "438078DEC774635ED1029DADF94E97FF",
+                "SourceID": "EAF5A8446349C1DB35DCF9E0E3F9870E9F8115A2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "017-Moonshiners Shack-2.png",
+                "ID": "8CA33E06AD9760C71693F5BA4DB04E0F",
+                "SourceID": "44409123BC9D52B6B382B5E521D019EFDEDFE38C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "018-Sparse Woodlands-1.png",
+                "ID": "0F9D662FBD77369065CE268C3A921B0E",
+                "SourceID": "F7793D4ADB7E79A28298C473DF27DBCCE1291F4C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "018-Sparse Woodlands-2.png",
+                "ID": "4B58501222F8A7C9A39B03CF1685A7D5",
+                "SourceID": "81CF2A64BE7D2F59DD41808275A40F913A7E2E29",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "019-Meltwater Stream-1.png",
+                "ID": "076CA9C7DAA2DF75E6E013F32FBD8E92",
+                "SourceID": "7989A2BCC816C4E1A11252398536BDCDEF26684B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "019-Meltwater Stream-2.png",
+                "ID": "1AE6E23B065F538A92C4F6AF221E7658",
+                "SourceID": "1FB58CA92DEED0355E9F6347F0F48C29C71466A8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "020-Lonely Farmstead-1.png",
+                "ID": "864BB2C844F20AE5E9FB05D75124B51C",
+                "SourceID": "24E6EB45419F6A839AA6DEB2DE7C74613A1BBCA4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "020-Lonely Farmstead-2.png",
+                "ID": "D08CC2D43E1DC255BF51651D6E86247A",
+                "SourceID": "57C82719EE4DBA3CBC96281047F8A1750458D726",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "021-Griffin-1.png",
+                "ID": "CD2F48350F6D0F84D685A45BDC3DC605",
+                "SourceID": "3FFE769EFBF9094D99A242E06B3C8993A8EA8EC4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "022-Invisible Combat 1-1.png",
+                "ID": "1C220DE6880B754094FA662F35259B8C",
+                "SourceID": "D6017969DC55104414F16616E942FE69B8AADCAD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "023-Invisible Combat 2-1.png",
+                "ID": "96B3134ED7238F5FF676CDFDC50277D3",
+                "SourceID": "E591E02A6F3BA5573C8A8055C66ED9C0364A4F2C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "024-Invisible Combat 3-1.png",
+                "ID": "B7E8E3A1AB60501786F12054ADAAD95C",
+                "SourceID": "DFFAEB827269BAA6B580A0579CAE73BD988814B5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "025-Invisible Combat 4-1.png",
+                "ID": "F593BC7084BE56F50EB759E62A6A895B",
+                "SourceID": "5108D6C8823462226B9ADAC72F24A1F60B731A91",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "026-Invisible Combat 5-1.png",
+                "ID": "9B95CAA970804AB45EDF58D6AD6BAA08",
+                "SourceID": "06EC1121F65C9A1BC3EB379B938BF5F80A9F9E40",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "027-Invisible Combat 6-1.png",
+                "ID": "9DB995996720DE8C19D2FCF61811FB3E",
+                "SourceID": "8CAC322D2EF7BEB598787C6559C7F8BCE9CFE98F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "028-Invisible Escape 1-1.png",
+                "ID": "D57991F85586BAE064F022FE5FBD3F4A",
+                "SourceID": "65AC35F07F3CDC05C0958A6592DF76B5E8A42E02",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "029-Invisible Escape 2-1.png",
+                "ID": "238B5E19B9D978598817C3DA441960B7",
+                "SourceID": "D2737EAC53D657A6491B9527E21374FA8B087E52",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "030-Invisible Escape 3-1.png",
+                "ID": "A261F94F37EF04F2D93245D38D35269F",
+                "SourceID": "64534FC0DD9E28F2AEEB6F5DB9A62088E5619FE7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "031-Invisible Escape 4-1.png",
+                "ID": "3A8D0949749D823706442A9C3A719EA7",
+                "SourceID": "3D51EF2A2C1A562987ED2B7D267E0F0DC0CB5A59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "032-Clever Sabotage-x2-1.png",
+                "ID": "BBA4C8D05A39763C14DAA260689C39A4",
+                "SourceID": "2BF4EEBAA1A853159E957A49382D4C7324E83A40",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "033-Doubling Back-x2-1.png",
+                "ID": "A44815DE0C5A7A8B1F70E2CAA747C301",
+                "SourceID": "6C610B300CC3662318197D3D8D436EA59F398C30",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "035-Maddened Beast-x2-1.png",
+                "ID": "8D1A32B283E1465EA8C6072483E8CF9D",
+                "SourceID": "2C1FC9F94F329BFF94E1685B8F979043336056E7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "036-Malicious Laughter-x3-1.png",
+                "ID": "1BD05FB87901EF5AC2761CF643AD93AD",
+                "SourceID": "FAA847460C29FC8309BF358E6BE9A7544C38AC3D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "037-Obvious Signs-x2-1.png",
+                "ID": "DA5FA0D3ACFE3BF370EF86FCB6592130",
+                "SourceID": "15BAC370F56EDCE6378D5AA4A3702855EC525936",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "038-Out of Nowhere-x3-1.png",
+                "ID": "99FEB9CC317D8234E48D5A7E4FE7D866",
+                "SourceID": "48922810BCE11635EB51A0A6A5B6291BB75F1238",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "039-Senseless Murder-x2-1.png",
+                "ID": "1320D7D7E900C3239475024E1CEB3996",
+                "SourceID": "C267A0957E2AD8FC599BF09D0B18854A27656BE5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "040-Sentient Solution-x2-1.png",
+                "ID": "B51E4495E1ED6816159E89992E7D0D68",
+                "SourceID": "9A39803EAB64D542D51514791E67A8F2827DCF26",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "041-Sheldon Supplier-x2-1.png",
+                "ID": "2FAD6B8AEC8DED52EDF698BEB3A2565F",
+                "SourceID": "95C1BD44B2F84C4A4E7B634FEA925EF2F89FE0E9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "042-Subtle Interference-x2-1.png",
+                "ID": "418AB80D18FC37683767613B78D4EF25",
+                "SourceID": "DF239D7D66769B6DFC263911C366A2F6A35671DE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "043-Translucent Experiment-x2-1.png",
+                "ID": "62B5DEDDD1245E09832EDE1B1C16E128",
+                "SourceID": "68067E8D17889149ADD6584BA7A45F174BEA3C03",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "044-Unseen Movements-x3-1.png",
+                "ID": "510B9ECE91A617FC1BC9324FBA4FAA30",
+                "SourceID": "61DFFC9D251AB7E21210BFCE0B1AB7385A91515D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "045-Invisibility Serum-1.png",
+                "ID": "71A6A4C83CECEC46CDF3B36B8A3956AA",
+                "SourceID": "A8EB306249D76A5452315C14302813ABA764B286",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "045-Invisibility Serum-2.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "046-Griffins Notes-1.png",
+                "ID": "86B33EF0ED8D4428BCF6929211E014A2",
+                "SourceID": "367AF14BB4E4047BD16047571139145A1018F803",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "046-Griffins Notes-2.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "4640d507a5943e9e08d2c4fb0e6036b147596cf4ff5ac376ea12a7213338552c"
+  "hash": "55b46b0a734ebf722dbd0247376acaa847a9c5c308a173dc4615f96e6043ed5e"
 }

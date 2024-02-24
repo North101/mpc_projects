@@ -23,204 +23,209 @@
   ],
   "created": "2023-09-29T15:52:26.684Z",
   "updated": "2023-11-13T02:32:54.904Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
       "name": "Echoes of Antiquity",
-      "cards": [
+      "parts": [
         {
-          "count": 3,
-          "front": {
-            "Name": "01 Astounding Revelation-x3-1.png",
-            "ID": "E2C9229D290F30A862CAAB6B1FD42243",
-            "SourceID": "CFDB91566AA5D29CD7FAA04AFCB5F0180D14DF3F",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "02 Charon's Obol-x1-1.png",
-            "ID": "61C419B8943DB0B287706EA960A9DC63",
-            "SourceID": "603C36F9ED0B149A39CF01E04EB4CBCC03AD047F",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "03 Disc of Itzamna-x2-1.png",
-            "ID": "C04719BEEE1E741292A74A38E16E1A76",
-            "SourceID": "67A0D3FCA15EF0FF8CB0E9E4D516E478549FFA70",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "04 Fey-x2-1.png",
-            "ID": "87ECF1977CFFE234B1BAD5C44C57BF5A",
-            "SourceID": "A0792F8083BC86C2EAD86E89EEA76D3F4F640419",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "05 Geas-x1-1.png",
-            "ID": "61D02F4B439E7DDB2C0C603E5F0FC7E6",
-            "SourceID": "A6F0BA14987C85498FC2AACD8FCAAE5A362BF1C6",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "06 Grimm's Fairy Tales-x2-1.png",
-            "ID": "EFB98510ED32F52931EC04CCB13CC208",
-            "SourceID": "0FC9073750ABADEA83DF4E92F5BC8BB2937E3C5C",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "07 HASTA SANCTA-x2-1.png",
-            "ID": "742BBD73A4C01DB334337147C8A04421",
-            "SourceID": "E1AD37F8544D1F694E6097916D29AAC4BDB9D381",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "08 Kitab al-Azif-x1-1.png",
-            "ID": "2F02EA371CA70403B332B1B557565926",
-            "SourceID": "FAFD1F820FDAE340D9731ED6B357AE1A4C5363CA",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 1,
-          "front": {
-            "Name": "09 The Black Fan-x1-1.png",
-            "ID": "3C65B4A2404447FB3BBEBCECC70C539E",
-            "SourceID": "B4EA7F923C4225A394BDD2222519E3C0C1D67D3F",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
-        },
-        {
-          "count": 2,
-          "front": {
-            "Name": "10 Voice of Ra-x2-1.png",
-            "ID": "3A08C9CFD0ECCFC90956A83FC4BEF1D9",
-            "SourceID": "559E3FBB3C07F64D9C313C0BAF073F3AC69908E4",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          },
-          "back": {
-            "Name": "_playerback.png",
-            "ID": "F2C892495D430CF932D00FCC1CD986B8",
-            "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-            "Exp": "png",
-            "Width": 822,
-            "Height": 1122
-          }
+          "name": "Echoes of Antiquity",
+          "cards": [
+            {
+              "count": 3,
+              "front": {
+                "Name": "01 Astounding Revelation-x3-1.png",
+                "ID": "E2C9229D290F30A862CAAB6B1FD42243",
+                "SourceID": "CFDB91566AA5D29CD7FAA04AFCB5F0180D14DF3F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "02 Charon's Obol-x1-1.png",
+                "ID": "61C419B8943DB0B287706EA960A9DC63",
+                "SourceID": "603C36F9ED0B149A39CF01E04EB4CBCC03AD047F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "03 Disc of Itzamna-x2-1.png",
+                "ID": "C04719BEEE1E741292A74A38E16E1A76",
+                "SourceID": "67A0D3FCA15EF0FF8CB0E9E4D516E478549FFA70",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "04 Fey-x2-1.png",
+                "ID": "87ECF1977CFFE234B1BAD5C44C57BF5A",
+                "SourceID": "A0792F8083BC86C2EAD86E89EEA76D3F4F640419",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "05 Geas-x1-1.png",
+                "ID": "61D02F4B439E7DDB2C0C603E5F0FC7E6",
+                "SourceID": "A6F0BA14987C85498FC2AACD8FCAAE5A362BF1C6",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "06 Grimm's Fairy Tales-x2-1.png",
+                "ID": "EFB98510ED32F52931EC04CCB13CC208",
+                "SourceID": "0FC9073750ABADEA83DF4E92F5BC8BB2937E3C5C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "07 HASTA SANCTA-x2-1.png",
+                "ID": "742BBD73A4C01DB334337147C8A04421",
+                "SourceID": "E1AD37F8544D1F694E6097916D29AAC4BDB9D381",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "08 Kitab al-Azif-x1-1.png",
+                "ID": "2F02EA371CA70403B332B1B557565926",
+                "SourceID": "FAFD1F820FDAE340D9731ED6B357AE1A4C5363CA",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "09 The Black Fan-x1-1.png",
+                "ID": "3C65B4A2404447FB3BBEBCECC70C539E",
+                "SourceID": "B4EA7F923C4225A394BDD2222519E3C0C1D67D3F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "10 Voice of Ra-x2-1.png",
+                "ID": "3A08C9CFD0ECCFC90956A83FC4BEF1D9",
+                "SourceID": "559E3FBB3C07F64D9C313C0BAF073F3AC69908E4",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "16da5a14654d681878752807e4ffb3bbfccded7bcb8fc233059a05bbc1bdfa6d"
+  "hash": "653f6bd81d1e5c16759d6696ba33f09916dda85ed6bc90c2032ee747393b29df"
 }

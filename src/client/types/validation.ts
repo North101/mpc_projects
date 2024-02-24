@@ -1,5 +1,5 @@
 import Ajv, { JSONSchemaType } from 'ajv'
-import { Card, CardFace, PartMeta, ProjectV1Meta, ProjectV2Meta } from './types'
+import { Card, CardFace, OptionMeta, PartMeta, ProjectV1Meta, ProjectV2Meta, ProjectV2_1Meta } from './types'
 
 
 const cardFaceSchema: JSONSchemaType<CardFace> = {
@@ -45,6 +45,19 @@ const partSchema: JSONSchemaType<PartMeta> = {
   required: [
     'name',
     'cards',
+  ],
+}
+
+const optionSchema: JSONSchemaType<OptionMeta> = {
+  type: 'object',
+  properties: {
+    key: { type: 'number' },
+    name: { type: 'string' },
+    parts: { type: 'array', items: partSchema },
+  },
+  required: [
+    'name',
+    'parts',
   ],
 }
 
@@ -126,10 +139,50 @@ const projectV2Schema: JSONSchemaType<ProjectV2Meta> = {
   ]
 }
 
-const projectSchema: JSONSchemaType<ProjectV1Meta | ProjectV2Meta> = {
+const projectV2_1Schema: JSONSchemaType<ProjectV2_1Meta> = {
+  type: 'object',
+  properties: {
+    projectId: { type: 'array', items: { type: 'string' } },
+    name: { type: 'string' },
+    description: { type: 'string' },
+    image: { type: 'string', nullable: true },
+    artist: { type: 'string', nullable: true },
+    info: { type: 'string', nullable: true },
+    website: { type: 'string', nullable: true },
+    cardsLink: { type: 'string', nullable: true },
+    scenarioCount: { type: 'number' },
+    investigatorCount: { type: 'number' },
+    authors: { type: 'array', items: { type: 'string' } },
+    tags: { type: 'array', items: { type: 'string' } },
+    statuses: { type: 'array', items: { type: 'string'} },
+    created: { type: 'string' },
+    updated: { type: 'string' },
+    hash: { type: 'string' },
+    version: { type: 'number', const: 2.1 },
+    code: { type: 'string' },
+    options: { type: 'array', items: optionSchema },
+  },
+  required: [
+    'projectId',
+    'name',
+    'description',
+    'authors',
+    'tags',
+    'statuses',
+    'created',
+    'updated',
+    'hash',
+    'version',
+    'code',
+    'options',
+  ]
+}
+
+const projectSchema: JSONSchemaType<ProjectV1Meta | ProjectV2Meta | ProjectV2_1Meta> = {
   oneOf: [
     projectV1Schema,
     projectV2Schema,
+    projectV2_1Schema,
   ]
 }
 

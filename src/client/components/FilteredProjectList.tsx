@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Nav from 'react-bootstrap/esm/Nav'
 import Navbar from 'react-bootstrap/esm/Navbar'
 import Stack from 'react-bootstrap/esm/Stack'
-import { ProjectInfo } from '../types'
+import { WebsiteProjects } from '../types'
 import { CheckboxDropdown, CheckboxState } from './CheckboxDropdown'
 import { AuthorIcon, AuthorIconFiltered, LanguageIcon, LanguageIconFiltered, StatusIcon, StatusIconFiltered, TagIcon, TagIconFiltered } from './Icons'
 import { ProjectList } from './ProjectList'
@@ -44,17 +44,17 @@ const removeArticle = (value: string) => {
 }
 
 const sorts: {
-  [key: string]: (a: ProjectInfo, b: ProjectInfo) => number
+  [key: string]: (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => number
 } = {
-  'Natural': (a: ProjectInfo, b: ProjectInfo) => {
+  'Natural': (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => {
     const aName = removeArticle(a.name)
     const bName = removeArticle(b.name)
     return aName == bName ? 0 : aName > bName ? 1 : -1
   },
-  'Alphabetical': (a: ProjectInfo, b: ProjectInfo) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
-  'Last Updated': (a: ProjectInfo, b: ProjectInfo) => a.updated == b.updated ? 0 : a.updated > b.updated ? -1 : 1,
-  'Newest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
-  'Oldest': (a: ProjectInfo, b: ProjectInfo) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
+  'Alphabetical': (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => a.name == b.name ? 0 : a.name > b.name ? 1 : -1,
+  'Last Updated': (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => a.updated == b.updated ? 0 : a.updated > b.updated ? -1 : 1,
+  'Newest': (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => a.created == b.created ? 0 : a.created > b.created ? -1 : 1,
+  'Oldest': (a: WebsiteProjects.Info, b: WebsiteProjects.Info) => a.created == b.created ? 0 : a.created > b.created ? 1 : -1,
 }
 
 export const useSort = (): [string, Dispatch<SetStateAction<string>>] => {
@@ -72,7 +72,7 @@ export const useSort = (): [string, Dispatch<SetStateAction<string>>] => {
   return [sort, setSort]
 }
 
-export const useAuthorFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.authors)
+export const useAuthorFilter = (projects: WebsiteProjects.Info[]) => useState<CheckboxState[]>(projects.flatMap(e => e.authors)
   .distinct()
   .map(e => ({
     id: e,
@@ -82,7 +82,7 @@ export const useAuthorFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .toSorted(sortByLabel)
 )
 
-export const useTagFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.tags)
+export const useTagFilter = (projects: WebsiteProjects.Info[]) => useState<CheckboxState[]>(projects.flatMap(e => e.tags)
   .distinct()
   .map(e => ({
     id: e,
@@ -92,7 +92,7 @@ export const useTagFilter = (projects: ProjectInfo[]) => useState<CheckboxState[
   .toSorted(sortByLabel)
 )
 
-export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => e.statuses)
+export const useStatusFilter = (projects: WebsiteProjects.Info[]) => useState<CheckboxState[]>(projects.flatMap(e => e.statuses)
   .distinct()
   .map(e => ({
     id: e,
@@ -102,7 +102,7 @@ export const useStatusFilter = (projects: ProjectInfo[]) => useState<CheckboxSta
   .toSorted(sortByLabel)
 )
 
-export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.map(e => e.lang)
+export const useLangFilter = (projects: WebsiteProjects.Info[]) => useState<CheckboxState[]>(projects.map(e => e.lang)
   .filter((e): e is string => e != null)
   .distinct()
   .map(e => ({
@@ -113,7 +113,7 @@ export const useLangFilter = (projects: ProjectInfo[]) => useState<CheckboxState
   .toSorted(sortByLabel)
 )
 
-{/*export const useSiteFilter = (projects: ProjectInfo[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
+{/*export const useSiteFilter = (projects: WebsiteProjects.Info[]) => useState<CheckboxState[]>(projects.flatMap(e => Object.values(e.sites))
   .distinct()
   .map(e => ({
     id: e,
@@ -148,7 +148,7 @@ export const FilterContext = createContext<{
 })
 
 interface FilteredProjectListProps {
-  projects: ProjectInfo[]
+  projects: WebsiteProjects.Info[]
 }
 
 export const FilteredProjectList = (props: FilteredProjectListProps) => {
@@ -356,7 +356,7 @@ export const FilteredProjectList = (props: FilteredProjectListProps) => {
 }
 
 interface FilteredProjectListContainerProps {
-  projects: ProjectInfo[]
+  projects: WebsiteProjects.Info[]
 }
 
 export const FilteredProjectListContainer = ({ projects }: FilteredProjectListContainerProps) => {

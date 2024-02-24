@@ -2,14 +2,20 @@ import { useState } from 'react'
 import Button from 'react-bootstrap/esm/Button'
 import Form from 'react-bootstrap/esm/Form'
 import Modal from 'react-bootstrap/esm/Modal'
-import { ProjectInfo, ProjectLatest } from '../types'
+import { ExtensionProjects, WebsiteProjects } from '../types'
 
-const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose: () => void) => {
+const downloadProject = async (project: WebsiteProjects.Info, checked: boolean[][], onClose: () => void) => {
   const r = await fetch(`/projects/${project.filename}`)
-  const file: ProjectLatest = await r.json()
-  const download: ProjectLatest = {
+  const file: WebsiteProjects.Data = await r.json()
+  const download: ExtensionProjects.Latest.Project = {
     ...file,
-    parts: file.parts.filter((_, index) => checked[index]),
+    version: 2,
+    parts: file.options.flatMap((option, optionIndex) => {
+      return option.parts.filter((_, partIndex) => checked[optionIndex][partIndex]).map(part => ({
+        name: `${option.name} - ${part.name}`,
+        cards: part.cards,
+      }))
+    }),
   }
 
   if (window.showSaveFilePicker) {
@@ -43,12 +49,12 @@ const downloadProject = async (project: ProjectInfo, checked: boolean[], onClose
 }
 
 interface ProjectDownloadModalProps {
-  project: ProjectInfo
+  project: WebsiteProjects.Info
   onClose: () => void
 }
 
 export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalProps) => {
-  const [checked, setChecked] = useState(project.parts.map((e) => e.enabled))
+  const [checked, setChecked] = useState(project.options.map((e) => e.parts.map(e => e.enabled)))
   const anyChecked = checked.some(e => e)
   const onDownload = () => downloadProject(
     project,
@@ -56,10 +62,12 @@ export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalP
     onClose,
   )
 
-  const onChange = (event: React.ChangeEvent<HTMLInputElement>, index: number) => {
+  const onChange = (event: React.ChangeEvent<HTMLInputElement>, optionIndex: number, partIndex: number) => {
     const checked = event.currentTarget.checked
     setChecked(prevState => prevState.map((v, i) => {
-      return index == i ? checked : v
+      return optionIndex == i ? v.map((v, j) => {
+        return partIndex == j ? checked : v;
+      }) : v
     }))
   }
 
@@ -70,13 +78,20 @@ export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalP
       </Modal.Header>
 
       <Modal.Body>
-        {project.parts.map((e, index) => <Form.Check
-          key={index}
-          type='checkbox'
-          label={`${e.name} (${e.count})`}
-          checked={checked[index]}
-          onChange={(e) => onChange(e, index)}
-        />)}
+        {project.options.map(({ name, parts }, optionIndex) => (
+          <div key={optionIndex}>
+            <div>{name}</div>
+            <div style={{ borderBottom: '1px solid #FFF' }} />
+            {parts.map((e, partIndex) => <Form.Check
+              key={partIndex}
+              type='checkbox'
+              label={`${e.name} (${e.count})`}
+              checked={checked[optionIndex][partIndex]}
+              onChange={(e) => onChange(e, optionIndex, partIndex)}
+            />)}
+            <br />
+          </div>
+        ))}
       </Modal.Body>
 
       <Modal.Footer>

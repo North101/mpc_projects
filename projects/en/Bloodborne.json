@@ -23,33 +23,38 @@
   ],
   "created": "2024-02-23T12:19:26.680Z",
   "updated": "2024-02-23T12:19:26.680Z",
-  "version": 2,
+  "version": 3,
   "code": "C380050185D1C1AF",
-  "parts": [
+  "options": [
     {
-      "name": "Bloodborne City of the Unseen coming soon! This is not it, sorry.",
-      "cards": [
+      "name": "Bloodborne — City of the Unseen",
+      "parts": [
         {
-          "count": 1,
-          "front": {
-            "Name": "001 Kerry-Lennox-1.jpg",
-            "ID": "6E9731DF37E01CDD2632E576AF1D2EC6",
-            "SourceID": "4415166665ABFD4569353BABDDCAB86493F7A166",
-            "Exp": "jpg",
-            "Width": 826,
-            "Height": 1126
-          },
-          "back": {
-            "Name": "001 Kerry-Lennox-2.jpg",
-            "ID": "32BBAB35E2B00ECE55509F4915F4507C",
-            "SourceID": "4486EC34985011DAD6517425FE83DDC4018D8094",
-            "Exp": "jpg",
-            "Width": 826,
-            "Height": 1126
-          }
+          "name": "Bloodborne City of the Unseen coming soon! This is not it, sorry.",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "001 Kerry-Lennox-1.jpg",
+                "ID": "6E9731DF37E01CDD2632E576AF1D2EC6",
+                "SourceID": "4415166665ABFD4569353BABDDCAB86493F7A166",
+                "Exp": "jpg",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001 Kerry-Lennox-2.jpg",
+                "ID": "32BBAB35E2B00ECE55509F4915F4507C",
+                "SourceID": "4486EC34985011DAD6517425FE83DDC4018D8094",
+                "Exp": "jpg",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "hash": "0d7b1a1d17b95198fa5ebc052647352f61517018f4c42fedecdeea951ec52d56"
+  "hash": "63ab9d4b0ca348dea69f146608aecb17560bbf76df3fa198ebac50125193dd1d"
 }
