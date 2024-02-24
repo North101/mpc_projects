@@ -72,7 +72,10 @@ export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalP
   }
 
   return (
-    <Modal show centered scrollable onHide={onClose}>
+    <Modal show centered scrollable
+           onHide={onClose}
+           dialogClassName='download-options'
+    >
       <Modal.Header closeButton>
         <Modal.Title>{project.name}</Modal.Title>
       </Modal.Header>
@@ -80,8 +83,7 @@ export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalP
       <Modal.Body>
         {project.options.map(({ name, parts }, optionIndex) => (
           <div key={optionIndex}>
-            <div>{name}</div>
-            <div style={{ borderBottom: '1px solid #FFF' }} />
+            <h5>{name}</h5>
             {parts.map((e, partIndex) => <Form.Check
               key={partIndex}
               type='checkbox'
