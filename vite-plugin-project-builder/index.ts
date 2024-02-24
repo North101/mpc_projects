@@ -1,20 +1,17 @@
+import envVar from 'env-var'
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
-//import mpcData from 'mpc_api/data'
-import envVar from 'env-var'
 import path, { basename, dirname, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { ProjectInfo, ProjectLatest, ProjectLatestMeta, ProjectUnionMeta } from './types'
+import { ExtensionProjects, WebsiteProjects } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
-import projectValidator from './validation'
 
-
-interface ProjectWithFilename extends ProjectLatestMeta {
+interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   filename: string
   image: string | null
 }
 
-const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
+const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
   filename: e.filename,
   name: e.name,
   description: e.description,
@@ -31,49 +28,126 @@ const mapProjectInfo = (e: ProjectWithFilename): ProjectInfo => ({
   lang: e.filename.split('/')[0],
   created: e.created,
   updated: e.updated,
-  parts: e.parts.map(e => ({
-    enabled: e.enabled ?? true,
-    name: e.name,
-    count: e.cards.reduce((value, card) => value + card.count, 0),
+  options: e.options.map(({ name, parts }) => ({
+    name,
+    parts: parts.map(({name, enabled, cards}) => ({
+      name,
+      count: cards.reduce((count, cards) => count + cards.count, 0),
+      enabled: enabled ?? true,
+    }))
   })),
-  //sites: Object.fromEntries(
-  //  mpcData.sites.flatMap(site => {
-  //    const unit = mpcData.units[site.code]?.find(unit => unit.code == e.code)
-  //    if (!unit) return []
-  //
-  //    return site.urls.map(url => [url, unit.name])
-  //  })
-  //),
 })
 
-const mapProjectDownload = ({ version, code, parts }: ProjectWithFilename): ProjectLatest => ({
-  version,
+const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects.Data => ({
   code,
-  parts: parts.map(e => ({
-    name: e.name,
-    cards: e.cards,
+  options: options.flatMap(({ name, parts }) => ({
+    name,
+    parts: parts.map(({ name, cards }) => ({
+      name,
+      cards,
+    })),
   })),
 })
 
-const upgradeProject = (project: ProjectUnionMeta): ProjectLatestMeta => {
+const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
   if (project.version == 1) {
-    const { cards, name, ...rest } = project
+    const { name, cards, ...rest } = project
     return {
       ...rest,
       name,
-      version: 2,
-      parts: [{
-        name: name,
-        cards,
-      }]
+      version: 3,
+      options: [{
+        name,
+        parts: [{
+          name,
+          cards,
+        }]
+      }],
     }
+  } else if (project.version == 2) {
+    const { name, parts, ...rest } = project
+    return {
+      ...rest,
+      name,
+      version: 3,
+      options: [{
+        name,
+        parts,
+      }],
+    }
+  } else if (project.version == 3) {
+    return project
   }
-
-  return project
+  throw Error(project)
 }
 
-const parseProject = (project: ProjectUnionMeta): ProjectLatestMeta | null => {
-  return projectValidator(project) ? upgradeProject(project) : null
+const convertExtensionProject = (filename: string, project: ExtensionProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
+  const name = basename(filename)
+  if (project.version == 1) {
+    const { code, cards } = project
+    return {
+      version: 3,
+      code,
+      projectId: [],
+      name,
+      description: '',
+      artist: null,
+      info: null,
+      website: null,
+      cardsLink: null,
+      scenarioCount: 0,
+      investigatorCount: 0,
+      authors: [],
+      statuses: [],
+      tags: [],
+      created: '',
+      updated: '',
+      hash: '',
+      options: [{
+        name,
+        parts: [{
+          name,
+          cards,
+        }]
+      }],
+    }
+  } else if (project.version == 2) {
+    const { code, parts } = project
+    return {
+      version: 3,
+      code,
+      projectId: [],
+      name,
+      description: '',
+      artist: null,
+      info: null,
+      website: null,
+      cardsLink: null,
+      scenarioCount: 0,
+      investigatorCount: 0,
+      authors: [],
+      statuses: [],
+      tags: [],
+      created: '',
+      updated: '',
+      hash: '',
+      options: [{
+        name,
+        parts,
+      }],
+    }
+  }
+  throw new Error(project)
+}
+
+const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Project | null> => {
+  const project = await readJson(filename)
+  if (WebsiteProjects.validate(project)) {
+    return convertWebsiteProject(project)
+  } else if (ExtensionProjects.validate(project)) {
+    return convertExtensionProject(filename, project)
+  }
+  return null
 }
 
 const getProjectImage = async (filename: string) => {
@@ -93,18 +167,15 @@ const getProjectImage = async (filename: string) => {
 }
 
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
-  const project = parseProject(await readJson(filename))
+  const project = await parseProject(filename)
   if (project == null) {
     console.log(relative(resolve(projectsDir), filename))
-    projectValidator.errors
-      ?.map(e => `  ${e.instancePath}/ ${e.message}`)
-      ?.forEach((e) => console.log(e))
     return null
   }
 
   const hash = hashJson([
     project.code,
-    project.parts,
+    project.options,
   ])
   const updated = !updateProject || hash == project.hash ? project.updated : new Date().toISOString()
   return {
@@ -141,15 +212,15 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       const outDir = viteConfig.build.outDir
       const projectList = await readProjectList(projectsDir, updateProjects)
       // write projects.json
-      await writeJson<ProjectInfo[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
+      await writeJson<WebsiteProjects.Info[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       // write all project json files
       await Promise.all(projectList.map(async e => {
-        await fs.mkdir(dirname(resolve(outDir, projectsDir, e.filename))).catch(() => {})
-        await writeJson<ProjectLatest>(resolve(outDir, projectsDir, e.filename), mapProjectDownload(e))
+        await fs.mkdir(dirname(resolve(outDir, projectsDir, e.filename))).catch(() => { })
+        await writeJson<WebsiteProjects.Data>(resolve(outDir, projectsDir, e.filename), mapProjectData(e))
       }))
       // update project files
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<ProjectLatestMeta>(resolve(projectsDir, filename), {
+        await writeJson<WebsiteProjects.Latest.Project>(resolve(projectsDir, filename), {
           projectId: project.projectId,
           name: project.name,
           description: project.description,
@@ -166,7 +237,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           updated: project.updated,
           version: project.version,
           code: project.code,
-          parts: project.parts,
+          options: project.options,
           hash: project.hash,
         }, 2)
       }))
@@ -190,7 +261,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
 
             return res.writeHead(200, {
               'Content-Type': 'application/json',
-            }).end(JSON.stringify(mapProjectDownload(project)))
+            }).end(JSON.stringify(mapProjectData(project)))
           }
         }
         return next()

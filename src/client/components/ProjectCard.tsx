@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
 import Tooltip from 'react-bootstrap/esm/Tooltip'
-import { ProjectInfo } from '../types'
+import { WebsiteProjects } from '../types'
 import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
 import { ProjectStatuses } from './ProjectStatuses'
@@ -25,7 +25,7 @@ export const ProjectTooltip = ({ name, info }: ProjectTooltipProps) => (
 )
 
 interface ProjectCardProps {
-  project: ProjectInfo
+  project: WebsiteProjects.Info
 }
 
 {/*
@@ -69,11 +69,9 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   const onShow = () => setShow(true)
   const onClose = () => setShow(false)
 
-  const enabledParts = project.parts.filter((part) => {
+  const count = project.options.flatMap(option => option.parts).filter((part) => {
     return part.enabled
-  })
-
-  const count = enabledParts.reduce((count, card) => count + card.count, 0)
+  }).reduce((count, card) => count + card.count, 0)
 
   return (
     <>
