@@ -9,27 +9,29 @@ import { hashJson, isProjectFile, readJson, writeJson } from './util'
 interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   filename: string
   image: string | null
+  changelog: string | null
   lang: string
 }
 
-const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
-  filename: e.filename,
-  name: e.name,
-  description: e.description,
-  artist: e.artist ?? null,
-  info: e.info ?? null,
-  image: e.image,
-  website: e.website ?? null,
-  cardsLink: e.cardsLink ?? null,
-  scenarioCount: e.scenarioCount ?? 0,
-  investigatorCount: e.investigatorCount ?? 0,
-  authors: e.authors,
-  statuses: e.statuses,
-  tags: e.tags,
-  lang: e.lang,
-  created: e.created,
-  updated: e.updated,
-  options: e.options.map(({ name, parts }) => ({
+const mapProjectInfo = (project: ProjectWithFilename): WebsiteProjects.Info => ({
+  filename: project.filename,
+  image: project.image,
+  changelog: project.changelog,
+  name: project.name,
+  description: project.description,
+  artist: project.artist,
+  info: project.info,
+  website: project.website,
+  cardsLink: project.cardsLink,
+  scenarioCount: project.scenarioCount,
+  investigatorCount: project.investigatorCount,
+  authors: project.authors,
+  statuses: project.statuses,
+  tags: project.tags,
+  lang: project.lang,
+  created: project.created,
+  updated: project.updated,
+  options: project.options.map(({ name, parts }) => ({
     name,
     parts: parts.map(({ name, enabled, cards }) => ({
       name,
@@ -211,6 +213,22 @@ const getProjectImage = async (filename: string) => {
   }
 }
 
+const getProjectChangelog = async (filename: string) => {
+  const filenameInfo = path.parse(filename)
+  const image = path.format({
+    ...filenameInfo,
+    dir: path.resolve('public/projects/'),
+    base: undefined,
+    ext: '.md'
+  })
+  try {
+    await fs.access(image, fs.constants.R_OK)
+    return path.basename(image)
+  } catch (e) {
+    return null
+  }
+}
+
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
   const project = await parseProject(filename)
   if (project == null) {
@@ -226,6 +244,7 @@ const readProject = async (projectsDir: string, filename: string, updateProject:
     ...project,
     filename: path.relative(path.resolve(projectsDir), filename),
     image: await getProjectImage(filename),
+    changelog: await getProjectChangelog(filename),
     lang: path.basename(path.dirname(filename)),
     hash,
     updated,
