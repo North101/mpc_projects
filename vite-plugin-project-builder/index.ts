@@ -41,11 +41,11 @@ const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => {
   }
 }
 
-const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects.Data => ({
-  code,
+const mapProjectData = ({ options }: ProjectWithFilename): WebsiteProjects.Data => ({
   options: options.flatMap(({ name, parts }) => ({
     name,
-    parts: parts.map(({ name, cards }) => ({
+    parts: parts.map(({ code, name, cards }) => ({
+      code,
       name,
       cards,
     })),
@@ -54,31 +54,49 @@ const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects
 
 const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
   if (project.version == 1) {
-    const { name, cards, ...rest } = project
+    const { code, name, cards, ...rest } = project
     return {
       ...rest,
+      version: 4,
       name,
-      version: 3,
       options: [{
         name,
         parts: [{
+          code,
           name,
           cards,
         }]
       }],
     }
   } else if (project.version == 2) {
-    const { name, parts, ...rest } = project
+    const { code, name, parts, ...rest } = project
     return {
       ...rest,
+      version: 4,
       name,
-      version: 3,
       options: [{
         name,
-        parts,
+        parts: parts.map(part => ({
+          ...part,
+          code,
+        })),
       }],
     }
   } else if (project.version == 3) {
+    const { code, name, options, ...rest } = project
+    return {
+      ...rest,
+      version: 4,
+      name,
+      options: options.map(option => ({
+        ...option,
+        parts: option.parts.map(part => ({
+          ...part,
+          code,
+        }))
+      })),
+    }
+  } else if (project.version == 4) {
     return project
   }
   throw Error(project)
@@ -89,8 +107,7 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   if (project.version == 1) {
     const { code, cards } = project
     return {
-      version: 3,
-      code,
+      version: 4,
       projectId: [],
       name,
       description: '',
@@ -109,6 +126,7 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
       options: [{
         name,
         parts: [{
+          code,
           name,
           cards,
         }]
@@ -117,8 +135,34 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   } else if (project.version == 2) {
     const { code, parts } = project
     return {
-      version: 3,
-      code,
+      version: 4,
+      projectId: [],
+      name,
+      description: '',
+      artist: null,
+      info: null,
+      website: null,
+      cardsLink: null,
+      scenarioCount: 0,
+      investigatorCount: 0,
+      authors: [],
+      statuses: [],
+      tags: [],
+      created: '',
+      updated: '',
+      hash: '',
+      options: [{
+        name,
+        parts: parts.map(part => ({
+          code,
+          ...part,
+        })),
+      }],
+    }
+  } else if (project.version == 3) {
+    const { parts } = project
+    return {
+      version: 4,
       projectId: [],
       name,
       description: '',
@@ -143,12 +187,18 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   throw new Error(project)
 }
 
-const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Project | null> => {
-  const project = await readJson(filename)
-  if (await WebsiteProjects.validate(project)) {
+interface ParseProjectProps {
+  filename: string
+  websiteValidate: (data: unknown) => data is WebsiteProjects.ProjectUnion
+  extensionValidate: (data: unknown) => data is ExtensionProjects.ProjectUnion
+}
+
+const parseProject = async (props: ParseProjectProps): Promise<WebsiteProjects.Latest.Project | null> => {
+  const project = await readJson(props.filename)
+  if (props.websiteValidate(project)) {
     return convertWebsiteProject(project)
-  } else if (await ExtensionProjects.validate(project)) {
-    return convertExtensionProject(filename, project)
+  } else if (props.extensionValidate(project)) {
+    return convertExtensionProject(props.filename, project)
   }
   return null
 }
@@ -159,7 +209,7 @@ const getProjectImage = async (filename: string) => {
     ...filenameInfo,
     dir: resolve('public/projects/'),
     base: undefined,
-    ext: '.png'
+    ext: '.png',
   })
   try {
     await fs.access(image, fs.constants.R_OK)
@@ -169,15 +219,23 @@ const getProjectImage = async (filename: string) => {
   }
 }
 
-const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
-  const project = await parseProject(filename)
+interface ReadProjectProps {
+  projectsDir: string
+  filename: string
+  updateProject: boolean
+  websiteValidate: (data: unknown) => data is WebsiteProjects.ProjectUnion
+  extensionValidate: (data: unknown) => data is ExtensionProjects.ProjectUnion
+}
+
+const readProject = async (props: ReadProjectProps): Promise<ProjectWithFilename | null> => {
+  const { projectsDir, filename, updateProject, websiteValidate, extensionValidate } = props
+  const project = await parseProject({ filename, websiteValidate, extensionValidate })
   if (project == null) {
     console.error(`Failed to validate: ${filename}`)
     return null
   }
 
   const hash = hashJson([
-    project.code,
     project.options,
   ])
   const updated = !updateProject || hash == project.hash ? project.updated : new Date().toISOString()
@@ -190,10 +248,18 @@ const readProject = async (projectsDir: string, filename: string, updateProject:
   }
 }
 
-const readProjectList = async (projectsDir: string, updateProjects: boolean) => {
+const readProjectList = async (projectsDir: string, updateProject: boolean) => {
+  const websiteValidate = await WebsiteProjects.validate()
+  const extensionValidate = await ExtensionProjects.validate()
   const allProjects = await glob(resolve(projectsDir, '*/*.json'))
   return await Promise
-    .all(allProjects.map((filename) => readProject(projectsDir, filename, updateProjects)))
+    .all(allProjects.map((filename) => readProject({
+      projectsDir,
+      filename,
+      updateProject,
+      websiteValidate,
+      extensionValidate,
+    })))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
 }
 
@@ -205,7 +271,7 @@ interface ProjectsBuilderOptions {
 
 export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
-  const updateProjects = envVar.get('UPDATE_PROJECTS').default('true').asBool()
+  const updateProject = envVar.get('UPDATE_PROJECTS').default('true').asBool()
   schemaPaths = schemaPaths.map(path => resolve(path))
 
   return {
@@ -219,7 +285,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
       }
 
       const outDir = viteConfig.build.outDir
-      const projectList = await readProjectList(projectsDir, updateProjects)
+      const projectList = await readProjectList(projectsDir, updateProject)
       // write projects.json
       await writeJson<WebsiteProjects.Info[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       // write all project json files
@@ -245,7 +311,6 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
           created: project.created,
           updated: project.updated,
           version: project.version,
-          code: project.code,
           options: project.options,
           hash: project.hash,
         }, 2)
@@ -255,7 +320,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
       server.middlewares.use(async (req, res, next) => {
         if (req.url == `/${projectsFilename}`) {
           // /projects.json
-          const projectList = await readProjectList(projectsDir, updateProjects)
+          const projectList = await readProjectList(projectsDir, updateProject)
           const projectsJson = projectList.map(mapProjectInfo)
           return res.writeHead(200, {
             'Content-Type': 'application/json',
@@ -265,7 +330,15 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
           // /projects/*.json
           if (req.url.endsWith('.json')) {
             const filename = path.resolve(projectsDir, path.resolve(decodeURI(req.url).substring(1)))
-            const project = await readProject(projectsDir, filename, updateProjects)
+            const websiteValidate = await WebsiteProjects.validate()
+            const extensionValidate = await ExtensionProjects.validate()
+            const project = await readProject({
+              projectsDir,
+              filename,
+              updateProject,
+              websiteValidate,
+              extensionValidate,
+            })
             if (project == undefined) return next()
 
             return res.writeHead(200, {

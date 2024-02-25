@@ -9,6 +9,9 @@
     },
     {
       "$ref": "#/definitions/Project_2"
+    },
+    {
+      "$ref": "#/definitions/Project_3"
     }
   ],
   "definitions": {
@@ -67,6 +70,24 @@
         },
         "parts": {
           "items": {
+            "$ref": "#/definitions/Part_1"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "parts"
+      ],
+      "type": "object"
+    },
+    "Option_1": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "parts": {
+          "items": {
             "$ref": "#/definitions/Part"
           },
           "type": "array"
@@ -95,6 +116,31 @@
       },
       "required": [
         "cards",
+        "name"
+      ],
+      "type": "object"
+    },
+    "Part_1": {
+      "properties": {
+        "cards": {
+          "items": {
+            "$ref": "#/definitions/Card"
+          },
+          "type": "array"
+        },
+        "code": {
+          "type": "string"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cards",
+        "code",
         "name"
       ],
       "type": "object"
@@ -325,6 +371,105 @@
             "string"
           ]
         },
+        "created": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "hash": {
+          "type": "string"
+        },
+        "info": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "investigatorCount": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "options": {
+          "items": {
+            "$ref": "#/definitions/Option"
+          },
+          "type": "array"
+        },
+        "projectId": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "scenarioCount": {
+          "type": "number"
+        },
+        "statuses": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "updated": {
+          "type": "string"
+        },
+        "version": {
+          "const": 4,
+          "type": "number"
+        },
+        "website": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "authors",
+        "created",
+        "description",
+        "hash",
+        "investigatorCount",
+        "name",
+        "options",
+        "projectId",
+        "scenarioCount",
+        "statuses",
+        "tags",
+        "updated",
+        "version"
+      ],
+      "type": "object"
+    },
+    "Project_3": {
+      "properties": {
+        "artist": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "cardsLink": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "code": {
           "type": "string"
         },
@@ -351,7 +496,7 @@
         },
         "options": {
           "items": {
-            "$ref": "#/definitions/Option"
+            "$ref": "#/definitions/Option_1"
           },
           "type": "array"
         },

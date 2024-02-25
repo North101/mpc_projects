@@ -1,3 +1,5 @@
+import Ajv from 'ajv'
+import standaloneCode from 'ajv/dist/standalone'
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
 import { resolve } from 'node:path'
@@ -12,18 +14,6 @@ const compilerOptions: TJS.CompilerOptions = {
   strictNullChecks: true,
 }
 
-const sortedKeys = (key: string, value: unknown) => {
-  if (value instanceof Object && !Array.isArray(value)) {
-    return Object.keys(value)
-      .sort()
-      .reduce((sorted, key) => {
-        sorted[key] = value[key];
-        return sorted
-      }, {})
-  }
-  return value
-}
-
 export const generateSchema = async (path: string) => {
   const files = await glob([
     resolve(path, 'v[0-9]*.ts'),
@@ -33,5 +23,13 @@ export const generateSchema = async (path: string) => {
   const schema = {
     ...TJS.generateSchema(program, 'ProjectUnion', settings, files)
   }
-  fs.writeFile(resolve(path, 'schema.json'), JSON.stringify(schema, sortedKeys, 2))
+
+  const ajv = new Ajv({
+    schemas: [schema],
+    code: { source: true, esm: true },
+  })
+  const moduleCode = standaloneCode(ajv, {
+    validate: '#',
+  })
+  fs.writeFile(resolve(path, 'validate.js'), moduleCode)
 }

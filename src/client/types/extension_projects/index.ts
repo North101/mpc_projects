@@ -1,5 +1,10 @@
 export * as Latest from './latest'
-export { ProjectUnion } from './union'
+export type { ProjectUnion } from './union'
 export * as V1 from './v1'
 export * as V2 from './v2'
-export { validate } from './validate'
+export * as V3 from './v3'
+
+export const validate = async () => {
+  const { validate } = await import('./validate')
+  return validate
+}

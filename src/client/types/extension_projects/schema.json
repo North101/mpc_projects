@@ -6,6 +6,9 @@
     },
     {
       "$ref": "#/definitions/Project_1"
+    },
+    {
+      "$ref": "#/definitions/Project_2"
     }
   ],
   "definitions": {
@@ -75,6 +78,28 @@
       ],
       "type": "object"
     },
+    "Part_1": {
+      "properties": {
+        "cards": {
+          "items": {
+            "$ref": "#/definitions/Card"
+          },
+          "type": "array"
+        },
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cards",
+        "code",
+        "name"
+      ],
+      "type": "object"
+    },
     "Project": {
       "properties": {
         "cards": {
@@ -116,6 +141,25 @@
       },
       "required": [
         "code",
+        "parts",
+        "version"
+      ],
+      "type": "object"
+    },
+    "Project_2": {
+      "properties": {
+        "parts": {
+          "items": {
+            "$ref": "#/definitions/Part_1"
+          },
+          "type": "array"
+        },
+        "version": {
+          "const": 3,
+          "type": "number"
+        }
+      },
+      "required": [
         "parts",
         "version"
       ],
