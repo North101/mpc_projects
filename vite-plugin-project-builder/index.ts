@@ -1,8 +1,9 @@
 import envVar from 'env-var'
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
-import path, { basename, dirname, relative, resolve } from 'node:path'
+import path, { basename, dirname, extname, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
+import { generateSchema } from './schema'
 import { ExtensionProjects, WebsiteProjects } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 
@@ -196,13 +197,15 @@ const readProjectList = async (projectsDir: string, updateProjects: boolean) => 
 }
 
 interface ProjectsBuilderOptions {
+  schemaPaths: string[]
   projectsDir: string
   projectsFilename: string
 }
 
-export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
+export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
   const updateProjects = envVar.get('UPDATE_PROJECTS').default('true').asBool()
+  schemaPaths = schemaPaths.map(path => resolve(path))
 
   return {
     name: 'vite-plugin-build-projects',
@@ -210,6 +213,10 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
       viteConfig = resolvedConfig
     },
     async writeBundle() {
+      for (const path of schemaPaths) {
+        await generateSchema(path)
+      }
+
       const outDir = viteConfig.build.outDir
       const projectList = await readProjectList(projectsDir, updateProjects)
       // write projects.json
@@ -268,7 +275,12 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
         return next()
       })
     },
-    handleHotUpdate: ({ file, server }) => {
+    handleHotUpdate: async ({ file, server }) => {
+      for (const path of schemaPaths) {
+        if (file.startsWith(path) && extname(file) == '.ts') {
+          await generateSchema(path)
+        }
+      }
       if (isProjectFile(projectsDir, relative(viteConfig.envDir, file))) {
         console.log(`Project changed: ${file}. Reloading`)
         server.hot.send({
