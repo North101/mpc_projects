@@ -11,32 +11,34 @@ interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   image: string | null
 }
 
-const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
-  filename: e.filename,
-  name: e.name,
-  description: e.description,
-  artist: e.artist ?? null,
-  info: e.info ?? null,
-  image: e.image,
-  website: e.website ?? null,
-  cardsLink: e.cardsLink ?? null,
-  scenarioCount: e.scenarioCount ?? 0,
-  investigatorCount: e.investigatorCount ?? 0,
-  authors: e.authors,
-  statuses: e.statuses,
-  tags: e.tags,
-  lang: e.filename.split('/')[0],
-  created: e.created,
-  updated: e.updated,
-  options: e.options.map(({ name, parts }) => ({
-    name,
-    parts: parts.map(({name, enabled, cards}) => ({
+const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => {
+  return {
+    filename: e.filename,
+    name: e.name,
+    description: e.description,
+    artist: e.artist ?? null,
+    info: e.info ?? null,
+    image: e.image,
+    website: e.website ?? null,
+    cardsLink: e.cardsLink ?? null,
+    scenarioCount: e.scenarioCount ?? 0,
+    investigatorCount: e.investigatorCount ?? 0,
+    authors: e.authors,
+    statuses: e.statuses,
+    tags: e.tags,
+    lang: e.filename.split('/')[0],
+    created: e.created,
+    updated: e.updated,
+    options: e.options.map(({ name, parts }) => ({
       name,
-      count: cards.reduce((count, cards) => count + cards.count, 0),
-      enabled: enabled ?? true,
-    }))
-  })),
-})
+      parts: parts.map(({ name, enabled, cards }) => ({
+        name,
+        count: cards.reduce((count, cards) => count + cards.count, 0),
+        enabled: enabled ?? true,
+      }))
+    })),
+  }
+}
 
 const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects.Data => ({
   code,
@@ -142,9 +144,9 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
 
 const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Project | null> => {
   const project = await readJson(filename)
-  if (WebsiteProjects.validate(project)) {
+  if (await WebsiteProjects.validate(project)) {
     return convertWebsiteProject(project)
-  } else if (ExtensionProjects.validate(project)) {
+  } else if (await ExtensionProjects.validate(project)) {
     return convertExtensionProject(filename, project)
   }
   return null
@@ -169,7 +171,6 @@ const getProjectImage = async (filename: string) => {
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
   const project = await parseProject(filename)
   if (project == null) {
-    console.log(relative(resolve(projectsDir), filename))
     return null
   }
 
@@ -199,7 +200,7 @@ interface ProjectsBuilderOptions {
   projectsFilename: string
 }
 
-const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
+export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
   const updateProjects = envVar.get('UPDATE_PROJECTS').default('true').asBool()
 
@@ -270,7 +271,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     handleHotUpdate: ({ file, server }) => {
       if (isProjectFile(projectsDir, relative(viteConfig.envDir, file))) {
         console.log(`Project changed: ${file}. Reloading`)
-        server.ws.send({
+        server.hot.send({
           type: 'full-reload',
           path: '*',
         })
@@ -278,5 +279,3 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     },
   }
 }
-
-export default projectsBuilder
