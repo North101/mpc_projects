@@ -198,11 +198,10 @@ const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Pr
 }
 
 const getProjectImage = async (filename: string) => {
-  const filenameInfo = path.parse(filename)
+  const { name } = path.parse(filename)
   const image = path.format({
-    ...filenameInfo,
+    name,
     dir: path.resolve('public/projects/'),
-    base: undefined,
     ext: '.png',
   })
   try {
@@ -214,16 +213,15 @@ const getProjectImage = async (filename: string) => {
 }
 
 const getProjectChangelog = async (filename: string) => {
-  const filenameInfo = path.parse(filename)
-  const image = path.format({
-    ...filenameInfo,
-    dir: path.resolve('public/projects/'),
-    base: undefined,
+  const { name, dir } = path.parse(filename)
+  const changelog = path.format({
+    name,
+    dir: path.resolve('public/projects/', path.basename(dir)),
     ext: '.md'
   })
   try {
-    await fs.access(image, fs.constants.R_OK)
-    return path.basename(image)
+    await fs.access(changelog, fs.constants.R_OK)
+    return path.join(path.basename(dir), path.basename(changelog))
   } catch (e) {
     return null
   }
