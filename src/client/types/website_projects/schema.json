@@ -24,6 +24,9 @@
           "$ref": "#/definitions/CardFace"
         }
       },
+      "required": [
+        "count"
+      ],
       "type": "object"
     },
     "CardFace": {
@@ -47,6 +50,14 @@
           "type": "number"
         }
       },
+      "required": [
+        "Exp",
+        "Height",
+        "ID",
+        "Name",
+        "SourceID",
+        "Width"
+      ],
       "type": "object"
     },
     "Option": {
@@ -61,6 +72,10 @@
           "type": "array"
         }
       },
+      "required": [
+        "name",
+        "parts"
+      ],
       "type": "object"
     },
     "Part": {
@@ -78,12 +93,19 @@
           "type": "string"
         }
       },
+      "required": [
+        "cards",
+        "name"
+      ],
       "type": "object"
     },
     "Project": {
       "properties": {
         "artist": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "authors": {
           "items": {
@@ -98,7 +120,10 @@
           "type": "array"
         },
         "cardsLink": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "code": {
           "type": "string"
@@ -113,7 +138,10 @@
           "type": "string"
         },
         "info": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "investigatorCount": {
           "type": "number"
@@ -150,15 +178,37 @@
           "type": "number"
         },
         "website": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         }
       },
+      "required": [
+        "authors",
+        "cards",
+        "code",
+        "created",
+        "description",
+        "hash",
+        "investigatorCount",
+        "name",
+        "projectId",
+        "scenarioCount",
+        "statuses",
+        "tags",
+        "updated",
+        "version"
+      ],
       "type": "object"
     },
     "Project_1": {
       "properties": {
         "artist": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "authors": {
           "items": {
@@ -167,7 +217,10 @@
           "type": "array"
         },
         "cardsLink": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "code": {
           "type": "string"
@@ -182,7 +235,10 @@
           "type": "string"
         },
         "info": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "investigatorCount": {
           "type": "number"
@@ -225,15 +281,37 @@
           "type": "number"
         },
         "website": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         }
       },
+      "required": [
+        "authors",
+        "code",
+        "created",
+        "description",
+        "hash",
+        "investigatorCount",
+        "name",
+        "parts",
+        "projectId",
+        "scenarioCount",
+        "statuses",
+        "tags",
+        "updated",
+        "version"
+      ],
       "type": "object"
     },
     "Project_2": {
       "properties": {
         "artist": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "authors": {
           "items": {
@@ -242,7 +320,10 @@
           "type": "array"
         },
         "cardsLink": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "code": {
           "type": "string"
@@ -257,7 +338,10 @@
           "type": "string"
         },
         "info": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "investigatorCount": {
           "type": "number"
@@ -300,9 +384,28 @@
           "type": "number"
         },
         "website": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         }
       },
+      "required": [
+        "authors",
+        "code",
+        "created",
+        "description",
+        "hash",
+        "investigatorCount",
+        "name",
+        "options",
+        "projectId",
+        "scenarioCount",
+        "statuses",
+        "tags",
+        "updated",
+        "version"
+      ],
       "type": "object"
     }
   }

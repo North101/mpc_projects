@@ -21,6 +21,9 @@
           "$ref": "#/definitions/CardFace"
         }
       },
+      "required": [
+        "count"
+      ],
       "type": "object"
     },
     "CardFace": {
@@ -44,6 +47,14 @@
           "type": "number"
         }
       },
+      "required": [
+        "Exp",
+        "Height",
+        "ID",
+        "Name",
+        "SourceID",
+        "Width"
+      ],
       "type": "object"
     },
     "Part": {
@@ -58,6 +69,10 @@
           "type": "string"
         }
       },
+      "required": [
+        "cards",
+        "name"
+      ],
       "type": "object"
     },
     "Project": {
@@ -76,6 +91,11 @@
           "type": "number"
         }
       },
+      "required": [
+        "cards",
+        "code",
+        "version"
+      ],
       "type": "object"
     },
     "Project_1": {
@@ -94,6 +114,11 @@
           "type": "number"
         }
       },
+      "required": [
+        "code",
+        "parts",
+        "version"
+      ],
       "type": "object"
     }
   }

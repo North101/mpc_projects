@@ -4,6 +4,14 @@ import { extname, resolve } from 'node:path'
 import * as TJS from "typescript-json-schema"
 import { PluginOption } from 'vite'
 
+const settings: TJS.PartialArgs = {
+  required: true,
+}
+
+const compilerOptions: TJS.CompilerOptions = {
+  strictNullChecks: true,
+}
+
 const sortedKeys = (key: string, value: unknown) => {
   if (value instanceof Object && !Array.isArray(value)) {
     return Object.keys(value)
@@ -21,9 +29,9 @@ const generateSchema = async (path: string) => {
     resolve(path, 'v[0-9]*.ts'),
     resolve(path, 'union.ts'),
   ])
-  const program = TJS.getProgramFromFiles(files, null, path)
+  const program = TJS.getProgramFromFiles(files, compilerOptions, path)
   const schema = {
-    ...TJS.generateSchema(program, 'ProjectUnion', undefined, files)
+    ...TJS.generateSchema(program, 'ProjectUnion', settings, files)
   }
   fs.writeFile(resolve(path, 'schema.json'), JSON.stringify(schema, sortedKeys, 2))
 }
