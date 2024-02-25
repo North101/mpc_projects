@@ -1,11 +1,12 @@
-import Ajv from 'ajv'
+import Ajv, { ValidateFunction } from 'ajv'
 
 import { ProjectUnion } from './union'
 
-const ajv = new Ajv()
+let validator: ValidateFunction<ProjectUnion> | null = null
+
 export const validate = async (data: string) => {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
-  const schema = await import('./schema.json')
-  return ajv.compile<ProjectUnion>(schema)(data)
+  validator ??= new Ajv().compile<ProjectUnion>(await import('./schema.json'))
+  return validator(data)
 }
