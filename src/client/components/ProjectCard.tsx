@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import { BoxArrowUpRight, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
+import { BoxArrowUpRight, CardList, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
 import Tooltip from 'react-bootstrap/esm/Tooltip'
 import { WebsiteProjects } from '../types'
 import { ProjectAuthors } from './ProjectAuthors'
+import { ProjectChangelogModal } from './ProjectChangelogModal'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
+import { ProjectLangs } from './ProjectLangs'
 import { ProjectStatuses } from './ProjectStatuses'
 import { ProjectTags } from './ProjectTags'
-import { ProjectLangs } from './ProjectLangs'
 
 interface ProjectTooltipProps {
   name: string
@@ -63,11 +64,17 @@ export const ProjectImage = ({ name, info }: ProjectTooltipProps) => {
   }
 }
 
-export const ProjectCard = ({ project }: ProjectCardProps) => {
-  const [show, setShow] = useState(false)
+enum ProjectShow {
+  download,
+  changelog,
+}
 
-  const onShow = () => setShow(true)
-  const onClose = () => setShow(false)
+export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const [show, setShow] = useState<ProjectShow | null>(null)
+
+  const onShowDownload = () => setShow(ProjectShow.download)
+  const onShowChangelog = () => setShow(ProjectShow.changelog)
+  const onClose = () => setShow(null)
 
   const count = project.options.flatMap(option => option.parts).filter((part) => {
     return part.enabled
@@ -86,12 +93,25 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               className='flex-fill align-self-center'>
               {project.name}
             </Card.Title>
+            {project.changelog && <Button
+              className='download'
+              variant='outline-primary'
+              size='sm'
+              aria-label={`changelog ${project.name}`}
+              onClick={onShowChangelog}
+            >
+              <CardList
+                className='icon-dl'
+                focusable='false'
+                aria-hidden='true'
+              />
+            </Button>}
             <Button
               className='download'
               variant='outline-primary'
               size='sm'
               aria-label={`download ${project.name}`}
-              onClick={onShow}
+              onClick={onShowDownload}
             >
               <CloudArrowDown
                 className='icon-dl'
@@ -127,14 +147,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             href={project.website}
           >
             Learn more
-            <BoxArrowUpRight/>
+            <BoxArrowUpRight />
           </Card.Link>}
           {project.cardsLink && <Card.Link
-              className="icon-link mt-auto"
-              href={project.cardsLink}
+            className="icon-link mt-auto"
+            href={project.cardsLink}
           >
             View the cards
-            <BoxArrowUpRight/>
+            <BoxArrowUpRight />
           </Card.Link>}
         </Card.Body>
         <Card.Footer>
@@ -143,7 +163,11 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           <ProjectTags tags={project.tags} />
         </Card.Footer>
       </Card>
-      {show && <ProjectDownloadModal
+      {show == ProjectShow.download && <ProjectDownloadModal
+        project={project}
+        onClose={onClose}
+      />}
+      {show == ProjectShow.changelog && <ProjectChangelogModal
         project={project}
         onClose={onClose}
       />}
