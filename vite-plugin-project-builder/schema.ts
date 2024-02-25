@@ -21,7 +21,7 @@ const generateSchema = async (path: string) => {
     resolve(path, 'v[0-9]*.ts'),
     resolve(path, 'union.ts'),
   ])
-  const program = TJS.getProgramFromFiles(files.toSorted(), null, path)
+  const program = TJS.getProgramFromFiles(files, null, path)
   const schema = {
     ...TJS.generateSchema(program, 'ProjectUnion', undefined, files)
   }
