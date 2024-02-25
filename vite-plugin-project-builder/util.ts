@@ -7,7 +7,7 @@ export const readJson = async (filename: string) => {
   try {
     return JSON.parse(await fs.readFile(filename, 'utf-8'))
   } catch (e) {
-    throw Error(`Failed to parse ${filename}`)
+    throw Error(`Failed to parse: ${filename}`)
   }
 }
 

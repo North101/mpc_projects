@@ -172,6 +172,7 @@ const getProjectImage = async (filename: string) => {
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
   const project = await parseProject(filename)
   if (project == null) {
+    console.error(`Failed to validate: ${filename}`)
     return null
   }
 
