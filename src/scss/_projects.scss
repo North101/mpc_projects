@@ -134,6 +134,16 @@ button.download {
   background-color: var(--bs-red) !important;
 }
 
+// Download modal
+.modal-dialog.download-options {
+  h5 {
+    font-family: $font-family-sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    // border-bottom: 1px solid #fff;
+  }
+}
+
 // Filters
 #filters:target {
   scroll-margin-top: 200px;
