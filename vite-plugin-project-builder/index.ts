@@ -11,34 +11,32 @@ interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   image: string | null
 }
 
-const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => {
-  return {
-    filename: e.filename,
-    name: e.name,
-    description: e.description,
-    artist: e.artist ?? null,
-    info: e.info ?? null,
-    image: e.image,
-    website: e.website ?? null,
-    cardsLink: e.cardsLink ?? null,
-    scenarioCount: e.scenarioCount ?? 0,
-    investigatorCount: e.investigatorCount ?? 0,
-    authors: e.authors,
-    statuses: e.statuses,
-    tags: e.tags,
-    lang: e.filename.split('/')[0],
-    created: e.created,
-    updated: e.updated,
-    options: e.options.map(({ name, parts }) => ({
+const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
+  filename: e.filename,
+  name: e.name,
+  description: e.description,
+  artist: e.artist ?? null,
+  info: e.info ?? null,
+  image: e.image,
+  website: e.website ?? null,
+  cardsLink: e.cardsLink ?? null,
+  scenarioCount: e.scenarioCount ?? 0,
+  investigatorCount: e.investigatorCount ?? 0,
+  authors: e.authors,
+  statuses: e.statuses,
+  tags: e.tags,
+  lang: e.filename.split('/')[0],
+  created: e.created,
+  updated: e.updated,
+  options: e.options.map(({ name, parts }) => ({
+    name,
+    parts: parts.map(({ name, enabled, cards }) => ({
       name,
-      parts: parts.map(({ name, enabled, cards }) => ({
-        name,
-        count: cards.reduce((count, cards) => count + cards.count, 0),
-        enabled: enabled ?? true,
-      }))
-    })),
-  }
-}
+      count: cards.reduce((count, cards) => count + cards.count, 0),
+      enabled: enabled ?? true,
+    }))
+  })),
+})
 
 const mapProjectData = ({ options }: ProjectWithFilename): WebsiteProjects.Data => ({
   options: options.flatMap(({ name, parts }) => ({
@@ -102,7 +100,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
 }
 
 const convertExtensionProject = (filename: string, project: ExtensionProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
-  const name = basename(filename)
+  const { name } = path.parse(filename)
   if (project.version == 1) {
     const { code, cards } = project
     return {
