@@ -6,6 +6,7 @@ export * as V1 from './v1'
 export * as V2 from './v2'
 export * as V3 from './v3'
 export * as V4 from './v4'
+export { validate } from './validate'
 
 export interface Info {
   filename: string
@@ -36,9 +37,4 @@ export interface Info {
 
 export interface Data {
   options: V4.Option[]
-}
-
-export const validate = async () => {
-  const { validate } = await import('./validate')
-  return validate
 }

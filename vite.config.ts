@@ -14,10 +14,6 @@ export default defineConfig({
     projectsBuilder({
       projectsDir: path.join('projects'),
       projectsFilename: 'projects.json',
-      schemaPaths: [
-        './vite-plugin-project-builder/types/extension_projects',
-        './vite-plugin-project-builder/types/website_projects',
-      ],
     }),
   ],
 })

@@ -1,9 +1,8 @@
 import envVar from 'env-var'
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
-import path, { basename, dirname, extname, relative, resolve } from 'node:path'
+import path, { basename, dirname, relative, resolve } from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
-import { generateSchema } from './schema'
 import { ExtensionProjects, WebsiteProjects } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
 
@@ -187,18 +186,12 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   throw new Error(project)
 }
 
-interface ParseProjectProps {
-  filename: string
-  websiteValidate: (data: unknown) => data is WebsiteProjects.ProjectUnion
-  extensionValidate: (data: unknown) => data is ExtensionProjects.ProjectUnion
-}
-
-const parseProject = async (props: ParseProjectProps): Promise<WebsiteProjects.Latest.Project | null> => {
-  const project = await readJson(props.filename)
-  if (props.websiteValidate(project)) {
+const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Project | null> => {
+  const project = await readJson(filename)
+  if (WebsiteProjects.validate(project)) {
     return convertWebsiteProject(project)
-  } else if (props.extensionValidate(project)) {
-    return convertExtensionProject(props.filename, project)
+  } else if (ExtensionProjects.validate(project)) {
+    return convertExtensionProject(filename, project)
   }
   return null
 }
@@ -219,17 +212,8 @@ const getProjectImage = async (filename: string) => {
   }
 }
 
-interface ReadProjectProps {
-  projectsDir: string
-  filename: string
-  updateProject: boolean
-  websiteValidate: (data: unknown) => data is WebsiteProjects.ProjectUnion
-  extensionValidate: (data: unknown) => data is ExtensionProjects.ProjectUnion
-}
-
-const readProject = async (props: ReadProjectProps): Promise<ProjectWithFilename | null> => {
-  const { projectsDir, filename, updateProject, websiteValidate, extensionValidate } = props
-  const project = await parseProject({ filename, websiteValidate, extensionValidate })
+const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
+  const project = await parseProject(filename)
   if (project == null) {
     console.error(`Failed to validate: ${filename}`)
     return null
@@ -249,30 +233,20 @@ const readProject = async (props: ReadProjectProps): Promise<ProjectWithFilename
 }
 
 const readProjectList = async (projectsDir: string, updateProject: boolean) => {
-  const websiteValidate = await WebsiteProjects.validate()
-  const extensionValidate = await ExtensionProjects.validate()
   const allProjects = await glob(resolve(projectsDir, '*/*.json'))
   return await Promise
-    .all(allProjects.map((filename) => readProject({
-      projectsDir,
-      filename,
-      updateProject,
-      websiteValidate,
-      extensionValidate,
-    })))
+    .all(allProjects.map((filename) => readProject(projectsDir, filename, updateProject)))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
 }
 
 interface ProjectsBuilderOptions {
-  schemaPaths: string[]
   projectsDir: string
   projectsFilename: string
 }
 
-export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: ProjectsBuilderOptions): PluginOption => {
+export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
-  const updateProject = envVar.get('UPDATE_PROJECTS').default('true').asBool()
-  schemaPaths = schemaPaths.map(path => resolve(path))
+  const updateProject = envVar.get('UPDATE_PROJECTS').default('false').asBool()
 
   return {
     name: 'vite-plugin-build-projects',
@@ -280,10 +254,6 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
       viteConfig = resolvedConfig
     },
     async writeBundle() {
-      for (const path of schemaPaths) {
-        await generateSchema(path)
-      }
-
       const outDir = viteConfig.build.outDir
       const projectList = await readProjectList(projectsDir, updateProject)
       // write projects.json
@@ -330,15 +300,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
           // /projects/*.json
           if (req.url.endsWith('.json')) {
             const filename = path.resolve(projectsDir, path.resolve(decodeURI(req.url).substring(1)))
-            const websiteValidate = await WebsiteProjects.validate()
-            const extensionValidate = await ExtensionProjects.validate()
-            const project = await readProject({
-              projectsDir,
-              filename,
-              updateProject,
-              websiteValidate,
-              extensionValidate,
-            })
+            const project = await readProject(projectsDir, filename, updateProject)
             if (project == undefined) return next()
 
             return res.writeHead(200, {
@@ -350,11 +312,6 @@ export const projectsBuilder = ({ projectsDir, projectsFilename, schemaPaths }: 
       })
     },
     handleHotUpdate: async ({ file, server }) => {
-      for (const path of schemaPaths) {
-        if (file.startsWith(path) && extname(file) == '.ts') {
-          await generateSchema(path)
-        }
-      }
       if (isProjectFile(projectsDir, relative(viteConfig.envDir, file))) {
         console.log(`Project changed: ${file}. Reloading`)
         server.hot.send({

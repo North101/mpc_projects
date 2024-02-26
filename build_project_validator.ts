@@ -14,7 +14,7 @@ const compilerOptions: TJS.CompilerOptions = {
   strictNullChecks: true,
 }
 
-export const generateSchema = async (path: string) => {
+export const buildProjectValidate = async (path: string) => {
   const files = await glob([
     resolve(path, 'v[0-9]*.ts'),
     resolve(path, 'union.ts'),
@@ -32,4 +32,13 @@ export const generateSchema = async (path: string) => {
     validate: '#',
   })
   fs.writeFile(resolve(path, 'validate.js'), moduleCode)
+}
+
+
+const paths = [
+  './vite-plugin-project-builder/types/extension_projects',
+  './vite-plugin-project-builder/types/website_projects',
+]
+for (const path of paths) {
+  await buildProjectValidate(path)
 }
