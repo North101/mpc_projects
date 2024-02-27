@@ -1,8 +1,10 @@
 import Ajv, { SchemaObject } from 'ajv'
 import standaloneCode from 'ajv/dist/standalone'
+import { program } from 'commander'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import TJS from 'typescript-json-schema'
+
 
 const settings: TJS.PartialArgs = {
   required: true,
@@ -58,33 +60,35 @@ const toTypeDefinition = (filename: string) => {
 interface WriteSchemaValidator {
   filename: string
   schema: SchemaResult
-  name: string
+  ref: string
 }
 
-const writeSchemaValidator = async ({ filename, schema, name }: WriteSchemaValidator) => {
+const writeSchemaValidator = async ({ filename, schema, ref }: WriteSchemaValidator) => {
   const ajv = new Ajv({
     schemas: [schema.schema],
     code: { source: true, esm: true },
   })
   const moduleCode = standaloneCode(ajv, {
-    [name]: '#',
+    [ref]: '#',
   })
+  await fs.mkdir(path.dirname(filename), { recursive: true })
   await fs.writeFile(
     filename,
     moduleCode,
   )
-  await writeSchemaValidatorDef({
+  await writeSchemaValidatorType({
     filename,
     schema,
-    name,
+    ref: ref,
   })
 }
 
-const writeSchemaValidatorDef = async ({ filename, schema, name }: WriteSchemaValidator) => {
+const writeSchemaValidatorType = async ({ filename, schema, ref: name }: WriteSchemaValidator) => {
+  const dir = path.relative(path.dirname(filename), path.dirname(schema.filename))
   await fs.writeFile(
     toTypeDefinition(filename),
     [
-      `import { ${schema.type} } from './${path.relative(path.dirname(filename), schema.filename)}'`,
+      `import { ${schema.type} } from '${dir.startsWith('..') ? '' : './'}${dir ? `${dir}/` : ''}${path.basename(schema.filename)}'`,
       ``,
       `export declare function ${name}(data: unknown): data is ${schema.type};`,
       ``,
@@ -92,25 +96,32 @@ const writeSchemaValidatorDef = async ({ filename, schema, name }: WriteSchemaVa
   )
 }
 
-const typesPaths = {
-  extension: 'vite-plugin-project-builder/types/extension_projects',
-  website: 'vite-plugin-project-builder/types/website_projects',
-}
-for (const typePath of Object.values(typesPaths)) {
-  await writeSchemaValidator({
-    schema: await buildSchema({
-      filename: path.resolve(typePath, 'union.ts'),
-      type: 'ProjectUnion',
-    }),
-    filename: path.resolve(typePath, 'validate.js'),
-    name: 'validate',
-  })
-}
+program
+  .name('build_json_schema')
 
-await writeSchemaJson({
-  schema: await buildSchema({
-    filename: path.resolve(typesPaths.website, 'latest.ts'),
-    type: 'Project',
-  }),
-  filename: path.resolve('projects.schema.json'),
-})
+program
+  .command('validator <input> <type> <output> <ref>')
+  .action(async (input, type, output, ref) => {
+    await writeSchemaValidator({
+      schema: await buildSchema({
+        filename: path.resolve(input),
+        type: type,
+      }),
+      filename: path.resolve(output),
+      ref: ref,
+    })
+  })
+
+program
+  .command('json <input> <type> <output>')
+  .action(async (input, type, output) => {
+    await writeSchemaJson({
+      schema: await buildSchema({
+        filename: path.resolve(input),
+        type: type,
+      }),
+      filename: path.resolve(output),
+    })
+  })
+
+program.parse()
