@@ -1,7 +1,7 @@
-import Ajv, { Schema } from 'ajv'
+import Ajv, { SchemaObject } from 'ajv'
 import standaloneCode from 'ajv/dist/standalone'
 import fs from 'node:fs/promises'
-import { resolve } from 'node:path'
+import path from 'node:path'
 import TJS from 'typescript-json-schema'
 
 const settings: TJS.PartialArgs = {
@@ -21,44 +21,96 @@ const sortObjectKeys = (key: string, value: unknown) => {
   }, {})
 }
 
-const buildSchema = async (path: string, type: string): Promise<Schema> => {
+interface BuildSchema {
+  filename: string
+  type: string
+}
+
+interface SchemaResult extends BuildSchema {
+  schema: SchemaObject
+}
+
+const buildSchema = async ({ filename, type }: BuildSchema): Promise<SchemaResult> => {
   const files = [
-    path,
+    filename,
   ]
-  const program = TJS.getProgramFromFiles(files, compilerOptions, path)
+  const program = TJS.getProgramFromFiles(files, compilerOptions, filename)
   return {
-    ...TJS.generateSchema(program, type, settings, files),
+    filename,
+    type,
+    schema: TJS.generateSchema(program, type, settings, files)!,
   }
 }
 
-const writeSchemaJson = async ({ filename, schema }: { filename: string, schema: Schema }) => {
-  return fs.writeFile(filename, JSON.stringify(schema, sortObjectKeys, 2))
+const writeSchemaJson = async ({ filename, schema }: { filename: string, schema: SchemaResult }) => {
+  return fs.writeFile(filename, JSON.stringify(schema.schema, sortObjectKeys, 2))
 }
 
-const writeSchemaValidator = async ({ filename, schema }: { filename: string, schema: Schema }) => {
+const toTypeDefinition = (filename: string) => {
+  const parts = path.parse(filename)
+  return path.format({
+    ...parts,
+    base: undefined,
+    ext: 'd.ts',
+  })
+}
+
+interface WriteSchemaValidator {
+  filename: string
+  schema: SchemaResult
+  name: string
+}
+
+const writeSchemaValidator = async ({ filename, schema, name }: WriteSchemaValidator) => {
   const ajv = new Ajv({
-    schemas: [schema],
+    schemas: [schema.schema],
     code: { source: true, esm: true },
   })
   const moduleCode = standaloneCode(ajv, {
-    validate: '#',
+    [name]: '#',
   })
-  return fs.writeFile(filename, moduleCode)
+  await fs.writeFile(
+    filename,
+    moduleCode,
+  )
+  await writeSchemaValidatorDef({
+    filename,
+    schema,
+    name,
+  })
 }
 
-const typesPath = 'vite-plugin-project-builder/types'
-const paths = [
-  'extension_projects',
-  'website_projects',
-]
-for (const path of paths) {
+const writeSchemaValidatorDef = async ({ filename, schema, name }: WriteSchemaValidator) => {
+  await fs.writeFile(
+    toTypeDefinition(filename),
+    [
+      `import { ${schema.type} } from './${path.relative(path.dirname(filename), schema.filename)}'`,
+      ``,
+      `export declare function ${name}(data: unknown): data is ${schema.type};`,
+      ``,
+    ].join('\n'),
+  )
+}
+
+const typesPaths = {
+  extension: 'vite-plugin-project-builder/types/extension_projects',
+  website: 'vite-plugin-project-builder/types/website_projects',
+}
+for (const typePath of Object.values(typesPaths)) {
   await writeSchemaValidator({
-    schema: await buildSchema(resolve(typesPath, path, 'union.ts'), 'ProjectUnion'),
-    filename: resolve(typesPath, path, 'validate.js'),
+    schema: await buildSchema({
+      filename: path.resolve(typePath, 'union.ts'),
+      type: 'ProjectUnion',
+    }),
+    filename: path.resolve(typePath, 'validate.js'),
+    name: 'validate',
   })
 }
 
 await writeSchemaJson({
-  schema: await buildSchema(resolve(typesPath, 'website_projects', 'latest.ts'), 'Project'),
-  filename: resolve('projects.schema.json'),
+  schema: await buildSchema({
+    filename: path.resolve(typesPaths.website, 'latest.ts'),
+    type: 'Project',
+  }),
+  filename: path.resolve('projects.schema.json'),
 })
