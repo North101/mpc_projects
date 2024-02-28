@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "F98F0551A1257999A8AB39AA59D3A9D4F5EC635261BEFBDB859461DEF6299EA5D8B2B294DB332219",
     "86710D028BCEA79BC494B4E58D4BAA39F9EEFA83BBA92D2C56B0AE8CC83C50F7202DD9BFB8518BAE",
@@ -28,10 +29,6 @@
     "Player Cards",
     "Taboo & Errata"
   ],
-  "created": "2019-04-23T11:42:26.679Z",
-  "updated": "2024-02-243T16:05:01.868Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Taboo 2.2, Feb 2024",
@@ -1331,7 +1328,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 2.1 Only",
@@ -1432,7 +1430,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Mutations Only",
@@ -2445,7 +2444,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "New/Changed Mutations Only",
@@ -2490,7 +2490,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -3698,7 +3699,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 2.0 Only",
@@ -4084,7 +4086,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Mutations Only",
@@ -5059,7 +5062,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "New/Changed Mutations Only",
@@ -5350,7 +5354,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -6311,7 +6316,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 1.9 Only",
@@ -6716,7 +6722,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -7335,7 +7342,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 1.8 Only",
@@ -7493,7 +7501,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -8017,7 +8026,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 1.7 Only",
@@ -8365,7 +8375,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -8680,7 +8691,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Changes from 1.5 Only",
@@ -8743,7 +8755,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     },
@@ -9001,10 +9014,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "75217f20d7b624d924d54aeca4d0292f0152f894a6803a91e16b612c772d31ce"
+  "created": "2019-04-23T11:42:26.679Z",
+  "updated": "2024-02-243T16:05:01.868Z",
+  "hash": "1fd6ac0a102f0fc8b44d76ca987a3944af9a73214644ac6c28bf80db3a6c5537"
 }

@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "B226CE330A6514570353458C1DB95BF3A8166440BDCC03C2B9E9FC7EFA6650F5D7DC159A3DD8AB54",
     "1E23A6C43FD8DF62F1F645E0BDCC4233BB6F4F78535B366FD37B48555A515F6248809D0AD155D0CA",
@@ -28,10 +29,6 @@
     "Player Cards",
     "Return to"
   ],
-  "created": "2023-07-06T04:45:26.680Z",
-  "updated": "2023-09-21T18:46:41.519Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Return to the Innsmouth Conspiracy (Unofficial)",
@@ -362,7 +359,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Return to Innsmouth Encounter Cards",
@@ -1317,10 +1315,13 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "84d71e76267d45ce38d06a60eaa8da48257b9b645cb90bb878d7d5d84ce19728"
+  "created": "2023-07-06T04:45:26.680Z",
+  "updated": "2023-09-21T18:46:41.519Z",
+  "hash": "00116085ac2dbb47ab81fdd093485e220bb20e4f6fe8558e130e4a3f8fc4dca5"
 }

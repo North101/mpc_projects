@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "F965FDF0A4B4A726D234591B93535ECB615A78FBD5F53184F7ACE38A9EAB4AD91E5ECB064D7FC013",
     "B9BF84C5044471F759C2689FC6F438D03065F4478FE04FD381A102436284C77B082A478F1A74DF48",
@@ -22,10 +23,6 @@
     "Alt-Art",
     "Player Cards"
   ],
-  "created": "2023-11-29T04:45:26.681Z",
-  "updated": "2023-12-02T15:36:51.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Alt-Art Permanents",
@@ -204,10 +201,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "26f70d0c32cb9fed0310100adea3dcc959d03d7c8c2907af5eb73b33536095df"
+  "created": "2023-11-29T04:45:26.681Z",
+  "updated": "2023-12-02T15:36:51.466Z",
+  "hash": "094edb03398ac626119f203a2310e1fcbfc68a9d4c2acb8c8a37c652d952d370"
 }

@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "D22DFB433412A4A29494724B6294CA30D1B50BE48979D6F7375D0EE0B9C65D9462DF8B23D2D34DD3"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2021-06-21T04:45:26.701Z",
-  "updated": "2023-08-13T20:43:40.206Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "The Crown of Egil",
@@ -2653,10 +2650,13 @@
                 "Height": 1123
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "08ccd50999071cd0fd39f67b554efae1e0ef660d987114df44b847ab61d4efc3"
+  "created": "2021-06-21T04:45:26.701Z",
+  "updated": "2023-08-13T20:43:40.206Z",
+  "hash": "af4d127836982ec81c0d5fec40fc9166b93001375f2517e63da9a4dbc6c50013"
 }

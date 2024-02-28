@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Standalone"
   ],
-  "created": "2022-09-20T04:45:26.680Z",
-  "updated": "2023-09-24T02:26:03.775Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "The Black Stone",
@@ -1342,10 +1339,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "0667a6b9438787ae0264a171add88c442b45077f05409eb90aa655a4b5904435"
+  "created": "2022-09-20T04:45:26.680Z",
+  "updated": "2023-09-24T02:26:03.775Z",
+  "hash": "5760871a46dad897e4e762c4abe2c41efb1605776138bcd75d202297c45ca47f"
 }

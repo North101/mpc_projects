@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "C90EFBDBBBD685ECC12E9119BED385F834E44173B0EDDA1947CC2B0E5FBEB6490E98BE7052F20730",
     "41631F0499E28F908EDEE746C6E767F0597AB30AFA37B1651AAAB70B7F4FFDA3ED63E327041110D9",
@@ -24,10 +25,6 @@
     "Investigator(s)",
     "Campaign"
   ],
-  "created": "2020-08-07T04:45:26.680Z",
-  "updated": "2023-09-29T21:58:11.876Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Pokemon Eldritch Edition",
@@ -3721,7 +3718,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Pokemon Eldritch Campaign",
@@ -7735,7 +7733,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Pokemon Eldritch Single Project",
@@ -15360,10 +15359,13 @@
                 "Height": 2250
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "7e2dde25401a09421cdd36f0d0980ae83a39bf782a57c43f4bc9ee1495a2901e"
+  "created": "2020-08-07T04:45:26.680Z",
+  "updated": "2023-09-29T21:58:11.876Z",
+  "hash": "9b284f86ec634697b866d4aff60cb0f5e8d54cb375b7d6e00e86bad8d441f789"
 }

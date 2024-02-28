@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "A7D2555D6D25450B4D9908C521CBE2DD131AC85C1D8EDFC077C5734ACC4A7825CED202AB40230E27"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2022-08-06T04:45:26.694Z",
-  "updated": "2023-08-13T20:43:40.206Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Cyclopean Foundations",
@@ -5807,10 +5804,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "b1914b4afa6fac3e4e1634bf683d848aea9d73b8908789357e0b80bf3183cb79"
+  "created": "2022-08-06T04:45:26.694Z",
+  "updated": "2023-08-13T20:43:40.206Z",
+  "hash": "bf3d14bd338ff08e138c3f1b9e3b5bd0aa0c331126fc26d5a4fd1d182a90bd24"
 }

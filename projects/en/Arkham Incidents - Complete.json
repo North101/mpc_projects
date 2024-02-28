@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "BBC801D90E974E1222AB25C1A6EE2DA54790B7141EA5769657E7788EC8D34F16D06C51B26D7C736C"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Standalone"
   ],
-  "created": "2022-12-31T04:45:26.696Z",
-  "updated": "2023-09-09T15:18:15.668Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Arkham Incidents",
@@ -810,7 +807,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Something Big — Dr. William T. Maleson",
@@ -1594,7 +1592,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Unscrupulous Investments — Dario El-Amin",
@@ -2397,7 +2396,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Anything Once — Olive McBride",
@@ -3200,7 +3200,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Mysterious Benefits — Madame Labranche",
@@ -4022,10 +4023,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "79739a89aaea2ea61a2609808fa22d64a34741b3ba71c0a2acf67793657039ea"
+  "created": "2022-12-31T04:45:26.696Z",
+  "updated": "2023-09-09T15:18:15.668Z",
+  "hash": "883c6123e7e259e888bd6f0641959960548e7f7873bc392b25e91678b7efaa1c"
 }

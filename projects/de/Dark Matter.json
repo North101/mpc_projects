@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "C8BE31D3057E6472CF63211920E5E7DED14CF3C45C31CA6ECBA82B30D19BB9772153797937FB3DC3"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2021-10-21T04:45:26.689Z",
-  "updated": "2023-12-20T15:59:51.471Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Dunkle Materie",
@@ -5351,10 +5348,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "413ac3f12ca8dc0853a4f77203567da903a3dd852cd397fd3cfd811f3de992f3"
+  "created": "2021-10-21T04:45:26.689Z",
+  "updated": "2023-12-20T15:59:51.471Z",
+  "hash": "3ac0ff14725fc293272d8f8496360286d13b861d9beaf11ea4f560c37d57e5a2"
 }

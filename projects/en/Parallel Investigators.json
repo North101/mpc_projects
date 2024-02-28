@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "B8A79C0D599053412E6D29828DD4C9389E754B16608C52CC4AA095BFE26DB3BA279C09B5DA3CEAC6",
     "2772015665F9119BEB59A778FCF39B3A7EC2CAB58EEE66543A1622C40C138C80252A97735527CF1D",
@@ -31,10 +32,6 @@
     "Standalone",
     "Rework"
   ],
-  "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-01-05T02:50:35.085Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Parallel Investigators",
@@ -99,7 +96,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Daisy Walker (Revised Core Art)",
@@ -162,7 +160,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Read or Die (scenario for Parallel Daisy)",
@@ -243,7 +242,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel \"Skids\" O'Toole (Original Art)",
@@ -305,7 +305,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel \"Skids\" O'Toole (Revised Core Art)",
@@ -368,7 +369,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "All or Nothing (scenario for Parallel Skids)",
@@ -487,7 +489,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Agnes Baker (Original Art)",
@@ -549,7 +552,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Agnes Baker (Revised Core Art)",
@@ -612,7 +616,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Bad Blood (scenario for Parallel Agnes)",
@@ -693,7 +698,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Roland Banks (Original Art)",
@@ -850,7 +856,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Roland Banks (Revised Core Art)",
@@ -1008,7 +1015,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "By the Book (scenario for Parallel Roland)",
@@ -1108,7 +1116,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Wendy Adams (Original Art)",
@@ -1189,7 +1198,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Wendy Adams (Revised Core Art)",
@@ -1271,7 +1281,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Wendy Adams (Hard Knocks Art)",
@@ -1296,7 +1307,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Red Tide Rising (scenario for Parallel Wendy)",
@@ -1396,7 +1408,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel \"Ashcan\" Pete",
@@ -1458,7 +1471,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Jim Culver",
@@ -1558,7 +1572,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Laid to Rest (scenario for Parallel Jim)",
@@ -1715,7 +1730,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Zoey Samaras",
@@ -1777,7 +1793,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Monterey Jack",
@@ -1839,7 +1856,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Relics of the Past (scenario for Parallel Monterey)",
@@ -2091,10 +2109,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "f4b8943951df4cf7873bbbdb52c93d6a5743fada7eca32cb93a873db1fa7f614"
+  "created": "2020-05-05T04:45:26.681Z",
+  "updated": "2024-01-05T02:50:35.085Z",
+  "hash": "977eaa64f9db5571eaee69d4e3eaae5aa924b141862d4c5f03f2651c05957d5f"
 }

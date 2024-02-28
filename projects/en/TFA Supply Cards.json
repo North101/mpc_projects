@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "27E9DD66F2F423F7499754954A5EC3C823DDE6282C9D95A26ED7FF590B08164E4809292CCEBDB004"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Add-On"
   ],
-  "created": "2023-11-25T04:45:26.684Z",
-  "updated": "2023-11-27T03:53:33.068Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "TFA Supply Cards",
@@ -298,7 +295,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "RTTFA Standard-Sized Supply Cards",
@@ -361,10 +359,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "92b255e39de4ccc90d77bbc59671e7919b6a25c7a78d1cb40353a1cdb4546348"
+  "created": "2023-11-25T04:45:26.684Z",
+  "updated": "2023-11-27T03:53:33.068Z",
+  "hash": "e681a3ebe2eb30b0d56ccd251b965ab390a20b7a895763b555b6840b73d2a9f4"
 }

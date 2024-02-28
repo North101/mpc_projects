@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "DCE36FD5F6ABF2F71898D83A43433758C7727D88861118D010F145DAE523BF9B05D7104BF2461162"
   ],
@@ -21,10 +22,6 @@
     "Standalone",
     "Investigator(s)"
   ],
-  "created": "2018-07-11T14:39:00.687Z",
-  "updated": "2023-09-21T14:39:00.687Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Against the Wendigo",
@@ -1400,10 +1397,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "99f46019867bb335ebc3f7239a2a7f2f8736aaacd33b962648f1f5aaa407d34c"
+  "created": "2018-07-11T14:39:00.687Z",
+  "updated": "2023-09-21T14:39:00.687Z",
+  "hash": "8c151888e9550d3def5415c5bffed6e15da4a1edf274e6eb9e0b38f0a93f4969"
 }

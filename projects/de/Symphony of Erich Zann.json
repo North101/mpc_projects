@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18"
   ],
@@ -21,10 +22,6 @@
     "Standalone",
     "Investigator(s)"
   ],
-  "created": "2020-04-20T04:45:26.680Z",
-  "updated": "2023-12-20T12:13:01.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Die Sinfonie des Erich Zann",
@@ -963,10 +960,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "b7d118ada1e3b3d4ec67c83d4405bab9ef61ea2a6da2f9866064febcb51c6c97"
+  "created": "2020-04-20T04:45:26.680Z",
+  "updated": "2023-12-20T12:13:01.466Z",
+  "hash": "ab6007cb78261dd2d6c2ae4fd2a13e2734b091be3dd73922807d89878314e38a"
 }

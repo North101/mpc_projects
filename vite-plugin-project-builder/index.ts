@@ -264,6 +264,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
       // update project files
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
         await writeJson<WebsiteProjects.Latest.Project>(resolve(projectsDir, filename), {
+          version: project.version,
           projectId: project.projectId,
           name: project.name,
           description: project.description,
@@ -276,10 +277,9 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
           authors: project.authors,
           statuses: project.statuses,
           tags: project.tags,
+          options: project.options,
           created: project.created,
           updated: project.updated,
-          version: project.version,
-          options: project.options,
           hash: project.hash,
         }, 2)
       }))

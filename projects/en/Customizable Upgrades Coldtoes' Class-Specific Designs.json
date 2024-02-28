@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "4C5F3184E5AF2C5E9625FC346B40774FEF4BF7BA20C458CD5E853491320BF9B33BABF4D42DBB6897"
   ],
@@ -22,10 +23,6 @@
     "Alt-Art",
     "Add-On"
   ],
-  "created": "2022-04-12T04:45:26.693Z",
-  "updated": "2023-11-27T03:53:33.088Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Customizable Upgrade Cards",
@@ -337,7 +334,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Customizable Upgrades, Taboo 2.1",
@@ -381,10 +379,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "e50e88910a01454235ebb685a44160f17f68cfac0316ba5ee924a79afd1545aa"
+  "created": "2022-04-12T04:45:26.693Z",
+  "updated": "2023-11-27T03:53:33.088Z",
+  "hash": "41f59c2cf00629d644ba45327525d7f7c2b58e3d0bd7e6cff7a0f94e30366cd9"
 }

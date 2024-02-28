@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "E722269A5F9ABCF7004DFE598A13A6415A603BCEC8F2A51402366191A4DEF8B71BEC90D2049E6268",
     "3AB0BC9319BDC0CF0E37EC4BB40DF815BF6581157468BEAA3E8B3997AD50813D8773586DE1D55F07"
@@ -21,10 +22,6 @@
   "tags": [
     "Standalone"
   ],
-  "created": "2021-03-21T04:45:26.684Z",
-  "updated": "2023-12-20T12:10:51.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Die Legende von Sleepy Hollow",
@@ -659,10 +656,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "9970acb9d494ac56ba244af0cdfbe9c521537568ae16723a51b9b07c835b0276"
+  "created": "2021-03-21T04:45:26.684Z",
+  "updated": "2023-12-20T12:10:51.466Z",
+  "hash": "ecb6456ad1c61f711dbc32676191b2e87dd698a7bad3156f5a4b50116983e74d"
 }

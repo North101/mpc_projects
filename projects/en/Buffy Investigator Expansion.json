@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40",
     "27DD840F06858C86E01702B6CC47F3AE71E19A99FB620C624F6A754DD031685C7BC5FAC89C760839"
@@ -22,10 +23,6 @@
     "Investigator(s)",
     "Player Cards"
   ],
-  "created": "2023-06-10T15:11:28.754Z",
-  "updated": "2023-09-20T19:14:40.655Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Buffy the Vampire Slayer",
@@ -1781,7 +1778,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Buffy minis with crop marks",
@@ -1900,10 +1898,13 @@
                 "Height": 1198
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "43cb61225eb6a712c701e974d77f1f7db7993d7d784fee43a45f31683368fd58"
+  "created": "2023-06-10T15:11:28.754Z",
+  "updated": "2023-09-20T19:14:40.655Z",
+  "hash": "1c3af341ecbca48bd31dfbd3b1981852bc2b323cfecea7928e4373f8d1c2523f"
 }
