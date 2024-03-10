@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "F6C5C6098C3C42AC255E221E7A3A351C63E0BAACF051D50076FB9D7B6C3D766A799328B797477DAC",
     "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85",
@@ -26,10 +27,6 @@
     "Investigator(s)",
     "Player Cards"
   ],
-  "created": "2021-06-07T15:18:15.658Z",
-  "updated": "2023-09-29T21:58:11.900Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Artifact Expansion",
@@ -1519,7 +1516,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Artifact Investigators",
@@ -2455,7 +2453,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Artifact Minis with Crop Marks",
@@ -2669,7 +2668,8 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Artifact Investigator Minicard-Sized Minis",
@@ -2884,7 +2884,8 @@
                 "Height": 826
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Artifact Player Cards",
@@ -4751,10 +4752,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "59f08102dc348fc8e793f2e0f670e3364a30c57e635dbaeed1ef20aaed51e769"
+  "created": "2021-06-07T15:18:15.658Z",
+  "updated": "2023-09-29T21:58:11.900Z",
+  "hash": "72d2abfe6bc8c3900e32d098d87c0028ced1cc7595b7b4685a5cb1a6c7f403d3"
 }

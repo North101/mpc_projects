@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "F4EF1CD5A180B31820D2624478A4A964DF4571184A7D93BB16ECB1BFB217CF7DE5AE343008933533",
     "63EDFD8C19FE179957486FB6C2E8E84E264F8B90D0DCABFF33F63E52BEA15564AE629C667DF7D8BE",
@@ -26,10 +27,6 @@
     "Campaign",
     "Investigator(s)"
   ],
-  "created": "2023-08-08T04:45:26.687Z",
-  "updated": "2023-11-18T21:21:08.852Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Heart of Darkness",
@@ -3989,7 +3986,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Julian Herbert mini with crop marks",
@@ -4013,10 +4011,13 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "634a313bfdf7327b52c5ddb8414d275be19346178f373e44491697f262f10fc3"
+  "created": "2023-08-08T04:45:26.687Z",
+  "updated": "2023-11-18T21:21:08.852Z",
+  "hash": "545b8f49a93e24d90d070d322301ad7d2a13fde194850d4fd7a24c69ec651137"
 }

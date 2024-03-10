@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2022-07-11T04:45:26.699Z",
-  "updated": "2023-08-13T20:43:40.208Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Celtic Rising",
@@ -8315,10 +8312,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "06523eb9c79df421ceff96758c574e8dae0cc60892a56a24ec11f6ec249928e6"
+  "created": "2022-07-11T04:45:26.699Z",
+  "updated": "2023-08-13T20:43:40.208Z",
+  "hash": "078d3dea76dd1f432413a71d72e91b864f61703132a104d5f52bdbb3b991ff8b"
 }

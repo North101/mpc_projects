@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "2ED0921F7DA5592D3F187DA266792FD97432014DD240C9E2EEE770C61EFAFF896F861752E202CB93"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Investigator(s)"
   ],
-  "created": "2020-08-20T23:11:28.754Z",
-  "updated": "2023-12-02T15:41:24.434Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Arabella Freeman",
@@ -107,10 +104,13 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "a2f6d07236ab71411842cf4ca76d2093df683828e6bcddf79d2cc2065a784fa9"
+  "created": "2020-08-20T23:11:28.754Z",
+  "updated": "2023-12-02T15:41:24.434Z",
+  "hash": "7250bcbc46354b70a27079a6e912bdee854217bc2e21a319985f237262bb98ed"
 }

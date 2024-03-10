@@ -4,7 +4,11 @@ import path from 'node:path'
 
 
 export const readJson = async (filename: string) => {
-  return JSON.parse(await fs.readFile(filename, 'utf-8'))
+  try {
+    return JSON.parse(await fs.readFile(filename, 'utf-8'))
+  } catch (e) {
+    throw Error(`Failed to parse: ${filename}`)
+  }
 }
 
 export const writeJson = async <T>(filename: string, value: T, indent?: number) => {

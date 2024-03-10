@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "8E4239E5875D201D7D96BE7448B4CB6DFD31F59E7DB82A2C828CAB56B1F53B8D3FACD40576604374"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2021-03-23T04:45:26.702Z",
-  "updated": "2023-08-13T20:43:40.209Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Alice in Wonderland",
@@ -5902,10 +5899,13 @@
                 "Height": 1141
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "8c8029e9d0a54d74fc6b61f1a9537da0fde8121acd612f9ddac5d03b9e99daa3"
+  "created": "2021-03-23T04:45:26.702Z",
+  "updated": "2023-08-13T20:43:40.209Z",
+  "hash": "daa0a76c90b71503f50cc0fd04fef8a623b19a8f82b1c17083f57f3309dc161b"
 }

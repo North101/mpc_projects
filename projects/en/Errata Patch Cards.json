@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "10BBA356C8E063B9C82BF9B03DE2531652BBEF963C3550E28E4A08CCF7A5FEEB13257B6A016736D4"
   ],
@@ -21,10 +22,6 @@
     "Add-On",
     "Taboo & Errata"
   ],
-  "created": "2023-10-01T14:39:00.687Z",
-  "updated": "2023-10-06T15:59:51.464Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Errata Patch Cards",
@@ -735,10 +732,13 @@
                 "Height": 1124
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "cfc5cebfec8456952bc91812fb14f715bc3e704955fa40edc606d20575ad007c"
+  "created": "2023-10-01T14:39:00.687Z",
+  "updated": "2023-10-06T15:59:51.464Z",
+  "hash": "c3128c4374f26028379029787169991483b210a5f6c265693be733071460a775"
 }

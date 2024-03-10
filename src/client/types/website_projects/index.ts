@@ -1,16 +1,12 @@
-import Ajv from 'ajv'
-import schema from './schema.json'
+import * as V4 from './v4'
 
-import * as V1 from './v1'
-import * as V2 from './v2'
-import * as V3 from './v3'
-
+export * as Latest from './latest'
+export type { ProjectUnion } from './union'
 export * as V1 from './v1'
 export * as V2 from './v2'
 export * as V3 from './v3'
-export * as Latest from './v3'
-
-export type ProjectUnion = V1.Project | V2.Project | V3.Project
+export * as V4 from './v4'
+export { validate } from './validate'
 
 export interface Info {
   filename: string
@@ -40,11 +36,5 @@ export interface Info {
 }
 
 export interface Data {
-  code: string
-  options: V3.Option[]
+  options: V4.Option[]
 }
-
-const ajv = new Ajv({
-  removeAdditional: 'all',
-})
-export const validate = ajv.compile<ProjectUnion>(schema)

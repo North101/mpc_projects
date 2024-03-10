@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85",
     "BC8DC0DC7FEA9691938443BD6B6B6249793BA0C7DF3047FF05CF05A10790E306889BA25DD200DBA6",
@@ -44,10 +45,6 @@
   "tags": [
     "Investigator(s)"
   ],
-  "created": "2023-07-15T04:45:26.680Z",
-  "updated": "2023-11-26T17:55:33.354Z",
-  "version": 3,
-  "code": "CA7C88A094DDABB0",
   "options": [
     {
       "name": "Many Minicards",
@@ -74,7 +71,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "8L-08 Smith minicard",
@@ -98,7 +96,8 @@
                 "Height": 821
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Alice in Wonderland - Alice Liddell minicard",
@@ -122,7 +121,8 @@
                 "Height": 821
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Arabella Freeman mini",
@@ -146,7 +146,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Buffy the Vampire Slayer minicards",
@@ -265,7 +266,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Carmen Sandiego minicard",
@@ -289,7 +291,8 @@
                 "Height": 821
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Celtic Rising - Alannah Stephens minicard",
@@ -313,7 +316,8 @@
                 "Height": 821
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "City of Secrets minicards",
@@ -509,7 +513,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Dark Matter Science Expansion - Kate Winthrop minicard",
@@ -533,7 +538,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Darkham Horror minicards",
@@ -653,7 +659,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Heart of Darkness - Julian Herbert minicard",
@@ -678,7 +685,8 @@
                 "Height": 821
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Parallel - Hard Knocks Wendy mini",
@@ -702,7 +710,8 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         },
         {
           "name": "Symphony of Erich Zann - Isabelle La Fratta minicard",
@@ -726,10 +735,13 @@
                 "Height": 822
               }
             }
-          ]
+          ],
+          "code": "CA7C88A094DDABB0"
         }
       ]
     }
   ],
-  "hash": "224b789171364dfb0fa08950d5dafce52e1a08fea0cd123dbafc50bc5681c039"
+  "created": "2023-07-15T04:45:26.680Z",
+  "updated": "2023-11-26T17:55:33.354Z",
+  "hash": "b81ca21d41f52d3508429686c4029f2bf2e04f0211e380e4e360d6300167464c"
 }

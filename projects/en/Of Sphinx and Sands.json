@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "EF50597E7CDEEBC404F8A67D00915C801B6A50A923CDCDA52BD6167025044FD8E22D362F3765317D"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2017-11-24T04:45:26.683Z",
-  "updated": "2023-08-13T20:43:40.200Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Of Sphinx and Sands",
@@ -2995,10 +2992,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "2777a5362732d1173bbe25cbf945a620d0aafa78ac8818a08751b038c9c48071"
+  "created": "2017-11-24T04:45:26.683Z",
+  "updated": "2023-08-13T20:43:40.200Z",
+  "hash": "f9e7f8816c9e2e310b6d8e30a8eb3b3c3f8a7c84d63df17028aeb29eb661a93b"
 }

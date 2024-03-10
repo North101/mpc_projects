@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "804DA6F941847BAE1D9B582F80E0DE07650278FE982680544FE5AB2199D20F1EBCE0487F52AF695E"
   ],
@@ -21,10 +22,6 @@
     "Investigator(s)",
     "Alt-Art"
   ],
-  "created": "2021-06-23T04:45:26.680Z",
-  "updated": "2023-08-14T00:23:58.830Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Play & Share Investigator Promos",
@@ -51,7 +48,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Daisy Walker",
@@ -75,7 +73,8 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "\"Skids\" O'Toole",
@@ -99,7 +98,8 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Agnes Baker",
@@ -123,7 +123,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Wendy Adams",
@@ -147,7 +148,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Roland Banks",
@@ -171,7 +173,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Daisy Walker",
@@ -195,7 +198,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel \"Skids\" O'Toole",
@@ -219,7 +223,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Agnes Baker",
@@ -243,7 +248,8 @@
                 "Height": 1110
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Parallel Wendy Adams",
@@ -267,10 +273,13 @@
                 "Height": 1138
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "ebe1212a8807725cb1169724ff8a24d4bc3fc728dd6dc74950a59d8bbf8a78c9"
+  "created": "2021-06-23T04:45:26.680Z",
+  "updated": "2023-08-14T00:23:58.830Z",
+  "hash": "084682a68ab73105c01014363d92a81b57c981bc7d1c569d04d83316c786cec8"
 }

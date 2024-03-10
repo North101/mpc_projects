@@ -1,7 +1,7 @@
 import envVar from 'env-var'
 import { glob } from 'glob'
 import fs from 'node:fs/promises'
-import path, { basename, dirname, relative, resolve } from 'node:path'
+import path from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ExtensionProjects, WebsiteProjects } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
@@ -9,6 +9,7 @@ import { hashJson, isProjectFile, readJson, writeJson } from './util'
 interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   filename: string
   image: string | null
+  lang: string
 }
 
 const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
@@ -25,12 +26,12 @@ const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
   authors: e.authors,
   statuses: e.statuses,
   tags: e.tags,
-  lang: e.filename.split('/')[0],
+  lang: e.lang,
   created: e.created,
   updated: e.updated,
   options: e.options.map(({ name, parts }) => ({
     name,
-    parts: parts.map(({name, enabled, cards}) => ({
+    parts: parts.map(({ name, enabled, cards }) => ({
       name,
       count: cards.reduce((count, cards) => count + cards.count, 0),
       enabled: enabled ?? true,
@@ -38,11 +39,11 @@ const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
   })),
 })
 
-const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects.Data => ({
-  code,
+const mapProjectData = ({ options }: ProjectWithFilename): WebsiteProjects.Data => ({
   options: options.flatMap(({ name, parts }) => ({
     name,
-    parts: parts.map(({ name, cards }) => ({
+    parts: parts.map(({ code, name, cards }) => ({
+      code,
       name,
       cards,
     })),
@@ -51,43 +52,60 @@ const mapProjectData = ({ code, options }: ProjectWithFilename): WebsiteProjects
 
 const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
   if (project.version == 1) {
-    const { name, cards, ...rest } = project
+    const { code, name, cards, ...rest } = project
     return {
       ...rest,
+      version: 4,
       name,
-      version: 3,
       options: [{
         name,
         parts: [{
+          code,
           name,
           cards,
         }]
       }],
     }
   } else if (project.version == 2) {
-    const { name, parts, ...rest } = project
+    const { code, name, parts, ...rest } = project
     return {
       ...rest,
+      version: 4,
       name,
-      version: 3,
       options: [{
         name,
-        parts,
+        parts: parts.map(part => ({
+          ...part,
+          code,
+        })),
       }],
     }
   } else if (project.version == 3) {
+    const { code, name, options, ...rest } = project
+    return {
+      ...rest,
+      version: 4,
+      name,
+      options: options.map(option => ({
+        ...option,
+        parts: option.parts.map(part => ({
+          ...part,
+          code,
+        }))
+      })),
+    }
+  } else if (project.version == 4) {
     return project
   }
   throw Error(project)
 }
 
 const convertExtensionProject = (filename: string, project: ExtensionProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
-  const name = basename(filename)
+  const { name } = path.parse(filename)
   if (project.version == 1) {
     const { code, cards } = project
     return {
-      version: 3,
-      code,
+      version: 4,
       projectId: [],
       name,
       description: '',
@@ -106,6 +124,7 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
       options: [{
         name,
         parts: [{
+          code,
           name,
           cards,
         }]
@@ -114,8 +133,34 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   } else if (project.version == 2) {
     const { code, parts } = project
     return {
-      version: 3,
-      code,
+      version: 4,
+      projectId: [],
+      name,
+      description: '',
+      artist: null,
+      info: null,
+      website: null,
+      cardsLink: null,
+      scenarioCount: 0,
+      investigatorCount: 0,
+      authors: [],
+      statuses: [],
+      tags: [],
+      created: '',
+      updated: '',
+      hash: '',
+      options: [{
+        name,
+        parts: parts.map(part => ({
+          code,
+          ...part,
+        })),
+      }],
+    }
+  } else if (project.version == 3) {
+    const { parts } = project
+    return {
+      version: 4,
       projectId: [],
       name,
       description: '',
@@ -154,13 +199,13 @@ const getProjectImage = async (filename: string) => {
   const filenameInfo = path.parse(filename)
   const image = path.format({
     ...filenameInfo,
-    dir: resolve('public/projects/'),
+    dir: path.resolve('public/projects/'),
     base: undefined,
-    ext: '.png'
+    ext: '.png',
   })
   try {
     await fs.access(image, fs.constants.R_OK)
-    return basename(image)
+    return path.basename(image)
   } catch (e) {
     return null
   }
@@ -169,28 +214,28 @@ const getProjectImage = async (filename: string) => {
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
   const project = await parseProject(filename)
   if (project == null) {
-    console.log(relative(resolve(projectsDir), filename))
+    console.error(`Failed to validate: ${filename}`)
     return null
   }
 
   const hash = hashJson([
-    project.code,
     project.options,
   ])
   const updated = !updateProject || hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,
-    filename: relative(resolve(projectsDir), filename),
+    filename: path.relative(path.resolve(projectsDir), filename),
     image: await getProjectImage(filename),
+    lang: path.basename(path.dirname(filename)),
     hash,
     updated,
   }
 }
 
-const readProjectList = async (projectsDir: string, updateProjects: boolean) => {
-  const allProjects = await glob(resolve(projectsDir, '*/*.json'))
+const readProjectList = async (projectsDir: string, updateProject: boolean) => {
+  const allProjects = await glob(path.resolve(projectsDir, '*/*.json'))
   return await Promise
-    .all(allProjects.map((filename) => readProject(projectsDir, filename, updateProjects)))
+    .all(allProjects.map((filename) => readProject(projectsDir, filename, updateProject)))
     .then(e => e.filter((e): e is ProjectWithFilename => e != null))
 }
 
@@ -199,9 +244,9 @@ interface ProjectsBuilderOptions {
   projectsFilename: string
 }
 
-const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
+export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptions): PluginOption => {
   let viteConfig: ResolvedConfig
-  const updateProjects = envVar.get('UPDATE_PROJECTS').default('true').asBool()
+  const updateProject = envVar.get('UPDATE_PROJECTS').default('false').asBool()
 
   return {
     name: 'vite-plugin-build-projects',
@@ -210,17 +255,18 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     },
     async writeBundle() {
       const outDir = viteConfig.build.outDir
-      const projectList = await readProjectList(projectsDir, updateProjects)
+      const projectList = await readProjectList(projectsDir, updateProject)
       // write projects.json
-      await writeJson<WebsiteProjects.Info[]>(resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
+      await writeJson<WebsiteProjects.Info[]>(path.resolve(outDir, projectsFilename), projectList.map(mapProjectInfo))
       // write all project json files
       await Promise.all(projectList.map(async e => {
-        await fs.mkdir(dirname(resolve(outDir, projectsDir, e.filename))).catch(() => { })
-        await writeJson<WebsiteProjects.Data>(resolve(outDir, projectsDir, e.filename), mapProjectData(e))
+        await fs.mkdir(path.dirname(path.resolve(outDir, projectsDir, e.filename))).catch(() => { })
+        await writeJson<WebsiteProjects.Data>(path.resolve(outDir, projectsDir, e.filename), mapProjectData(e))
       }))
       // update project files
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
-        await writeJson<WebsiteProjects.Latest.Project>(resolve(projectsDir, filename), {
+        await writeJson<WebsiteProjects.Latest.Project>(path.resolve(projectsDir, filename), {
+          version: project.version,
           projectId: project.projectId,
           name: project.name,
           description: project.description,
@@ -233,11 +279,9 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
           authors: project.authors,
           statuses: project.statuses,
           tags: project.tags,
+          options: project.options,
           created: project.created,
           updated: project.updated,
-          version: project.version,
-          code: project.code,
-          options: project.options,
           hash: project.hash,
         }, 2)
       }))
@@ -246,7 +290,7 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
       server.middlewares.use(async (req, res, next) => {
         if (req.url == `/${projectsFilename}`) {
           // /projects.json
-          const projectList = await readProjectList(projectsDir, updateProjects)
+          const projectList = await readProjectList(projectsDir, updateProject)
           const projectsJson = projectList.map(mapProjectInfo)
           return res.writeHead(200, {
             'Content-Type': 'application/json',
@@ -255,8 +299,8 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
         } else if (req.url?.startsWith(`/projects/`)) {
           // /projects/*.json
           if (req.url.endsWith('.json')) {
-            const filename = path.resolve(projectsDir, path.resolve(decodeURI(req.url).substring(1)))
-            const project = await readProject(projectsDir, filename, updateProjects)
+            const filename = path.resolve(projectsDir, path.resolve(path.join('.', decodeURI(req.url))))
+            const project = await readProject(projectsDir, filename, updateProject)
             if (project == undefined) return next()
 
             return res.writeHead(200, {
@@ -267,10 +311,10 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
         return next()
       })
     },
-    handleHotUpdate: ({ file, server }) => {
-      if (isProjectFile(projectsDir, relative(viteConfig.envDir, file))) {
+    handleHotUpdate: async ({ file, server }) => {
+      if (isProjectFile(projectsDir, path.relative(viteConfig.envDir, file))) {
         console.log(`Project changed: ${file}. Reloading`)
-        server.ws.send({
+        server.hot.send({
           type: 'full-reload',
           path: '*',
         })
@@ -278,5 +322,3 @@ const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuilderOptio
     },
   }
 }
-
-export default projectsBuilder

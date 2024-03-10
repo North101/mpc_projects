@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "0E89C6044EC8BA82A1455DFFC73230B5D871F89B4B1ABD3452BCE782E70E5DA26384E1B2D7F23740"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2023-08-03T23:25:30.177Z",
-  "updated": "2023-09-29T21:58:11.886Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Jumanji",
@@ -3261,10 +3258,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "01ec9803a5ba5817f48748c775b20b9200c100a0602f8f0230dd14aa369acafd"
+  "created": "2023-08-03T23:25:30.177Z",
+  "updated": "2023-09-29T21:58:11.886Z",
+  "hash": "ea190f29d5301a9688a0af76f8888d5224211ebbc8e7a18983ae347fcf4783d4"
 }

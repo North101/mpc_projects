@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react-swc'
 import path from 'node:path'
 import { defineConfig } from 'vite'
-import projectsBuilder from './vite-plugin-project-builder'
+import { projectsBuilder } from './vite-plugin-project-builder'
 
 // https://vitejs.dev/config/
 export default defineConfig({

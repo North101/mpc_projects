@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Add-On"
   ],
-  "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-11-26T23:13:45.084Z",
-  "version": 3,
-  "code": "FC50335ACE92877B",
   "options": [
     {
       "name": "TFA Microsupplies",
@@ -354,7 +351,8 @@
                 "Height": 1088
               }
             }
-          ]
+          ],
+          "code": "FC50335ACE92877B"
         },
         {
           "name": "Summoned Servitor Microcard",
@@ -378,10 +376,13 @@
                 "Height": 1650
               }
             }
-          ]
+          ],
+          "code": "FC50335ACE92877B"
         }
       ]
     }
   ],
-  "hash": "2c56efdee8bc847efc102af0f831b7fbd768b42791a57564155173392c230b53"
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2023-11-26T23:13:45.084Z",
+  "hash": "75a5f82169d021a9d926a7539d33a3cebc24276bd7ec535f7c62858ae782038e"
 }

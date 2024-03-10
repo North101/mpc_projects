@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "434A267DD38F41F376AECA76AF38E1DA11CE366B9FEDCA2981C50A3F9CA5D72FD13EB71D13AA0DF9",
     "B710F672AF8D2A4A188742A61229AC88486E3D8BBB15EBE71CFAD78A8E1E7654D7E681301470DB89"
@@ -21,10 +22,6 @@
   "tags": [
     "Rework"
   ],
-  "created": "2022-01-05T15:18:15.624Z",
-  "updated": "2023-09-09T15:18:15.624Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Signature Replacements",
@@ -2673,10 +2670,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "95ba1ed39d23b9b45bbc1b93bbfc3724ce9c1ba5d9caa0cd1d029cd0b133e49e"
+  "created": "2022-01-05T15:18:15.624Z",
+  "updated": "2023-09-09T15:18:15.624Z",
+  "hash": "634de613b1dc6e3d2527033e449c70a3d8e26bb005e9902c96c7aeb63a5288e9"
 }

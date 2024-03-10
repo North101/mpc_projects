@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "C0A63DC7504B8A0D1F5C3333733D2FA1EE40EE6ED1579894EF81347DB8ED62982006942271C44635"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Standalone"
   ],
-  "created": "2017-12-23T04:45:26.680Z",
-  "updated": "2023-12-20T12:17:20.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Das Fest",
@@ -829,10 +826,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "cf5908d3d81cb053b5415aa85dbfd857f7c92181c512fe451f16060774b50f0f"
+  "created": "2017-12-23T04:45:26.680Z",
+  "updated": "2023-12-20T12:17:20.466Z",
+  "hash": "5e236cd5bb376bcf2da784496c341bcab9c121059290adbb7f9b37361623f31c"
 }

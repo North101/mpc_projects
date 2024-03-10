@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "E343AC9D0D0F47B4DBD023018FDF9C9DC84E2E678CC266E4AEF70CAE6F833808C6033AE974A3BEF9"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Add-On"
   ],
-  "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-12-02T23:13:45.084Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Reference Cards",
@@ -88,10 +85,13 @@
                 "Height": 1385
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "cb9c268a9c22ecb5ade47d2119af6bdef189ed44f505fe5ec322f2529c6e5494"
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2023-12-02T23:13:45.084Z",
+  "hash": "fdb7c790d89edb10d0b346f1a4ad60ef7157ca089d558f1153a48435268d398c"
 }

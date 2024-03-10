@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45"
   ],
@@ -24,10 +25,6 @@
     "Campaign Expansion",
     "Investigator(s)"
   ],
-  "created": "2022-10-29T04:45:26.689Z",
-  "updated": "2023-10-06T15:59:51.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Dark Matter Science Expansion",
@@ -415,7 +412,8 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Kate Winthrop minicard with crop marks",
@@ -439,10 +437,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "fc5a09c86f8d645b39f7c85f2b3a42eb50ef2b28da2266f709036144d19a7876"
+  "created": "2022-10-29T04:45:26.689Z",
+  "updated": "2023-10-06T15:59:51.466Z",
+  "hash": "be8fac0d71fe50f06e613b3c0f3ea9f1434dad3f0b162a3bc8e9528226e0376b"
 }

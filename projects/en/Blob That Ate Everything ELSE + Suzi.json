@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "B3909516B2CBDF90034A19668D4B11643E94F7FD7593BB30E3A4C4F30173939A85DC8889C8F14B63",
     "59218CD517B9B0D1E642633E677BAB735C0CFC9054C69C6A45DBD906C7B21E8F20569DB95D0EA5C9",
@@ -24,10 +25,6 @@
     "Investigator(s)",
     "Rework"
   ],
-  "created": "2023-08-13T17:37:00Z",
-  "updated": "2023-09-15T23:25:30.190Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "The Blob That Ate Everything ELSE",
@@ -130,7 +127,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Suzi minicard with crop marks",
@@ -154,7 +152,8 @@
                 "Height": 1126
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "The Blob That Ate Everything ELSE",
@@ -634,10 +633,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "ad30ea6832a63282f8d899bb0ab8302199cecf72672c876327b6c0aee8bbba99"
+  "created": "2023-08-13T17:37:00Z",
+  "updated": "2023-09-15T23:25:30.190Z",
+  "hash": "8af6dc47db9dbe6d84f7581bf8c099a69ec9e7e1b0d133634d698365e6e92e36"
 }

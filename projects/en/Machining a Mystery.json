@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "6B1F6E08544C79EF5D67D9668B1F067101F58EAA81EB59111424C1B60E66BDB2B3F1A75917D51005"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Campaign"
   ],
-  "created": "2022-10-19T04:45:26.685Z",
-  "updated": "2023-08-13T20:43:40.201Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Machining a Mystery",
@@ -7726,10 +7723,13 @@
                 "Height": 1175
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "ba810090c405599e777a07d8c6e5e0b3575acc33c8269c68ecdd7588efdf7221"
+  "created": "2022-10-19T04:45:26.685Z",
+  "updated": "2023-08-13T20:43:40.201Z",
+  "hash": "bed69fa7223a7f51090efd47160dc236003491b380dbd26ce327939ff8d5d3a5"
 }

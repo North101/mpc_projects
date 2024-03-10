@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "88663139EC037B81F295E5EECFB6AFA1A41193AC08D3C3602E3242552B183ACDA7BA506B1F2AB911"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Standalone"
   ],
-  "created": "2019-10-18T04:45:26.695Z",
-  "updated": "2023-08-13T20:43:40.213Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Consternation on the Constellation",
@@ -1418,10 +1415,13 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "02345552379b0aad6513541e763704fd48a336a7fdeafd1cd2d441b933142464"
+  "created": "2019-10-18T04:45:26.695Z",
+  "updated": "2023-08-13T20:43:40.213Z",
+  "hash": "9526785daa20b8c29e67b42d173a209922a675f6d0b42c0193ae672bb4465af9"
 }

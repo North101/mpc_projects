@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "AB2410B44679208B0FF54A30816DE9A834452402D2A17E2BA60401C2D3499EC04C3095C34B683898"
   ],
@@ -20,10 +21,6 @@
   "tags": [
     "Investigator(s)"
   ],
-  "created": "2023-04-17T04:45:26.695Z",
-  "updated": "2023-09-09T15:18:15.656Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Where in Arkham is Carmen Sandiego?",
@@ -259,10 +256,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "96d4578c72281396e946cb4935e81af7a6bbeb46a7c3a894ea02ce72c6797aa8"
+  "created": "2023-04-17T04:45:26.695Z",
+  "updated": "2023-09-09T15:18:15.656Z",
+  "hash": "9983b56c3827ae7d20cdb2b1fe8d9b7986547d7cce98c14d475fa13f8ef92ec4"
 }

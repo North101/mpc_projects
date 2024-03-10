@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "9B451350FE2C7690CA8D8130197B991CEA2E9289FCE716D22321A8BBC3A5202F9F6A28583D803C10"
   ],
@@ -24,10 +25,6 @@
     "Campaign Expansion",
     "Investigator(s)"
   ],
-  "created": "2022-10-29T04:45:26.689Z",
-  "updated": "2023-12-20T12:10:51.466Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Dunkle Materie Wissenschaftserweiterung",
@@ -434,10 +431,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "576279220f2957476fd2afde54ca0e8529b96a1c68622b86d91a9ebb5b3fa2f4"
+  "created": "2022-10-29T04:45:26.689Z",
+  "updated": "2023-12-20T12:10:51.466Z",
+  "hash": "e63ea6e628628725ce40edc0dddf8078db5d41ec7b444f80c5226edaeae334ff"
 }

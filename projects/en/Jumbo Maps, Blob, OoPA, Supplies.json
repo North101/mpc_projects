@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "0254E8520E944D5E020310AB23E557F9477CDDCF641D3E3137A65DA43EBF4286ECE869B7A036A884",
     "FAB51EE24B752AC8CBAE52BF9FC00451800869FB582F72BC47485BCC02C0505A0DD7E64E5766D688",
@@ -26,10 +27,6 @@
   "tags": [
     "Add-On"
   ],
-  "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2024-02-24T10:51:45.941Z",
-  "version": 3,
-  "code": "3BDC5812E3F03AB4",
   "options": [
     {
       "name": "Jumbo Cards & TFA Microsupplies",
@@ -189,7 +186,8 @@
                 "Height": 1570
               }
             }
-          ]
+          ],
+          "code": "3BDC5812E3F03AB4"
         },
         {
           "name": "Jumbo Out-of-Play Areas",
@@ -270,7 +268,8 @@
                 "Height": 1570
               }
             }
-          ]
+          ],
+          "code": "3BDC5812E3F03AB4"
         },
         {
           "name": "Jumbo Blob Enemy",
@@ -294,7 +293,8 @@
                 "Height": 1570
               }
             }
-          ]
+          ],
+          "code": "3BDC5812E3F03AB4"
         },
         {
           "name": "8-up Microsupplies on Jumbo Cards",
@@ -376,10 +376,13 @@
                 "Height": 3140
               }
             }
-          ]
+          ],
+          "code": "3BDC5812E3F03AB4"
         }
       ]
     }
   ],
-  "hash": "db8196d0b5ac50c2932e6d5815dc3995682b780fc6d2f35fa9be33ea657109c7"
+  "created": "2023-08-08T04:45:26.684Z",
+  "updated": "2024-02-24T10:51:45.941Z",
+  "hash": "7a0e705d3e5b56747ee1ba4dfa0bae7b1c57b16bd4e8bc69f57d1ad7308af192"
 }

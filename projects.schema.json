@@ -1,162 +1,193 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Projects",
-  "type": "object",
-  "properties": {
-    "projectId": {
-      "type": "string"
+  "definitions": {
+    "Card": {
+      "properties": {
+        "back": {
+          "$ref": "#/definitions/CardFace"
+        },
+        "count": {
+          "type": "number"
+        },
+        "front": {
+          "$ref": "#/definitions/CardFace"
+        }
+      },
+      "required": [
+        "count"
+      ],
+      "type": "object"
     },
-    "name": {
+    "CardFace": {
+      "properties": {
+        "Exp": {
+          "type": "string"
+        },
+        "Height": {
+          "type": "number"
+        },
+        "ID": {
+          "type": "string"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "SourceID": {
+          "type": "string"
+        },
+        "Width": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "Exp",
+        "Height",
+        "ID",
+        "Name",
+        "SourceID",
+        "Width"
+      ],
+      "type": "object"
+    },
+    "Option": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "parts": {
+          "items": {
+            "$ref": "#/definitions/Part"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "parts"
+      ],
+      "type": "object"
+    },
+    "Part": {
+      "properties": {
+        "cards": {
+          "items": {
+            "$ref": "#/definitions/Card"
+          },
+          "type": "array"
+        },
+        "code": {
+          "type": "string"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cards",
+        "code",
+        "name"
+      ],
+      "type": "object"
+    }
+  },
+  "properties": {
+    "artist": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "authors": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "cardsLink": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created": {
       "type": "string"
     },
     "description": {
       "type": "string"
     },
-    "content": {
+    "hash": {
       "type": "string"
-    },
-    "artist": {
-      "type": ["string", "null"]
     },
     "info": {
-      "type": ["string", "null"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
-    "website": {
-      "type": ["string", "null"]
+    "investigatorCount": {
+      "type": "number"
     },
-    "cardsLink": {
-      "type": ["string", "null"]
+    "name": {
+      "type": "string"
     },
-    "authors": {
-      "type": "array",
+    "options": {
+      "items": {
+        "$ref": "#/definitions/Option"
+      },
+      "type": "array"
+    },
+    "projectId": {
       "items": {
         "type": "string"
-      }
+      },
+      "type": "array"
+    },
+    "scenarioCount": {
+      "type": "number"
     },
     "statuses": {
-      "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "type": "array"
     },
     "tags": {
-      "type": "array",
       "items": {
         "type": "string"
-      }
-    },
-    "created": {
-      "type": "string"
+      },
+      "type": "array"
     },
     "updated": {
       "type": "string"
     },
     "version": {
+      "const": 4,
       "type": "number"
     },
-    "code": {
-      "type": "string"
-    },
-    "cards": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "enabled": {
-            "type": "boolean"
-          },
-          "count": {
-            "type": "number"
-          },
-          "front": {
-            "type": "object",
-            "properties": {
-              "Name": {
-                "type": "string"
-              },
-              "ID": {
-                "type": "string"
-              },
-              "SourceID": {
-                "type": "string"
-              },
-              "Exp": {
-                "type": "string"
-              },
-              "Width": {
-                "type": "number"
-              },
-              "Height": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "Name",
-              "ID",
-              "SourceID",
-              "Exp",
-              "Width",
-              "Height"
-            ]
-          },
-          "back": {
-            "type": "object",
-            "properties": {
-              "Name": {
-                "type": "string"
-              },
-              "ID": {
-                "type": "string"
-              },
-              "SourceID": {
-                "type": "string"
-              },
-              "Exp": {
-                "type": "string"
-              },
-              "Width": {
-                "type": "number"
-              },
-              "Height": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "Name",
-              "ID",
-              "SourceID",
-              "Exp",
-              "Width",
-              "Height"
-            ]
-          }
-        },
-        "required": [
-          "count",
-          "front",
-          "back"
-        ]
-      }
-    },
-    "hash": {
-      "type": "string"
+    "website": {
+      "type": [
+        "null",
+        "string"
+      ]
     }
   },
   "required": [
-    "id",
-    "name",
-    "description",
-    "content",
-    "info",
-    "website",
     "authors",
+    "created",
+    "description",
+    "hash",
+    "investigatorCount",
+    "name",
+    "options",
+    "projectId",
+    "scenarioCount",
     "statuses",
     "tags",
-    "created",
     "updated",
-    "version",
-    "code",
-    "cards",
-    "hash"
-  ]
+    "version"
+  ],
+  "type": "object"
 }

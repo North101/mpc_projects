@@ -1,4 +1,5 @@
 {
+  "version": 4,
   "projectId": [
     "3F9067BE603A9DD78989D1014F28C98BAF4A3ECB1618E04997356C60967C8DDA69293FB08F2E1F71",
     "3CF6F09F048A2D7DE4EA6EFA4381EF99356CB424C5BDA7859470AE2AD6FFA87F93E1001CE36DDF34",
@@ -24,10 +25,6 @@
     "Investigator(s)",
     "Rework"
   ],
-  "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-01-04T21:15:01.316Z",
-  "version": 3,
-  "code": "C380050185D1C1AF",
   "options": [
     {
       "name": "Parallel Mix & Match",
@@ -225,7 +222,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Core Mix & Match, revised core art",
@@ -421,7 +419,8 @@
                 "Height": 1174
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Wendy Adams Mix & Match, Hard Knocks alt-art",
@@ -465,7 +464,8 @@
                 "Height": 1156
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Dunwich Mix & Match",
@@ -584,7 +584,8 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         },
         {
           "name": "Monterey Mix & Match",
@@ -627,10 +628,13 @@
                 "Height": 1122
               }
             }
-          ]
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
-  "hash": "f851fadd1bd9e04fe42ae731d0fb609efcaff158bb86a049b4859055f28d3eb5"
+  "created": "2020-05-05T04:45:26.681Z",
+  "updated": "2024-01-04T21:15:01.316Z",
+  "hash": "9832f4ceb6e0fbe40c9c1772dcc81d3fba560fb5037f86c4644a644f2d46549d"
 }
