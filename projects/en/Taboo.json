@@ -6,13 +6,14 @@
     "7CB4DE41CEECB9D5882B555270117A9AB548E5DAB1075AE9A7A98E3DA94920EB3EE68E9204B306CD",
     "01D79388B5E679E427F198C41CA3F902182F2DDB09C045F5EC9ADE7AFC50E026C8D1EB1916FD8D20",
     "D02FAAC43F518A50C51A10CBA5B8FC55E6A3C872EC4B99DB74ECE182A128B6FE1D36A45145097588",
-    "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7"
+    "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7",
+    "0C5E31F88C76BF29FC6C26D65E94F8AD010DD5133C1364A91053B17D75B4C42F7347A5677196BB7C"
   ],
   "name": "Taboo",
-  "description": "Taboo 2.2 cards coming soon! Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
-  "artist": "Mark Molnar",
+  "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
+  "artist": "Aleksander Karcz",
   "info": null,
-  "website": "https://www.fantasyflightgames.com/en/news/2023/8/30/unveiling-secrets/",
+  "website": "https://www.fantasyflightgames.com/en/news/2024/2/20/a-shift-in-the-mythos-1/",
   "cardsLink": "https://drive.google.com/drive/folders/1SDoCdT3-b76YQux0KVjHepRFuFKBBOg5?usp=drive_link",
   "scenarioCount": 0,
   "investigatorCount": 4,
@@ -20,7 +21,6 @@
     "Fantasy Flight Games"
   ],
   "statuses": [
-    "Changes Pending",
     "Ongoing",
     "Project Available"
   ],
@@ -306,8 +306,8 @@
               "count": 2,
               "front": {
                 "Name": "15 Old Keyring (3)-x2-a.png",
-                "ID": "2816AAC462BBBA1CCE935C649DE810AF",
-                "SourceID": "14E928B4D146891B6CE5D1B7EB2D770D467C3299",
+                "ID": "257CBB1CDA642359C6382B6F7F989233",
+                "SourceID": "ED40A2F051C5BF08409778CC10E7DB62ED07773C",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -1274,7 +1274,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "69 Power Word-x2-a.png",
+                "Name": "69 Power Word-x3-a.png",
                 "ID": "6FD460C57C4C7AED8D8C3145D9CAE106",
                 "SourceID": "889416365CF30B7971470BE4FDDFF28B39396A02",
                 "Exp": "png",
@@ -9021,6 +9021,6 @@
     }
   ],
   "created": "2019-04-23T11:42:26.679Z",
-  "updated": "2024-02-243T16:05:01.868Z",
+  "updated": "2024-03-103T18:24:01.868Z",
   "hash": "1fd6ac0a102f0fc8b44d76ca987a3944af9a73214644ac6c28bf80db3a6c5537"
 }
