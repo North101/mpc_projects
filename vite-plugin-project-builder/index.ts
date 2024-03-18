@@ -213,11 +213,11 @@ const getPublicProjectAsset = async (filename: string, ext: string, lang?: strin
   }
 }
 
-const getProjectImage = async (filename: string, lang: string, ext = 'png') => {
+const getProjectImage = async (filename: string, lang: string, ext = '.png') => {
   return await getPublicProjectAsset(filename, ext, lang) ?? await getPublicProjectAsset(filename, ext)
 }
 
-const getProjectChangelog = async (filename: string, lang: string, ext = 'md') => {
+const getProjectChangelog = async (filename: string, lang: string, ext = '.md') => {
   return await getPublicProjectAsset(filename, ext, lang)
 }
 
