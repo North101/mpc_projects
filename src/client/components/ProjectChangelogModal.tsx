@@ -42,10 +42,11 @@ export const ProjectChangelogModal = ({ project, onClose }: ProjectChangelogModa
       dialogClassName='download-options'
     >
       <Modal.Header closeButton>
-        <Modal.Title>{project.name}</Modal.Title>
+        <Modal.Title>{project.name} Changelog</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
+        <p><em>If you printed this project before a change date listed below, you may wish to (re)print the affected card(s).</em></p>
         <ProjectChangelog project={project} />
       </Modal.Body>
 

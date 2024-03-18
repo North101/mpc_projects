@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BoxArrowUpRight, CardList, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
+import { BoxArrowUpRight, CloudArrowDown, InfoCircleFill } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/esm/Button'
 import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
@@ -11,6 +11,8 @@ import { ProjectDownloadModal } from './ProjectDownloadModal'
 import { ProjectLangs } from './ProjectLangs'
 import { ProjectStatuses } from './ProjectStatuses'
 import { ProjectTags } from './ProjectTags'
+import { ChangelogIcon } from './Icons'
+
 
 interface ProjectTooltipProps {
   name: string
@@ -94,17 +96,13 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               {project.name}
             </Card.Title>
             {project.changelog && <Button
-              className='download'
-              variant='outline-primary'
-              size='sm'
-              aria-label={`changelog ${project.name}`}
-              onClick={onShowChangelog}
+                className='changelog'
+                variant='outline-primary'
+                size='sm'
+                aria-label={`${project.name} changelog`}
+                onClick={onShowChangelog}
             >
-              <CardList
-                className='icon-dl'
-                focusable='false'
-                aria-hidden='true'
-              />
+              <ChangelogIcon />
             </Button>}
             <Button
               className='download'
