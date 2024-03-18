@@ -8,28 +8,30 @@ import { hashJson, isProjectFile, readJson, writeJson } from './util'
 
 interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   filename: string
-  image: string | null
   lang: string
+  image: string | null
+  changelog: string | null
 }
 
-const mapProjectInfo = (e: ProjectWithFilename): WebsiteProjects.Info => ({
-  filename: e.filename,
-  name: e.name,
-  description: e.description,
-  artist: e.artist ?? null,
-  info: e.info ?? null,
-  image: e.image,
-  website: e.website ?? null,
-  cardsLink: e.cardsLink ?? null,
-  scenarioCount: e.scenarioCount ?? 0,
-  investigatorCount: e.investigatorCount ?? 0,
-  authors: e.authors,
-  statuses: e.statuses,
-  tags: e.tags,
-  lang: e.lang,
-  created: e.created,
-  updated: e.updated,
-  options: e.options.map(({ name, parts }) => ({
+const mapProjectInfo = (project: ProjectWithFilename): WebsiteProjects.Info => ({
+  filename: project.filename,
+  lang: project.lang,
+  image: project.image,
+  changelog: project.changelog,
+  name: project.name,
+  description: project.description,
+  artist: project.artist,
+  info: project.info,
+  website: project.website,
+  cardsLink: project.cardsLink,
+  scenarioCount: project.scenarioCount,
+  investigatorCount: project.investigatorCount,
+  authors: project.authors,
+  statuses: project.statuses,
+  tags: project.tags,
+  created: project.created,
+  updated: project.updated,
+  options: project.options.map(({ name, parts }) => ({
     name,
     parts: parts.map(({ name, enabled, cards }) => ({
       name,
@@ -195,20 +197,28 @@ const parseProject = async (filename: string): Promise<WebsiteProjects.Latest.Pr
   return null
 }
 
-const getProjectImage = async (filename: string) => {
-  const filenameInfo = path.parse(filename)
-  const image = path.format({
-    ...filenameInfo,
-    dir: path.resolve('public/projects/'),
-    base: undefined,
-    ext: '.png',
+const getPublicProjectAsset = async (filename: string, ext: string, lang?: string) => {
+  const publicProjectsDir = path.resolve('./public/projects/')
+  const { name } = path.parse(filename)
+  const asset = path.format({
+    name,
+    dir: lang ? path.join(publicProjectsDir, lang) : publicProjectsDir,
+    ext: ext,
   })
   try {
-    await fs.access(image, fs.constants.R_OK)
-    return path.basename(image)
+    await fs.access(asset, fs.constants.R_OK)
+    return path.relative(publicProjectsDir, asset)
   } catch (e) {
     return null
   }
+}
+
+const getProjectImage = async (filename: string, lang: string, ext = 'png') => {
+  return await getPublicProjectAsset(filename, ext, lang) ?? await getPublicProjectAsset(filename, ext)
+}
+
+const getProjectChangelog = async (filename: string, lang: string, ext = 'md') => {
+  return await getPublicProjectAsset(filename, ext, lang)
 }
 
 const readProject = async (projectsDir: string, filename: string, updateProject: boolean): Promise<ProjectWithFilename | null> => {
@@ -218,15 +228,18 @@ const readProject = async (projectsDir: string, filename: string, updateProject:
     return null
   }
 
+  const projectFilename = path.relative(path.resolve(projectsDir), filename)
+  const lang = path.basename(path.dirname(projectFilename))
   const hash = hashJson([
     project.options,
   ])
   const updated = !updateProject || hash == project.hash ? project.updated : new Date().toISOString()
   return {
     ...project,
-    filename: path.relative(path.resolve(projectsDir), filename),
-    image: await getProjectImage(filename),
-    lang: path.basename(path.dirname(filename)),
+    filename: projectFilename,
+    lang,
+    image: await getProjectImage(projectFilename, lang),
+    changelog: await getProjectChangelog(projectFilename, lang),
     hash,
     updated,
   }

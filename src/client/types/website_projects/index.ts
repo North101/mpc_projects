@@ -11,6 +11,7 @@ export { validate } from './validate'
 export interface Info {
   filename: string
   image: string | null
+  changelog: string | null
   name: string
   description: string
   artist?: string | null

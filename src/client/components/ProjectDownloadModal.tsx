@@ -74,8 +74,8 @@ export const ProjectDownloadModal = ({ project, onClose }: ProjectDownloadModalP
 
   return (
     <Modal show centered scrollable
-           onHide={onClose}
-           dialogClassName='download-options'
+      onHide={onClose}
+      dialogClassName='download-options'
     >
       <Modal.Header closeButton>
         <Modal.Title>{project.name}</Modal.Title>
