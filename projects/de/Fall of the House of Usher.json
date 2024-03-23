@@ -1,0 +1,820 @@
+{
+  "version": 4,
+  "projectId": [
+    "3498690583724757E0A5C22F0BB92511368A377FCC9E473FDBD72D095E2F4B079CB6EBF1B2106601"
+  ],
+  "name": "Der Untergang des Hauses Usher",
+  "description": "Uncover and destroy an ancient evil from a crumbling house in this standalone based on the Edgar Allen Poe short story.",
+  "artist": "Daniel Danger",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2021/10/01/the-fall-of-the-house-of-usher/",
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "options": [
+    {
+      "name": "Der Untergang des Hauses Usher",
+      "parts": [
+        {
+          "name": "Der Untergang des Hauses Usher",
+          "cards": [
+            {
+              "id": "9b8bfbe4-aa10-4f24-afa9-7449b5aeabf8",
+              "count": 1,
+              "front": {
+                "Name": "001-Guide 1-1.png",
+                "ID": "0CC884C589A8C7A5B4DBEA1087A29C65",
+                "SourceID": "E303D70609B3C0C2E42777458A347470E8BBE75D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "001-Guide 1-2.png",
+                "ID": "2566749522C2726FCA2484E0EA65834F",
+                "SourceID": "C0782556810E9F9C9343F37DA6E827CC7DF83318",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "0f3360fa-1673-4d2a-a738-cfcb0a08be20",
+              "count": 1,
+              "front": {
+                "Name": "002-Guide 2-1.png",
+                "ID": "04FD455F431ECDCEFAC1550DA1267B67",
+                "SourceID": "16F3B8F0AB18AC17CBFCE57382F81C45594A6408",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "002-Guide 2-2.png",
+                "ID": "E03390B6A6614A758E14E40C3B156508",
+                "SourceID": "2E2E3231ADE846B0914D4F4ADB85C7CE2B45E526",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "c28a66f8-04a7-4743-bf1c-22a941c14ac7",
+              "count": 1,
+              "front": {
+                "Name": "003-Guide 3-1.png",
+                "ID": "42BC03EB598CE1094D19A40D57F8414A",
+                "SourceID": "9BC5E29371D2B44FEC9D580E8B21A9E6754DD66B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "003-Guide 3-2.png",
+                "ID": "8F6BECA13B41BCD1A6D8B459EA496231",
+                "SourceID": "2C024CFEC329935F8482A8250A15875F0AB77755",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "fb85e13b-d0f5-422d-8a58-1a26baf2c18c",
+              "count": 1,
+              "front": {
+                "Name": "004-Guide 4-1.png",
+                "ID": "4134A0B05873BCDAC3E2464F77BDD2F1",
+                "SourceID": "DFECA16D6D654944407CBDC544D58DE0CD435717",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "004-Guide 4-2.png",
+                "ID": "CE9D313923FFA71E1D56993A5FA89AE0",
+                "SourceID": "0E23071808258349BE5939B79BA5139266E20C4D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "17695b95-2aed-47bf-9024-8258dcbce543",
+              "count": 1,
+              "front": {
+                "Name": "005-Guide 5-1.png",
+                "ID": "4DABFB866FD8F081F2A53DA302CA0C89",
+                "SourceID": "43D5ACAFE42F67F10C845B63AA766470B6CDD081",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "005-Guide 5-2.png",
+                "ID": "FEA6D0311F5B3FC637D26BCE76ECE19E",
+                "SourceID": "9B47D9F1DBC65EE4AFB5272503C54008C47680A7",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "b303ba7a-c0d4-4140-b78f-902f51e54b24",
+              "count": 1,
+              "front": {
+                "Name": "006-Szenarioübersichtskarte-1.png",
+                "ID": "A8B079953DF98DEFCB68BB8003FB4D07",
+                "SourceID": "B3A6D5E71374A4AE041E9CDCEECF38739D32E3C3",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "006-Szenarioübersichtskarte-2.png",
+                "ID": "31C1E8573ED315070D4EE2183E853A3F",
+                "SourceID": "72F27F82CBB11F1439FDD840B7DBEB9E769A276C",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "402b6778-5f52-4260-854a-a851d120c4e3",
+              "count": 1,
+              "front": {
+                "Name": "007-Agenda 1-1.png",
+                "ID": "03AD01B45F4B0E55FEE6348FFE68279A",
+                "SourceID": "EAFFB3E350003DEEEA56AA7959D2DEF01C2196A3",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "007-Agenda 1-2.png",
+                "ID": "58EFD5A2433497E24DC28E569679F1CD",
+                "SourceID": "80399F43A5EEEE53B98A6D38D269BB1B0F2599A2",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "b402a1c7-d4cc-4c1c-99c3-25143bc193c6",
+              "count": 1,
+              "front": {
+                "Name": "008-Agenda 2-1.png",
+                "ID": "07D8B7D311CAD86996AF52537444D517",
+                "SourceID": "14C59CBA3E7B64C693ED5272F3C26ADAA258AFFC",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "008-Agenda 2-2.png",
+                "ID": "69F02725F1E01898329F71E898C3FC9D",
+                "SourceID": "5BD5E591BA89E9B87061C1A1FC7244B40390C211",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "9606ed8d-1218-4925-90e4-3d73b8a33c7b",
+              "count": 1,
+              "front": {
+                "Name": "009-Szene 1-1.png",
+                "ID": "DC0559D0711F14A0694C65ED5132D787",
+                "SourceID": "0455281533E2469D1B2666A609CE6CF1FFFE0574",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "009-Szene 1-2.png",
+                "ID": "AD2F95AE81B3A46887BAE705BF2F83B6",
+                "SourceID": "AF542D8C0E08EF38F1B1D4FCD1164FF2DBCCE5D3",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "cff21a1c-11e9-4826-a883-f18281a17c03",
+              "count": 1,
+              "front": {
+                "Name": "010-Szene 2-1.png",
+                "ID": "71CAD289582D0FFECD1C0BACAC93A5C8",
+                "SourceID": "501F6AAE1EA9FA24D2C2C17F4E13716DFE9F2A14",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "010-Szene 2-2.png",
+                "ID": "A790FE5DECD9A306A5B0DCC366E4A70C",
+                "SourceID": "4180F3000C301917143B862E79BCDEB346D67641",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "8aa31230-dd6e-4753-b72a-95a6a15a20f3",
+              "count": 1,
+              "front": {
+                "Name": "011-Szene 3-1.png",
+                "ID": "4CFC5EB4EE68AAFAD007D266797EF804",
+                "SourceID": "80250963706210D2E2DF0390C3650B412E781F0B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "011-Szene 3-2.png",
+                "ID": "345AB9DA1D7358F3638CF9440FA95479",
+                "SourceID": "93D8D03770E71987CC33BDD372CA197D223CBAB0",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "f1c2ed4c-7f4a-4d12-b96b-62120c83e6d6",
+              "count": 1,
+              "front": {
+                "Name": "012-Roderick Usher-1.png",
+                "ID": "D551C5EE266FE2CEC0DF27722C6AFD0A",
+                "SourceID": "758CD39149F6DAD86D23EE252AA0DAF7CC1780EE",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "26aec9df-b61c-4d7d-8696-c65877d0ce88",
+              "count": 1,
+              "front": {
+                "Name": "013-Madeline Usher-1.png",
+                "ID": "B5B45491EB1B48BC8FF2FA016C26629A",
+                "SourceID": "179FE19E096E0BFB1ECED182666926B852139F80",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "9f106e0d-41f7-4b3c-bc63-fa2761d61c02",
+              "count": 1,
+              "front": {
+                "Name": "014-Verblasster Scherenschnitt-1.png",
+                "ID": "B4908BF76DB85513837268934B1EECA2",
+                "SourceID": "3E1888ACFF0A28515621087672E65CA6BDDF63CF",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "014-Verblasster Scherenschnitt-2.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "id": "bc0a0b75-fbee-42d7-87be-8db3612f33e9",
+              "count": 1,
+              "front": {
+                "Name": "015-Der Mad Trist 1-1.png",
+                "ID": "C6E26889A47D357BF698F8CFC6F61E4B",
+                "SourceID": "41AE649E13D5B0755F773453C894D9808C0A583A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "015-Der Mad Trist 1-2.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "id": "a7daa54f-8946-4d70-bd1c-7d5c15938602",
+              "count": 1,
+              "front": {
+                "Name": "016-Der Mad Trist 2-1.png",
+                "ID": "88D50148A6651CD5704BC406ED7F0987",
+                "SourceID": "1C5DB28221AF7B266164AF55D771D009F759A0B8",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "016-Der Mad Trist 2-2.png",
+                "ID": "9CCAC53C69DC6AA57D24FF30ED8973D4",
+                "SourceID": "1D61B97573E741A6DDE605AB2B8DBB6702178B9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              }
+            },
+            {
+              "id": "1e4c44c0-d85a-4468-b503-b0af2582168e",
+              "count": 1,
+              "front": {
+                "Name": "017-Privatbibliothek-1.png",
+                "ID": "3915859B1F06DE1B2336FCC02017629A",
+                "SourceID": "610221ED08E8FAD148EA833B868F3D5D3E696DFB",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "017-Privatbibliothek-2.png",
+                "ID": "1CBD6392EA6A722BBF42F3D86329B335",
+                "SourceID": "E7EE33EE2EB85CE172A5A7D876DC0E6519DAD89D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "2d175783-159a-44a8-9109-f152b7bb6ee2",
+              "count": 1,
+              "front": {
+                "Name": "018-Rodericks Arbeitszimmer-1.png",
+                "ID": "F84857470D8EFD710971D2B4BF63E302",
+                "SourceID": "930E905A3BAC599BAEA31F8C23D1825175B1FFD2",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "018-Rodericks Arbeitszimmer-2.png",
+                "ID": "FFA808299C7F6CACC1773376F0613048",
+                "SourceID": "D3C40D93E4B469566EABA1426276F80FAB0FEA6D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "e09d697c-a17d-4d3a-aed5-b2cc3cf073dd",
+              "count": 1,
+              "front": {
+                "Name": "019-Gemäldegallerie-1.png",
+                "ID": "D536A89D4B0070FCAD4E7FAFDE9C35B6",
+                "SourceID": "2672650A360CF89A78290656E609843A6CFECE4A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "019-Gemäldegallerie-2.png",
+                "ID": "875F2F1260C2A57B0699EF4F8D0A1F79",
+                "SourceID": "F5DC1CE23D31220B98A15CB61178B62FF7589589",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "5c7a05e2-464c-4ee2-93c1-360a8ef699e3",
+              "count": 1,
+              "front": {
+                "Name": "020-Bankettsaal-1.png",
+                "ID": "C87A38A7DE86B2ED864DD41F1B999AD9",
+                "SourceID": "977E4E21750A49FA76BCFA60655C7B28F1B63730",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "020-Bankettsaal-2.png",
+                "ID": "3E28F05DFCC0DBF26D0DD977EF39DF0A",
+                "SourceID": "A7A2966BE95E8ED9CB7A0C2E917CAD2CE0A74D57",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "cec00b2e-51c6-4a4e-b88e-28b5194982d4",
+              "count": 1,
+              "front": {
+                "Name": "021-Grosser Saal-1.png",
+                "ID": "3BAFDCC221211EC3B6CA0EB68851D038",
+                "SourceID": "56FFD7C046D7CB4F2505D9979DE1199FA38D9364",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "021-Grosser Saal-2.png",
+                "ID": "D6C97953CC1962B0A4248FDF1D617809",
+                "SourceID": "BAF7A8368E2229B1E0B18695A7EF3D915BDECF28",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "73d0fb68-1871-46cb-a290-fb217c166710",
+              "count": 1,
+              "front": {
+                "Name": "022-Schlosskapelle-1.png",
+                "ID": "3423E6BD1B2076069B86A402D8FBA30B",
+                "SourceID": "61C733259FEE415A4B4D8A7A998A969B3B6D04A0",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "022-Schlosskapelle-2.png",
+                "ID": "BC62DD4E70AF04FB44B083890E311D1E",
+                "SourceID": "BF39B291AD332603142CF8B089B6693C6CB31AB2",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "49f16f9c-7628-464e-9cdd-8fa7bb9dcbd2",
+              "count": 1,
+              "front": {
+                "Name": "023-Weinkeller-1.png",
+                "ID": "451AAFB3A53F592F16CD4CB7BF38FAB4",
+                "SourceID": "D55181AE4D516EB2B2B28BE1FA9B6B70E56DBA5C",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "023-Weinkeller-2.png",
+                "ID": "20CE27797AD7692AE218453B17AB83C4",
+                "SourceID": "3FC409B2EB538EC02260064FEEBEF76E843E7851",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "fe9b9275-bf7d-4a59-aa0b-57934ad669fc",
+              "count": 1,
+              "front": {
+                "Name": "024-Familiengruft der Ushers-1.png",
+                "ID": "49453426D400109A4448E61108160814",
+                "SourceID": "A49796AA845DE6E9CE8569C136FB5CE70FC6EEA4",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "024-Familiengruft der Ushers-2.png",
+                "ID": "476482E6CAC8394EEC73EAA5BB2F3DAF",
+                "SourceID": "5918BC8FE77753DD31AC04ABC9567ED1357627E6",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "5c3f934e-6a3f-4139-a682-117ea3403444",
+              "count": 1,
+              "front": {
+                "Name": "025-Der See-1.png",
+                "ID": "1EF6DE9AB8946E0ED99F27F58E7F4C99",
+                "SourceID": "9A7CCBF6E7CCA3F87A88A4F3AB2AFC346640902A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "025-Der See-2.png",
+                "ID": "B97EB7236E96E135D2BD4B1388018C8C",
+                "SourceID": "DE9FA5C4942B0BED2BF7623486101DE9739B4B8E",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "ec8a2563-8fc6-4427-ae61-8578922b8aba",
+              "count": 2,
+              "front": {
+                "Name": "026-Akustische Halluzinationen-x2-1.png",
+                "ID": "9BFB3D53562D582EC85D9BAD58D14636",
+                "SourceID": "7E92E03D628DE7354E96A77AE0F136FA0C6C29E6",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "39704d03-fd93-48d4-bada-73aa327b2f02",
+              "count": 3,
+              "front": {
+                "Name": "027-Einfallende Ruine-x3-1.png",
+                "ID": "2057F3E22348D32A2138D7AE546FD0AE",
+                "SourceID": "7119A3229EFD8FCC89E7D87B0405AAF36F5C88E8",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "4c21eca0-86e7-4343-b4d6-7f4035f64786",
+              "count": 2,
+              "front": {
+                "Name": "028-Verfallendes Vermächtnis-x2-1.png",
+                "ID": "0BB0BB4E05F1CF8612EF2FB4FDC9686F",
+                "SourceID": "9C81BC1BC9923733E8E1FC3419D0F52E08B1FBE0",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "71e3d14a-c873-460a-a9cf-5d2e46062f3d",
+              "count": 2,
+              "front": {
+                "Name": "029-Trostloses Erbe-x2-1.png",
+                "ID": "2371CC247C6810BCC59E3D28E06D97CF",
+                "SourceID": "629DEC31D64BF3EF489212BF0275D45E199A166E",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "a1672d49-2d24-4a77-b45e-4f5a301cdbd7",
+              "count": 3,
+              "front": {
+                "Name": "030-Entkräftende Berührung-x3-1.png",
+                "ID": "A3CB9A0D2607FF9D20D65DD98219E8E1",
+                "SourceID": "1C821012678BB5267FA6E1B35F1A5D57183E8DFE",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "4bf8e99a-7928-4310-9bfd-6635e6c69202",
+              "count": 2,
+              "front": {
+                "Name": "031-Verhüllter Gastgeber-x2-1.png",
+                "ID": "D59A8879AC263F82736E2C36AB01D681",
+                "SourceID": "15400AC07B09F9387152D09132834215DC0BB71D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "5f82576f-32fd-4508-8131-2a1d8e1edaea",
+              "count": 3,
+              "front": {
+                "Name": "032-Leuchtendes Trugbild-x3-1.png",
+                "ID": "257B3E1F88B9814B2456A6B0D97D42A9",
+                "SourceID": "961F5154EDE40FB3A7CF150E274B1A66E28A3873",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "b32571d9-47d2-417f-899b-1e4b84498a58",
+              "count": 3,
+              "front": {
+                "Name": "033-Morbide Genauigkeit-x3-1.png",
+                "ID": "572FB27B2BEDFCA4F0C07F830468FB08",
+                "SourceID": "677980BE3F81E97BC067199DE3F2C3FB1E160D42",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "2ada28c4-7e1f-46f6-b8c4-60dcc9947954",
+              "count": 3,
+              "front": {
+                "Name": "034-Nervöses Leiden-x3-1.png",
+                "ID": "6CE51C71B7CCA84B5AA86BF1033D809B",
+                "SourceID": "1CFC5F545F7210C919004C2C732E00F8F2738A4E",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "0411ae6f-d68e-40eb-a5a8-7a7b323e1c5d",
+              "count": 3,
+              "front": {
+                "Name": "035-Tödlicher Hauch-x3-1.png",
+                "ID": "2FE628EA312B2DD5223044C79A0B9302",
+                "SourceID": "C2839C9F0D30D6AD3D79D49BD5904301EFE3EDEE",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "1411014b-4c10-4fcd-8533-d1b1714421bc",
+              "count": 3,
+              "front": {
+                "Name": "036-Spross der Ushers-x3-1.png",
+                "ID": "FBC1015A1F6045542E7FC720E8E51B7F",
+                "SourceID": "5D504EB64D6A3BDC9437660D2D10E70ACE685A19",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "9722bfb9-ad46-4e88-b3b7-04b8df4ca710",
+              "count": 2,
+              "front": {
+                "Name": "037-Geheimnisvoller Kammerdiener-x2-1.png",
+                "ID": "5EF26734769DCE19F821243BE41BCEB4",
+                "SourceID": "FF2A14A4847617DE19A4C202B947070D59F9B3F8",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "9362dc3c-917b-45af-a19c-f6ba188dd69f",
+              "count": 3,
+              "front": {
+                "Name": "038-Diener zweier Herren-x3-1.png",
+                "ID": "267EA8305CBFC62C97F4251CD5340234",
+                "SourceID": "6F25F5E1155E74EFB708CFD1A9E2E912CF922FAC",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "82305b70-ebd6-442f-a8f5-40d55ec5e129",
+              "count": 1,
+              "front": {
+                "Name": "039-Das Ding aus dem See-1.png",
+                "ID": "C8E3E6AF162E9539254D14F362DB064B",
+                "SourceID": "30CA01E4471DB61F4E5A68FB63DCEB93E4EC5A4B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
+    }
+  ],
+  "created": "2022-01-25T04:45:26.686Z",
+  "updated": "2024-03-19T20:43:40.202Z",
+  "hash": "a1fd96ced42d6c3a8158a714bc44784b2282dd0ec39ebb50472e53a7f19bdf7e"
+}

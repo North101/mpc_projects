@@ -9,7 +9,9 @@
     "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7",
     "0C5E31F88C76BF29FC6C26D65E94F8AD010DD5133C1364A91053B17D75B4C42F7347A5677196BB7C",
     "AE1880F89A0AA4588B40811A213B63E569FAD098014BEF57E70A0F257E25EF787BC45A48156618D5",
-    "A60ED49EFEE49888F9E8CA29D965754581863F535DDE69F89FDC596833B6CA3173FE4BDCD52F93F9"
+    "A60ED49EFEE49888F9E8CA29D965754581863F535DDE69F89FDC596833B6CA3173FE4BDCD52F93F9",
+    "AC440996A41FA571337F6118AD9FBCEFBF494F53977C59061C3E522C3D6629B228D02789654A1D85",
+    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248"
   ],
   "name": "Taboo",
   "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
@@ -365,19 +367,19 @@
               "count": 1,
               "front": {
                 "Name": "18 Rex Murphy-a.png",
-                "ID": "ABB20C4A0F7F83153A3FA5D44D1D0A7E",
-                "SourceID": "A0685393D2B2553323AC89718132D2ED63D44951",
+                "ID": "44A6644D58AC14C1B089A070240747E8",
+                "SourceID": "9CF9B8313C55E4321F89A68A35E7B4CC2E0B3168",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "18 Rex Murphy-b.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
+                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -422,8 +424,8 @@
               "count": 2,
               "front": {
                 "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
+                "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122

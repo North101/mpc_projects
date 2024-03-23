@@ -1,7 +1,8 @@
 {
   "version": 4,
   "projectId": [
-    "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18"
+    "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18",
+    "C76536A4170868683BB2157B0F9B7D170AA80E1AE4365C744C02A1228F4853C0F87F6B8CA115C352"
   ],
   "name": "Die Sinfonie des Erich Zann",
   "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
@@ -193,8 +194,8 @@
               },
               "back": {
                 "Name": "05 Szene 1-2.png",
-                "ID": "1659C375814072565B102C40250548B1",
-                "SourceID": "1BF4F7106525268D04783FAA2B6F5B6BD5481498",
+                "ID": "FF8C075874C446A4A2CC615A9D05BA50",
+                "SourceID": "3E5BC8686FF66CEB1D4042569E4D9797051453D4",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -967,6 +968,6 @@
     }
   ],
   "created": "2020-04-20T04:45:26.680Z",
-  "updated": "2023-12-20T12:13:01.466Z",
-  "hash": "ab6007cb78261dd2d6c2ae4fd2a13e2734b091be3dd73922807d89878314e38a"
+  "updated": "2024-03-20T19:13:01.466Z",
+  "hash": "8c14626fb4c107040d4fc72fa60b5f2f40504c5f2f8c21dfd0012e9a05095264"
 }

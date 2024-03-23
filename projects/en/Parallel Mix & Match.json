@@ -4,7 +4,8 @@
     "3F9067BE603A9DD78989D1014F28C98BAF4A3ECB1618E04997356C60967C8DDA69293FB08F2E1F71",
     "3CF6F09F048A2D7DE4EA6EFA4381EF99356CB424C5BDA7859470AE2AD6FFA87F93E1001CE36DDF34",
     "E244CED65BF5E61EC2D87763EDD740BBABE299D7F94C1BF70AA9F44E05EA74146F71547939F1205D",
-    "144851010B11AAF2AAAF9D4259B24F3944A8C565766FB9FE83DDCC9C67292AE36CB0C3E130A4BA1D"
+    "144851010B11AAF2AAAF9D4259B24F3944A8C565766FB9FE83DDCC9C67292AE36CB0C3E130A4BA1D",
+    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248"
   ],
   "name": "Parallel Mix & Match",
   "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
@@ -13,7 +14,7 @@
   "website": null,
   "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
   "scenarioCount": 0,
-  "investigatorCount": 9,
+  "investigatorCount": 10,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -630,11 +631,104 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Rex Murphy (Non-Taboo)",
+          "cards": [
+            {
+              "id": "72065346-64d5-4e40-8194-a5ad157ccfd1",
+              "count": 1,
+              "front": {
+                "Name": "078 Rex Murphy || front std back-1.png",
+                "ID": "44A6644D58AC14C1B089A070240747E8",
+                "SourceID": "9CF9B8313C55E4321F89A68A35E7B4CC2E0B3168",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "078 Rex Murphy || front std back-2.png",
+                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
+                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b050052a-f4b0-4f09-9c6c-e62c1bf907e3",
+              "count": 1,
+              "front": {
+                "Name": "078 Rex Murphy std front || back-1.png",
+                "ID": "BB5FC7A4C23219967F544FD7C46162B2",
+                "SourceID": "E543A8DC95EF7F957EBCE1028C0F8E41464D0832",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "078 Rex Murphy std front || back-2.png",
+                "ID": "FD71A22DEC5935EF5750B40016768CF5",
+                "SourceID": "BE3E38476CE5196E41972423F3B163D4204006FC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Rex Murphy (Taboo)",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "72065346-64d5-4e40-8194-a5ad157ccfd1",
+              "count": 1,
+              "front": {
+                "Name": "078 Rex Murphy || front std back-1.png",
+                "ID": "44A6644D58AC14C1B089A070240747E8",
+                "SourceID": "9CF9B8313C55E4321F89A68A35E7B4CC2E0B3168",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "078 Rex Murphy || front std back-2.png",
+                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
+                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "54693736-1e92-4497-bf41-db19cd97bbc5",
+              "count": 1,
+              "front": {
+                "Name": "078 Rex Murphy taboo front || back-1.png",
+                "ID": "59B08A2037BEA0F7624772D6AD5FB41A",
+                "SourceID": "E37778D17F235B2D3B937803889BED1BD94BF358",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "078 Rex Murphy taboo front || back-2.png",
+                "ID": "FD71A22DEC5935EF5750B40016768CF5",
+                "SourceID": "BE3E38476CE5196E41972423F3B163D4204006FC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
   "updated": "2024-01-04T21:15:01.316Z",
-  "hash": "9832f4ceb6e0fbe40c9c1772dcc81d3fba560fb5037f86c4644a644f2d46549d"
+  "hash": "88222c504d05a56e05eb03a85ce395c4cdfb7d30fd1fa0863cd2e9cb0050bc10"
 }
