@@ -5,11 +5,11 @@
   ],
   "name": "Parallel-Ermittler und Challenge-Szenarios",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators.",
-  "artist": "Magali Villeneuve",
+  "artist": "Tony Foti, Rob Laskey",
   "info": null,
   "website": "https://www.fantasyflightgames.com/en/news/2020/5/5/beyond-our-dimension/",
-  "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
-  "scenarioCount": 0,
+  "cardsLink": null,
+  "scenarioCount": 7,
   "investigatorCount": 8,
   "authors": [
     "Fantasy Flight Games"
@@ -28,7 +28,7 @@
       "name": "Parallel-Ermittler und Challenge-Szenarios",
       "parts": [
         {
-          "name": "Parallel-Ermittler ",
+          "name": "Parallel-Ermittler Roland Banks",
           "cards": [
             {
               "count": 1,
@@ -181,7 +181,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Streng nach Vorschrift (Szenario für Roland Banks)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -276,7 +283,13 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Daisy Walker",
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -333,7 +346,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Lies oder Stirb (Szenario für Daisy Walker)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -409,7 +429,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Skids O'Toole",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -466,7 +493,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Alles oder Nichts (Szenario für Skids O'Toole)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -637,7 +671,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Agnes Baker",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -694,7 +735,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Böses Blut (Szenario für Agnes Baker)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -770,7 +818,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Wendy Adams",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -846,7 +901,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Die Rote Flut (Szenario für Wendy Adams)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -941,7 +1003,13 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Zoey Samaras",
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -998,7 +1066,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Jim Culver",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -1093,7 +1168,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Zur Ruhe gebettet (Szenario für Jim Culver)",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -1245,7 +1327,14 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Ashcan Pete",
+          "enabled": true,
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -1311,5 +1400,5 @@
   ],
   "created": "2020-05-05T04:45:26.681Z",
   "updated": "2023-12-20T15:16:08.848Z",
-  "hash": "c7d91879eb51b9b6a88dec03329ea8844d99c03c62ba76ce6757a4ff1c28bd83"
+  "hash": "d1de37432d6abf4a8c03bf7c4e545af20a58c3d28ccac6c43db2900e71e90658"
 }
