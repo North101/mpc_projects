@@ -10,16 +10,17 @@
     "D2932C461A919DBAF7EC282829030F398D5478DF0D233CC41141CE9BDC04B0FA605D0B1CFB9D10D2",
     "6487AAE642B88A83B1CA8193D2992FE4DA25A529923F389324E8C014740437A7172AF1D3E0143CC3",
     "6817D3B6D80D57C6D7152E8DFC6A124BCFA1DBE26BE8F94F987E4BA5C9B4C83D809EB8E803B8DA93",
-    "D6C15BEEE2F1D8E18571CC23C26438A11B6A89C1CEDFA676006760B614BA2F222D3B73DE263F140C"
+    "D6C15BEEE2F1D8E18571CC23C26438A11B6A89C1CEDFA676006760B614BA2F222D3B73DE263F140C",
+    "2DCAB1AAA5F031A7ACA66073E7F2C13B1A92F900EF27E26C0827C54457842424AE4E1C1F8855A66F"
   ],
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators, some with special challenge scenarios!",
-  "artist": "Tony Foti, Rob Laskey",
+  "artist": "Falk Haensel",
   "info": "Note that Parallel Mix & Match is a separate project, so check it out if you want all the possible front/back combos.",
   "website": "https://www.fantasyflightgames.com/en/news/2020/5/5/beyond-our-dimension/",
   "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
-  "scenarioCount": 0,
-  "investigatorCount": 9,
+  "scenarioCount": 7,
+  "investigatorCount": 10,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -2111,11 +2112,77 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Rex Murphy",
+          "cards": [
+            {
+              "id": "3bea61d5-9de4-490d-afd3-9482d3371748",
+              "count": 1,
+              "front": {
+                "Name": "078 Parallel Rex Murphy-1.png",
+                "ID": "44A6644D58AC14C1B089A070240747E8",
+                "SourceID": "9CF9B8313C55E4321F89A68A35E7B4CC2E0B3168",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "078 Parallel Rex Murphy-2.png",
+                "ID": "FD71A22DEC5935EF5750B40016768CF5",
+                "SourceID": "BE3E38476CE5196E41972423F3B163D4204006FC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d7c3839c-2ea8-4e3f-ba66-f390fc061652",
+              "count": 1,
+              "front": {
+                "Name": "079 Advanced Search for the Truth-1.png",
+                "ID": "AA6112EBBAF9A8D160B3131FFBAA3ADB",
+                "SourceID": "D9E44577CB9E1FE7DB458F0BD79FC76EB21DB402",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "655f7a1c-f76f-44f6-85c7-3e716c995ad9",
+              "count": 1,
+              "front": {
+                "Name": "080 Advanced Rex's Curse-1.png",
+                "ID": "85C19D88079E45B17023843AB563572F",
+                "SourceID": "AE86E106B3F3C8A4AFBD770D24CB74D49B5888E4",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-01-05T02:50:35.085Z",
-  "hash": "977eaa64f9db5571eaee69d4e3eaae5aa924b141862d4c5f03f2651c05957d5f"
+  "updated": "2024-03-22T21:50:35.085Z",
+  "hash": "254763154654b2c235fd46b142d95aa44b6e0c2781c2b6e5f53e1ef5fb10de5f"
 }
