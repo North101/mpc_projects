@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Row from 'react-bootstrap/esm/Row'
 import { AppContainer } from './AppContainer'
-import { HelpFaq } from './HelpFaq'
 import { HelpText } from './HelpText'
 
 function* nodeIterator(result: XPathResult) {
@@ -73,7 +72,6 @@ export const HelpPage = () => {
         </aside>
         <div className='tldr col-md-9'>
           <HelpText />
-          <HelpFaq />
         </div>
       </Row>
     </AppContainer>

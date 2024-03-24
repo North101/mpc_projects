@@ -68,7 +68,7 @@ export const IntroPage = () => (
             </p>
             <p>
               <em>If “you reject your fate,”</em> proceed to{' '}
-              <a href='/help#why' title='Why all this?'>Intro&nbsp;2</a>.
+              <a href='/faq#why' title='Why all this?'>Intro&nbsp;2</a>.
             </p>
             <p>
               <em>If “you have been here before,”</em> proceed to{' '}

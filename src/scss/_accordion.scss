@@ -5,7 +5,7 @@ h3.accordion-header {
 }
 
 .accordion-button {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-slab;
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.54;
@@ -25,6 +25,21 @@ h3.accordion-header {
   }
 }
 
+.accordion-item button,
+.accordion-body {
+  padding-left: 0;
+}
+
 .accordion-body {
   padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .accordion-body {
+    padding-right: 4rem;
+  }
+
+  .accordion-button > span {
+    margin-right: 2rem;
+  }
 }

@@ -399,7 +399,7 @@ export const HelpText = () => (
       </li>
     </ol>
     <section id='images-tab'>
-      <h2 className='display-4'>Create a Project from Card Images</h2>
+      <h2 id='project-create' className='display-4'>Create a Project from Card Images</h2>
       <h3 id='image-prep'>Preparing Images for Upload</h3>
       <ol>
         <li>
@@ -628,7 +628,7 @@ export const HelpText = () => (
         If you did not check the <strong>Upload project?</strong> checkbox,
         continue to{' '}
         <a href='#creator-combine-edit'>Combining and Editing Projects</a>.
-        Otherwise skip to <a href='creator-view'>Viewing Your Project on MPC</a>.
+        Otherwise skip to <a href='#creator-view'>Viewing Your Project on MPC</a>.
       </p>
       <h3 id='creator-combine-edit'>Combining and Editing Projects (Optional)</h3>
       <p>
