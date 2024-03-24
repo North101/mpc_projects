@@ -85,6 +85,7 @@ button.download {
   margin-left: 4px;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+  flex-shrink: 0;
 }
 
 .icon-dl {
@@ -97,6 +98,7 @@ button.changelog {
   width: 32px;
   height: 32px;
   align-self: start;
+  flex-shrink: 0;
 }
 
 .icon-changelog {
