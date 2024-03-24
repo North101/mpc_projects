@@ -1,7 +1,8 @@
 {
   "version": 4,
   "projectId": [
-    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7"
+    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7",
+    "C5EC87D77C30E4E00E33395FA1CBCB1FD4E3624AFAFEB07F9BB1E3A0340924E478826528343085A7"
   ],
   "name": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung",
   "description": "A fan-made upgrade expansion adding new supplementary content to the entire The Innsmouth Conspiracy campaign.",
@@ -29,7 +30,7 @@
       "name": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung",
       "parts": [
         {
-          "name": "Inoffizielle RTTIC",
+          "name": "Rückkehr zu: Die Innsmouth-Verschwörung Spielerkarten",
           "cards": [
             {
               "count": 2,
@@ -339,8 +340,8 @@
               "count": 1,
               "front": {
                 "Name": "017-Verflucht-1.png",
-                "ID": "1C575159C9620D18B7C9BBC7E841268D",
-                "SourceID": "D64AC8160C52E0BF51389F1F52DFAAD46EE1F945",
+                "ID": "989920760256E5C547D2AF2A4C28B16C",
+                "SourceID": "3B4ADE4CB6F61548CBB3139DC402622BEAE307D9",
                 "Exp": "png",
                 "Width": 1650,
                 "Height": 2250
@@ -353,7 +354,13 @@
                 "Width": 826,
                 "Height": 1141
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Rückkehr zu: Die Innsmouth-Verschwörung Begegnungskarten",
+          "cards": [
             {
               "count": 1,
               "front": {
@@ -586,8 +593,8 @@
               "count": 4,
               "front": {
                 "Name": "030-Innsmouths Einfluss-x4-1.png",
-                "ID": "6447DC36BB452280ADE4286F0EAE39F6",
-                "SourceID": "136C269143B69FA0187FE9918D45052E1F8CE9B1",
+                "ID": "1FBA9905613B2B8E107091DF8D2D6F88",
+                "SourceID": "981F1B672ECCFC9EE6FF0F22B3F752D6EF563878",
                 "Exp": "png",
                 "Width": 1650,
                 "Height": 2250
@@ -784,8 +791,8 @@
               },
               "back": {
                 "Name": "040-Schrecken am Falcon Point v2-2.png",
-                "ID": "AB674F365CB5E907B0EBA50B60CE5990",
-                "SourceID": "8915CE40D21E7199D62357114540721FBC69AA01",
+                "ID": "6A40B9775C9B814F8D24B00420B3067B",
+                "SourceID": "FB42B655D91BD404A83C56338BA74FCC4E602DB0",
                 "Exp": "png",
                 "Width": 1650,
                 "Height": 2250
@@ -1156,8 +1163,8 @@
               "count": 2,
               "front": {
                 "Name": "060-Ruf des Meeres-x2-1.png",
-                "ID": "25EFFC875115CD300C18CE7DB10CD3F5",
-                "SourceID": "E8D8E838C836F74484ECC14BDF51E9B20648B876",
+                "ID": "A683D51404655D05D1A23C2AB930DB21",
+                "SourceID": "96695B90710217D203BD417B052AFFC142EEBED2",
                 "Exp": "png",
                 "Width": 1650,
                 "Height": 2250
@@ -1311,6 +1318,6 @@
     }
   ],
   "created": "2023-07-06T04:45:26.680Z",
-  "updated": "2023-12-20T15:22:41.519Z",
+  "updated": "2024-03-24T12:42:41.519Z",
   "hash": "ec845c7bdc8655d475a1259dc003b3a36f7fecb316dea7519d6940cc34a5b630"
 }
