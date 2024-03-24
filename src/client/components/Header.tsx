@@ -22,6 +22,7 @@ export const Header = ({ setSearch }: HeaderProps) => (
           <NavLink href='/intro'>Intro</NavLink>
           <NavLink href='/projects'>Projects</NavLink>
           <NavLink href='/help'>Help</NavLink>
+          <NavLink href='/faq'>FAQ</NavLink>
           <NavLink href='/about'>About</NavLink>
           <Form className='ms-lg-4 ms-xxl-5 me-2 search'>
             <Form.Control
