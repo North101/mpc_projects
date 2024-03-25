@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+    env_file:
+      - .env
+
+  dev:
+    extends: app
+    build:
+      args:
+        BUILD: development
+    entrypoint: [ "yarn", "dev" ]
+    volumes:
+      - ./projects:/app/projects
+      - ./public:/app/public
+      - ./src:/app/src
+      - ./views:/app/views
+      - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
+      - ./index.html:/app/index.html
+      - ./vite.config.ts:/app/vite.config.ts
+      - ./vite.config.server.ts:/app/vite.config.server.ts
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./tsconfig.node.json:/app/tsconfig.node.json

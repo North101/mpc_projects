@@ -42,6 +42,13 @@ app.post('/set_cookie', async (req, res) => {
   }
 })
 
+ViteExpress.config({
+  inlineViteConfig: {
+    build: {
+      outDir: './dist/client'
+    }
+  },
+})
 ViteExpress.listen(app, config.port, () =>
   console.log(`Server is listening on port ${config.port}...`)
 )
