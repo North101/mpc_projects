@@ -5,15 +5,16 @@ on:
     branches: ['master']
 
 env:
-  REGISTRY: ${{ secrets.REGISTRY }}
-  IMAGE_NAME: ${{ github.repository }}
+  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+  DOCKER_REGISTRY: ${{ vars.DOCKER_REGISTRY }}
+  DOCKER_IMAGE: ${{ vars.DOCKER_IMAGE }}
+  DOCKER_NAME: ${{ vars.DOCKER_NAME }}
 
   SSH_HOST: ${{ secrets.SSH_HOST }}
   SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
   SSH_KEY: ${{ secrets.SSH_KEY }}
   SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
-
-  DOCKER_NAME: ${{ github.event.repository.name }}
 
 jobs:
   build-and-push-image:
@@ -27,14 +28,14 @@ jobs:
       - name: Log in to the Container registry
         uses: docker/login-action@v3
         with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ${{ env.DOCKER_REGISTRY }}
+          username: ${{ env.DOCKER_USERNAME }}
+          password: ${{ env.DOCKER_PASSWORD }}
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_IMAGE }}
           tags: |
             type=raw,value=latest,enable=true
             type=sha
@@ -60,6 +61,6 @@ jobs:
           passphrase: ${{ env.SSH_PASSPHRASE }}
           script: |
             # Login to registry
-            docker login -u ${{ github.repository_owner }} -p ${{ secrets.GITHUB_TOKEN }} ${{ env.REGISTRY }}
+            docker login -u ${{ env.DOCKER_USERNAME }} -p ${{ env.DOCKER_PASSWORD }} ${{ env.DOCKER_REGISTRY }}
             docker compose pull ${{ env.DOCKER_NAME }}
             docker compose up -d
