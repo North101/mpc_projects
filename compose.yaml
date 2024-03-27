@@ -10,9 +10,7 @@ services:
   dev:
     extends: app
     build:
-      args:
-        BUILD: development
-    entrypoint: [ "yarn", "dev" ]
+      dockerfile: Dockerfile.dev
     volumes:
       - ./projects:/app/projects
       - ./public:/app/public
@@ -20,6 +18,5 @@ services:
       - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
       - ./index.html:/app/index.html
       - ./vite.config.ts:/app/vite.config.ts
-      - ./vite.config.server.ts:/app/vite.config.server.ts
       - ./tsconfig.json:/app/tsconfig.json
       - ./tsconfig.node.json:/app/tsconfig.node.json
