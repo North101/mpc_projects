@@ -7,10 +7,11 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import { Branding } from './Branding'
 
 interface HeaderProps {
+  showSearch: boolean
   setSearch: Dispatch<SetStateAction<string>>
 }
 
-export const Header = ({ setSearch }: HeaderProps) => (
+export const Header = ({ showSearch, setSearch }: HeaderProps) => (
   <Navbar expand='lg' className='navbar-main bg-body-tertiary' sticky='top'>
     <Container>
       <Navbar.Brand href='/' className='col-xs-8 col-sm-4 d-flex justify-content-start align-items-stretch flex-shrink'>
@@ -24,14 +25,14 @@ export const Header = ({ setSearch }: HeaderProps) => (
           <NavLink href='/help'>Help</NavLink>
           <NavLink href='/faq'>FAQ</NavLink>
           <NavLink href='/about'>About</NavLink>
-          <Form className='ms-lg-4 ms-xxl-5 me-2 search'>
+          {showSearch && <Form className='ms-lg-4 ms-xxl-5 me-2 search'>
             <Form.Control
               type='search'
               placeholder='Search'
               aria-label='Search'
               onChange={e => setSearch(e.target.value)}
             />
-          </Form>
+          </Form>}
         </Nav>
       </NavbarCollapse>
     </Container>

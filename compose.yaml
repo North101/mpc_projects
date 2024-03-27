@@ -17,7 +17,6 @@ services:
       - ./projects:/app/projects
       - ./public:/app/public
       - ./src:/app/src
-      - ./views:/app/views
       - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
       - ./index.html:/app/index.html
       - ./vite.config.ts:/app/vite.config.ts

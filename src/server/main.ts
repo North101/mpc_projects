@@ -7,25 +7,16 @@ import { formatCookie, login, updateEnv } from './cron.ts'
 
 const app = express()
 
-app.set('view engine', 'ejs')
-app.use(bodyParser.urlencoded({ extended: true }))
-
-app.get('/set_cookie', (req, res) => {
-  const { code } = req.query
-
-  if (code != process.env.REFRESH_PROJECTS_CODE) {
-    return res.render('set_cookie_failed')
-  }
-  return res.render('set_cookie', {
-    code,
-  })
-})
+app.use(bodyParser.json());
 
 app.post('/set_cookie', async (req, res) => {
   const { code, cookie } = req.body
   const task = cron.getTasks().get('refreshProjects')
   if (!task || !code || code != process.env.REFRESH_PROJECTS_CODE) {
-    return res.render('set_cookie_failed')
+    return res.json({
+      success: false,
+      error: 'invalid_code',
+    })
   }
 
   updateEnv({
@@ -33,12 +24,16 @@ app.post('/set_cookie', async (req, res) => {
     REFRESH_PROJECTS_COOKIE: cookie,
   })
 
-  task.now()
-
   if (await login(config.refreshProjects!.baseUrl, formatCookie(cookie))) {
-    return res.render('set_cookie_success')
+    task.now()
+    return res.json({
+      success: true,
+    })
   } else {
-    return res.render('set_cookie_failed')
+    return res.json({
+      success: false,
+      error: 'invalid_cookie',
+    })
   }
 })
 

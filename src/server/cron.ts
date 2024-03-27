@@ -1,8 +1,6 @@
 import { load } from 'cheerio'
-import DotenvFlow from 'dotenv-flow'
 import { glob } from 'glob'
 import cron from 'node-cron'
-import fs from 'node:fs/promises'
 import path from 'node:path'
 import nodemailer from 'nodemailer'
 import { Agent, fetch, setGlobalDispatcher } from 'undici'
@@ -12,14 +10,6 @@ import { readJson } from './util.ts'
 
 setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
 
-const tryParseEnv = (filename: string) => {
-  try {
-    return DotenvFlow.parse(filename)
-  } catch (e) {
-    return {}
-  }
-}
-
 export const updateEnv = async (values: { [key: string]: string | undefined }) => {
   Object.entries(values).forEach(([key, value]) => {
     if (value == undefined) {
@@ -28,17 +18,6 @@ export const updateEnv = async (values: { [key: string]: string | undefined }) =
       process.env[key] = value
     }
   })
-
-  const env = {
-    ...tryParseEnv('.env'),
-    ...values,
-  }
-  await fs.writeFile(
-    '.env',
-    Object.entries(env)
-      .filter(([_key, value]) => value != undefined)
-      .map(([key, value]) => `${key}=${value}`).join('\n'),
-  )
 }
 
 const readProject = async (filename: string): Promise<string[]> => {
@@ -146,6 +125,7 @@ const refreshCookie = async (baseUrl: string) => {
   }
 
   const code = process.env.REFRESH_PROJECTS_CODE ?? uuidv4()
+  console.log('setting code', code)
   await updateEnv({
     REFRESH_PROJECTS_CODE: code,
   })
