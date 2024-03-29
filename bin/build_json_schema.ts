@@ -6,6 +6,21 @@ import path from 'node:path'
 import TJS from 'typescript-json-schema'
 
 
+interface ValidatorConifg {
+  action: 'validator'
+  input: string
+  type: string
+  output: string
+  ref: string
+}
+
+interface JSONConfig {
+  action: 'json'
+  input: string
+  type: string
+  output: string
+}
+
 const settings: TJS.PartialArgs = {
   required: true,
 }
@@ -24,19 +39,21 @@ const sortObjectKeys = (key: string, value: unknown) => {
 }
 
 interface BuildSchema {
+  program: TJS.Program
   filename: string
   type: string
 }
 
-interface SchemaResult extends BuildSchema {
+interface SchemaResult {
+  filename: string
+  type: string
   schema: SchemaObject
 }
 
-const buildSchema = async ({ filename, type }: BuildSchema): Promise<SchemaResult> => {
+const buildSchema = async ({ program, filename, type }: BuildSchema): Promise<SchemaResult> => {
   const files = [
     filename,
   ]
-  const program = TJS.getProgramFromFiles(files, compilerOptions, filename)
   return {
     filename,
     type,
@@ -96,32 +113,55 @@ const writeSchemaValidatorType = async ({ filename, schema, ref: name }: WriteSc
   )
 }
 
+const validatorAction = async (input: string, type: string, output: string, ref: string) => {
+  await writeSchemaValidator({
+    schema: await buildSchema({
+      program: TJS.getProgramFromFiles([input], compilerOptions),
+      filename: path.resolve(input),
+      type: type,
+    }),
+    filename: path.resolve(output),
+    ref: ref,
+  })
+}
+
+const jsonAction = async (input: string, type: string, output: string) => {
+  await writeSchemaJson({
+    schema: await buildSchema({
+      program: TJS.getProgramFromFiles([input], compilerOptions),
+      filename: path.resolve(input),
+      type: type,
+    }),
+    filename: path.resolve(output),
+  })
+}
+
+const configAction = async (filename: string) => {
+  const config: (ValidatorConifg | JSONConfig)[] = JSON.parse(await fs.readFile(filename, 'utf-8'))
+  await Promise.all([
+    config.flatMap(async item => {
+      if (item.action == 'validator') {
+        await validatorAction(item.input, item.type, item.output, item.ref)
+      } else if (item.action == 'json') {
+        await jsonAction(item.input, item.type, item.output)
+      }
+    })
+  ])
+}
+
 program
   .name('build_json_schema')
 
 program
   .command('validator <input> <type> <output> <ref>')
-  .action(async (input, type, output, ref) => {
-    await writeSchemaValidator({
-      schema: await buildSchema({
-        filename: path.resolve(input),
-        type: type,
-      }),
-      filename: path.resolve(output),
-      ref: ref,
-    })
-  })
+  .action(validatorAction)
 
 program
   .command('json <input> <type> <output>')
-  .action(async (input, type, output) => {
-    await writeSchemaJson({
-      schema: await buildSchema({
-        filename: path.resolve(input),
-        type: type,
-      }),
-      filename: path.resolve(output),
-    })
-  })
+  .action(jsonAction)
+
+program
+  .command('config <filename>')
+  .action(configAction)
 
 program.parse()

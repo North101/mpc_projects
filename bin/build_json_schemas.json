@@ -1,0 +1,22 @@
+[
+    {
+        "action": "json",
+        "input": "./vite-plugin-project-builder/types/website_projects/latest.ts",
+        "type": "Project",
+        "output": "./projects.schema.json"
+    },
+    {
+        "action": "validator",
+        "input": "./vite-plugin-project-builder/types/website_projects/union.ts",
+        "type": "ProjectUnion",
+        "output": "./vite-plugin-project-builder/types/website_projects/validate.js",
+        "ref": "validate"
+    },
+    {
+        "action": "validator",
+        "input": "./vite-plugin-project-builder/types/extension_projects/union.ts",
+        "type": "ProjectUnion",
+        "output": "./vite-plugin-project-builder/types/extension_projects/validate.js",
+        "ref": "validate"
+    }
+]
