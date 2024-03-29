@@ -17,3 +17,4 @@ services:
       - ./src:/app/src
       - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
       - ./index.html:/app/index.html
+      - ./projects.schema.json:/app/projects.schema.json
