@@ -5,10 +5,10 @@
   "version": "0.9.0",
   "scripts": {
     "dev": "tsx --watch-path=src/server src/server/main.ts",
-    "prebuild": "./bin/build_json_schema.sh",
+    "build:schemas": "./bin/build_json_schema.sh",
     "build:client": "vite build",
     "build:server": "vite build -c vite.config.server.ts",
-    "build": "yarn run build:client && yarn run build:server",
+    "build": "yarn run build:schemas && yarn run build:client && yarn run build:server",
     "build:update-projects": "UPDATE_PROJECTS=true yarn run build",
     "start": "node dist/server/main.js",
     "lint": "eslint . --ext ts.tsx --report-unused-disable-directives"
