@@ -1,4 +1,3 @@
-import 'dotenv-flow/config'
 import envVar from 'env-var'
 
 export default {
