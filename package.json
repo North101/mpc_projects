@@ -5,7 +5,7 @@
   "version": "0.9.0",
   "scripts": {
     "dev": "yarn build:schemas && tsx --watch-path=src/server src/server/main.ts",
-    "build:schemas": "./bin/build_json_schema.sh",
+    "build:schemas": "tsx bin/build_json_schema.ts config bin/build_json_schemas.json",
     "build:client": "vite build",
     "build:server": "vite build -c vite.config.server.ts",
     "build": "yarn run build:schemas && yarn run build:client && yarn run build:server",
