@@ -32,18 +32,19 @@ RUN chown node:node .
 
 USER node
 
+COPY bin/ ./bin/
 COPY package.json .
-COPY projects .
-COPY public .
-COPY src .
-COPY vite-plugin-project-builder .
+COPY projects/ ./projects/
+COPY public/ ./public
+COPY src/ ./src/
+COPY vite-plugin-project-builder/ ./vite-plugin-project-builder/
 COPY index.html .
 COPY vite.config.ts .
 COPY tsconfig.json .
 COPY tsconfig.node.json .
-COPY --from=dev_deps --chown=node /app/node_modules ./node_modules
+COPY --from=dev_deps --chown=node /app/node_modules ./node_modules/
 
-CMD yarn dev
+CMD yarn build:schemas && yarn dev
 
 FROM base as prod
 
@@ -52,7 +53,7 @@ ENV NODE_ENV=production
 USER node
 
 COPY package.json .
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=build /app/dist ./dist
+COPY --from=deps /app/node_modules ./node_modules/
+COPY --from=build /app/dist ./dist/
 
 CMD yarn start
