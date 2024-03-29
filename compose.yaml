@@ -10,13 +10,10 @@ services:
   dev:
     extends: app
     build:
-      dockerfile: Dockerfile.dev
+      target: dev
     volumes:
       - ./projects:/app/projects
       - ./public:/app/public
       - ./src:/app/src
       - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
       - ./index.html:/app/index.html
-      - ./vite.config.ts:/app/vite.config.ts
-      - ./tsconfig.json:/app/tsconfig.json
-      - ./tsconfig.node.json:/app/tsconfig.node.json
