@@ -12,9 +12,11 @@ services:
     build:
       target: dev
     volumes:
+      - ./bin:/app/bin
       - ./projects:/app/projects
       - ./public:/app/public
       - ./src:/app/src
       - ./vite-plugin-project-builder:/app/vite-plugin-project-builder
       - ./index.html:/app/index.html
       - ./projects.schema.json:/app/projects.schema.json
+      - ./vite.config.ts:/app/vite.config.ts
