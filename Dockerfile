@@ -24,7 +24,11 @@ COPY . .
 
 RUN yarn run build
 
-FROM base as dev
+FROM base as shared
+
+COPY package.json .
+
+FROM shared as dev
 
 ENV NODE_ENV=development
 
@@ -32,7 +36,6 @@ RUN chown node:node .
 
 USER node
 
-COPY package.json .
 COPY tsconfig.json .
 COPY tsconfig.node.json .
 COPY --from=dev_deps --chown=node /app/node_modules ./node_modules
@@ -47,13 +50,12 @@ VOLUME /app/vite.config.ts
 
 CMD yarn dev
 
-FROM base as prod
+FROM shared as prod
 
 ENV NODE_ENV=production
 
 USER node
 
-COPY package.json .
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
 

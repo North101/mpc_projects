@@ -1,20 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useQuery } from '@tanstack/react-query'
 import { WebsiteProjects } from './types'
 
-let projects: Promise<WebsiteProjects.Info[]>
-
-const fetchProjects = async (): Promise<WebsiteProjects.Info[]> => {
-  const r = await fetch('/projects.json')
-  return await r.json() as WebsiteProjects.Info[]
-}
-
 export const useProjects = () => {
-  const [data, setData] = useState<WebsiteProjects.Info[] | undefined>()
-
-  useEffect(() => {
-    projects ??= fetchProjects()
-    projects.then(setData)
-  }, [])
-
-  return data
+  return useQuery({
+    queryKey: ['projects'],
+    queryFn: () => fetch('/projects.json').then(async (res) => res.json()),
+    select: (data) => data as unknown as WebsiteProjects.Info[],
+    staleTime: Infinity,
+  })
 }

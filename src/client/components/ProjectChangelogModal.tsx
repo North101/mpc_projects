@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react"
+import { useQuery } from "@tanstack/react-query"
 import Button from "react-bootstrap/esm/Button"
 import Modal from "react-bootstrap/esm/Modal"
+import Markdown from "react-markdown"
 import { WebsiteProjects } from "../types"
 import { CircularProgressIndicator } from "./CircularProgressIndicator"
-import Markdown from "react-markdown"
 
 
 interface ProjectChangelogProps {
@@ -11,22 +11,19 @@ interface ProjectChangelogProps {
 }
 
 export const useChangelog = (project: WebsiteProjects.Info) => {
-  const [data, setData] = useState<string | undefined>()
-
-  useEffect(() => {
-    if (!project.changelog) return setData('')
-    fetch(`/projects/${project.changelog}`).then(async (r) => setData(await r.text()))
-  }, [])
-
-  return data
+  return useQuery({
+    queryKey: ['projects', project.changelog],
+    queryFn: () => fetch(`/projects/${project.changelog}`).then((res) => res.text()),
+    staleTime: Infinity,
+  })
 }
 
 export const ProjectChangelog = ({ project }: ProjectChangelogProps) => {
-  const changelog = useChangelog(project);
-  if (changelog == undefined) {
+  const { isLoading, data } = useChangelog(project);
+  if (isLoading == undefined) {
     return <CircularProgressIndicator />
   }
-  return <Markdown>{changelog}</Markdown>
+  return <Markdown>{data}</Markdown>
 }
 
 

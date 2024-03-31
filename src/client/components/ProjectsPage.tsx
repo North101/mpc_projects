@@ -4,8 +4,8 @@ import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { FilteredProjectListContainer } from './FilteredProjectList'
 
 export const ProjectsPage = () => {
-  const projects = useProjects()
-  if (projects == undefined) {
+  const { isLoading, data } = useProjects()
+  if (isLoading) {
     return (
       <AppContainer>
         <CircularProgressIndicator />
@@ -15,7 +15,7 @@ export const ProjectsPage = () => {
 
   return (
     <AppContainer>
-      <FilteredProjectListContainer projects={projects} />
+      <FilteredProjectListContainer projects={data ?? []} />
     </AppContainer>
   )
 }

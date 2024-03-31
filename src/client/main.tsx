@@ -1,3 +1,4 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route } from 'wouter'
@@ -9,6 +10,8 @@ import { HelpPage } from './components/HelpPage'
 import { HomePage } from './components/HomePage'
 import { IntroContext, IntroPage, useIntro } from './components/IntroPage'
 import { ProjectsPage } from './components/ProjectsPage'
+
+const queryClient = new QueryClient()
 
 const Router = () => <>
   <Route path='/'><HomePage /></Route>
@@ -23,9 +26,11 @@ const Router = () => <>
 const App = () => {
   const [showIntro, setShowIntro] = useIntro()
   return (
-    <IntroContext.Provider value={[showIntro, setShowIntro]}>
-      <Router />
-    </IntroContext.Provider>
+    <QueryClientProvider client={queryClient}>
+      <IntroContext.Provider value={[showIntro, setShowIntro]}>
+        <Router />
+      </IntroContext.Provider>
+    </QueryClientProvider>
   )
 }
 
