@@ -11,14 +11,14 @@ interface SearchProjectListProps {
 }
 
 const SearchProjectList = ({ search }: SearchProjectListProps) => {
-  const projects = useProjects()
-  if (projects == undefined) {
+  const { isLoading, data } = useProjects()
+  if (isLoading) {
     return <CircularProgressIndicator />
   }
 
   return (
     <ProjectList
-      projects={projects.filter(e => e.name.toLowerCase().includes(search.toLowerCase()))}
+      projects={data?.filter(e => e.name.toLowerCase().includes(search.toLowerCase())) ?? []}
     />
   )
 }
