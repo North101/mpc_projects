@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "562B132E93D4E524ABFAC338CC27D4517CF9E9016E159C43E6A5C3EFC02A30AEEED0A48E7BF0DBDD"
-  ],
+  "version": 5,
+  "projectIds": {
+    "562B132E93D4E524ABFAC338CC27D4517CF9E9016E159C43E6A5C3EFC02A30AEEED0A48E7BF0DBDD": "Call of the Plaguebearer"
+  },
   "name": "Call of the Plaguebearer",
   "description": "A Resident Evil-inspired 8-scenario campaign through a plague-struck Arkham, set over the course of a single day.",
   "artist": "Robin Olausson",

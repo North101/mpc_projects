@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "C0A63DC7504B8A0D1F5C3333733D2FA1EE40EE6ED1579894EF81347DB8ED62982006942271C44635"
-  ],
+  "version": 5,
+  "projectIds": {
+    "C0A63DC7504B8A0D1F5C3333733D2FA1EE40EE6ED1579894EF81347DB8ED62982006942271C44635": "Das Fest"
+  },
   "name": "Das Fest",
   "description": "You are called to your ancestral home of Kingsport, just in time for Christmas. Based on Lovecraft’s “The Festival.”",
   "artist": "Les Edwards",

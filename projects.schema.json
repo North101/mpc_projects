@@ -139,11 +139,11 @@
       },
       "type": "array"
     },
-    "projectId": {
-      "items": {
+    "projectIds": {
+      "additionalProperties": {
         "type": "string"
       },
-      "type": "array"
+      "type": "object"
     },
     "scenarioCount": {
       "type": "number"
@@ -164,7 +164,7 @@
       "type": "string"
     },
     "version": {
-      "const": 4,
+      "const": 5,
       "type": "number"
     },
     "website": {
@@ -182,7 +182,7 @@
     "investigatorCount",
     "name",
     "options",
-    "projectId",
+    "projectIds",
     "scenarioCount",
     "statuses",
     "tags",

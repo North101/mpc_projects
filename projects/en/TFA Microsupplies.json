@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B"
-  ],
+  "version": 5,
+  "projectIds": {
+    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B": "TFA Microsupplies"
+  },
   "name": "TFA Microsupplies",
   "description": "TFA supplies on micro-sized cards, half the size of investigator minis. Plus, a tiny Summoned Servitor for moving your summoned friend around on its own.",
   "artist": null,

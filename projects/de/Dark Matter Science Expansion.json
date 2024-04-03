@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "9B451350FE2C7690CA8D8130197B991CEA2E9289FCE716D22321A8BBC3A5202F9F6A28583D803C10"
-  ],
+  "version": 5,
+  "projectIds": {
+    "9B451350FE2C7690CA8D8130197B991CEA2E9289FCE716D22321A8BBC3A5202F9F6A28583D803C10": "Dunkle Materie Wissenschaftserweiterung"
+  },
   "name": "Dunkle Materie Wissenschaftserweiterung",
   "description": "A science-themed expansion for Dark Matter, including a custom Kate Winthrop investigator.",
   "artist": "Aleksey Litvishkov",

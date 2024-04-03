@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD"
-  ],
+  "version": 5,
+  "projectIds": {
+    "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD": "Celtic Rising"
+  },
   "name": "Celtic Rising",
   "description": "A Celtic-themed 5-part cycle with a similar complexity to Dunwich and Carcosa.",
   "artist": "Shaliara",

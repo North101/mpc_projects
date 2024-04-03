@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "BBC801D90E974E1222AB25C1A6EE2DA54790B7141EA5769657E7788EC8D34F16D06C51B26D7C736C"
-  ],
+  "version": 5,
+  "projectIds": {
+    "BBC801D90E974E1222AB25C1A6EE2DA54790B7141EA5769657E7788EC8D34F16D06C51B26D7C736C": "Arkham Incidents"
+  },
   "name": "Arkham Incidents",
   "description": "A set of five Arkham-based side-scenarios, each focusing on and synergizing with an existing ally card from a different class.",
   "artist": "T. Jedruszek, J. Cairós, S. Winters, J.L. Johnson, A. Folny, C. Boyer",

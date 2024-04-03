@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "27E9DD66F2F423F7499754954A5EC3C823DDE6282C9D95A26ED7FF590B08164E4809292CCEBDB004"
-  ],
+  "version": 5,
+  "projectIds": {
+    "27E9DD66F2F423F7499754954A5EC3C823DDE6282C9D95A26ED7FF590B08164E4809292CCEBDB004": "TFA Supply Cards"
+  },
   "name": "TFA Supply Cards",
   "description": "TFA supplies on standard-sized cards, designed to look like neutral assets. Optionally add RTTFA supplies if needed. The default quantites cover every possible combination a party of four might choose, so you may want to print fewer of some or all cards depending on your party size and preferences.",
   "artist": null,

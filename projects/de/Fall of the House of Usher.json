@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "3498690583724757E0A5C22F0BB92511368A377FCC9E473FDBD72D095E2F4B079CB6EBF1B2106601"
-  ],
+  "version": 5,
+  "projectIds": {
+    "3498690583724757E0A5C22F0BB92511368A377FCC9E473FDBD72D095E2F4B079CB6EBF1B2106601": "Der Untergang des Hauses Usher"
+  },
   "name": "Der Untergang des Hauses Usher",
   "description": "Uncover and destroy an ancient evil from a crumbling house in this standalone based on the Edgar Allen Poe short story.",
   "artist": "Daniel Danger",

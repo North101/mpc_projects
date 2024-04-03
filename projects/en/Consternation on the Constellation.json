@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "88663139EC037B81F295E5EECFB6AFA1A41193AC08D3C3602E3242552B183ACDA7BA506B1F2AB911"
-  ],
+  "version": 5,
+  "projectIds": {
+    "88663139EC037B81F295E5EECFB6AFA1A41193AC08D3C3602E3242552B183ACDA7BA506B1F2AB911": "Consternation on the Constellation"
+  },
   "name": "Consternation on the Constellation",
   "description": "What begins as an investigation at sea takes a terrifying turn when a group of cultists seize control of the ship. Can you stop their plans before something unspeakable is called from the deep?",
   "artist": "Ethan Patrick Harris",

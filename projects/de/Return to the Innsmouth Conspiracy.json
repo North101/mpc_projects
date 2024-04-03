@@ -1,9 +1,9 @@
 {
-  "version": 4,
-  "projectId": [
-    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7",
-    "C5EC87D77C30E4E00E33395FA1CBCB1FD4E3624AFAFEB07F9BB1E3A0340924E478826528343085A7"
-  ],
+  "version": 5,
+  "projectIds": {
+    "5F2AFBCECB3ECBC4AAC2040A1181FFFAAC4C83BCE02FBFC9AD651B2030C0A4316B182CFBA9D077B7": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung",
+    "C5EC87D77C30E4E00E33395FA1CBCB1FD4E3624AFAFEB07F9BB1E3A0340924E478826528343085A7": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung"
+  },
   "name": "Inoffizielle Rückkehr zu: Die Innsmouth-Verschwörung",
   "description": "A fan-made upgrade expansion adding new supplementary content to the entire The Innsmouth Conspiracy campaign.",
   "artist": null,

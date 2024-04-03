@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "10BBA356C8E063B9C82BF9B03DE2531652BBEF963C3550E28E4A08CCF7A5FEEB13257B6A016736D4"
-  ],
+  "version": 5,
+  "projectIds": {
+    "10BBA356C8E063B9C82BF9B03DE2531652BBEF963C3550E28E4A08CCF7A5FEEB13257B6A016736D4": "Errata Patch Cards"
+  },
   "name": "Errata Patch Cards",
   "description": "These cards, with errata from the official FFG FAQs, slide underneath the original cards in play for easy reference. The back sides give a spoiler-free listing of the card(s) the errata applies to.",
   "artist": null,

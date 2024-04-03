@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "95BFD5A9B5DE7CD802D91D83F45FA23B77C4658183FFF7591157596DCEB41F91B6B93EEC19BEB3F5"
-  ],
+  "version": 5,
+  "projectIds": {
+    "95BFD5A9B5DE7CD802D91D83F45FA23B77C4658183FFF7591157596DCEB41F91B6B93EEC19BEB3F5": "The Symphony of Erich Zann"
+  },
   "name": "The Symphony of Erich Zann",
   "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
   "artist": "Ilich Henriquez",

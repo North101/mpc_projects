@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781"
-  ],
+  "version": 5,
+  "projectIds": {
+    "048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781": "The Black Stone"
+  },
   "name": "The Black Stone",
   "description": "A standalone scenario based on Robert Howard’s “The Black Stone.”",
   "artist": null,

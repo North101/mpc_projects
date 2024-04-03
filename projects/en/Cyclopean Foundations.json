@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "A7D2555D6D25450B4D9908C521CBE2DD131AC85C1D8EDFC077C5734ACC4A7825CED202AB40230E27"
-  ],
+  "version": 5,
+  "projectIds": {
+    "A7D2555D6D25450B4D9908C521CBE2DD131AC85C1D8EDFC077C5734ACC4A7825CED202AB40230E27": "Cyclopean Foundations"
+  },
   "name": "Cyclopean Foundations",
   "description": "An 8-part campaign drawing from Lovecraft’s “Call of Cthulhu” and the Eldritch Horror board game.",
   "artist": "Anton Kurbatov",

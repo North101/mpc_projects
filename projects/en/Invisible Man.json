@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "94C63288CE9CECE1B37B872FC4FE2436D2CD3382B4116BE47B619220BFB22B369FFE352A15D1AF2B"
-  ],
+  "version": 5,
+  "projectIds": {
+    "94C63288CE9CECE1B37B872FC4FE2436D2CD3382B4116BE47B619220BFB22B369FFE352A15D1AF2B": "The Invisible Man"
+  },
   "name": "The Invisible Man",
   "description": "A chemist is making plans to dominate the world through vile and murderous means! You must stop him… but how can you fight an invisible man? Based on the H.G. Wells novel.",
   "artist": "Jonathan Burton",

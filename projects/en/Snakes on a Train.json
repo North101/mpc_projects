@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "2B0171873D803E697F790A05DAAF381065F767A37834952E3CCCAEC092EFC40EEAFD5D8566393A80"
-  ],
+  "version": 5,
+  "projectIds": {
+    "2B0171873D803E697F790A05DAAF381065F767A37834952E3CCCAEC092EFC40EEAFD5D8566393A80": "Snakes on a Train"
+  },
   "name": "Snakes on a Train",
   "description": "An endless parody variant of Essex County Express, designed to be playable with all custom components home-printed on paper, yet Coldtoes made this pro-print version anyway.",
   "artist": "psdelux, Vlad Ricean",

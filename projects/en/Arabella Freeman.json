@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "2ED0921F7DA5592D3F187DA266792FD97432014DD240C9E2EEE770C61EFAFF896F861752E202CB93"
-  ],
+  "version": 5,
+  "projectIds": {
+    "2ED0921F7DA5592D3F187DA266792FD97432014DD240C9E2EEE770C61EFAFF896F861752E202CB93": "Arabella Freeman"
+  },
   "name": "Arabella Freeman",
   "description": "By popular demand, a gunslinging wizard inspired by the Radiant Smite art. She may be unplaytested, but she’s undeniably badass.",
   "artist": "Imad Awan",

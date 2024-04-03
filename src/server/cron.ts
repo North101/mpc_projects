@@ -1,5 +1,4 @@
 import { load } from 'cheerio'
-import { glob } from 'glob'
 import cron from 'node-cron'
 import path from 'node:path'
 import nodemailer from 'nodemailer'
@@ -7,6 +6,8 @@ import { Agent, fetch, setGlobalDispatcher } from 'undici'
 import { v4 as uuidv4 } from 'uuid'
 import config from './config.ts'
 import { readJson } from './util.ts'
+import { WebsiteProjects } from '../client/types/index.ts'
+import { glob } from 'glob'
 
 setGlobalDispatcher(new Agent({ connect: { timeout: 120_000 } }))
 
@@ -20,14 +21,18 @@ export const updateEnv = async (values: { [key: string]: string | undefined }) =
   })
 }
 
-const readProject = async (filename: string): Promise<string[]> => {
-  const project = await readJson(filename)
-  return project['projectId']
-}
-
-const readProjectList = async (projectsDir: string) => {
-  const allProjects = await glob(path.resolve(projectsDir, '**/*.json'))
-  return await Promise.all(allProjects.map(readProject)).then(e => e.flatMap(e => e))
+const readProjectList = async (): Promise<{ [projectId: string]: string }> => {
+  if (process.env.NODE_ENV == 'production') {
+    const projectData: WebsiteProjects.Info[] = await readJson(path.join('./dist/client', 'projects.json'))
+    return Object.fromEntries(projectData.flatMap(project => Object.entries(project.projectIds)))
+  } else {
+    const allProjects = await glob(path.resolve('./projects', '*/*.json'))
+    const projectIds = await Promise.all(allProjects.map(async filename => {
+      const project: WebsiteProjects.Latest.Project = await readJson(filename)
+      return Object.entries(project.projectIds)
+    }))
+    return Object.fromEntries(projectIds.flat())
+  }
 }
 
 const loadProjectPreview = async (baseUrl: string, cookie: string, projectId: string) => {
@@ -99,16 +104,17 @@ const refreshProjects = async (baseUrl: string) => {
       return
     }
 
-    const projectIds = await readProjectList('./projects')
-    if (projectIds.length == 0) {
+    const projectIds = await readProjectList()
+    const projectsLength = Object.keys(projectIds).length
+    if (projectsLength == 0) {
       console.log('No projects found')
       return
     }
 
-    console.log(`Loading ${projectIds.length} projects`)
-    for (const projectId of projectIds) {
+    console.log(`Loading ${projectsLength} projects`)
+    for (const [projectId, name] of Object.entries(projectIds)) {
       const imageIds = await loadProjectImages(baseUrl, cookie, projectId)
-      console.log(`${projectId}: Loading ${imageIds.length} images`)
+      console.log(`[${projectId}] ${name}: Loading ${imageIds.length} images`)
       await Promise.all(imageIds.map((imageId) => loadImage(baseUrl, cookie, projectId, imageId)))
       await new Promise(r => setTimeout(r, 2000))
     }

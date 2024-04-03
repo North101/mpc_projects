@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "DC6812F4C18F65470E101E34A837DF3E9479654E032BBCA080D2DC0497D0CC739B8041D4D2FF2652"
-  ],
+  "version": 5,
+  "projectIds": {
+    "DC6812F4C18F65470E101E34A837DF3E9479654E032BBCA080D2DC0497D0CC739B8041D4D2FF2652": "The War of the Worlds"
+  },
   "name": "The War of the Worlds",
   "description": "Defend Earth from a Martian invasion in this 3-part campaign based on the HG Wells book and the Orson Welles radio adaptation.",
   "artist": "Tom Kidd",

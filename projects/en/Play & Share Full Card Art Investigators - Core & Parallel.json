@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "804DA6F941847BAE1D9B582F80E0DE07650278FE982680544FE5AB2199D20F1EBCE0487F52AF695E"
-  ],
+  "version": 5,
+  "projectIds": {
+    "804DA6F941847BAE1D9B582F80E0DE07650278FE982680544FE5AB2199D20F1EBCE0487F52AF695E": "Play & Share Investigator Promos"
+  },
   "name": "Play & Share Investigator Promos",
   "description": "Full card art versions of both standard and parallel core set investigators.",
   "artist": "Jake Murray",
