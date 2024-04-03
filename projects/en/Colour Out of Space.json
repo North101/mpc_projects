@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "58C82E41C20E53CCF29C9F56A62F19FB454932E5EDBB47D5688F68A74CAAFC87774897EEC1A9A215"
-  ],
+  "version": 5,
+  "projectIds": {
+    "58C82E41C20E53CCF29C9F56A62F19FB454932E5EDBB47D5688F68A74CAAFC87774897EEC1A9A215": "The Colour Out of Space"
+  },
   "name": "The Colour Out of Space",
   "description": "A reimagining of the Lovecraft story. Updated in 2022 by Jayne Cobb.",
   "artist": "Vashar23",

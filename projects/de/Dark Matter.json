@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "C8BE31D3057E6472CF63211920E5E7DED14CF3C45C31CA6ECBA82B30D19BB9772153797937FB3DC3"
-  ],
+  "version": 5,
+  "projectIds": {
+    "C8BE31D3057E6472CF63211920E5E7DED14CF3C45C31CA6ECBA82B30D19BB9772153797937FB3DC3": "Dunkle Materie"
+  },
   "name": "Dunkle Materie",
   "description": "A puzzly 8-part deep space adventure and sequel to The Path to Carcosa.",
   "artist": null,

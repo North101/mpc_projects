@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "14D26E7DF915B5A8947127797C42CDEF6D0E3164E5E36B9BFF998539115DE6CB91BF266BF1D914B7"
-  ],
+  "version": 5,
+  "projectIds": {
+    "14D26E7DF915B5A8947127797C42CDEF6D0E3164E5E36B9BFF998539115DE6CB91BF266BF1D914B7": "Lola Hayes Rework"
+  },
   "name": "Lola Hayes Rework",
   "description": "Mix up the rules for playing Lola Hayes with a revised ability and signatures, plus a character deck built with selections from 50 role cards from all six classes.",
   "artist": "IrenHorrors",

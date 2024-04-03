@@ -1,9 +1,9 @@
 {
-  "version": 4,
-  "projectId": [
-    "37F7F67E71E436D5E56FFC98D523AF2148297B4E2BECEC68A42D5404FFADC08E6AEE7C3E857B7C47",
-    "7F7AB135F4B172C6BA4030E2ACFFDCDDD84F32DC4DD09ED57434B77E3811DE9AF0ADE8B050417FF7"
-  ],
+  "version": 5,
+  "projectIds": {
+    "37F7F67E71E436D5E56FFC98D523AF2148297B4E2BECEC68A42D5404FFADC08E6AEE7C3E857B7C47": "Council Cards",
+    "7F7AB135F4B172C6BA4030E2ACFFDCDDD84F32DC4DD09ED57434B77E3811DE9AF0ADE8B050417FF7": "Council Cards"
+  },
   "name": "Council Cards",
   "description": "Play with beta copies of the cards created on FFG’s Create-a-Card livestreams before their final versions see official release.",
   "artist": "Ethan Patrick Harris",

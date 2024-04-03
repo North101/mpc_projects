@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "6B1F6E08544C79EF5D67D9668B1F067101F58EAA81EB59111424C1B60E66BDB2B3F1A75917D51005"
-  ],
+  "version": 5,
+  "projectIds": {
+    "6B1F6E08544C79EF5D67D9668B1F067101F58EAA81EB59111424C1B60E66BDB2B3F1A75917D51005": "Machining a Mystery"
+  },
   "name": "Machining a Mystery",
   "description": "A 7-scenario cyberpunk/steampunk campaign inspired by Shadowrun.",
   "artist": null,

@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "EF2DF67E0E54FFBA47DE24969F6C46E31F1EDC2C38ED25A7A080F7C5784FCE60CA56403FE3BB3ADB"
-  ],
+  "version": 5,
+  "projectIds": {
+    "EF2DF67E0E54FFBA47DE24969F6C46E31F1EDC2C38ED25A7A080F7C5784FCE60CA56403FE3BB3ADB": "8L-08 Smith"
+  },
   "name": "8L-08 Smith",
   "description": "FFG’s 2023 April Fool’s joke taken too seriously and made available for PnP.",
   "artist": "Peter Polach",

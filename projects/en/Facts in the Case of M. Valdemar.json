@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "A30D5FD13633936E6ACCEA018C8C66046FF5CAE12618955EB28FBD256B34D8DB5D70071AEC3C4FDB"
-  ],
+  "version": 5,
+  "projectIds": {
+    "A30D5FD13633936E6ACCEA018C8C66046FF5CAE12618955EB28FBD256B34D8DB5D70071AEC3C4FDB": "The Facts in the Case of M. Valdemar"
+  },
   "name": "The Facts in the Case of M. Valdemar",
   "description": "Stop the mindbending schemes of a group of devious mesmerists in this scenario based on the Edgar Allen Poe story.",
   "artist": "Simone Murgia",

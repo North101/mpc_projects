@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "0E89C6044EC8BA82A1455DFFC73230B5D871F89B4B1ABD3452BCE782E70E5DA26384E1B2D7F23740"
-  ],
+  "version": 5,
+  "projectIds": {
+    "0E89C6044EC8BA82A1455DFFC73230B5D871F89B4B1ABD3452BCE782E70E5DA26384E1B2D7F23740": "Jumanji"
+  },
   "name": "Jumanji",
   "description": "Play through a cursed board game while surviving the perils of the jungle in this 4-part campaign based on the Chris van Allsburg book and subsequent movie.",
   "artist": "Mokhtar Saber Abdo",

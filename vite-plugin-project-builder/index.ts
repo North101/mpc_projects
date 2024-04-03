@@ -14,6 +14,7 @@ interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
 }
 
 const mapProjectInfo = (project: ProjectWithFilename): WebsiteProjects.Info => ({
+  projectIds: project.projectIds,
   filename: project.filename,
   lang: project.lang,
   image: project.image,
@@ -54,10 +55,11 @@ const mapProjectData = ({ options }: ProjectWithFilename): WebsiteProjects.Data 
 
 const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsiteProjects.Latest.Project => {
   if (project.version == 1) {
-    const { code, name, cards, ...rest } = project
+    const { projectId, code, name, cards, ...rest } = project
     return {
       ...rest,
-      version: 4,
+      version: 5,
+      projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: [{
         name,
@@ -69,10 +71,11 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
       }],
     }
   } else if (project.version == 2) {
-    const { code, name, parts, ...rest } = project
+    const { projectId, code, name, parts, ...rest } = project
     return {
       ...rest,
-      version: 4,
+      version: 5,
+      projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: [{
         name,
@@ -83,10 +86,11 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
       }],
     }
   } else if (project.version == 3) {
-    const { code, name, options, ...rest } = project
+    const { projectId, code, name, options, ...rest } = project
     return {
       ...rest,
-      version: 4,
+      version: 5,
+      projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: options.map(option => ({
         ...option,
@@ -97,6 +101,14 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
       })),
     }
   } else if (project.version == 4) {
+    const { projectId, name, ...rest } = project
+    return {
+      ...rest,
+      version: 5,
+      projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
+      name,
+    }
+  } else if (project.version == 5) {
     return project
   }
   throw Error(project)
@@ -107,8 +119,8 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   if (project.version == 1) {
     const { code, cards } = project
     return {
-      version: 4,
-      projectId: [],
+      version: 5,
+      projectIds: {},
       name,
       description: '',
       artist: null,
@@ -135,8 +147,8 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   } else if (project.version == 2) {
     const { code, parts } = project
     return {
-      version: 4,
-      projectId: [],
+      version: 5,
+      projectIds: {},
       name,
       description: '',
       artist: null,
@@ -162,8 +174,8 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   } else if (project.version == 3) {
     const { parts } = project
     return {
-      version: 4,
-      projectId: [],
+      version: 5,
+      projectIds: {},
       name,
       description: '',
       artist: null,
@@ -280,7 +292,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
       await Promise.all(projectList.map(async ({ filename, ...project }) => {
         await writeJson<WebsiteProjects.Latest.Project>(path.resolve(projectsDir, filename), {
           version: project.version,
-          projectId: project.projectId,
+          projectIds: project.projectIds,
           name: project.name,
           description: project.description,
           artist: project.artist,

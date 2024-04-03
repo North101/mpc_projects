@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "DCE36FD5F6ABF2F71898D83A43433758C7727D88861118D010F145DAE523BF9B05D7104BF2461162"
-  ],
+  "version": 5,
+  "projectIds": {
+    "DCE36FD5F6ABF2F71898D83A43433758C7727D88861118D010F145DAE523BF9B05D7104BF2461162": "Against the Wendigo"
+  },
   "name": "Against the Wendigo",
   "description": "A sequel to the Call of Cthulhu RPG’s “Alone Against the Wendigo.”",
   "artist": "Frank Victoria",

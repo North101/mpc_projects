@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45"
-  ],
+  "version": 5,
+  "projectIds": {
+    "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45": "Dark Matter Science Expansion"
+  },
   "name": "Dark Matter Science Expansion",
   "description": "A science-themed expansion for Dark Matter, including a custom Kate Winthrop investigator.",
   "artist": "Aleksey Litvishkov",

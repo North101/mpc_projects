@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "798B9EA1FE5737F619095A0EC71D43C5F527C1C9151F06D97DF713BD620AE819725CBB61231292A4"
-  ],
+  "version": 5,
+  "projectIds": {
+    "798B9EA1FE5737F619095A0EC71D43C5F527C1C9151F06D97DF713BD620AE819725CBB61231292A4": "Ages Unwound"
+  },
   "name": "Ages Unwound",
   "description": "An adventure through time. Cultists and also dinosaurs. Maybe cultists riding dinosaurs? (No. Sorry.)",
   "artist": "Wenzel Hablick",

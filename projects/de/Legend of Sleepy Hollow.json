@@ -1,9 +1,9 @@
 {
-  "version": 4,
-  "projectId": [
-    "E722269A5F9ABCF7004DFE598A13A6415A603BCEC8F2A51402366191A4DEF8B71BEC90D2049E6268",
-    "3AB0BC9319BDC0CF0E37EC4BB40DF815BF6581157468BEAA3E8B3997AD50813D8773586DE1D55F07"
-  ],
+  "version": 5,
+  "projectIds": {
+    "E722269A5F9ABCF7004DFE598A13A6415A603BCEC8F2A51402366191A4DEF8B71BEC90D2049E6268": "Die Legende von Sleepy Hollow",
+    "3AB0BC9319BDC0CF0E37EC4BB40DF815BF6581157468BEAA3E8B3997AD50813D8773586DE1D55F07": "Die Legende von Sleepy Hollow"
+  },
   "name": "Die Legende von Sleepy Hollow",
   "description": "Something wicked stirs within the haunted New York glen of Sleepy Hollow in this standalone based on the Washington Irving story.",
   "artist": "Jason Juta",

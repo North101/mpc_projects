@@ -1,9 +1,9 @@
 {
-  "version": 4,
-  "projectId": [
-    "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18",
-    "C76536A4170868683BB2157B0F9B7D170AA80E1AE4365C744C02A1228F4853C0F87F6B8CA115C352"
-  ],
+  "version": 5,
+  "projectIds": {
+    "AA7676469C431068B860088B052189EEA94BA9A30BBE63880AB24EF6E446428893FFE0B0EA740F18": "Die Sinfonie des Erich Zann",
+    "C76536A4170868683BB2157B0F9B7D170AA80E1AE4365C744C02A1228F4853C0F87F6B8CA115C352": "Die Sinfonie des Erich Zann"
+  },
   "name": "Die Sinfonie des Erich Zann",
   "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
   "artist": "Ilich Henriquez",

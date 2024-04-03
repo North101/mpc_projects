@@ -1,9 +1,9 @@
 {
-  "version": 4,
-  "projectId": [
-    "76AB63FAA2CF21F0EA3113B579E0576A0A54E6188478EB6E558AE5A20163FF2F2763855C8971DE22",
-    "C3C8F80E49A6EBA4214E97A4ED664964E0DDEA69B094031EF545F51BFAFBF65788F291B51FDA485F"
-  ],
+  "version": 5,
+  "projectIds": {
+    "76AB63FAA2CF21F0EA3113B579E0576A0A54E6188478EB6E558AE5A20163FF2F2763855C8971DE22": "Der seltsame Fall des Dr. Jekyll und Mr. Hyde",
+    "C3C8F80E49A6EBA4214E97A4ED664964E0DDEA69B094031EF545F51BFAFBF65788F291B51FDA485F": "Der seltsame Fall des Dr. Jekyll und Mr. Hyde"
+  },
   "name": "Der seltsame Fall des Dr. Jekyll und Mr. Hyde",
   "description": "Save Dr. Jekyll from Mr. Hyde and the cult of Yog-Sothoth in this standalone based on the book by Robert Louis Stevenson.",
   "artist": "Alina Kiriyenko",

@@ -6,9 +6,13 @@ export * as V1 from './v1'
 export * as V2 from './v2'
 export * as V3 from './v3'
 export * as V4 from './v4'
+export * as V5 from './v5'
 export { validate } from './validate'
 
 export interface Info {
+  projectIds: {
+    [projectId: string]: string
+  }
   filename: string
   image: string | null
   changelog: string | null

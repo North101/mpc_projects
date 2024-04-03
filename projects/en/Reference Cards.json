@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "E343AC9D0D0F47B4DBD023018FDF9C9DC84E2E678CC266E4AEF70CAE6F833808C6033AE974A3BEF9"
-  ],
+  "version": 5,
+  "projectIds": {
+    "E343AC9D0D0F47B4DBD023018FDF9C9DC84E2E678CC266E4AEF70CAE6F833808C6033AE974A3BEF9": "Reference Cards"
+  },
   "name": "Reference Cards",
   "description": "Three double-sided reference cards detailing the phases of a round, skill test timing, types of actions, the initiation sequence, and a number of tricky or sometimes misunderstood rules and terms, such as everyone’s favorite, “as if.”",
   "artist": null,

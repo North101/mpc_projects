@@ -1,8 +1,8 @@
 {
-  "version": 4,
-  "projectId": [
-    "B9BF51D3C19F24340F1FA521B9CE23B61F66752A797BB22A2B332AD890378D55981E06079709E2F1"
-  ],
+  "version": 5,
+  "projectIds": {
+    "B9BF51D3C19F24340F1FA521B9CE23B61F66752A797BB22A2B332AD890378D55981E06079709E2F1": "TFA Mini Supply Cards"
+  },
   "name": "TFA Mini Supply Cards",
   "description": "Minicard-sized TFA supplies designed to look like neutral assets. Optionally add RTTFA supplies if needed. The default quantites cover every possible combination a party of four might choose, so you may want to print fewer of some or all cards depending on your party size and preferences.",
   "artist": null,
