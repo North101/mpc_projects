@@ -1,6 +1,6 @@
-import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
-import { AppContainer } from './AppContainer'
+import { ChangeEvent, FormEvent, useEffect, useState } from 'react';
 import { useSearch } from 'wouter';
+import { AppContainer } from './AppContainer';
 
 type Result = 'success' | 'invalid_code' | 'invalid_cookie' | 'unknown' | null
 
