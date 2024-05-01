@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.19 as base
+FROM node:22-alpine3.19 as base
 
 WORKDIR /app
 
@@ -22,7 +22,7 @@ FROM dev_deps as build
 
 COPY . .
 
-RUN yarn run build
+RUN node --run build
 
 FROM base as shared
 
@@ -60,4 +60,4 @@ USER node
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
 
-CMD yarn start
+CMD node --run start
