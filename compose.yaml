@@ -20,3 +20,4 @@ services:
       - ./index.html:/app/index.html
       - ./projects.schema.json:/app/projects.schema.json
       - ./vite.config.ts:/app/vite.config.ts
+      - ./vite.config.server.ts:/app/vite.config.server.ts

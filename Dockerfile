@@ -47,6 +47,7 @@ VOLUME /app/src
 VOLUME /app/vite-plugin-project-builder
 VOLUME /app/index.html
 VOLUME /app/vite.config.ts
+VOLUME /app/vite.config.server.ts
 
 CMD yarn dev
 
