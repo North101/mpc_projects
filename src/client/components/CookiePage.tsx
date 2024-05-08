@@ -46,11 +46,11 @@ export const CookiePage = () => {
 
   return (
     <AppContainer showSearch={false}>
-      <div className='cookie'>
-        {result == 'success' && <div>Success</div>}
-        {result == 'invalid_code' && <div>Code is invalid</div>}
-        {result == 'invalid_cookie' && <div>Cookie is invalid</div>}
-        {result == 'unknown' && <div>Unknown error</div>}
+      <h2 className='cookie'>
+        {result == 'success' && <h2>Success</h2>}
+        {result == 'invalid_code' && <h2>Code is invalid</h2>}
+        {result == 'invalid_cookie' && <h2>Cookie is invalid</h2>}
+        {result == 'unknown' && <h2>Unknown error</h2>}
 
         <form action='/set_cookie' onSubmit={onSubmit}>
           <label htmlFor='cookie'>Cookie:</label><br />
@@ -73,7 +73,7 @@ export const CookiePage = () => {
           </ol>
           <p className='note'>If you work at MPC please note that we are not violating anyone&rsquo;s copyright and not doing anything malicious. We only want to make it easier for people to use your service to print cards without the person who uploads the cards selling them at a profit, which violates the fair use of IP. This is a win-win!</p>
         </div>
-      </div>
+      </h2>
     </AppContainer >
   )
 }
