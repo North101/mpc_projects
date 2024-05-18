@@ -25,6 +25,14 @@ h3.accordion-header {
   }
 }
 
+span.hidden {
+  display: none;
+}
+
+.accordion-item {
+  border: none;
+}
+
 .accordion-item button,
 .accordion-body {
   padding-left: 0;

@@ -38,6 +38,11 @@ export const AboutPage = () => (
         <li><a href='https://mythosbusters.com/'>Mythos Busters</a>, for bringing us all together</li>
         <li>Developers <strong>Maxine Newman</strong>, <strong>Duke!! Harrist</strong>, <strong>Nick Kory</strong>, <strong>Waleed Ma&rsquo;arouf</strong>, and everyone who works or has worked to bring us this amazing gift that is Arkham Horror: The Card Game.</li>
       </ul>
+
+      <div className='footnote'>
+        <h3 className='h5'>Disclaimer</h3>
+        <p>Arkham Horror: The Card Game is the intellectual property of Fantasy Flight Games. We at Inexorable Fate make every effort to ensure that the content offered here is in compliance with FFG&rsquo;s policy regarding fair use of IP. This website is not affiliated with FFG.</p>
+      </div>
     </div>
   </AppContainer>
 )
