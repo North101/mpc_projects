@@ -33,10 +33,16 @@ export const AboutPage = () => (
         <li><strong>Soul Turtle</strong>, for the kick in the pants.</li>
         <li>Beta testers <strong>dernincitrus</strong> (accessibility and more), <strong>Ektheleon</strong> (is it Excel enough?), <strong>Moruna</strong>, <strong>SecretGarden</strong>, and <strong>Stormy</strong> &ldquo;Nested Checkboxes&rdquo; <strong>Waters</strong>.</li>
         <li>The entire AHLCG homebrew community, for making all of this necessary with the incredibly high quality custom content they produce.</li>
+        <li><strong>JaqenZann</strong>, for the years of tireless effort to enable homebrewers to bring their visions to life.</li>
         <li><strong>MickeyTheQ</strong>, for building Zoop features to make it easier for homebrewers to make PnP versions of their content, and making it easier for us to bring that content to you.</li>
         <li><a href='https://mythosbusters.com/'>Mythos Busters</a>, for bringing us all together</li>
-        <li>Long-time lead developer <strong>Maxine Newman</strong>, current lead developer <strong>Duke!! Harrist</strong>, developers <strong>Nick Kory</strong> and <strong>Waleed Ma&rsquo;arouf</strong>, and everyone who works or has worked to bring us this amazing gift that is Arkham Horror: The Card Game.</li>
+        <li>Developers <strong>Maxine Newman</strong>, <strong>Duke!! Harrist</strong>, <strong>Nick Kory</strong>, <strong>Waleed Ma&rsquo;arouf</strong>, and everyone who works or has worked to bring us this amazing gift that is Arkham Horror: The Card Game.</li>
       </ul>
+
+      <div className='footnote'>
+        <h3 className='h5'>Disclaimer</h3>
+        <p>Arkham Horror: The Card Game is the intellectual property of Fantasy Flight Games. We at Inexorable Fate make every effort to ensure that the content offered here is in compliance with FFG&rsquo;s policy regarding fair use of IP. This website is not affiliated with FFG.</p>
+      </div>
     </div>
   </AppContainer>
 )

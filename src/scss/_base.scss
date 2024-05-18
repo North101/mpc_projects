@@ -4,6 +4,12 @@
 }
 
 .tldr {
+  &.col-md-9 {
+    @media (min-width: 768px) {
+      padding-left: 3rem;
+    }
+  }
+
   section,
   h3 {
     scroll-margin-top: 140px;
@@ -73,6 +79,11 @@ code {
   + em {
     font-size: 1rem;
   }
+}
+
+.footnote {
+  margin-top: 4rem;
+  font-size: 90%;
 }
 
 // Header
