@@ -6013,9 +6013,9 @@
               }
             },
             {
-              "count": 1,
+              "count": 4,
               "front": {
-                "Name": "347 Nihilistic Fervor-1.jpg",
+                "Name": "347 Nihilistic Fervor-x4-1.jpg",
                 "ID": "B4B7AEE835F23D656FE4139F7675B5A9",
                 "SourceID": "86E3E12D982F2BD3F83CA54EBF5D9A91D6CE3A94",
                 "Exp": "jpg",
@@ -6023,7 +6023,7 @@
                 "Height": 1126
               },
               "back": {
-                "Name": "347 Nihilistic Fervor-2.png",
+                "Name": "347 Nihilistic Fervor-x4-2.png",
                 "ID": "F2C892495D430CF932D00FCC1CD986B8",
                 "SourceID": "537898184A74156EB358A1B62F6812262361519E",
                 "Exp": "png",
