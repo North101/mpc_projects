@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45": "Dark Matter Science Expansion"
+    "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45": "Dark Matter Science Expansion",
+    "AB96329A611C9932D75A762408E10C73AC285BF7B4DE3DB30A38BD84E40A56606A354C8C1D93FFC9": "Dark Matter Science cards 13-14 reprints"
   },
   "name": "Dark Matter Science Expansion",
   "description": "A science-themed expansion for Dark Matter, including a custom Kate Winthrop investigator.",
@@ -359,8 +360,8 @@
               "count": 1,
               "front": {
                 "Name": "13 Voyage Beyond Space-1.png",
-                "ID": "43B155479E5C53238D86B551CD1C0C2A",
-                "SourceID": "8ABBA288F4B9DEBB786866B24E973A9D9FD1868E",
+                "ID": "4DE916AF748FDCE2D01D505CEE4A292E",
+                "SourceID": "563FFE6F601019CB27DC7AA57C5F2DC75110BAF7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -378,8 +379,8 @@
               "count": 1,
               "front": {
                 "Name": "14 Curious Discovery-1.png",
-                "ID": "28DD88FBD4F4B08F89C15E5A2EFABA7F",
-                "SourceID": "E2724F28A8C4D66513E987F5A0838AA594EE8ABF",
+                "ID": "7768F79FDE112BEC86F155D20E5D1011",
+                "SourceID": "95D7A33B2D789F64617702F22C66F3F4FCB7F4FC",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
