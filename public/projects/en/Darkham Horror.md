@@ -1,4 +1,4 @@
-**2024-06-07:**
+**2024-06-11:**
   - Card 347, Nihilistic Fervor, changed from 1 copy to 3 copies.
 
 **2023-12-02:**
