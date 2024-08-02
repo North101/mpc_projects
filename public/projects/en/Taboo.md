@@ -1,3 +1,7 @@
+**2024-08-02:**
+  - Rex Murphy front had been inadvertently replaced with the parallel version on 2024-03-22; this is now fixed.
+  - Rex Murphy back updated with the deckbuilding errata from FAQ 1.5.
+
 **2024-03-22:**
   - Fixed cost on Hypnotic Gaze (2), which was incorrect in FFG's Taboo 2.2 PDF.
   - Replaced Rex Murphy back with errata version.
