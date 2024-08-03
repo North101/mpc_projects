@@ -1,5 +1,6 @@
-**2024-03-17:**
+**2024-08-02:**
   - New Out-of-Play area card for FHV’s Twisted Hollow.
+  - Higher res art for Innsmouth’s The Depths
 
 **2024-02-24:**
   - Antimarkovnikov updated the RttFA Eztli Ruins map with a missing connection.
