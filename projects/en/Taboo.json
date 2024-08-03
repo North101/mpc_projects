@@ -13,7 +13,8 @@
     "AC440996A41FA571337F6118AD9FBCEFBF494F53977C59061C3E522C3D6629B228D02789654A1D85": "2.2 Hypnotic Gaze",
     "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex",
     "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs",
-    "14BC2303150EC7F9082D2B5CCEBEE33110095C19E1AB782F85034EE7BEB9D493722E6C53B82566C9": "Mutated Lola"
+    "14BC2303150EC7F9082D2B5CCEBEE33110095C19E1AB782F85034EE7BEB9D493722E6C53B82566C9": "Mutated Lola",
+    "45096FA5A6C1CBAED513C9DF0DD7923633BE4EC05E5A9A380145BE1A260541B13B081F929EBE8DEC": "Dark Prophecy fix"
   },
   "name": "Taboo",
   "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
@@ -710,7 +711,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "37 Dark Prophecy x2-a.png",
+                "Name": "37 Dark Prophecy-x2-a.png",
                 "ID": "5097745012100B64C51611D7991C1F8C",
                 "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
@@ -1826,7 +1827,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "37 Dark Prophecy x2-a.png",
+                "Name": "37 Dark Prophecy-x2-a.png",
                 "ID": "5097745012100B64C51611D7991C1F8C",
                 "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
@@ -3081,12 +3082,12 @@
             {
               "count": 2,
               "front": {
-                "Name": "34 Dark Prophecy x2-a.png",
-                "ID": "4A779321A38A4906CCF4B9AC0F4E217F",
-                "SourceID": "A26BA0DA1CF7FD993F988B8BF34C8ED46AB1C40B",
+                "Name": "34 Dark Prophecy-x2-a.png",
+                "ID": "5097745012100B64C51611D7991C1F8C",
+                "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "_playerback.png",
@@ -4444,12 +4445,12 @@
             {
               "count": 2,
               "front": {
-                "Name": "34 Dark Prophecy x2-a.png",
-                "ID": "4A779321A38A4906CCF4B9AC0F4E217F",
-                "SourceID": "A26BA0DA1CF7FD993F988B8BF34C8ED46AB1C40B",
+                "Name": "34 Dark Prophecy-x2-a.png",
+                "ID": "5097745012100B64C51611D7991C1F8C",
+                "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "_playerback.png",
@@ -5907,12 +5908,12 @@
             {
               "count": 2,
               "front": {
-                "Name": "31 Dark Prophecy x2-front.png",
-                "ID": "4A779321A38A4906CCF4B9AC0F4E217F",
-                "SourceID": "A26BA0DA1CF7FD993F988B8BF34C8ED46AB1C40B",
+                "Name": "31 Dark Prophecy-x2-a.png",
+                "ID": "5097745012100B64C51611D7991C1F8C",
+                "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "_playerback.png",
@@ -6541,12 +6542,12 @@
             {
               "count": 2,
               "front": {
-                "Name": "31 Dark Prophecy x2-front.png",
-                "ID": "4A779321A38A4906CCF4B9AC0F4E217F",
-                "SourceID": "A26BA0DA1CF7FD993F988B8BF34C8ED46AB1C40B",
+                "Name": "31 Dark Prophecy-x2-front.png",
+                "ID": "5097745012100B64C51611D7991C1F8C",
+                "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "_playerback.png",

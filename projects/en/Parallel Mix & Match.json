@@ -7,7 +7,8 @@
     "144851010B11AAF2AAAF9D4259B24F3944A8C565766FB9FE83DDCC9C67292AE36CB0C3E130A4BA1D": "Mix & Match Monty",
     "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex",
     "45D09C0B5D027DE04A06FE17A5C35DEFC14BCB8C883CE2FD9BECFD25DAFA55E3C4B6DC56D5A49A5E": "Mix & Match Jenny",
-    "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs"
+    "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs",
+    "FDBBE6C4C82D4EF26B43C71CFC64D1FA68BA5B6BA8359E902614DAC9D772A6EF9E790A8F7CB9CA06": "Dunwich errata with ‘other’"
   },
   "name": "Parallel Mix & Match",
   "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
@@ -471,7 +472,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Dunwich Mix & Match",
+          "name": "Pete, Jim, and Zoey Mix & Match",
           "cards": [
             {
               "count": 1,
@@ -485,8 +486,8 @@
               },
               "back": {
                 "Name": "046 Ashcan Pete || front std back-2.png",
-                "ID": "BD7FE7087732F87FDBFA34A1D70656E1",
-                "SourceID": "1DE319557EDC524DECAC513AF12994AA8DFE2443",
+                "ID": "9B714BEE967421F8693B8800434649F4",
+                "SourceID": "275FBEF71C81F15A90352821A8F032C94D731814",
                 "Exp": "png",
                 "Width": 823,
                 "Height": 1122
@@ -523,8 +524,8 @@
               },
               "back": {
                 "Name": "049 Jim Culver || front std back-2.png",
-                "ID": "6D2551805FBB99775BFC1BB7EA73C703",
-                "SourceID": "E536918ADB54A112828352260239DCE9BEFA8619",
+                "ID": "8D915DF8A35CEE0036CEBD3A3D937D46",
+                "SourceID": "CCBD299A48C0B2C22DC28467D4FDFDC73BA2B4E9",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -561,8 +562,8 @@
               },
               "back": {
                 "Name": "059 Zoey Samaras || front std back-2.png",
-                "ID": "EF4D656D5778D765214819BF087C48FA",
-                "SourceID": "BC2EAC12F57BACCBA45082B36B4D0FA09335A4D8",
+                "ID": "98CAD5954900F0D197B184D775DE0EBF",
+                "SourceID": "836BD7954230CAD231BD1EB0575122C8F4276A14",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -743,8 +744,8 @@
               },
               "back": {
                 "Name": "084 Jenny Barnes || front std back-2.png",
-                "ID": "F6CE5483AF9EFD9B2E0320CE6C2E22AA",
-                "SourceID": "B455C6E4170E89D955D78789DAC06169298E3F93",
+                "ID": "50CE6B27F4122DF4929E02B8D6E9C82C",
+                "SourceID": "11F88045020D000AD6E2E532E6A25D4CDCCAA58D",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -777,6 +778,6 @@
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-03T01:58:37.833Z",
+  "updated": "2024-08-03T10:13:37.833Z",
   "hash": "0b2dfb53000fd726d1e4c01c15cb4f7c4fcb20caf678b6d6c9a30961b359183d"
 }

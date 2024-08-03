@@ -13,7 +13,8 @@
     "D6C15BEEE2F1D8E18571CC23C26438A11B6A89C1CEDFA676006760B614BA2F222D3B73DE263F140C": "Parallel Monterey & Relics of the Past",
     "2DCAB1AAA5F031A7ACA66073E7F2C13B1A92F900EF27E26C0827C54457842424AE4E1C1F8855A66F": "Parallel Rex",
     "58DB54BA3AAD9C0B26FE2AAB7BAD2130E7E70B47EE91CCF991F0D863AAB5909BACCAA9814516FF9F": "Parallel Jenny v1",
-    "557F1300B6F2710C13F7913A583B86AB1A4ADADC973D1D7907BBBCBF3FB91941ABF11EC3913B151C": "Parallel Jenny best"
+    "557F1300B6F2710C13F7913A583B86AB1A4ADADC973D1D7907BBBCBF3FB91941ABF11EC3913B151C": "Parallel Jenny best",
+    "43D1D59EF62CA76B8E1186F8C4E69EBC31D6AA4B91430E445ED0D773F752955E4B375CFF8843FFF3": "Clover Club Bouncers"
   },
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators, some with special challenge scenarios!",
@@ -474,17 +475,78 @@
               }
             },
             {
-              "count": 4,
+              "id": "d03d19cf-5a40-49d5-8fdd-557122c07fe3",
+              "count": 1,
               "front": {
-                "Name": "016 Clover Club Bouncer-x4-a.png",
-                "ID": "48868B3670CF833E9E1DBE19B3EF3C3F",
-                "SourceID": "FC5CE5194029844E18987402CE4CED90F0D70FA9",
+                "Name": "016 Clover Club Bouncer-1-a.png",
+                "ID": "8B70137BDF98F1707DC26473F82FA188",
+                "SourceID": "38A05867AD34C5FF4F2763EF3746059EA78501F2",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
                 "Exp": "png",
                 "Width": 850,
                 "Height": 1156
+              }
+            },
+            {
+              "id": "fa90d53c-79e6-4414-bab7-ca780ee7fec5",
+              "count": 1,
+              "front": {
+                "Name": "016 Clover Club Bouncer-2-a.png",
+                "ID": "3603AF8D6F7ED2B1320BC64149EDE82B",
+                "SourceID": "AFD5638AA17BB2FCA64370A6D36F63FBE44B491A",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
-                "Name": "016 Clover Club Bouncer-x4-b.png",
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "e65c5c18-ab5d-45fc-afe7-74e06317df7e",
+              "count": 1,
+              "front": {
+                "Name": "016 Clover Club Bouncer-3-a.png",
+                "ID": "647D876848931D6A2A70E143FD8A2397",
+                "SourceID": "7F3F00AA265EB4B8FBD3864349EDED344D27BE03",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "DEC0E760493EA41064B29B27F44AB53B",
+                "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
+                "Exp": "png",
+                "Width": 850,
+                "Height": 1156
+              }
+            },
+            {
+              "id": "a9564905-ff85-4223-af2e-c6a62d3309e5",
+              "count": 1,
+              "front": {
+                "Name": "016 Clover Club Bouncer-4-a.png",
+                "ID": "C04E6AD5C13510C18714459D6D48477E",
+                "SourceID": "B59C81CE6A386896837CDD1F7AEB5200000338F5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
                 "ID": "DEC0E760493EA41064B29B27F44AB53B",
                 "SourceID": "609D6BD07161BF6BC0FCC12D36AE8137C162AF2D",
                 "Exp": "png",
