@@ -1,3 +1,6 @@
+**2024-08-03:**
+  - Fixed wonky typography on Dark Prophecy with in all variations of Taboo 2.0, 2.1, and 2.2.
+
 **2024-08-02:**
   - Added "Mutated" keyword, which was omitted by FFG, to Lola Hayes in variations of Taboo 2.0, 2.1, and 2.2. 
   - Rex Murphy front had been inadvertently replaced with the parallel version on 2024-03-22; this is now fixed.
