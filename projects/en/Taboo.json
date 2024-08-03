@@ -1,17 +1,19 @@
 {
   "version": 5,
   "projectIds": {
-    "F98F0551A1257999A8AB39AA59D3A9D4F5EC635261BEFBDB859461DEF6299EA5D8B2B294DB332219": "Taboo",
-    "86710D028BCEA79BC494B4E58D4BAA39F9EEFA83BBA92D2C56B0AE8CC83C50F7202DD9BFB8518BAE": "Taboo",
-    "7CB4DE41CEECB9D5882B555270117A9AB548E5DAB1075AE9A7A98E3DA94920EB3EE68E9204B306CD": "Taboo",
-    "01D79388B5E679E427F198C41CA3F902182F2DDB09C045F5EC9ADE7AFC50E026C8D1EB1916FD8D20": "Taboo",
-    "D02FAAC43F518A50C51A10CBA5B8FC55E6A3C872EC4B99DB74ECE182A128B6FE1D36A45145097588": "Taboo",
-    "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7": "Taboo",
-    "0C5E31F88C76BF29FC6C26D65E94F8AD010DD5133C1364A91053B17D75B4C42F7347A5677196BB7C": "Taboo",
-    "AE1880F89A0AA4588B40811A213B63E569FAD098014BEF57E70A0F257E25EF787BC45A48156618D5": "Taboo",
-    "A60ED49EFEE49888F9E8CA29D965754581863F535DDE69F89FDC596833B6CA3173FE4BDCD52F93F9": "Taboo",
-    "AC440996A41FA571337F6118AD9FBCEFBF494F53977C59061C3E522C3D6629B228D02789654A1D85": "Taboo",
-    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Taboo"
+    "F98F0551A1257999A8AB39AA59D3A9D4F5EC635261BEFBDB859461DEF6299EA5D8B2B294DB332219": "Taboo 2.1",
+    "86710D028BCEA79BC494B4E58D4BAA39F9EEFA83BBA92D2C56B0AE8CC83C50F7202DD9BFB8518BAE": "Taboo 2.0",
+    "7CB4DE41CEECB9D5882B555270117A9AB548E5DAB1075AE9A7A98E3DA94920EB3EE68E9204B306CD": "Taboo 1.9",
+    "01D79388B5E679E427F198C41CA3F902182F2DDB09C045F5EC9ADE7AFC50E026C8D1EB1916FD8D20": "Taboo 1.8",
+    "D02FAAC43F518A50C51A10CBA5B8FC55E6A3C872EC4B99DB74ECE182A128B6FE1D36A45145097588": "Taboo 1.6-1.7",
+    "7D9CD37B7E16AC75FAB5333B35B5148253C1D40497A1054CA4EAFCBB4F244BD6D1960BF00D6781D7": "Taboo 1.5",
+    "0C5E31F88C76BF29FC6C26D65E94F8AD010DD5133C1364A91053B17D75B4C42F7347A5677196BB7C": "2.2 OKR",
+    "AE1880F89A0AA4588B40811A213B63E569FAD098014BEF57E70A0F257E25EF787BC45A48156618D5": "Taboo 2.2 v1",
+    "A60ED49EFEE49888F9E8CA29D965754581863F535DDE69F89FDC596833B6CA3173FE4BDCD52F93F9": "Taboo 2.2 best",
+    "AC440996A41FA571337F6118AD9FBCEFBF494F53977C59061C3E522C3D6629B228D02789654A1D85": "2.2 Hypnotic Gaze",
+    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex",
+    "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs",
+    "14BC2303150EC7F9082D2B5CCEBEE33110095C19E1AB782F85034EE7BEB9D493722E6C53B82566C9": "Mutated Lola"
   },
   "name": "Taboo",
   "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
@@ -367,16 +369,16 @@
               "count": 1,
               "front": {
                 "Name": "18 Rex Murphy-a.png",
-                "ID": "44A6644D58AC14C1B089A070240747E8",
-                "SourceID": "9CF9B8313C55E4321F89A68A35E7B4CC2E0B3168",
+                "ID": "59B08A2037BEA0F7624772D6AD5FB41A",
+                "SourceID": "E37778D17F235B2D3B937803889BED1BD94BF358",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
               },
               "back": {
                 "Name": "18 Rex Murphy-b.png",
-                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
-                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -595,8 +597,8 @@
               "count": 1,
               "front": {
                 "Name": "31 Lola Hayes-a.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -1491,11 +1493,11 @@
               },
               "back": {
                 "Name": "18 Rex Murphy-b.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -1711,8 +1713,8 @@
               "count": 1,
               "front": {
                 "Name": "31 Lola Hayes-a.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -2784,11 +2786,11 @@
               },
               "back": {
                 "Name": "16 Rex Murphy-b.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -2984,9 +2986,9 @@
             {
               "count": 1,
               "front": {
-                "Name": "28 Lola Hayes-a.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "Name": "31 Lola Hayes-a.png",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -4147,11 +4149,11 @@
               },
               "back": {
                 "Name": "16 Rex Murphy-b.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -4348,8 +4350,8 @@
               "count": 1,
               "front": {
                 "Name": "28 Lola Hayes-a.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -5686,11 +5688,11 @@
               },
               "back": {
                 "Name": "17 Rex Murphy-back.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -5848,9 +5850,9 @@
             {
               "count": 1,
               "front": {
-                "Name": "26 Lola Hayes-front.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "Name": "26 Lola Hayes-a.png",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -6501,9 +6503,9 @@
             {
               "count": 1,
               "front": {
-                "Name": "26 Lola Hayes-front.png",
-                "ID": "14B19636124BE56CD32F258F581606DF",
-                "SourceID": "06EBAF089B0394D52B49D827D5F0009DFEB1BB1E",
+                "Name": "26 Lola Hayes-a.png",
+                "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
+                "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -6997,11 +6999,11 @@
               },
               "back": {
                 "Name": "14 Rex Murphy-2.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -7814,11 +7816,11 @@
               },
               "back": {
                 "Name": "16 Rex Murphy-2.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -8592,12 +8594,12 @@
                 "Height": 1110
               },
               "back": {
-                "Name": "11 Rex Murphy-2.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "Name": "11 Rex Murphy-1.png",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -8915,12 +8917,12 @@
                 "Height": 1110
               },
               "back": {
-                "Name": "08 Rex Murphy-2.png",
-                "ID": "884384095CD048BBAB4A2BE9340A1B10",
-                "SourceID": "65ECA927455B507912EC57D21B98EDA70CB1F364",
+                "Name": "08 Rex Murphy-b.png",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
-                "Width": 816,
-                "Height": 1110
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
@@ -9025,6 +9027,6 @@
     }
   ],
   "created": "2019-04-23T11:42:26.679Z",
-  "updated": "2024-03-173T19:05:01.868Z",
-  "hash": "cec04a13066c683f4f5bb5650a18468f4e38999a17cafdf65e1af3a8f31e85bc"
+  "updated": "2024-08-03T01:58:37.830Z",
+  "hash": "1e812b498e1364ecf3294d137d3d4bd3ee223a627cbfefed4774f97bbb062349"
 }

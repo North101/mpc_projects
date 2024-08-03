@@ -12,7 +12,8 @@
     "6817D3B6D80D57C6D7152E8DFC6A124BCFA1DBE26BE8F94F987E4BA5C9B4C83D809EB8E803B8DA93": "Parallel Zoey Best",
     "D6C15BEEE2F1D8E18571CC23C26438A11B6A89C1CEDFA676006760B614BA2F222D3B73DE263F140C": "Parallel Monterey & Relics of the Past",
     "2DCAB1AAA5F031A7ACA66073E7F2C13B1A92F900EF27E26C0827C54457842424AE4E1C1F8855A66F": "Parallel Rex",
-    "58DB54BA3AAD9C0B26FE2AAB7BAD2130E7E70B47EE91CCF991F0D863AAB5909BACCAA9814516FF9F": "Parallel Jenny"
+    "58DB54BA3AAD9C0B26FE2AAB7BAD2130E7E70B47EE91CCF991F0D863AAB5909BACCAA9814516FF9F": "Parallel Jenny v1",
+    "557F1300B6F2710C13F7913A583B86AB1A4ADADC973D1D7907BBBCBF3FB91941ABF11EC3913B151C": "Parallel Jenny best"
   },
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators, some with special challenge scenarios!",
@@ -2224,12 +2225,12 @@
               }
             },
             {
-              "id": "a5a04628-4500-4b14-8672-d1c747fc4f78",
+              "id": "e3c49c4e-42c6-4d5d-aaec-4cf077db928e",
               "count": 1,
               "front": {
                 "Name": "086 Advanced Searching for Izzie-1.png",
-                "ID": "2693511853EEDF0DDC222FEEB48D537D",
-                "SourceID": "A3C0A208858FCEF89B8335158F5624F28E0A8AF5",
+                "ID": "042A17D380F01D07A3812F3FBEF41266",
+                "SourceID": "3E456B0927803993453B8B7C9F76B08035B8A856",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -2250,6 +2251,6 @@
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-01T20:31:35.085Z",
-  "hash": "254763154654b2c235fd46b142d95aa44b6e0c2781c2b6e5f53e1ef5fb10de5f"
+  "updated": "2024-08-03T01:58:37.833Z",
+  "hash": "c3b1c3462cff70cd25913417e23ff6fa1fd45986ae71d5be537e9586639dc4a2"
 }

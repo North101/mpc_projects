@@ -5,7 +5,9 @@
     "3CF6F09F048A2D7DE4EA6EFA4381EF99356CB424C5BDA7859470AE2AD6FFA87F93E1001CE36DDF34": "Rev core art Mix & Match",
     "E244CED65BF5E61EC2D87763EDD740BBABE299D7F94C1BF70AA9F44E05EA74146F71547939F1205D": "Mix & Match Pete, Jim, Zoey",
     "144851010B11AAF2AAAF9D4259B24F3944A8C565766FB9FE83DDCC9C67292AE36CB0C3E130A4BA1D": "Mix & Match Monty",
-    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex"
+    "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex",
+    "45D09C0B5D027DE04A06FE17A5C35DEFC14BCB8C883CE2FD9BECFD25DAFA55E3C4B6DC56D5A49A5E": "Mix & Match Jenny",
+    "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs"
   },
   "name": "Parallel Mix & Match",
   "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
@@ -424,7 +426,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Wendy Adams Mix & Match, Hard Knocks alt-art",
+          "name": "Wendy Mix & Match, Hard Knocks alt-art",
           "enabled": false,
           "cards": [
             {
@@ -483,10 +485,10 @@
               },
               "back": {
                 "Name": "046 Ashcan Pete || front std back-2.png",
-                "ID": "3C10C445F6B685A74B577BF6A9DCDCFD",
-                "SourceID": "73D038E7ACEE24618F9787784588C4E92CA012B8",
+                "ID": "BD7FE7087732F87FDBFA34A1D70656E1",
+                "SourceID": "1DE319557EDC524DECAC513AF12994AA8DFE2443",
                 "Exp": "png",
-                "Width": 822,
+                "Width": 823,
                 "Height": 1122
               }
             },
@@ -494,10 +496,10 @@
               "count": 1,
               "front": {
                 "Name": "046 Ashcan Pete std front || back-1.png",
-                "ID": "5A4B11772A70E5088AAB13707A843E36",
-                "SourceID": "2ABE019551EC9B06B91016D5A5C4AF2EFC04C3FA",
+                "ID": "377C8F0752449A7C16DE3E3660252488",
+                "SourceID": "022BF8DA818DE12BE9F847F97BD092CB3B27DC62",
                 "Exp": "png",
-                "Width": 822,
+                "Width": 823,
                 "Height": 1122
               },
               "back": {
@@ -521,8 +523,8 @@
               },
               "back": {
                 "Name": "049 Jim Culver || front std back-2.png",
-                "ID": "1D9CCA3BF7157F3DA9E50F260F8B8182",
-                "SourceID": "B24BB81D9F73EE085D7B79C016EEFD6223CA53B2",
+                "ID": "6D2551805FBB99775BFC1BB7EA73C703",
+                "SourceID": "E536918ADB54A112828352260239DCE9BEFA8619",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -532,8 +534,8 @@
               "count": 1,
               "front": {
                 "Name": "049 Jim Culver std front || back-1.png",
-                "ID": "CC4F74770A4927611F302B08347679FA",
-                "SourceID": "5D4D92B665853B2487233D1055533B46E8AC1976",
+                "ID": "667FA9FA85F95118B97ADF2BB61AB98E",
+                "SourceID": "1643BCBA11D41B0F1421472317AE8D0939EE6ECF",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -559,8 +561,8 @@
               },
               "back": {
                 "Name": "059 Zoey Samaras || front std back-2.png",
-                "ID": "ADF42B114274C07ABDD7123F58C34EE2",
-                "SourceID": "DF64366623CAD5E18BCC7AC131A02B5CA81B02CE",
+                "ID": "EF4D656D5778D765214819BF087C48FA",
+                "SourceID": "BC2EAC12F57BACCBA45082B36B4D0FA09335A4D8",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -614,8 +616,8 @@
               "count": 1,
               "front": {
                 "Name": "062 Monterey Jack std front || back-1.png",
-                "ID": "B90B7438780F368C25F9916AC9ED9CB1",
-                "SourceID": "FDBB446780259929DB8587D72A3E6A0442A494E1",
+                "ID": "F292BD7CE01698521477577E99E5E756",
+                "SourceID": "4633FA6C568B0878CD41E0B2671DF2AAA9D33E5C",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -633,7 +635,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Rex Murphy (Non-Taboo)",
+          "name": "Rex Mix & Match (Non-Taboo)",
           "cards": [
             {
               "id": "72065346-64d5-4e40-8194-a5ad157ccfd1",
@@ -648,8 +650,8 @@
               },
               "back": {
                 "Name": "078 Rex Murphy || front std back-2.png",
-                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
-                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -679,7 +681,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Rex Murphy (Taboo)",
+          "name": "Rex Mix & Match (Taboo)",
           "enabled": false,
           "cards": [
             {
@@ -695,8 +697,8 @@
               },
               "back": {
                 "Name": "078 Rex Murphy || front std back-2.png",
-                "ID": "5EB27C60C1745A3A49DF3B7F044C027E",
-                "SourceID": "A8243DFAA50EF4FD97627B0E0E80E04D341A6E6B",
+                "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
+                "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -724,11 +726,57 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Jenny Mix & Match",
+          "cards": [
+            {
+              "id": "f5aa47c5-251b-41a6-bffe-5e021941165d",
+              "count": 1,
+              "front": {
+                "Name": "084 Jenny Barnes || front std back-1.png",
+                "ID": "0716CEE7AA2F7C8CB934600532304455",
+                "SourceID": "57E13767466D2C38EC7E7B86F7A62813DBDE3769",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "084 Jenny Barnes || front std back-2.png",
+                "ID": "F6CE5483AF9EFD9B2E0320CE6C2E22AA",
+                "SourceID": "B455C6E4170E89D955D78789DAC06169298E3F93",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "7166b313-6e58-4fc6-94ab-18d1fc57a2e2",
+              "count": 1,
+              "front": {
+                "Name": "084 Jenny Barnes std front || back-1.png",
+                "ID": "BB4BFFFF4BDB60D28CD2A20A0EFF6C80",
+                "SourceID": "5B10CEFBF54A173F40FDCD808F5DC940D9320133",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "084 Jenny Barnes std front || back-2.png",
+                "ID": "3C84A54FF736E8F3BF9FF7711946DF09",
+                "SourceID": "22E97BA905867A1A2E7050631F6BAF5EFC14DAE9",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-01-04T21:15:01.316Z",
-  "hash": "88222c504d05a56e05eb03a85ce395c4cdfb7d30fd1fa0863cd2e9cb0050bc10"
+  "updated": "2024-08-03T01:58:37.833Z",
+  "hash": "0b2dfb53000fd726d1e4c01c15cb4f7c4fcb20caf678b6d6c9a30961b359183d"
 }
