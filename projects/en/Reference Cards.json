@@ -1,7 +1,7 @@
 {
   "version": 5,
   "projectIds": {
-    "E343AC9D0D0F47B4DBD023018FDF9C9DC84E2E678CC266E4AEF70CAE6F833808C6033AE974A3BEF9": "Reference Cards"
+    "062B3AB0C16AE6CEF050FB120491A23BEC387CA71BDB02F82913B8D60E4687AB2FFC93A78692F883": "Reference Cards"
   },
   "name": "Reference Cards",
   "description": "Three double-sided reference cards detailing the phases of a round, skill test timing, types of actions, the initiation sequence, and a number of tricky or sometimes misunderstood rules and terms, such as everyone’s favorite, “as if.”",
@@ -32,57 +32,57 @@
               "count": 1,
               "front": {
                 "Name": "01 Phase-a.png",
-                "ID": "8E37F52E4A2875A14F4F976B277EB7CC",
-                "SourceID": "B813EE01F8D84F016E93D5D9C52988974E8E6F37",
+                "ID": "3103C17A272C09882359556BE10CD4CD",
+                "SourceID": "AEAE12F7B61F18DB6E88E44BDFCB8604BA1A4920",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "01 Phase-b.png",
-                "ID": "D31C836850B370AB36468713D7B5C5E2",
-                "SourceID": "4C1BF58D5CAA0B5DAB75A41A7DCD5BA286E377D2",
+                "ID": "4B22D5FDA00444A994C20C7D42D4234D",
+                "SourceID": "8765A1BD119894490E9DBE057E91E49FF45F8206",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
               "count": 1,
               "front": {
                 "Name": "02 Skill-a.png",
-                "ID": "C88D75B6A5E2DDCB0698EFCA1E3AF0A2",
-                "SourceID": "B5DA0E128E397D753C61322550344D10F71906D7",
+                "ID": "9F63B89AAAAA5024E2B51B2A978BF0F8",
+                "SourceID": "BAA3D5C3598A730F8C3DBC0AD0C1E5D7DAAD9943",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "02 Skill-b.png",
-                "ID": "C0BB2AEFF9F0B31AF69E5FD03C5FA7DB",
-                "SourceID": "268ED12146B14BF43F0A31A86B76F8CC3B0EE553",
+                "ID": "7E1E97A831572C56AFF26C2B0F521C95",
+                "SourceID": "A1F3F160977F14A52097BE414053F896428B54BB",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               }
             },
             {
               "count": 1,
               "front": {
                 "Name": "03 Initiation-a.png",
-                "ID": "39ECF1B3F077449A327B9327048E2BE2",
-                "SourceID": "05F1AC188552CEE03BD19602AB184239B8454A67",
+                "ID": "9B3F123BE7221101E13F04130DFFBD83",
+                "SourceID": "6AC0D043AEF587AA24C6A050A06424C7942BB93F",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               },
               "back": {
                 "Name": "03 Initiation-b.png",
-                "ID": "20EAC4DA3D4774EAEF60002037815781",
-                "SourceID": "23713BE4E99878A230707D929C6F1406F78C64BE",
+                "ID": "19CB5AEB2C1A7314A8AFD5408A5ADD67",
+                "SourceID": "3C4E13CF4DF253FFC3D62BBEE9A6A8B10565E61B",
                 "Exp": "png",
-                "Width": 992,
-                "Height": 1385
+                "Width": 822,
+                "Height": 1122
               }
             }
           ],
@@ -92,6 +92,6 @@
     }
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-12-02T23:13:45.084Z",
+  "updated": "2024-08-02T23:20:58.084Z",
   "hash": "fdb7c790d89edb10d0b346f1a4ad60ef7157ca089d558f1153a48435268d398c"
 }
