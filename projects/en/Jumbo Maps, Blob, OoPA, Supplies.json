@@ -14,10 +14,10 @@
     "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update"
   },
   "name": "Jumbo Cards & TFA Microsupplies",
-  "description": "Jumbo-sized cards with missing scenario maps, a jumbo Blob enemy, and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard.",
+  "description": "Jumbo-sized cards with missing scenario maps and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard.",
   "artist": null,
   "info": null,
-  "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
+  "website": "https://github.com/Antimarkovnikov/AHC_Alley/wiki/VELA-&-PARTNERS-CARTOGRAPHY",
   "cardsLink": null,
   "scenarioCount": 0,
   "investigatorCount": 0,
@@ -381,6 +381,6 @@
     }
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2024-02-24T10:51:45.941Z",
-  "hash": "7a0e705d3e5b56747ee1ba4dfa0bae7b1c57b16bd4e8bc69f57d1ad7308af192"
+  "updated": "2024-08-03T01:58:37.833Z",
+  "hash": "0d3c0e0c0b116f2a9c9dfa0ac7f3741ded5bdaeacc8b99249f5b239a7a424c99"
 }
