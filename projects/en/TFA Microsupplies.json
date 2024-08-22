@@ -1,13 +1,15 @@
 {
   "version": 5,
   "projectIds": {
-    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B": "TFA Microsupplies"
+    "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B": "TFA Microsupplies",
+    "88081A8D29E0BBA5A852585BB021929F8C98B858B7AA77C89CFFB560FEAFAFEEE9B1802ECE9CF301": "Monterey Jack + 3 little kittens",
+    "47AC9E5CEF3C0AFF1013B10B7DE885EE004F05A7FBC77F5A7B716337BBC44C7014ABF7837FBFFA6B": "blurred backs for kittens"
   },
   "name": "TFA Microsupplies",
-  "description": "TFA supplies on micro-sized cards, half the size of investigator minis. Plus, a tiny Summoned Servitor for moving your summoned friend around on its own.",
+  "description": "TFA supplies on micro-sized cards, half the size of investigator minis. Additional supplies for Parallel Monterey Jack’s scenario. Plus, a tiny Summoned Servitor for moving your summoned friend around on its own. And Augur, Hope, and Zeal, for no reason other than that they’re adorable.",
   "artist": null,
-  "info": "Supply cards for use with The Forgotten Age campaign. Summoned Servitor microcard pairs with the customizable player card of the same name from The Scarlet Keys investigator expansion.",
-  "website": "https://github.com/Antimarkovnikov/AHC/wiki/Maps-and-Supplies",
+  "info": "Supply cards for use with The Forgotten Age campaign. Summoned Servitor microcard pairs with the customizable player card of the same name from The Scarlet Keys investigator expansion. Parallel Monterey Jack’s microsupplies require his Relics of the Past scenario.",
+  "website": "https://github.com/Antimarkovnikov/AHC_Alley/wiki/VELA-&-PARTNERS-CARTOGRAPHY",
   "cardsLink": null,
   "scenarioCount": 0,
   "investigatorCount": 0,
@@ -378,11 +380,183 @@
             }
           ],
           "code": "FC50335ACE92877B"
+        },
+        {
+          "name": "Parallel Monterey Jack Microsupplies",
+          "cards": [
+            {
+              "id": "df568727-e782-420b-882a-0dace7b52ef0",
+              "count": 1,
+              "front": {
+                "Name": "4 MJ Chalk-1.png",
+                "ID": "156B60EEBABCFBBC4E06683BAA411098",
+                "SourceID": "91F2C072908EFB97ED96EBBB56195EF40C6C653A",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "32F9E2ED9E72BCB7819FC4B58E9A76B8",
+                "SourceID": "6B64419503BBBCE2A7DC427456F417BA86208C07",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "030c7d54-dd7c-40cc-8257-441ef9587fc9",
+              "count": 1,
+              "front": {
+                "Name": "5 MJ Compass-1.png",
+                "ID": "81662176D82FB4ECAFAFC44187A058D4",
+                "SourceID": "1A7FAD9F9235303F01B29ECAC0806C0EE7D3AD24",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "32F9E2ED9E72BCB7819FC4B58E9A76B8",
+                "SourceID": "6B64419503BBBCE2A7DC427456F417BA86208C07",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "97392f07-63f4-48be-8331-54a8d63ae9ac",
+              "count": 1,
+              "front": {
+                "Name": "6 MJ Journal-1.png",
+                "ID": "2052C7370C7DF29BADB9C8EAEE6BBC68",
+                "SourceID": "039E4FD8C438F027A14D7C58DA32CD2F26F841B0",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "32F9E2ED9E72BCB7819FC4B58E9A76B8",
+                "SourceID": "6B64419503BBBCE2A7DC427456F417BA86208C07",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "78722426-7b50-48ca-9c5b-3ae9e50d0755",
+              "count": 1,
+              "front": {
+                "Name": "7 MJ Satchel-1.png",
+                "ID": "5F6B21CB534A8ABA302B038EBE6E025B",
+                "SourceID": "3D0D3908456626A1FF045A3824F02C9241144BD9",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "32F9E2ED9E72BCB7819FC4B58E9A76B8",
+                "SourceID": "6B64419503BBBCE2A7DC427456F417BA86208C07",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "ca915834-895a-496b-ba80-905f6df86ef8",
+              "count": 1,
+              "front": {
+                "Name": "8 MJ Torches-1.png",
+                "ID": "482C5A53FC8FBF99DFF4CDC69A91F117",
+                "SourceID": "1620EAB016FF2CEC58EA080490C6113E4F07824F",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "32F9E2ED9E72BCB7819FC4B58E9A76B8",
+                "SourceID": "6B64419503BBBCE2A7DC427456F417BA86208C07",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            }
+          ],
+          "code": "FC50335ACE92877B"
+        },
+        {
+          "name": "Zeal, Hope, and Augur Microcards",
+          "cards": [
+            {
+              "id": "53d09734-d24e-4c22-a31a-530b7e3a0e1f",
+              "count": 1,
+              "front": {
+                "Name": "1 Zeal-1.png",
+                "ID": "88497AFAAAECAA706568EA309B975A0F",
+                "SourceID": "355F6A097BCEB35A55F9E0CFC41BE22FBDD518BD",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "1 Zeal-2.png",
+                "ID": "30DA12CD5B3E11409D601980C98C958E",
+                "SourceID": "D910AD2BF9DC0D69D1B57E08A39165E6EBF5ECE8",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "123d1d76-f6b6-4b33-89fc-b826f44f3c3a",
+              "count": 1,
+              "front": {
+                "Name": "2 Hope-1.png",
+                "ID": "72E2771C5FF92D962AA02CB935459821",
+                "SourceID": "2025D8C1E21CBD77328C3C78F268622E15E29B19",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "2 Hope-2.png",
+                "ID": "CB5E143A3467D8660155B2D758D05089",
+                "SourceID": "061B79DC832D48AF102C66EB431810A2339F0649",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            },
+            {
+              "id": "690865ef-f752-4d6f-8478-7feb510e57bf",
+              "count": 1,
+              "front": {
+                "Name": "3 Augur-1.png",
+                "ID": "6BB0EA87EF3ACC8576FAA72DADD1E36F",
+                "SourceID": "31C3A993D4C26A8D91F99138108C1EF102467572",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              },
+              "back": {
+                "Name": "3 Augur-2.png",
+                "ID": "41F920F9E9B15E5BA09B4DCBEDCD6B54",
+                "SourceID": "CD5D065BEBF6DB066FAC10BD6FC6FF54E9F1201D",
+                "Exp": "png",
+                "Width": 815,
+                "Height": 1088
+              }
+            }
+          ],
+          "code": "FC50335ACE92877B"
         }
       ]
     }
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2023-11-26T23:13:45.084Z",
+  "updated": "2024-08-18T23:13:45.084Z",
   "hash": "75a5f82169d021a9d926a7539d33a3cebc24276bd7ec535f7c62858ae782038e"
 }

@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "4C5F3184E5AF2C5E9625FC346B40774FEF4BF7BA20C458CD5E853491320BF9B33BABF4D42DBB6897": "Customizable Upgrade Cards"
+    "4C5F3184E5AF2C5E9625FC346B40774FEF4BF7BA20C458CD5E853491320BF9B33BABF4D42DBB6897": "Customizable Upgrade Cards",
+    "D9414D269CD47587B134879B85AA5EDAF43FA52B8573A800C2ECF2467BB4CB47F2FAF35EF1235BE1": "Taboo 2.1 Customizable Upgrades"
   },
   "name": "Customizable Upgrade Cards",
   "description": "Alternate design of TSK customizable upgrade cards for a more colorful, class-specific look. ",

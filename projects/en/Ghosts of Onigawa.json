@@ -11189,6 +11189,7 @@
         },
         {
           "name": "Ghosts of Onigawa Jumbocard Sacrifice Display",
+          "enabled": false,
           "cards": [
             {
               "id": "8f54d473-5120-4ca6-9775-10b7cf232070",

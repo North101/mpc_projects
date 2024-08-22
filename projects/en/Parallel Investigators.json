@@ -14,7 +14,8 @@
     "2DCAB1AAA5F031A7ACA66073E7F2C13B1A92F900EF27E26C0827C54457842424AE4E1C1F8855A66F": "Parallel Rex",
     "58DB54BA3AAD9C0B26FE2AAB7BAD2130E7E70B47EE91CCF991F0D863AAB5909BACCAA9814516FF9F": "Parallel Jenny v1",
     "557F1300B6F2710C13F7913A583B86AB1A4ADADC973D1D7907BBBCBF3FB91941ABF11EC3913B151C": "Parallel Jenny best",
-    "43D1D59EF62CA76B8E1186F8C4E69EBC31D6AA4B91430E445ED0D773F752955E4B375CFF8843FFF3": "Clover Club Bouncers"
+    "43D1D59EF62CA76B8E1186F8C4E69EBC31D6AA4B91430E445ED0D773F752955E4B375CFF8843FFF3": "Clover Club Bouncers",
+    "DDAB167B800786402BF83002352ADFE5855025B6D4B808E681BCE6A123B71A6321B48242F6F25F03": "Jennymini"
   },
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators, some with special challenge scenarios!",
@@ -2308,11 +2309,37 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Parallel Jenny mini (Aconyte art) with crop marks",
+          "cards": [
+            {
+              "id": "51d960de-23de-4930-a2e2-666d1f02ebfb",
+              "count": 1,
+              "front": {
+                "Name": "Jenny mini-1.png",
+                "ID": "F1F601157945ED4DFA7BE9AFA74E753B",
+                "SourceID": "EBF0B5F5BE47769AAC34073848E9F09A5D1D4237",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "Jenny mini-2.png",
+                "ID": "59FFCE44BF036315706D8C6FB0234405",
+                "SourceID": "FFB5E9382C3E49174D747E2BB72B486C504837BE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-03T22:28:30.334Z",
+  "updated": "2024-08-20T22:28:30.334Z",
   "hash": "a14159abbdb5d5c098bdb878d5597ae5d0ca0da8162b6d7850f7d4634cc78436"
 }

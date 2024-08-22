@@ -1,6 +1,9 @@
+**2024-08-20:**
+  - Antimarkovnikov added a new 8-up microsupplies card for Monterey Jack’s Relics of the Past scenario, with bonus Dream-Eaters kittens filling the empty space on the card.
+
 **2024-08-02:**
   - Antimarkovnikov added a new Out-of-Play area card for FHV’s Twisted Hollow.
-  - Antimarkovnikov updated Innsmouth’s The Depths with higher resolution art
+  - Antimarkovnikov updated Innsmouth’s The Depths with higher resolution art.
 
 **2024-02-24:**
   - Antimarkovnikov updated the RttFA Eztli Ruins map with a missing connection.

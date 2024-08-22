@@ -11,10 +11,11 @@
     "CCECB83A593B61DEBB5270C89C1AAEB2D4071E64BB9346FD0D73415E6797C122D175E440C26F051D": "Location Maps best",
     "900B09BB762E4302EA7D8AEE372E72AA8D38F61925951980E4F2DD22A5099665B57B74171CD7D47B": "OOPA",
     "12602448518B6BBC0EDDAFDE38C8AC470E6306F8ECF335713F0E7DCC4C347F2E92DD2B38B89052E9": "8-up microsupplies",
-    "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update"
+    "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update",
+    "7505D6D7F1F42EE0EC1756491EDA4FD8078434796CD4BDA1D7A8FEE5910930471BDBB697BC7DAC1C": "Monterey Jack + 3 little kittens"
   },
   "name": "Jumbo Cards & TFA Microsupplies",
-  "description": "Jumbo-sized cards with missing scenario maps and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard.",
+  "description": "Jumbo-sized cards with missing scenario maps and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard. And 8-up supplies for Parallel Monterey Jack’s scenario, with Augur, Hope, and Zeal filling out the remaining space on the card.",
   "artist": null,
   "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC_Alley/wiki/VELA-&-PARTNERS-CARTOGRAPHY",
@@ -376,11 +377,38 @@
             }
           ],
           "code": "3BDC5812E3F03AB4"
+        },
+        {
+          "name": "Parallel Monterey Jack 8-up Microsupplies on Jumbo Card",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "5179ccef-6d6c-4933-b336-470ab4dc4d75",
+              "count": 1,
+              "front": {
+                "Name": "MoJack Microsupples Microkittens-1.png",
+                "ID": "87E7922A51C8B0A08CE2567F7D26014F",
+                "SourceID": "DA2875A01E41EA6E1679C495E4AC08939DF70E93",
+                "Exp": "png",
+                "Width": 2240,
+                "Height": 3140
+              },
+              "back": {
+                "Name": "MoJack Microsupples Microkittens-2.png",
+                "ID": "3AE536136E7042463432F3C6154B4C0A",
+                "SourceID": "9669343FAE147A8C1414736BA80F43FBB862762B",
+                "Exp": "png",
+                "Width": 2240,
+                "Height": 3140
+              }
+            }
+          ],
+          "code": "3BDC5812E3F03AB4"
         }
       ]
     }
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2024-08-03T01:58:37.833Z",
+  "updated": "2024-08-19T01:58:37.833Z",
   "hash": "0d3c0e0c0b116f2a9c9dfa0ac7f3741ded5bdaeacc8b99249f5b239a7a424c99"
 }
