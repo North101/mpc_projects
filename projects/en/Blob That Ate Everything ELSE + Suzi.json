@@ -3,7 +3,8 @@
   "projectIds": {
     "59218CD517B9B0D1E642633E677BAB735C0CFC9054C69C6A45DBD906C7B21E8F20569DB95D0EA5C9": "The Blob That Ate Everything ELSE most recent",
     "B3909516B2CBDF90034A19668D4B11643E94F7FD7593BB30E3A4C4F30173939A85DC8889C8F14B63": "The Blob That Ate Everything ELSE v1",
-    "010A20C7A64EAEF3D0A544147E360510E15E5180579D57F123D75E59934D6D6C383678B32AE19D1A": "The Blob That Ate Everything ELSE v2"
+    "010A20C7A64EAEF3D0A544147E360510E15E5180579D57F123D75E59934D6D6C383678B32AE19D1A": "The Blob That Ate Everything ELSE v2",
+    "BA4C4D24268D7BAE215832A0F19F1F08636D3F5F2EDECD64E36C3BD4950363EEC1E2AC23180CF200": "Suzi Minicard"
   },
   "name": "The Blob That Ate Everything ELSE",
   "description": "Additional cards to expand The Blob That Ate Everything and neutral investigator Subject 5U-21 “Suzi.”",
@@ -130,7 +131,33 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Suzi minicard with crop marks",
+          "name": "5U-21 Suzi mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Blob - 5U-21 Suzi-1.png",
+                "ID": "89CDC60FAA00C815FA613758E160317F",
+                "SourceID": "11627F4D7ED2AB45C53570F50AEDCA64C078C190",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Blob - 5U-21 Suzi-2.png",
+                "ID": "C6DBA5AA104A0A108C47385D257894BD",
+                "SourceID": "FD188F398F9115780649EDAA35C9A02BDD60C889",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "5U-21 Suzi full-sized mini with crop marks",
+          "enabled": false,
           "cards": [
             {
               "count": 1,

@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "EF2DF67E0E54FFBA47DE24969F6C46E31F1EDC2C38ED25A7A080F7C5784FCE60CA56403FE3BB3ADB": "8L-08 Smith"
+    "EF2DF67E0E54FFBA47DE24969F6C46E31F1EDC2C38ED25A7A080F7C5784FCE60CA56403FE3BB3ADB": "8L-08 Smith",
+    "74EF1B67A255050C1B7B370C6F777BCF5A78BBEB402D364DE4DEFACF53CFDEF9DCF7BCFB379815FF": "8L-08 Smith Minicard"
   },
   "name": "8L-08 Smith",
   "description": "FFG’s 2023 April Fool’s joke taken too seriously and made available for PnP.",
@@ -50,25 +51,6 @@
             {
               "count": 1,
               "front": {
-                "Name": "8l-08 Smith mini-a.jpg",
-                "ID": "89004B171401CB8063E25D6A6F5BFD6F",
-                "SourceID": "49D39D85BD94EE79F8F4C5B8AEDDB9E5B56B868D",
-                "Exp": "jpg",
-                "Width": 822,
-                "Height": 1122
-              },
-              "back": {
-                "Name": "8l-08 Smith mini-b.jpg",
-                "ID": "ABD2CCDED9F51992E8731877B021301C",
-                "SourceID": "372D07BCC8D517578C7AB20840B645D20BDA57A9",
-                "Exp": "jpg",
-                "Width": 822,
-                "Height": 1122
-              }
-            },
-            {
-              "count": 1,
-              "front": {
                 "Name": "Best Friend-a.png",
                 "ID": "154336A7C3574366BA05F13430BD10D4",
                 "SourceID": "CC05DE1210529F0D343A03E786B1E560627368F1",
@@ -100,6 +82,57 @@
                 "ID": "45A7619409DA56EE6D51B4F54031CC0F",
                 "SourceID": "EA4AF5EA8237F4CCC96BF3BF9E404C5FADF1A96E",
                 "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "8L-08 Smith mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Blob - 8L-08 Smith-1.png",
+                "ID": "4962DBD6FD961C6E672646AD8BB34797",
+                "SourceID": "42A1131A623991B152E131DA1B6EE432D93DCE5A",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Blob - 8L-08 Smith-2.png",
+                "ID": "EC327406738A5BC54D2F0647B16E4973",
+                "SourceID": "61D8B05B465D81A1A62BFA181C15F403C6118606",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "8L-08 Smith full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "8l-08 Smith mini-a.jpg",
+                "ID": "89004B171401CB8063E25D6A6F5BFD6F",
+                "SourceID": "49D39D85BD94EE79F8F4C5B8AEDDB9E5B56B868D",
+                "Exp": "jpg",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "8l-08 Smith mini-b.jpg",
+                "ID": "ABD2CCDED9F51992E8731877B021301C",
+                "SourceID": "372D07BCC8D517578C7AB20840B645D20BDA57A9",
+                "Exp": "jpg",
                 "Width": 822,
                 "Height": 1122
               }

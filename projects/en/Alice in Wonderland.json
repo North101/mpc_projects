@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "8E4239E5875D201D7D96BE7448B4CB6DFD31F59E7DB82A2C828CAB56B1F53B8D3FACD40576604374": "Alice in Wonderland"
+    "8E4239E5875D201D7D96BE7448B4CB6DFD31F59E7DB82A2C828CAB56B1F53B8D3FACD40576604374": "Alice in Wonderland",
+    "7A2C48FB2F5476B664F446D59B5EF1CF9630A42E2F308BD149509648A3C09A3009F024A7B2531395": "Alice Liddell Minicard"
   },
   "name": "Alice in Wonderland",
   "description": "An 8-scenario campaign that can be played forwards or backwards, mixing Arkham with the Lewis Carroll classics.",
@@ -5879,7 +5880,39 @@
                 "Width": 826,
                 "Height": 1141
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Alice Liddell mini-sized mini",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Alice - Alice Liddell-1.png",
+                "ID": "2F9F9FDC78B7A327F82F68F6614269E3",
+                "SourceID": "E3820C1511593FE7336E128A94C5E23243158FDE",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Alice - Alice Liddell-2.png",
+                "ID": "A1E6BA0A029ECD579350ED0BABB28917",
+                "SourceID": "B3DFBC4346A5FE3F6264664EA5474F8D83D5AF5E",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Alice Liddell full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
             {
               "count": 1,
               "front": {

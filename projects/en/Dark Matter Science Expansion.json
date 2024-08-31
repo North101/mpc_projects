@@ -2,7 +2,8 @@
   "version": 5,
   "projectIds": {
     "948B6E53E074EC840CF38D883004D1CC3F0A4976B7A252EB6D20860E1D1A75799E02C6430E43DD45": "Dark Matter Science Expansion",
-    "AB96329A611C9932D75A762408E10C73AC285BF7B4DE3DB30A38BD84E40A56606A354C8C1D93FFC9": "Dark Matter Science cards 13-14 reprints"
+    "AB96329A611C9932D75A762408E10C73AC285BF7B4DE3DB30A38BD84E40A56606A354C8C1D93FFC9": "Dark Matter Science cards 13-14 reprints",
+    "324594EA080139496D503E1B495C35CE5ECDF5ACA10AE7F52C3CFF3A298099B8B4629172284A2E0F": "Kate Winthrop Minicard"
   },
   "name": "Dark Matter Science Expansion",
   "description": "A science-themed expansion for Dark Matter, including a custom Kate Winthrop investigator.",
@@ -417,7 +418,33 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Kate Winthrop minicard with crop marks",
+          "name": "Kate Winthrop mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Dark Matter Science & Artifact - 02 Kate Winthrop-1.png",
+                "ID": "C8B54648AC653E11504B6913FBF0AC20",
+                "SourceID": "809005C06DC5A5BF45089B45DBEF453D1E348213",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Dark Matter Science & Artifact - 02 Kate Winthrop-2.png",
+                "ID": "2D97798E3D369B0A8D715392B1679BA2",
+                "SourceID": "EF8CD32DA32D5445E9BE6ED27E28C2C6C58311C6",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Kate Winthrop full-sized mini with crop marks",
+          "enabled": false,
           "cards": [
             {
               "count": 1,

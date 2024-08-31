@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "95BFD5A9B5DE7CD802D91D83F45FA23B77C4658183FFF7591157596DCEB41F91B6B93EEC19BEB3F5": "The Symphony of Erich Zann"
+    "95BFD5A9B5DE7CD802D91D83F45FA23B77C4658183FFF7591157596DCEB41F91B6B93EEC19BEB3F5": "The Symphony of Erich Zann",
+    "8AF61C5F00BD7065CD9F54002D2B6CA3004A5CBC31ECD3E59107BCCF944F12B1058F2840B796B836": "Isabelle LaFratta Minicard"
   },
   "name": "The Symphony of Erich Zann",
   "description": "Investigators must stop an orchestra from playing a horrific symphony in this loose sequel to Lovecraft’s “The Music of Erich Zann.”",
@@ -81,25 +82,6 @@
                 "Name": "00c - Erlk”nig-2.png",
                 "ID": "F2C892495D430CF932D00FCC1CD986B8",
                 "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "00d - Standee with crop lines-1.png",
-                "ID": "5289B5C92A1A44F6A42E943FC0E04593",
-                "SourceID": "693D46A262430F6176DF2284D4EEAF8BA0292CB2",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              },
-              "back": {
-                "Name": "00d - Standee with crop lines-2.png",
-                "ID": "5B2FF3B3E76A3F49FC9C018D080D231C",
-                "SourceID": "433821ED10D93890A7924B9480DD3FF245891DF6",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -1338,6 +1320,57 @@
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Isabelle La Fratta mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Erich Zann - Isabelle La Fratta-1.png",
+                "ID": "404DEAC5E7700E8960FC439C7EFF89FC",
+                "SourceID": "BF8783725AC8962456A78E4B629879461BB432C6",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Erich Zann - Isabelle La Fratta-2.png",
+                "ID": "EBE6626280660526BA451DF45823F287",
+                "SourceID": "FD50967049D04E2DF1E1E02E70911834D95001A2",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Isabelle La Fratta full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "00d - Standee with crop lines-1.png",
+                "ID": "5289B5C92A1A44F6A42E943FC0E04593",
+                "SourceID": "693D46A262430F6176DF2284D4EEAF8BA0292CB2",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "00d - Standee with crop lines-2.png",
+                "ID": "5B2FF3B3E76A3F49FC9C018D080D231C",
+                "SourceID": "433821ED10D93890A7924B9480DD3FF245891DF6",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
               }
             }
           ],
