@@ -2,11 +2,11 @@
   "version": 5,
   "projectIds": {
     "F6C5C6098C3C42AC255E221E7A3A351C63E0BAACF051D50076FB9D7B6C3D766A799328B797477DAC": "Artifact Expansion",
-    "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85": "Artifact Expansion",
-    "656DEFC7F9172754AF0AC70CA8A94D1EC234C05E8719AB4C93D41AF88EFDC4211B196CD4A3994B58": "Artifact Expansion",
-    "0454F5A1E9D096D3B2C9F11A21AF483C2C930BB9F25B9CD7EF85F2A84C113B8BF3CB431205F9F239": "Artifact Expansion",
-    "81B94F9C48ED1B88C475FB05E0F67DC4346FBB45E6F8ACC8B1A779FC7436BB1A24F542F8E49352D7": "Artifact Expansion",
-    "953F9E8F088BAED168A10920CCC0CBEAFE83A9D7DE03EC29C159A699989E4D9016249D978209A1CC": "Artifact Expansion"
+    "8BEEB55F493DCA6E86D347B5BAD97E972765880428202E6098FB9A2D92B732453F3AFBA18534EC85": "Artifact Minicards",
+    "656DEFC7F9172754AF0AC70CA8A94D1EC234C05E8719AB4C93D41AF88EFDC4211B196CD4A3994B58": "Artifact Investigators",
+    "0454F5A1E9D096D3B2C9F11A21AF483C2C930BB9F25B9CD7EF85F2A84C113B8BF3CB431205F9F239": "Artifact Support",
+    "81B94F9C48ED1B88C475FB05E0F67DC4346FBB45E6F8ACC8B1A779FC7436BB1A24F542F8E49352D7": "Artifact Cards",
+    "953F9E8F088BAED168A10920CCC0CBEAFE83A9D7DE03EC29C159A699989E4D9016249D978209A1CC": "Artifact Player Cards"
   },
   "name": "Artifact Expansion",
   "description": "Add Artifacts from Eldritch Horror to the card game as a module that can be added to any scenario. Plus custom investigators and player cards.",
@@ -2457,223 +2457,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Artifact Minis with Crop Marks",
-          "cards": [
-            {
-              "count": 1,
-              "front": {
-                "Name": "01.1 Daniela Mini-1.png",
-                "ID": "FEC18DCE8F5C64857B53E42562D99DE7",
-                "SourceID": "4FB8EEBA2E559E4527079F278EAA7772B2D3118D",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "01.1 Daniela Mini-2.png",
-                "ID": "759A88ED02C2CAE2F5C321905A835AD3",
-                "SourceID": "A20E6D01692EC7F39E3393EA4DBFCE37609882DA",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "02.1 Kate Winthrop Mini-1.png",
-                "ID": "19580B0698A44B36C46A3E40B0F5F7A9",
-                "SourceID": "7FA2A59F6CFD6A5D52FA1E79B553B8ECF0C6061D",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              },
-              "back": {
-                "Name": "02.1 Kate Winthrop Mini-2.png",
-                "ID": "087ABD9C0526538CD8180F245E70BEA7",
-                "SourceID": "5E75B15132B52D46D4618DD6B0BC9ADCED43450E",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "03.1 Monterey Jack Mini-1.png",
-                "ID": "08E97A003E45E6A2FAEACF4FABE43E5B",
-                "SourceID": "3B29A6F2F6BC7590D0757D91A91C31AECECBF528",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "03.1 Monterey Jack Mini-2.png",
-                "ID": "CE14EEB6240CD3013011A60309A67F72",
-                "SourceID": "3CA26F96D426DAC98DC688AF48786A2B9F2711BA",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "04.1 Agatha Mini-1.png",
-                "ID": "098FDC9F3925E4B1D25127497D089EE9",
-                "SourceID": "486CFDE3B3E1E7545D071BADD81C813BA7014950",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "04.1 Agatha Mini-2.png",
-                "ID": "A477B41293FE830A841329C16F332D61",
-                "SourceID": "92E0000C06F5F9A297B00F396486AE6D96294456",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "05.1 Darrell Mini-1.png",
-                "ID": "769FDF23A0A71C58721D7C505F7CA2AC",
-                "SourceID": "3118487E105A0760B6C7A4BBB9E208E28CAFE1C2",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "05.1 Darrell Mini-2.png",
-                "ID": "45C4A6D41A60DA80CD29270A91855FD5",
-                "SourceID": "80A6C25A0229E5861C629A676B13141587A4448F",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "06.1 Vincent Mini-1.png",
-                "ID": "1F5AB55E50F9BB0E5962B92AC7A58C50",
-                "SourceID": "562D8B5A781A938736CBC619672AAAB674F2B98F",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "06.1 Vincent Mini-2.png",
-                "ID": "135B2B5C3177576119B855BEF83F2438",
-                "SourceID": "DBA5E10ADEF7F29E213E298247D73527C9102A12",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "07.1 George Mini-1.png",
-                "ID": "0B9FD30C7A53F3759193DED4E0BA657E",
-                "SourceID": "6C0A518228B9D5D5619511443768152C9E2D8C9A",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "07.1 George Mini-2.png",
-                "ID": "8D02D98B9D98E1D61B879F7A4A55E9F1",
-                "SourceID": "D7138D47A4C658E1358B5E75A8847699FF9D00E3",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "08.1 Indira Mini-1.png",
-                "ID": "AE9D544CBEC4BB537032CF17E73548BF",
-                "SourceID": "BB1B94753F0F6B011F16A98914FFFA5D7B06D68B",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "08.1 Indira Mini-2.png",
-                "ID": "976AD8E62AB88E429E1E3FFF9EC97640",
-                "SourceID": "DBF06A9DD7AF2426BFDFF8DE52BF078E2987FF19",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "09.1 Minako Mini-1.png",
-                "ID": "35DDC4EF86D0B9350B7AE83C3829F490",
-                "SourceID": "33A137ABEDD824C76FD41D713E159A207898A0B6",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "09.1 Minako Mini-2.png",
-                "ID": "9ABC2158810653882CD552561DA374F5",
-                "SourceID": "42BB924C6AF97DB6650E9F62B3713D1940FD9234",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "10.1 Carson Mini-1.png",
-                "ID": "9A82E26FBA588AFD4D8672D682F08AA1",
-                "SourceID": "9D1D95120E35DA40E48BC0AF284EE84F2C3D43D7",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "10.1 Carson Mini-2.png",
-                "ID": "C7FBB5B2C527A0FB72B9220691369A0F",
-                "SourceID": "3D8FAE5D61EE978D2D66F8ECF94D683676BF070C",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "11.1 Bo Wen Mini-1.png",
-                "ID": "A1B065D01B5F87BD8499A0BEE28E4E87",
-                "SourceID": "3D69FD5203D58D47C591F4EB4B4686BC6054F725",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "11.1 Bo Wen Mini-2.png",
-                "ID": "F30955EFFBB48FDF22059DC39DB4BDCA",
-                "SourceID": "2A18121DFB9BE21CCE422D7B211F4F084D217A28",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              }
-            }
-          ],
-          "code": "C380050185D1C1AF"
-        },
-        {
           "name": "Artifact Investigator Minicard-Sized Minis",
-          "enabled": false,
           "cards": [
             {
               "count": 1,
@@ -2882,6 +2666,222 @@
                 "Exp": "png",
                 "Width": 564,
                 "Height": 826
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Artifact full-sized minis with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "01.1 Daniela Mini-1.png",
+                "ID": "FEC18DCE8F5C64857B53E42562D99DE7",
+                "SourceID": "4FB8EEBA2E559E4527079F278EAA7772B2D3118D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "01.1 Daniela Mini-2.png",
+                "ID": "759A88ED02C2CAE2F5C321905A835AD3",
+                "SourceID": "A20E6D01692EC7F39E3393EA4DBFCE37609882DA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "02.1 Kate Winthrop Mini-1.png",
+                "ID": "19580B0698A44B36C46A3E40B0F5F7A9",
+                "SourceID": "7FA2A59F6CFD6A5D52FA1E79B553B8ECF0C6061D",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "02.1 Kate Winthrop Mini-2.png",
+                "ID": "087ABD9C0526538CD8180F245E70BEA7",
+                "SourceID": "5E75B15132B52D46D4618DD6B0BC9ADCED43450E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "03.1 Monterey Jack Mini-1.png",
+                "ID": "08E97A003E45E6A2FAEACF4FABE43E5B",
+                "SourceID": "3B29A6F2F6BC7590D0757D91A91C31AECECBF528",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "03.1 Monterey Jack Mini-2.png",
+                "ID": "CE14EEB6240CD3013011A60309A67F72",
+                "SourceID": "3CA26F96D426DAC98DC688AF48786A2B9F2711BA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "04.1 Agatha Mini-1.png",
+                "ID": "098FDC9F3925E4B1D25127497D089EE9",
+                "SourceID": "486CFDE3B3E1E7545D071BADD81C813BA7014950",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "04.1 Agatha Mini-2.png",
+                "ID": "A477B41293FE830A841329C16F332D61",
+                "SourceID": "92E0000C06F5F9A297B00F396486AE6D96294456",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "05.1 Darrell Mini-1.png",
+                "ID": "769FDF23A0A71C58721D7C505F7CA2AC",
+                "SourceID": "3118487E105A0760B6C7A4BBB9E208E28CAFE1C2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "05.1 Darrell Mini-2.png",
+                "ID": "45C4A6D41A60DA80CD29270A91855FD5",
+                "SourceID": "80A6C25A0229E5861C629A676B13141587A4448F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "06.1 Vincent Mini-1.png",
+                "ID": "1F5AB55E50F9BB0E5962B92AC7A58C50",
+                "SourceID": "562D8B5A781A938736CBC619672AAAB674F2B98F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "06.1 Vincent Mini-2.png",
+                "ID": "135B2B5C3177576119B855BEF83F2438",
+                "SourceID": "DBA5E10ADEF7F29E213E298247D73527C9102A12",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "07.1 George Mini-1.png",
+                "ID": "0B9FD30C7A53F3759193DED4E0BA657E",
+                "SourceID": "6C0A518228B9D5D5619511443768152C9E2D8C9A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "07.1 George Mini-2.png",
+                "ID": "8D02D98B9D98E1D61B879F7A4A55E9F1",
+                "SourceID": "D7138D47A4C658E1358B5E75A8847699FF9D00E3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "08.1 Indira Mini-1.png",
+                "ID": "AE9D544CBEC4BB537032CF17E73548BF",
+                "SourceID": "BB1B94753F0F6B011F16A98914FFFA5D7B06D68B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "08.1 Indira Mini-2.png",
+                "ID": "976AD8E62AB88E429E1E3FFF9EC97640",
+                "SourceID": "DBF06A9DD7AF2426BFDFF8DE52BF078E2987FF19",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "09.1 Minako Mini-1.png",
+                "ID": "35DDC4EF86D0B9350B7AE83C3829F490",
+                "SourceID": "33A137ABEDD824C76FD41D713E159A207898A0B6",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "09.1 Minako Mini-2.png",
+                "ID": "9ABC2158810653882CD552561DA374F5",
+                "SourceID": "42BB924C6AF97DB6650E9F62B3713D1940FD9234",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "10.1 Carson Mini-1.png",
+                "ID": "9A82E26FBA588AFD4D8672D682F08AA1",
+                "SourceID": "9D1D95120E35DA40E48BC0AF284EE84F2C3D43D7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "10.1 Carson Mini-2.png",
+                "ID": "C7FBB5B2C527A0FB72B9220691369A0F",
+                "SourceID": "3D8FAE5D61EE978D2D66F8ECF94D683676BF070C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "11.1 Bo Wen Mini-1.png",
+                "ID": "A1B065D01B5F87BD8499A0BEE28E4E87",
+                "SourceID": "3D69FD5203D58D47C591F4EB4B4686BC6054F725",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "11.1 Bo Wen Mini-2.png",
+                "ID": "F30955EFFBB48FDF22059DC39DB4BDCA",
+                "SourceID": "2A18121DFB9BE21CCE422D7B211F4F084D217A28",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
               }
             }
           ],

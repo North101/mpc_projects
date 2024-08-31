@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "2ED0921F7DA5592D3F187DA266792FD97432014DD240C9E2EEE770C61EFAFF896F861752E202CB93": "Arabella Freeman"
+    "2ED0921F7DA5592D3F187DA266792FD97432014DD240C9E2EEE770C61EFAFF896F861752E202CB93": "Arabella Freeman",
+    "A383CAC60AD37AE583DB443E6783B96358BFAE09AD63DD8310418D31550D2D9E4B388F527CD0945C": "Arabella Freeman Minicard"
   },
   "name": "Arabella Freeman",
   "description": "By popular demand, a gunslinging wizard inspired by the Radiant Smite art. She may be unplaytested, but she’s undeniably badass.",
@@ -50,25 +51,6 @@
             {
               "count": 1,
               "front": {
-                "Name": "02 Sigil of Certainty-1.png",
-                "ID": "3CE221699C1CECCF88F55A908F5D5555",
-                "SourceID": "A932C3ED053955F4775E1BF91BC84D572B912F7A",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              },
-              "back": {
-                "Name": "_playerback.png",
-                "ID": "F2C892495D430CF932D00FCC1CD986B8",
-                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              }
-            },
-            {
-              "count": 1,
-              "front": {
                 "Name": "03 Involuntary Discharge-1.png",
                 "ID": "ADDA8DDF3AD0085B93725FA35F379449",
                 "SourceID": "557805A1758B8A33C4E8704C53956C21DAB04755",
@@ -85,6 +67,57 @@
                 "Height": 1122
               }
             },
+            {
+              "count": 1,
+              "front": {
+                "Name": "02 Sigil of Certainty-1.png",
+                "ID": "3CE221699C1CECCF88F55A908F5D5555",
+                "SourceID": "A932C3ED053955F4775E1BF91BC84D572B912F7A",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Arabella Freeman mini-sized mini",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Arabella Freeman mini-1.png",
+                "ID": "59003536EF93D4A466550B846C2CCCFC",
+                "SourceID": "9B5B833FE7936976F5F225D4C3350EB39A0FCCD5",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Arabella Freeman mini-2.png",
+                "ID": "04708180E90D7D69E6DDF6E7102D3CCF",
+                "SourceID": "AB4224A709FD20BDDF7710AD4C187FCD5C9451BE",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Arabella Freeman full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
             {
               "count": 1,
               "front": {

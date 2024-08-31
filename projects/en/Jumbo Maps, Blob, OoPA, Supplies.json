@@ -14,7 +14,7 @@
     "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update",
     "7505D6D7F1F42EE0EC1756491EDA4FD8078434796CD4BDA1D7A8FEE5910930471BDBB697BC7DAC1C": "Monterey Jack + 3 little kittens"
   },
-  "name": "Jumbo Cards & TFA Microsupplies",
+  "name": "Jumbo Maps",
   "description": "Jumbo-sized cards with missing scenario maps and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard. And 8-up supplies for Parallel Monterey Jack’s scenario, with Augur, Hope, and Zeal filling out the remaining space on the card.",
   "artist": null,
   "info": null,
@@ -33,7 +33,7 @@
   ],
   "options": [
     {
-      "name": "Jumbo Cards & TFA Microsupplies",
+      "name": "Jumbo Maps & Out-of-Play Areas",
       "parts": [
         {
           "name": "Jumbo Location Maps",
@@ -294,9 +294,14 @@
             }
           ],
           "code": "3BDC5812E3F03AB4"
-        },
+        }
+      ]
+    },
+    {
+      "name": " 8-up Microsupplies on Jumbo Cards",
+      "parts": [
         {
-          "name": "8-up Microsupplies on Jumbo Cards",
+          "name": " TFA Microsupplies",
           "enabled": false,
           "cards": [
             {
@@ -379,7 +384,7 @@
           "code": "3BDC5812E3F03AB4"
         },
         {
-          "name": "Parallel Monterey Jack 8-up Microsupplies on Jumbo Card",
+          "name": "Parallel Monterey Jack Microsupplies",
           "enabled": false,
           "cards": [
             {

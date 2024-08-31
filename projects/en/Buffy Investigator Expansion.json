@@ -1,8 +1,9 @@
 {
   "version": 5,
   "projectIds": {
-    "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40": "Buffy the Vampire Slayer",
-    "27DD840F06858C86E01702B6CC47F3AE71E19A99FB620C624F6A754DD031685C7BC5FAC89C760839": "Buffy the Vampire Slayer"
+    "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40": "???",
+    "27DD840F06858C86E01702B6CC47F3AE71E19A99FB620C624F6A754DD031685C7BC5FAC89C760839": "Buffy Investigators",
+    "FD69F1643D03C5133A30E5EA7063758DBC267D3EE0D11718236A68E4974DE779239C316B6BB64A6A": "Buffy Minicards"
   },
   "name": "Buffy the Vampire Slayer",
   "description": "Bring Buffy Summers and her allies into the world of Eldritch Horror with this Scooby Gang investigator expansion.",
@@ -28,7 +29,7 @@
       "name": "Buffy the Vampire Slayer",
       "parts": [
         {
-          "name": "Buffy Investigator Expansion",
+          "name": "Buffy Investigators",
           "cards": [
             {
               "count": 1,
@@ -371,7 +372,13 @@
                 "Width": 822,
                 "Height": 1122
               }
-            },
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Buffy Player Cards",
+          "cards": [
             {
               "count": 2,
               "front": {
@@ -1782,7 +1789,128 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Buffy minis with crop marks",
+          "name": "Buffy mini-sized minicards",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 01 Angel-1.png",
+                "ID": "74E66AB5C71DA9512D118CC0EC72291E",
+                "SourceID": "B4A29A150CB1FB712CCE43CDF107FC62213F58AA",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 01 Angel-2.png",
+                "ID": "CEAADC795B6BA8570D0592335A4E14E8",
+                "SourceID": "1FE6D79C92BBCEE2AF44EA8AE78405D8ADE0E841",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 02 Rupert Giles-1.png",
+                "ID": "8C5E36AFAC2949D0398A99A6C9077D75",
+                "SourceID": "496822225CDE221761CEE03DD099F4301E5B06CE",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 02 Rupert Giles-2.png",
+                "ID": "E307A20B09C69D2AC187C8676F595C6E",
+                "SourceID": "360171EC61D13000A243A4A6AEB478F667623A77",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 03 Cordelia Chase-1.png",
+                "ID": "F92495364175D20C9CF1553DD8ED137E",
+                "SourceID": "03DC2D84DE36BC44C6D3111EF61D05151A07ECED",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 03 Cordelia Chase-2.png",
+                "ID": "0BCC4725510F23DBA174AC4C0D7E38A9",
+                "SourceID": "5508A12EE4DC13235344E075FBC958D0F1F7BE4A",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 04 Willow Rosenberg-1.png",
+                "ID": "E4238B2CDEBCC30FDECD4AF7C8D66DB7",
+                "SourceID": "12882BE9E802F6F52064E0EBA472CDC22DE0878D",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 04 Willow Rosenberg-2.png",
+                "ID": "1553D960955743B1E5B5B2D583E4FDEE",
+                "SourceID": "4D94FE589621365BE23CB98C67C3BE7925E49677",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 05 Xander Harris-1.png",
+                "ID": "8CA3A7DAB9C35EF8978B051DCFC6617B",
+                "SourceID": "CBF0D5B3405BB4BA4CBDF465D8ED4EA8E7628B7B",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 05 Xander Harris-2.png",
+                "ID": "D943422AF8D17014C8FDA5E3FE29FA09",
+                "SourceID": "E496A6B052DA7CD8E68DABBA8F96EBE77908109E",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            },
+            {
+              "count": 1,
+              "front": {
+                "Name": "Buffy - 06 Buffy Summers-1.png",
+                "ID": "7B005A07EE336A6097812C60BF0AB416",
+                "SourceID": "F9B1DC961B0DC24F95B1367DA215D6D7F42EEC0B",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Buffy - 06 Buffy Summers-2.png",
+                "ID": "D1218F012EA34F89AAEA34C5EF2BDD77",
+                "SourceID": "CFC7415C74E6869234E66838268E2D20F662E70D",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Buffy full-sized mini with crop marks",
+          "enabled": false,
           "cards": [
             {
               "count": 1,

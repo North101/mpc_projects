@@ -1,7 +1,9 @@
 {
   "version": 5,
   "projectIds": {
-    "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD": "Celtic Rising"
+    "E03BAB51BCE7530A2EDB1B6D064A43C1F6C1F129D837AA1EE66CC04021045DA7B9CCD74D093BB3DD": "Celtic Rising",
+    "0BFB749539E3F618CC47FC15548D5C4DB37756486F4A90B7501696D0E70333D1CAEA274971EA54FE": "Alannah Stephens Minicard",
+    "D6F3ABFFF79FB49CAAB73FA309E7DD174A4FA4AA7FF9DD3FE04CFDADA88E4D493A259893E01DDE1D": "Alannah Stephens Minicard v1"
   },
   "name": "Celtic Rising",
   "description": "A Celtic-themed 5-part cycle with a similar complexity to Dunwich and Carcosa.",
@@ -7669,25 +7671,6 @@
             {
               "count": 1,
               "front": {
-                "Name": "403 Alannah Mini with crop marks-1.png",
-                "ID": "FFF8C66D7B76C68877A27DFFA799A261",
-                "SourceID": "6B362A42BEA05087BFDEFAEC7A88D258C91D8C88",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1141
-              },
-              "back": {
-                "Name": "403 Alannah Mini with crop marks-2.png",
-                "ID": "84A8AC1049A652A23B13772E544AC205",
-                "SourceID": "54BAEA77F1BBA0E9CCB5C7911E901AB1C60C9CB5",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1141
-              }
-            },
-            {
-              "count": 1,
-              "front": {
                 "Name": "404 Guilty Conscience-1.png",
                 "ID": "AA13AD238B0DB3AAAA611954A89041F3",
                 "SourceID": "F0CF579643A4F5F6CDB460E60902A7B781A13D41",
@@ -8310,6 +8293,57 @@
                 "Exp": "png",
                 "Width": 850,
                 "Height": 1156
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Alannah Stephens mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Celtic Rising - Alannah Stephens-1.png",
+                "ID": "D904A1FEFF3079BE327B6E59AF1DB902",
+                "SourceID": "2FB0DE6ACB64E7B5C201D78701E6CFDF452D4116",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Celtic Rising - Alannah Stephens-2.png",
+                "ID": "AEB58C94759D260AB9ED1DC47431F6AB",
+                "SourceID": "AF88B0B5CC079817C8539172F1EFC5CD2FAECB71",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Alannah Stephens full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "403 Alannah Mini with crop marks-1.png",
+                "ID": "FFF8C66D7B76C68877A27DFFA799A261",
+                "SourceID": "6B362A42BEA05087BFDEFAEC7A88D258C91D8C88",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
+              },
+              "back": {
+                "Name": "403 Alannah Mini with crop marks-2.png",
+                "ID": "84A8AC1049A652A23B13772E544AC205",
+                "SourceID": "54BAEA77F1BBA0E9CCB5C7911E901AB1C60C9CB5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1141
               }
             }
           ],

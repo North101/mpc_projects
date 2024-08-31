@@ -3,6 +3,7 @@
   "projectIds": {
     "B8A79C0D599053412E6D29828DD4C9389E754B16608C52CC4AA095BFE26DB3BA279C09B5DA3CEAC6": "OG Core Art Parallels",
     "2772015665F9119BEB59A778FCF39B3A7EC2CAB58EEE66543A1622C40C138C80252A97735527CF1D": "Revcore Art Parallels",
+    "E7B6718EB7117157304A6B0E7BCCE4A54A20CE8845D58716996EE171520226277208D7280C70B070": "Hard Knocks Wendy Minicard",
     "58539D4AE7D79DA95857DEADE1E2448E4B4963FD356165545EA19997855DE4429F123D762C4E8173": "Parallel Pete",
     "C4060208A4C5FF04EA0705C14AE99AF7110D5316AD5B6441FDE029DDDBD67588A431AD3020E42D2F": "Parallel Jim v1",
     "6487AAE642B88A83B1CA8193D2992FE4DA25A529923F389324E8C014740437A7172AF1D3E0143CC3": "Parallel Jim v2",
@@ -39,10 +40,10 @@
   ],
   "options": [
     {
-      "name": "Parallel Investigators",
+      "name": "Parallel Daisy Walker",
       "parts": [
         {
-          "name": "Parallel Daisy Walker (Original Art)",
+          "name": "Parallel Daisy, Original Art",
           "cards": [
             {
               "count": 1,
@@ -105,7 +106,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Daisy Walker (Revised Core Art)",
+          "name": "Parallel Daisy, Revised Core Art",
           "enabled": false,
           "cards": [
             {
@@ -169,7 +170,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Read or Die (scenario for Parallel Daisy)",
+          "name": "Read or Die scenario",
           "cards": [
             {
               "count": 1,
@@ -249,9 +250,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel “Skids” O'Toole",
+      "parts": [
         {
-          "name": "Parallel \"Skids\" O'Toole (Original Art)",
+          "name": "Parallel Skids, Original Art",
           "cards": [
             {
               "count": 1,
@@ -314,7 +320,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel \"Skids\" O'Toole (Revised Core Art)",
+          "name": "Parallel Skids, Revised Core Art",
           "enabled": false,
           "cards": [
             {
@@ -378,7 +384,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "All or Nothing (scenario for Parallel Skids)",
+          "name": "All or Nothing scenario",
           "cards": [
             {
               "count": 1,
@@ -557,9 +563,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Agnes Baker",
+      "parts": [
         {
-          "name": "Parallel Agnes Baker (Original Art)",
+          "name": "Parallel Agnes, Original Art",
           "cards": [
             {
               "count": 1,
@@ -622,7 +633,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Agnes Baker (Revised Core Art)",
+          "name": "Parallel Agnes, Revised Core Art",
           "enabled": false,
           "cards": [
             {
@@ -686,7 +697,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Bad Blood (scenario for Parallel Agnes)",
+          "name": "Bad Blood scenario",
           "cards": [
             {
               "count": 1,
@@ -766,9 +777,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Roland Banks",
+      "parts": [
         {
-          "name": "Parallel Roland Banks (Original Art)",
+          "name": "Parallel Roland, Original Art",
           "cards": [
             {
               "count": 1,
@@ -926,7 +942,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Roland Banks (Revised Core Art)",
+          "name": "Parallel Roland, Revised Core Art",
           "enabled": false,
           "cards": [
             {
@@ -1085,7 +1101,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "By the Book (scenario for Parallel Roland)",
+          "name": "By the Book scenario",
           "cards": [
             {
               "count": 1,
@@ -1184,9 +1200,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Wendy Adams",
+      "parts": [
         {
-          "name": "Parallel Wendy Adams (Original Art)",
+          "name": "Parallel Wendy, Original Art",
           "cards": [
             {
               "count": 1,
@@ -1268,7 +1289,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Wendy Adams (Revised Core Art)",
+          "name": "Parallel Wendy, Revised Core Art",
           "enabled": false,
           "cards": [
             {
@@ -1351,7 +1372,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Wendy Adams (Hard Knocks Art)",
+          "name": "Parallel Wendy, Hard Knocks Alt-Art",
           "enabled": false,
           "cards": [
             {
@@ -1377,7 +1398,33 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Red Tide Rising (scenario for Parallel Wendy)",
+          "name": "Hard Knocks Wendy mini-sized minicard",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Parallel - Hard Knocks Wendy-1.png",
+                "ID": "B5BED1972075E3EB6CE62C9A2D0A6079",
+                "SourceID": "06953A9E7E7B35C4C3B3DAC698680677F6723A94",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              },
+              "back": {
+                "Name": "Parallel - Hard Knocks Wendy-2.png",
+                "ID": "742339F2B9E14266012DE2A1323A0C29",
+                "SourceID": "97285EE1A4D32A613DC817F9ABA61D12AE2B794B",
+                "Exp": "png",
+                "Width": 597,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Red Tide Rising scenario",
           "cards": [
             {
               "count": 1,
@@ -1476,9 +1523,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel “Ashcan” Pete",
+      "parts": [
         {
-          "name": "Parallel \"Ashcan\" Pete",
+          "name": "Parallel Pete",
           "cards": [
             {
               "count": 1,
@@ -1539,9 +1591,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Jim Culver",
+      "parts": [
         {
-          "name": "Parallel Jim Culver",
+          "name": "Parallel Jim",
           "cards": [
             {
               "count": 1,
@@ -1642,7 +1699,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Laid to Rest (scenario for Parallel Jim)",
+          "name": "Laid to Rest scenario",
           "cards": [
             {
               "count": 1,
@@ -1798,9 +1855,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Zoey Samaras",
+      "parts": [
         {
-          "name": "Parallel Zoey Samaras",
+          "name": "Parallel Zoey",
           "cards": [
             {
               "count": 1,
@@ -1861,9 +1923,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Monterey Jack",
+      "parts": [
         {
-          "name": "Parallel Monterey Jack",
+          "name": "Parallel Monterey",
           "cards": [
             {
               "count": 1,
@@ -1926,7 +1993,7 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Relics of the Past (scenario for Parallel Monterey)",
+          "name": "Relics of the Past scenario",
           "cards": [
             {
               "count": 1,
@@ -2177,9 +2244,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Rex Murphy",
+      "parts": [
         {
-          "name": "Parallel Rex Murphy",
+          "name": "Parallel Rex",
           "cards": [
             {
               "id": "3bea61d5-9de4-490d-afd3-9482d3371748",
@@ -2243,9 +2315,14 @@
             }
           ],
           "code": "C380050185D1C1AF"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Parallel Jenny Barnes",
+      "parts": [
         {
-          "name": "Parallel Jenny Barnes",
+          "name": "Parallel Jenny, Aconyte Art",
           "cards": [
             {
               "id": "f46f6a3a-cd37-40a6-b0e3-68800e94cdb3",
@@ -2311,7 +2388,8 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Parallel Jenny mini (Aconyte art) with crop marks",
+          "name": "Parallel Jenny full-sized mini with crop marks",
+          "enabled": false,
           "cards": [
             {
               "id": "51d960de-23de-4930-a2e2-666d1f02ebfb",
@@ -2340,6 +2418,6 @@
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-20T22:28:30.334Z",
+  "updated": "2024-08-31T09:08:30.334Z",
   "hash": "a14159abbdb5d5c098bdb878d5597ae5d0ca0da8162b6d7850f7d4634cc78436"
 }

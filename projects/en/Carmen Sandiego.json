@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "AB2410B44679208B0FF54A30816DE9A834452402D2A17E2BA60401C2D3499EC04C3095C34B683898": "Where in Arkham is Carmen Sandiego?"
+    "AB2410B44679208B0FF54A30816DE9A834452402D2A17E2BA60401C2D3499EC04C3095C34B683898": "Where in Arkham is Carmen Sandiego?",
+    "2487201A4AB45DD4E81B9A3653348CBBB3329ED4D46B0925E62115C2224273F102DFA9BE714082FE": "Carmen Sandiego Minicard"
   },
   "name": "Where in Arkham is Carmen Sandiego?",
   "description": "A custom investigator inspired by the Netflix series and a certain Scarlet Keys character.",
@@ -26,7 +27,7 @@
       "name": "Where in Arkham is Carmen Sandiego?",
       "parts": [
         {
-          "name": "Carmen Sandiego?",
+          "name": "Carmen Sandiego",
           "cards": [
             {
               "count": 1,
@@ -45,25 +46,6 @@
                 "Exp": "png",
                 "Width": 1650,
                 "Height": 2250
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "01.1 Carmen-Sandiego-Mini-a.png",
-                "ID": "CB88B49219444922A75C94FDFB703739",
-                "SourceID": "910A0B03CE83ECCBD2AE09C4CF172CAA882126A5",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "01.1 Carmen-Sandiego-Mini-b.png",
-                "ID": "D901E21272BC307A6B5F14018470B46F",
-                "SourceID": "8306556767315ADA4033B59A542E98D4253D3261",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
               }
             },
             {
@@ -254,6 +236,57 @@
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Carmen Sandiego mini-sized minicard",
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Carmen Sandiego - Carmen Sandiego-1.png",
+                "ID": "78C88F95306C18B1A0AF27E082CAAC55",
+                "SourceID": "C094F65B33FF1BAEE0E6CFE2AAAC823990F20DE3",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Carmen Sandiego - Carmen Sandiego-2.png",
+                "ID": "3759DE21FF70AC78650F3F90B6CC14A2",
+                "SourceID": "92EBBBA3830068D9D48715B8C678855BDD833B2E",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Carmen Sandiego full-sized mini with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "01.1 Carmen-Sandiego-Mini-a.png",
+                "ID": "CB88B49219444922A75C94FDFB703739",
+                "SourceID": "910A0B03CE83ECCBD2AE09C4CF172CAA882126A5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "01.1 Carmen-Sandiego-Mini-b.png",
+                "ID": "D901E21272BC307A6B5F14018470B46F",
+                "SourceID": "8306556767315ADA4033B59A542E98D4253D3261",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
               }
             }
           ],

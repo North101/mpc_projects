@@ -1,12 +1,13 @@
 {
   "version": 5,
   "projectIds": {
-    "F4EF1CD5A180B31820D2624478A4A964DF4571184A7D93BB16ECB1BFB217CF7DE5AE343008933533": "Heart of Darkness",
-    "63EDFD8C19FE179957486FB6C2E8E84E264F8B90D0DCABFF33F63E52BEA15564AE629C667DF7D8BE": "Heart of Darkness",
-    "DC6D845017D322F63199EB98789DB1E79417B0C791340542892919DB3D716B5717BEA39911A9AE33": "Heart of Darkness",
-    "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40": "Heart of Darkness",
-    "09B5B555D9E4C9A3690FFA85F59A06BB01B068456000130739B4AE9A41B7C200211F0D90B41FF9E9": "Heart of Darkness",
-    "E702166E77BC8FAFF3F9FE746C09FFD88427614C9AF16F83B310595DD1E024E9B1D25E60117A8E7F": "Heart of Darkness"
+    "F4EF1CD5A180B31820D2624478A4A964DF4571184A7D93BB16ECB1BFB217CF7DE5AE343008933533": "Heart of Darkness v4",
+    "63EDFD8C19FE179957486FB6C2E8E84E264F8B90D0DCABFF33F63E52BEA15564AE629C667DF7D8BE": "Heart of Darkness v3",
+    "DC6D845017D322F63199EB98789DB1E79417B0C791340542892919DB3D716B5717BEA39911A9AE33": "???",
+    "44693092C4D71640A604DE361E7D38639AAD30035C1023DD65221A9DF9576E593E3F52C44DDB9E40": "Heart of Darkness (bad fonts)",
+    "09B5B555D9E4C9A3690FFA85F59A06BB01B068456000130739B4AE9A41B7C200211F0D90B41FF9E9": "Heart of Darkness v2",
+    "E702166E77BC8FAFF3F9FE746C09FFD88427614C9AF16F83B310595DD1E024E9B1D25E60117A8E7F": "Heart of Darkness v1",
+    "9C20B6D5A777631E09E29039A710E19868DD6791E54615B1C9F5E538D55F735059E07271817202EC": "Julian Herbert Minicard"
   },
   "name": "Heart of Darkness",
   "description": "A 3-scenario campaign or extended side-story based on the Joseph Conrad book.",
@@ -3990,7 +3991,34 @@
           "code": "C380050185D1C1AF"
         },
         {
-          "name": "Julian Herbert mini with crop marks",
+          "name": "Julian Herbert mini-sized minicard",
+          "enabled": true,
+          "cards": [
+            {
+              "count": 1,
+              "front": {
+                "Name": "Heart of Darkness - Julian Herbert-1.png",
+                "ID": "599650C70017EF25B55C4C626E5F26F9",
+                "SourceID": "D8633D45A67FFB3A30E24A212778BFD1E12B16F2",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              },
+              "back": {
+                "Name": "Heart of Darkness - Julian Herbert-2.png",
+                "ID": "C76D5864238524FA2190A562B4646AB8",
+                "SourceID": "179F8782AD5D849B8D48903EF3BE409DF7A70B27",
+                "Exp": "png",
+                "Width": 596,
+                "Height": 821
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Julian Herbert full-sized mini with crop marks",
+          "enabled": false,
           "cards": [
             {
               "count": 1,
