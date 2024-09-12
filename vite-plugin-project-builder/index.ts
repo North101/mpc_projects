@@ -16,6 +16,7 @@ interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
 const mapProjectInfo = (project: ProjectWithFilename): WebsiteProjects.Info => ({
   projectIds: project.projectIds,
   filename: project.filename,
+  hidden: project.hidden == true,
   lang: project.lang,
   image: project.image,
   changelog: project.changelog,
@@ -293,6 +294,7 @@ export const projectsBuilder = ({ projectsDir, projectsFilename }: ProjectsBuild
         await writeJson<WebsiteProjects.Latest.Project>(path.resolve(projectsDir, filename), {
           version: project.version,
           projectIds: project.projectIds,
+          hidden: project.hidden,
           name: project.name,
           description: project.description,
           artist: project.artist,

@@ -121,6 +121,9 @@
     "hash": {
       "type": "string"
     },
+    "hidden": {
+      "type": "boolean"
+    },
     "info": {
       "type": [
         "null",
