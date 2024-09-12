@@ -8,7 +8,6 @@ const downloadProject = async (project: WebsiteProjects.Info, checked: boolean[]
   const r = await fetch(`/projects/${project.filename}`)
   const file: WebsiteProjects.Data = await r.json()
   const download: ExtensionProjects.Latest.Project = {
-    ...file,
     version: 3,
     parts: file.options.flatMap((option, optionIndex) => {
       return option.parts.filter((_, partIndex) => checked[optionIndex][partIndex]).map(part => ({
