@@ -5,11 +5,11 @@
     "CC85A1B02CB756D420C359ADB8F5A76B945298636B2490EF0D628B3D0C39EA63DACB69C7F47A3C7": "Location icon fixes"
   },
   "name": "Cosmic Pantheon",
-  "description": "Three new Outer Gods join the pantheon of Outer Gods warring for supremacy.",
+  "description": "Three new Outer Gods join the pantheon of Outer Gods warring for supremacy. You may replace any or all of the original War of the Outer Gods factions with the factions from the Cosmic Pantheon.",
   "artist": "Nele Diel",
   "info": "Requires the War of the Outer Gods standalone scenario. Additional factions may be added at a later date.",
   "website": null,
-  "cardsLink": null,
+  "cardsLink": "https://drive.google.com/drive/folders/1PlgpiwMdyAwB-jQ3shDTnYjjlKQL1erG?usp=sharing",
   "scenarioCount": 0,
   "investigatorCount": 0,
   "authors": [
@@ -21,7 +21,7 @@
     "Project Available"
   ],
   "tags": [
-    "Standalone Rework"
+    "Rework"
   ],
   "options": [
     {
