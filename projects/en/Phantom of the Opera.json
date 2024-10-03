@@ -1,0 +1,1293 @@
+{
+  "version": 5,
+  "projectIds": {
+    "94C63288CE9CECE1B37B872FC4FE2436D2CD3382B4116BE47B619220BFB22B369FFE352A15D1AF2B": "The Phantom of the Opera"
+  },
+  "name": "The Phantom of the Opera",
+  "description": "Even in distant Arkham, word of the horror and murder at the Opera Garnier has reached the investigators, and they set out to end the fiendish exploits of the sinister Phantom. Based on the Gaston Leroux novel.",
+  "artist": "Nipuni",
+  "info": "Requires concealed decoy cards from The Scarlet Keys campaign expansion.",
+  "website": "https://mysteriouschanting.wordpress.com/2024/10/01/the-phantom-of-the-opera/",
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "options": [
+    {
+      "name": "The Phantom of the Opera",
+      "parts": [
+        {
+          "name": "The Phantom of the Opera",
+          "cards": [
+            {
+              "id": "5878e675-0cc9-4883-aef4-be26f2c3e0d7",
+              "count": 1,
+              "front": {
+                "Name": "000-Guide 1-1.png",
+                "ID": "0BFE794BCADD3F59D9FE4EBCB8CCA98E",
+                "SourceID": "728FE4C2B18FAA324E81A22677783BA2B489DC29",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "000-Guide 1-2.png",
+                "ID": "B4C58C3FE1F6E3C1EF2266712231E6EF",
+                "SourceID": "9977E6D818A12A64786F8563C973FF7FC355685B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "57b4d43a-b64b-43c1-9226-e05a849d7421",
+              "count": 1,
+              "front": {
+                "Name": "000-Guide 2-1.png",
+                "ID": "1BE3B0C942D25486AA3BB1C12F6AA7F8",
+                "SourceID": "4539F4EC5FB56B7926E3D3F5B002AB391115FAAC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "000-Guide 2-2.png",
+                "ID": "9BCB84C79B3A7D60857FEBA84D61B786",
+                "SourceID": "6D5D285EF2A5300D43A256B6551E2F67AA9E7EF0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "845e7ed3-e2c5-419e-aba9-995074db7fd5",
+              "count": 1,
+              "front": {
+                "Name": "000-Guide 3-1.png",
+                "ID": "DBA1C02450FD2FA046A74E03704BDF09",
+                "SourceID": "1AE05CCB65FF1A07C8EA98EDE4A3B64AEB763EF7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "000-Guide 3-2.png",
+                "ID": "23A0DACBB9B0A8D7EED34A206E878174",
+                "SourceID": "E47B03E3BC73CD1873484475B588847754306637",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "041e0dc0-590f-4ea7-b54a-17eeb3e34773",
+              "count": 1,
+              "front": {
+                "Name": "000-Guide 4-1.png",
+                "ID": "A033E09F7788DAF6E894092E09AD7C35",
+                "SourceID": "A53DB37F59E4689ADE4AED2370FF7602235EC0D8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "000-Guide 4-2.png",
+                "ID": "3A448DDD1E8809B4FE48B4D58AAC2EF6",
+                "SourceID": "7368E4E3C9E92019EA4FE1878C3B2AEF1E7DC44D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "c5caa64a-10e6-4148-a9ee-01ca26e7987e",
+              "count": 1,
+              "front": {
+                "Name": "000-Guide 5-1.png",
+                "ID": "6BD210C21EEA610DB7701FB84523C4A5",
+                "SourceID": "90D8E726EF9A576FF83BC3C92936B18BD0C3FF22",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "000-Guide 5-2.png",
+                "ID": "574623E7FF869590FE6A6F46709071F4",
+                "SourceID": "2E6BCFE60EE09062CF8F39C9A2A8F9905DE2289C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "5517fc8f-5951-4d89-90d9-f751978953ce",
+              "count": 1,
+              "front": {
+                "Name": "001-The Phantom of the Opera-1.png",
+                "ID": "FBFDC64593FF3A29D397C04B8B6DD2AC",
+                "SourceID": "1F62549B6D85BE9A7E4E0447D0AE08856087A15C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-The Phantom of the Opera-2.png",
+                "ID": "9853729DFB6D5FCCB8B76B8B3C031C0F",
+                "SourceID": "29E5531E7506DC21A08B851EB5FDE34D71CFB490",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "65f76e40-b4bb-4c8a-8757-05ec95b689dc",
+              "count": 1,
+              "front": {
+                "Name": "002-Agenda 1a Sinister Forces-1.png",
+                "ID": "9CAB9544C904AA61D211704BC0DCB2D3",
+                "SourceID": "3FBFFADF9EB5EF963984B14605B075FDF18B9412",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "002-Agenda 1a Sinister Forces-2.png",
+                "ID": "5E3452E482A5D528D66ADB976675E284",
+                "SourceID": "C6D7F84364FA3C543CA1AB48EE9AAC934CFDF416",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "2b9301c7-060e-4e6a-b6bd-721d5bf0933c",
+              "count": 1,
+              "front": {
+                "Name": "003-Agenda 2a Face to Face-1.png",
+                "ID": "C24EFBB1FE5A53A8F746473978093714",
+                "SourceID": "D1F3F584A07D776174B844FFA73E9AA0612E44BF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "003-Agenda 2a Face to Face-2.png",
+                "ID": "978470EC8DA5CF69A1663160C1F3D5AA",
+                "SourceID": "79ABA8C33F76ED97CCE58C1DF90FABA34823B2A9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "1dbd87a7-0c8f-48b3-9461-8a2f15e2809d",
+              "count": 1,
+              "front": {
+                "Name": "004-Act 1a Masquerade-1.png",
+                "ID": "4245918AD217DB67EEAB30844453EEFA",
+                "SourceID": "39EE18342499CF8321A11B7E20315DC7A6E4CA5B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "004-Act 1a Masquerade-2.png",
+                "ID": "1FC953829B399B708F6155128F9AB888",
+                "SourceID": "A7928C4F8A0559758C666AFF4346B2D68D66633C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "54b41a9c-9304-4425-8c38-f4b55dbe8d31",
+              "count": 1,
+              "front": {
+                "Name": "005-Act 2a Chasing Ghosts-1.png",
+                "ID": "A080B4972A8C847C6EAA5AA96E2ECF68",
+                "SourceID": "2EC71D64D1394753DB136F75B94D888C70CFBD90",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "005-Act 2a Chasing Ghosts-2.png",
+                "ID": "1E5998E29BA05D27B695F7406C204A92",
+                "SourceID": "AAFA31A33803371B772EDE74DAE264D50A596B4F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "ee05bff8-0f46-4c2c-8394-888cc92f1fd3",
+              "count": 1,
+              "front": {
+                "Name": "006-Act 3a The Phantoms Domain-1.png",
+                "ID": "E03E192FCA4BE9B59152AE05220AB78D",
+                "SourceID": "DDF353187C4DC11E79BCD60638007494239F3274",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "006-Act 3a The Phantoms Domain-2.png",
+                "ID": "B7F075AFB7F82223EFFF61E38C419866",
+                "SourceID": "131D13574AB6A5D068B5D739F100DACDA9413C1C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "8d53a113-373e-4192-b881-fc46b6a41e39",
+              "count": 1,
+              "front": {
+                "Name": "007-Act 4a Masks Upon Masks-1.png",
+                "ID": "0A8E5962E7A67153B5C83931F8E697F5",
+                "SourceID": "858B556E71FFE29D652CFA50F0B1C15085D71F5D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "007-Act 4a Masks Upon Masks-2.png",
+                "ID": "B4311CE1A0BE6123DE6C00CA54AD09A5",
+                "SourceID": "0B8071694053AE4AECE1D7627B0C578B1CB28ADB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f7ccb00b-a71a-494d-a31a-354d088df3ba",
+              "count": 1,
+              "front": {
+                "Name": "008-Grand Foyer-1.png",
+                "ID": "87A6BD44C8FBAC42531853D106CA4415",
+                "SourceID": "8675F2E73B4A401985DB0AEC46C1852E7822AA74",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "008-Grand Foyer-2.png",
+                "ID": "9C0C4AAD5F70D3DC89059B8EACE1EFB5",
+                "SourceID": "8C29F09972F27A9383FF50E7DEF8E773605EF130",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "d6dae31e-3045-4469-b035-a5f847023beb",
+              "count": 1,
+              "front": {
+                "Name": "009-Grand Foyer-1.png",
+                "ID": "B58CA7D7BCAE510F82D7B9254F833135",
+                "SourceID": "99D9655187935677392C1F1AFF0E198389053C59",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "009-Grand Foyer-2.png",
+                "ID": "9C0C4AAD5F70D3DC89059B8EACE1EFB5",
+                "SourceID": "8C29F09972F27A9383FF50E7DEF8E773605EF130",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f7e64c61-93f5-47de-b5ea-590b669442f2",
+              "count": 1,
+              "front": {
+                "Name": "010-Grand Foyer-1.png",
+                "ID": "9031563F717C1CE4C094D9B8EA396019",
+                "SourceID": "56562F5E1C343933716D5D7121616AC40E06567B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "010-Grand Foyer-2.png",
+                "ID": "9C0C4AAD5F70D3DC89059B8EACE1EFB5",
+                "SourceID": "8C29F09972F27A9383FF50E7DEF8E773605EF130",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "583a6a9e-c456-4dfd-9949-2adfc9802ff3",
+              "count": 1,
+              "front": {
+                "Name": "011-Grand Foyer-1.png",
+                "ID": "D1A715E8CE48316B65CC746FD1271783",
+                "SourceID": "F6BB4E5C6BF1547675DE972BFD13CE5742A3C98C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "011-Grand Foyer-2.png",
+                "ID": "9C0C4AAD5F70D3DC89059B8EACE1EFB5",
+                "SourceID": "8C29F09972F27A9383FF50E7DEF8E773605EF130",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "3ace5d69-a964-4977-970d-ac1e015694d4",
+              "count": 1,
+              "front": {
+                "Name": "012-Grand Foyer-1.png",
+                "ID": "ED2B2295C88E5D6C13CD65D1399D7C27",
+                "SourceID": "0422F1C63FA1D10CEF7A32D58AF2CD11F48E8A5F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "012-Grand Foyer-2.png",
+                "ID": "9C0C4AAD5F70D3DC89059B8EACE1EFB5",
+                "SourceID": "8C29F09972F27A9383FF50E7DEF8E773605EF130",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "cf0e28dc-5c55-499d-b03e-996052ab28c8",
+              "count": 1,
+              "front": {
+                "Name": "013-Auditorium-1.png",
+                "ID": "F46481A43B5FD1759D724EBB7D497E7F",
+                "SourceID": "F5E75291C901C20D44B60EC2F8D11C068273A02B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "013-Auditorium-2.png",
+                "ID": "B279C81BFB45EB1C2111D6BD9513B110",
+                "SourceID": "EEFD36904D3053C084F6909462636EF5B1AA95E5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "867e28bd-0c6a-41ad-93a5-83d81b80c80e",
+              "count": 1,
+              "front": {
+                "Name": "014-Backstage-1.png",
+                "ID": "1DFA358BA923771BA2607110DF215F2E",
+                "SourceID": "2DB6FE0D0965CD836404F68BD03F06420CF87C53",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "014-Backstage-2.png",
+                "ID": "94C72676889476A9220337306CC75B67",
+                "SourceID": "2CAD364E58E1AB535170F996D2199FEC6486F656",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "40789beb-cc23-42ae-bf4a-ee664ebf0b67",
+              "count": 1,
+              "front": {
+                "Name": "015-Box Five-1.png",
+                "ID": "E380EF68EEC59AD970D9A2A7302FA3BD",
+                "SourceID": "091725C9C91B10A427069C7E44E579DCBD1528A2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "015-Box Five-2.png",
+                "ID": "0856717E48A12710AD44633901A70A28",
+                "SourceID": "30E4968DD1AD39B421D4C83B1A4FDD41C19C5553",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "219c38bf-420a-4117-ab64-ac507fa8c80a",
+              "count": 1,
+              "front": {
+                "Name": "016-Hidden Parlor-1.png",
+                "ID": "98826C13A29BCDB48833E0C008E56516",
+                "SourceID": "400BE1B42E6691BE5B465850758AE81BC378F8DE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "016-Hidden Parlor-2.png",
+                "ID": "070B9AB88466904B277804A26359CFBA",
+                "SourceID": "42A97FE0F5EC67E821B6968B691724B503A18893",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "97f32130-c13d-44ce-ac4c-6e5f1270c425",
+              "count": 1,
+              "front": {
+                "Name": "017-Organ Chamber-1.png",
+                "ID": "D856C0E94989ADDACCC3A9B3EED0D6A3",
+                "SourceID": "5B4632DE950C89987C214F467294AAB4679001B5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "017-Organ Chamber-2.png",
+                "ID": "2E7CA27864FEF08EACDA98CCA200F561",
+                "SourceID": "0EE262DDF2E4B17281F9139B2346F15C8925ADAF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "df15b56e-4e3b-4ddc-b0bb-b42d837c23b2",
+              "count": 1,
+              "front": {
+                "Name": "018-Paris Sewers-1.png",
+                "ID": "8C785046886AECA39F7EF79749F23C50",
+                "SourceID": "6562E8DBAD94474C8CBD27A9CE6A8EABA3D1DDB4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "018-Paris Sewers-2.png",
+                "ID": "7A6A18634130ED36CD6D7CC6EC6FFF30",
+                "SourceID": "995ECC33FD884CA4C6C496E934559556E55B7886",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "2c98533a-1823-498c-ad30-2f80e7aa4f18",
+              "count": 1,
+              "front": {
+                "Name": "019-Paris Sewers-1.png",
+                "ID": "413B345A12B68262D231292D4A7BC50D",
+                "SourceID": "E9A8EB5D03A5EDD9698E1F8FDC13076B4A33A4F1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "019-Paris Sewers-2.png",
+                "ID": "7A6A18634130ED36CD6D7CC6EC6FFF30",
+                "SourceID": "995ECC33FD884CA4C6C496E934559556E55B7886",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "dc68452a-09a2-443e-854b-e375af1769cf",
+              "count": 1,
+              "front": {
+                "Name": "020-Paris Sewers-1.png",
+                "ID": "E09FF08729EF6880B952A9DCAB9ABAC7",
+                "SourceID": "A44144CFD84D79D204270172FB5C2E7879274853",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "020-Paris Sewers-2.png",
+                "ID": "7A6A18634130ED36CD6D7CC6EC6FFF30",
+                "SourceID": "995ECC33FD884CA4C6C496E934559556E55B7886",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "0f6aebf2-f131-49e1-8c26-e4929ca3e467",
+              "count": 1,
+              "front": {
+                "Name": "021-Paris Sewers-1.png",
+                "ID": "2CBFCDA57F37CB93F9AE3C20AD01BB08",
+                "SourceID": "38DBE489E2E4E3F57F004780161F5A2A769E7651",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "021-Paris Sewers-2.png",
+                "ID": "7A6A18634130ED36CD6D7CC6EC6FFF30",
+                "SourceID": "995ECC33FD884CA4C6C496E934559556E55B7886",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "b81b1312-c16d-4d33-91b3-46bac862768d",
+              "count": 1,
+              "front": {
+                "Name": "022-Paris Sewers-1.png",
+                "ID": "F0E625BBD1282E505FDE1AB219E62293",
+                "SourceID": "1419C9570B3319F296F2B7DA9D696465365C08BC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "022-Paris Sewers-2.png",
+                "ID": "7A6A18634130ED36CD6D7CC6EC6FFF30",
+                "SourceID": "995ECC33FD884CA4C6C496E934559556E55B7886",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "fd94db6d-16a0-46b9-8d77-425356545e6e",
+              "count": 1,
+              "front": {
+                "Name": "023-The Phantoms Lair-1.png",
+                "ID": "003BA0C0876A3BC3460AE43B1803B48D",
+                "SourceID": "690B15E5DCE75D42B08A693C42AFF7E2D454B5EB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "023-The Phantoms Lair-2.png",
+                "ID": "E22070F15B22E35C8D232BC5EC79C26D",
+                "SourceID": "E73E666FB90BFC71BB210CA2E7E65BFDBA22DE31",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "7eaf9a30-65c6-4a8d-b03d-d34990ac58ba",
+              "count": 1,
+              "front": {
+                "Name": "024-The Persian-1.png",
+                "ID": "89EA3CD2BECB9978ED2D2A3EF65CB110",
+                "SourceID": "E933C1BAC82AFBA15375F95E10A1A86E57869937",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "024-The Persian-2.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "7289d693-1634-4e76-92cc-dbf86ba910fc",
+              "count": 1,
+              "front": {
+                "Name": "025-Christine Daaé-1.png",
+                "ID": "C3CFDF5B3CA66522B97C2D9BCEBB4D36",
+                "SourceID": "8E233E971A58E223B65B66765304CA16C22AE091",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "77cdc021-814d-47e9-baff-258e87dd376b",
+              "count": 1,
+              "front": {
+                "Name": "026-The Scorpion-1.png",
+                "ID": "0E797AB0F68FE433D5B611A89F569B7F",
+                "SourceID": "CBD3B04B322E0C47607B35CA8B9B364A741C21A5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "026-The Scorpion-2.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "1bb35912-f88b-4b94-bb50-43138b18756d",
+              "count": 1,
+              "front": {
+                "Name": "027-The Grasshopper-1.png",
+                "ID": "EE895DA3F50B0BCF8AE4A0747C0FE8DC",
+                "SourceID": "B4C6E8DF7537B0B95F1C00CEEACCE5330DAB2B48",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "027-The Grasshopper-2.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "6e25a6f5-cc88-48c7-9f82-005801efa45c",
+              "count": 1,
+              "front": {
+                "Name": "028-Buried Sorrows-1.png",
+                "ID": "C7BD0E9C92463D31D9656A784E56F33B",
+                "SourceID": "21906D1D02FF99B29F774E1AF37AC49DCEBE1686",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cf03a834-dd3f-4c01-9950-91446806d0fc",
+              "count": 1,
+              "front": {
+                "Name": "029-Chaotic Minion (A)-1.png",
+                "ID": "007049C4843A0946F55175C203FC7526",
+                "SourceID": "5709211C34B1404BF22D8AF0EE6B5F51F320D310",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e2ad6354-1039-4aab-9626-6466fb65bb30",
+              "count": 1,
+              "front": {
+                "Name": "030-Chaotic Minion (B)-1.png",
+                "ID": "90647FF08BF6C6E6EB0746E01752635E",
+                "SourceID": "3072DA1CF0FFED4A5753880966C274451EE46E9D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "fe564cde-a51c-40d2-ab64-88b30d044402",
+              "count": 1,
+              "front": {
+                "Name": "031-Simmering Anger-1.png",
+                "ID": "158E68543EE1EC78EB3EB7A48B56B295",
+                "SourceID": "7714C13B963D0A08CF0E652E03C821D600775D2B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "70b8e416-4183-499a-9a43-c72de1fa5a87",
+              "count": 1,
+              "front": {
+                "Name": "032-Stifled Laughter-1.png",
+                "ID": "991AC296D9E974A696C5E281D8CE5829",
+                "SourceID": "13AE08ECDF43CB128A72A9A72431D155916DACC6",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "c8e15b45-d66c-4dc0-9e05-918677d5d677",
+              "count": 1,
+              "front": {
+                "Name": "033-The Phantom-1.png",
+                "ID": "690D33AB6B188B32F7F0A3131FF64115",
+                "SourceID": "61204E2970C60240E80EB67412627EA5A37A71F8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "033-The Phantom-2.png",
+                "ID": "3A7BF5FF6810245042ECC1EE91E4CED8",
+                "SourceID": "FAE131456AF3408E732339366C36636D6AD62083",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "b32ded2f-5f26-4d8c-a7a3-694e1bd559e2",
+              "count": 1,
+              "front": {
+                "Name": "034-Always Watching (Bait)-1.png",
+                "ID": "6E23B5B44C60745295013CBE229B72E1",
+                "SourceID": "7BB718BBF21841F37983F9BC26111E3894D2FC05",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "7ff47f13-1724-48e1-9fd4-7ab78228507c",
+              "count": 1,
+              "front": {
+                "Name": "035-Always Watching (Feint)-1.png",
+                "ID": "26C6090CCB02F49AADD3988EC11BA07A",
+                "SourceID": "4CC53D329469314E0FB3EF02387869D0E17FAF10",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "61e1db8a-2273-4c31-8b01-9454aaeec28f",
+              "count": 1,
+              "front": {
+                "Name": "036-Always Watching (Goad)-1.png",
+                "ID": "5C3D9DA9EA8FA46376F663B00A6A7986",
+                "SourceID": "A3EBBA04B4F7341E85734662F8048C420D70FCBE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e87da2e8-5aa6-4128-9cf4-1dbc7d3110fe",
+              "count": 2,
+              "front": {
+                "Name": "037-Angel of Music-x2-1.png",
+                "ID": "8A132D1FD4A896FBB5AD4F5B10971190",
+                "SourceID": "8CA17E53824BB453A6A6EA053F4A932ADB950DBD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "28f37075-b404-4a73-b796-7172c5d98ed1",
+              "count": 2,
+              "front": {
+                "Name": "038-Echoing Threats-x2-1.png",
+                "ID": "0D719F8F56FFA99A0DE8DD20A232130C",
+                "SourceID": "6D591E9CEA69A1C1DB576321305EF6025BBA0A73",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "4e3c2251-287c-4c61-860a-38c5b4fcef9f",
+              "count": 2,
+              "front": {
+                "Name": "039-Fixation-x2-1.png",
+                "ID": "39A5C2B76A46FBDA5D3BF8983178ADE3",
+                "SourceID": "12C79E078D8C981E3CEBC536F11806BAA27E0E89",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "74839f97-b45a-43b3-aefe-b62cce2f7e12",
+              "count": 2,
+              "front": {
+                "Name": "040-Insidious Trick-x2-1.png",
+                "ID": "72D88FEB4A14E39007372460C6FB2AB7",
+                "SourceID": "EBF6798B9D3B8A9DFA620A62DC92688822F1E97A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b83a5a01-4d90-4a4d-b14f-f99051834504",
+              "count": 2,
+              "front": {
+                "Name": "041-Shrouded Faces-x2-1.png",
+                "ID": "A4C1104BD58C6BD20866EF38FB88C687",
+                "SourceID": "B50EE991CC079C7DED424AB84C587552B2110DF3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "c9a39098-de90-480b-bfc7-629dba35335a",
+              "count": 3,
+              "front": {
+                "Name": "042-Signs of Madness-x3-1.png",
+                "ID": "30E327253AA78B990A0D0AE3FDD5AA6B",
+                "SourceID": "A807DBA51FCE078AE6E9AE9538C3AEA800D4B5A1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ff8df2bc-1df3-4378-a5d9-f6b35b2660d8",
+              "count": 2,
+              "front": {
+                "Name": "043-Terrible Guise-x2-1.png",
+                "ID": "CD1E8BB2C12EAFC92E7A91BFD37CC073",
+                "SourceID": "5C2161FF09C7A31D88C06181EA20CA2743B2B0B8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "637699da-ccfa-4cd1-835b-1ff0cee3ff89",
+              "count": 2,
+              "front": {
+                "Name": "044-The Phantom Strikes-x2-1.png",
+                "ID": "28B796DE7A20A3E7C434C05E0DF1DEC8",
+                "SourceID": "E2B0F725252CF62B9B7DF63F1E2AAC8DF15E7885",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e234b90d-1913-4ad9-9eda-d5eaa4051359",
+              "count": 2,
+              "front": {
+                "Name": "045-Violent Shade-x2-1.png",
+                "ID": "24AECD9A8779DFED43861AD4DC522BCE",
+                "SourceID": "BB55FCEB97961A7C9A0075FFB7311092F5BD5CCC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Concealed Cards, Standard size cards with crop marks",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "629f90aa-db33-4bd6-8df1-bf70452adca3",
+              "count": 1,
+              "front": {
+                "Name": "046-Buried Sorrows-1.png",
+                "ID": "4FC876229D3411F488AF93993995B185",
+                "SourceID": "4A7715C9AB799C1DA85B8D1DF35C039191E19B35",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "046-Buried Sorrows-2.png",
+                "ID": "548D018D97814B1ACCE0C003CBA2F982",
+                "SourceID": "3F9B097951E13A0CF84A5555460A01A66549C676",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "0d6b93bf-f586-4c8c-b625-31737c20d3b2",
+              "count": 1,
+              "front": {
+                "Name": "047-Chaotic Minion (A)-1.png",
+                "ID": "0DD5522F9FEA46B9ECEF481855DC3BCB",
+                "SourceID": "4950B46A5CADB20E9EA1CF558A2F06A64E15AD84",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "047-Chaotic Minion (A)-2.png",
+                "ID": "75BB6FB64007F2688A8E9F61CC397B4A",
+                "SourceID": "AA64044E637C3B91AD35B0D6A7EAFFD2C6F3F614",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "066708ea-ebf6-4423-abae-491073ce819c",
+              "count": 1,
+              "front": {
+                "Name": "048-Chaotic Minion (B)-1.png",
+                "ID": "C771A3D384856C7B24000E2202C1B705",
+                "SourceID": "954C4EB9A67408C2DFB0FE36EC40B247057A818E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "048-Chaotic Minion (B)-2.png",
+                "ID": "54DEE5AA70DBBB94E38EABC34BAF6974",
+                "SourceID": "9FEEF7B09F400D1375324FEC8774693BE4251FF2",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "acc61121-a8ae-44ab-9267-b7e5ef6b3e84",
+              "count": 1,
+              "front": {
+                "Name": "049-Simmering Anger-1.png",
+                "ID": "C1314F746A457C0D826BDAB14DA725C3",
+                "SourceID": "2CD07F6DE37D0C3DD7B5E031837D6C241C95DC4D",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "049-Simmering Anger-2.png",
+                "ID": "D3B548FCB7FE4A070B468F08CFDD40A5",
+                "SourceID": "21A824451BE235EED86E3E105D6B9160BCEEE44B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "5bb1c209-7d41-4112-be08-dd50d802e79e",
+              "count": 1,
+              "front": {
+                "Name": "050-Stifled Laughter-1.png",
+                "ID": "DF3711924BB66BCEA53E2DD1A1FC4B1F",
+                "SourceID": "5511C003A6C10FDDA019FA9C2E15AFDEF5DD6170",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "050-Stifled Laughter-2.png",
+                "ID": "B91FDBC512182B1264046499923722B9",
+                "SourceID": "0E9DE978BD30C71366556C21D7381252F41E3BC2",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d6653059-ee82-4897-8154-6c7244cc40bf",
+              "count": 1,
+              "front": {
+                "Name": "051-The Phantom-1.png",
+                "ID": "1F8F25FF3206BF79F17E0AABE8EE180E",
+                "SourceID": "8277D0CCF315CE7FF598BE323242AA9F33FDF044",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "051-The Phantom-2.png",
+                "ID": "9AB80CC0D5847E9B2CDE47603085AF58",
+                "SourceID": "24B4700F023EFBB80AF126C9FE47B91D9FCE3A2D",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Concealed Cards, Minicard size",
+          "cards": [
+            {
+              "id": "d409addd-2056-47ff-bd88-9ed6b81dd6f5",
+              "count": 1,
+              "front": {
+                "Name": "XXX-Buried Sorrows-1.png",
+                "ID": "91D8F934ECC55716285F60BDC7C4849E",
+                "SourceID": "16DE6F6B9EF0C8807A931726F40A711D2A2AC193",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-Buried Sorrows-2.png",
+                "ID": "FDA1C5B6C7681688BD4FB387D8F4FA6A",
+                "SourceID": "AD67CF17270050083B52B6BEE4988B012EFCF1C3",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "f586a308-3496-43eb-a935-02c3104d6a5d",
+              "count": 1,
+              "front": {
+                "Name": "XXX-Chaotic Minion (A)-1.png",
+                "ID": "708C4B566517809471A437961620EAD8",
+                "SourceID": "CAD002FA219580B5C80F713DE5A543B8906F9365",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-Chaotic Minion (A)-2.png",
+                "ID": "471635AADF1F1D31F26C216D93AE746B",
+                "SourceID": "432151E027AE60771AA012C611032C041C903822",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "1e0e2fe9-80a0-44db-ab4f-22f963941a94",
+              "count": 1,
+              "front": {
+                "Name": "XXX-Chaotic Minion (B)-1.png",
+                "ID": "BD1F393AE5DB07E008CC4973A687C547",
+                "SourceID": "3B6B7D70B48582A4AF93D12CD2A1B4E492B4E3FE",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-Chaotic Minion (B)-2.png",
+                "ID": "3861338422E4C11299BCF49A3B99F195",
+                "SourceID": "D6306E942D4B96F58303BFF19D2CF51880C152C0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "e559e5b7-8373-4314-8189-4bd16d9ef742",
+              "count": 1,
+              "front": {
+                "Name": "XXX-Simmering Anger-1.png",
+                "ID": "F6A125ABE04A3C516FCEAED1897B9242",
+                "SourceID": "107E820FA3650BA18D8B9375E52B652A554563BC",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-Simmering Anger-2.png",
+                "ID": "FAF1DE2CA0D86FA85A7F80175918D834",
+                "SourceID": "2264D63A8BB24FE7DE4CEFD5597DE34064BB11F3",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "3be8706e-707e-467a-b323-6a6a23815a2c",
+              "count": 1,
+              "front": {
+                "Name": "XXX-Stifled Laughter-1.png",
+                "ID": "E16F807FFD19EFE5F63072A3C852DC9A",
+                "SourceID": "B007225A129AF4D5845D5AA61AABC8CE6A65EEFC",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-Stifled Laughter-2.png",
+                "ID": "B8D5883379B13A23F22C12A7965AAA3E",
+                "SourceID": "89D8913AAA6C0F15ABF885B0CFBA0CBDB665CA71",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "ce8e3f9c-0e74-4ebe-9ff1-a48c30912122",
+              "count": 1,
+              "front": {
+                "Name": "XXX-The Phantom-1.png",
+                "ID": "D59206AFF423E94012DF4278AAA9A511",
+                "SourceID": "A05DA70B14E4EA9FE4D2C282A9C0CA80AD62E772",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "XXX-The Phantom-2.png",
+                "ID": "4267330B49778B86CDD59AFB8BA49659",
+                "SourceID": "ECE69BE492805B69171B2A8251C2918428161DB1",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    }
+  ],
+  "created": "2024-10-01T04:45:26.684Z",
+  "updated": "2024-10-03T15:59:51.462Z",
+  "hash": ""
+}
