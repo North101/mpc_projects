@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781": "The Black Stone"
+    "048BC995D567C54516F28D90479C299A451D085A8985CC9260E2B32CAC1AAE6AD040D0A4270E8781": "The Black Stone",
+    "4C8A6BAB8C6B772F477FE7F317B3587D84E41919248725032CC7C9F936B312580779EFEDB112C110": "cards 20-22 fix"
   },
   "name": "The Black Stone",
   "description": "A standalone scenario based on Robert Howard’s “The Black Stone.”",
@@ -15,7 +16,7 @@
     "Stephen Fazio"
   ],
   "statuses": [
-    "Needs QA",
+    "Finished",
     "Project Available"
   ],
   "tags": [
@@ -393,8 +394,8 @@
               "count": 1,
               "front": {
                 "Name": "020-The Stones Shadow-1.png",
-                "ID": "AA6E81EF22DF2BDB98CB5E0B50B998EC",
-                "SourceID": "8932A60F5E4586C767280F71771B7061F043B79A",
+                "ID": "32C0599C5A56087AE886BB7EE209D467",
+                "SourceID": "A13F0C56D384DB268FC9C44EECA222C86CC1B3AB",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -412,8 +413,8 @@
               "count": 1,
               "front": {
                 "Name": "021-The Stones Shadow-1.png",
-                "ID": "8F9FA69C436B00B468CD1AB25B1F51F5",
-                "SourceID": "97C32140D4D3BFEC63DF23C4D1C62B3249BDA05A",
+                "ID": "E8DBC1E7186FCD721955AC7848671E09",
+                "SourceID": "B1D695F98546EC2AD49AB12E43A313136C9DA174",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -431,8 +432,8 @@
               "count": 1,
               "front": {
                 "Name": "022-The Stones Shadow-1.png",
-                "ID": "34F6AF92F7599F457C1AA505C9E93541",
-                "SourceID": "3C26E1B9DC11880E5016EE32FA58F3B3D09354B5",
+                "ID": "68DDE364C30B6BC2BD786EE7556F5AD6",
+                "SourceID": "5B9AFADF27DF105E9B317D9848383533CE0C1429",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -1346,6 +1347,6 @@
     }
   ],
   "created": "2022-09-20T04:45:26.680Z",
-  "updated": "2023-09-24T02:26:03.775Z",
+  "updated": "2024-10-05T02:26:03.775Z",
   "hash": "5760871a46dad897e4e762c4abe2c41efb1605776138bcd75d202297c45ca47f"
 }
