@@ -1,12 +1,15 @@
 {
   "version": 5,
   "projectIds": {
-    "27E9DD66F2F423F7499754954A5EC3C823DDE6282C9D95A26ED7FF590B08164E4809292CCEBDB004": "TFA Supply Cards"
+    "27E9DD66F2F423F7499754954A5EC3C823DDE6282C9D95A26ED7FF590B08164E4809292CCEBDB004": "TFA Std Supply Cards",
+    "B13140897972450D52966858267641BD3DB82915512975B5DBD1BDFC37200AD2E339685F8E14EFB9": "Relics of the Past Std Supply Cards",
+    "403F676025E90C1171E4C77A0D3FB225906523FA60367D02D85B2EC95E6EB9F07677904B28757B21": "TFA Mini Supply Cards",
+    "BD4EAD6CF625DEDA576E03D0E934D25AD6CF85CEC1BA563F6607FB58240871260F9339862BE0D6FD": "TFA minisupply badcrop (needed for cardback image only)"
   },
   "name": "TFA Supply Cards",
-  "description": "TFA supplies on standard-sized cards, designed to look like neutral assets. Optionally add RTTFA supplies if needed. The default quantites cover every possible combination a party of four might choose, so you may want to print fewer of some or all cards depending on your party size and preferences.",
+  "description": "TFA supplies designed to look like neutral assets, in your choice of minicards or standard-sized cards. Optionally add RTTFA supplies if needed, as well as supplies for Monterey Jack’s Relics of the Past challenge scenario.",
   "artist": null,
-  "info": "Supply cards for use with The Forgotten Age campaign.",
+  "info": "Supply cards for use with The Forgotten Age campaign. The default quantities for TFA supplies cover every possible combination a party of four might choose, so you may want to print fewer of some or all cards depending on your party size and preferences.",
   "website": "https://arkham-starter.com/supply",
   "cardsLink": null,
   "scenarioCount": 0,
@@ -23,11 +26,474 @@
   ],
   "options": [
     {
-      "name": "TFA Supply Cards",
+      "name": "Mini Supply Cards",
+      "parts": [
+        {
+          "name": "TFA Supply Minicards",
+          "cards": [
+            {
+              "id": "9f0e2af6-32fc-4c11-a6a5-bf3f2fbb1ff8",
+              "count": 4,
+              "front": {
+                "Name": "Binoculars-x4-a.png",
+                "ID": "AECC51447B109BC858C7F4D04FC9AC3A",
+                "SourceID": "FF987A14E7BB6D508992847A0D0E1D81BB898573",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "cd81d66f-d661-4487-9985-880cb94a1740",
+              "count": 4,
+              "front": {
+                "Name": "Blanket-x4-a.png",
+                "ID": "067B74C86370848A239D36147DFF79F5",
+                "SourceID": "FB9D116EF35375FEDC7FE0CF4D90DADD448690A5",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "cec5549e-14f0-4434-9bf2-f73f8253bd70",
+              "count": 4,
+              "front": {
+                "Name": "Canteen-x4-a.png",
+                "ID": "3D73C6F54BFFD91A1DF05BF03563E331",
+                "SourceID": "7E07BC1E634FF211DCACC78184A0B2741FAE9181",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "65aadf70-82fc-417c-885b-06d1cb959e3b",
+              "count": 4,
+              "front": {
+                "Name": "Chalk-x4-a.png",
+                "ID": "25A81A98AB412C1976754819CB678BF9",
+                "SourceID": "2C4D86AE67EA80B8A1C412BBB303E2CC6342529C",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "508bc2ef-5d7f-41a9-8c2c-f02d8de3a683",
+              "count": 4,
+              "front": {
+                "Name": "Compass-x4-a.png",
+                "ID": "A0251E28A92724637C7430EEC4AE52F2",
+                "SourceID": "CD62503F459CD54B6AF2E7445997458B565A915B",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "42e8d496-919a-447b-bfdd-41460451ab35",
+              "count": 16,
+              "front": {
+                "Name": "Gasoline-x16-a.png",
+                "ID": "3A326945B27C6DE5678915166728788C",
+                "SourceID": "0C923344A958AB1A19E71F6D82512ECBCF30249D",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "1ab307be-6a4f-4e40-9e15-5ac8581b7d77",
+              "count": 4,
+              "front": {
+                "Name": "Map-x4-a.png",
+                "ID": "088A1027F44C4B7533FAAC01BB98CE02",
+                "SourceID": "A7B08BA77E716FE3F5E837505D8958462F6D59BF",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "68349741-d60a-4386-be12-88563f7395a3",
+              "count": 24,
+              "front": {
+                "Name": "Medicine-x24-a.png",
+                "ID": "4F9312EE1472E7C424E01AC3101CB08E",
+                "SourceID": "3885C1659DD33CF61B0539CFC9D39C25689077B0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "6fea6fa1-01b0-4797-9a44-7fde98964de2",
+              "count": 4,
+              "front": {
+                "Name": "Pendant-x4-a.png",
+                "ID": "260EFC7F8C6FFD4D5AC44CA9BABDF765",
+                "SourceID": "285B2AA059B40A9C533E56A08B88764807821372",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "fe6cea6a-51fe-4f04-9e6b-4ca6efa8cb42",
+              "count": 4,
+              "front": {
+                "Name": "Pickaxe-x4-a.png",
+                "ID": "776DC887EADD8E54DF50525992F0BFE2",
+                "SourceID": "00C48C26FA601193AC1D7D124CD83FF17861A710",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "a2ca42c9-fe0f-4709-8b7e-3d1f735a45b1",
+              "count": 4,
+              "front": {
+                "Name": "Pocketknife-x4-a.png",
+                "ID": "F2AA8CFDA16CAF40CFB23BF74E45665B",
+                "SourceID": "B9A96B51AF01BE81D95DF840B9832A7C22D89D93",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "f06159a7-8da8-4d1c-84a7-f969dae360f9",
+              "count": 16,
+              "front": {
+                "Name": "Provisions-x16-a.png",
+                "ID": "6E711A8CFE7B172B10068ECB7850A28C",
+                "SourceID": "020DCC8C1F348907D4FB56F7404C042EDB5AFA09",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "1cdf92ea-578e-4ad8-a27a-66f109826303",
+              "count": 4,
+              "front": {
+                "Name": "Rope-x4-a.png",
+                "ID": "68990B0EF394939B61A9406F93814C55",
+                "SourceID": "6972B32BDAA22E00E9AB85FE379C23EAF2EE5C0E",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "9cbf8ed2-a936-4dd5-b0c2-f6957ed7db00",
+              "count": 4,
+              "front": {
+                "Name": "Torches-x4-a.png",
+                "ID": "B6484C8DBA54FCC2A23C7077B0209086",
+                "SourceID": "F935E22B4900F429EC73725E4AFEAB0E34BBD26B",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "RTTFA Supply Minicards",
+          "cards": [
+            {
+              "id": "9b753fc5-60a0-489c-8d85-6580852ee77c",
+              "count": 1,
+              "front": {
+                "Name": "RTTFA Key of Eztli-x1-a.png",
+                "ID": "B24988360B95D3E648131615F660E74E",
+                "SourceID": "9A86A500B58E0C76CA5FFBA0E7BC8A667505168A",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "5c98ded4-beb1-4ec6-97ce-ec9eaf3a5d59",
+              "count": 1,
+              "front": {
+                "Name": "RTTFA Mysterious Scepter-x1-a.png",
+                "ID": "86D7BDC9B2FA2E2105BCC1C3AFCAF27B",
+                "SourceID": "C28A14C5E594652E2E6A318A8B9F2C131ECC6155",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "2e31eb46-78d8-4cc9-9c90-3901320ba39c",
+              "count": 1,
+              "front": {
+                "Name": "RTTFA Sticky Goop-x1-a.png",
+                "ID": "C69009C110AC4ACEB87DFC90BC62EB5F",
+                "SourceID": "01D7B97A36F6BD04EFE13AEE5EC1B23B2D144831",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        },
+        {
+          "name": "Relics of the Past Supply Minicards",
+          "cards": [
+            {
+              "id": "2405202d-72a1-4989-a8ef-6632cd1bde73",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Chalk-a.png",
+                "ID": "9AD7728B3427C966ED43F71C720008CC",
+                "SourceID": "373AD0DFC13C150CA83E0CCC60F257D2612D4B0A",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "d6c54c08-c3fb-4d21-a716-16ac09ee2db4",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Compass-a.png",
+                "ID": "1FADE204A9B1F6DF3F0AFCAF073633C7",
+                "SourceID": "52BB8F3A396C272DAA60FD5E06F8BCF0DCE80611",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "a044fdd6-108b-4e7b-a8b2-86123aab9f91",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Journal-a.png",
+                "ID": "5B57B5C84C6A327EA4AA767ABC7DA27C",
+                "SourceID": "96F1CC1CD73536BE86E19E451E3A9781C32FF068",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "bc92dbc0-b564-40c0-808c-732cd67772cf",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Satchel-a.png",
+                "ID": "B983D6F74A40090C8C8EB2EC3AA4E676",
+                "SourceID": "6CA6E66A5DFF219F633E23C51E1B2406247AE884",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            },
+            {
+              "id": "bb47da67-6306-42e0-a50c-1a79674d5458",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Torches-a.png",
+                "ID": "31F1C787C066BD9C7C88CDE7A3EAADF9",
+                "SourceID": "E8DD2923A851850DC7D74DAC1BA47F8A002AE602",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "79DF6C27E6AA4D93DD05AF3173FA161D",
+                "SourceID": "B2DB512DA9A0911114E9E459ED1D63C9751952A0",
+                "Exp": "png",
+                "Width": 560,
+                "Height": 822
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    },
+    {
+      "name": "Standard-Sized Supply Cards",
       "parts": [
         {
           "name": "TFA Standard-Sized Supply Cards",
-          "enabled": true,
+          "enabled": false,
           "cards": [
             {
               "count": 4,
@@ -300,7 +766,7 @@
         },
         {
           "name": "RTTFA Standard-Sized Supply Cards",
-          "enabled": true,
+          "enabled": false,
           "cards": [
             {
               "count": 1,
@@ -361,11 +827,118 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Relics of the Past Standard-Sized Supply Cards",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "2fa14891-7358-49b7-98c9-d424aadf461d",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Chalk-a.png",
+                "ID": "66AF0BD2E1FECE719FCFD53DFBBD9AC7",
+                "SourceID": "D3480926622568F6946C48D78DA86198BFC83B4E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9D2B7CAD41A5C2C6BC144F5A00C7AFCB",
+                "SourceID": "D7E36539AA4D3951F016A0BEA9435EC2616CD069",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "75ac1a3d-5a59-4f6e-a5a4-356c1668a5e7",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Compass-a.png",
+                "ID": "1290CF0CA96581E6717B0EE13B11FA6B",
+                "SourceID": "E6072DABBE7F516D587B04798E7A30D1A25E3D1C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9D2B7CAD41A5C2C6BC144F5A00C7AFCB",
+                "SourceID": "D7E36539AA4D3951F016A0BEA9435EC2616CD069",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "74254a07-a5aa-466e-bd93-1d4c6a1a826a",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Journal-a.png",
+                "ID": "5B78F613323A81DBF12ACAE3BB1963A6",
+                "SourceID": "0F392CFB7E3F7FADF9CDC5BE1145990BDB5B2307",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9D2B7CAD41A5C2C6BC144F5A00C7AFCB",
+                "SourceID": "D7E36539AA4D3951F016A0BEA9435EC2616CD069",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "179dff3c-5e52-4937-bfde-e92f84ba30b5",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Satchel-a.png",
+                "ID": "5A2A38238A53D75DD721B129B50B0380",
+                "SourceID": "7F0044AC325D51994E0900CD8513CAD5FC15CD5F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9D2B7CAD41A5C2C6BC144F5A00C7AFCB",
+                "SourceID": "D7E36539AA4D3951F016A0BEA9435EC2616CD069",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "350772df-f41c-45b7-84ea-4f9c6b2f9e0e",
+              "count": 1,
+              "front": {
+                "Name": "Relics of the Past - Torches-a.png",
+                "ID": "5730FC95D513C2F64B605F4B8A8B21E2",
+                "SourceID": "0EE6B551D2CD127A1E01073214106A2E88EBAB86",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "9D2B7CAD41A5C2C6BC144F5A00C7AFCB",
+                "SourceID": "D7E36539AA4D3951F016A0BEA9435EC2616CD069",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
   ],
   "created": "2023-11-25T04:45:26.684Z",
-  "updated": "2023-11-27T03:53:33.068Z",
+  "updated": "2024-10-07T03:53:33.074Z",
   "hash": "e681a3ebe2eb30b0d56ccd251b965ab390a20b7a895763b555b6840b73d2a9f4"
 }
