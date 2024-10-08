@@ -9,13 +9,11 @@
     "0C4532E0367B1BBED5411AC84DB0556907804E52379A07ECF949A3FEE78EE155847C2816C7347E2B": "Jumbo Cards & TFA Microsupplies",
     "14A065381DB597FD66ADC23C46248140F3BEC2C2D737389D0D6E407233A887973A39D563862A9051": "Maps Fixes 2023/11/10",
     "CCECB83A593B61DEBB5270C89C1AAEB2D4071E64BB9346FD0D73415E6797C122D175E440C26F051D": "Location Maps best",
-    "900B09BB762E4302EA7D8AEE372E72AA8D38F61925951980E4F2DD22A5099665B57B74171CD7D47B": "OOPA",
-    "12602448518B6BBC0EDDAFDE38C8AC470E6306F8ECF335713F0E7DCC4C347F2E92DD2B38B89052E9": "8-up microsupplies",
-    "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update",
-    "7505D6D7F1F42EE0EC1756491EDA4FD8078434796CD4BDA1D7A8FEE5910930471BDBB697BC7DAC1C": "Monterey Jack + 3 little kittens"
+    "900B09BB762E4302EA7D8AEE372E72AA8D38F61925951980E4F2DD22A5099665B57B74171CD7D47B": "OOPA",    "9509AAF7748C777BC410D89EC154257AE0A190B5FB432000F733D1498D3BBE97B41514DE3A13334C": "OOPA FHV and TIC update",
+    "0F058B402453A477FE9384002336129E256A775D9A444D5136951DDE744C663BC51CD34A6BAFE7AF": "Jumbo EotE Map"
   },
-  "name": "Jumbo Maps",
-  "description": "Jumbo-sized cards with missing scenario maps and out-of-play area cards. Plus TFA supplies 8-up on jumbo cards for cutting at home, with a bonus Summoned Servitor microcard. And 8-up supplies for Parallel Monterey Jack’s scenario, with Augur, Hope, and Zeal filling out the remaining space on the card.",
+  "name": "Jumbo Maps & Out-of-Play Areas",
+  "description": "Jumbo-sized cards with missing scenario maps ease your setup for scenarios like Doom of Eztli, Lost in Time and Space, and Fatal Mirage. Jumbo cards for Pursuit, The Void, The Shadows, The Depths, etc. bring stylish organization to your out-of-play areas.",
   "artist": null,
   "info": null,
   "website": "https://github.com/Antimarkovnikov/AHC_Alley/wiki/VELA-&-PARTNERS-CARTOGRAPHY",
@@ -297,124 +295,9 @@
           "code": "3BDC5812E3F03AB4"
         }
       ]
-    },
-    {
-      "name": " 8-up Microsupplies on Jumbo Cards",
-      "parts": [
-        {
-          "name": " TFA Microsupplies",
-          "enabled": false,
-          "cards": [
-            {
-              "count": 4,
-              "front": {
-                "Name": "TFA Micro Supply Cards 1-x4-a.png",
-                "ID": "8F6E8E92E21AC67E767078A84ABFE179",
-                "SourceID": "D47B1B10D3E93D7FAA4C41912F334DC9360672B2",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              },
-              "back": {
-                "Name": "TFA Micro Supply Cards 1-x4-b.png",
-                "ID": "D807D33295FC723E31B4877927467CA5",
-                "SourceID": "A35098FA1B108D390578F125156CCC4E839C429C",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              }
-            },
-            {
-              "count": 4,
-              "front": {
-                "Name": "TFA Micro Supply Cards 2-x4-a.png",
-                "ID": "9F22134C69156A9251F06A7039969493",
-                "SourceID": "E4C2563142EC4BB0DA980A572F1B29EFA2E73D7B",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              },
-              "back": {
-                "Name": "TFA Micro Supply Cards 2-x4-b.png",
-                "ID": "DE41600F78B3ED56ACCA9E2C7A05DCEC",
-                "SourceID": "17E3015ADE4D1F60A62992899B29239C22C669CD",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              }
-            },
-            {
-              "count": 4,
-              "front": {
-                "Name": "TFA Micro Supply Cards 3-x4-a.png",
-                "ID": "33D1AE35C927B19C08A93BDE1FB41241",
-                "SourceID": "884A9965E108388B210F498F93BF435F8320EC07",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              },
-              "back": {
-                "Name": "TFA Micro Supply Cards 3-x4-b.png",
-                "ID": "C282F874CD900CB9ADC58C2671D48DD0",
-                "SourceID": "C7AA306102F1294ED6CE05AC82F0ED37D7B6F8BA",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              }
-            },
-            {
-              "count": 1,
-              "front": {
-                "Name": "TFA Micro Supply Cards 4-x1-a.png",
-                "ID": "10B390BE9858A4025B26D249EDCFADB5",
-                "SourceID": "55C9008E151BA4A1DB9954EDFA1CC06BAB4640C4",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              },
-              "back": {
-                "Name": "TFA Micro Supply Cards 4-x1-b.png",
-                "ID": "2B442EAC1207796E2EE71FD79C7131DD",
-                "SourceID": "93CBB2452B40660FBC1D278BEF5D7FCF6185DB36",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              }
-            }
-          ],
-          "code": "3BDC5812E3F03AB4"
-        },
-        {
-          "name": "Parallel Monterey Jack Microsupplies",
-          "enabled": false,
-          "cards": [
-            {
-              "id": "5179ccef-6d6c-4933-b336-470ab4dc4d75",
-              "count": 1,
-              "front": {
-                "Name": "MoJack Microsupples Microkittens-1.png",
-                "ID": "87E7922A51C8B0A08CE2567F7D26014F",
-                "SourceID": "DA2875A01E41EA6E1679C495E4AC08939DF70E93",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              },
-              "back": {
-                "Name": "MoJack Microsupples Microkittens-2.png",
-                "ID": "3AE536136E7042463432F3C6154B4C0A",
-                "SourceID": "9669343FAE147A8C1414736BA80F43FBB862762B",
-                "Exp": "png",
-                "Width": 2240,
-                "Height": 3140
-              }
-            }
-          ],
-          "code": "3BDC5812E3F03AB4"
-        }
-      ]
     }
   ],
   "created": "2023-08-08T04:45:26.684Z",
-  "updated": "2024-08-19T01:58:37.833Z",
+  "updated": "2024-10-08T12:58:37.833Z",
   "hash": "0d3c0e0c0b116f2a9c9dfa0ac7f3741ded5bdaeacc8b99249f5b239a7a424c99"
 }

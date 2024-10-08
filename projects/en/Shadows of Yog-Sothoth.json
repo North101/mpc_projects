@@ -22,31 +22,6 @@
     {
       "name": "Shadows of Yog-Sothoth",
       "parts": [
-        {
-          "name": "COMING SOON. Nothing to see here.",
-          "cards": [
-            {
-              "count": 0,
-              "front": {
-                "Name": "001 Blessed Blade-x2-1.png",
-                "ID": "DECE797A8B03D76BD7F2AD09034F65C3",
-                "SourceID": "D06726E9A7053A449AFF57D4136E9D9FA02F1704",
-                "Exp": "png",
-                "Width": 826,
-                "Height": 1126
-              },
-              "back": {
-                "Name": "_playerback.png",
-                "ID": "F2C892495D430CF932D00FCC1CD986B8",
-                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
-                "Exp": "png",
-                "Width": 822,
-                "Height": 1122
-              }
-            }
-          ],
-          "code": "C380050185D1C1AF"
-        }
       ]
     }
   ],
