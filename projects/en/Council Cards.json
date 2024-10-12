@@ -158,6 +158,33 @@
             }
           ],
           "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "2020 GenCon Card (available in EotE)",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "504718ec-c319-465a-902c-091028cc230b",
+              "count": 2,
+              "front": {
+                "Name": "2020-Burn After Reading-x2-a.png",
+                "ID": "60DB9E8EFDD5B38BAEDB93C31B61B842",
+                "SourceID": "8943C18DE5D5FE67C3B4EC11D8C384702D2CF6C1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
         }
       ]
     }
