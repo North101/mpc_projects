@@ -1,0 +1,407 @@
+{
+  "version": 5,
+  "projectIds": {
+    "67F0DC64C33EDD8A6B262B2C7103E65F5B76C927190EEDF36C9465D418EFD8159AB4C719F9DEE569": "FFG Customizable Upgrade Cards"
+  },
+  "name": "Customizable Upgrade Cards",
+  "description": "Additional copies of the customizable upgrade sheets that accompany the customizable cards from The Scarlet Keys Investigator Expansion. ",
+  "artist": "Jake Murray",
+  "info": "Requires the customizable player cards from The Scarlet Keys Investigator Expansion. By default FFG provides three copies of each card, so make sure to customize for the quantity you want.",
+  "website": null,
+  "cardsLink": "https://images-cdn.fantasyflightgames.com/filer_public/b4/4c/b44c34e7-e9f1-4752-844d-1acffc4b770a/ahc69_upgrades_v5.pdf.",
+  "scenarioCount": 0,
+  "investigatorCount": 0,
+  "authors": [
+    "Fantasy Flight Games"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Player Cards",
+    "Add-On",
+    "Official"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "FFG Customizable Upgrades",
+          "cards": [
+            {
+              "id": "f4392d06-7fb2-4feb-80c8-e0ac97c6494c",
+              "count": 3,
+              "front": {
+                "Name": "021-U Hunter's Armor-x3-1.png",
+                "ID": "C3C6B7E22BEA1AE30616CE76FE12479C",
+                "SourceID": "B3338F4E801991FD727493C13D1BDF5FB87CDD0D",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "5361e5cc-162e-431d-a2dd-6c61b9f2a8da",
+              "count": 3,
+              "front": {
+                "Name": "022-U Runic Axe-x3-1.png",
+                "ID": "4945BAE5882B810C5A648CFC53B4F04C",
+                "SourceID": "D78955798DB838669D25BDA76673D7721BA1B5D7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "305e4f6e-de36-4071-ad58-990a2d3fe958",
+              "count": 3,
+              "front": {
+                "Name": "023-U Custom Modifications-x3-1.png",
+                "ID": "E8F5F374E03AD033820E1FA71BE61D3A",
+                "SourceID": "5510EB4A4A270324DD1AFCB999F05695900253CE",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "6c557240-d344-44eb-aeaa-5ca54961fc42",
+              "count": 3,
+              "front": {
+                "Name": "040-U Alchemical Distillation-x3-1.png",
+                "ID": "8F5EE765B90EF8FC4D56A1617064B144",
+                "SourceID": "B4A84A7EEE066EF4CB9108541220C0E75A5B4DA9",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ff2866e9-0a02-4452-90f5-c9663cfa2c4b",
+              "count": 3,
+              "front": {
+                "Name": "041-U Empirical Hypothesis-x3-1.png",
+                "ID": "127B2A18819280AA4EDC122D08B30B45",
+                "SourceID": "7C8EA8E73D0D032D72A6CF06E329CAAA48457263",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d3839d8a-5e40-4b0d-8077-992926337fa8",
+              "count": 3,
+              "front": {
+                "Name": "042-U The Raven Quill-x3-1.png",
+                "ID": "33486F9B87223805AA01B964EBE5163F",
+                "SourceID": "CE1FAE6FDB8BD6C3FCC03FA6178C9B2B52B1AE1E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "c88a20fd-6e05-4bdb-9742-8b44e9d6689e",
+              "count": 3,
+              "front": {
+                "Name": "059-U Damning Testimony-x3-1.png",
+                "ID": "A8042D15045A3B786AA12981D117042A",
+                "SourceID": "FD15C0272673196354AA93918811FE86881A1A95",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "043d0d62-d991-4722-9476-99941ed06939",
+              "count": 3,
+              "front": {
+                "Name": "060-U Friends in Low Places-x3-1.png",
+                "ID": "F6850F183DC8A9773685BAEA244D9B44",
+                "SourceID": "AF51308B28A986D118891DB6FE150D6C9F5D27D8",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b2a1b00a-b73a-4bcd-be51-6c3c6edf6a9c",
+              "count": 3,
+              "front": {
+                "Name": "061-U Honed Instinct-x3-1.png",
+                "ID": "C4B00B922947963B0A37130A2DDB3114",
+                "SourceID": "DC3887637DE99EE19C74F4619BC111B3B02E8575",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "9829a5dd-5015-4428-9011-9cbb6a90973b",
+              "count": 3,
+              "front": {
+                "Name": "079-U Living Ink-x3-1.png",
+                "ID": "8FE79544DE21FFABB2DC79301E94B410",
+                "SourceID": "59A40F1105A1317ABBC7AE5986F864B4195CC2F3",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "a96f341e-b401-4c39-8730-f3404fb127f4",
+              "count": 3,
+              "front": {
+                "Name": "080-U Summoned Servitor-x3-1.png",
+                "ID": "6E59D667509DCF6E107FCFD2676C8A19",
+                "SourceID": "9DB7A118E99501E7D622782DFE7234ECA7ACE192",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "929baa7e-1931-4c7b-b0a9-1cbc724b37ef",
+              "count": 3,
+              "front": {
+                "Name": "081-U Power Word-x3-1.png",
+                "ID": "FD7A0B7DC61DB0673C1222C843C1F555",
+                "SourceID": "023F699A8F070ADCED955190FC9A632F10F304A5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f77c9df1-0975-4b1a-858c-40de0229c9b3",
+              "count": 3,
+              "front": {
+                "Name": "099-U Pocket Multi Tool-x3-1.png",
+                "ID": "5AEA41FE4371EC574EC9455BC701EEFF",
+                "SourceID": "5BCEBAB6F4B3733BA3EF61075EB5850A3B19F6EB",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "c82b2bb7-d43c-4c55-9a4b-3bae9cc84e96",
+              "count": 3,
+              "front": {
+                "Name": "100-U Makeshift Trap-x3-1.png",
+                "ID": "8A87425B3E11B3B185D06D6B4A1C91EF",
+                "SourceID": "E1100A9EBC238EC6FFFE03B435EC9E5AEC00824C",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "be6262d9-6d45-44e6-a3a9-7f79cd1b7214",
+              "count": 3,
+              "front": {
+                "Name": "101-U Grizzled-x3-1.png",
+                "ID": "1143879B6F2FCA8173A48B9992A41FF1",
+                "SourceID": "CF296AF65696D2A8C90C1C76C8F4702EBC2CC05B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8488cf24-61e7-4872-a803-105f2fb425b4",
+              "count": 3,
+              "front": {
+                "Name": "119-U Hyperphysical Shotcaster-x3-1.png",
+                "ID": "474F82D643F3D647A5D8C886ABAF802A",
+                "SourceID": "E3202EC13787E5651C1F595DD26B7D25BC48C8C5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "FFG Customizable Upgrades, Taboo 2.1",
+          "enabled": false,
+          "cards": [
+            {
+              "count": 3,
+              "front": {
+                "Name": "13 Runic Axe upgrade-x3-a.png",
+                "ID": "486C0F5BA01C742B6836A41DB5FE9167",
+                "SourceID": "6BF526E40166EF690918D0381942E0607CC122D9",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "13 Runic Axe upgrade-x3-b.png",
+                "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
+                "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 3,
+              "front": {
+                "Name": "69 Power Word-x3-a.png",
+                "ID": "6FD460C57C4C7AED8D8C3145D9CAE106",
+                "SourceID": "889416365CF30B7971470BE4FDDFF28B39396A02",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
+    }
+  ],
+  "created": "2022-04-12T04:45:26.693Z",
+  "updated": "2024-10-12T12:53:33.088Z",
+  "hash": "41f59c2cf00629d644ba45327525d7f7c2b58e3d0bd7e6cff7a0f94e30366cd9"
+}

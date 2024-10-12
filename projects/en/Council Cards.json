@@ -2,14 +2,15 @@
   "version": 5,
   "projectIds": {
     "37F7F67E71E436D5E56FFC98D523AF2148297B4E2BECEC68A42D5404FFADC08E6AEE7C3E857B7C47": "Council Cards",
-    "7F7AB135F4B172C6BA4030E2ACFFDCDDD84F32DC4DD09ED57434B77E3811DE9AF0ADE8B050417FF7": "Council Cards"
+    "7F7AB135F4B172C6BA4030E2ACFFDCDDD84F32DC4DD09ED57434B77E3811DE9AF0ADE8B050417FF7": "Council Cards",
+    "5811FAAD34F932421F8AAAB1A0EA3897E0721CB34AD8773E86EAFBA826B96D38A49E585EDA6F4778": "Burn After Reading"
   },
   "name": "Council Cards",
   "description": "Play with beta copies of the cards created on FFG’s Create-a-Card livestreams before their final versions see official release.",
   "artist": "Ethan Patrick Harris",
   "info": null,
   "website": "https://www.youtube.com/watch?v=e0I3kYeWMcs",
-  "cardsLink": null,
+  "cardsLink": "https://drive.google.com/drive/folders/18dq_VA5qDFXj67q2ZWyAZ5bgwkHsC26a",
   "scenarioCount": 0,
   "investigatorCount": 0,
   "authors": [
@@ -20,7 +21,8 @@
     "Project Available"
   ],
   "tags": [
-    "Player Cards"
+    "Player Cards",
+    "Official"
   ],
   "options": [
     {
@@ -149,6 +151,33 @@
               },
               "back": {
                 "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "2020 GenCon Card (available in EotE)",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "504718ec-c319-465a-902c-091028cc230b",
+              "count": 2,
+              "front": {
+                "Name": "2020-Burn After Reading-x2-a.png",
+                "ID": "60DB9E8EFDD5B38BAEDB93C31B61B842",
+                "SourceID": "8943C18DE5D5FE67C3B4EC11D8C384702D2CF6C1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
                 "ID": "F2C892495D430CF932D00FCC1CD986B8",
                 "SourceID": "537898184A74156EB358A1B62F6812262361519E",
                 "Exp": "png",
