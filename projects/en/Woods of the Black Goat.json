@@ -1,0 +1,1820 @@
+{
+  "version": 5,
+  "projectIds": {
+    "0ABEBD8EE1F44E7C7FDA2478C287576241E13E3941A6C28E0D551324CD2792510196862DAA279E731": "Woods of the Black Goat"
+  },
+  "name": "Woods of the Black Goat",
+  "description": "You find yourself washed up on the shores of a dark and mysterious island with the only signs of civilization being a lone cabin on a distant hill. Can you survive the Woods of the Black Goat?",
+  "artist": "Ramon Ignacio Bunge",
+  "info": null,
+  "website": "https://mythosbusters.com/custom-scenarios/",
+  "cardsLink": null,
+  "scenarioCount": 1,
+  "investigatorCount": 0,
+  "authors": [
+    "Mythos Busters"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Standalone"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "Woods of the Black Goat",
+          "cards": [
+            {
+              "id": "1c87a8c1-292f-46e8-8ebf-16173fe5dbd1",
+              "count": 1,
+              "front": {
+                "Name": "000 Cover Woods of the Black Goat-a.png",
+                "ID": "4BA52552B72042095AF867EB827D12CF",
+                "SourceID": "3B8A2D6329B282F137C141752D31BCF9A3637611",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Cover Woods of the Black Goat-b.png",
+                "ID": "EBDE8A7891E7A74BBC7FEF6E5C2500A8",
+                "SourceID": "CA643A8E9CF97919553F967E3F5346ECE1E03405",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "a682ab6b-3081-427c-b1df-6b08d8a3e29b",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 1-2-a.png",
+                "ID": "EE9CA992F91879B046569CE4FAA65CB2",
+                "SourceID": "5E0FDD2492AA1187F21CE4C07E597F5D2860D2D3",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 1-2-b.png",
+                "ID": "367745997676D4F0AC7C9E34F8B593AB",
+                "SourceID": "0E9345EA24F195AA4D8D5C730DF37A187C57159B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "09aa1821-eb87-4064-87f5-653c2bc6f41d",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 11-12-a.png",
+                "ID": "3248C6DAC094149A31B3B12B31D4807F",
+                "SourceID": "6FD62742C9D54FDA3E087DF1DA0CCE44485F93AD",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 11-12-b.png",
+                "ID": "2287F0B19D07C2A6946CE741DB658F1F",
+                "SourceID": "4EA107D0D736B3FB61C3A234F110C443D7FD1F55",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "9abb979f-600c-42fa-a550-5bc0845964df",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 13-14-a.png",
+                "ID": "52375B60E7EE30A0805224681B6D3CED",
+                "SourceID": "56ECA8C7EAD8DBC31E029F01CC54CC6393EA4552",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 13-14-b.png",
+                "ID": "C29DE7EB92F364967D34D608972B721A",
+                "SourceID": "E287DE773DDA08647E2EB83D6B684B0600BDA49D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "d2eb5e60-f189-4cb9-965c-50a2c25977f4",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 3-4-a.png",
+                "ID": "31E07EE85163BFB30EEEC740320AA5A4",
+                "SourceID": "E0ED83C5D9CE24FE0585289B79F79C3776A835E4",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 3-4-b.png",
+                "ID": "2417DAE526D522F72E0E53AA152DAC37",
+                "SourceID": "85A3ACF3D4B02462BA928E26A6C067B255A17F8F",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "9df496ea-6ef3-488f-9c93-34613b04a318",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 5-6-a.png",
+                "ID": "252A3CAB16D3B1FAD0C86B805E158FBE",
+                "SourceID": "C8B258BE69059AE1E4030CB79838649876742BB1",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 5-6-b.png",
+                "ID": "A72186EA5B9AB382AA45047CBA4AC29E",
+                "SourceID": "0135C1ED9E0ACE2193BC4FEB3199F84B0D91D097",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "facf984e-7b45-45b8-a1be-a2494a9c05a6",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 7-8-a.png",
+                "ID": "85ADF7E0BDC01CFDC2B6DE0B49920B8B",
+                "SourceID": "A0AD54714D29BA1D60F3F0F85B61F8B3DBE42110",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 7-8-b.png",
+                "ID": "14721CCF8875FF33F86C6B750E2CCC04",
+                "SourceID": "6D181AD30137465686F31080E68A40D798F68ECF",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "62aaf91a-600f-4714-afa7-48629195ac16",
+              "count": 1,
+              "front": {
+                "Name": "000 Guide 9-10-a.png",
+                "ID": "E7E310A7423517BCCE81A18FC38BE152",
+                "SourceID": "B244FD5D44DDD2A76A1DB2FF1D68EEB7FA155F6B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "000 Guide 9-10-b.png",
+                "ID": "4E61566EF4071B781083832F3AD2F271",
+                "SourceID": "79D1C82D60D0430AA3B3C13D935D2A4DA23A991C",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "d25f6755-adb9-48fd-9ae5-516bf2ca61b6",
+              "count": 1,
+              "front": {
+                "Name": "001 Woods of the Black Goat-a.png",
+                "ID": "6BBC7696661186389F55CC1A75E670B8",
+                "SourceID": "C27891B224415A5F949BA05DA721248022A72E77",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001 Woods of the Black Goat-b.png",
+                "ID": "5B4C87EB84A7A1CE812D6EDC127415BF",
+                "SourceID": "78CDE360CE5B1F4941842E29DF1F552E006E6BEF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f5e5e184-b786-40f1-8dc7-fe855e77c010",
+              "count": 1,
+              "front": {
+                "Name": "002 Agenda 1-a.png",
+                "ID": "4DA7BF60DCBD5D758E4A1D30E86C03B4",
+                "SourceID": "3593D85AC9224F1D6E43083EB27D9931C9C4628C",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "002 Agenda 1-b.png",
+                "ID": "E74A8A3CF346F7AFAF8DA652910E29C2",
+                "SourceID": "D96EC2AD69AA2ABCE5CA223F8AF8518DC0B81E38",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "0a26fe92-bbb5-4020-ac05-07582ed9117e",
+              "count": 1,
+              "front": {
+                "Name": "003 Agenda 2-a.png",
+                "ID": "EF29DD08A8FB75D20A4DA60B7A16BCD6",
+                "SourceID": "FE1E6B9B324D2D86845FC0F2EC36435CADF1A37B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "003 Agenda 2-b.png",
+                "ID": "9771ADB024160EBA589C28EB8C529B41",
+                "SourceID": "74F0F24E91494BE76EA5528A2EF3112D51A959AB",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "53db1f5d-c50c-489c-a3d0-3f4c8c89c578",
+              "count": 1,
+              "front": {
+                "Name": "004 Agenda 3-a.png",
+                "ID": "9E6966AA04E45E803361E8C62D56E327",
+                "SourceID": "0F61876765B29876664742DD740B8114E3449B3B",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "004 Agenda 3-b.png",
+                "ID": "CD6273DDCBC5F18427C421A62BC6D948",
+                "SourceID": "F0080FA83E6F356122EDB27514CE89E6D7E661F4",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "fc0874e3-5668-45f9-836e-91d6f2d79dfc",
+              "count": 1,
+              "front": {
+                "Name": "005 Act 1-a.png",
+                "ID": "5342AFB0B855606336FB164654128796",
+                "SourceID": "B07607BBA983413BC37D2BDAD791EF8691417A4D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "005 Act 1-b.png",
+                "ID": "4DF459D8E2B3ECD002C51E68B8DF7D2F",
+                "SourceID": "3CD961927FD13D274D81F7BF7BDAFF2BBBF494C3",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "da060bfe-e622-46e6-9cab-8ceb4107ded6",
+              "count": 1,
+              "front": {
+                "Name": "006 Act 2-a.png",
+                "ID": "D04209C7094701E4B691FE481B0250FD",
+                "SourceID": "8A170DC4D06ADA4000331F1161E6C4CB49DF9F32",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "006 Act 2-b.png",
+                "ID": "16067AEB53ACD2F1D0430A6E56D0B03B",
+                "SourceID": "16FBF2B84B79C7D74B6B7890E075432D8AD5C093",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              }
+            },
+            {
+              "id": "d8d0b84c-2c8e-43e6-b933-4725b61182b6",
+              "count": 1,
+              "front": {
+                "Name": "007 Bald Hill-a.png",
+                "ID": "CF735E0E1C3D3B657689ABC90FA1249B",
+                "SourceID": "F67A463D0E6368280A18C8B1E9BC55879C98CF3B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "007 Bald Hill-b.png",
+                "ID": "E7F34D1F1F1BA5C564B25E7EAD28B846",
+                "SourceID": "AFD43B7D986FE82FE38CAD0478BC2704A03FAF3C",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "884d6b12-354c-4dff-afb6-d3fa38e8ca19",
+              "count": 1,
+              "front": {
+                "Name": "008 Old Barn-a.png",
+                "ID": "2701A3DCE5CBB8B81F1CF78E7E8F97BC",
+                "SourceID": "D72FCA82DEB83D344938434CE49FE4BA157BF53A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "008 Old Barn-b.png",
+                "ID": "D4D9BA2230450E3FF33740B1DB5F67FD",
+                "SourceID": "161DE7C2D59A058C6857DD341E4C5EAECDBA8DB8",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "08cbd50c-3545-4097-8458-dc3e4d7c3169",
+              "count": 1,
+              "front": {
+                "Name": "009 Bedroom-a.png",
+                "ID": "4842D77509335E0D4AA23CA3FDD3F494",
+                "SourceID": "DF6614DFC1B16BC6D04BB2D7954A5AFBD5E4C2E9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "009 Bedroom-b.png",
+                "ID": "053FF434187566F872A6DA13975F655E",
+                "SourceID": "E187B33EABA80C79CBEF778D34FE275E72AE7A1B",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "c00d22ba-0506-46a1-8205-5076ed60c4ed",
+              "count": 1,
+              "front": {
+                "Name": "010 Tangled Thicket-a.png",
+                "ID": "ED78951E15F068B0E09FB0A2CF354F9D",
+                "SourceID": "C9BA0C8AB850D3A524C675C22A7D6A0C8B427708",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "010 Tangled Thicket-b.png",
+                "ID": "577697AF9143516B00C7EE012DF656B6",
+                "SourceID": "38E478E4822364BD77C1ED430B1263D659CB91EC",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "fc0ee1fa-5041-422b-848c-5890da7e4a90",
+              "count": 1,
+              "front": {
+                "Name": "011 Mist-Shrouded Vale-a.png",
+                "ID": "10CCB3F2EB0BF796A768C38DED1C9CAA",
+                "SourceID": "6992E7642C03334919A8BD4DFD31586FF6566B9F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "011 Mist-Shrouded Vale-b.png",
+                "ID": "1BBCA69E9C636E5C9A7D04E308081B81",
+                "SourceID": "ACDF7E91A7606CA01854055DCA44A65DABB0F1E8",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "cad3e1c5-e952-4566-885e-96f652eecffa",
+              "count": 1,
+              "front": {
+                "Name": "012 Festering Pond-a.png",
+                "ID": "FF226E569685E2CE9371ECFC9CCBACA5",
+                "SourceID": "694C2844B2B78C27A65A7BAA8A209393F5DB3A19",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "012 Festering Pond-b.png",
+                "ID": "9FBCDADE2582E6146C3EF7DE24B85E17",
+                "SourceID": "CB1742E695104C915270CCCE82EC33DE428CDCB8",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "f38437fc-598b-4379-aeea-6f7ff8c3bfae",
+              "count": 1,
+              "front": {
+                "Name": "013 Open Field-a.png",
+                "ID": "6CF612F07CD641F8881F17D597CFE079",
+                "SourceID": "F074A9411DE8829078E07971FE74C9B5B4956CE4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "013 Open Field-b.png",
+                "ID": "9B554EE694541CDD04E662899A61561D",
+                "SourceID": "134420D0FF95DDC3D03627F38B7C4FD3B4FCC843",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "c7cbd30f-175d-498d-a00e-48afd0b56f9b",
+              "count": 1,
+              "front": {
+                "Name": "014 Garden-a.png",
+                "ID": "BCAA07AA095E2437AE301CD754379D88",
+                "SourceID": "37C92091E3D9FB7A167AED062AB75485A517B058",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "014 Garden-b.png",
+                "ID": "397D0DFE2BC03AD991328E1DAA38710B",
+                "SourceID": "6914B36BF732EB13B35BCC635477DDA2F1F7CA4B",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "ee98500e-aafc-436f-b47a-5145ce2bd787",
+              "count": 1,
+              "front": {
+                "Name": "015 Kitchen-a.png",
+                "ID": "B3DFB85437B929562C109B7240B2498D",
+                "SourceID": "350788E5F2EC21CE98E0F809648BDB4F10B86809",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "015 Kitchen-b.png",
+                "ID": "F888EEBA053C9BE4F6A665B39FBABFD9",
+                "SourceID": "9B459C0081670F0FD5CD0DF961CC198D7B374B1F",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "fe766b7a-674b-4c94-843e-802062cfa98f",
+              "count": 1,
+              "front": {
+                "Name": "016 Living Room-a.png",
+                "ID": "E40D6AE551AE12840C3CC44136472C85",
+                "SourceID": "7F7CAA58C8E23EF308F02690697D05EC3329BC53",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "016 Living Room-b.png",
+                "ID": "815988C19AFB305FD4E0FB576CF98369",
+                "SourceID": "A58BD76BB67758DFA1B9AA37682239C4128ED62E",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "6598d189-b60c-41c2-9d23-db2f9a290a28",
+              "count": 1,
+              "front": {
+                "Name": "017 Shed-a.png",
+                "ID": "90D675721CF919A16B10F17683D04CB3",
+                "SourceID": "63A2D2620B940270537456E5E3DB7AB5882C552C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "017 Shed-b.png",
+                "ID": "F082324D10B940095480C08B3BE15D6C",
+                "SourceID": "42802C9E8AB90034EF2402741454BBC533B52483",
+                "Exp": "png",
+                "Width": 825,
+                "Height": 1125
+              }
+            },
+            {
+              "id": "0ede77e7-3dfa-4275-8d33-52607a5b6123",
+              "count": 1,
+              "front": {
+                "Name": "018 Bleating Child-a.png",
+                "ID": "69BA37045613E03596F1AF0C58CC3119",
+                "SourceID": "74D79BCE9B0C84A9461D684D6D43B7F005C3A032",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "6fd55614-c52f-4033-910c-e08febb4fe0a",
+              "count": 1,
+              "front": {
+                "Name": "019 Bleating Child-a.png",
+                "ID": "9E3122B3F1AF5F3344F261DF1A44652A",
+                "SourceID": "23997854744440E2B9F403DE458EBD62D2B11513",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "71683734-b326-4ae5-ad70-3e9f0b3f8e6f",
+              "count": 1,
+              "front": {
+                "Name": "020 Bleating Child-a.png",
+                "ID": "B69AB31D3B42EDF448AA4C066E9D010A",
+                "SourceID": "843CD532DB57EBE46D729BF4B7EA97AFC9CBCE5A",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e78c9c06-1154-4089-b7f8-1f889a2ff9dc",
+              "count": 1,
+              "front": {
+                "Name": "021 Bleating Child-a.png",
+                "ID": "71BF17854FDA769AB23AE1FB287A0E8B",
+                "SourceID": "B76796E0A7FF6BC05C0CCF8015997DCE3D261DE2",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e3c368e5-5f24-4f39-8059-6ecb82eec739",
+              "count": 1,
+              "front": {
+                "Name": "022 Bleating Child-a.png",
+                "ID": "4E64505587CEA725301B67E245BDFF5E",
+                "SourceID": "1A6C7BCEDED73C4D55DAAD5FF4491DB9F74D17BA",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d4cc7d78-4ce4-4ff4-9660-ee895194f74f",
+              "count": 1,
+              "front": {
+                "Name": "023 Relentless Child-a.png",
+                "ID": "F53AD376E5FF37095B12F63EB17B5E3E",
+                "SourceID": "C1DA5F59164F17493DCC77D9FDB594689825A328",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "539c0fc4-d974-42a3-a2b7-3457f715fc7b",
+              "count": 1,
+              "front": {
+                "Name": "024 Relentless Child-a.png",
+                "ID": "9B28AB17FEF50159DA81EE8ECCF74FA7",
+                "SourceID": "5475C89FE0F25916EFB6CAF910C94814E5F009D8",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "9013b0e8-850e-44cc-8369-db58bc4223f2",
+              "count": 1,
+              "front": {
+                "Name": "025 Stalking Goat Spawn-a.png",
+                "ID": "D3B0D5878090BA2E13D6134AFDA37A50",
+                "SourceID": "C2FED91E20239BF64A9965BD1A9D3B10A0C1BA25",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8daabbb9-7c37-4580-a02f-0ff98ea0d407",
+              "count": 1,
+              "front": {
+                "Name": "026 Stalking Goat Spawn-a.png",
+                "ID": "9C01BB32F165936BEA21682F545BD894",
+                "SourceID": "59511F23BDF2B82DD7D94981270BD7F99CE0C928",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "dc937233-1db7-4fe6-b486-673ea8d85c37",
+              "count": 1,
+              "front": {
+                "Name": "027 Consuming Madness-a.png",
+                "ID": "6249F7035CBA86398B05F2A2DCADA8BF",
+                "SourceID": "1B367FBAF6A406D13CC9C34370ED716457D83C57",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "bf42c737-b337-4ac0-b6ef-60052f70e56c",
+              "count": 1,
+              "front": {
+                "Name": "028 Consuming Madness-a.png",
+                "ID": "DE5ADB3158EADC97C50F40C0B28F2CCD",
+                "SourceID": "132C14A59FB3453CBEB72FBC323AD5E626FD599D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "dcd84e4e-f76a-4044-8f99-95df6be66de7",
+              "count": 1,
+              "front": {
+                "Name": "029 Curse of the Black Goat-a.png",
+                "ID": "C0910B96A5CFF07398199ED9063B9AFA",
+                "SourceID": "004C54D48CF7F5D3DF6438C0E0B36A1FBA7F8F5D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8deee28e-eb5d-4c18-9684-8a30954689ec",
+              "count": 1,
+              "front": {
+                "Name": "030 Curse of the Black Goat-a.png",
+                "ID": "A7B202FB30E65FF63885CF12E20E4D84",
+                "SourceID": "D893AB5EB40F6133933AF664A1CF13239976A03F",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "40f72dd1-d7b0-411f-89ee-35b5664ef9da",
+              "count": 1,
+              "front": {
+                "Name": "031 Hidden Cellar-a.png",
+                "ID": "C099BC009AF578DDD6C03D08F81D392D",
+                "SourceID": "5A8BF3878FE073C06D60BA11B835AF7308D8346D",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d51051f3-8587-4fcd-a5d9-93b14cea484d",
+              "count": 1,
+              "front": {
+                "Name": "032 Hidden Cellar-a.png",
+                "ID": "BF2F58EDA011FD2D6C4B877D8AF7853A",
+                "SourceID": "463F58E017DA9AD3BBEB750C497042B1AABD59AE",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "a1f9904c-2a46-44ff-a2ab-734ac28ff2b7",
+              "count": 1,
+              "front": {
+                "Name": "033 Mothers Call-a.png",
+                "ID": "1B1FB23F0AE55D58E89C22D2FCED57FC",
+                "SourceID": "E42767C75EC210FBFC0D6A3D1A18432F56FD9577",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "1e67b4a7-d417-431a-91ab-423151e7790a",
+              "count": 1,
+              "front": {
+                "Name": "034 Mothers Call-a.png",
+                "ID": "EDA67AB29D01CE3D3D9EEFA77B50DE22",
+                "SourceID": "A24E6660F3A30B8EB56E445E7E71FAFB56B89935",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "75f238f3-8e27-45e9-8c89-1e4bed315005",
+              "count": 1,
+              "front": {
+                "Name": "035 Overcome by Hunger-a.png",
+                "ID": "F1BB73DEC60F22E21F1CE333AC4ACB3A",
+                "SourceID": "6A4C0A517F6FC5DF332639EAFBBCB5E1DC23557A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "fa3870ca-3a29-4ba3-ba14-0b1ab9fb18bd",
+              "count": 1,
+              "front": {
+                "Name": "036 Overcome by Hunger-a.png",
+                "ID": "EDF97399BDD9804657D47DC92D16E909",
+                "SourceID": "A983F3A577A315845E6BD2CDDDD523E29D831DFA",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b7732db0-8b33-4f7f-8dbe-2e591cbcb152",
+              "count": 1,
+              "front": {
+                "Name": "037 Abigail-a.png",
+                "ID": "48DD64612AB7FAC9A132A93228F55020",
+                "SourceID": "2AA087CAF8C8195C2C597552D2FBAE08CF1A42C7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "037 Abigail-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8f912cd3-32d5-4f9d-a22d-19d3def5161d",
+              "count": 1,
+              "front": {
+                "Name": "038 Captain Miller-a.png",
+                "ID": "4F9AD40EB0153FC81330485DB5900B0C",
+                "SourceID": "0367DAF6D3AD3C5EFD5A9E5DA287265FD98AF1AA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "038 Captain Miller-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "dd254e8c-0c93-4653-ae9f-707fb3628485",
+              "count": 1,
+              "front": {
+                "Name": "039 Chompy-a.png",
+                "ID": "E8AE38B1ED02F30BF7FC77502EFBEB4D",
+                "SourceID": "6778A62064567F3E0F90B2837C9254517D1A3502",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "039 Chompy-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2efb79c9-e8e4-4980-bf81-299cc91dbeae",
+              "count": 1,
+              "front": {
+                "Name": "040 Jebedial Caldwell-a.png",
+                "ID": "005F0EA8FE7024B7BE4F3EAFB27F61B5",
+                "SourceID": "8B76B48199E0991B24EF80F48A9522DBFD73C43B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "040 Jebedial Caldwell-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "4c313708-5816-4379-bf04-380be85dcb6f",
+              "count": 1,
+              "front": {
+                "Name": "041 Simone Chevrolet-a.png",
+                "ID": "2F9E22904075905BF352D85AF8B06226",
+                "SourceID": "315C2850DDA421A017A84835E2CEEB4F1538EF29",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "041 Simone Chevrolet-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "10347a84-9140-447f-afe1-a2adefc70ed6",
+              "count": 1,
+              "front": {
+                "Name": "042 Abyssal Sword-a.png",
+                "ID": "EA40DCB0CC8179C7A9D2DB4A17CC55EF",
+                "SourceID": "B71E732F9983AEB59C66CBC90741B57228D182EB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "042 Abyssal Sword-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "45d6e0c3-00ea-4b9c-9bbc-f0889a6c2a75",
+              "count": 1,
+              "front": {
+                "Name": "043 Ammo Belt-a.png",
+                "ID": "974794A5173D61A2EF8AE2A0CE2FE51D",
+                "SourceID": "D94C9D58B6FC4B767738782271A713341EBAC544",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "043 Ammo Belt-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "3031a1fe-7074-4ffc-8a92-f9b0ecf5f295",
+              "count": 1,
+              "front": {
+                "Name": "044 Boarded Up-a.png",
+                "ID": "ECA855E702841ABE88FB053825661C82",
+                "SourceID": "6ED387BB1E2417FEC172A687E909D60FB6EB5CB0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "044 Boarded Up-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cb289a6c-598c-4ba1-9d8c-da9d8cc19db6",
+              "count": 1,
+              "front": {
+                "Name": "045 Boarded Up-a.png",
+                "ID": "283201B51C4FC3998F58B8424F0F5AB1",
+                "SourceID": "D8092B61C21C463A37AA26295FAFE72C4B162A68",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "045 Boarded Up-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "353e33a6-92dc-45e6-8a1a-9740a5150db6",
+              "count": 1,
+              "front": {
+                "Name": "046 Landmine-a.png",
+                "ID": "100332E01CDDAD95D0CACBE59A7D8703",
+                "SourceID": "6F52E3E0D1B84DF93DC0F6B68C6D8EB556377288",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "046 Landmine-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ad408042-3384-46d5-9752-40aabc10ee74",
+              "count": 1,
+              "front": {
+                "Name": "047 Pit Trap-a.png",
+                "ID": "B119140B4B844CE9D197A9BC763D638A",
+                "SourceID": "17CC8B620ECE41AECDA88140E1CDEEA02D15AB0D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "047 Pit Trap-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8507360f-8f07-4bd4-8d81-533881d5b49b",
+              "count": 1,
+              "front": {
+                "Name": "048 Pit Trap-a.png",
+                "ID": "5D6825F790B4BED1EEB274EFB756636E",
+                "SourceID": "9D090D2C833EE2AFAE2C7E9298601A5E1C5683EC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "048 Pit Trap-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "379b70a9-983b-49c6-a6f8-8461a53a60ef",
+              "count": 1,
+              "front": {
+                "Name": "049 Signal Flare-a.png",
+                "ID": "5A3AD150EEF492E197147131C669C72B",
+                "SourceID": "857C2AFFD5137838E405CD8AAC7B3DFA80E83B07",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "049 Signal Flare-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "49d6747b-d9d5-4e7f-b4f8-77377420ef1f",
+              "count": 1,
+              "front": {
+                "Name": "050 Spike Trap-a.png",
+                "ID": "4D2819474ECB5E2BD0523F47B40BB064",
+                "SourceID": "706C201FC9A2D1E243FC61FC3B0EE8DD3F40B3C4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "050 Spike Trap-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cb156826-8273-41c4-8185-81c3b6b30d40",
+              "count": 1,
+              "front": {
+                "Name": "051 Spike Trap-a.png",
+                "ID": "39E8BE83E704116BE484A2E16A525D69",
+                "SourceID": "87A9D1F17FF9B43E85BD0A472D1B771AF006169B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "051 Spike Trap-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f63754da-e346-48a6-93ba-bf1b9a90efd1",
+              "count": 1,
+              "front": {
+                "Name": "052 Stacked Furniture-a.png",
+                "ID": "8FEE3AB25005A956AB080A8DB2C16A60",
+                "SourceID": "BB4097C743A3209526D81B18DF2E8ED71EAE46C2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "052 Stacked Furniture-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "1d54870c-b8cb-4d0f-b869-9ea6e7a13d1b",
+              "count": 1,
+              "front": {
+                "Name": "053 Stacked Furniture-a.png",
+                "ID": "1F4A7DB0AF62051C386C9B0DF9E8800A",
+                "SourceID": "71E4B82693B4282068A16C7215AC47A2BA932C31",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "053 Stacked Furniture-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "fefbd440-1b4d-4773-bd19-25ea87ca23f5",
+              "count": 1,
+              "front": {
+                "Name": "054 Tripod-a.png",
+                "ID": "EBE6A89CBCED0450EF58EF2AFC73A951",
+                "SourceID": "C0567704C2874DFD2FE400E1E816E2F475B97278",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "054 Tripod-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "650e0d01-83e0-4400-9264-e93ac9ca4909",
+              "count": 1,
+              "front": {
+                "Name": "055 Vickers Machine Gun-a.png",
+                "ID": "D42E6EBCABE7C9075DBFADB8FA193B9A",
+                "SourceID": "E16410687DCA928C26190C25061B7C03D6B88698",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "055 Vickers Machine Gun-b.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "83816451-86c3-49a6-be1d-46029d85eeff",
+              "count": 1,
+              "front": {
+                "Name": "056 Ambushing Goat Spawn-a.png",
+                "ID": "4A46CE4160748037ECF903B78D2601FB",
+                "SourceID": "CF94A4967FC9C5692B4EE2DE28BC227137410CD1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cf779c07-0559-4aae-beea-23d56011f524",
+              "count": 1,
+              "front": {
+                "Name": "057 Ambushing Goat Spawn-a.png",
+                "ID": "9CAA290A0678E3F9B7BB26735A193128",
+                "SourceID": "62477395CD14F7D783DB3F51797ED30AEF7494D5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "bbca9c27-06c9-4efc-84f6-af2439013e46",
+              "count": 1,
+              "front": {
+                "Name": "058 Destructive Goat Spawn-a.png",
+                "ID": "E91CB8C585DDD5E0D497B6D67239A311",
+                "SourceID": "C21F374199D43F5011426A1ACD4F2641C108CFC3",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "7614a3ed-1330-4e53-a157-12a5b7a50629",
+              "count": 1,
+              "front": {
+                "Name": "059 Destructive Goat Spawn-a.png",
+                "ID": "DFE4C8E2B54269AF8E79363C76B6B7E8",
+                "SourceID": "E80C4E7B2F276480475881203D3885F0D28A4E94",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8ff791b5-cadf-41bb-9fad-3ee4e05a135c",
+              "count": 1,
+              "front": {
+                "Name": "060 Charging Goat Spawn-a.png",
+                "ID": "32465B2F88284A2545EA3DF2B540F483",
+                "SourceID": "CF790A3F1E113E9AAB6EDACCAEEC70B166C2CCB0",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "5a786283-52c4-4b66-aaf6-cbe2acb13a29",
+              "count": 1,
+              "front": {
+                "Name": "061 Charging Goat Spawn-a.png",
+                "ID": "82AD12DF22A687FC2224F8C700811B3C",
+                "SourceID": "9B54EC1BACBFC4B7F27BCFB322D43101E620F188",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ad221abf-1f03-41e5-87fe-aa90453f6228",
+              "count": 1,
+              "front": {
+                "Name": "062 Galloping Dark Young-a.png",
+                "ID": "C04BFD1B16C0774A18E5F5B1CC304A43",
+                "SourceID": "9AEB745E5E3F65F4E91AE6B43AAADA731F1DAF46",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ad097bc2-ca98-4814-9a86-f660c477bb62",
+              "count": 1,
+              "front": {
+                "Name": "063 Galloping Dark Young-a.png",
+                "ID": "4AAFE31602C052F70CE163FD339912C1",
+                "SourceID": "E348688C34E56AAC17B5E85CE9FC7679BF230BB7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "a4382b15-df17-4c9f-bf2f-334d6ddb6fea",
+              "count": 1,
+              "front": {
+                "Name": "064 Voracious Dark Young-a.png",
+                "ID": "91BFD40B6A28DC97CE8FA671095C5780",
+                "SourceID": "6FC04CF623EF9BFE43AFD5EEBD115607F1FAA468",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "1c991605-727b-46fd-8890-6e797b9d374c",
+              "count": 1,
+              "front": {
+                "Name": "065 Voracious Dark Young-a.png",
+                "ID": "15A510092D8A50060B292FCAEFF02DB0",
+                "SourceID": "CBA67B556530A945D9E879314237F1DCFC994DEC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b8906f5f-8e23-4aa6-93ab-320303a711d7",
+              "count": 1,
+              "front": {
+                "Name": "066 Gluttonous Dark Young-a.png",
+                "ID": "5B52DA7CDC93FB3CEFA2533050A19304",
+                "SourceID": "3DA600104F65C2AE6D0DAA068E9CC5BDCFE2C3FB",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b43ecde0-61b3-44df-8622-5bc6f7d339ba",
+              "count": 1,
+              "front": {
+                "Name": "067 Mothers Milk-a.png",
+                "ID": "9AA6057483C23C2AE6EBF53F442F8A7F",
+                "SourceID": "5526B68B8FDACC355560BD451EDDA8C4129C151A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "57ea7ef5-9927-43e7-9bee-962d83403723",
+              "count": 1,
+              "front": {
+                "Name": "068 Mothers Milk-a.png",
+                "ID": "AD57395C7C1F2533C770D3FD070DD6A0",
+                "SourceID": "BBEA52FEE736107B12AEBFBD046603BE21019AD1",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f1722a66-5d82-40b8-b184-50dfd217fa26",
+              "count": 1,
+              "front": {
+                "Name": "069 Swelling Polyps-a.png",
+                "ID": "C4822F14F6D3B8341EF100614264B55C",
+                "SourceID": "992E274B949FB5C6BD90DAE936CA8E85227C09B4",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "6b10d2ac-26d8-4b40-95f2-7dd25b899d44",
+              "count": 1,
+              "front": {
+                "Name": "070 Swelling Polyps-a.png",
+                "ID": "3974BC54E5283A5A9EA6E9F8DE171C4F",
+                "SourceID": "9EFD6F6767EEBC19C517AA210AA2DAEF78B62868",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "29389e41-9891-4186-9eff-bcb837147a32",
+              "count": 1,
+              "front": {
+                "Name": "071 Hidden Cache-a.png",
+                "ID": "F40358C39E0FBC266A073B3390FB41E9",
+                "SourceID": "991C968C94C73EF932DFA459CE681615EE4B948A",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "9e42456c-daf8-4ce0-aa0a-32bcbd177d60",
+              "count": 1,
+              "front": {
+                "Name": "072 Hidden Cache-a.png",
+                "ID": "FB9C64ED30D29FED9BC2586C6B43E984",
+                "SourceID": "0A0022BD5FEC013BE6D7B4A4373464103622E4AD",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2f5b389f-ffcb-4a12-8a9d-3b8802907bd3",
+              "count": 1,
+              "front": {
+                "Name": "073 Frenzied-a.png",
+                "ID": "22A699356FF737AB8795375CECC7A536",
+                "SourceID": "D3A9FDF7C2A752700CBE777B28084E5062B5220E",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f10cf915-5a00-429e-9355-3b59a729e633",
+              "count": 1,
+              "front": {
+                "Name": "074 Frenzied-a.png",
+                "ID": "794DE2B15208980C4F523FE087A3D998",
+                "SourceID": "FD77A7ECDBD55F058731EEC49615EAEBDE788856",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "E0A369C86EE8F0D0F6E6BF79CA5BDAFF",
+                "SourceID": "F475D00EB7E9CFC7E27D6A3C60C5CE849DB08F5E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2fdfc904-d96f-4e23-957a-9fe37cd3e653",
+              "count": 1,
+              "front": {
+                "Name": "075 Survivors-a.png",
+                "ID": "B4281EEF7E26E7A0D22B43E9E19460FD",
+                "SourceID": "B4F142CB22CE9BF83B760FD7C3C3AD7A87977819",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "075 Survivors-b.png",
+                "ID": "BAD14EB6C2C1D74A33D98AB5B218CD71",
+                "SourceID": "25B181E318745604347BB11CCA0BB8C44D949A31",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "e5706580-1354-4b72-956a-59e89f4f78f3",
+              "count": 1,
+              "front": {
+                "Name": "076 Survivors-a.png",
+                "ID": "B4281EEF7E26E7A0D22B43E9E19460FD",
+                "SourceID": "B4F142CB22CE9BF83B760FD7C3C3AD7A87977819",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "076 Survivors-b.png",
+                "ID": "C051B17CF549C7E9BC2C3DD37DC947D6",
+                "SourceID": "9622896D7896DD1B88E0B65EA8F1B2575EF7CCE0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "cc1f1174-8e9b-4c15-81b7-198a5462ce2b",
+              "count": 1,
+              "front": {
+                "Name": "077 Favored Child-a.png",
+                "ID": "E74628C754FF9E466B3267FE1427C78E",
+                "SourceID": "A9E57E14AE79576E03B73E452AD136E09BC60517",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "077 Favored Child-b.png",
+                "ID": "C0367D0E081B53398BB6D5DE423F1205",
+                "SourceID": "10D8CB246FA5C76AB2351A7CCF02798A0A76D5C7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "47b13997-eea9-401a-b0d3-8dcb9f8b54a6",
+              "count": 1,
+              "front": {
+                "Name": "078 The Putrid Scar-a.png",
+                "ID": "0C2003570F37B5FE9C3E55DA16A54B2F",
+                "SourceID": "86B805731C230C58B95C1CE8D31826355303B53E",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "078 The Putrid Scar-b.png",
+                "ID": "7089F9B1C05C30EF229379A62174AB02",
+                "SourceID": "12E9F37EBD52B2C0F328330B56F9210F689167EE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "1d3f83a9-1169-46dc-a072-6d15614e6a06",
+              "count": 1,
+              "front": {
+                "Name": "079 The God of Hunger-a.png",
+                "ID": "29933C09183A8FBF9C7FE137A15EDA43",
+                "SourceID": "B96159B2808F883E97DC12083E2395E8259B3584",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "079 The God of Hunger-b.png",
+                "ID": "8AEF3B0BE73CC3AF0B184F1B6495FE74",
+                "SourceID": "A129C7C906DE20C5911DAFA45793C38B15A19D14",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "aece86a8-065b-43d2-b843-01d22ea8cbaa",
+              "count": 1,
+              "front": {
+                "Name": "080 The Pestilent Father-a.png",
+                "ID": "B0CDE18009921AB5996AA17901368A7F",
+                "SourceID": "CE21102E1E90EA3631E54DDEC02380F64D521CAE",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "080 The Pestilent Father-b.png",
+                "ID": "1092E7F0F573B5E6C9DFF499E775568A",
+                "SourceID": "54E7905E96D43ACF5E84ACD67B32F4681B6A71CD",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "1e3700b5-38a3-440a-86f4-b85dd0668471",
+              "count": 1,
+              "front": {
+                "Name": "081 The Unholy Nursery-a.png",
+                "ID": "5BBBC50AEFFEE3824F64CCA407B87833",
+                "SourceID": "66C08742CF37ABFE72F662798894A88A4C3E77D1",
+                "Exp": "png",
+                "Width": 1650,
+                "Height": 2250
+              },
+              "back": {
+                "Name": "081 The Unholy Nursery-b.png",
+                "ID": "C4944CCD31150CA5ABEB477BA69261BA",
+                "SourceID": "20A693D955647ECC5A4932EE61DF693D37C4A9AE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
+    }
+  ],
+  "created": "2024-10-09T014:50:26.695Z",
+  "updated": "2024-10-11T21:43:40.213Z",
+  "hash": ""
+}
