@@ -8,7 +8,7 @@
   "artist": "Jake Murray",
   "info": "Requires the customizable player cards from The Scarlet Keys Investigator Expansion. By default FFG provides three copies of each card, so make sure to customize for the quantity you want.",
   "website": null,
-  "cardsLink": "https://images-cdn.fantasyflightgames.com/filer_public/b4/4c/b44c34e7-e9f1-4752-844d-1acffc4b770a/ahc69_upgrades_v5.pdf.",
+  "cardsLink": "https://images-cdn.fantasyflightgames.com/filer_public/b4/4c/b44c34e7-e9f1-4752-844d-1acffc4b770a/ahc69_upgrades_v5.pdf",
   "scenarioCount": 0,
   "investigatorCount": 0,
   "authors": [
@@ -401,7 +401,7 @@
       ]
     }
   ],
-  "created": "2022-04-12T04:45:26.693Z",
+  "created": "2022-09-30T04:45:26.693Z",
   "updated": "2024-10-12T12:53:33.088Z",
   "hash": "41f59c2cf00629d644ba45327525d7f7c2b58e3d0bd7e6cff7a0f94e30366cd9"
 }
