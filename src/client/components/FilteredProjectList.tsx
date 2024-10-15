@@ -33,12 +33,21 @@ Array.prototype.distinct = function <T>(): Array<T> {
 
 const sortByLabel = (a: CheckboxState, b: CheckboxState) => a.label == b.label ? 0 : a.label > b.label ? 1 : -1
 
-const removeArticle = (value: string) => {
-  const [article, ...rest] = value.split(' ')
-  if (rest.length == 0) return value
+const removePunctuation = (value: string) => {
+  const firstChar = value.charAt(0)
+  const leadingPunct = ['“', '‘', '¿', '¡', '«', '„', '‚', '»', '”', '’', '«', '…']
+  const rest = value.substring(1)
+  if (leadingPunct.indexOf(firstChar) > -1) return rest
 
+  return value
+}
+
+const removeArticle = (value: string) => {
+  value = removePunctuation(value)
+  const [article, ...rest] = value.split(' ')
   const articleL = article.toLowerCase()
-  if (articleL == 'a' || articleL == 'the' || articleL == 'an') return rest.join(' ')
+  if (articleL == 'a' || articleL == 'the' || articleL == 'an' || articleL == 'der' || articleL == 'das' || articleL == 'die') return rest.join(' ')
+  // @TODO split this up by language
 
   return value
 }
