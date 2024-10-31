@@ -9,7 +9,8 @@
     "45D09C0B5D027DE04A06FE17A5C35DEFC14BCB8C883CE2FD9BECFD25DAFA55E3C4B6DC56D5A49A5E": "Mix & Match Jenny",
     "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs",
     "FDBBE6C4C82D4EF26B43C71CFC64D1FA68BA5B6BA8359E902614DAC9D772A6EF9E790A8F7CB9CA06": "Dunwich errata with ‘other’",
-    "538AB1B81E3E32FF12C022D809FCB7B0607F760993A84FBFE7B6C15233CDEB7F59CB53513A398584": "Mix & Match footer fixes"
+    "538AB1B81E3E32FF12C022D809FCB7B0607F760993A84FBFE7B6C15233CDEB7F59CB53513A398584": "Mix & Match footer fixes",
+    "chk_A4791C56809494E7C58376280CB0C2FCDB86E1605AEE7149EE21053FBE52456745F1AF82D58E8945": "Mix & Match Mateo"
   },
   "name": "Parallel Mix & Match",
   "description": "Every completionist’s PnP dream! Pair each parallel investigator front with the original back, and each original front with its parallel back. Because we wouldn’t want you to have to slide two different cards into a single sleeve.",
@@ -18,7 +19,7 @@
   "website": null,
   "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
   "scenarioCount": 0,
-  "investigatorCount": 10,
+  "investigatorCount": 12,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -330,6 +331,52 @@
                 "Name": "084 Jenny Barnes std front || back-2.png",
                 "ID": "3C84A54FF736E8F3BF9FF7711946DF09",
                 "SourceID": "22E97BA905867A1A2E7050631F6BAF5EFC14DAE9",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Mateo Mix & Match",
+          "cards": [
+            {
+              "id": "2b7b7259-a68b-4b5c-a769-6486828dfafb",
+              "count": 1,
+              "front": {
+                "Name": "081 Father Mateo || front std back-1.png",
+                "ID": "A7B6695DB5E22E952D51FF276A03A0F1",
+                "SourceID": "F400C31C225A141B99EB5BBCAACBBDBBBE2BF537",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "081 Father Mateo || front std back-2.png",
+                "ID": "057A1776631EC784F6CD59595E3ABEA2",
+                "SourceID": "415BCAE117A867052FA6682563084829072CDA7D",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "162c8ee7-c3c8-4b76-8496-4bf4d680400b",
+              "count": 1,
+              "front": {
+                "Name": "081 Father Mateo std front || back-1.png",
+                "ID": "BC973D8C4CD3222570968A3D1CA0FF1E",
+                "SourceID": "5FB782EB373D26AAD8B5DBCA4AA08FD7F13F96C7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "081 Father Mateo std front || back-2.png",
+                "ID": "2290C025F56F165CA566C4BC66653504",
+                "SourceID": "845972F1F4C4DFC5D442B64FDC1870D0CA17B110",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -785,6 +832,6 @@
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-03T22:28:30.333Z",
+  "updated": "2024-10-31T12:10:30.333Z",
   "hash": "7dcb7dc40e70218598d7051bb85a85d26c659d1bce9273c793afabc802b897f0"
 }

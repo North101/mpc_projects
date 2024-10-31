@@ -16,16 +16,17 @@
     "58DB54BA3AAD9C0B26FE2AAB7BAD2130E7E70B47EE91CCF991F0D863AAB5909BACCAA9814516FF9F": "Parallel Jenny v1",
     "557F1300B6F2710C13F7913A583B86AB1A4ADADC973D1D7907BBBCBF3FB91941ABF11EC3913B151C": "Parallel Jenny best",
     "43D1D59EF62CA76B8E1186F8C4E69EBC31D6AA4B91430E445ED0D773F752955E4B375CFF8843FFF3": "Clover Club Bouncers",
-    "DDAB167B800786402BF83002352ADFE5855025B6D4B808E681BCE6A123B71A6321B48242F6F25F03": "Jennymini"
+    "DDAB167B800786402BF83002352ADFE5855025B6D4B808E681BCE6A123B71A6321B48242F6F25F03": "Jennymini",
+    "C26034DBAFF4FA632F3D0A57B6B291918E49D8DE4EB7E7FD32B62F08DFE0931DBE788F4016E7CB91": "Parallel Mateo"
   },
   "name": "Parallel Investigators",
   "description": "Enter an alternate dimension with FFG’s parallel versions of Arkham investigators, some with special challenge scenarios!",
-  "artist": "Falk Haensel",
+  "artist": "Magali Villeneuve",
   "info": "Note that Parallel Mix & Match is a separate project, so check it out if you want all the possible front/back combos.",
   "website": "https://www.fantasyflightgames.com/en/news/2020/5/5/beyond-our-dimension/",
   "cardsLink": "https://drive.google.com/drive/folders/1TmniKONBPpFztFcgtW4nFIOYw2QcHR2B?usp=drive_link",
   "scenarioCount": 7,
-  "investigatorCount": 11,
+  "investigatorCount": 12,
   "authors": [
     "Fantasy Flight Games"
   ],
@@ -40,6 +41,77 @@
     "Official"
   ],
   "options": [
+    {
+      "name": "Parallel Father Mateo, 2024-10",
+      "parts": [
+        {
+          "name": "Parallel Mateo",
+          "cards": [
+            {
+              "id": "c0171a79-fbec-4a01-8de3-29d7404b2bac",
+              "count": 1,
+              "front": {
+                "Name": "081 || Father Mateo-1.png",
+                "ID": "A7B6695DB5E22E952D51FF276A03A0F1",
+                "SourceID": "F400C31C225A141B99EB5BBCAACBBDBBBE2BF537",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "081 || Father Mateo-2.png",
+                "ID": "2290C025F56F165CA566C4BC66653504",
+                "SourceID": "845972F1F4C4DFC5D442B64FDC1870D0CA17B110",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "162b9ea9-5ced-4199-829c-9faf881d7d91",
+              "count": 1,
+              "front": {
+                "Name": "082 Codex of Ages-1.png",
+                "ID": "D8BA9B6E0ED0833F04C0818DF1103163",
+                "SourceID": "825317431AEFB9AC930A8D03DCCEAA025064A7D4",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f7dd5642-7ff5-44a2-847c-890d2766a1fa",
+              "count": 1,
+              "front": {
+                "Name": "083 Serpents of Yig-1.png",
+                "ID": "60ECC388368A7C9C4EA441F989F87215",
+                "SourceID": "8CAC0E6122C1645AAA7A1735402AA807FAC349E0",
+                "Exp": "png",
+                "Width": 824,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
+    },
     {
       "name": "Parallel Jenny Barnes, 2024-08",
       "parts": [
@@ -2392,6 +2464,6 @@
     }
   ],
   "created": "2020-05-05T04:45:26.681Z",
-  "updated": "2024-08-31T09:08:30.334Z",
+  "updated": "2024-10-31T11:56:30.334Z",
   "hash": "a14159abbdb5d5c098bdb878d5597ae5d0ca0da8162b6d7850f7d4634cc78436"
 }
