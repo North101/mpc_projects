@@ -1,7 +1,9 @@
 {
   "version": 5,
   "projectIds": {
-    "FAAB4C9C63D0CFF93FE7D7993D77169E3AA88F58C5AB9690F4A838593383C8819B422647D0A353F8": "Bloodborne — City of the Unseen"
+    "FAAB4C9C63D0CFF93FE7D7993D77169E3AA88F58C5AB9690F4A838593383C8819B422647D0A353F8": "Bloodborne — City of the Unseen",
+    "F191FF08403C0C68BDDEC5A83360A898DDEFF60370EB71DE7C0424AF8336076B4D0ED16D5BCD645D": "Bloodborne hotfix 2024-11-10",
+    "6ABCD6201CC1A12A6F39B1810BABD8622D92F00AB231073E9111632DF9E549AFF8627108000D2AAF": "Bloodborne hotfix 2024-11-17"
   },
   "name": "Bloodborne — City of the Unseen",
   "description": "Arkham is mysteriously transformed into the city of Yharnam while you have fallen ill with a mysterious sleeping sickness. Discover what has happened to your world in this 8-part campaign inspired by the Bloodborne video game.",
@@ -1131,12 +1133,12 @@
               }
             },
             {
-              "id": "66e6480e-5e90-4105-8e59-dd0d1aed4706",
+              "id": "7b55101c-c536-4401-8824-3f4124a0374c",
               "count": 2,
               "front": {
                 "Name": "056-Beast-Possessed Soul-x2-1.png",
-                "ID": "83B5F34B6259CD835ADB543C4248921C",
-                "SourceID": "142D64D3BA3572BC0C1414092D92DBAED44461C4",
+                "ID": "A998063C206B5D663089904E81C3868E",
+                "SourceID": "8574095B773BDD1872CC150C7C08D4DE4840C503",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -1211,12 +1213,12 @@
               }
             },
             {
-              "id": "4418dce3-4d20-4a8e-987a-643bb5cfe6d4",
+              "id": "4185fc67-ba07-41a1-b179-da93ae863343",
               "count": 2,
               "front": {
                 "Name": "060-Enraged Zealots-x2-1.png",
-                "ID": "7D0775E88D7303424A78D7C78C4F752C",
-                "SourceID": "5E8159B38432BA1BA013581A5465E88FD2F01B3A",
+                "ID": "AA16D7F2EFA6F81C144E063AD4890780",
+                "SourceID": "F80951BAE7DB601ADA922325E9B14928E3892615",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -1231,12 +1233,12 @@
               }
             },
             {
-              "id": "5b22d076-9c3b-4dea-a643-918b25a5610e",
+              "id": "28e77046-4500-42c5-844f-c5e3c852ea9c",
               "count": 2,
               "front": {
                 "Name": "061-Choir Intelligence-x2-1.png",
-                "ID": "F27D058B4E85BAA5247C0ECC1B4E09C3",
-                "SourceID": "8D55A05AAB3858BE469A3C62FE63D1029FC4A501",
+                "ID": "95FBF19BC66F929EE086B4A430C1B544",
+                "SourceID": "A803FE57423F0121E3E3A8A98C662C227F2A5E3B",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -3671,12 +3673,12 @@
               }
             },
             {
-              "id": "e51de3f0-982c-42a6-8594-df63a98770e4",
+              "id": "9caa3227-038a-4285-8a0e-26a3312345bd",
               "count": 1,
               "front": {
                 "Name": "183-Micolash Ceverny-1.png",
-                "ID": "7140E769DC9BE357099710D7A86330A1",
-                "SourceID": "40485FFBE3BD1D6DCFC0D1A416E3BE951491D4E7",
+                "ID": "0C285F52B7079A5A63611A5E58022CF1",
+                "SourceID": "2D0A61D798341EFB84C6A3DF100DD9C5F36FB322",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -3711,12 +3713,12 @@
               }
             },
             {
-              "id": "4fc543e5-850f-4e14-b111-69099b4a9c77",
+              "id": "b005dff0-66ce-4dca-a9a6-c239ccbc6fc5",
               "count": 2,
               "front": {
                 "Name": "185-Mensis Puppet-x2-1.png",
-                "ID": "4181BB7A1936071177D03B9B5B0385A1",
-                "SourceID": "53A5E10D8D41A69E19FE01BEC0980F23A6E29279",
+                "ID": "C344392C36FB4A5C7125E07F7C4B9768",
+                "SourceID": "5FA5A096F380414C1A672A1B5EF2F193DEBAA396",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -5871,12 +5873,12 @@
               }
             },
             {
-              "id": "ab2b33f2-8100-4163-9595-45d489bede9c",
+              "id": "0e83e150-9205-4b0b-8e52-a722ed827812",
               "count": 1,
               "front": {
                 "Name": "293-Cimmerian Elder-1.png",
-                "ID": "7C4161EE871B6A7679FE9B63D5A1108D",
-                "SourceID": "7350B783780E463BB40FA17BC54090255BCFA496",
+                "ID": "D16CB67FC105AD30681B923D511E262A",
+                "SourceID": "52D0565C055454B6A6BF897E0DC54091FA453F33",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -6131,12 +6133,12 @@
               }
             },
             {
-              "id": "0795bb39-60d8-40b8-9310-e0435f969d58",
+              "id": "2a907576-fc26-48ad-8381-363f7ddcbc23",
               "count": 2,
               "front": {
                 "Name": "306-Celestial Longing-x2-1.png",
-                "ID": "2FC1BB86CDE4A3777EDF2F552CE4E36C",
-                "SourceID": "0EFF45FAC7C0B5E7D65D6668787B7788E392CE27",
+                "ID": "4F1949F01FD8F8A11F72BB7E82ED4F4E",
+                "SourceID": "1CD8FD31694152F2B6182675E221FD7FE2583C12",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -6151,12 +6153,12 @@
               }
             },
             {
-              "id": "740b88a2-50fe-45c0-af05-89ddc0f796a3",
+              "id": "2dae8554-230d-44af-9cd0-63b1ab27935b",
               "count": 1,
               "front": {
                 "Name": "307-Conductor of the Choir-1.png",
-                "ID": "F80BEDB66866F172D87A90D0031ACAD3",
-                "SourceID": "E1412C7ED0AD68AF3D8F1D3024FCFA7AF505621D",
+                "ID": "A979FE049CC9FF2159B887F097AC63D8",
+                "SourceID": "F4C63D5C101F79358D21CD17AE72F3F62D823C9A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -6171,12 +6173,12 @@
               }
             },
             {
-              "id": "e011ad4d-bfaa-4136-a349-03ec64cc93d7",
+              "id": "39b1a358-2d55-449e-9fd1-278639a8dd29",
               "count": 4,
               "front": {
                 "Name": "308-Sidereal Flux-x4-1.png",
-                "ID": "398F14121E007329B89B61572AF83D91",
-                "SourceID": "C7A24F8C0BED3D5A367800BB2C72169DACCB4C28",
+                "ID": "D0D8D9751167ADC88B5624243062C077",
+                "SourceID": "2EF81FD9BBE0705DEF648FFEB6BCFB72D4DA6EB4",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -6191,12 +6193,12 @@
               }
             },
             {
-              "id": "bbe254aa-3411-45f9-8063-4b35490de905",
+              "id": "526f2acc-e6c6-4235-96d7-ab24ab018cc2",
               "count": 2,
               "front": {
                 "Name": "309-Lumenwood Covenant-x2-1.png",
-                "ID": "EEA15FFF089001267D6971CF3D966A8C",
-                "SourceID": "58EAB8BDC75EAD2AA8EC57225E8AA44C06D885E0",
+                "ID": "618C8B7195260E8491B060DB256411E8",
+                "SourceID": "811395459819C7D63208AF38A49DBC9940F8D9FF",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7871,12 +7873,12 @@
               }
             },
             {
-              "id": "18f5b360-5352-4c3c-afe7-e613556cbf65",
+              "id": "b3e40a5b-12cf-44a8-89a2-fb796eb8e76b",
               "count": 3,
               "front": {
                 "Name": "393-Brain Rot-x3-1.png",
-                "ID": "2EBA63E15EB226F470C846D7B458D238",
-                "SourceID": "948B35FCD6EDD1D83F4ED5B085B4EB6E1C80FD78",
+                "ID": "B6FA0B893FCB6489225AE86866116CA9",
+                "SourceID": "A6747ED37E468E1CC3A3DF84C0F750EA277F8473",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7891,12 +7893,12 @@
               }
             },
             {
-              "id": "4897cade-b26d-422a-9ee1-73d9d2fac05d",
+              "id": "3123a5ee-387f-43f9-993c-5566b1e5648f",
               "count": 1,
               "front": {
                 "Name": "394-Choir Assassin Brador-1.png",
-                "ID": "41032F61112D28A2DB5A2D9913592E0E",
-                "SourceID": "0870902559617049223EB8356755B99578C43DD6",
+                "ID": "F02EDA242B7B45FFCAE6F2836063B740",
+                "SourceID": "B55F4A67FA332BDED21482DEA367B865A4B6D47A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7911,12 +7913,12 @@
               }
             },
             {
-              "id": "308ab78e-5034-4a34-8a4f-4e2babd03ea3",
+              "id": "3b18d3d7-70c8-4af4-962d-2c88117c6473",
               "count": 1,
               "front": {
                 "Name": "395-The Brain of Mensis-1.png",
-                "ID": "F381B7C7574E36DB1A99957C4686E662",
-                "SourceID": "3467A164348E24C5C73221605DEDC232C3EBCF3C",
+                "ID": "CD1E397127C9F903161B50AEB10B2D6A",
+                "SourceID": "62104047F4B8229B794AD19E74473BB6AFA8DA96",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7931,12 +7933,12 @@
               }
             },
             {
-              "id": "4718a85f-8e85-4882-9b89-4075a3f1b3fc",
+              "id": "943c2626-21fc-4d3d-887a-31381088d68f",
               "count": 1,
               "front": {
                 "Name": "396-Abhorrent Beast-1.png",
-                "ID": "9BDD61B1664178FAD5A6CB7ABB5DD61C",
-                "SourceID": "2DA8493A0106421FD64735FCC88AC096560C1E9B",
+                "ID": "60A506EA85FC045F1F573AD459F5A6CC",
+                "SourceID": "FB236D8E862602B9BF2D9AEF0E2E83E518EFD1B2",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7951,12 +7953,12 @@
               }
             },
             {
-              "id": "2f62367f-80a4-48d0-8b3a-7585be60612a",
+              "id": "ac072330-165e-47ac-b6cd-cd98466c6c3b",
               "count": 1,
               "front": {
                 "Name": "397-Blood-Starved Beast-1.png",
-                "ID": "016464E4834F9B6622FC058EA32AC39A",
-                "SourceID": "57E736945DA853CF9CC9E72D97301360F0B3C81A",
+                "ID": "35836EB48F80537C1B6393D23E623EA1",
+                "SourceID": "AA27D17471325F2D91AFB0921F3FA02935F37108",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7971,12 +7973,12 @@
               }
             },
             {
-              "id": "6486e972-4ead-4dae-b063-1d25d48b7860",
+              "id": "eeab20ca-50e5-41b8-a730-1489a8dacf57",
               "count": 1,
               "front": {
                 "Name": "398-Darkbeast Paarl-1.png",
-                "ID": "20E3D7FC09A0C5B86561582A889595A9",
-                "SourceID": "A73C296C08E1240A379DAA6C1A47DA2463CDC4F3",
+                "ID": "2DF9E37834B6C30F707D87C31B70E056",
+                "SourceID": "457F6763FE5C8CB004873A2F65F7161EDBEB432C",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -7991,12 +7993,12 @@
               }
             },
             {
-              "id": "6774ea08-8d26-4968-b23e-1b2686c5abf7",
+              "id": "c925f3dc-cb25-4871-9aa5-65feaa103143",
               "count": 1,
               "front": {
                 "Name": "399-The One Reborn-1.png",
-                "ID": "41BE153B488BEF8E9DCF890E1A4846DD",
-                "SourceID": "258C2C2382F449F87A28939278F1CB45209305E0",
+                "ID": "807B4A7CA96196491E5DBEA889E08BB7",
+                "SourceID": "C920A452403EEC66675C038113459E92E00C4074",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8011,12 +8013,12 @@
               }
             },
             {
-              "id": "f710234f-ae5f-42fd-b25d-adb9315bc309",
+              "id": "c09acb94-6992-4229-b94e-a11ee89422be",
               "count": 1,
               "front": {
                 "Name": "400-Greater Amygdala-1.png",
-                "ID": "93645EAADF32859CA8356A37BDAD587A",
-                "SourceID": "16DB85CF6096CB436FEE8F4914BC658F0AAA31C3",
+                "ID": "AF90D54FF012A0CEB497E52386DEF7C8",
+                "SourceID": "47AC69103226EBE709FFB4649C574C02C7FBE6D1",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8031,12 +8033,12 @@
               }
             },
             {
-              "id": "b2a5b67a-781e-41e8-b4cc-24f5b2620b3f",
+              "id": "82beb2dc-1f90-44aa-b7e3-1b3b4cb4e403",
               "count": 1,
               "front": {
                 "Name": "401-Laurence the First Vicar-1.png",
-                "ID": "93E4ADED24502FB15740E10581CA2ED4",
-                "SourceID": "C502C3D60AE82FF40F88ECB36351653E2244CF54",
+                "ID": "78B08B0F758DA4CDDA691468322F4685",
+                "SourceID": "1681F5B3FAF68A71F68344C97423FDDA3A57BF97",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8051,12 +8053,12 @@
               }
             },
             {
-              "id": "7997bc06-d95b-4f57-865c-5ec514bad5b1",
+              "id": "e88fd715-9b40-4ed6-9afb-85de79fed49b",
               "count": 1,
               "front": {
                 "Name": "402-Ludwig the Accursed-1.png",
-                "ID": "65607028813E7329F56928F90A4F1064",
-                "SourceID": "09A2014A665BC6F46FFA8D1DB8A36F8D26BD9F33",
+                "ID": "DDB12BF636AA7F77BB44C806FFF4EAB6",
+                "SourceID": "B8FC963D2D2395DBBC86E32E9AF92B275F4E8EDF",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8071,12 +8073,12 @@
               }
             },
             {
-              "id": "ad55f638-efaf-4a34-a9f1-f06108f3a3e0",
+              "id": "c89ba365-e879-4c87-acc8-c3f9894ad5a1",
               "count": 1,
               "front": {
                 "Name": "403-Yharnam-1.png",
-                "ID": "21B377696314220BDE628EF624029E0E",
-                "SourceID": "98B46CB842E39991F168A345E31DE6349888CFB1",
+                "ID": "1DAA221F499A0C563931C659B7456D2C",
+                "SourceID": "A837833E8CCB7E20B40064B751B7BC79987FFE1A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8091,12 +8093,12 @@
               }
             },
             {
-              "id": "b00897c3-cf8a-488c-839e-27d8c71d423d",
+              "id": "632042f7-9d79-45d4-8af8-a7d4f1c0c0a8",
               "count": 1,
               "front": {
                 "Name": "404-A Hunter Must Hunt-1.png",
-                "ID": "2245FC54FA2F0BB92188175C1D33A8FD",
-                "SourceID": "6183FAEA323771270708C000687D5317B2A95765",
+                "ID": "E98E16415C208B10D56DE2F5D76A6544",
+                "SourceID": "34107C83BBCE033384B07396E55B9BDC832BAD59",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8111,12 +8113,12 @@
               }
             },
             {
-              "id": "9c1b25f8-06ce-4561-ad6f-259564dea7cf",
+              "id": "5fef0c4a-69ab-4c68-a13a-fe97b15fdc5e",
               "count": 2,
               "front": {
                 "Name": "405-Flora of the Moon-x2-1.png",
-                "ID": "6482F913338707661F3DE158517AECBC",
-                "SourceID": "3CD86F4EF9A4FC16C3BBEC68206BF6751344C802",
+                "ID": "86BB9150358224BB3BBEEC0522A43A06",
+                "SourceID": "664EF786F34A87E6A37DE06D2E912159766B46B4",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -8131,12 +8133,12 @@
               }
             },
             {
-              "id": "960defe7-2cc2-48e8-b021-8834099e956a",
+              "id": "8f2dd771-e852-47a4-8467-ad92145d775a",
               "count": 1,
               "front": {
                 "Name": "406-Guiding Moonlight-1.png",
-                "ID": "032BF343589BDA23127F5925D54D7F4F",
-                "SourceID": "09A06FB22CAB5E3ADA1BBE5FA51B28D74BC29721",
+                "ID": "18C1ACC0E5041162EC22E5A168C44678",
+                "SourceID": "D446363C6BBBD43D0AF3C4C243A59CB2F0E03300",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9449,19 +9451,158 @@
       ]
     },
     {
-      "name": "Fixes if printed before 10 Nov 2024 (see changelog)",
+      "name": "Errata if printed before 18 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "code": "C380050185D1C1AF",
+          "name": "Patrol Enemies missing Patrol keyword",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "7b55101c-c536-4401-8824-3f4124a0374c",
+              "count": 2,
+              "front": {
+                "Name": "056-Beast-Possessed Soul-x2-1.png",
+                "ID": "A998063C206B5D663089904E81C3868E",
+                "SourceID": "8574095B773BDD1872CC150C7C08D4DE4840C503",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "4185fc67-ba07-41a1-b179-da93ae863343",
+              "count": 2,
+              "front": {
+                "Name": "060-Enraged Zealots-x2-1.png",
+                "ID": "AA16D7F2EFA6F81C144E063AD4890780",
+                "SourceID": "F80951BAE7DB601ADA922325E9B14928E3892615",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "28e77046-4500-42c5-844f-c5e3c852ea9c",
+              "count": 2,
+              "front": {
+                "Name": "061-Choir Intelligence-x2-1.png",
+                "ID": "95FBF19BC66F929EE086B4A430C1B544",
+                "SourceID": "A803FE57423F0121E3E3A8A98C662C227F2A5E3B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "0e83e150-9205-4b0b-8e52-a722ed827812",
+              "count": 1,
+              "front": {
+                "Name": "293-Cimmerian Elder-1.png",
+                "ID": "D16CB67FC105AD30681B923D511E262A",
+                "SourceID": "52D0565C055454B6A6BF897E0DC54091FA453F33",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
+        },
+        {
+          "code": "C380050185D1C1AF",
+          "name": "Patrol Enemies with incorrect Patrol templating",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "9caa3227-038a-4285-8a0e-26a3312345bd",
+              "count": 1,
+              "front": {
+                "Name": "183-Micolash Ceverny-1.png",
+                "ID": "0C285F52B7079A5A63611A5E58022CF1",
+                "SourceID": "2D0A61D798341EFB84C6A3DF100DD9C5F36FB322",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "183-Micolash Ceverny-2.png",
+                "ID": "898EB1D7944AAB15050348D24A40CFCE",
+                "SourceID": "301401667701DA1296D626F650C4830E4362AB83",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "b005dff0-66ce-4dca-a9a6-c239ccbc6fc5",
+              "count": 2,
+              "front": {
+                "Name": "185-Mensis Puppet-x2-1.png",
+                "ID": "C344392C36FB4A5C7125E07F7C4B9768",
+                "SourceID": "5FA5A096F380414C1A672A1B5EF2F193DEBAA396",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "B94D5857DFE52875842F398D978ADCE0",
+                "SourceID": "DC874CC7730BC2F4B0F3C4EECAFD6AD6155DC610",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Errata if printed before 10 Nov 2024 (see changelog)",
       "parts": [
         {
           "name": "Agents of Ebrietas encounter set",
           "enabled": false,
           "cards": [
             {
-              "id": "0795bb39-60d8-40b8-9310-e0435f969d58",
+              "id": "2a907576-fc26-48ad-8381-363f7ddcbc23",
               "count": 2,
               "front": {
                 "Name": "306-Celestial Longing-x2-1.png",
-                "ID": "2FC1BB86CDE4A3777EDF2F552CE4E36C",
-                "SourceID": "0EFF45FAC7C0B5E7D65D6668787B7788E392CE27",
+                "ID": "4F1949F01FD8F8A11F72BB7E82ED4F4E",
+                "SourceID": "1CD8FD31694152F2B6182675E221FD7FE2583C12",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9476,12 +9617,12 @@
               }
             },
             {
-              "id": "740b88a2-50fe-45c0-af05-89ddc0f796a3",
+              "id": "2dae8554-230d-44af-9cd0-63b1ab27935b",
               "count": 1,
               "front": {
                 "Name": "307-Conductor of the Choir-1.png",
-                "ID": "F80BEDB66866F172D87A90D0031ACAD3",
-                "SourceID": "E1412C7ED0AD68AF3D8F1D3024FCFA7AF505621D",
+                "ID": "A979FE049CC9FF2159B887F097AC63D8",
+                "SourceID": "F4C63D5C101F79358D21CD17AE72F3F62D823C9A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9496,12 +9637,12 @@
               }
             },
             {
-              "id": "e011ad4d-bfaa-4136-a349-03ec64cc93d7",
+              "id": "39b1a358-2d55-449e-9fd1-278639a8dd29",
               "count": 4,
               "front": {
                 "Name": "308-Sidereal Flux-x4-1.png",
-                "ID": "398F14121E007329B89B61572AF83D91",
-                "SourceID": "C7A24F8C0BED3D5A367800BB2C72169DACCB4C28",
+                "ID": "D0D8D9751167ADC88B5624243062C077",
+                "SourceID": "2EF81FD9BBE0705DEF648FFEB6BCFB72D4DA6EB4",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9516,12 +9657,12 @@
               }
             },
             {
-              "id": "bbe254aa-3411-45f9-8063-4b35490de905",
+              "id": "526f2acc-e6c6-4235-96d7-ab24ab018cc2",
               "count": 2,
               "front": {
                 "Name": "309-Lumenwood Covenant-x2-1.png",
-                "ID": "EEA15FFF089001267D6971CF3D966A8C",
-                "SourceID": "58EAB8BDC75EAD2AA8EC57225E8AA44C06D885E0",
+                "ID": "618C8B7195260E8491B060DB256411E8",
+                "SourceID": "811395459819C7D63208AF38A49DBC9940F8D9FF",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9543,12 +9684,12 @@
           "enabled": false,
           "cards": [
             {
-              "id": "18f5b360-5352-4c3c-afe7-e613556cbf65",
+              "id": "b3e40a5b-12cf-44a8-89a2-fb796eb8e76b",
               "count": 3,
               "front": {
                 "Name": "393-Brain Rot-x3-1.png",
-                "ID": "2EBA63E15EB226F470C846D7B458D238",
-                "SourceID": "948B35FCD6EDD1D83F4ED5B085B4EB6E1C80FD78",
+                "ID": "B6FA0B893FCB6489225AE86866116CA9",
+                "SourceID": "A6747ED37E468E1CC3A3DF84C0F750EA277F8473",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9563,12 +9704,12 @@
               }
             },
             {
-              "id": "4897cade-b26d-422a-9ee1-73d9d2fac05d",
+              "id": "3123a5ee-387f-43f9-993c-5566b1e5648f",
               "count": 1,
               "front": {
                 "Name": "394-Choir Assassin Brador-1.png",
-                "ID": "41032F61112D28A2DB5A2D9913592E0E",
-                "SourceID": "0870902559617049223EB8356755B99578C43DD6",
+                "ID": "F02EDA242B7B45FFCAE6F2836063B740",
+                "SourceID": "B55F4A67FA332BDED21482DEA367B865A4B6D47A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9583,12 +9724,12 @@
               }
             },
             {
-              "id": "308ab78e-5034-4a34-8a4f-4e2babd03ea3",
+              "id": "3b18d3d7-70c8-4af4-962d-2c88117c6473",
               "count": 1,
               "front": {
                 "Name": "395-The Brain of Mensis-1.png",
-                "ID": "F381B7C7574E36DB1A99957C4686E662",
-                "SourceID": "3467A164348E24C5C73221605DEDC232C3EBCF3C",
+                "ID": "CD1E397127C9F903161B50AEB10B2D6A",
+                "SourceID": "62104047F4B8229B794AD19E74473BB6AFA8DA96",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9603,12 +9744,12 @@
               }
             },
             {
-              "id": "4718a85f-8e85-4882-9b89-4075a3f1b3fc",
+              "id": "943c2626-21fc-4d3d-887a-31381088d68f",
               "count": 1,
               "front": {
                 "Name": "396-Abhorrent Beast-1.png",
-                "ID": "9BDD61B1664178FAD5A6CB7ABB5DD61C",
-                "SourceID": "2DA8493A0106421FD64735FCC88AC096560C1E9B",
+                "ID": "60A506EA85FC045F1F573AD459F5A6CC",
+                "SourceID": "FB236D8E862602B9BF2D9AEF0E2E83E518EFD1B2",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9623,12 +9764,12 @@
               }
             },
             {
-              "id": "2f62367f-80a4-48d0-8b3a-7585be60612a",
+              "id": "ac072330-165e-47ac-b6cd-cd98466c6c3b",
               "count": 1,
               "front": {
                 "Name": "397-Blood-Starved Beast-1.png",
-                "ID": "016464E4834F9B6622FC058EA32AC39A",
-                "SourceID": "57E736945DA853CF9CC9E72D97301360F0B3C81A",
+                "ID": "35836EB48F80537C1B6393D23E623EA1",
+                "SourceID": "AA27D17471325F2D91AFB0921F3FA02935F37108",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9643,12 +9784,12 @@
               }
             },
             {
-              "id": "6486e972-4ead-4dae-b063-1d25d48b7860",
+              "id": "eeab20ca-50e5-41b8-a730-1489a8dacf57",
               "count": 1,
               "front": {
                 "Name": "398-Darkbeast Paarl-1.png",
-                "ID": "20E3D7FC09A0C5B86561582A889595A9",
-                "SourceID": "A73C296C08E1240A379DAA6C1A47DA2463CDC4F3",
+                "ID": "2DF9E37834B6C30F707D87C31B70E056",
+                "SourceID": "457F6763FE5C8CB004873A2F65F7161EDBEB432C",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9663,12 +9804,12 @@
               }
             },
             {
-              "id": "6774ea08-8d26-4968-b23e-1b2686c5abf7",
+              "id": "c925f3dc-cb25-4871-9aa5-65feaa103143",
               "count": 1,
               "front": {
                 "Name": "399-The One Reborn-1.png",
-                "ID": "41BE153B488BEF8E9DCF890E1A4846DD",
-                "SourceID": "258C2C2382F449F87A28939278F1CB45209305E0",
+                "ID": "807B4A7CA96196491E5DBEA889E08BB7",
+                "SourceID": "C920A452403EEC66675C038113459E92E00C4074",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9683,12 +9824,12 @@
               }
             },
             {
-              "id": "f710234f-ae5f-42fd-b25d-adb9315bc309",
+              "id": "c09acb94-6992-4229-b94e-a11ee89422be",
               "count": 1,
               "front": {
                 "Name": "400-Greater Amygdala-1.png",
-                "ID": "93645EAADF32859CA8356A37BDAD587A",
-                "SourceID": "16DB85CF6096CB436FEE8F4914BC658F0AAA31C3",
+                "ID": "AF90D54FF012A0CEB497E52386DEF7C8",
+                "SourceID": "47AC69103226EBE709FFB4649C574C02C7FBE6D1",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9703,12 +9844,12 @@
               }
             },
             {
-              "id": "b2a5b67a-781e-41e8-b4cc-24f5b2620b3f",
+              "id": "82beb2dc-1f90-44aa-b7e3-1b3b4cb4e403",
               "count": 1,
               "front": {
                 "Name": "401-Laurence the First Vicar-1.png",
-                "ID": "93E4ADED24502FB15740E10581CA2ED4",
-                "SourceID": "C502C3D60AE82FF40F88ECB36351653E2244CF54",
+                "ID": "78B08B0F758DA4CDDA691468322F4685",
+                "SourceID": "1681F5B3FAF68A71F68344C97423FDDA3A57BF97",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9723,12 +9864,12 @@
               }
             },
             {
-              "id": "7997bc06-d95b-4f57-865c-5ec514bad5b1",
+              "id": "e88fd715-9b40-4ed6-9afb-85de79fed49b",
               "count": 1,
               "front": {
                 "Name": "402-Ludwig the Accursed-1.png",
-                "ID": "65607028813E7329F56928F90A4F1064",
-                "SourceID": "09A2014A665BC6F46FFA8D1DB8A36F8D26BD9F33",
+                "ID": "DDB12BF636AA7F77BB44C806FFF4EAB6",
+                "SourceID": "B8FC963D2D2395DBBC86E32E9AF92B275F4E8EDF",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9743,12 +9884,12 @@
               }
             },
             {
-              "id": "ad55f638-efaf-4a34-a9f1-f06108f3a3e0",
+              "id": "c89ba365-e879-4c87-acc8-c3f9894ad5a1",
               "count": 1,
               "front": {
                 "Name": "403-Yharnam-1.png",
-                "ID": "21B377696314220BDE628EF624029E0E",
-                "SourceID": "98B46CB842E39991F168A345E31DE6349888CFB1",
+                "ID": "1DAA221F499A0C563931C659B7456D2C",
+                "SourceID": "A837833E8CCB7E20B40064B751B7BC79987FFE1A",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9763,12 +9904,12 @@
               }
             },
             {
-              "id": "b00897c3-cf8a-488c-839e-27d8c71d423d",
+              "id": "632042f7-9d79-45d4-8af8-a7d4f1c0c0a8",
               "count": 1,
               "front": {
                 "Name": "404-A Hunter Must Hunt-1.png",
-                "ID": "2245FC54FA2F0BB92188175C1D33A8FD",
-                "SourceID": "6183FAEA323771270708C000687D5317B2A95765",
+                "ID": "E98E16415C208B10D56DE2F5D76A6544",
+                "SourceID": "34107C83BBCE033384B07396E55B9BDC832BAD59",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9783,12 +9924,12 @@
               }
             },
             {
-              "id": "9c1b25f8-06ce-4561-ad6f-259564dea7cf",
+              "id": "5fef0c4a-69ab-4c68-a13a-fe97b15fdc5e",
               "count": 2,
               "front": {
                 "Name": "405-Flora of the Moon-x2-1.png",
-                "ID": "6482F913338707661F3DE158517AECBC",
-                "SourceID": "3CD86F4EF9A4FC16C3BBEC68206BF6751344C802",
+                "ID": "86BB9150358224BB3BBEEC0522A43A06",
+                "SourceID": "664EF786F34A87E6A37DE06D2E912159766B46B4",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9803,12 +9944,12 @@
               }
             },
             {
-              "id": "960defe7-2cc2-48e8-b021-8834099e956a",
+              "id": "8f2dd771-e852-47a4-8467-ad92145d775a",
               "count": 1,
               "front": {
                 "Name": "406-Guiding Moonlight-1.png",
-                "ID": "032BF343589BDA23127F5925D54D7F4F",
-                "SourceID": "09A06FB22CAB5E3ADA1BBE5FA51B28D74BC29721",
+                "ID": "18C1ACC0E5041162EC22E5A168C44678",
+                "SourceID": "D446363C6BBBD43D0AF3C4C243A59CB2F0E03300",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -9829,6 +9970,6 @@
     }
   ],
   "created": "2024-08-22T12:09:26.680Z",
-  "updated": "2024-11-10T16:21:44.680Z",
+  "updated": "2024-11-18T16:22:24.680Z",
   "hash": "9c81e549337dd0a6dd724adbc2a42b2aa664981a2847937b37c940a9fa2e9da0"
 }

@@ -14,7 +14,9 @@
     "4B1C30363B7C6FB9D90CC5D774AE1A172AF59F73C11E965C056EE91CC02CE0919414DE2E13A29248": "Mix & Match Rex",
     "A9824BCE8A225BE9FB30A93AB37F25F30350D4F2D9AAF6A0E4030BB8EE7B4C0B68A98A5A52F5DAA8": "Dunwich errata backs",
     "14BC2303150EC7F9082D2B5CCEBEE33110095C19E1AB782F85034EE7BEB9D493722E6C53B82566C9": "Mutated Lola",
-    "45096FA5A6C1CBAED513C9DF0DD7923633BE4EC05E5A9A380145BE1A260541B13B081F929EBE8DEC": "Dark Prophecy fix"
+    "45096FA5A6C1CBAED513C9DF0DD7923633BE4EC05E5A9A380145BE1A260541B13B081F929EBE8DEC": "Dark Prophecy fix",
+    "CF868DB270DD6E026185ADB21D77C2E3316105B2DA94E315F7743136487B6D2F0CE11998E0D2B136": "Taboo 2.3 + Pathfinder fix",
+    "82C4EAE0D7B7A9B74377CF478C1471B37B5B98818FFF3A2C1BFB08BC9A28F05EA2C21A66691A8358": "Taboo 2.3 Unscrupulous Loan"
   },
   "name": "Taboo",
   "description": "Printable versions of player cards from FFG’s List of Taboos, an optional set of changes to encourage shifts in the deckbuilding environment.",
@@ -83,11 +85,12 @@
               }
             },
             {
+              "id": "dec0a1d9-8442-4ce7-b36e-6b68b2cf2386",
               "count": 2,
               "front": {
                 "Name": "03 Pathfinder-x2-a.png",
-                "ID": "952AC25D7833F3D05D700234A183B560",
-                "SourceID": "8DF98E3091B2C06E557D93AEF18776AF70968AD1",
+                "ID": "97B02496B75AB2102680EDEABDCD26FB",
+                "SourceID": "2E60DCF3E9A087DE20A7F19F870F32542FD99EFE",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -330,9 +333,69 @@
               }
             },
             {
+              "id": "3a6e5322-f524-4a11-96df-3e2e46648e4d",
+              "count": 1,
+              "front": {
+                "Name": "16 Underworld Market-x1-a.png",
+                "ID": "6B670083FE15B40190EE17CF2542C8E7",
+                "SourceID": "5B09996643CE69490F291FF4490BB6BB20E7420B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f48b0847-a155-4e52-966d-75d09d3af8b3",
+              "count": 1,
+              "front": {
+                "Name": "17 Ravenous Myconid Sentient Strain-x1-a.png",
+                "ID": "7EDF7FEFF4F5BF986D36901F5F62B770",
+                "SourceID": "C1A80E69E82EFD6A26EE8F904AB413E7438B624F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "acc941d6-65cc-4036-b185-d2676b7e4a9b",
+              "count": 1,
+              "front": {
+                "Name": "18 Ravenous Myconid Carnivorous Strain x1-a.png",
+                "ID": "8E56A3F187C9ADD62A813B122E924646",
+                "SourceID": "2A8CB6FA49FA2AC5E2BBA5542E692E3BD386E2FA",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
               "count": 2,
               "front": {
-                "Name": "16 Dr Milan Christopher x2-a.png",
+                "Name": "19 Dr Milan Christopher x2-a.png",
                 "ID": "83A7C6B24445319ADEF9B19FA443700E",
                 "SourceID": "F44CB939681494BC1EF54145248E105CC76A6B93",
                 "Exp": "png",
@@ -351,7 +414,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "17 Elusive x2-a.png",
+                "Name": "20 Elusive x2-a.png",
                 "ID": "94634287D076C7FA5896F261321A6113",
                 "SourceID": "9C1F439DF47E8C8D31F2B87FAD38481E87C39954",
                 "Exp": "png",
@@ -370,7 +433,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "18 Rex Murphy-a.png",
+                "Name": "21 Rex Murphy-a.png",
                 "ID": "59B08A2037BEA0F7624772D6AD5FB41A",
                 "SourceID": "E37778D17F235B2D3B937803889BED1BD94BF358",
                 "Exp": "png",
@@ -378,7 +441,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "18 Rex Murphy-b.png",
+                "Name": "21 Rex Murphy-b.png",
                 "ID": "C2B9A1CF68D5723E3278B4A888D523B3",
                 "SourceID": "0AF5341DAA4C2463212979D67796BB1D768F6650",
                 "Exp": "png",
@@ -389,7 +452,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "20 Ritual Candles x2-a.png",
+                "Name": "23 Ritual Candles x2-a.png",
                 "ID": "B5E0F2DF3F8B66E3ECA55AE0014B8ADA",
                 "SourceID": "F03AD0AD69186E6E1AFD7A08C5C8426764C945DF",
                 "Exp": "png",
@@ -408,7 +471,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "21 Hypnotic Gaze (0)-x2-a.png",
+                "Name": "24 Hypnotic Gaze (0)-x2-a.png",
                 "ID": "D79E595A20DB7111E32A0834D5C6B3F8",
                 "SourceID": "29BC68BC3815E47F8A24ECAA0E2954C602768D70",
                 "Exp": "png",
@@ -427,7 +490,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "22 Hypnotic Gaze (2)-x2-a.png",
+                "Name": "25 Hypnotic Gaze (2)-x2-a.png",
                 "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
                 "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
@@ -446,7 +509,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "23 Jewel of Aureolus-x2-a.png",
+                "Name": "26 Jewel of Aureolus-x2-a.png",
                 "ID": "C0D615D503B2D72924D7DA60176B2782",
                 "SourceID": "502063C01DE3B0057F8748F3F083A794B94CDECC",
                 "Exp": "png",
@@ -465,7 +528,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "24 Voice of Ra x2-a.png",
+                "Name": "27 Voice of Ra x2-a.png",
                 "ID": "26B8DFBAC642D4C3305F91E2BC9BC2D9",
                 "SourceID": "FF37F02AF0E39616C64E998D59A31DC61DAE5FA9",
                 "Exp": "png",
@@ -484,7 +547,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "25 Banish-x2-a.png",
+                "Name": "28 Banish-x2-a.png",
                 "ID": "332E052C08DD162DF86A507EAC2C1FA4",
                 "SourceID": "2252FD1A4A120B54542E2E69AE5E8C8DB74304B4",
                 "Exp": "png",
@@ -503,7 +566,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "26 Delve Too Deep x2-a.png",
+                "Name": "29 Delve Too Deep x2-a.png",
                 "ID": "5B63B284875904CFCE183E437AF31A12",
                 "SourceID": "DB6E2A3D30479B6061389E77C426F2B381B21207",
                 "Exp": "png",
@@ -522,7 +585,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "27 Springfield M1903 x2-a.png",
+                "Name": "30 Springfield M1903 x2-a.png",
                 "ID": "BDA0B34D9C35F268031B82666483901E",
                 "SourceID": "0A1A9E27C84513DEB4B5C74F73C822E2D4563928",
                 "Exp": "png",
@@ -541,7 +604,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "28 Quick Thinking x2-a.png",
+                "Name": "31 Quick Thinking x2-a.png",
                 "ID": "B69CABBFEDE7BCD032F1C99F0BEC1378",
                 "SourceID": "B28A2A147BA10E6F20541204353074427BD3A2B7",
                 "Exp": "png",
@@ -560,7 +623,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "29 Strange Solution Acidic Ichor x2-a.png",
+                "Name": "32 Strange Solution Acidic Ichor x2-a.png",
                 "ID": "5AA706A8A82ABFAA8A5720D7F1F56693",
                 "SourceID": "09F625F6FB159FFD2523ECC02AF9D4B1A0A3C1B3",
                 "Exp": "png",
@@ -579,7 +642,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "30 Ace in the Hole-a.png",
+                "Name": "33 Ace in the Hole-a.png",
                 "ID": "89A86522CDAD54F47C58CFFC65D856B5",
                 "SourceID": "29DE8B90AFF62C9F236CD0722CE873A7B538E9E8",
                 "Exp": "png",
@@ -598,7 +661,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "31 Lola Hayes-a.png",
+                "Name": "34 Lola Hayes-a.png",
                 "ID": "A5CC809C104079A1E7C20B1B2D6F8061",
                 "SourceID": "DD9E0816F4722DA5B24F4B9EA0D7A003B9A858FB",
                 "Exp": "png",
@@ -617,7 +680,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "32 Crisis of Identity x2-a.png",
+                "Name": "35 Crisis of Identity x2-a.png",
                 "ID": "1A8638E7F7A7116FCE8978FCCB1208B6",
                 "SourceID": "FB5F51ED1235B5FA15E17B6A4F5DB10C9C24DEE4",
                 "Exp": "png",
@@ -636,7 +699,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "33 Sleight of Hand x2-a.png",
+                "Name": "36 Sleight of Hand x2-a.png",
                 "ID": "796F11BDE8FAAB0AE00778CAB9E5D2D8",
                 "SourceID": "7CB12D10E1EFB8078FED02C4E3E718DDCC0C3D6C",
                 "Exp": "png",
@@ -655,7 +718,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "34 David Renfield-x2-a.png",
+                "Name": "37 David Renfield-x2-a.png",
                 "ID": "58684A5F57DCA1CD43DF555A47F6E39E",
                 "SourceID": "C31AF7D7302F261280B878B3996774059153E6FE",
                 "Exp": "png",
@@ -674,7 +737,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "35 Key of Ys x1-a.png",
+                "Name": "38 Key of Ys x1-a.png",
                 "ID": "D0025077D589DB185148795545B6C545",
                 "SourceID": "37C1A4AF7AF9179000B00123871EB18098DA48BD",
                 "Exp": "png",
@@ -693,7 +756,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "36 Pay Day-x2-a.png",
+                "Name": "39 Pay Day-x2-a.png",
                 "ID": "0A3169E352805C695B2504EEA7721CFC",
                 "SourceID": "782C174B5FA20AB0F2829B3619B72DD8A8152ACE",
                 "Exp": "png",
@@ -712,7 +775,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "37 Dark Prophecy-x2-a.png",
+                "Name": "40 Dark Prophecy-x2-a.png",
                 "ID": "5097745012100B64C51611D7991C1F8C",
                 "SourceID": "6EAA4CC6093BE1377A2FEA7976744DFB30AABD69",
                 "Exp": "png",
@@ -731,7 +794,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "38 Persuasion-x2-a.png",
+                "Name": "41 Persuasion-x2-a.png",
                 "ID": "3242F91CF34EAA00D586C9C4E0ED9F91",
                 "SourceID": "F8BA15DFC6EA973E6A6E1B6C129B5FA469ED5332",
                 "Exp": "png",
@@ -750,7 +813,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "39 Counterspell x2-a.png",
+                "Name": "42 Counterspell x2-a.png",
                 "ID": "18EA89122E4DB3E83CD334B0C9B8A349",
                 "SourceID": "D6F4D1F7EF089D3F5057D5437381F15A7E97706E",
                 "Exp": "png",
@@ -769,7 +832,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "40 All In x2-a.png",
+                "Name": "43 All In x2-a.png",
                 "ID": "121B676FCF924C122AD6649FB5594505",
                 "SourceID": "4EF2F9EB91DFCC94D5F849BB5455825661C3A425",
                 "Exp": "png",
@@ -788,7 +851,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "41 Scroll of Secrets (0) x2-a.png",
+                "Name": "44 Scroll of Secrets (0) x2-a.png",
                 "ID": "BA1E2334EA7C9E6C1F5B5E4C0BB8A9E0",
                 "SourceID": "F07B31F2C3240A8F6505A68C3F11C8E40D0BDA4F",
                 "Exp": "png",
@@ -807,7 +870,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "42 Scroll of Secrets 3 Seeker x2-a.png",
+                "Name": "45 Scroll of Secrets 3 Seeker x2-a.png",
                 "ID": "4C1D8FCE062E928DDB63E47AE0EC2254",
                 "SourceID": "E7AD370413DBB81DFA2386E67F18CAF5DF3C69D0",
                 "Exp": "png",
@@ -826,7 +889,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "43 Scroll of Secrets 3 Mystic x2-a.png",
+                "Name": "46 Scroll of Secrets 3 Mystic x2-a.png",
                 "ID": "DFDFD2D2437ECEDDFCD4E041CC656297",
                 "SourceID": "B4366FCD3F41BFDA150EC39916894FDBCEB638E5",
                 "Exp": "png",
@@ -845,7 +908,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "44 Interrogate-x2-a.png",
+                "Name": "47 Interrogate-x2-a.png",
                 "ID": "EA7A1BE668BD366A704BA41CF20AE3BC",
                 "SourceID": "425EFDAFCCEDCD6FC2234C546096405A33B9E22E",
                 "Exp": "png",
@@ -864,7 +927,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "45 Mr. Rook x2-a.png",
+                "Name": "48 Mr. Rook x2-a.png",
                 "ID": "9D1CCB812696ADAA54A7F93FCBE159B9",
                 "SourceID": "E83F3767CE1D10E4656054AE8B3CB2E7CFFB33F9",
                 "Exp": "png",
@@ -883,7 +946,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "46 Telescopic Sight x2-a.png",
+                "Name": "49 Telescopic Sight x2-a.png",
                 "ID": "FD4E46831461ECE3176B4AFC795D3DF2",
                 "SourceID": "A2BB2ABDD15B366D949F0C4355BEF8B9EE63B004",
                 "Exp": "png",
@@ -902,7 +965,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "47 Eucatastrophe x2-a.png",
+                "Name": "50 Eucatastrophe x2-a.png",
                 "ID": "CF8718AF0AB2B95CCC9B26EF0C2E1159",
                 "SourceID": "DEFF1B1DB83E44D56F63CE564EC4A479EBE86EE5",
                 "Exp": "png",
@@ -921,7 +984,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "48 Mandy Thompson-a.png",
+                "Name": "51 Mandy Thompson-a.png",
                 "ID": "A3BD42C6C6852AC0BAA95C3E15828F78",
                 "SourceID": "6876DA9FF5DAC6820C9787C3F4DEAB1D2D9528B4",
                 "Exp": "png",
@@ -929,7 +992,7 @@
                 "Height": 1110
               },
               "back": {
-                "Name": "48 Mandy Thompson-b.png",
+                "Name": "51 Mandy Thompson-b.png",
                 "ID": "FC52B87C7D50AFB4EA624DF97C3B1E90",
                 "SourceID": "2C2BB5AC8166EC00A2E98066041093D70AF637C7",
                 "Exp": "png",
@@ -940,7 +1003,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "50 Pendant of the Queen x1-a.png",
+                "Name": "53 Pendant of the Queen x1-a.png",
                 "ID": "B402BE972C62B7CB2E3B4A642D978930",
                 "SourceID": "1471D1AC4DDC43221048E1F29A0FD2D2AF2B6907",
                 "Exp": "png",
@@ -959,7 +1022,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "51 35 Winchester x2-a.png",
+                "Name": "54 35 Winchester x2-a.png",
                 "ID": "EC6E86DDF4C8459BAE6A2121E5467446",
                 "SourceID": "4A3A13B1A1BE853CFD1728BDCE46A2979D87B413",
                 "Exp": "png",
@@ -978,7 +1041,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "52 Three Aces x3-a.png",
+                "Name": "55 Three Aces x3-a.png",
                 "ID": "618EC502AD8A0545732544A5C277F13C",
                 "SourceID": "DC37F52B180BCB99E676C7C74304D722AD04EE12",
                 "Exp": "png",
@@ -997,7 +1060,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "53 Daredevil-x2-a.png",
+                "Name": "56 Daredevil-x2-a.png",
                 "ID": "17D14E72C35AF3F0D760ACFC1FD09FA8",
                 "SourceID": "24AC35047890CC8A152157A51904C352E3D41522",
                 "Exp": "png",
@@ -1016,7 +1079,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "54 Trish Scarborough-a.png",
+                "Name": "57 Trish Scarborough-a.png",
                 "ID": "E9703D50A04DA86E06EB4D7EB9DF4F83",
                 "SourceID": "4B02FF367125C8BD63DBB1BDC681F8A499AA892C",
                 "Exp": "png",
@@ -1024,7 +1087,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "54 Trish Scarborough-b.png",
+                "Name": "57 Trish Scarborough-b.png",
                 "ID": "F0CF3A4617D12C619727F87EEA42A642",
                 "SourceID": "638D2BCB900DC81CBFFA4539807FD3077DAF8D51",
                 "Exp": "png",
@@ -1035,7 +1098,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "56 Ancient Covenant-x1-a.png",
+                "Name": "59 Ancient Covenant-x1-a.png",
                 "ID": "BF92950A206EEB22EE0DA86DBD2B4921",
                 "SourceID": "F22904B9053514E803F4F4CE0D498D8526AE7481",
                 "Exp": "png",
@@ -1054,7 +1117,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "57 Flute of the Outer Gods x1-a.png",
+                "Name": "60 Flute of the Outer Gods x1-a.png",
                 "ID": "556031DE29CFACD4EE55B1257A645597",
                 "SourceID": "A47AA4E770AE398AC8F76D821142BC8A7B0FE46A",
                 "Exp": "png",
@@ -1073,7 +1136,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "58 A Watchful Peace x2-a.png",
+                "Name": "61 A Watchful Peace x2-a.png",
                 "ID": "0CB038CFDE6AB2D3A54C51CFB671042C",
                 "SourceID": "5AB405958A1279765C4CB64E69644883700369E6",
                 "Exp": "png",
@@ -1092,7 +1155,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "59 Hallow x2-a.png",
+                "Name": "62 Hallow x2-a.png",
                 "ID": "A3DB33A200BF821DDB302979825E530B",
                 "SourceID": "49F3EF2A05E20F4524B899CCB491AE758BCCB310",
                 "Exp": "png",
@@ -1111,7 +1174,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "60 Geared Up-x1-a.png",
+                "Name": "63 Geared Up-x1-a.png",
                 "ID": "AB3BCE2CE68D3BBC7676341A3A1D7743",
                 "SourceID": "67D48F2252D6DF973E936859931DB7C899532CFB",
                 "Exp": "png",
@@ -1130,7 +1193,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "61 Jeremiah Kirby-x2-a.png",
+                "Name": "64 Jeremiah Kirby-x2-a.png",
                 "ID": "EA6F1981D6EBDD60C4070351B545E2B8",
                 "SourceID": "8E3BA397ABF29BE95162D336A3A2DF9CEBD855BC",
                 "Exp": "png",
@@ -1149,7 +1212,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "62 Prophesiae Profana x2-a.png",
+                "Name": "65 Prophesiae Profana x2-a.png",
                 "ID": "D1734376A1B0247D5A3A1676E371C296",
                 "SourceID": "10FF05CAE17E7393BCDCB9211A55C08DF695136B",
                 "Exp": "png",
@@ -1168,7 +1231,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "63 Black Market x2-a.png",
+                "Name": "66 Black Market x2-a.png",
                 "ID": "CC74439A4F4063A225D04EACF4A29BAA",
                 "SourceID": "4F2342E0397EC755964F9DD79CBE333980AFD711",
                 "Exp": "png",
@@ -1187,7 +1250,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "64 Burn After Reading-x2-a.png",
+                "Name": "67 Burn After Reading-x2-a.png",
                 "ID": "C27D0BF83D2607B04E6FE3551636C893",
                 "SourceID": "CBAEAA157E6EAB7710184772221B1A69E638DDB7",
                 "Exp": "png",
@@ -1206,7 +1269,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "65 Eon Chart (1) x2-a.png",
+                "Name": "68 Eon Chart (1) x2-a.png",
                 "ID": "FC2BD54A0FFEEC8D844CBBD2ACA32184",
                 "SourceID": "1D8BE6AF7E1CCC9031C1F45C4EB9AAABA60E924F",
                 "Exp": "png",
@@ -1225,7 +1288,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "66 Eon Chart (4) x2-a.png",
+                "Name": "69 Eon Chart (4) x2-a.png",
                 "ID": "BD42F4F2AF98D46ABFB24FC9E1907D9B",
                 "SourceID": "5A1B6D2136623F0221C7D9D8ED9E3A25148E7E32",
                 "Exp": "png",
@@ -1242,9 +1305,29 @@
               }
             },
             {
+              "id": "b0c8462d-574f-4bd6-8c32-ea0a9bd3ac76",
               "count": 2,
               "front": {
-                "Name": "67 Cyclopean Hammer x2-a.png",
+                "Name": "70 Unscrupulous Loan-x2-a.png",
+                "ID": "BF6817052AA29C2BA9B0F529C35D5D23",
+                "SourceID": "600ECE2C3A961BA5596E61FB57A4EC11E4E087E7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "71 Cyclopean Hammer x2-a.png",
                 "ID": "8196B7D59003CB6ACB71B3AEBA4B79AB",
                 "SourceID": "C0C7E38224EAD1404B4DAC25B9147CCA0D9C916B",
                 "Exp": "png",
@@ -1263,7 +1346,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "68 Research Notes-x2-a.png",
+                "Name": "72 Research Notes-x2-a.png",
                 "ID": "5B4964A04E347F3933AB8E9AFDEAE97D",
                 "SourceID": "643D5838AD46BAAA3381EC0309895AD5363DA58A",
                 "Exp": "png",
@@ -1282,7 +1365,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "69 Power Word-x3-a.png",
+                "Name": "73 Power Word-x3-a.png",
                 "ID": "6FD460C57C4C7AED8D8C3145D9CAE106",
                 "SourceID": "889416365CF30B7971470BE4FDDFF28B39396A02",
                 "Exp": "png",
@@ -1301,7 +1384,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "70 Power Word upgrade-x3-a.png",
+                "Name": "73 Power Word upgrade-x3-a.png",
                 "ID": "B24DBDD300182B557808CD8A338A87E4",
                 "SourceID": "4A5F19B83B8F80EE7D86F7BA7213A186A5D596FD",
                 "Exp": "png",
@@ -1309,7 +1392,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "70 Power Word upgrade-x3-b.png",
+                "Name": "73 Power Word upgrade-x3-b.png",
                 "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
                 "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
                 "Exp": "png",
@@ -1318,9 +1401,29 @@
               }
             },
             {
+              "id": "034ede2b-f848-4005-890f-23b84e31cd59",
               "count": 2,
               "front": {
-                "Name": "71 Double or Nothing x2-a.png",
+                "Name": "74 Empirical Hypothesis-x2-a.png",
+                "ID": "5F61D8AD0C96D29E6CF4F3332AAE10AD",
+                "SourceID": "66E3A1AECAA98D490F6F85D1066A534195141A88",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "75 Double or Nothing x2-a.png",
                 "ID": "8B20A0915DFC59981D16F1D1D49861F7",
                 "SourceID": "08B08D5633A8AC1B43FAFF8AE2920EE73FFDF205",
                 "Exp": "png",
@@ -1343,6 +1446,106 @@
           "name": "Changes from 2.2 Only",
           "enabled": false,
           "cards": [
+            {
+              "id": "3a6e5322-f524-4a11-96df-3e2e46648e4d",
+              "count": 1,
+              "front": {
+                "Name": "16 Underworld Market-x1-a.png",
+                "ID": "6B670083FE15B40190EE17CF2542C8E7",
+                "SourceID": "5B09996643CE69490F291FF4490BB6BB20E7420B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f48b0847-a155-4e52-966d-75d09d3af8b3",
+              "count": 1,
+              "front": {
+                "Name": "17 Ravenous Myconid Sentient Strain-x1-a.png",
+                "ID": "7EDF7FEFF4F5BF986D36901F5F62B770",
+                "SourceID": "C1A80E69E82EFD6A26EE8F904AB413E7438B624F",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "acc941d6-65cc-4036-b185-d2676b7e4a9b",
+              "count": 1,
+              "front": {
+                "Name": "18 Ravenous Myconid Carnivorous Strain x1-a.png",
+                "ID": "8E56A3F187C9ADD62A813B122E924646",
+                "SourceID": "2A8CB6FA49FA2AC5E2BBA5542E692E3BD386E2FA",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b0c8462d-574f-4bd6-8c32-ea0a9bd3ac76",
+              "count": 2,
+              "front": {
+                "Name": "70 Unscrupulous Loan-x2-a.png",
+                "ID": "BF6817052AA29C2BA9B0F529C35D5D23",
+                "SourceID": "600ECE2C3A961BA5596E61FB57A4EC11E4E087E7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "034ede2b-f848-4005-890f-23b84e31cd59",
+              "count": 2,
+              "front": {
+                "Name": "74 Empirical Hypothesis-x2-a.png",
+                "ID": "5F61D8AD0C96D29E6CF4F3332AAE10AD",
+                "SourceID": "66E3A1AECAA98D490F6F85D1066A534195141A88",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
           ],
           "code": "C380050185D1C1AF"
         },
@@ -2075,7 +2278,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "54 Flute of the Outer Gods x1-a.png",
+                "Name": "57 Flute of the Outer Gods x1-a.png",
                 "ID": "556031DE29CFACD4EE55B1257A645597",
                 "SourceID": "A47AA4E770AE398AC8F76D821142BC8A7B0FE46A",
                 "Exp": "png",
@@ -2094,7 +2297,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "58 A Watchful Peace x2-a.png",
+                "Name": "61 A Watchful Peace x2-a.png",
                 "ID": "0CB038CFDE6AB2D3A54C51CFB671042C",
                 "SourceID": "5AB405958A1279765C4CB64E69644883700369E6",
                 "Exp": "png",
@@ -2113,7 +2316,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "59 Hallow x2-a.png",
+                "Name": "62 Hallow x2-a.png",
                 "ID": "A3DB33A200BF821DDB302979825E530B",
                 "SourceID": "49F3EF2A05E20F4524B899CCB491AE758BCCB310",
                 "Exp": "png",
@@ -2132,7 +2335,7 @@
             {
               "count": 1,
               "front": {
-                "Name": "60 Geared Up-x1-a.png",
+                "Name": "63 Geared Up-x1-a.png",
                 "ID": "AB3BCE2CE68D3BBC7676341A3A1D7743",
                 "SourceID": "67D48F2252D6DF973E936859931DB7C899532CFB",
                 "Exp": "png",
@@ -2151,7 +2354,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "61 Jeremiah Kirby-x2-a.png",
+                "Name": "64 Jeremiah Kirby-x2-a.png",
                 "ID": "EA6F1981D6EBDD60C4070351B545E2B8",
                 "SourceID": "8E3BA397ABF29BE95162D336A3A2DF9CEBD855BC",
                 "Exp": "png",
@@ -2170,7 +2373,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "62 Prophesiae Profana x2-a.png",
+                "Name": "65 Prophesiae Profana x2-a.png",
                 "ID": "D1734376A1B0247D5A3A1676E371C296",
                 "SourceID": "10FF05CAE17E7393BCDCB9211A55C08DF695136B",
                 "Exp": "png",
@@ -2189,7 +2392,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "63 Black Market x2-a.png",
+                "Name": "66 Black Market x2-a.png",
                 "ID": "CC74439A4F4063A225D04EACF4A29BAA",
                 "SourceID": "4F2342E0397EC755964F9DD79CBE333980AFD711",
                 "Exp": "png",
@@ -2208,7 +2411,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "64 Burn After Reading-x2-a.png",
+                "Name": "67 Burn After Reading-x2-a.png",
                 "ID": "C27D0BF83D2607B04E6FE3551636C893",
                 "SourceID": "CBAEAA157E6EAB7710184772221B1A69E638DDB7",
                 "Exp": "png",
@@ -2227,7 +2430,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "65 Eon Chart (1) x2-a.png",
+                "Name": "68 Eon Chart (1) x2-a.png",
                 "ID": "FC2BD54A0FFEEC8D844CBBD2ACA32184",
                 "SourceID": "1D8BE6AF7E1CCC9031C1F45C4EB9AAABA60E924F",
                 "Exp": "png",
@@ -2246,7 +2449,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "66 Eon Chart (4) x2-a.png",
+                "Name": "69 Eon Chart (4) x2-a.png",
                 "ID": "BD42F4F2AF98D46ABFB24FC9E1907D9B",
                 "SourceID": "5A1B6D2136623F0221C7D9D8ED9E3A25148E7E32",
                 "Exp": "png",
@@ -2263,9 +2466,29 @@
               }
             },
             {
+              "id": "b0c8462d-574f-4bd6-8c32-ea0a9bd3ac76",
               "count": 2,
               "front": {
-                "Name": "67 Cyclopean Hammer x2-a.png",
+                "Name": "70 Unscrupulous Loan-x2-a.png",
+                "ID": "BF6817052AA29C2BA9B0F529C35D5D23",
+                "SourceID": "600ECE2C3A961BA5596E61FB57A4EC11E4E087E7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "71 Cyclopean Hammer x2-a.png",
                 "ID": "8196B7D59003CB6ACB71B3AEBA4B79AB",
                 "SourceID": "C0C7E38224EAD1404B4DAC25B9147CCA0D9C916B",
                 "Exp": "png",
@@ -2284,7 +2507,7 @@
             {
               "count": 2,
               "front": {
-                "Name": "68 Research Notes-x2-a.png",
+                "Name": "72 Research Notes-x2-a.png",
                 "ID": "5B4964A04E347F3933AB8E9AFDEAE97D",
                 "SourceID": "643D5838AD46BAAA3381EC0309895AD5363DA58A",
                 "Exp": "png",
@@ -2303,7 +2526,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "69 Power Word-x3-a.png",
+                "Name": "73 Power Word-x3-a.png",
                 "ID": "6FD460C57C4C7AED8D8C3145D9CAE106",
                 "SourceID": "889416365CF30B7971470BE4FDDFF28B39396A02",
                 "Exp": "png",
@@ -2322,7 +2545,7 @@
             {
               "count": 3,
               "front": {
-                "Name": "70 Power Word upgrade-x3-a.png",
+                "Name": "73 Power Word upgrade-x3-a.png",
                 "ID": "B24DBDD300182B557808CD8A338A87E4",
                 "SourceID": "4A5F19B83B8F80EE7D86F7BA7213A186A5D596FD",
                 "Exp": "png",
@@ -2330,7 +2553,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "70 Power Word upgrade-x3-b.png",
+                "Name": "73 Power Word upgrade-x3-b.png",
                 "ID": "C6F10DCB646C7DFBA236739DCD7295B9",
                 "SourceID": "3E9F7F982F2972F1A675C9108D1734A08F8F17D0",
                 "Exp": "png",
@@ -2339,9 +2562,29 @@
               }
             },
             {
+              "id": "034ede2b-f848-4005-890f-23b84e31cd59",
               "count": 2,
               "front": {
-                "Name": "71 Double or Nothing x2-a.png",
+                "Name": "74 Empirical Hypothesis-x2-a.png",
+                "ID": "5F61D8AD0C96D29E6CF4F3332AAE10AD",
+                "SourceID": "66E3A1AECAA98D490F6F85D1066A534195141A88",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "_playerback.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "count": 2,
+              "front": {
+                "Name": "75 Double or Nothing x2-a.png",
                 "ID": "8B20A0915DFC59981D16F1D1D49861F7",
                 "SourceID": "08B08D5633A8AC1B43FAFF8AE2920EE73FFDF205",
                 "Exp": "png",
@@ -2413,6 +2656,7 @@
       "parts": [
         {
           "name": "All",
+          "enabled": false,
           "cards": [
             {
               "count": 2,
@@ -2453,11 +2697,12 @@
               }
             },
             {
+              "id": "dec0a1d9-8442-4ce7-b36e-6b68b2cf2386",
               "count": 2,
               "front": {
                 "Name": "03 Pathfinder-x2-a.png",
-                "ID": "952AC25D7833F3D05D700234A183B560",
-                "SourceID": "8DF98E3091B2C06E557D93AEF18776AF70968AD1",
+                "ID": "97B02496B75AB2102680EDEABDCD26FB",
+                "SourceID": "2E60DCF3E9A087DE20A7F19F870F32542FD99EFE",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -4881,11 +5126,12 @@
           "enabled": false,
           "cards": [
             {
+              "id": "dec0a1d9-8442-4ce7-b36e-6b68b2cf2386",
               "count": 2,
               "front": {
-                "Name": "02 Pathfinder-x2-a.png",
-                "ID": "952AC25D7833F3D05D700234A183B560",
-                "SourceID": "8DF98E3091B2C06E557D93AEF18776AF70968AD1",
+                "Name": "03 Pathfinder-x2-a.png",
+                "ID": "97B02496B75AB2102680EDEABDCD26FB",
+                "SourceID": "2E60DCF3E9A087DE20A7F19F870F32542FD99EFE",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -6085,11 +6331,12 @@
           "enabled": false,
           "cards": [
             {
+              "id": "dec0a1d9-8442-4ce7-b36e-6b68b2cf2386",
               "count": 2,
               "front": {
-                "Name": "02 Pathfinder-x2-a.png",
-                "ID": "952AC25D7833F3D05D700234A183B560",
-                "SourceID": "8DF98E3091B2C06E557D93AEF18776AF70968AD1",
+                "Name": "03 Pathfinder-x2-a.png",
+                "ID": "97B02496B75AB2102680EDEABDCD26FB",
+                "SourceID": "2E60DCF3E9A087DE20A7F19F870F32542FD99EFE",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -11399,6 +11646,6 @@
     }
   ],
   "created": "2019-04-23T11:42:26.679Z",
-  "updated": "2024-08-03T22:28:30.336Z",
+  "updated": "2024-11-18T22:28:30.336Z",
   "hash": "6f42583baa59a83b773800a22d9eabf96e6b576877cb9538c2249f3e74b01ae8"
 }
