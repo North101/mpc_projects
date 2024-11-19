@@ -9451,7 +9451,7 @@
       ]
     },
     {
-      "name": "Errata if printed before 18 Nov 2024 (see changelog)",
+      "name": "Errata if printed before 20 Nov 2024 (see changelog)",
       "parts": [
         {
           "code": "C380050185D1C1AF",
@@ -9590,7 +9590,7 @@
       ]
     },
     {
-      "name": "Errata if printed before 10 Nov 2024 (see changelog)",
+      "name": "Fixes if printed before 10 Nov 2024 (see changelog)",
       "parts": [
         {
           "name": "Agents of Ebrietas encounter set",
