@@ -1,5 +1,8 @@
+**2024-11-18:**
+- Restored missing "are" on Pathfinder, which was omitted by FFG, in all variations of Taboo 2.1, 2.2, and 2.3.
+
 **2024-08-03:**
-  - Fixed wonky typography on Dark Prophecy with in all variations of Taboo 2.0, 2.1, and 2.2.
+  - Fixed wonky typography on Dark Prophecy in all variations of Taboo 2.0, 2.1, and 2.2.
 
 **2024-08-02:**
   - Added "Mutated" keyword, which was omitted by FFG, to Lola Hayes in variations of Taboo 2.0, 2.1, and 2.2. 
