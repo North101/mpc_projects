@@ -26,7 +26,7 @@
       "name": "The Legend of Sleepy Hollow",
       "parts": [
         {
-          "name": "The Legend of Sleepy Hollow",
+          "name": "The Legend of Sleepy Hollow scenario",
           "cards": [
             {
               "count": 1,
@@ -48,11 +48,12 @@
               }
             },
             {
+              "id": "9e1cb04f-0c53-498e-bd42-113616032ac3",
               "count": 1,
               "front": {
                 "Name": "02 - Guide 2-1.png",
-                "ID": "E7987D7DDA0DE624FAB9FF2123429EED",
-                "SourceID": "E5BAA96DC78423A7256DE1603356D77F0758C2E3",
+                "ID": "B5FCC5E54105456500CD1AD1D4FB36BF",
+                "SourceID": "75CC1C4C3B5E0AD35AC890ECF04B39AEF08349DC",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -697,9 +698,41 @@
           "code": "C380050185D1C1AF"
         }
       ]
+    },
+    {
+      "name": "Fixes if printed before 20 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "name": "Updated chaos bag",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "9e1cb04f-0c53-498e-bd42-113616032ac3",
+              "count": 1,
+              "front": {
+                "Name": "02 - Guide 2-1.png",
+                "ID": "B5FCC5E54105456500CD1AD1D4FB36BF",
+                "SourceID": "75CC1C4C3B5E0AD35AC890ECF04B39AEF08349DC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "02 - Guide 2-2.png",
+                "ID": "2721106E9E26B266ECF0B26F367C57B1",
+                "SourceID": "22586341D74A1FB81AC614DD5CEC52A198CC12CA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
     }
   ],
   "created": "2021-03-21T04:45:26.684Z",
-  "updated": "2023-08-13T20:43:40.201Z",
+  "updated": "2024-11-19T20:43:40.201Z",
   "hash": "c5a1daeb73d8e25bd573d87429abdb752b47769d85e3a8161b54611caca9beb6"
 }

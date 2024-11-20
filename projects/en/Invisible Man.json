@@ -1,7 +1,8 @@
 {
   "version": 5,
   "projectIds": {
-    "94C63288CE9CECE1B37B872FC4FE2436D2CD3382B4116BE47B619220BFB22B369FFE352A15D1AF2B": "The Invisible Man"
+    "94C63288CE9CECE1B37B872FC4FE2436D2CD3382B4116BE47B619220BFB22B369FFE352A15D1AF2B": "The Invisible Man",
+    "302574CE26E93E1ABDFE2592DB039D9DBC4EC277F68DDB176AB0DE5BB600D59616DFF91A7F1BAF5C": "Beaard standalone chaos bag updates"
   },
   "name": "The Invisible Man",
   "description": "A chemist is making plans to dominate the world through vile and murderous means! You must stop him… but how can you fight an invisible man? Based on the H.G. Wells novel.",
@@ -23,10 +24,10 @@
   ],
   "options": [
     {
-      "name": "",
+      "name": "The Invisible Man",
       "parts": [
         {
-          "name": "The Invisible Man",
+          "name": "The Invisible Man scenario",
           "cards": [
             {
               "count": 1,
@@ -48,11 +49,12 @@
               }
             },
             {
+              "id": "a2ede648-1c8b-430d-b791-eac67f81ea55",
               "count": 1,
               "front": {
                 "Name": "002-Guide-1.png",
-                "ID": "AD2EFE1C2FBD4DB84926EFE9850012BB",
-                "SourceID": "3EFC9F3288F4F8D706C78313326565E2EAE07102",
+                "ID": "DA9D8E528680D0C63E4C00FA85D9C694",
+                "SourceID": "957F8228B7114DB6ABDC1F369E30E975689D7E73",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -887,9 +889,41 @@
           "code": "C380050185D1C1AF"
         }
       ]
+    },
+    {
+      "name": "Fixes if printed before 20 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "name": "Updated chaos bag",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "a2ede648-1c8b-430d-b791-eac67f81ea55",
+              "count": 1,
+              "front": {
+                "Name": "002-Guide-1.png",
+                "ID": "DA9D8E528680D0C63E4C00FA85D9C694",
+                "SourceID": "957F8228B7114DB6ABDC1F369E30E975689D7E73",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "002-Guide-2.png",
+                "ID": "159A54063BE35CA6B5589A5B164212AB",
+                "SourceID": "A42CAEE6D8277FFFED52FE44E1739924434A1F4A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
     }
   ],
   "created": "2023-10-01T04:45:26.684Z",
-  "updated": "2023-10-06T15:59:51.462Z",
+  "updated": "2024-11-19T20:59:51.462Z",
   "hash": "42cff64a1ae3c5cfed828d7a6375074114e280e4f9f710b8b40522961a01512d"
 }

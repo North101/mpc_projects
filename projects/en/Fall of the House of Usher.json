@@ -23,10 +23,10 @@
   ],
   "options": [
     {
-      "name": "",
+      "name": "The Fall of the House of Usher",
       "parts": [
         {
-          "name": "The Fall of the House of Usher",
+          "name": "The Fall of the House of Usher scenario",
           "cards": [
             {
               "count": 1,
@@ -48,11 +48,12 @@
               }
             },
             {
+              "id": "a4f50c16-64e8-44b3-bb67-58bf0b86ec54",
               "count": 1,
               "front": {
                 "Name": "002 - Guide 2-1.png",
-                "ID": "670D4954A5FBD85EFA6EC7876D409FBF",
-                "SourceID": "1CE2774C4F0E21A489981697A3A7E7CE35F31772",
+                "ID": "F00590C00C47B978E74BDC01CF915590",
+                "SourceID": "D70ADA791973360BBA0F4F7E8C1260537DF68FDC",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -773,9 +774,41 @@
           "code": "C380050185D1C1AF"
         }
       ]
+    },
+    {
+      "name": "Fixes if printed before 20 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "name": "Updated chaos bag",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "a4f50c16-64e8-44b3-bb67-58bf0b86ec54",
+              "count": 1,
+              "front": {
+                "Name": "002 - Guide 2-1.png",
+                "ID": "F00590C00C47B978E74BDC01CF915590",
+                "SourceID": "D70ADA791973360BBA0F4F7E8C1260537DF68FDC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "002 - Guide 2-2.png",
+                "ID": "2991BBDD1E765C5DC6DFB8DA7D720A82",
+                "SourceID": "858A6A8BDC9BD1885B3FF10BB01928D78249D2BB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
     }
   ],
   "created": "2022-01-25T04:45:26.686Z",
-  "updated": "2023-08-13T20:43:40.202Z",
+  "updated": "2024-11-19T20:43:40.202Z",
   "hash": "60155e880965b5d445657d3df8f69fcc5325a4ca3966d48e966ca81a6c54802c"
 }
