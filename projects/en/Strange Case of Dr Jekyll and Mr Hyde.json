@@ -23,10 +23,10 @@
   ],
   "options": [
     {
-      "name": "",
+      "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
       "parts": [
         {
-          "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+          "name": "The Strange Case of Dr. Jekyll and Mr. Hyde scenario",
           "cards": [
             {
               "count": 1,
@@ -48,17 +48,18 @@
               }
             },
             {
+              "id": "d35bcd8b-988e-48ed-96cb-23a9a3dfd004",
               "count": 1,
               "front": {
                 "Name": "02 - Guide 2-1.png",
-                "ID": "471E350EFE99B018822B27895CBC72E6",
-                "SourceID": "93BF7D5EB2CC96EFAAF19554692AE7576ECEF307",
+                "ID": "460A0B514E1995E34EE0A89DC46C522B",
+                "SourceID": "3CD6A1D1B0780FE2E9262FD28A31A12B2D3D9E32",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
               },
               "back": {
-                "Name": "02 - Guide 2-2.png",
+                "Name": "02 Guide - 2-2.png",
                 "ID": "D3C6E2AA4C3C122A235BCB1660B4DC86",
                 "SourceID": "7A9E2B977FFDD0C447E5419DC19F71CD842EEEDC",
                 "Exp": "png",
@@ -811,9 +812,41 @@
           "code": "C380050185D1C1AF"
         }
       ]
+    },
+    {
+      "name": "Fixes if printed before 20 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "name": "Updated chaos bag",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "d35bcd8b-988e-48ed-96cb-23a9a3dfd004",
+              "count": 1,
+              "front": {
+                "Name": "002 Guide 2-1.png",
+                "ID": "460A0B514E1995E34EE0A89DC46C522B",
+                "SourceID": "3CD6A1D1B0780FE2E9262FD28A31A12B2D3D9E32",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "002 Guide 2-2.png",
+                "ID": "D3C6E2AA4C3C122A235BCB1660B4DC86",
+                "SourceID": "7A9E2B977FFDD0C447E5419DC19F71CD842EEEDC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
     }
   ],
   "created": "2022-10-01T04:45:26.679Z",
-  "updated": "2023-08-13T20:43:40.199Z",
+  "updated": "2024-11-19T20:43:40.199Z",
   "hash": "becc222f432c7c2105fc37e77548d3935cb40cf03ea6305ab5d2bb59bcf051e8"
 }

@@ -24,10 +24,10 @@
   ],
   "options": [
     {
-      "name": "r",
+      "name": "The Facts in the Case of M. Valdemar",
       "parts": [
         {
-          "name": "The Facts in the Case of M. Valdemar",
+          "name": "The Facts in the Case of M. Valdemar scenario",
           "cards": [
             {
               "count": 1,
@@ -49,11 +49,12 @@
               }
             },
             {
+              "id": "003bc047-1c45-45e1-8ed6-e7efd629f7d8",
               "count": 1,
               "front": {
                 "Name": "02 Guide 2-1.png",
-                "ID": "5E8BAB6DF6626031DFA40CEE1E7467C7",
-                "SourceID": "E2550D4993E21C7EE14FC7BDCAAAE013FC2B32E8",
+                "ID": "60662D445C69F8C284D79F0BF1977A66",
+                "SourceID": "1723612F92D6A36AE3B3739195C0C287E22659C9",
                 "Exp": "png",
                 "Width": 826,
                 "Height": 1126
@@ -983,9 +984,41 @@
           "code": "C380050185D1C1AF"
         }
       ]
+    },
+    {
+      "name": "Fixes if printed before 20 Nov 2024 (see changelog)",
+      "parts": [
+        {
+          "name": "Updated chaos bag",
+          "enabled": false,
+          "cards": [
+            {
+              "id": "003bc047-1c45-45e1-8ed6-e7efd629f7d8",
+              "count": 1,
+              "front": {
+                "Name": "Valdemar 02 Guide 2-1.png",
+                "ID": "60662D445C69F8C284D79F0BF1977A66",
+                "SourceID": "1723612F92D6A36AE3B3739195C0C287E22659C9",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "Valedmar 02 Guide 2-2.png",
+                "ID": "709AE84B4CEC5C5F7C2927B31EB634F6",
+                "SourceID": "A993C8E8403C6644721CA17AE214CDBAF3FBE019",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
     }
   ],
   "created": "2023-03-18T04:45:26.688Z",
-  "updated": "2023-08-13T20:43:40.204Z",
+  "updated": "2024-11-19T20:43:40.204Z",
   "hash": "06c27816f4c7cf640cd608f1eee8517221101e213fa045292b48810d1f1671f8"
 }
