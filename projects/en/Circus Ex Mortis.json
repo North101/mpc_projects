@@ -7,7 +7,7 @@
   "name": "Circus Ex Mortis",
   "description": "The New Moon Circus has come to Arkham, offering fun and wonder for all! But when Minnie Klein of the Arkham Advertiser comes to you with the circus’ checkered past, you are thrown into the secrets and horrors behind the curtain! Unravel the mystery in this 8-scenario campaign with the help of 5 circus-themed investigators and nearly 400 player cards. Plus printable Moon and Tension tokens for use with the campaign and player expansion.",
   "artist": "Alex Kharenko",
-  "info": "Tokens will be printed on normal cardstock, and are double-sided although we can't guarantee alignment. You could also print two copies of each and glue to cardboard. Moon Tokens require a 1\" circle punch and Tension tokens a 1/2\" punch or can be cut by hand.",
+  "info": "Tokens will be printed on normal cardstock, and are double-sided although we can’t guarantee alignment. By default you get two copies of each set so you could glue one image on each side of a cardboard circle. Moon Tokens require a 1\" circle punch and Tension tokens a 1/2\" punch or can be cut by hand.",
   "website": "https://mysteriouschanting.wordpress.com/2023/08/21/circus-ex-mortis-campaign-and-player-expansion/",
   "cardsLink": null,
   "scenarioCount": 8,
@@ -5345,9 +5345,9 @@
           "cards": [
             {
               "id": "b03f4fae-b562-4c88-9fc7-f3faa129d62c",
-              "count": 1,
+              "count": 2,
               "front": {
-                "Name": "Moon Tokens-1.png",
+                "Name": "Moon Tokens-x2-1.png",
                 "ID": "F52755CD2B7F141FF218FBEBF0F51D1E",
                 "SourceID": "C2146BE7BE76E675DE01FD55E82F449D0517607D",
                 "Exp": "png",
@@ -5355,7 +5355,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "Moon Tokens-2.png",
+                "Name": "Moon Tokens-x2-2.png",
                 "ID": "F52755CD2B7F141FF218FBEBF0F51D1E",
                 "SourceID": "C2146BE7BE76E675DE01FD55E82F449D0517607D",
                 "Exp": "png",
@@ -9694,9 +9694,9 @@
           "cards": [
             {
               "id": "3872c413-1172-43cd-811c-bb505d855a1b",
-              "count": 1,
+              "count": 2,
               "front": {
-                "Name": "Tension Tokens-1.png",
+                "Name": "Tension Tokens-x2-1.png",
                 "ID": "92DC05058EA0D686896AC1F4FBF0B247",
                 "SourceID": "FD6B42B024768E065ACD6FEA4A979C24C84FA8EF",
                 "Exp": "png",
@@ -9704,7 +9704,7 @@
                 "Height": 1122
               },
               "back": {
-                "Name": "Tension Tokens-2.png",
+                "Name": "Tension Tokens-x2-2.png",
                 "ID": "92DC05058EA0D686896AC1F4FBF0B247",
                 "SourceID": "FD6B42B024768E065ACD6FEA4A979C24C84FA8EF",
                 "Exp": "png",
