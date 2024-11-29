@@ -1,0 +1,607 @@
+{
+  "version": 5,
+  "projectIds": {
+    "EBF31F3F0393865A3B4F615DFAC6FF119AE635B53BD4234C2BF02C23190D83292D087C0EFE908DA2": "Hellboy",
+    "94CFC58C6C53CB72ECCAFC5A0D4180096C62F44BBC2B8113E679B613F671D0A3E0010FFC3BDBFB55": "Hellboy Minicards"
+  },
+  "name": "Hellboy",
+  "description": "Is this a time shift? A dimensional overlap? Magic gone wrong? Whatever the reason, Hellboy and the other eclectic members of the Bureau of Paranormal Research and Defense find themselves in Arkham in the 1920’s. With no shortage of evil lurking, the B.P.R.D. agents, based on characters from Dark Horse Comics’ Hellboy, may be the only ones equipped to stop it!.",
+  "artist": "Mike Mignola",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2022/06/05/hellboy-investigators/",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 6,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "Hellboy Investigators",
+          "cards": [
+            {
+              "id": "6ffaeb5c-b357-4b6d-87a6-6eb9a1c9b302",
+              "count": 1,
+              "front": {
+                "Name": "001-Hellboy-1.png",
+                "ID": "A1B8D62B6BAF0A705BD5217C3C6C7061",
+                "SourceID": "8B676B5129EDDEA74A631BE8B2BB5F226B32D074",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Hellboy-2.png",
+                "ID": "8506E2F48E0F090DB0C6C403873525E3",
+                "SourceID": "566CA3D927319ECFAD45632E951D70E0ACA0277D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f73c24d5-6081-4504-9b08-5359554f9d81",
+              "count": 1,
+              "front": {
+                "Name": "002-Hellboys Pistol-1.png",
+                "ID": "2F9B52E782ACEB37CB1AF4809594A1C1",
+                "SourceID": "A484C239674F3BD23DA0E1ED7C2955D0FA7185FA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b478d680-2028-4065-954b-39ab9422319e",
+              "count": 1,
+              "front": {
+                "Name": "003-The Right Hand of Doom-1.png",
+                "ID": "90841659CB95D513015B384E59BAF797",
+                "SourceID": "F0BB32B163490F3CC789922402BDC3B871DC2256",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "02f3a903-5444-4820-9b5a-0121f9715777",
+              "count": 1,
+              "front": {
+                "Name": "004-Apocalyptic Birthright-1.png",
+                "ID": "835F512F558ED648DC8D00690B6A95C9",
+                "SourceID": "B34B7284E5BB6BD09F1DFF79EC557497A205EE42",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "69a8b036-5d0a-4520-8d74-fd6a2a03c4d3",
+              "count": 1,
+              "front": {
+                "Name": "005-Johann Kraus-1.png",
+                "ID": "7262546CC1D4044F97FA522B91236E24",
+                "SourceID": "551BB001A38FD25003FD8D3DCE0E657389C55D85",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "005-Johann Kraus-2.png",
+                "ID": "A1BE47A18C017BA20D7CD4F6CD70638C",
+                "SourceID": "76C4B4A833425A46DF168BA3B173BE15D474DB9E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "6a1d0a1b-36ec-4c9d-9d95-82cd1390582c",
+              "count": 1,
+              "front": {
+                "Name": "006-Ectoplasty-1.png",
+                "ID": "9B89F20B23BF6822EFCA34C6A5BFFAA1",
+                "SourceID": "943302884F0DFD43F33997778BFE793A5DB9D0E3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "62201a85-b14d-4bb4-8672-68315521a360",
+              "count": 1,
+              "front": {
+                "Name": "007-Séance-1.png",
+                "ID": "18B555119E19D3EBE9A4825202C9098A",
+                "SourceID": "4AB8961EF04CF9FFA4B30D8D2258D365049DD946",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "3444f781-5a3f-4d8d-b533-49e302bcdca3",
+              "count": 1,
+              "front": {
+                "Name": "008-Etheric Feedback-1.png",
+                "ID": "CFEAECD0A0F3E4EF71172C09822E7C2D",
+                "SourceID": "096796C76A3B618678350A5D7DCBE4359C7EF624",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "40da78ab-9337-4a80-b4d6-429c404834af",
+              "count": 1,
+              "front": {
+                "Name": "009-Restless Dead-1.png",
+                "ID": "2908AE083013DF6C3A88113374212782",
+                "SourceID": "ECCB6A15A6A75453130E55F75CCC8220C30DDFCC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "be2442e2-21a8-4c88-be32-a34e9f6d76f0",
+              "count": 1,
+              "front": {
+                "Name": "010-Abraham Sapien-1.png",
+                "ID": "4A5ED38BDCF35094A60E2D8721EEE107",
+                "SourceID": "418AEF498E18A196BB61A00B0120C05CE34B5243",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "010-Abraham Sapien-2.png",
+                "ID": "9CB16DE39D2AD38AD749B8CACE60F055",
+                "SourceID": "EE6070B482786DDE35692051DD7BC3669D794411",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "87084cff-a57c-4eef-ac9d-4d148fee57a2",
+              "count": 1,
+              "front": {
+                "Name": "011-Abes Harpoon-1.png",
+                "ID": "1C6E47D8C5B33DE2AC0BF981F74A5C30",
+                "SourceID": "56C6FF6201659BBC3862E2D196B343D3BD111E35",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2843af5f-03e6-4757-81a5-62578dcd254d",
+              "count": 1,
+              "front": {
+                "Name": "012-Autophobia-1.png",
+                "ID": "81686F5E47B3BC8DF521065B6FBC5A8D",
+                "SourceID": "3BC31BF12C668BDF1B1C88EFCD9F98855591DF40",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d9f10244-a8c8-426e-bee9-813157268fbb",
+              "count": 1,
+              "front": {
+                "Name": "013-Elizabeth Sherman-1.png",
+                "ID": "C1E6C78C462452BC66AF6897FC6F736E",
+                "SourceID": "9C6F0D16AF7C3CB10613675D867F28976AFE6BC1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "013-Elizabeth Sherman-2.png",
+                "ID": "A085BE8010AF49DA7E303B341DF3901A",
+                "SourceID": "548FF3395FC9396080C11FAC40299476F321F267",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "67fc4c9f-c7d1-486d-945d-726a338dbf9f",
+              "count": 1,
+              "front": {
+                "Name": "014-The Fire Within-1.png",
+                "ID": "299A76BE2E8F6C31DC9F48FF86E2E8E3",
+                "SourceID": "40FB78EEE16C72E24BF968BBE85F71FF89C73AFA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "014-The Fire Within-2.png",
+                "ID": "49FA1DEF65EBC8D0FECDDFDCCBB15FD3",
+                "SourceID": "4C09B5E6099F34500F02D2FA31790119CA05224E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "d53f7bdc-4d66-47c2-ad99-efdf99202230",
+              "count": 1,
+              "front": {
+                "Name": "015-Conflagration-1.png",
+                "ID": "4BF354354FD7AD67CB82091D93771FC9",
+                "SourceID": "4E365564D9C00EF6D976EED4DD72A60F21BC08BA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "32d24057-c188-4d77-9c56-7e9771291799",
+              "count": 1,
+              "front": {
+                "Name": "016-Embrace the Flames-1.png",
+                "ID": "2444A61C61BD3A9514A24BCB8E74A734",
+                "SourceID": "2C7D55068D37D2085BA4CFC24DBB337C5B2DAEA1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "43f4fa6b-6c8c-4be7-b809-05a51ebd057f",
+              "count": 1,
+              "front": {
+                "Name": "017-Roger-1.png",
+                "ID": "FB3E9EC1C6A9D6A120449D71BE918D9A",
+                "SourceID": "C76AF046A569E903173E9C12FB7BC512A607AAC0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "017-Roger-2.png",
+                "ID": "B65B93E125C472A1D6915D46632128AC",
+                "SourceID": "EF16EC70E975A3013E6627453FB19AF215483819",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "a672ec91-7c74-412c-80b6-1bf4ff460a5b",
+              "count": 2,
+              "front": {
+                "Name": "018-Adaptive Learning-x2-1.png",
+                "ID": "60C8E6D1D95E8F389ADC13388B7422ED",
+                "SourceID": "B107575BDCC991171D9910AC2598DB11AC3AF312",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "be0254bd-7c74-44ba-a9e4-32e5ffdaf20f",
+              "count": 1,
+              "front": {
+                "Name": "019-Inhuman Creation-1.png",
+                "ID": "E1841FD10EAD0ED195EA2B964AF8C5E7",
+                "SourceID": "944B968609FFE47CF7038BD06A151695816CF433",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "bd13d08d-1c0b-42e0-89a0-d7145a278d0a",
+              "count": 1,
+              "front": {
+                "Name": "020-The Lobster-1.png",
+                "ID": "7B1C5FD522DDE1964910024466CC9120",
+                "SourceID": "CC8C3872CB4269E2E9C0255389F8575C67AD2D5C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "020-The Lobster-2.png",
+                "ID": "9BF0A278B61A8903A7558FC0B3ACE569",
+                "SourceID": "7978B61053030A63B732B453B82BE3630E107427",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "e4fdd063-08e6-4183-ad69-b88152718f71",
+              "count": 1,
+              "front": {
+                "Name": "021-The Claws Justice-1.png",
+                "ID": "C7EDDA9F5083EDE1C8C89DB75B429F01",
+                "SourceID": "9F4EB8B502BD65577A0DA64AA43DCAD24D3C6005",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "126058ef-74bf-405b-9415-3d8f6c58ac93",
+              "count": 1,
+              "front": {
+                "Name": "022-Endless Struggle-1.png",
+                "ID": "F9BD3F905175500225509B7068F07B42",
+                "SourceID": "1A0E2FDC82E7ED0D3119BE328F598806F8182167",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Hellboy Mini-Sized Minicards",
+          "cards": [
+            {
+              "id": "414e3b44-37e4-4345-9e16-7c325c87cc9d",
+              "count": 1,
+              "front": {
+                "Name": "mini-001-Hellboy-1.png",
+                "ID": "357311231DEAC2278E2665ABBDF47BAA",
+                "SourceID": "FD9C7BE141A6298A32B23EAA1B2F3FAE4187A903",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-001-Hellboy-2.png",
+                "ID": "F34CA3B918028F2B3B197414AB38FE78",
+                "SourceID": "9F98F77EDD4FAE562797BF23A60B6EF0A5FCDEE9",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "cd4d84fe-ef64-4e60-9d90-f0aa39ce6e68",
+              "count": 1,
+              "front": {
+                "Name": "mini-005-Johann Kraus-1.png",
+                "ID": "034320076025DEEC11E47DF94830A1EA",
+                "SourceID": "36A6CA716D9EB9A83DA3D38369CF4256CD1C0D16",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-005-Johann Kraus-2.png",
+                "ID": "FF7E5111E1DA55AF44981A670185768A",
+                "SourceID": "7C512CB218CBFCA3719712AEC2C07BE30B45FA92",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "5e25a14c-2657-47cc-948f-5a60eb3c7397",
+              "count": 1,
+              "front": {
+                "Name": "mini-010-Abraham Sapien-1.png",
+                "ID": "1D3B78B56F1656BA30FFAE0A3D0753D9",
+                "SourceID": "B51B25E2E671BA2FDBEDFDB170F0A31D2DDCBC32",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-010-Abraham Sapien-2.png",
+                "ID": "12E759308B9FCF34350ED1D4A401531B",
+                "SourceID": "66CE3B558B20DE6B418E68DB365A2A8EBE6D27EB",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "45adf77c-7d00-4dc6-b6dd-3251a56f71da",
+              "count": 1,
+              "front": {
+                "Name": "mini-013-Elizabeth Sherman-1.png",
+                "ID": "6F717C77499E355BDA487E3724C94A4F",
+                "SourceID": "C4F14CA5C19380BCF92ADA0128CA1D87E859F6AE",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-013-Elizabeth Sherman-2.png",
+                "ID": "3F5FE82AEC1A3D2DDE898A53EEBF2669",
+                "SourceID": "2B91B843FA7990151BB0A1886D062A742130A278",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "0428ec68-4524-4fa8-a00f-42994a8165da",
+              "count": 1,
+              "front": {
+                "Name": "mini-017-Roger-1.png",
+                "ID": "3E6726718DFB22D6722FB5416ECF5AC6",
+                "SourceID": "2DF01E59B2A9CDA40F7CE70767E3E50A5C5D112D",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-017-Roger-2.png",
+                "ID": "9331D106BBF6D46C74B4D6880EE49FE4",
+                "SourceID": "A9FAD41DEB4B63D3A4C8C4D1E2C94B0FE9DD03D4",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "461837a2-25a8-4648-a762-dcfdaf277764",
+              "count": 1,
+              "front": {
+                "Name": "mini-020-The Lobster-1.png",
+                "ID": "A3F5287B15F193FD7A43CB9CEDEA3354",
+                "SourceID": "B99580A5FE40E7689B92D8A88470707D6B76C09C",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-020-The Lobster-2.png",
+                "ID": "166C799117715925D89080BBCD6E0ED2",
+                "SourceID": "F761D1A6484A84F324933177CA19F8D6C67FEDA7",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    }
+  ],
+  "created": "2024-11-280T11:14:28.754Z",
+  "updated": "2024-11-280T11:14:28.754Z",
+  "hash": "cceabc1d46354b70a27079a6e888bdefa54217bc2e21a31998de349262bbaa00"
+}

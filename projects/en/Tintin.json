@@ -1,0 +1,207 @@
+{
+  "version": 5,
+  "projectIds": {
+    "2CD0DB7934C0FA8EAE3C276785427D22BD912249F52BABD78AD5C0499CF73B6328D47F7D1FC1B3A4": "Tintin",
+    "9C9957E83F283EB633BB137015E9B49236B8354E34EDDB283F1DC9755903E23BB0719BE309C302F4": "Tintin Minicards"
+  },
+  "name": "Tintin & Capatin Haddock",
+  "description": "When strange events make headlines, you can ensure that Tintin will be close at hand with his own investigations, accompanied by his friend and fellow adventurer Captain Haddock! Drawn to Arkham by bizarre happenings and whispers of danger, the Belgian duo will stop at nothing to reveal the truth and avert disaster.",
+  "artist": "Weta Digital",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2022/06/05/tintin-captain-haddock-investigators/",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 2,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "Tintin Investigators",
+          "cards": [
+            {
+              "id": "b96381af-0e65-460c-b6c5-b3a13ba16573",
+              "count": 1,
+              "front": {
+                "Name": "001-Tintin-1.png",
+                "ID": "E0FB2BDB55912F2C847014C57AFD5974",
+                "SourceID": "2E0FDC2FB27FE9D9C85C3A0C8FCD957C230A4AA1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Tintin-2.png",
+                "ID": "B4A4B953B9107314860EA666D88D89FD",
+                "SourceID": "0903BF172FF5544A1711B2DE1921357CAC6C34C6",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "61055be5-a6ab-4d3d-8e32-d706c375cbce",
+              "count": 1,
+              "front": {
+                "Name": "002-Snowy-1.png",
+                "ID": "946478DCA8F59A9E6E8DB27041DBF136",
+                "SourceID": "54E86D444083CF39E27907AAECDBFD0864B8296A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cd13e6d0-d0bb-4f59-aae9-3a55d1d07222",
+              "count": 1,
+              "front": {
+                "Name": "003-In Over Your Head-1.png",
+                "ID": "02BECF1B900B77CD69687B8419E0B79E",
+                "SourceID": "6A801286746902F3D456263BD1B039246E38E698",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "a7ef64b6-e1a6-4654-8697-466aac176263",
+              "count": 1,
+              "front": {
+                "Name": "004-Archibald Haddock-1.png",
+                "ID": "B0DA2FAA1C22F70E7139B04D96E10D4C",
+                "SourceID": "1E5521641975FCFF323ACE9587EF3B321D3CEE30",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "004-Archibald Haddock-2.png",
+                "ID": "C03330FE37FDE395452465EF10120DB6",
+                "SourceID": "5B935AA9A2C8A6DE354D6B04698F088A20AA1F0A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "9239dd90-fbdb-40bd-a760-6fd59077ea13",
+              "count": 1,
+              "front": {
+                "Name": "005-Nestor-1.png",
+                "ID": "049DE5C9AD02A197EEEFEC53DE7CD227",
+                "SourceID": "17E3F000D467DCA299F34D2004EE992BAC9C665F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "90b6c579-ce0a-45ed-9735-5485224ff008",
+              "count": 1,
+              "front": {
+                "Name": "006-Mood Swings-1.png",
+                "ID": "80449B8CB5E7B67F08A64F3F0139143B",
+                "SourceID": "473AB5B9EDCDB3DDF0871F3747939DD49CAB25A5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Tintin Mini-Sized Minicards",
+          "cards": [
+            {
+              "id": "e1080932-8b38-4497-9c67-41c2fff7d8ec",
+              "count": 1,
+              "front": {
+                "Name": "mini-001-Tintin-1.png",
+                "ID": "206D8233AEAA7058BC49825D8C8A8A40",
+                "SourceID": "47B8BBEDDB0EFCC32B6BD87698A8B15AB23B0E6D",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-001-Tintin-2.png",
+                "ID": "49C7B17CD8C9E023AADB4D1E9A7686A6",
+                "SourceID": "5CF43104168FD7D4EB2BD8E82B30C04667527097",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "c548f8e3-b111-43ef-8b97-2209226b5111",
+              "count": 1,
+              "front": {
+                "Name": "mini-004-Archibald Haddock-1.png",
+                "ID": "BDD6A05E034A90B5767FFC750872D879",
+                "SourceID": "B60A4CB01E561B65F769D149D7AC3E5E9A4827AE",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-004-Archibald Haddock-2.png",
+                "ID": "41BC2D14F72C97E4478F4C9285373440",
+                "SourceID": "EFA89D4124FB2C95353A12939DBCDBD8452B3591",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    }
+  ],
+  "created": "2024-11-280T09:53:28.754Z",
+  "updated": "2024-11-280T09:53:28.754Z",
+  "hash": "3230bc1d46354b70a27079a6e912bdefa54217bc2e21a31998de349262bb98ef"
+}

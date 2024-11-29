@@ -1,0 +1,147 @@
+{
+  "version": 5,
+  "projectIds": {
+    "476E1752FBF8505B7D38565414A2E76A056B360993CE81191FE15BA5BDE3FCE451E2038E5892B6F9": "Hercule Poirot",
+    "FDAB92C633011758BDE627BC5619FAFA919DAF8B4B3D16D4ED7FA1DF0E86AA53C18733A70D8E3AB6": "Poirot Minicard"
+  },
+  "name": "Hercule Poirot",
+  "description": "The inexplicable troubles of Arkham have caught the attention of the famous detective, Hercule Poirot! Keen to pit his mind against the supposedly impossible, the Belgian genius is ready for the unknown.",
+  "artist": "Pavel Mamkin",
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2022/06/05/hercule-poirot-investigator/",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 1,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "Hercule Poirot Investigator",
+          "cards": [
+            {
+              "id": "72751e4d-189d-4f3f-a8d6-b9db37e1fcb5",
+              "count": 1,
+              "front": {
+                "Name": "001-Hercule Poirot-1.png",
+                "ID": "3CACFA9209D3B7B91C7D0887A600D820",
+                "SourceID": "5C0020C24FF937782A846F9DA97A1CFEF75AED71",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Hercule Poirot-2.png",
+                "ID": "69CE446CEABFE312CD668042D322CDE7",
+                "SourceID": "CAF749FDC34D08A89EBD51E6CDE66BFE59CA5543",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "ffdb5513-1948-4602-8ef4-c5084e35681e",
+              "count": 1,
+              "front": {
+                "Name": "002-Arthur Hastings-1.png",
+                "ID": "7AF23C779B5A729FF2F47415FA42E678",
+                "SourceID": "C906969FB8F98A313514A4A6F867BBA0F5A78BC7",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "0f5943d9-503e-4183-95dc-eb2b75fb8a0b",
+              "count": 1,
+              "front": {
+                "Name": "003-Little Grey Cells-1.png",
+                "ID": "F8F2A2CE951EF8CAC814FDFEC360E631",
+                "SourceID": "1851E002BD1AC6AE0DB44CB143002B0919AAF795",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e3b36008-07c5-45c1-9035-3b521bceb408",
+              "count": 1,
+              "front": {
+                "Name": "004-Compulsive Behaviour-1.png",
+                "ID": "43CE50512767F95215A2E60F4FA028B4",
+                "SourceID": "139711077694199FC15498C1DB71CF09C2A5348F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "ACF5C21B79E31C80E298F513A752A3EE",
+                "SourceID": "5303F8BB1C0D1707F4B60413A29A8DBC84EDAEE1",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Poirot Mini-Sized Minicard",
+          "cards": [
+            {
+              "id": "61202f67-b46e-45b3-b0d5-5d9ae454ec1a",
+              "count": 1,
+              "front": {
+                "Name": "mini-001-Hercule Poirot-1.png",
+                "ID": "2583C7369F027F6895127CE1565D065C",
+                "SourceID": "13A1AA9D01D3EBDB4495CDAF5B9C87F3688031F4",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini-001-Hercule Poirot-2.png",
+                "ID": "BD3072BC69626D01BBAB62266E8F499B",
+                "SourceID": "25E9C49A2E12CBC61A5A2A93C39511F7EA6AF6A8",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    }
+  ],
+  "created": "2024-11-280T09:11:28.754Z",
+  "updated": "2024-11-280T09:11:28.754Z",
+  "hash": "9230bcbc46354b70a27079a6e912bdefa54217bc2e21a319985f239262bb98ed"
+}
