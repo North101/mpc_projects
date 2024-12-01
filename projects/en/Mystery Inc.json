@@ -1,0 +1,386 @@
+{
+  "version": 5,
+  "projectIds": {
+    "B08F9F813A1A0942A702874A689530E4373F61622F44819A80CDDE97286294027A9046C19F20254E": "Mystery Inc"
+  },
+  "name": "Mystery, Inc.",
+  "description": "Jinkies! Scooby Doo and the gang from Mystery, Inc. are taking their investigations to Arkham. Is that just a crotchety old landlord in a mask, or could that actually be Nyarlathotep? Ruh-roh.",
+  "artist": null,
+  "info": null,
+  "website": "https://boardgamegeek.com/thread/3402873/sharing-my-scooby-doo-investigators",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 4,
+  "authors": [
+    "JesterJayJoker"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "Mystery, Inc. Investigators",
+          "cards": [
+            {
+              "id": "fae56a9c-2725-4c5f-af9a-256b6c56e5ec",
+              "count": 1,
+              "front": {
+                "Name": "001-Shaggy Rogers-1.png",
+                "ID": "7CF0690F18A6AE6F498D86C230C74BE7",
+                "SourceID": "C8B5BE5EA6CB48624FDDEBF39480D2E41BF87BCC",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Shaggy Rogers-2.png",
+                "ID": "201784F386895EB6630E7DCB87710866",
+                "SourceID": "44E879034229198B3218CA0D4A6B105AB8BC43A2",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "5748a143-c4dc-4973-8fa5-48ebfec25029",
+              "count": 1,
+              "front": {
+                "Name": "002-Scooby-Doo-1.png",
+                "ID": "630609757A9C37A6B11B120A50736C3F",
+                "SourceID": "D914AA835B1B4FA57F244D0101239AC39B6D349E",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "445a2d9f-fab5-4604-b330-b6b523ae3caa",
+              "count": 1,
+              "front": {
+                "Name": "003-Like Zoinks-1.png",
+                "ID": "B28CC5C7F79C649D6642ECC11B791B03",
+                "SourceID": "1B3CF1DC57FBF675D71ABD05489ED5DB77C1CA32",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d63a5e29-8c2b-48db-a26c-29f85f83ba2f",
+              "count": 1,
+              "front": {
+                "Name": "004-Fred Jones-1.png",
+                "ID": "ADAABADEACB23404B78DF6AF972E2D4B",
+                "SourceID": "2D06FC4DA60364462D2E71B40B2D616366D98890",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "004-Fred Jones-2.png",
+                "ID": "55F28978BA16498A23343A261BCB7FF2",
+                "SourceID": "6EF63BE355A8ECB8B086286DA1B830FEFBFC7E3C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "a75e1473-a544-411b-9dbc-5946bac326e2",
+              "count": 1,
+              "front": {
+                "Name": "005-Trap Blueprints-1.png",
+                "ID": "951CFE503219BC5C805600C6FD7B0F56",
+                "SourceID": "804C5DCF70BE4E54D62021372A556BB7BCCD643D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "cbdce612-f9bf-4a67-a90a-7c99d6d24892",
+              "count": 1,
+              "front": {
+                "Name": "006-Lets Split Up Gang-1.png",
+                "ID": "C1D0CD30E28B550A2F1C1767CB5B9FA1",
+                "SourceID": "8D4437D029EC6718642836FE4A48B2FF521CF3E3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "ac17d173-17d0-48d5-8084-bb801a902803",
+              "count": 1,
+              "front": {
+                "Name": "007-Velma Dinkley-1.png",
+                "ID": "6829B5BA0F636F6E04E663AAA33FF4DB",
+                "SourceID": "24AE84F1184A928BEB885E6D6FE48B53A206F370",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "007-Velma Dinkley-2.png",
+                "ID": "06C35138D3CFA00740557C6901879504",
+                "SourceID": "B7F2A4BBCD10ABC2DA9F4103FF2CA1FE9D7914EF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "5518e5b1-c0a6-4ced-99b8-c033b3fcd127",
+              "count": 1,
+              "front": {
+                "Name": "008-Jinkies-1.png",
+                "ID": "548015EC2C80E57D03F03F066F8636D6",
+                "SourceID": "AD18162644BF9C15CB36ECD8BA3FE415B34FEB9A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "4bb940c4-bbac-44e0-91c2-75541ab6d161",
+              "count": 1,
+              "front": {
+                "Name": "009-Lost Glasses-1.png",
+                "ID": "E511AE32345F1C2C49068137FE3C8F11",
+                "SourceID": "ECF03601AB3135C5FB5C144BCD66C36F4198A8F5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "88515e6f-9e3d-49b2-8a3a-bad72f815570",
+              "count": 1,
+              "front": {
+                "Name": "010-Daphne Blake-1.png",
+                "ID": "E78328B1D0123287F81F009FEF4635A7",
+                "SourceID": "B3B9686A5F1C383FB8EE79BC5AF95526E8CA9CE8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "010-Daphne Blake-2.png",
+                "ID": "A0834995404F86B084C2BC95ABAFB05B",
+                "SourceID": "6071BEFD7586A599AF56C19259C05537EE85ECB8",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f214eaea-3f86-444a-b9f0-7e667891f29c",
+              "count": 1,
+              "front": {
+                "Name": "011-Fashion Sense-1.png",
+                "ID": "1B496538AC7C089153BC72C2032E1C66",
+                "SourceID": "69BAFA961619FF9A2F99B333B486E60BF7E80812",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "93c61207-9384-4082-b8f6-31d8662d000a",
+              "count": 1,
+              "front": {
+                "Name": "012-Martial Arts Trained-1.png",
+                "ID": "6A86B63A4561FDC756E74C0ACA138C59",
+                "SourceID": "FC407C7E30A983DFDF4C3FF3F740A7916A6139C5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b8c5a037-e590-4b2c-975b-a67a7d708455",
+              "count": 1,
+              "front": {
+                "Name": "013-Damsel in Distress-1.png",
+                "ID": "3C175AC3F29205E2592CDC24865126CB",
+                "SourceID": "FCD0BEDD362D6F4102908795160B220AF285A380",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "Mystery, Inc. minis for cropping",
+          "cards": [
+            {
+              "id": "0957c9fa-aa44-4716-8b7d-661a8a2ead56",
+              "count": 1,
+              "front": {
+                "Name": "mini 001-Shaggy Rogers-1.png",
+                "ID": "F75896FE8DAB496610DCCCE7DFD4EC4E",
+                "SourceID": "930FD52CBCAEF417300591B0E88E29BD6A912DC7",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "mini 001-Shaggy Rogers-2.png",
+                "ID": "4E468CB2C61334050B7834830B271008",
+                "SourceID": "49D6A18E9A5AF12963F3F7AE68F6A8C68B48A432",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "19256784-52d7-4293-a0fe-5f56558f7240",
+              "count": 1,
+              "front": {
+                "Name": "mini 004-Fred Jones-1.png",
+                "ID": "B09022ECC15794BC26475E3C0016994B",
+                "SourceID": "C839F94ECFD64191B510B9DE18E69BB84AC011F5",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "mini 004-Fred Jones-2.png",
+                "ID": "97A5F57924A5C0F83CD9D78DAFE18D75",
+                "SourceID": "A232332F3AFA2763416643A434A6D826152513EC",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "b568aa7e-7223-44bd-9f6f-6a44592158fa",
+              "count": 1,
+              "front": {
+                "Name": "mini 007-Velma Dinkley-1.png",
+                "ID": "9431074B2E3D50BEDE86ACF3C8C11ABC",
+                "SourceID": "65FBD2B738D91C7BD1FAEA2762156F49AFC6D95A",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "mini 007-Velma Dinkley-2.png",
+                "ID": "E186EAE6DD88BAFB7590629DF760853A",
+                "SourceID": "ABFA0B71C06681639A412296948A8B349E7AC9CB",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "126d60cc-2701-446b-92d6-f2b8650019a8",
+              "count": 1,
+              "front": {
+                "Name": "mini 010-Daphne Blake-1.png",
+                "ID": "5F176724B567BD06FED5CCFC2B2625E5",
+                "SourceID": "17826D6AF5E6A6A6D5EF7BB2564CF58F6E158903",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              },
+              "back": {
+                "Name": "mini 010-Daphne Blake-2.png",
+                "ID": "2100C2F9DE6E2AAD9CFDFCF3C8324EC6",
+                "SourceID": "56DFB0752C70CE8AF1CB4752AB26B4203C9F299B",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        }
+      ]
+    }
+  ],
+  "created": "2024-11-300T18:53:48.754Z",
+  "updated": "2024-11-300T18:53:48.754Z",
+  "hash": "117abc1d46354b70a27079a6e666bdefa54217bc2e21a31998de34926289aaff"
+}
