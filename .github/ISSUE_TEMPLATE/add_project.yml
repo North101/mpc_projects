@@ -1,0 +1,49 @@
+name: Add a Project
+about: Request to have a new project added to Inexorable Fate
+title: "[Project Add]: "
+labels: "project"
+projects: "North101/2"
+assignees: []
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author(s)
+  - type: checkboxes
+    attributes:
+      label: Has the project been verified by the creator as finalized and ready for print and play?
+      description: Note that we generally only include finalized projects on Inexorable Fate. But if the project you’re requesting is not yet ready, we’ll try to keep an eye out for it.
+      options:
+        - label: Yes
+        - label: No
+        - label: Not Sure
+  - type: input
+    id: cards-link
+    attributes:
+      label: Link to cards
+  - type: input
+    id: website
+    attributes:
+      label: Link to a web page with more details about this project
+      description: Can be the author’s website, a page on Mysterious Chanting or Arkham Central, or a post on Reddit or BGG
+  - type: checkboxes
+    attributes:
+      label: What’s included in this project?
+      description: Select all that apply
+      options:
+        - label: Campaign
+        - label: Standalone scenario
+        - label: Investigator(s) & signatures
+        - label: Player Cards
+        - label: Add-Ons (utility cards and other extras that don’t fall into one of the above categories)
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: What else should we know about this project?
