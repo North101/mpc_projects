@@ -13,15 +13,27 @@ body:
     id: author
     attributes:
       label: Author(s)
-  - type: checkboxes
+  - type: dropdown
+    id: self-sumbitted
+    attributes:
+      label: Are you the creator of this project?
+      description: It’s fine if you’re not!
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
     id: final
     attributes:
       label: Has the project been verified by the creator as finalized and ready for print and play?
       description: Note that we generally only include finalized projects on Inexorable Fate. But if the project you’re requesting is not yet ready, we’ll try to keep an eye out for it.
       options:
-        - label: Yes
-        - label: No
-        - label: Not Sure
+        - "Yes"
+        - "No"
+        - Not Sure
+    validations:
+      required: true
   - type: input
     id: cards-link
     attributes:
@@ -48,7 +60,6 @@ body:
       label: Additional details
       description: |
         What else should we know about this project?
-        
         If you have a cover image for the project, you can attach it by clicking this area to highlight it and then dragging the image in.
   - type: input
     id: contact
