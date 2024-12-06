@@ -30,8 +30,8 @@ body:
   - type: textarea
     id: bug-ideal
     attributes:
-     label: Expected behavior
-     description: A clear and concise description of what you expected to happen.
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
   - type: textarea
     attributes:
       label: Steps to reproduce the behavior
@@ -51,9 +51,7 @@ body:
     attributes:
       label: Additional context
       description: |
-       Links? References? Screenshots? Anything that will give us more context about the issue you are encountering!
-       
-       Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+        Links? References? Screenshots? Anything that will give us more context about the issue you are encountering!
   - type: input
     id: contact
     attributes:
@@ -61,4 +59,4 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. discord username, email@example.com, etc.
     validations:
-     required: false
+      required: false
