@@ -14,6 +14,7 @@ body:
     attributes:
       label: Author(s)
   - type: checkboxes
+    id: final
     attributes:
       label: Has the project been verified by the creator as finalized and ready for print and play?
       description: Note that we generally only include finalized projects on Inexorable Fate. But if the project you’re requesting is not yet ready, we’ll try to keep an eye out for it.
@@ -31,6 +32,7 @@ body:
       label: Link to a web page with more details about this project
       description: Can be the author’s website, a page on Mysterious Chanting or Arkham Central, or a post on Reddit or BGG
   - type: checkboxes
+    id: tags
     attributes:
       label: What’s included in this project?
       description: Select all that apply
