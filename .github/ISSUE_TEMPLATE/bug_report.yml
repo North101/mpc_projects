@@ -34,8 +34,6 @@ body:
         2. click on ..., 
         3. scroll to ...., 
         4. see an error message that reads ..."
-        ...
-        render: bash
   - type: input
     id: os
     attributes:
