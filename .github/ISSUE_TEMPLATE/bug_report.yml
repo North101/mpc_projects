@@ -1,0 +1,64 @@
+name: Bug report
+description: Something isn't working correctly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: bug
+    attributes:
+      label: Describe the problem.
+      description: A clear and concise description of what the bug is.
+  - type: dropdown
+    id: bug-source
+    attributes:
+      label: Is the bug with the Inexorable Fate website or the MPC Project Helper Chrome extension?
+      options:
+        - Inexorable Fate
+        - Chrome Extension
+  - type: textarea
+    id: bug-repro
+    attributes:
+      label: Steps to reproduce the behavior
+      description: Please be as specific as possible, describing your exact steps in detail.
+      placeholder: e.g. "Go to ..., click on ..., scroll to ...., see an error message that reads ..."
+      value: |
+        1.
+        2.
+        3.
+       ...
+       render: bash
+  - type: textarea
+    id: bug-ideal
+    attributes:
+     label: Expected behavior
+     description: A clear and concise description of what you expected to happen.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce the behavior
+      description: Please be as specific as possible, describing your exact steps in detail.
+  - type: input
+    id: os
+    attributes:
+      label: Device and operating system
+      description: e.g. Mac running MacOS Sonoma, PC running Windows 11, iPhone16 running iOS 18.1, Samsung Galaxy S24 running Android 14, etc.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & version (if known)
+      description: e.g. Chrome 130.1 arm64, Firefox, Safari 18.0, Edge
+  - type: textarea
+    id: bug-addl
+    attributes:
+      label: Additional context
+      description: |
+       Links? References? Screenshots? Anything that will give us more context about the issue you are encountering!
+       
+       Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. discord username, email@example.com, etc.
+    validations:
+     required: false

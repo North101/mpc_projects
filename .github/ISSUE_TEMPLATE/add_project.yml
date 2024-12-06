@@ -1,9 +1,7 @@
 name: Add a Project
-about: Request to have a new project added to Inexorable Fate
+description: Request to have a new project added to Inexorable Fate
 title: "[Project Add]: "
-labels: "project"
-projects: "North101/2"
-assignees: []
+labels: ["project"]
 body:
   - type: input
     id: project-name
@@ -46,4 +44,15 @@ body:
     id: details
     attributes:
       label: Additional details
-      description: What else should we know about this project?
+      description: |
+        What else should we know about this project?
+        
+        If you have a cover image for the project, you can attach it by clicking this area to highlight it and then dragging the image in.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. discord username, email@example.com, etc.
+    validations:
+      required: false
