@@ -13,6 +13,7 @@ export interface Info {
   projectIds: {
     [projectId: string]: string
   }
+  hidden: boolean
   filename: string
   image: string | null
   changelog: string | null

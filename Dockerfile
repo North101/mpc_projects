@@ -1,8 +1,8 @@
-FROM node:lts-alpine3.19 as base
+FROM node:22-alpine3.19 AS base
 
 WORKDIR /app
 
-FROM base as deps
+FROM base AS deps
 
 RUN apk add git
 
@@ -11,24 +11,24 @@ RUN --mount=type=bind,source=package.json,target=package.json \
     --mount=type=cache,target=/root/.yarn \
     yarn install --production --frozen-lockfile
 
-FROM deps as dev_deps
+FROM deps AS dev_deps
 
 RUN --mount=type=bind,source=package.json,target=package.json \
     --mount=type=bind,source=yarn.lock,target=yarn.lock \
     --mount=type=cache,target=/root/.yarn \
     yarn install --frozen-lockfile
 
-FROM dev_deps as build
+FROM dev_deps AS build
 
 COPY . .
 
-RUN yarn run build
+RUN node --run build
 
-FROM base as shared
+FROM base AS shared
 
 COPY package.json .
 
-FROM shared as dev
+FROM shared AS dev
 
 ENV NODE_ENV=development
 
@@ -51,7 +51,7 @@ VOLUME /app/vite.config.server.ts
 
 CMD yarn dev
 
-FROM shared as prod
+FROM shared AS prod
 
 ENV NODE_ENV=production
 
@@ -60,4 +60,4 @@ USER node
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
 
-CMD yarn start
+CMD node --run start

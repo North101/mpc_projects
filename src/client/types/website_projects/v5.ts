@@ -30,4 +30,5 @@ export interface Project {
   created: string
   updated: string
   hash: string
+  hidden?: boolean
 }

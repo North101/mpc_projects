@@ -13,10 +13,11 @@ app.post('/set_cookie', async (req, res) => {
   const { code, cookie } = req.body
   const task = cron.getTasks().get('refreshProjects')
   if (!task || !code || code != process.env.REFRESH_PROJECTS_CODE) {
-    return res.json({
+    res.json({
       success: false,
       error: 'invalid_code',
     })
+    return
   }
 
   updateEnv({
@@ -26,14 +27,16 @@ app.post('/set_cookie', async (req, res) => {
 
   if (await login(config.refreshProjects!.baseUrl, formatCookie(cookie))) {
     task.now()
-    return res.json({
+    res.json({
       success: true,
     })
+    return
   } else {
-    return res.json({
+    res.json({
       success: false,
       error: 'invalid_cookie',
     })
+    return
   }
 })
 
