@@ -29,6 +29,7 @@ body:
     attributes:
       label: Steps to reproduce the behavior
       description: Please be as specific as possible, describing your exact steps in detail.
+      placeholder: e.g. "Go to ..., click on ..., scroll to ...., see an error message that reads ..."
   - type: input
     id: os
     attributes:
