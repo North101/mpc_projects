@@ -12,7 +12,7 @@ const downloadProject = async (project: WebsiteProjects.Info, checked: boolean[]
     parts: file.options.flatMap((option, optionIndex) => {
       return option.parts.filter((_, partIndex) => checked[optionIndex][partIndex]).map(part => ({
         code: part.code,
-        name: `${option.name} - ${part.name}`,
+        name: option.name ? `${option.name} - ${part.name}` : part.name,
         cards: part.cards,
       }))
     }),
