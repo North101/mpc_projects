@@ -14,8 +14,10 @@ export const ProjectsPage = () => {
   }
 
   return (
-    <AppContainer>
-      <FilteredProjectListContainer projects={data ?? []} />
-    </AppContainer>
+    <>
+      <AppContainer>
+        <FilteredProjectListContainer projects={data ?? []} />
+      </AppContainer>
+    </>
   )
 }

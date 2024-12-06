@@ -1,19 +1,22 @@
-import { useState } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import Alert from 'react-bootstrap/Alert'
 import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/esm/Container'
 
-function Announcements() {
-  const [show, setShow] = useState(true);
+interface AlertProps {
+  showAnnouncements: boolean
+  setShowAnnouncements: Dispatch<SetStateAction<boolean>>
+}
+export const Announcements = ({ showAnnouncements = true, setShowAnnouncements }: AlertProps) => {
 
-  if (show) {
+  if (showAnnouncements) {
     return (
-      <Alert variant='info' className='announcements' onClose={() => setShow(false)} dismissible>
-        <h2>Announcements</h2>
-      </Alert>
+      <Container>
+        <Alert className='announcements' onClose={() => setShowAnnouncements(false)} dismissible>
+          <h2>Announcements</h2>
+        </Alert>
+      </Container>
     )
   }
-  return <Button onClick={() => setShow(true)}>Show Alert</Button>;
+  return <Button onClick={() => setShowAnnouncements(true)}>Show Alert</Button>;
 }
-
-
-export default Announcements
