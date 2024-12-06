@@ -1,0 +1,947 @@
+{
+  "version": 5,
+  "projectIds": {
+    "9E997D525F8F143D50E5C2269F08D1BB098732823B50D6ACEFD8272659361EFBE0D9BDE42775F303": "TF2 Investigators",
+    "CCF5BD114A30E61041F43F4C70D7C7C5EA63CF55DA15B8A9FC7CA7F785B74B1AF2117A64EA860286": "TF2 Minicards"
+  },
+  "name": "Team Fortress 2",
+  "description": "This bizarre band of mercenaries from the Valve TF2 game has fought some pretty strange things over the years. The mercs now find themselves in Arkham in the 1920s with weirdness around every corner. The only question on their minds, however, is how much violence is it gonna take to solve these problems?",
+  "artist": null,
+  "info": null,
+  "website": "https://mysteriouschanting.wordpress.com/2022/06/05/team-fortress-2-investigators/",
+  "cardsLink": null,
+  "scenarioCount": 0,
+  "investigatorCount": 10,
+  "authors": [
+    "The Beard"
+  ],
+  "statuses": [
+    "Finished",
+    "Project Available"
+  ],
+  "tags": [
+    "Investigator(s)"
+  ],
+  "options": [
+    {
+      "name": "",
+      "parts": [
+        {
+          "name": "TF2 Investigators",
+          "cards": [
+            {
+              "id": "ef2a40a5-eba6-48fc-b8e2-c1fc371df883",
+              "count": 1,
+              "front": {
+                "Name": "001-Jane Doe-1.png",
+                "ID": "C3D464840C98A3CC423D873DAE787B68",
+                "SourceID": "C4BB7D035612E6704C9BE4A7B9904313A5AC2525",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "001-Jane Doe-2.png",
+                "ID": "D10ED8B1A73C659C0251789694E59F48",
+                "SourceID": "65DB62E6351BC4A6D8013F3CC5553B99F86BB6B0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "cb69298c-e893-4f78-b2a5-af29f8c269a4",
+              "count": 1,
+              "front": {
+                "Name": "002-Rocket Launcher-1.png",
+                "ID": "F25FEEF01EC491F36622CA22B278715C",
+                "SourceID": "15679810F0E624CB51AB53752F0D2CDD0DAC952A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "999fdb78-ed5b-4b21-bce5-46dcf44f4fed",
+              "count": 1,
+              "front": {
+                "Name": "003-Zero Restraint-1.png",
+                "ID": "371B8B2D30528A9448F3D01D09CEC1F7",
+                "SourceID": "087EABDAC141CEE0DCA421032DCCAA7FCA398E49",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2bc03279-2b67-4645-8885-71860796b701",
+              "count": 1,
+              "front": {
+                "Name": "004-Mikhail-1.png",
+                "ID": "34D1577641F706523E15B03F46BAD086",
+                "SourceID": "0B23644BA9E9C60D654113254659A3D439818DAF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "004-Mikhail-2.png",
+                "ID": "1AFB99B60FD4F84D3C5C65C5CA95B82E",
+                "SourceID": "C243FE5F751FD5E10A5511223B25476376FB6A43",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "2c9f445e-444f-4312-8a38-fdb67f16fed0",
+              "count": 1,
+              "front": {
+                "Name": "005-Sasha-1.png",
+                "ID": "539F22354ECE92B0605E993C2A3E916D",
+                "SourceID": "A56F02448D7FBC5BF1835B89B80641DF284E6AB5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "3b131c98-9be3-4256-b4f3-9d3fec3977fc",
+              "count": 1,
+              "front": {
+                "Name": "006-Wasteful-1.png",
+                "ID": "0F355FB1DA5BF5BDDAC320B00E106753",
+                "SourceID": "349E24F531FFD1BCDE4B9921FE787013A8D62BCF",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "9fdeed9a-125d-4e35-be99-5e10b32d4568",
+              "count": 1,
+              "front": {
+                "Name": "007-Dell Conagher-1.png",
+                "ID": "8A606BD0B5AECA8340E08CA128B9B10C",
+                "SourceID": "1F456A7A179779EC0DA7232168AA659E29318302",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "007-Dell Conagher-2.png",
+                "ID": "4F654C4014910436F9198B5BDBD40D4E",
+                "SourceID": "635FD0602615520BC0C534651BF15055C1BBD7AE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "f641e464-c0b8-4962-ac76-e381b1802d1b",
+              "count": 1,
+              "front": {
+                "Name": "008-Engineers Toolbox-1.png",
+                "ID": "2F469EA7E8B818FA2E40DBB259595B2C",
+                "SourceID": "7ADC5C007C15E547DE4ADEC3F9769C91CFCBB131",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d7099801-de11-4ae1-b788-855f2d95cc79",
+              "count": 1,
+              "front": {
+                "Name": "009-Sentry Gun-1.png",
+                "ID": "84A3509DECBEF2C100D27E8D739BE1A0",
+                "SourceID": "4B31A8505D28B00818A2341C1A884E5E723BC252",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "2d4edd91-7ba0-44dd-b09d-a33ac0b04dc7",
+              "count": 1,
+              "front": {
+                "Name": "010-Maniacal Projects-1.png",
+                "ID": "500E8D6EA538D7B9F5BA883ACDD591E2",
+                "SourceID": "9BBCAA8466EE156B20CEB62D53213AB4E4BA3F8D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "a4c78309-5c8e-4040-90f4-e2011edff65f",
+              "count": 1,
+              "front": {
+                "Name": "011-Ms Pauling-1.png",
+                "ID": "28080C78065D6FB93D024FA678C3159E",
+                "SourceID": "F36DA7ECE01103A16A5617E4CA4951AB3AF3390B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "011-Ms Pauling-2.png",
+                "ID": "53A3628CD5091A28719820DD22080C8C",
+                "SourceID": "E2105BFC14516C283BA293E30BC8B2182D794FC5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "2b1308b6-e17b-4957-b47e-b757fd1e5731",
+              "count": 1,
+              "front": {
+                "Name": "012-Contract Work-1.png",
+                "ID": "51330B80F1C6351309B4928037463926",
+                "SourceID": "7891414FD9BDD324C651405F96F1C9255C0262CD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "d07d8777-08f6-4e10-8d3c-74df5cd7b172",
+              "count": 1,
+              "front": {
+                "Name": "013-Overworked-1.png",
+                "ID": "D5CBE856F3983B45C737E1841C60C8A2",
+                "SourceID": "778A826DE62F8A079722F20583EFB43696E6FB9C",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "52a838a9-40c3-4015-b6aa-e870fe2156ad",
+              "count": 1,
+              "front": {
+                "Name": "014-Jeremy-1.png",
+                "ID": "3D3919EC6A1E4F12D278ABFC2A086C4B",
+                "SourceID": "C7AF457C47ED90967309C41A816DCF8930EB7A43",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "014-Jeremy-2.png",
+                "ID": "D95402F5E2BF5507C4A1D1FFE612AD18",
+                "SourceID": "EA3252BEE31D309DB0382F9F7E89EF7709885C3B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "8941ed91-a8fa-4999-a8fd-95bf1ae85177",
+              "count": 1,
+              "front": {
+                "Name": "015-Scattergun-1.png",
+                "ID": "D5C4396C3EA8BC8DD50844F626691970",
+                "SourceID": "4C147ABD15B2BF1397D18D7473C9889C0E036880",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "f1feb5a4-8915-45a5-963f-7ab310d156d5",
+              "count": 1,
+              "front": {
+                "Name": "016-Show-Off-1.png",
+                "ID": "C1834FB37CBA84FF1BABF1DD1476489E",
+                "SourceID": "1F6757FB8CC426F494AE118E36099E656F90E396",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "c8205dec-de22-4a2e-a706-ab4981f3c8ee",
+              "count": 1,
+              "front": {
+                "Name": "017-[Redacted]-1.png",
+                "ID": "DDE4B4BF0120D0D451979F3BF95D8E17",
+                "SourceID": "000942207438A212A8FE5E173CCB472A042B5ACB",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "017-[Redacted]-2.png",
+                "ID": "22FAEA06275E04046C78ECF7FD4EBBA8",
+                "SourceID": "8052EBE3F2747F3BD6D11A83EEFB2A91811047FD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "46167241-acd2-4225-becf-b0623d6b7b43",
+              "count": 1,
+              "front": {
+                "Name": "018-Invisibility Watch-1.png",
+                "ID": "7F516A440AC81B88B0923B31AC102B93",
+                "SourceID": "D025DADE2E39885407CDCE59F5B0C33D51A4211B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "510c9cf0-04e1-420b-834f-cc0da6dc2476",
+              "count": 1,
+              "front": {
+                "Name": "019-High Profile-1.png",
+                "ID": "B438D30474619D47F78C1EE8F9298AF7",
+                "SourceID": "505CC728EF68055AA24B54DCB5B836294A171CC5",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "26f20d8a-6b9c-47ee-bcc5-b85d0a97f241",
+              "count": 1,
+              "front": {
+                "Name": "020-???-1.png",
+                "ID": "9F5DE0F9DCCAEDF66EDA3E8BFC200859",
+                "SourceID": "211951A5645B6B4DC9FA88DE8605C910A5B34041",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "020-???-2.png",
+                "ID": "92959D4D4F4E6AFCCF40733BA5106A82",
+                "SourceID": "91781E6F1CF18213704714EA90E5EB59DF496667",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "1597e380-3d32-4842-b7a8-e302a3482cbc",
+              "count": 1,
+              "front": {
+                "Name": "021-Pyrovision-1.png",
+                "ID": "3855FE49C543E09D939034D82C82DE19",
+                "SourceID": "85062CC40B644E6099106D791F8C7FBB667BD17F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "6cf2a010-e4a0-4618-9ca7-9319b6978615",
+              "count": 1,
+              "front": {
+                "Name": "022-Pyromania-1.png",
+                "ID": "929A93925577AC65546365AFA479DD0F",
+                "SourceID": "FB56003DFF0EA3F5E6B21B3A60E221CFAABA5FA4",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "0964598e-5f6e-4ded-ab25-b232f2119c14",
+              "count": 1,
+              "front": {
+                "Name": "023-Dr Ludwig-1.png",
+                "ID": "871647B7B67F05D6C9EE27E09048C059",
+                "SourceID": "EAC90FAC5334BD69BA6165A96D9D1D327BB8A1AE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "023-Dr Ludwig-2.png",
+                "ID": "AB33D2A51164E10A0C01CA6CAAE1450D",
+                "SourceID": "67B53003490A0795154D06FBA5DAF3BFCBC588C1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "ff04b1f4-e3d6-46a8-a558-cf09f8165fac",
+              "count": 1,
+              "front": {
+                "Name": "024-Kritzkrieg-1.png",
+                "ID": "B14B49F67D39A8EFFFD52E8DD7098DA3",
+                "SourceID": "341610469FA750552B60CB4743AC8CF02046F89F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "5f8e88ff-8ab4-43b4-8f2c-db799da73942",
+              "count": 1,
+              "front": {
+                "Name": "025-Quick Fix-1.png",
+                "ID": "88A0CECE32DD1839D40C5CFB7E822194",
+                "SourceID": "4C2948C00690CAE8F61E947448E6AEF17DB4413B",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "e8ebb4ed-a4b9-47f2-9b16-cd348699cdc5",
+              "count": 1,
+              "front": {
+                "Name": "026-Übercharge-1.png",
+                "ID": "4119AA7EEC91EDE0377B6B50DA2F6E85",
+                "SourceID": "A649A943FFF4A97B4B75025E0FE4CD319B3087EA",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "30e927ee-d8b5-4d9e-87b0-a8115facba1a",
+              "count": 1,
+              "front": {
+                "Name": "027-Devils Due-1.png",
+                "ID": "71EDF21E6D0FD45978CFBE6D3026742E",
+                "SourceID": "11031684D3B7777E6C9F43869E10B42DDDDB0FD3",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "0b3609b8-564b-4513-b122-aa38198b1e5c",
+              "count": 1,
+              "front": {
+                "Name": "028-Tavish DeGroot-1.png",
+                "ID": "697D217CDF62F77488D05F6D6796B3F1",
+                "SourceID": "8FB959D6E58FF17BC7A82D413ABBE40B65A62BAE",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "028-Tavish DeGroot-2.png",
+                "ID": "F559BFC9022CFC8A9C7F729325207ABC",
+                "SourceID": "0E15443A23F6F48532FFC5960D46ED3076AE9AD0",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "5ace5fbf-e907-471d-b6cc-775d306ad81a",
+              "count": 1,
+              "front": {
+                "Name": "029-Munitions Training-1.png",
+                "ID": "CFD8F53EB7A06A4380B13AED98200099",
+                "SourceID": "609CC604AAC91B120BF54016D0DA3BB55FCD2903",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "78dcb295-8309-44c2-b40f-32b5dac5bcd8",
+              "count": 2,
+              "front": {
+                "Name": "030-Stickybombs-x2-1.png",
+                "ID": "A213A9445789B5BE12B983C9149569C1",
+                "SourceID": "B9E7A9E31B7337E1E5417D03731B3DA793B148D1",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "51bb4ff2-5a36-46ba-8cc7-169c5c38cbed",
+              "count": 1,
+              "front": {
+                "Name": "031-Monoculus-1.png",
+                "ID": "9A1A80319DF8DEADC4068BE2D83B6F74",
+                "SourceID": "A59AA290A74FCF047513CA1C4C343C55BDBAC4AD",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "dbf54796-dd55-4049-84a0-4d6743de36d7",
+              "count": 1,
+              "front": {
+                "Name": "032-Mr Mundy-1.png",
+                "ID": "8717445D0E8A70EBAB0A804D53675E32",
+                "SourceID": "315DE09A8C6CEB63D5D59910ACAA307149B3B88D",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "032-Mr Mundy-2.png",
+                "ID": "957CDCF7314500BBD8BA9F6F32B24C14",
+                "SourceID": "6CADD9334A7872E435AB5341C374024429E0B22A",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              }
+            },
+            {
+              "id": "be9e6940-4560-494d-8d71-561fa4eaa1e5",
+              "count": 1,
+              "front": {
+                "Name": "033-Careful Aim-1.png",
+                "ID": "97CB079EE680DEF1AF5D365A3B2A5B38",
+                "SourceID": "54F33D275DE056BE52264668F18BC702E2252A6F",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "560c2aba-02c8-4d21-a8a4-e883f5763ed7",
+              "count": 1,
+              "front": {
+                "Name": "034-Under Pressure-1.png",
+                "ID": "8F07F1EE915B7424A1B5818F4CAF3938",
+                "SourceID": "AFFC9F9C4F3E0D0E664698E395852BAF714EFA60",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            },
+            {
+              "id": "8cdd4f02-bdb3-42f4-a983-a3b23fe5776d",
+              "count": 1,
+              "front": {
+                "Name": "035-Saxton Hale-1.png",
+                "ID": "A40E8C0D2CD7F7C81764ED60C33B9CA2",
+                "SourceID": "2CC23B31BB3720D57B55052C6D522DA3ACDE3934",
+                "Exp": "png",
+                "Width": 826,
+                "Height": 1126
+              },
+              "back": {
+                "Name": "back.png",
+                "ID": "F2C892495D430CF932D00FCC1CD986B8",
+                "SourceID": "537898184A74156EB358A1B62F6812262361519E",
+                "Exp": "png",
+                "Width": 822,
+                "Height": 1122
+              }
+            }
+          ],
+          "code": "C380050185D1C1AF"
+        },
+        {
+          "name": "TF2 mini-sized minicards",
+          "cards": [
+            {
+              "id": "1cff45cf-8476-4233-85b6-33f577bd9135",
+              "count": 1,
+              "front": {
+                "Name": "mini 001-Jane Doe-1.png",
+                "ID": "01FF8CB24B72EB60E87A02312FCB4F4F",
+                "SourceID": "DB04394C349E4389E067B68DD4781B96DD5D2720",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 001-Jane Doe-2.png",
+                "ID": "AD42990C017A99872F5346E43B7E6D47",
+                "SourceID": "BA8D7335E03BB2C28A300F00A7D6ECEF93D48C4D",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "b484ae02-5397-4be7-9240-44904946d0bd",
+              "count": 1,
+              "front": {
+                "Name": "mini 004-Mikhail-1.png",
+                "ID": "BCC5D605D564094D06BCAF098B9893AE",
+                "SourceID": "226E54388746D53DDC1BDE0D2DF1840A77F042B5",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 004-Mikhail-2.png",
+                "ID": "DE1A653517DF398FC9A87A174C8B0668",
+                "SourceID": "FC2DF0F7F354A7D41FDD324FBF011A146BB8C619",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "9e98b434-0d1b-47b7-a391-64b9a725331c",
+              "count": 1,
+              "front": {
+                "Name": "mini 007-Dell Conagher-1.png",
+                "ID": "B82FB8457D0098F416EB03A770C097D8",
+                "SourceID": "ADE5EC707262BB2B583F37DD649068E16249FB20",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 007-Dell Conagher-2.png",
+                "ID": "45CB86B178553AFEF34168DA7D24ADB3",
+                "SourceID": "2338476F052D2D1497BC2553E3CA100D554A7A7A",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "d47782a5-2d26-4be3-be32-84c8ba2dd57f",
+              "count": 1,
+              "front": {
+                "Name": "mini 011-Ms Pauling-1.png",
+                "ID": "85E4159A1F5BCA0483861121EC6BA321",
+                "SourceID": "8CB70AC0C1119BFBAA0209326070E1D138E6F3C2",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 011-Ms Pauling-2.png",
+                "ID": "5FE1A6FE7947B6B385CAE8AB5614BEBB",
+                "SourceID": "2440594B3D9E9DDF0C68B251BDE74B5117299D28",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "e7d99101-e0dd-43d1-a2c2-e0f892cdc9e3",
+              "count": 1,
+              "front": {
+                "Name": "mini 014-Jeremy-1.png",
+                "ID": "9477A867DCA2DFD7E2A80D65F563F5D4",
+                "SourceID": "7F72B9B0777145238FDD23E07C275356ADC7199F",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 014-Jeremy-2.png",
+                "ID": "9096AFA6A2D149FEDAD1C9FAF645F1EF",
+                "SourceID": "7637F4A91847B496C987529C4AF639F9F3E0CE40",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "839eb235-b3d3-40c2-9b2e-db5e9572def4",
+              "count": 1,
+              "front": {
+                "Name": "mini 017-[Redacted]-1.png",
+                "ID": "0A23BA0F20739B5245C395BA5ADBDE97",
+                "SourceID": "E8C7D62B9632B91772E14C6837318CE74061AD7D",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 017-[Redacted]-2.png",
+                "ID": "7E382C4A3069E8B45AEF0314A55240BD",
+                "SourceID": "E3887F2C7B02871902F986F62DD324A91C61C769",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "6d226cab-ed08-4f33-8087-fe360ff31d15",
+              "count": 1,
+              "front": {
+                "Name": "mini 020-???-1.png",
+                "ID": "39C6586552633A9C0D3585CCFD0BC5A9",
+                "SourceID": "7C44546251F859772903BBA9259570B4B73CF9EB",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 020-???-2.png",
+                "ID": "11A43D9754B5894DE9F9D772CD803B8E",
+                "SourceID": "B52E630B2861C071F1E143CB647EC6529D8956BF",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "94ee16d6-90b7-4d47-ad6d-b143080684fa",
+              "count": 1,
+              "front": {
+                "Name": "mini 023-Dr Ludwig-1.png",
+                "ID": "EE979AF29B995BF789575B66935C29E6",
+                "SourceID": "07A632A8DAD492F1239C758477E56E71EC091580",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 023-Dr Ludwig-2.png",
+                "ID": "4CF1C7D70536DDF7631722BA1A96E601",
+                "SourceID": "9C270145774462E9FBEBDED4930A02D7971B1311",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "912c444f-98e2-40c1-83c7-e599f10b014c",
+              "count": 1,
+              "front": {
+                "Name": "mini 028-Tavish DeGroot-1.png",
+                "ID": "5A0E8D1ACD056D752E095CA483713379",
+                "SourceID": "61143073154C55595B1E305071CD74442ED2B4C9",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 028-Tavish DeGroot-2.png",
+                "ID": "65AFAFA5905A26E89EF8AA3D61000C71",
+                "SourceID": "8FB92462D82A93505F91A9CA0C3D0EA16A218870",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            },
+            {
+              "id": "28023116-9e3a-45a7-9c7d-a57c092ad260",
+              "count": 1,
+              "front": {
+                "Name": "mini 032-Mr Mundy-1.png",
+                "ID": "A5EE74F5CE086C49E740F4F0CFF01A2E",
+                "SourceID": "EAA6A99910AE3CCBBE8883B35526BAD2A8CACDC0",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              },
+              "back": {
+                "Name": "mini 032-Mr Mundy-2.png",
+                "ID": "5D2F0700ABA1BE3B49229E937504CA1B",
+                "SourceID": "93B7025C010979C537FAA2668DBCDBE0244125D0",
+                "Exp": "png",
+                "Width": 564,
+                "Height": 826
+              }
+            }
+          ],
+          "code": "CA7C88A094DDABB0"
+        }
+      ]
+    }
+  ],
+  "created": "2024-12-060T12:40:13.754Z",
+  "updated": "2024-12-060T12:40:03.754Z",
+  "hash": "76a1bc1d4635009ba27079a6e888bdefa54217bc2e21a31998de349262f5347e"
+}
