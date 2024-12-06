@@ -18,8 +18,8 @@ body:
       label: Has the project been verified by the creator as finalized and ready for print and play?
       description: Note that we generally only include finalized projects on Inexorable Fate. But if the project you’re requesting is not yet ready, we’ll try to keep an eye out for it.
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
         - label: Not Sure
   - type: input
     id: cards-link
