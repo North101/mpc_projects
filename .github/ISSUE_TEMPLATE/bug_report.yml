@@ -29,7 +29,13 @@ body:
     attributes:
       label: Steps to reproduce the behavior
       description: Please be as specific as possible, describing your exact steps in detail.
-      placeholder: e.g. "Go to ..., click on ..., scroll to ...., see an error message that reads ..."
+      placeholder: |
+        e.g. 1. Go to ..., 
+        2. click on ..., 
+        3. scroll to ...., 
+        4. see an error message that reads ..."
+        ...
+        render: bash
   - type: input
     id: os
     attributes:
