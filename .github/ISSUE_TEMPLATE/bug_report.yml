@@ -19,13 +19,7 @@ body:
     id: bug-repro
     attributes:
       label: Steps to reproduce the behavior
-      description: Please be as specific as possible, describing your exact steps in detail and including the exact text of any error messages.
-      value: |
-        1.
-        2.
-        3.
-       ...
-       render: bash
+      description: Please be as specific as possible, describing your exact steps in detail.
   - type: textarea
     id: bug-ideal
     attributes:
@@ -35,6 +29,11 @@ body:
     attributes:
       label: Steps to reproduce the behavior
       description: Please be as specific as possible, describing your exact steps in detail.
+      placeholder: |
+        e.g. 1. Go to ..., 
+        2. click on ..., 
+        3. scroll to ...., 
+        4. see an error message that reads ..."
   - type: input
     id: os
     attributes:
