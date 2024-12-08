@@ -45,7 +45,7 @@ export const CookiePage = () => {
   }
 
   return (
-    <AppContainer showSearch={false}>
+    <AppContainer showSearch={false} displayAnnouncements={false}>
       <div className='cookie'>
         {result == 'success' && <h2>Success</h2>}
         {result == 'invalid_code' && <h2>Code is invalid</h2>}

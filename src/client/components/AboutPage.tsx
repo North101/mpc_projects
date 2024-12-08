@@ -1,7 +1,7 @@
 import { AppContainer } from './AppContainer'
 
 export const AboutPage = () => (
-  <AppContainer>
+  <AppContainer displayAnnouncements={false}>
     <div className='about tldr w-100 m-auto'>
       <h1 className='display-3'>About Inexorable Fate</h1>
       <p className='lead'>Inexorable Fate is a site to streamline finding and professionally printing custom content for Arkham Horror: The Card Game and official print-and-play AHLCG content released by Fantasy Flight Games (FFG). Using the project files hosted here requires the <a href='https://chrome.google.com/webstore/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko'>MPC Project Helper</a>, a Chrome extension to streamline the creation and sharing of projects on <a href='https://www.makeplayingcards.com/'>MakePlayingCards.com</a> (MPC).</p>

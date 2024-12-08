@@ -5,6 +5,7 @@ import { useProjects } from '../projects'
 import { CircularProgressIndicator } from './CircularProgressIndicator'
 import { Header } from './Header'
 import { ProjectList } from './ProjectList'
+import { Announcements } from './Announcements'
 
 interface SearchProjectListProps {
   search: string
@@ -25,14 +26,18 @@ const SearchProjectList = ({ search }: SearchProjectListProps) => {
 
 export interface AppContainerProps extends React.PropsWithChildren {
   fluid?: string
-  showSearch?: boolean
+  showSearch?: boolean,
+  displayAnnouncements?: boolean,
+  showAnnouncements?: boolean
 }
 
-export const AppContainer = ({ children, fluid, showSearch = true }: AppContainerProps) => {
+export const AppContainer = ({ children, fluid, showSearch = true, displayAnnouncements = true }: AppContainerProps) => {
   const [search, setSearch] = useState<string>('')
+  const [showAnnouncements, setShowAnnouncements] = useState(true)
   return (
     <Stack gap={2} className='d-flex h-100'>
       <Header showSearch={showSearch} setSearch={setSearch} />
+      <Announcements displayAnnouncements={displayAnnouncements} showAnnouncements={showAnnouncements} setShowAnnouncements={setShowAnnouncements} />
       <div className='d-flex flex-fill'>
         <Container fluid={fluid ? 'xxl' : undefined} className='main'>
           {search.trim() ? <SearchProjectList search={search} /> : children}

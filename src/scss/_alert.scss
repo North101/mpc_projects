@@ -1,0 +1,44 @@
+// Alerts
+
+.alert {
+  &.announcements {
+    margin: 0.5rem 0 0;
+    color: #fff;
+    background-image: url('/assets/images/announcements-banner.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include media-breakpoint-up(lg) {
+      background-image: url('/assets/images/megaphone.png'),
+                        url('/assets/images/announcements-banner.png');
+      background-position: top left,
+                           top left;
+      background-size: 400px auto,
+                       cover;
+
+      h2 {
+        @include visually-hidden;
+      }
+    }
+
+    @include media-breakpoint-up(xl) {
+      background-size: 500px auto,
+                        cover;
+    }
+
+    .alert-content {
+      @include media-breakpoint-up(lg) {
+        margin: 5rem 0 0 12rem;
+      }
+
+      @include media-breakpoint-up(xl) {
+        margin: 6rem 0 0 17rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

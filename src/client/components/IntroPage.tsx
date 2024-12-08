@@ -41,7 +41,7 @@ const IntroHide = () => {
 }
 
 export const IntroPage = () => (
-  <AppContainer>
+  <AppContainer displayAnnouncements={false}>
     <div className='intro w-100 h-100 m-auto d-flex flex-column align-items-stretch'>
       <img className='intro-bg d-none d-md-block' src='/assets/images/act-1.png' alt='An Arkham Horror Act card with the art from the TCU card Fate of All Fools by Brian Valenzuela, showing a red-robed cultist holding a curved knife to the throat of a limp man.' />
       <div className='intro-content h-100 d-flex flex-column justify-content-between'>
