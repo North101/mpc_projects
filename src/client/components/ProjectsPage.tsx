@@ -15,7 +15,7 @@ export const ProjectsPage = () => {
 
   return (
     <>
-      <AppContainer>
+      <AppContainer displayAnnouncements={true}>
         <FilteredProjectListContainer projects={data ?? []} />
       </AppContainer>
     </>

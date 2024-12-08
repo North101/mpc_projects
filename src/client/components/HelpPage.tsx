@@ -65,7 +65,7 @@ export const HelpPage = () => {
   }, [hash])
 
   return (
-    <AppContainer>
+    <AppContainer displayAnnouncements={false}>
       <Row className='gx-5' style={{ maxWidth: '100%' }}>
         <aside className='col-md-3'>
           <SideNav />
