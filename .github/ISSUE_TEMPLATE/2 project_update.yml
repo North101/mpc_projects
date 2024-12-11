@@ -1,6 +1,6 @@
 name: Update an Existing Project
 description: Report cards that need to be changed or added in a project already on Inexorable Fate
-title: ""
+title: "<concise title for issue>"
 labels: ["project update"]
 body:
   - type: input
