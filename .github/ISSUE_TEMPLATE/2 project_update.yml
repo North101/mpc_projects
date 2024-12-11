@@ -1,0 +1,38 @@
+name: Update an Existing Project
+description: Report cards that need to be changed or added in a project already on Inexorable Fate
+title: ""
+labels: ["project update"]
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author(s)
+  - type: dropdown
+    id: self-sumbitted
+    attributes:
+      label: Are you the creator of this project?
+      description: It’s fine if you’re not!
+      options:
+        - "Yes"
+        - "No"
+  - type: textarea
+    id: project-changes
+    attributes:
+      label: What needs to be changed?
+      description: Tell us about the required updates. What necessitated this change? Which cards need updating? Are there replacement card images?
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. discord username, email@example.com, etc.
+    validations:
+      required: false

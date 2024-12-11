@@ -1,7 +1,7 @@
 name: Add a Project
 description: Request to have a new project added to Inexorable Fate
-title: "[Project Add]: "
-labels: ["project"]
+title: ""
+labels: ["project add"]
 body:
   - type: input
     id: project-name
@@ -21,8 +21,6 @@ body:
       options:
         - "Yes"
         - "No"
-    validations:
-      required: true
   - type: dropdown
     id: final
     attributes:
@@ -32,8 +30,6 @@ body:
         - "Yes"
         - "No"
         - Not Sure
-    validations:
-      required: true
   - type: input
     id: cards-link
     attributes:
