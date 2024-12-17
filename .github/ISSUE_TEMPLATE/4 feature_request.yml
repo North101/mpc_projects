@@ -16,8 +16,8 @@ body:
   - type: textarea
     id: fr-alt
     attributes:
-      label: Describe alternatives you’ve considered
-      description: Have you thought about other ways this problem could be solved?
+      label: Describe alternatives you’ve considered and additional concerns
+      description: Have you thought about other ways this problem could be solved? What possible issues do you see with the solution you suggested?
   - type: textarea
     id: addl
     attributes:

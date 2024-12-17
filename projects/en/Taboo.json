@@ -1651,9 +1651,9 @@
             {
               "count": 2,
               "front": {
-                "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "Name": "25 Hypnotic Gaze (2)-x2-a.png",
+                "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
+                "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -2608,11 +2608,12 @@
           "enabled": false,
           "cards": [
             {
+              "id": "b0c8462d-574f-4bd6-8c32-ea0a9bd3ac76",
               "count": 2,
               "front": {
-                "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "Name": "70 Unscrupulous Loan-x2-a.png",
+                "ID": "BF6817052AA29C2BA9B0F529C35D5D23",
+                "SourceID": "600ECE2C3A961BA5596E61FB57A4EC11E4E087E7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -2627,15 +2628,15 @@
               }
             },
             {
-              "id": "fea969d7-e5ce-4963-ac5a-c97e184ff49a",
+              "id": "034ede2b-f848-4005-890f-23b84e31cd59",
               "count": 2,
               "front": {
-                "Name": "36 Pay Day-x2-a.png",
-                "ID": "0A3169E352805C695B2504EEA7721CFC",
-                "SourceID": "782C174B5FA20AB0F2829B3619B72DD8A8152ACE",
+                "Name": "74 Empirical Hypothesis-x2-a.png",
+                "ID": "5F61D8AD0C96D29E6CF4F3332AAE10AD",
+                "SourceID": "66E3A1AECAA98D490F6F85D1066A534195141A88",
                 "Exp": "png",
                 "Width": 822,
-                "Height": 1119
+                "Height": 1122
               },
               "back": {
                 "Name": "_playerback.png",
@@ -4019,8 +4020,8 @@
               "count": 2,
               "front": {
                 "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
+                "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -4159,8 +4160,8 @@
               "count": 2,
               "front": {
                 "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
+                "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -5078,8 +5079,8 @@
               "count": 2,
               "front": {
                 "Name": "22 Hypnotic Gaze (2)-x2-a.png",
-                "ID": "7626EAA9AA25A43529B6B83EEBDD0C62",
-                "SourceID": "E10BDB979205ABB37730166D407F0E0C902A1F3F",
+                "ID": "166534D09AA3A973C9CE25BAABFD5BA9",
+                "SourceID": "AA118F6EC6104F7DE3C6A7DF4CC871E46DED8DE7",
                 "Exp": "png",
                 "Width": 822,
                 "Height": 1122
@@ -11646,6 +11647,6 @@
     }
   ],
   "created": "2019-04-23T11:42:26.679Z",
-  "updated": "2024-11-19T22:55:30.336Z",
+  "updated": "2024-12-16T21:53:30.336Z",
   "hash": "6f42583baa59a83b773800a22d9eabf96e6b576877cb9538c2249f3e74b01ae8"
 }
