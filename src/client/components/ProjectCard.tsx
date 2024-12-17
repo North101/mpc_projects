@@ -5,13 +5,62 @@ import Card from 'react-bootstrap/esm/Card'
 import OverlayTrigger from 'react-bootstrap/esm/OverlayTrigger'
 import Tooltip from 'react-bootstrap/esm/Tooltip'
 import { WebsiteProjects } from '../types'
+import { ChangelogIcon } from './Icons'
 import { ProjectAuthors } from './ProjectAuthors'
 import { ProjectChangelogModal } from './ProjectChangelogModal'
 import { ProjectDownloadModal } from './ProjectDownloadModal'
 import { ProjectLangs } from './ProjectLangs'
 import { ProjectStatuses } from './ProjectStatuses'
 import { ProjectTags } from './ProjectTags'
-import { ChangelogIcon } from './Icons'
+
+const sizeIcons: {
+  [key: string]: [number, number]
+} = {
+  'Blank Micro Cards (32 x 45mm)': [32, 45],
+  'Blank Mini American Cards (41mm x 63mm)': [41, 63],
+  'Blank Mini European Cards (44mm x 67mm)': [44, 67],
+  'Blank Game Cards (63 x 88mm)': [63, 88],
+  'Blank Poker Cards (63.5 x 88.9mm)': [63.5, 88.9],
+  'Blank Square Cards (70mm x 70mm)': [70, 70],
+  'Blank Bridge Cards (57mm x 89mm)': [57, 89],
+  'Blank Square Cards (89mm x 89mm)': [89, 89],
+  'Blank Tarot Cards (70mm x 121mm)': [70, 121],
+  'Blank Jumbo Cards (89mm x 127mm)': [89, 127],
+}
+
+
+interface ProjectCardSizesProps {
+  project: WebsiteProjects.Info
+}
+
+const listSizeIcons = (project: WebsiteProjects.Info): [string, number, number, boolean][] => {
+  const sizes = project.options
+    .flatMap((e) => e.parts.map((e) => e.size))
+
+  return Object.entries(sizeIcons)
+    .map(([key, [width, height]]) => [key, width, height, sizes.includes(key)])
+}
+
+
+const ProjectCardSizes = ({ project }: ProjectCardSizesProps) => (
+  <div style={{ display: 'flex', flexDirection: 'row', gap: 4, alignItems: 'end' }}>
+    {listSizeIcons(project).map(([name, width, height, found], index) => (
+      <OverlayTrigger
+        overlay={<Tooltip id={name}>{name}</Tooltip>}
+      >
+        <div key={index} style={{
+          width: width / 3,
+          height: height / 3,
+          border: 1,
+          borderColor: 'grey',
+          borderStyle: 'solid',
+          backgroundColor: found ? 'white' : 'transparent',
+          borderRadius: 4,
+        }} />
+      </OverlayTrigger>
+    ))}
+  </div>
+)
 
 
 interface ProjectTooltipProps {
@@ -96,11 +145,11 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               {project.name}
             </Card.Title>
             {project.changelog && <Button
-                className='changelog'
-                variant='outline-primary'
-                size='sm'
-                aria-label={`${project.name} changelog`}
-                onClick={onShowChangelog}
+              className='changelog'
+              variant='outline-primary'
+              size='sm'
+              aria-label={`${project.name} changelog`}
+              onClick={onShowChangelog}
             >
               <ChangelogIcon />
             </Button>}
@@ -159,6 +208,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           <ProjectLangs lang={project.lang} />
           <ProjectStatuses statuses={project.statuses} />
           <ProjectTags tags={project.tags} />
+          <ProjectCardSizes project={project} />
         </Card.Footer>
       </Card>
       {show == ProjectShow.download && <ProjectDownloadModal

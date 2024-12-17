@@ -5,6 +5,9 @@ import path from 'node:path'
 import { PluginOption, ResolvedConfig } from 'vite'
 import { ExtensionProjects, WebsiteProjects } from './types'
 import { hashJson, isProjectFile, readJson, writeJson } from './util'
+import data from 'mpc_api/data'
+
+const getSize = (code: string) => data.units['mpc'].find(e => e.code == code)?.name ?? 'Unknown'
 
 interface ProjectWithFilename extends WebsiteProjects.Latest.Project {
   filename: string
@@ -35,10 +38,11 @@ const mapProjectInfo = (project: ProjectWithFilename): WebsiteProjects.Info => (
   updated: project.updated,
   options: project.options.map(({ name, parts }) => ({
     name,
-    parts: parts.map(({ name, enabled, cards }) => ({
+    parts: parts.map(({ code, name, enabled, cards }) => ({
       name,
       count: cards.reduce((count, cards) => count + cards.count, 0),
       enabled: enabled ?? true,
+      size: getSize(code),
     }))
   })),
 })
@@ -59,7 +63,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
     const { projectId, code, name, cards, ...rest } = project
     return {
       ...rest,
-      version: 5,
+      version: 6,
       projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: [{
@@ -68,6 +72,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
           code,
           name,
           cards,
+          size: getSize(code),
         }]
       }],
     }
@@ -75,7 +80,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
     const { projectId, code, name, parts, ...rest } = project
     return {
       ...rest,
-      version: 5,
+      version: 6,
       projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: [{
@@ -83,6 +88,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
         parts: parts.map(part => ({
           ...part,
           code,
+          size: data.units['mpc'].find(e => e.code == code)?.name ?? 'Unknown',
         })),
       }],
     }
@@ -90,7 +96,7 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
     const { projectId, code, name, options, ...rest } = project
     return {
       ...rest,
-      version: 5,
+      version: 6,
       projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
       options: options.map(option => ({
@@ -98,18 +104,38 @@ const convertWebsiteProject = (project: WebsiteProjects.ProjectUnion): WebsitePr
         parts: option.parts.map(part => ({
           ...part,
           code,
+          size: getSize(code),
         }))
       })),
     }
   } else if (project.version == 4) {
-    const { projectId, name, ...rest } = project
+    const { projectId, name, options, ...rest } = project
     return {
       ...rest,
-      version: 5,
+      version: 6,
       projectIds: Object.fromEntries(projectId.map(projectId => [projectId, name])),
       name,
+      options: options.map(option => ({
+        ...option,
+        parts: option.parts.map(part => ({
+          ...part,
+          size: getSize(part.code),
+        }))
+      })),
     }
   } else if (project.version == 5) {
+    return {
+      ...project,
+      version: 6,
+      options: project.options.map(option => ({
+        ...option,
+        parts: option.parts.map(part => ({
+          ...part,
+          size: getSize(part.code),
+        })),
+      })),
+    }
+  } else if (project.version == 6) {
     return project
   }
   throw Error(project)
@@ -120,7 +146,7 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
   if (project.version == 1) {
     const { code, cards } = project
     return {
-      version: 5,
+      version: 6,
       projectIds: {},
       name,
       description: '',
@@ -142,13 +168,14 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
           code,
           name,
           cards,
+          size: getSize(code),
         }]
       }],
     }
   } else if (project.version == 2) {
     const { code, parts } = project
     return {
-      version: 5,
+      version: 6,
       projectIds: {},
       name,
       description: '',
@@ -169,13 +196,14 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
         parts: parts.map(part => ({
           code,
           ...part,
+          size: getSize(code),
         })),
       }],
     }
   } else if (project.version == 3) {
     const { parts } = project
     return {
-      version: 5,
+      version: 6,
       projectIds: {},
       name,
       description: '',
@@ -193,7 +221,10 @@ const convertExtensionProject = (filename: string, project: ExtensionProjects.Pr
       hash: '',
       options: [{
         name,
-        parts,
+        parts: parts.map(part => ({
+          ...part,
+          size: getSize(part.code),
+        })),
       }],
     }
   }

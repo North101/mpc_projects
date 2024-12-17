@@ -37,6 +37,7 @@ export interface Info {
       name: string
       count: number
       enabled: boolean
+      size: string
     }[]
   }[]
 }

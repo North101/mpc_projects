@@ -1,0 +1,35 @@
+import { V3 } from '../extension_projects'
+
+export interface Part extends V3.Part {
+  enabled?: boolean
+  size: string
+}
+
+export interface Option {
+  name: string
+  parts: Part[]
+}
+
+export interface Project {
+  version: 6
+  options: Option[]
+
+  projectIds: {
+    [projectId: string]: string
+  }
+  name: string
+  description: string
+  artist?: string | null
+  info?: string | null
+  website?: string | null
+  cardsLink?: string | null
+  scenarioCount: number
+  investigatorCount: number
+  authors: string[]
+  statuses: string[]
+  tags: string[]
+  created: string
+  updated: string
+  hash: string
+  hidden?: boolean
+}
