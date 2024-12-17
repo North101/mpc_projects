@@ -9,10 +9,6 @@ body:
       label: Project Name
     validations:
       required: true
-  - type: input
-    id: author
-    attributes:
-      label: Author(s)
   - type: dropdown
     id: self-sumbitted
     attributes:
