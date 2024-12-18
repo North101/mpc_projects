@@ -9,3 +9,10 @@ export const useProjects = () => {
     staleTime: Infinity,
   })
 }
+
+export const useSizes = () => {
+  const { data } = useProjects()
+  return data?.flatMap((e) => e.options)
+    .flatMap((e) => e.parts.map((e) => e.size))
+    .distinct() ?? []
+}
